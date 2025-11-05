@@ -33,6 +33,9 @@ This registration will involve:
 
 If you are an app developer, _**do not sign up**_ for the early access program, perform identity verification, or accept an invitation to the Android Developer Console. Respond (politely) to any invitation with a list of your concerns and objections.
 
+A theoretical way to circumvent Android developer verification
+https://enaix.github.io/2025/10/30/developer-verification.html  Is this possible?
+
 Discourage fellow app developers and organizations from signing up to the program.
 
 —— _It is only through developer acquiescence that this takeover plan can possibly succeed._ ——
@@ -142,6 +145,8 @@ Complaints are especially impactful when they are authored by a citizen of that 
 - [https://consumerrights.wiki/w/Android_Developer_Verification](https://consumerrights.wiki/w/Android_Developer_Verification)
 
 ### Editorials and Blogs
+- Epic Settles With Google - Abandons The Rest Of Us- https://www.i-programmer.info/news/193-android/18437-epic-settles-with-google-abandons-the-rest-of-us.html
+
 - “What We Talk About When We Talk About Sideloading” — [https://f-droid.org/en/2025/10/28/sideloading.html](https://f-droid.org/en/2025/10/28/sideloading.html) ([Hacker News Thread](https://news.ycombinator.com/item?id=45736479))
 - “F-Droid and Google's Developer Registration Decree” — [https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html) ([Hacker News Thread](https://news.ycombinator.com/item?id=45409794))
 - “Pluralistic: Darth Android” — [https://pluralistic.net/2025/09/01/fulu/](https://pluralistic.net/2025/09/01/fulu/)
