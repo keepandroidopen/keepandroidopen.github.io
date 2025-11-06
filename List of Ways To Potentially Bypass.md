@@ -197,6 +197,9 @@ These projects are working to provide much-needed competition in the mobile hard
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
 
+## If Worst Comes to Worse, Use These Methods to Potentially Bypass Developer Verification
+- [AnyAPK by Sam1Am](https://github.com/sam1am/anyapk)
+
 ## References
 
 ### Overview
