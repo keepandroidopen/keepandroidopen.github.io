@@ -197,6 +197,11 @@ These projects are working to provide much-needed competition in the mobile hard
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
 
+### Vote with Your Feet
+
+- "Degoogle" Your Life [(more info here)](WIP link to new page)
+- Install [AdNauseam](https://adnauseam.io/) to activly harm Google's profits via ad revenue rather than simply blocking ads
+
 ## References
 
 ### Overview
