@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Keep Android Open"
-lang: en
+lang: hr
 permalink: /
 description: "Advocating for Android as a free, open platform for everyone to build apps on."
 
@@ -15,37 +15,39 @@ site_privacy: "**Privacy:** This site uses no cookies and performs no user track
 site_copyright: "**Copyright:** None. This work is marked"
 ---
 
-In August 2025, Google [announced](https://developer.android.com/developer-verification) that starting next year,
-it will no longer be possible to develop apps for the Android platform
-without first registering centrally with Google.
-This registration will involve:
+U kolovozu 2025, Google [je najavio](https://developer.android.com/developer-verification) kako od početka iduće godine
+neće biti moguć razvoj i objaviljivanje aplikacija za Android platform
+bez centralne registracije kod Google-a.
+Ova registracija će između ostalog uključivati:
 
-- Paying a fee to Google
+- Plaćanje naknade Googleu
 {:.li-list .li-money}
-- Agreeing to Google's Terms and Conditions
+- Prihvaćanje Googleoivh uvjeta i odredbi (_ Terms and Conditions _)
 {:.li-list .li-terms}
-- Providing government identification
+- ⦁	Pružanje državne identifikacijske isprave (osobna, vozačka) kao dokaz identiteta
 {:.li-list .li-id}
-- Uploading evidence of the developer's private signing key
+- Učitavanje svih dokaza o vlastitom privatnom enkripcijskom ključu koji se je koristio za potpis razvijenih aplikacija
 {:.li-list .li-signing}
-- Listing all current and future application identifiers
+- Popis svih trenutnih i budućih identifikatora aplikacija
 {:.li-list .li-appids}
 
-## What this means for your rights
+## Što to znači za vaša prava
 
-➤ You, **the consumer**, purchased your Android device believing in Google’s promise that it was an open computing platform and that you could run whatever software you choose on it. Instead, starting next year, they will be non-consensually pushing an update to your operating system that irrevocably blocks this right and leaves you at the mercy of their judgement over what software you are permitted to trust.
+➤ Vi, **potrošač**, kupili ste svoj Android uređaj vjerujući u Googleovo obećanje da je to otvorena računalna platforma i da na njoj možete pokrenuti bilo koji softver po vlastitom odabiru. Umjesto toga, počevši od iduće godine, oni (Google) će bez vašeg pristanka "progurati"  ažuriranje vašeg operativnog sustava koje neopozivo blokira ovo pravo i ostavlja vas na milost i nemilost njihove prosudbe o tome kojem softveru smijete vjerovati.
 
-➤ You, **the creator**, can no longer develop an app and share it directly with your friends, family, and community without first seeking Google’s approval. The promise of Android — and a marketing advantage it has used to distinguish itself against the iPhone — has always been that it is “open”. But Google clearly feels that they have enough of a lock on the Android ecosystem, along with sufficient regulatory capture, that they can now jettison this principle with prejudice and impunity.
+➤ Vi, **kreator**, više ne možete razvijati aplikaciju i dijeliti je izravno sa svojim prijateljima, obitelji i zajednicom bez prethodnog traženja Googleovog odobrenja. Googleovo obećanje Androida - i marketinška prednost koju je Android razlikovao od iPhonea - uvijek je bilo da je _"otvoren"_. Ali Google očito osjeća da ima dovoljno regulatornih ovlasti vrštiti zaključavanja na Android ekosustavu, , da sada mogu odbaciti princip  s predrasudama i nekažnjavanjem.
 
-➤ You, **the state**, are ceding the rights of your citizens and your own digital sovereignty to a company with a track record of complying with the extrajudicial demands of authoritarian regimes to remove perfectly legal apps that they happen to dislike. The software that is critical to the running of your businesses and governments will be at the mercy of the opaque whims of a distant and unaccountable corporation.
 
-## How you can help
+➤  **Tvrtke/državna tijela**, ustupate prava svojih građana i vlastiti digitalni suverenitet korporaciji koja u skladu s s dugogodišnjim iskustvom u ispunjavanju izvansudskih zahtjeva totalitarnih režima za uklanjanje savršeno legalnih aplikacija koje im se slučajno ne sviđaju. Softver koji je ključan za vođenje vaših tvrtki i vlada bit će na milost i nemilost neprozirnih hirova daleke i neodgovorne korporacije.
 
-### Consumers: Contact national regulators
 
-Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned. When contacting regulators directly, you should be _polite_ and _specific_ about the harm you believe these policies will cause, both to consumers and to competition.
+## Kako možete pomoći
 
-Complaints are especially impactful when they are authored by a citizen of that country or region, and when the language of the email is written in one of the official languages of the region's governing body. Request a _written acknowledgement_ of the complaint, and consider forwarding any responses you receive to [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) so that we might highlight and reference them.
+### Obratite se nacionalnim regulatorima tijelima za zaštitu potrošača
+
+Regulatori diljem svijeta istinski su zabrinuti zbog monopola i centralizacije moći u tehnološkom sektoru te žele izravno čuti mišljenja pojedinaca koji su pogođeni i zabrinuti. Prilikom izravnog kontaktiranja predstavnika trebali biste biti _pristojni_ i _konkretni_ o šteti koju smatrate da će ove politike prouzročiti, kako potrošačima tako i konkurenciji.
+
+Pritužbe/prigovori potrošača su posebno utjecajni kada ih piše građanin te zemlje ili regije i kada je jezik e-pošte napisan na jednom od službenih jezika upravnog tijela regije (U slučaju Republike Hrvatske - EU). Zatražite _pismenu potvrdu_ o primitku pritužbe i razmislite o prosljeđivanju svih odgovora koje primite [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) kako bi ih mogli istaknuti i referencirati.
 
 #### European Union
 - Email Digital Markets Act team: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
