@@ -208,7 +208,7 @@ Bu projeler, mobil donanım alanında çok ihtiyaç duyulan rekabeti sağlamak i
 - “Google plans to block side-loading like Apple, declaring war on Android freedom” — [https://tuta.com/blog/android-side-load-apps-google](https://tuta.com/blog/android-side-load-apps-google)
 - "Keep Android Free and Open" - [https://www.swechaap.org/blog/keep-android-free-and-open/](https://www.swechaap.org/blog/keep-android-free-and-open)
 - "Join The Protest Against The Closing Of Android" - [https://www.i-programmer.info/news/193-android/18419-join-the-protest-against-the-closing-of-android.html](https://www.i-programmer.info/news/193-android/18419-join-the-protest-against-the-closing-of-android.html)
-
+- Google will let ‘experienced users’ keep sideloading Android apps — [https://www.theverge.com/news/819835/google-android-sideloading-experienced-users-developer-verification](https://www.theverge.com/news/819835/google-android-sideloading-experienced-users-developer-verification)
 
 ### Basın Tepkileri
 - "'Keep Android Open' movement fights back against Google sideloading restrictions" – [https://www.theregister.com/2025/10/29/keep_android_open_movement/](https://www.theregister.com/2025/10/29/keep_android_open_movement/)
@@ -267,6 +267,7 @@ Bu projeler, mobil donanım alanında çok ihtiyaç duyulan rekabeti sağlamak i
 - Introducing the Android Developer Console: A first look — [https://developer.android.com/developer-verification/assets/pdfs/introducing-the-android-developer-console.pdf](https://developer.android.com/developer-verification/assets/pdfs/introducing-the-android-developer-console.pdf)
 - Download an early look of the new Android Developer Console — [https://support.google.com/android-developer-console/answer/16450960](https://support.google.com/android-developer-console/answer/16450960)
 - API Documentation — [https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED](https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED)
+- Android developer verification: Early access starts now as we continue to build with your feedback — [https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html)
 
 ### Çeşitli
 

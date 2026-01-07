@@ -95,7 +95,7 @@ Complaints are especially impactful when they are authored by a citizen of that 
 #### Switzerland
 
 - File a report with the [Competition Commission](https://www.weko.admin.ch/weko/en/home/kontakt/kontakt.html)
-  
+
 #### Australia
 
 - Email: [international@accc.gov.au](mailto:international@accc.gov.au?cc=australia@keepandroidopen.org)
@@ -264,6 +264,7 @@ These projects are working to provide much-needed competition in the mobile hard
 - "Google Demands Dev Identity For All Android Apps" - [https://www.i-programmer.info/news/193-android/18276-google-demands-dev-identity-for-all-android-apps.html](https://www.i-programmer.info/news/193-android/18276-google-demands-dev-identity-for-all-android-apps.html)
 - "Google Defends Developer Verification" - [https://www.i-programmer.info/news/193-android/18356-google-defends-developer-verification.html](https://www.i-programmer.info/news/193-android/18356-google-defends-developer-verification.html)
 - “Keep Android Open – Abwehr gegen Verbot anonymer Apps von Google“- [https://www.heise.de/news/Keep-Android-Open-Abwehr-gegen-Verbot-anonymer-Apps-von-Google-10965483.html](https://www.heise.de/news/Keep-Android-Open-Abwehr-gegen-Verbot-anonymer-Apps-von-Google-10965483.html)
+- Google will let ‘experienced users’ keep sideloading Android apps — [https://www.theverge.com/news/819835/google-android-sideloading-experienced-users-developer-verification](https://www.theverge.com/news/819835/google-android-sideloading-experienced-users-developer-verification)
 
 ### Video Responses
 
@@ -302,6 +303,7 @@ These projects are working to provide much-needed competition in the mobile hard
 - Introducing the Android Developer Console: A first look — [https://developer.android.com/developer-verification/assets/pdfs/introducing-the-android-developer-console.pdf](https://developer.android.com/developer-verification/assets/pdfs/introducing-the-android-developer-console.pdf)
 - Download an early look of the new Android Developer Console — [https://support.google.com/android-developer-console/answer/16450960](https://support.google.com/android-developer-console/answer/16450960)
 - API Documentation — [https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED](https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED)
+- Android developer verification: Early access starts now as we continue to build with your feedback — [https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html)
 
 ### Miscellaneous
 

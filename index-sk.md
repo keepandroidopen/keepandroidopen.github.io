@@ -95,7 +95,7 @@ Sťažnosti majú osobitný vplyv, ak sú napísané občanom danej krajiny aleb
 #### Švajčiarsko
 
 - Podajte správu [Komisii pre hospodársku súťaž](https://www.weko.admin.ch/weko/en/home/kontakt/kontakt.html)
-  
+
 #### Austrália
 
 - E-mail: [international@accc.gov.au](mailto:international@accc.gov.au?cc=australia@keepandroidopen.org)
@@ -228,6 +228,7 @@ Tieto projekty sa snažia poskytnúť toľko potrebnú konkurenciu v oblasti mob
 - „Google plánuje blokovať bočné načítavanie podobne ako Apple a vyhlásiť vojnu slobode Androidu“ — [https://tuta.com/blog/android-side-load-apps-google](https://tuta.com/blog/android-side-load-apps-google)
 - „Udržme Android slobodný a otvorený“ – [https://www.swechaap.org/blog/keep-android-free-and-open/](https://www.swechaap.org/blog/keep-android-free-and-open)
 - „Pripojte sa k protestu proti uzavretiu Androidu“ - [https://www.i-programmer.info/news/193-android/18419-join-the-protest-against-the-closing-of-android.html](https://www.i-programmer.info/news/193-android/18419-join-the-protest-against-the-closing-of-android.html)
+- Google will let ‘experienced users’ keep sideloading Android apps — [https://www.theverge.com/news/819835/google-android-sideloading-experienced-users-developer-verification](https://www.theverge.com/news/819835/google-android-sideloading-experienced-users-developer-verification)
 
 ### Reakcie tlače
 
@@ -291,6 +292,7 @@ Tieto projekty sa snažia poskytnúť toľko potrebnú konkurenciu v oblasti mob
 - Predstavujeme konzolu pre vývojárov Android: Prvý pohľad — [https://developer.android.com/developer-verification/assets/pdfs/introducing-the-android-developer-console.pdf](https://developer.android.com/developer-verification/assets/pdfs/introducing-the-android-developer-console.pdf)
 - Stiahnite si predbežnú verziu novej konzoly pre vývojárov Android — [https://support.google.com/android-developer-console/answer/16450960](https://support.google.com/android-developer-console/answer/16450960)
 - API dokumentácia — [https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED](https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED)
+- Android developer verification: Early access starts now as we continue to build with your feedback — [https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html)
 
 ### Rôzne
 

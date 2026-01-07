@@ -226,6 +226,7 @@ Diese Projekte arbeiten daran, den dringend benötigten Wettbewerb auf dem Markt
 - „Keep Android Free and Open“ — [https://www.swechaap.org/blog/keep-android-free-and-open/](https://www.swechaap.org/blog/keep-android-free-and-open/)
 - „Google plant, das Sideloading wie Apple zu blockieren – ein Krieg gegen die Freiheit von Android“ — [https://tuta.com/blog/android-side-load-apps-google](https://tuta.com/blog/android-side-load-apps-google)
 - „Schließen Sie sich dem Protest gegen die Schließung von Android an“ — [https://www.i-programmer.info/news/193-android/18419-join-the-protest-against-the-closing-of-android.html](https://www.i-programmer.info/news/193-android/18419-join-the-protest-against-the-closing-of-android.html)
+- Google will let ‘experienced users’ keep sideloading Android apps — [https://www.theverge.com/news/819835/google-android-sideloading-experienced-users-developer-verification](https://www.theverge.com/news/819835/google-android-sideloading-experienced-users-developer-verification)
 
 ### Presseberichte
 
@@ -289,6 +290,7 @@ Diese Projekte arbeiten daran, den dringend benötigten Wettbewerb auf dem Markt
 - Einführung der Android Developer Console — [https://developer.android.com/developer-verification/assets/pdfs/introducing-the-android-developer-console.pdf](https://developer.android.com/developer-verification/assets/pdfs/introducing-the-android-developer-console.pdf)
 - Früher Zugriff auf die neue Android Developer Console — [https://support.google.com/android-developer-console/answer/16450960](https://support.google.com/android-developer-console/answer/16450960)
 - API-Dokumentation — [https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED](https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED)
+- Android developer verification: Early access starts now as we continue to build with your feedback — [https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html)
 
 ### Verschiedenes
 
