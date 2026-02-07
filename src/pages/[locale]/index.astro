@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import Default from '../../layouts/Default.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages
+    .filter((page) => page.slug !== 'en')
+    .map((page) => {
+      // Use id (preserves original case: pt-BR, zh-CN, zh-TW)
+      const locale = page.id.replace('/index.md', '');
+      return { params: { locale }, props: { entry: page } };
+    });
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const { data } = entry;
+---
+<Default {...data}>
+  <Content />
+</Default>

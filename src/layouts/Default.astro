@@ -1,0 +1,190 @@
+---
+import { languages, markdownify } from '../i18n/config';
+
+interface Props {
+  title: string;
+  lang: string;
+  description: string;
+  contact_header: string;
+  contact_email: string;
+  site_problems_header: string;
+  site_report_issues: string;
+  site_disclaimer: string;
+  site_privacy: string;
+  site_copyright: string;
+}
+
+const {
+  title,
+  lang,
+  description,
+  contact_header,
+  contact_email,
+  site_problems_header,
+  site_report_issues,
+  site_disclaimer,
+  site_privacy,
+  site_copyright,
+} = Astro.props;
+
+const languageEntries = Object.entries(languages);
+---
+<!DOCTYPE html>
+<html lang={lang}>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{title}</title>
+  <meta name="description" content={description}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:image" content="https://keepandroidopen.org/altered-deal.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:image" content="https://keepandroidopen.org/altered-deal.png">
+  <link rel="me" href="https://techhub.social/@keepandroidopen">
+  <link rel="stylesheet" href="https://unpkg.com/@primer/css@21/dist/primer.css">
+  <style is:global>
+    h1 {
+      font-size: 46px;
+      font-weight: 600;
+      color: #2c3e50;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1::before,
+    h1::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #3498db, transparent);
+      max-width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    html,
+    body {
+      font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    .outerlync {
+      cursor: not-allowed;
+      display: inline-block;
+      background: transparent;
+    }
+
+    .innerlync {
+      transform-style: preserve-3d;
+      transition: ease-out 0.6s;
+    }
+
+    .outerlync:hover .innerlync {
+      transition: ease-in-out 2.5s;
+      transform: rotate(1800deg) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    .lang-menu {
+      text-align: center;
+      font-size: smaller;
+      padding-bottom: 0.5em;
+      margin-bottom: 0.5em;
+      border-bottom: 1px solid lightgray;
+    }
+
+    footer {
+      padding: 0px;
+      margin: 0px;
+      font-size: 14px;
+      line-height: 1.6;
+      width: 100%;
+      border-top: 1px solid #dee2e6;
+    }
+
+    .li-list {
+      list-style: none;
+      align-items: center;
+      vertical-align: middle;
+      background-repeat: no-repeat;
+      background-position: left center;
+      padding-left: 20px;
+      line-height: 1.2;
+      content: "➤ ";
+    }
+
+    .li-list::before {
+      color: blue;
+      margin-right: 0.5em;
+    }
+
+    .li-money {
+      background-image: url('/img/money_bag.svg');
+    }
+
+    .li-terms {
+      background-image: url('/img/contract_edit.svg');
+    }
+
+    .li-id {
+      background-image: url('/img/id_card.svg');
+    }
+
+    .li-signing {
+      background-image: url('/img/fingerprint.svg');
+    }
+
+    .li-appids {
+      background-image: url('/img/receipt.svg');
+    }
+  </style>
+</head>
+<body>
+  <div class="container-lg px-3 my-5 markdown-body">
+    <h1>{title}</h1>
+    <div class="lang-menu">
+      {languageEntries.map(([_code, { label, path }], i) => (
+        <>
+          {i > 0 && ' | '}
+          <a href={path}>{label}</a>
+        </>
+      ))}
+    </div>
+    <slot />
+  </div>
+  <footer>
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 2em; margin-left: auto; margin-right: auto;">
+      <div style="flex: 1; min-width: 200px; margin: 20px;">
+        <h4 style="margin-top: 0; margin-bottom: 10px; font-size: 16px;">
+          {contact_header}
+        </h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 5px;">{contact_email}: <a href="mailto:info@keepandroidopen.org" style="text-decoration: none;">info@keepandroidopen.org</a></li>
+        </ul>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 5px;">{site_problems_header}: <a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" style="text-decoration: none;">{site_report_issues}</a></li>
+        </ul>
+      </div>
+      <div style="flex: 3; min-width: 300px; margin: 20px;">
+        <p><Fragment set:html={markdownify(site_disclaimer)} /></p>
+        <p><Fragment set:html={markdownify(site_privacy)} /></p>
+        <p>
+          <Fragment set:html={markdownify(site_copyright)} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0 logo" style="max-width: 1em; max-height: 1em; margin-left: .2em;"><img src="/img/zero.svg" alt="CC0 zero logo" style="max-width: 1em; max-height: 1em; margin-left: .2em;">
+        </p>
+      </div>
+      <div style="flex: 1; min-width: 200px; margin: 20px; text-align: center; justify-content: center; align-items: center;">
+        <div class="outerlync" style="margin-top: 0; margin-bottom: 10px; font-size: 20px;">
+          <img class="innerlync" alt="Altered Deal Logo" src="/img/altered-deal.png" style="width: 150px; margin-left: auto; margin-right: auto; text-align: center; justify-content: center; align-items: center; display: flex;">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
