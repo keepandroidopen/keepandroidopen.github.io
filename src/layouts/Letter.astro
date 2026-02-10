@@ -1,0 +1,32 @@
+---
+import { languages, markdownify } from '../i18n/config';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import Base from './Base.astro'; // Import the new Base layout
+
+interface Props {
+  title: string;
+  lang: string;
+  description: string;
+}
+
+const {
+  title,
+  lang,
+  description,
+  contact_header,
+} = Astro.props;
+
+---
+
+<Base 
+  title={title} 
+  lang={lang} 
+  description={description} 
+>
+  <header>
+    <h1><ThemeToggle /></h1>
+  </header>
+  <main>
+    <slot />
+  </main>
+</Base>

@@ -52,7 +52,7 @@ Les plaintes sont particulièrement efficaces lorsqu'elles émanent d'un citoyen
 - Email Digital Markets Act team : [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - Contact DMA team : [https://digital-markets-act.ec.europa.eu/contact-dma-team_fr](https://digital-markets-act.ec.europa.eu/contact-dma-team_fr)
 - Courriel Antitrust : [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
-- Envoyez vos commentaires sur l’interaction entre la DMA et le RGPD au niveau de l’UE : [Consultation sur les lignes directrices communes relatives à l’interaction entre la DMA et le RGPD](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) jusqu’au 4 décembre.
+- ~~Envoyez vos commentaires sur l’interaction entre la DMA et le RGPD au niveau de l’UE : [Consultation sur les lignes directrices communes relatives à l’interaction entre la DMA et le RGPD](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) jusqu’au 4 décembre.~~
 - Déposez une plainte auprès de la [Politique de concurrence de l’UE](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)
 - ~~[EXPIRÉ] Envoyez vos commentaires sur la loi européenne sur l’équité numérique : [Loi européenne sur l’équité numérique : Donnez votre avis](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
 
@@ -167,7 +167,6 @@ Dissuadez les autres développeurs d'applications et les organisations de s'insc
 ### À tous : Faites entendre votre voix
 
 - [Installez F-Droid](https://f-droid.org) sur vos appareils Android. Plus il y aura d'utilisateurs de plateformes alternatives, plus il sera difficile de les exclure.
-- Ajoutez la signature de votre organisation au projet de [Lettre ouverte à Google concernant l'enregistrement obligatoire des développeurs pour la distribution d'applications tierces](https://docs.fediverse.foundation/pad/#/2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/) en envoyant un courriel à [signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org) avec votre nom, votre titre et votre affiliation.
 - Fournissez vos commentaires directement à Google en utilisant leur [enquête sur les exigences de vérification des développeurs Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Faites entendre votre voix sur les réseaux sociaux et via des articles de blog, et n'oubliez pas de faire un lien vers <https://keepandroidopen.org>
 - Combattez la manipulation de l'opinion : lorsque vous rencontrez des publications suspectes sur les forums communautaires et les médias sociaux soutenant la politique (« Eh bien, en fait… »), contestez-les et n'ayez pas peur.

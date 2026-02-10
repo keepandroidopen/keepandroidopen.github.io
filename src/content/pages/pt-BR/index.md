@@ -52,7 +52,7 @@ As reclamações são especialmente impactantes quando são escritas por um cida
 - Email Digital Markets Act team: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - Contact DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_pt](https://digital-markets-act.ec.europa.eu/contact-dma-team_pt)
 - Email Antitrust: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
-- Envie feedback sobre a interação da UE entre o DMA e o GDPR: [Consulta sobre diretrizes conjuntas na interação entre o DMA e o GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) até 4 de dezembro.
+- ~~Envie feedback sobre a interação da UE entre o DMA e o GDPR: [Consulta sobre diretrizes conjuntas na interação entre o DMA e o GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) até 4 de dezembro.~~
 - Reclame para a [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)
 - ~~[EXPIRADO] Envie feedback na EU Digital Fairness Act: [EU Digital Fairness Act: Have Your Say](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
 
@@ -167,7 +167,6 @@ Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreve
 ### Todos: Faça sua voz ser ouvida
 
 - [Instale a F-Droid](https://f-droid.org) em seus dispositivos Android. Quanto mais gente usando lojas alternativas de aplicativos, mais difícil será de desligá-las.
-- Adicione a assinatura da sua organização no rascunho da [Carta Aberta ao Google Sobre o Registro Obrigatório de Desenvolvedores para Distribuição de Aplicativos de Terceiros](https://docs.fediverse.foundation/pad/#/2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/) via email [signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org) contendo seu nome, cargo e afiliação.
 - Forneça feedback diretamente ao Google usando sua [pesquisa sobre os requisitos de verificação de desenvolvedores do Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Faça sua voz ser ouvida nas redes sociais e em posts em blogs, e referencie <https://keepandroidopen.org>
 - Combara "astroturfing": quando encontrar posts suspeitos em fóruns de comunidades e nas redes sociais que suportem essa política (“Bem, na verdade...“), desafie-os e não seja tímido.

@@ -50,7 +50,7 @@ Stížnosti jsou zvláště efektivní, když pochází od občanů dané země 
 #### Evropská unie
 - Napište týmu pro Nařízení o digitálních trzích (DMA): [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - Kontaktujte tým DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)
-- Pošlete zpětnou vazbu na soulad mezi DMA a GDPR: [Konzultace ke společným doporučením na soulad mezi DMA a GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) do 4. prosince.
+- ~~Pošlete zpětnou vazbu na soulad mezi DMA a GDPR: [Konzultace ke společným doporučením na soulad mezi DMA a GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) do 4. prosince.~~
 - Napište Antitrustu: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
 - Pošlete stížnost [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)
 - ~~[VYPRŠELO] Pošlete zpětnou vazbu na Nařízení EU o digitální spravedlnosti: [EU Digital Fairness Act: Have Your Say](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
@@ -172,7 +172,6 @@ Zkuste přimět své spřízněné vývojáře a organizace, aby se nepřihlašo
 ### Každý: Buďte slyšet
 
 - [Nainstalujte si F-Droid](https://f-droid.org) na vaše androidí zařízení. Čím více lidí bude používat alternativní obchody s aplikacemi, tím těžší bude je vypnout.
-- Přidejte podpis vaší organizace k návrhu [Otevřeného dopisu Googlu ohledně povinné registrace vývojářů pro distribuci aplikací třetí strany](https://docs.fediverse.foundation/pad/#/2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/) emailem na [signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org) s vaším jménem, titulem a organizací.
 - Poskytněte Googlu zpětnou vazbu přímo prostřednictvím jejich [Průzkumu k požadavkům na ověření vývojářů pro Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Vyjádřete svůj názor na sociálních sítích a na blozích a odkazujte na <https://keepandroidopen.org>
 - Bojujte s astroturfingem: když zaznamenáte podezřelé příspěvky na komunitních fórech a sociálních sítích, které podporují tato nová pravidla (“Dobře, ale…”), reagujte na ně a nebuďte nesmělí.

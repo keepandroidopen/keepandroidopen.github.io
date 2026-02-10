@@ -52,7 +52,7 @@ Bitten Sie um eine **schriftliche Empfangsbestätigung*- Ihrer Beschwerde und er
 - Email Digital Markets Act team: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - Contact DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_de](https://digital-markets-act.ec.europa.eu/contact-dma-team_de)
 - E-Mail Antitrust: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
-- Geben Sie Ihre Stellungnahme zur Wechselwirkung zwischen DMA und DSGVO auf EU-Ebene ab: [Konsultation zu den gemeinsamen Leitlinien zur Wechselwirkung zwischen DMA und DSGVO](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) bis zum 4. Dezember.
+- ~~Geben Sie Ihre Stellungnahme zur Wechselwirkung zwischen DMA und DSGVO auf EU-Ebene ab: [Konsultation zu den gemeinsamen Leitlinien zur Wechselwirkung zwischen DMA und DSGVO](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) bis zum 4. Dezember.~~
 - Reichen Sie eine Beschwerde bei der [EU-Wettbewerbspolitik](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) ein.
 - ~~[ABGELAUFEN] Kommentieren Sie das Gesetz über digitale Fairness: [Digital Fairness Act – Ihre Meinung zählt](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
 
@@ -169,7 +169,6 @@ Fügen Sie die [FreeDroidWarn Bibliothek](https://github.com/woheller69/FreeDroi
 ### An alle: Erheben Sie Ihre Stimme!
 
 - [Installieren Sie F-Droid](https://f-droid.org) auf Ihren Android-Geräten. Je mehr Nutzer alternative Plattformen verwenden, desto schwieriger wird es, sie auszuschließen.
-- Fügen Sie die Unterschrift Ihrer Organisation dem Projekt der [Offenen Stellungnahme an Google über die Pflichtregistrierung von Entwicklern für die Verbreitung von Drittanbieter-Apps](https://docs.fediverse.foundation/pad/#/2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/) hinzu, indem Sie eine E-Mail an [signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org) senden – mit Ihrem Namen, Titel und Ihrer Zugehörigkeit.
 - Geben Sie Google direkt Feedback über die [Umfrage zu den Anforderungen der Android-Entwicklerverifizierung](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Machen Sie Ihre Meinung in sozialen Netzwerken und Blogs öffentlich – und verlinken Sie dabei auf [https://keepandroidopen.org](https://keepandroidopen.org).
 - Kämpfen Sie gegen Meinungsmanipulation: Wenn Sie in Foren oder sozialen Medien verdächtige Beiträge sehen, die die neue Politik verteidigen („Nun, eigentlich…“), widersprechen Sie ihnen – und haben Sie keine Angst, Stellung zu beziehen.

@@ -1,0 +1,218 @@
+---
+import { languages, markdownify } from '../i18n/config';
+import ThemeToggle from '../components/ThemeToggle.astro';
+
+interface Props {
+  title: string;
+  lang: string;
+  description: string;
+}
+
+const {
+  title,
+  lang,
+  description,
+} = Astro.props;
+
+---
+<!DOCTYPE html>
+<html lang={lang}>
+<head>
+  <title>{title}</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content={description}>
+  <meta property="og:title" content={title}>
+  <meta property="og:description" content={description}>
+  <meta property="og:image" content="https://keepandroidopen.org/img/altered-deal.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content={title}>
+  <meta name="twitter:image" content="https://keepandroidopen.org/img/altered-deal.png">
+  <link rel="me" href="https://techhub.social/@keepandroidopen">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"> -->
+  <style is:global>
+  
+    main {
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 2em;
+    }
+    
+    h1 {
+      /* font-size: 46px; */
+      /* font-weight: 600; */
+      /* color: #2c3e50; */
+      /* margin: 0; */
+      /* display: flex; */
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+      /* margin-left: auto; */
+      /* margin-right: auto; */
+    }
+
+    h1::before,
+    h1::after {
+      content: '';
+      flex: 1;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, #3498db, transparent);
+      max-width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .outerlync {
+      cursor: not-allowed;
+      display: inline-block;
+      background: transparent;
+    }
+
+    .innerlync {
+      transform-style: preserve-3d;
+      transition: ease-out 0.6s;
+    }
+
+    .outerlync:hover .innerlync {
+      transition: ease-in-out 2.5s;
+      transform: rotate(1800deg) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+
+    .lang-menu {
+      text-align: center;
+      font-size: smaller;
+      padding-bottom: 0.5em;
+      margin-bottom: 0.5em;
+      border-bottom: 1px solid lightgray;
+    }
+
+    footer {
+      /* padding: 0px; */
+      /* margin: 0px; */
+      font-size: 14px;
+      line-height: 1.6;
+      width: 100%;
+      border-top: 1px solid #dee2e6;
+    }
+
+    .li-list {
+      list-style: none;
+      align-items: center;
+      vertical-align: middle;
+      background-repeat: no-repeat;
+      background-position: left center;
+      padding-left: 2em;
+      line-height: 1.5;
+      content: "➤ ";
+    }
+
+    .li-list::before {
+      margin-right: 0.5em;
+    }
+
+    .li-money::before {
+      mask: url('/img/money_bag.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/money_bag.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
+    }
+
+    .li-terms::before {
+      mask: url('/img/contract_edit.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/contract_edit.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
+    }
+
+    .li-id::before {
+      mask: url('/img/id_card.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/id_card.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
+    }
+
+    .li-signing::before {
+      mask: url('/img/fingerprint.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/fingerprint.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
+    }
+
+    .li-appids::before {
+      mask: url('/img/receipt.svg') no-repeat center / contain; 
+      -webkit-mask: url('/img/receipt.svg') no-repeat center / contain;
+      background-color: var(--pico-color);
+      width: 1em; 
+      height: 1em; 
+      content: ""; 
+      display: inline-block; 
+      margin-right: 0.5em;
+    }
+
+    .alarming-banner {
+      /* Layout and Background */
+      font-variant-numeric: tabular-nums;
+
+      /* display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2rem; */
+      background: linear-gradient(180deg, #d32f2f 0%, #b71c1c 100%);
+      border-bottom: 4px solid #801313;
+      
+      /* Text Styling */
+      color: #ffffff;
+      font-family: 'Arial Black', sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 1.5rem;
+      text-align: center;
+    
+      /* The 3D Depth & Shadow Effect */
+      /* Format: x-offset y-offset blur color */
+      text-shadow: 
+        0px 1px 0px #9e1a1a,
+        0px 2px 0px #8a1515,
+        0px 3px 0px #751111,
+        0px 4px 0px #5e0d0d,
+        0px 6px 10px rgba(0, 0, 0, 0.5);
+    
+      /* Animation to draw attention */
+      animation: pulse-alert 2s infinite;
+    
+    @keyframes pulse-alert {
+      0% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.7); }
+      70% { box-shadow: 0 0 0 15px rgba(211, 47, 47, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0); }
+    }
+  }
+  </style>
+</head>
+<body>
+  <slot />
+</body>
+</html>

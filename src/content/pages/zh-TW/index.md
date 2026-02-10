@@ -47,7 +47,7 @@ lockdown_banner: "Android 將會變成一個受限制的平台"
 #### 歐盟
 - 寄送電子郵件至《數位市場法》(DMA) 團隊：[EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - 聯絡 DMA 團隊：[https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)
-- 傳送有關歐盟 DMA 與 GDPR 相互作用的意見反映：[有關 DMA 與 GDPR 相互作用之聯合指引的諮詢](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en)，十二月 4 日截止。
+- ~~傳送有關歐盟 DMA 與 GDPR 相互作用的意見反映：[有關 DMA 與 GDPR 相互作用之聯合指引的諮詢](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en)，十二月 4 日截止。~~
 - 寄送電子郵件至反托拉斯：[COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
 - 向[歐盟競爭政策](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)投訴
 - ~~[**逾期**] 傳送有關歐盟《數位公平法》的意見反映：[歐盟《數位公平法》：您又怎麼說](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
@@ -173,7 +173,6 @@ lockdown_banner: "Android 將會變成一個受限制的平台"
 ### 齊集氣：集結您的聲音，呼聲響徹雲霄
 
 - 在您的 (各個) Android 裝置上[安裝 F-Droid](https://f-droid.org)。越多人使用替代應用程式市集，就越難將之摒出去。
-- 將　貴組織之簽署加入草擬中的[關於第三方應用程式發行之強制開發者註冊致 Google 之公開信](https://docs.fediverse.foundation/pad/#/2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/)，敬請寄送電子郵件至 [signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org) 並附上您的名稱、職銜與所屬機構。
 - 藉其 [Android 開發人員驗證要求問卷調查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接提供意見反映給 Google。
 - 在社群媒體上與部落格帖文中為自己發聲，並附上連結至 <https://keepandroidopen.org>
 - 迎擊網路打手：當您在社群討論區與社群媒體上，遇到可疑的帖文支持該政策 (「老實說…」)，不妨當仁不讓，仗義執言，直斥其非，以正視聽。

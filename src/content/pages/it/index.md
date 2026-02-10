@@ -49,7 +49,7 @@ I reclami hanno un impatto particolarmente significativo quando sono redatti da 
 #### Unione Europea
 - Invia un'e-mail al team Digital Markets Act: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - Contatta il team DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)
-- Invia feedback sull'interazione tra DMA e GDPR nell'UE: [consultazione sulle linee guida congiunte relative all'interazione tra DMA e GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) fino al 4 dicembre.
+- ~~Invia feedback sull'interazione tra DMA e GDPR nell'UE: [consultazione sulle linee guida congiunte relative all'interazione tra DMA e GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) fino al 4 dicembre.~~
 - Invia un'e-mail all'Antitrust: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
 - Invia un reclamo alla [politica di concorrenza dell'UE](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)
 - ~~[SCADUTO] Invia un feedback sulla legge UE sull'equità digitale: [Legge UE sull'equità digitale: dì la tua](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
@@ -170,7 +170,6 @@ Se sei dipendente o collaboratore di Google con una coscienza pulita e hai ulter
 ### A tutti: fate sentire la vostra voce
 
 - [Installa F-Droid](https://f-droid.org) sui tuoi dispositivi Android. Più persone utilizzano app store alternativi, più difficile sarà chiuderli.
-- Aggiungi la firma della tua organizzazione alla bozza della [lettera aperta a Google riguardante la registrazione obbligatoria degli sviluppatori per la distribuzione di applicazioni di terze parti](https://docs.fediverse.foundation/pad/#/2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/) inviando un'e-mail a [signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org) con il tuo nome, titolo e affiliazione.
 - Invia il tuo feedback direttamente a Google utilizzando il [sondaggio sui requisiti di verifica per gli sviluppatori Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Fai sentire la tua voce sui social media e con gli articoli sui blog e inserisci il link a <https://keepandroidopen.org>.
 - Combatti la manipolazione dell'opinione pubblica: quando trovi articoli-post sospetti sui forum della comunità e sui social media che sostengono la politica ("Beh, in realtà..."), confutali e non essere timido.

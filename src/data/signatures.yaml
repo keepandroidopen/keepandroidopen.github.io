@@ -1,6 +1,6 @@
-- name: John Doe
-  title: Software Engineer
-  organization: Example Corp
-- name: Jane Smith
-  title: Community Organizer
-  organization: Advocacy Group
+- name: NAME
+  title: TITLE
+  organization: ORGANIZATION
+# - name: Jane Smith
+  # title: Community Organizer
+  # organization: Advocacy Group

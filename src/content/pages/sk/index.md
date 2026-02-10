@@ -29,6 +29,7 @@ Táto registrácia bude zahŕňať:
 - Nahratie dôkazu o súkromnom podpisovom kľúči vývojára
 {:.li-list .li-signing}
 - Uvedenie všetkých súčasných a budúcich identifikátorov aplikácií
+{:.li-list .li-appids}
 
 
 ## Čo to znamená pre vaše práva
@@ -50,7 +51,7 @@ Sťažnosti majú osobitný vplyv, ak sú napísané občanom danej krajiny aleb
 #### Európska únia
 - E-mail tímu pre zákon o digitálnych trhoch: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - Kontaktujte tím DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)
-- Pošlite spätnú väzbu o vzájomnom pôsobení DMA a GDPR v EÚ: [Konzultácia o spoločných usmerneniach týkajúcich sa vzájomného pôsobenia DMA a GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) do 4. decembra.
+- ~~Pošlite spätnú väzbu o vzájomnom pôsobení DMA a GDPR v EÚ: [Konzultácia o spoločných usmerneniach týkajúcich sa vzájomného pôsobenia DMA a GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) do 4. decembra.~~
 - E-mail Antitrust: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
 - Sťažnosť na [politiku hospodárskej súťaže EÚ](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)
 - ~~[EXPIRED] Pošlite spätnú väzbu k zákonu EÚ o digitálnej spravodlivosti: [Zákon EÚ o digitálnej spravodlivosti: Povedzte svoj názor](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
@@ -169,7 +170,6 @@ Odradzujte kolegov vývojárov aplikácií a organizácie od prihlásenia sa do 
 ### Všetci: Dajte o sebe vedieť
 
 - [Nainštalujte si F-Droid](https://f-droid.org) na svoje zariadenia s Androidom. Čím viac ľudí bude používať alternatívne obchody s aplikáciami, tým ťažšie bude ich uzavrieť.
-- Pridajte podpis vašej organizácie k návrhu [Otvoreného listu spoločnosti Google týkajúceho sa povinného registrácie vývojárov pre distribúciu aplikácií tretích strán](https://docs.fediverse.foundation/pad/#/ 2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/) zaslaním e-mailu na adresu [signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org) s vaším menom, titulom a príslušnosťou.
 - Poskytnite spätnú väzbu priamo spoločnosti Google prostredníctvom ich [dotazníka o požiadavkách na overenie vývojárov Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Dajte o sebe vedieť na sociálnych médiách a v blogových príspevkoch a odkazujte na <https://keepandroidopen.org>.
 - Bojujte proti astroturfingu: keď narazíte na podozrivé príspevky na komunitných fórach a sociálnych médiách, ktoré podporujú túto politiku („No, vlastne...“), spochybnite ich a nehanbite sa.

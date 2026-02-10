@@ -46,7 +46,7 @@ lockdown_banner: "安卓将成为一个封闭平台"
 #### 欧盟
 - 发邮件给《数字市场法》团队：[EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - 联系 DMA 团队：[https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)
-- 发送反馈给欧盟 DMA 与 GDPR 相互作用: [有关 DMA 与 GDPR 相互作用的联合指南咨询](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en)，截止于12月4日
+- ~~发送反馈给欧盟 DMA 与 GDPR 相互作用: [有关 DMA 与 GDPR 相互作用的联合指南咨询](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en)，截止于12月4日~~
 - 发邮件给反垄断: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
 - 向[欧盟竞争政策](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)投诉
 - ~~[失效]发送反馈给《欧盟数字公平法》：[《欧盟数字公平法》：发表你的意见](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
@@ -172,7 +172,6 @@ lockdown_banner: "安卓将成为一个封闭平台"
 ### 所有人: 来发出自己的声音
 
 - 在你的Android设备上[安装F-Droid](https://f-droid.org)。越多人使用替代的应用市场，就越难将其摒弃。
-- 将贵单位的署名加入草拟中的[致Google关于强制第三方应用分发开发者注册的公开信](https://docs.fediverse.foundation/pad/#/2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/)并请以邮件形式发送至[signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org)，且附上您的姓名、职务和隶属关系。
 - 使用他们的直接向Google反馈意见[Android 开发者验证要求调查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - 在社交媒体和博客文章上发出你的声音，并链接到<https://keepandroidopen.org>
 - 对线网络水军：当您在社区论坛和社交媒体上遇到支持该政策的可疑帖子(“其实……”)，不妨以理据争，无所顾忌。

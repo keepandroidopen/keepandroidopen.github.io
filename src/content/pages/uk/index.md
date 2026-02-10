@@ -50,7 +50,7 @@ lockdown_banner: "Android стане закритою платформою"
 #### Європейський Союз
 - Електронна пошта до команди Акту про цифрові ринки (DMA): [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - Зв'язатися з командою DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)
-- Надіслати відгук про взаємодію DMA та GDPR в ЄС: [Консультації щодо спільних настанов про взаємодію DMA та GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) до 4 грудня.
+- ~~Надіслати відгук про взаємодію DMA та GDPR в ЄС: [Консультації щодо спільних настанов про взаємодію DMA та GDPR](https://digital-markets-act.ec.europa.eu/consultation-joint-guidelines-interplay-between-dma-and-gdpr_en) до 4 грудня.~~
 - Електронна пошта антимонопольного комітету: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)
 - Поскаржитися до [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)
 - ~~[ПРОСТРОЧЕНО] Надіслати відгук щодо Акту про цифрову справедливість ЄС: [EU Digital Fairness Act: Have Your Say](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
@@ -174,7 +174,6 @@ lockdown_banner: "Android стане закритою платформою"
 ### Усі: Зробіть так, щоб вас почули
 
 - [Встановіть F-Droid](https://f-droid.org) на свої пристрої Android. Чим більше людей використовуватиме альтернативні магазини застосунків, тим важче буде їх заблокувати.
-- Додайте підпис вашої організації до проєкту [Відкритого листа до Google щодо обов'язкової реєстрації розробників для розповсюдження застосунків сторонніми особами](https://docs.fediverse.foundation/pad/#/2/pad/view/OkfvdusnqafC8Wv+WUVpXB8RQk6XUFxmFHIa6CiBxQI/), надіславши листа на [signatories@keepandroidopen.org](mailto:signatories@keepandroidopen.org?subject=Signature%20for%20keepandroidopen.org) із зазначенням вашого імені, посади та організації.
 - Надайте відгук безпосередньо Google за допомогою їхнього [опитування щодо вимог до верифікації розробників Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Висловлюйте свою думку в соціальних мережах та блогах, посилаючись на <https://keepandroidopen.org>
 - Боріться з імітаціями громадської підтримки: коли ви натрапляєте на підозрілі дописи на форумах спільнот та в соціальних мережах на підтримку цієї політики («Ну, насправді…»), оскаржуйте їх і не соромтеся.
