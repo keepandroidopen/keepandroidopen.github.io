@@ -1,0 +1,34 @@
+---
+import Default from "../layouts/Default.astro";
+import { getCollection } from "astro:content";
+
+const page = (await getCollection("pages", ({ id }) => id.startsWith("en/")))[0];
+---
+
+<Default {...page.data}>
+  <article class="prose dark:prose-invert">
+    <h1>Open Letter</h1>
+    <p>Dear recipient,</p>
+    <p>This is a template for an open letter.</p>
+    <p>Sincerely,</p>
+    <div class="signatures-block">
+      <h2>Signatures</h2>
+      <ul id="signatures-list"></ul>
+    </div>
+  </article>
+</Default>
+
+<script>
+  import signatures from "../data/signatures.yaml";
+
+  const signaturesList = document.getElementById("signatures-list");
+
+  signatures.forEach(signature => {
+    const listItem = document.createElement("li");
+    listItem.innerHTML = `
+      <strong>${signature.name}</strong><br>
+      ${signature.title}, ${signature.organization}
+    `;
+    signaturesList.appendChild(listItem);
+  });
+</script>

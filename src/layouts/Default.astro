@@ -14,6 +14,8 @@ interface Props {
   site_privacy: string;
   site_copyright: string;
   lockdown_banner: string;
+  open_letter_header: string;
+  open_letter_description: string;
 }
 
 const {
@@ -28,6 +30,8 @@ const {
   site_privacy,
   site_copyright,
   lockdown_banner,
+  open_letter_header,
+  open_letter_description,
 } = Astro.props;
 
 const languageEntries = Object.entries(languages);
@@ -51,17 +55,14 @@ const languageEntries = Object.entries(languages);
   <meta name="twitter:image" content="https://keepandroidopen.org/img/altered-deal.png">
   <link rel="me" href="https://techhub.social/@keepandroidopen">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
-
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"> -->
   <style is:global>
-  
     main {
       max-width: 1200px;
       margin-left: auto;
       margin-right: auto;
       padding: 2em;
     }
-    
+
     h1 {
       /* font-size: 46px; */
       /* font-weight: 600; */
@@ -199,7 +200,7 @@ const languageEntries = Object.entries(languages);
       padding: 1rem 2rem; */
       background: linear-gradient(180deg, #d32f2f 0%, #b71c1c 100%);
       border-bottom: 4px solid #801313;
-      
+
       /* Text Styling */
       color: #ffffff;
       font-family: 'Arial Black', sans-serif;
@@ -208,7 +209,7 @@ const languageEntries = Object.entries(languages);
       letter-spacing: 2px;
       font-size: 1.5rem;
       text-align: center;
-    
+
       /* The 3D Depth & Shadow Effect */
       /* Format: x-offset y-offset blur color */
       text-shadow: 
@@ -217,17 +218,17 @@ const languageEntries = Object.entries(languages);
         0px 3px 0px #751111,
         0px 4px 0px #5e0d0d,
         0px 6px 10px rgba(0, 0, 0, 0.5);
-    
+
       /* Animation to draw attention */
       animation: pulse-alert 2s infinite;
-    
+
     @keyframes pulse-alert {
       0% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0.7); }
       70% { box-shadow: 0 0 0 15px rgba(211, 47, 47, 0); }
       100% { box-shadow: 0 0 0 0 rgba(211, 47, 47, 0); }
     }
-    
-    }
+
+  }
   </style>
 </head>
 <body>
@@ -254,11 +255,9 @@ const languageEntries = Object.entries(languages);
         <h4 style="margin-top: 0; margin-bottom: 10px; font-size: 16px;">
           {contact_header}
         </h4>
-        <ul style="list-style: none; padding: 0; margin: 0;">
-          <li style="margin-bottom: 5px;">{contact_email}: <a href="mailto:info@keepandroidopen.org" style="text-decoration: none;">info@keepandroidopen.org</a></li>
-        </ul>
-        <ul style="list-style: none; padding: 0; margin: 0;">
-          <li style="margin-bottom: 5px;">{site_problems_header}: <a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" style="text-decoration: none;">{site_report_issues}</a></li>
+        <ul style="padding: 0; margin: 0;">
+          <li style="list-style: none; margin-bottom: 5px;">{contact_email}: <a href="mailto:info@keepandroidopen.org" style="text-decoration: none;">info@keepandroidopen.org</a></li>
+          <li style="list-style: none; margin-bottom: 5px;">{site_problems_header}: <a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" style="text-decoration: none;">{site_report_issues}</a></li>
         </ul>
       </div>
       <div style="flex: 3; min-width: 300px; margin: 20px;">
@@ -317,42 +316,42 @@ const languageEntries = Object.entries(languages);
       
       return `${trimConjunction ? "" : prefix}${segments}`;
     }
-    
+  
     // Set the date we're counting down to
     var countDownDate = new Date("Sep 1, 2026 00:00:00").getTime();
 
     function updateBanner() {
       // Get today's date and time
       var now = new Date().getTime();
-    
+
       // Find the distance between now and the count down date
       var distance = countDownDate - now;
-    
+
       // Time calculations for days, hours, minutes and seconds
       var days = Math.floor(distance / (1000 * 60 * 60 * 24));
       var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
+
       const locale = document.documentElement.lang; // navigator.language; // Detects browser language (e.g., 'en-US');
-    
+
       var remaining = [
         days > 0 ? getLocalizedUnit(days, 'day', locale, false) : '',
-        hours > 0 ? getLocalizedUnit(hours, 'hour', locale, true) : '',
-        minutes > 0 ? getLocalizedUnit(minutes, 'minute', locale, true) : '',
+        hours > 0 || days > 0 ? getLocalizedUnit(hours, 'hour', locale, true) : '',
+        minutes > 0 || hours > 0 || days > 0 ? getLocalizedUnit(minutes, 'minute', locale, true) : '',
         getLocalizedUnit(seconds, 'second', locale, true)
       ].filter(Boolean).join(' ');
-    
+
       // Display the result in the element with id="countdown"
       document.getElementById("countdown").innerHTML = remaining;
-    
+
       // // If the count down is finished, write some text
       // if (distance < 0) {
       //   clearInterval(x);
       //   document.getElementById("countdown").innerHTML = "EXPIRED";
       // }
     }
-    
+
     // Update the count down every 1 second
     setInterval(updateBanner, 1000);
     updateBanner();

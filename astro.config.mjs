@@ -4,6 +4,7 @@ import { remarkHeadingId } from "remark-custom-heading-id";
 import rehypeSlug from 'rehype-slug';
 import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import rehypeExternalLinks from "rehype-external-links";
+import yaml from '@rollup/plugin-yaml';
 
 export default defineConfig({
   site: 'https://keepandroidopen.org',
@@ -13,6 +14,9 @@ export default defineConfig({
     routing: {
       prefixDefaultLocale: false,
     },
+  },
+  vite: {
+    plugins: [yaml()]
   },
   markdown: {
     remarkPlugins: [remarkHeadingId, remarkKramdownClasses],

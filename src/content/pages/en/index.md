@@ -13,6 +13,8 @@ site_privacy: "**Privacy:** This site uses no cookies and performs no user track
 site_copyright: "**Copyright:** None. This work is marked"
 
 lockdown_banner: "Android will become a locked-down platform"
+open_letter_header: "Open Letter"
+open_letter_description: "An open letter to advocate for Android as a free, open platform."
 ---
 
 In August 2025, Google [announced](https://developer.android.com/developer-verification) that as of September 2026,
