@@ -18,6 +18,11 @@ export default defineConfig({
   vite: {
     plugins: [yaml()]
   },
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/noop'
+    }
+  },
   markdown: {
     remarkPlugins: [remarkHeadingId, remarkKramdownClasses],
     rehypePlugins: [[rehypeExternalLinks, {

@@ -2,7 +2,6 @@
 title: "An Open Letter to Google regarding Mandatory Developer Registration for Android App Distribution"
 description: "Open Letter to Google Regarding Mandatory Developer Registration for Third-Party App Distribution"
 lang: en
-id: letter
 ---
 
 <style>
