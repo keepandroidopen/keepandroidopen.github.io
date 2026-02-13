@@ -172,7 +172,7 @@ Fügen Sie die [FreeDroidWarn Bibliothek](https://github.com/woheller69/FreeDroi
 - Geben Sie Google direkt Feedback über die [Umfrage zu den Anforderungen der Android-Entwicklerverifizierung](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Machen Sie Ihre Meinung in sozialen Netzwerken und Blogs öffentlich – und verlinken Sie dabei auf [https://keepandroidopen.org](https://keepandroidopen.org).
 - Kämpfen Sie gegen Meinungsmanipulation: Wenn Sie in Foren oder sozialen Medien verdächtige Beiträge sehen, die die neue Politik verteidigen („Nun, eigentlich…“), widersprechen Sie ihnen – und haben Sie keine Angst, Stellung zu beziehen.
-- Unterstützen Sie dieses Projekt, indem Sie [diese Seite bearbeiten](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/index.md) und nützliche Informationen hinzufügen.
+- Unterstützen Sie dieses Projekt, indem Sie [diese Seite bearbeiten](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/de/index.md) und nützliche Informationen hinzufügen.
 - [Unterschreiben Sie diese Petition auf change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4).
 
 #### Kontaktieren Sie diese Verbraucher- und Digitalrechtsorganisationen

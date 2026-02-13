@@ -178,7 +178,7 @@ lockdown_banner: "안드로이드는 잠긴 플랫폼이 될 것입니다"
 - [Android developer verification requirements survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)에서 여러분의 의견을 Google에 직접적으로 제출해주세요.
 - <https://keepandroidopen.org>을 SNS와 블로그 게시글로 퍼뜨려주세요.
 - 가짜 여론 조성에 맞서 싸우세요: 커뮤니티 포럼과 SNS에서 정책을 지지하는 의심스러운 게시물을 발견하면 망설이지 말고 이의를 제기하세요.
-- [이 페이지를 수정하여](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/index-ko.md) 더 유용한 정보를 추가하고, 번역을 개선하여 주세요.
+- [이 페이지를 수정하여](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ko/index.md) 더 유용한 정보를 추가하고, 번역을 개선하여 주세요.
 - [change.org 청원에 서명해주세요.](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 
 #### 아래 소비자/디지털 권리 기관에 문의해주세요

@@ -176,7 +176,7 @@ lockdown_banner: "Android 將會變成一個受限制的平台"
 - 藉其 [Android 開發人員驗證要求問卷調查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接提供意見反映給 Google。
 - 在社群媒體上與部落格帖文中為自己發聲，並附上連結至 <https://keepandroidopen.org>
 - 迎擊網路打手：當您在社群討論區與社群媒體上，遇到可疑的帖文支持該政策 (「老實說…」)，不妨當仁不讓，仗義執言，直斥其非，以正視聽。
-- 助此專案一把，[編輯此頁面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/index.md)以豐富更多有用資訊。
+- 助此專案一把，[編輯此頁面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-TW/index.md)以豐富更多有用資訊。
 - [簽署此 change.org 請願書](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 
 #### 聯絡這些消費者/數位權利小組

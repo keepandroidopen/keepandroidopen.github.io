@@ -173,7 +173,7 @@ Odradzujte kolegov vývojárov aplikácií a organizácie od prihlásenia sa do 
 - Poskytnite spätnú väzbu priamo spoločnosti Google prostredníctvom ich [dotazníka o požiadavkách na overenie vývojárov Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Dajte o sebe vedieť na sociálnych médiách a v blogových príspevkoch a odkazujte na <https://keepandroidopen.org>.
 - Bojujte proti astroturfingu: keď narazíte na podozrivé príspevky na komunitných fórach a sociálnych médiách, ktoré podporujú túto politiku („No, vlastne...“), spochybnite ich a nehanbite sa.
-- Pomôžte tomuto projektu tým, že [upravíte túto stránku](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/index.md) a doplníte ju o ďalšie užitočné informácie.
+- Pomôžte tomuto projektu tým, že [upravíte túto stránku](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/sk/index.md) a doplníte ju o ďalšie užitočné informácie.
 - [Podpíšte túto petíciu na change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 
 #### Kontaktujte tieto spotrebiteľské/digitálne právne skupiny

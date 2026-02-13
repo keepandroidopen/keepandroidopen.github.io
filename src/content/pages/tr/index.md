@@ -190,7 +190,7 @@ Bu projeler, mobil donanım alanında çok ihtiyaç duyulan rekabeti sağlamak i
 - Google'a doğrudan geri bildirimde bulunun, onların [Android geliştirici denetleme gereksinimleri anketini kullanarak](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Sesinizin sosyal medya ve blog makaleleriyle duyulmasını sağlayın ve https://keepandroidopen.org sitesine bağlantı koyun.
 - Yanıltıcı mesajlarla mücadele edin: topluluk forumlarında ve sosyal medyada bu şartları destekleyen şüpheli mesajlara rastladığınızda (“İyi hoş, tamam da…”), onları sorgulayın ve utangaç olmayın.
-- Bu projeye [bu sayfayı faydalı bilgilerle düzenleyerek](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/index.md) yardımcı olun.
+- Bu projeye [bu sayfayı faydalı bilgilerle düzenleyerek](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/tr/index.md) yardımcı olun.
 
 ## Referanslar
 
