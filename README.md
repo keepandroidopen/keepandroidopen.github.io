@@ -1,7 +1,6 @@
 # Keep Android Open
 
 **Keep Android Open** is a [community advocacy website](https://keepandroidopen.org) fighting against Google's 2025 developer verification mandate, which will require all developers to be registered with Google.
-You can find more details [here](/index.md).
 
 ## Purpose
 
