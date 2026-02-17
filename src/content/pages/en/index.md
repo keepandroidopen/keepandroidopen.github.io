@@ -277,6 +277,18 @@ These projects are working to provide much-needed competition in the mobile hard
 - “Is F-Droid in Trouble? Google Developer Verification” — [https://youtu.be/-SOOoQWv4kk](https://youtu.be/-SOOoQWv4kk)
 - “Google is Applefying Android: The End of Openness” — ChiefGyk3D — [https://youtu.be/WFOPzixHoLY](https://youtu.be/WFOPzixHoLY)
 
+### Clarifications
+
+Contrary to a vague mention on a social media post from someone affiliated with Google
+that there may be some "advanced flow" to bypass verification,
+Google's [description of the program](https://developer.android.com/developer-verification) continues to state plainly that:
+
+> Starting in September 2026, Android will require all apps to be registered by verified developers in order to be installed on certified Android devices
+
+Until such time that they have shown evidence that it will be possible to bypass the verification process without undue friction,
+we must believe what is stated on their official page: that all apps from non-registered developers will be blocked
+once their lock-down goes into effect.
+
 ### Discussions
 
 - [https://news.ycombinator.com/item?id=45742488](https://news.ycombinator.com/item?id=45742488)
