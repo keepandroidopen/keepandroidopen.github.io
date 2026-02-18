@@ -196,6 +196,7 @@ Bu projeler, mobil donanım alanında çok ihtiyaç duyulan rekabeti sağlamak i
 - [Mobian](https://mobian-project.org/)
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
+- [GrapheneOS](https://grapheneos.org/)
 
 ## Diğerleri
 - Android cihazlarınıza [F-Droid kurun](https://f-droid.org). Ne kadar çok kişi alternatif marketler kullanırsa, onları devreden çıkarmak o kadar zor olacaktır.

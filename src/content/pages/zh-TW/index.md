@@ -226,6 +226,7 @@ lockdown_banner: "Android 將會變成一個受限制的平台"
 - [Mobian](https://mobian-project.org/)
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
+- [GrapheneOS](https://grapheneos.org/)
 
 ## 參照
 

@@ -220,6 +220,7 @@ Ces projets s'efforcent de créer une concurrence indispensable sur le marché d
 - [Mobian](https://mobian-project.org/)
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
+- [GrapheneOS](https://grapheneos.org/)
 
 ## Références
 

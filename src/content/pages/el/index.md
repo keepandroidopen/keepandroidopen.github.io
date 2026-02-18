@@ -237,6 +237,7 @@ open_letter_description: "Ένα ανοιχτό γράμμα για την υπ�
 - [Mobian](https://mobian-project.org/)
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
+- [GrapheneOS](https://grapheneos.org/)
 
 ## Αναφορές
 

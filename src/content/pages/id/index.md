@@ -233,6 +233,7 @@ Proyek-proyek ini berupaya untuk menyediakan persaingan yang sangat dibutuhkan d
 - [Mobian](https://mobian-project.org/)
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
+- [GrapheneOS](https://grapheneos.org/)
 
 ## Referensi
 

@@ -226,6 +226,7 @@ lockdown_banner: "安卓将成为一个封闭平台"
 - [Mobian](https://mobian-project.org/)
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
+- [GrapheneOS](https://grapheneos.org/)
 
 ## 引用
 

@@ -220,7 +220,9 @@ Diese Projekte arbeiten daran, den dringend benötigten Wettbewerb auf dem Markt
 - [Fairphone](https://www.fairphone.com/)
 - [Sailfish OS](https://sailfishos.org/)
 - [Mobian](https://mobian-project.org/)
+- [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
+- [GrapheneOS](https://grapheneos.org/)
 
 ## Referenzen
 

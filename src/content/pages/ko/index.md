@@ -229,6 +229,7 @@ lockdown_banner: "안드로이드는 잠긴 플랫폼이 될 것입니다"
 - [Mobian](https://mobian-project.org/)
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
+- [GrapheneOS](https://grapheneos.org/)
 
 ## 참고 문헌
 
