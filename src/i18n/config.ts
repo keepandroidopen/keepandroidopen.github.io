@@ -15,6 +15,7 @@ export const languages = {
   'zh-TW': { label: '正體中文', path: '/zh-TW/' },
   ko: { label: '한국어', path: '/ko/' },
   el: { label: 'Ελληνικά', path: '/el/'},
+  pl: { label: 'Polski', path: '/pl/'},    
 } as const;
 
 export type Locale = keyof typeof languages;
