@@ -204,6 +204,7 @@ Fügen Sie die [FreeDroidWarn Bibliothek](https://github.com/woheller69/FreeDroi
 - [Open Rights Group (UK)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (Niederlande)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### Unterstützen Sie diese Projekte
 

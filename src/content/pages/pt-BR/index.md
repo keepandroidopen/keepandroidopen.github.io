@@ -202,6 +202,7 @@ Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreve
 - [Open Rights Group (UK)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (Netherlands)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### Apoie Esses Projetos
 

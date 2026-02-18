@@ -49,7 +49,7 @@ lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:
 > 2026년부터 Android에서는 사용자가 인증된 Android 기기에 앱을 설치하려면 인증된 개발자가 모든 앱을 등록해야 합니다.
 
 과도한 제약 없이 인증되지 않은 소프트웨어를 설치할 수 있다는 명확한 증거를 보여줄 때까지, 공식 홈페이지에 명시된 내용만 믿을 수 밖에 없습니다.
-즉, 2026년 9월부터 등록하지 않은 개발자의 **모든** 앱이 **차단될 것**이라는 사실 말이죠.
+즉, 2026년 9월부터 등록되지 않은 개발자의 **모든 앱이 차단될 것**이라는 사실 말이죠.
 
 </div>
 
@@ -75,10 +75,10 @@ lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:
 
 #### 대한민국
 
-- [kftc@korea.kr](mailto:kftc@korea.kr?cc=korea@keepandroidopen.org)로 이메일을 전송하세요.
-- [한국 공정거래위원회 (KFTC)](https://www.ftc.go.kr/)에 연락해 주세요.
+- 이메일: [kftc@korea.kr](mailto:kftc@korea.kr?cc=korea@keepandroidopen.org)
+- [공정거래위원회 (KFTC)](https://www.ftc.go.kr/)에 연락해 주세요.
 
-#### European Union
+#### 유럽 연합
 
 - Email Digital Markets Act team: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)
 - Contact DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)
@@ -87,31 +87,31 @@ lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:
 - Complain to the [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)
 - ~~[EXPIRED] Send feedback on EU Digital Fairness Act: [EU Digital Fairness Act: Have Your Say](https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/14622-Digital-Fairness-Act_en)~~
 
-#### United Kingdom
+#### 영국
 
 - Email: [general.enquiries@cma.gov.uk](mailto:general.enquiries@cma.gov.uk?cc=uk@keepandroidopen.org)
 - Make a report to the [UK Competition & Markets Authority](https://contact-the-cma.service.gov.uk/wizard/classify)
 
-#### United States
+#### 미국
 
 - Make a report to the [US Department of Justice Antitrust Report Online](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)
 - File a complaint with the [US Federal Trade Commission: Antitrust Complaints](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)
 - ~~Email (DEFUNCT): [antitrust@ftc.gov](mailto:antitrust@ftc.gov?cc=usftc@keepandroidopen.org)~~
 - ~~Email (DEFUNCT): [antitrust.complaints@usdoj.gov](mailto:antitrust.complaints@usdoj.gov?cc=usdoj@keepandroidopen.org)~~
 
-#### Brazil
+#### 브라질
 
 - Email: [superintendencia@cade.gov.br](mailto:superintendencia@cade.gov.br?cc=brazil@keepandroidopen.org)
 - Reach out to Procon (depends on your state) and [Senacon](https://www.gov.br/mj/pt-br/assuntos/seus-direitos/consumidor)
-- _Note: Brazil is slated to be one of the [initial 4 countries](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) where developer registration will be enforced_
+- _비고: 브라질은 개발자 인증이 시행되는 [초기 4개 국가](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) 중 하나입니다._
 
-#### Singapore
+#### 싱가포르
 
 - Email: [cccs_feedback@cccs.gov.sg](mailto:cccs_feedback@cccs.gov.sg?cc=singapore@keepandroidopen.org)
 - Contact the [Competition and Consumer Commission of Singapore (CCCS)](https://www.cccs.gov.sg)
-- _Note: Singapore is slated to be one of the [initial 4 countries](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) where developer registration will be enforced_
+- _비고: 싱가포르는 개발자 인증이 시행되는 [초기 4개 국가](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) 중 하나입니다._
 
-#### Thailand
+#### 태국
 
 - Email: [saraban@tcct.or.th](mailto:saraban@tcct.or.th?cc=thailand@keepandroidopen.org)
 - Contact the [Office of Trade Competition Commission (OTCC)](https://www.tcct.or.th/)
@@ -119,74 +119,75 @@ lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:
 - Contact the [Electronic Transactions Development Agency (ETDA)](https://www.etda.or.th/en/contact/contact.aspx)
 - Email: [contact@tcc.or.th](mailto:contact@tcc.or.th?cc=thailand@keepandroidopen.org)
 - Contact the [Thailand Consumers Council (TCC)](https://www.tcc.or.th/)
-- _Note: Thailand is slated to be one of the [initial 4 countries](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) where developer registration will be enforced_
+- _비고: 태국은 개발자 인증이 시행되는 [초기 4개 국가](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) 중 하나입니다._
 
-#### Indonesia
+#### 인도네시아
 
 - Email: [infokom@kppu.go.id](mailto:infokom@kppu.go.id?cc=indonesia@keepandroidopen.org)
 - Contact the [KPPU for Competition Complaints](https://eng.kppu.go.id)
-- _Note: Indonesia is slated to be one of the [initial 4 countries](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) where developer registration will be enforced_
+- _비고: 인도네시아는 개발자 인증이 시행되는 [초기 4개 국가](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) 중 하나입니다._
 
-#### Switzerland
+#### 스위스
 
 - File a report with the [Competition Commission](https://www.weko.admin.ch/weko/en/home/kontakt/kontakt.html)
   
-#### Australia
+#### 호주
 
 - Email: [international@accc.gov.au](mailto:international@accc.gov.au?cc=australia@keepandroidopen.org)
 - File a report with the [Australian Competition and Consumer Commission (ACCC)](https://www.accc.gov.au/about-us/contact-us-or-report-an-issue)
 - Send a request to Australian Consumers’ Association ([CHOICE](https://accounts.choice.com.au/contact-us/)). Ask them to lodge a designated complaint to the Australian Competition & Consumer Comission (ACCC).
 - Contact your local Member of Parliament or State Senator. If you don’t know your electorate, you can find it [here](https://electorate.aec.gov.au/), and you can search for your Parliamentarians or Senators [here](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results).
 
-#### Japan
+#### 일본
 
 - Email: [intnldiv@jftc.go.jp](mailto:intnldiv@jftc.go.jp?cc=japan@keepandroidopen.org)
 - Contact the [Japan Fair Trade Commission (JFTC)](https://www.jftc.go.jp/)
 
-#### India
+#### 인도
 
 - Email: [cci‑chairman@nic.in](mailto:cci‑chairman@nic.in?cc=india@keepandroidopen.org)
 - Contact the [Competition Commission of India (CCI)](https://www.cci.gov.in/)
 
-#### Canada
+#### 캐나다
 
 - Email: [info@competitionbureau.gc.ca](mailto:info@competitionbureau.gc.ca?cc=canada@keepandroidopen.org)
 - Make a complaint to [Competition Bureau Canada](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)
 - File a report with the [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)
 
-#### Taiwan
+#### 대만
 
 - Email: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)
 - Contact the [Fair Trade Commission (FTC)](https://www.ftc.gov.tw/)
 
-#### Turkey
+#### 튀르키예
 
 - Contact the [Rekabet Kurumu / Turkish Competition Authority (RK)](https://edevlet.rekabet.gov.tr/Talep/Anasayfa)
 
-#### Argentina
+#### 아르헨티나
 
 - Email: [cndc@produccion.gob.ar](mailto:cndc@produccion.gob.ar?cc=argentina@keepandroidopen.org)
 - Contact the [Comisión Nacional de Defensa de la Competencia (CNDC)](https://www.argentina.gob.ar/defensadelacompetencia)
 
-#### Mexico
+#### 멕시코
 
 - Email: [denuncias@antimonopolio.gob.mx](mailto:denuncias@antimonopolio.gob.mx?cc=mexico@keepandroidopen.org)
 - Contact the [Comisión Nacional Antimonopolio](https://www.antimonopolio.gob.mx/Micrositios/)
 
-#### Philippines
+#### 필리핀
 
 - Contact the [Philippine Competition Commission (PCC)](https://www.phcc.gov.ph/)
 
-#### Poland
+#### 폴란드
+
 * Email: [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)
 * Contat the [Office of Competition and Consumer Protection (Urząd Ochrony Konkurencji i Konsumentów - UOKiK)](https://uokik.gov.pl/)
 
-#### Czech Republic
+#### 체코
 
 * Email: [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)
 * Contact the [Office for the Protection of Competition (Úřad pro ochranu hospodářské soutěže – ÚOHS)](https://www.uohs.gov.cz/en/)
 
-#### Ukraine
+#### 우크라이나
 
 - Contact the [National Commission for the State Regulation of Electronic Communications](https://nkek.gov.ua/)
 - Contact the [Ministry of Digital Transformation](https://thedigital.gov.ua/)
@@ -197,8 +198,8 @@ lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:
 
 - 대체 앱스토어 [F-Droid](https://f-droid.org)를 설치해주세요. 더 많은 사용자가 제삼자 앱스토어를 사용할 수록, Google이 이 서비스들을 종료시키기 어렵게 만듭니다.
 - [Android developer verification requirements survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)에서 여러분의 의견을 Google에 직접적으로 제출해주세요.
-- <https://keepandroidopen.org/ko>을 SNS와 블로그 게시글로 퍼뜨려주세요.
-- 가짜 여론 조성에 맞서 싸우세요: 커뮤니티 포럼과 SNS에서 정책을 지지하는 의심스러운 게시물을 발견하면 망설이지 말고 이의를 제기하세요.
+- <https://keepandroidopen.org/ko>을 SNS와 블로그 게시글로 공유해주세요.
+- 가짜 여론 조성에 맞서 싸우세요: 커뮤니티 포럼과 SNS에서 정책을 지지하는 의심스러운 게시물을 발견하면 망설이지 말고 반론하세요.
 - [이 페이지를 수정하여](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ko/index.md) 더 유용한 정보를 추가하고, 번역을 개선하여 주세요.
 - [change.org 청원에 서명해주세요.](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 

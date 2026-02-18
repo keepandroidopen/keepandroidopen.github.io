@@ -217,6 +217,7 @@ Complaints are especially impactful when they are authored by a citizen of that 
 - [Open Rights Group (UK)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (Netherlands)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### Support These Projects
 

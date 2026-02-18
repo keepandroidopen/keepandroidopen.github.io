@@ -205,6 +205,7 @@ Odradzujte kolegov vývojárov aplikácií a organizácie od prihlásenia sa do 
 - [Open Rights Group (Veľká Británia)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (Holandsko)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### Podporte tieto projekty
 

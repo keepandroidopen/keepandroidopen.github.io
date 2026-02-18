@@ -208,6 +208,7 @@ lockdown_banner: "Android 將會變成一個受限制的平台"
 - [Open Rights Group (英國)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (荷蘭)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### 支持這些專案
 

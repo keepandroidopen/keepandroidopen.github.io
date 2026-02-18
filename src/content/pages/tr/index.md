@@ -180,6 +180,7 @@ Tüm dünyada düzenleyici kurumlar hakikaten teknoloji sektöründeki tekeller 
 - [Open Rights Group (UK)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (Netherlands)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### Bu Projeleri Destekleyin
 Bu projeler, mobil donanım alanında çok ihtiyaç duyulan rekabeti sağlamak için çalışmaktadırlar.

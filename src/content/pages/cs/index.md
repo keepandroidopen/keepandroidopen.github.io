@@ -207,6 +207,7 @@ Zkuste přimět své spřízněné vývojáře a organizace, aby se nepřihlašo
 - [Open Rights Group (Spojené království)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (Nizozemsko)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### Podpořte tyto projekty
 

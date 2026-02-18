@@ -209,6 +209,7 @@ lockdown_banner: "Android стане закритою платформою"
 - [Open Rights Group (Велика Британія)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (Нідерланди)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### Підтримайте ці проєкти
 

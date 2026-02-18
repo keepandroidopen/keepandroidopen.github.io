@@ -219,6 +219,7 @@ If you are a Google employee or contractor of good conscience and have additiona
 - [Open Rights Group (UK)](https://www.openrightsgroup.org/)
 - [Bits of Freedom (Netherlands)](https://www.bitsoffreedom.nl/)
 - [Swecha Andhra Pradesh](https://www.swechaap.org/)
+- [Korea Consumer Agency](https://www.kca.go.kr/eng/main.do)
 
 #### สนับสนุนโครงการเหล่านี้
 
