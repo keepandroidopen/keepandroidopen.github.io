@@ -1,0 +1,100 @@
+---
+import { resolve } from '../i18n/resolve';
+import rightsGroups from '../data/links/rights-groups.yaml';
+import projects from '../data/links/projects.yaml';
+import references from '../data/links/references.yaml';
+import overview from '../data/links/overview.yaml';
+import editorials from '../data/links/editorials.yaml';
+import press from '../data/links/press.yaml';
+import videos from '../data/links/videos.yaml';
+import discussions from '../data/links/discussions.yaml';
+import officialDocs from '../data/links/official-docs.yaml';
+import miscellaneous from '../data/links/miscellaneous.yaml';
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+---
+
+<h4>{resolve(rightsGroups.heading, locale)}</h4>
+<ul>
+  {rightsGroups.items.map((item: any) => (
+    <li><a href={resolve(item.url, locale)} target="_blank">{resolve(item.text, locale)} ↗</a></li>
+  ))}
+</ul>
+
+<h4>{resolve(projects.heading, locale)}</h4>
+<p>{resolve(projects.description, locale)}</p>
+<ul>
+  {projects.items.map((item: any) => (
+    <li><a href={item.url} target="_blank">{resolve(item.text, locale)} ↗</a></li>
+  ))}
+</ul>
+
+<h2>{resolve(references.heading, locale)}</h2>
+
+<h3>{resolve(overview.heading, locale)}</h3>
+<ul>
+  {overview.items.map((item: any) => (
+    <li><a href={item.url} target="_blank">{item.url} ↗</a></li>
+  ))}
+</ul>
+
+<h3>{resolve(editorials.heading, locale)}</h3>
+<ul>
+  {editorials.items.map((item: any) => (
+    <li>
+      &ldquo;{resolve(item.text, locale)}&rdquo; &mdash; <a href={item.url} target="_blank">{item.url} ↗</a>
+      {item.extra_links?.map((extra: any) => (
+        <>{' '}(<a href={extra.url} target="_blank">{resolve(extra.text, locale)} ↗</a>)</>
+      ))}
+    </li>
+  ))}
+</ul>
+
+<h3>{resolve(press.heading, locale)}</h3>
+<ul>
+  {press.items.map((item: any) => (
+    <li>&ldquo;{resolve(item.text, locale)}&rdquo; &mdash; <a href={item.url} target="_blank">{item.url} ↗</a></li>
+  ))}
+</ul>
+
+<h3>{resolve(videos.heading, locale)}</h3>
+<ul>
+  {videos.items.map((item: any) => (
+    <li>
+      &ldquo;{resolve(item.text, locale)}&rdquo;
+      {item.author && <> &mdash; {item.author}</>}
+      {' '}&mdash; <a href={item.url} target="_blank">{item.url} ↗</a>
+    </li>
+  ))}
+</ul>
+
+<h3>{resolve(discussions.heading, locale)}</h3>
+<ul>
+  {discussions.items.map((item: any) => (
+    <li><a href={item.url} target="_blank">{item.url} ↗</a></li>
+  ))}
+</ul>
+
+<h3>{resolve(officialDocs.heading, locale)}</h3>
+<ul>
+  {officialDocs.items.map((item: any) => (
+    <li>{resolve(item.text, locale)} &mdash; <a href={item.url} target="_blank">{item.url} ↗</a></li>
+  ))}
+</ul>
+
+<h3>{resolve(miscellaneous.heading, locale)}</h3>
+<ul>
+  {miscellaneous.items.map((item: any) => {
+    const hasAuthor = item.author_text && item.author_url;
+    return (
+      <li>
+        <a href={item.url} target="_blank">{resolve(item.text, locale)} ↗</a>
+        {hasAuthor && <> by {item.author} <a href={item.author_url} target="_blank">{item.author_text} ↗</a></>}
+      </li>
+    );
+  })}
+</ul>

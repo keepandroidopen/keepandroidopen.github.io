@@ -1,0 +1,21 @@
+heading:
+  en: "Overview"
+  cs: "Přehled"
+  de: "Übersicht"
+  el: "Περίληψη"
+  es: "Resumen"
+  fr: "Aperçu"
+  id: "Ringkasan"
+  it: "Panoramica"
+  ko: "개요"
+  pl: "Przegląd"
+  pt-BR: "Visão Geral"
+  sk: "Prehľad"
+  th: "ภาพรวม"
+  tr: "Genel Bakış"
+  uk: "Огляд"
+  zh-CN: "概述"
+  zh-TW: "概覽"
+
+items:
+  - url: "https://consumerrights.wiki/w/Android_Developer_Verification"

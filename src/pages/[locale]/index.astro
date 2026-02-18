@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Default from '../../layouts/Default.astro';
+import SharedLinks from '../../components/SharedLinks.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -20,4 +21,5 @@ const { data } = entry;
 ---
 <Default {...data}>
   <Content />
+  <SharedLinks locale={data.lang} />
 </Default>

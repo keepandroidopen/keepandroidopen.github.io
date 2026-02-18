@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Default from '../layouts/Default.astro';
+import SharedLinks from '../components/SharedLinks.astro';
 
 const pages = await getCollection('pages');
 const entry = pages.find((p) => p.slug === 'en');
@@ -10,4 +11,5 @@ const { data } = entry;
 ---
 <Default {...data}>
   <Content />
+  <SharedLinks locale="en" />
 </Default>
