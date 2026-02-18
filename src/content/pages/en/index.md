@@ -53,7 +53,7 @@ Until such time that they have shown evidence that it will be possible to bypass
 
 </div>
 
-## How you can help
+## How you can help {#help}
 
 ### Developers: Resist and refuse {#developers}
 
@@ -64,6 +64,16 @@ If you are an app developer, _**do not sign up**_ for the early access program, 
 Discourage fellow app developers and organizations from signing up to the program. Use community forums, social media, and blog posts to spread the message. Include the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) in your code to inform your app users.
 
 If you are a Google employee or contractor of good conscience and have additional insight about the program, including planned technical implementation details or additional rationales for the program, please reach out to [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a _non-work_ machine and a _non-gmail_ account. Your information will be kept in strict confidence.
+
+### Everyone: Make your voice heard {#everyone}
+
+- [Install F-Droid](https://f-droid.org) on your Android device(s). The more people that use alternative app marketplaces, the harder it will be to shut them out.
+- Provide feedback directly to Google using their [Android developer verification requirements survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Make your voice heard on social media and with blog posts, and link to <https://keepandroidopen.org>
+- Combat astroturfing: when you encounter suspect posts on community forums and social media in support of the policy (“Well, actually…”), challenge them and do not be shy.
+- Help this project out by [editing this page](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) with more useful information.
+- [Sign this change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Consumers: Contact national regulators {#consumers}
 
@@ -190,13 +200,3 @@ Complaints are especially impactful when they are authored by a citizen of that 
 - Contact the [National Commission for the State Regulation of Electronic Communications](https://nkek.gov.ua/)
 - Contact the [Ministry of Digital Transformation](https://thedigital.gov.ua/)
 - Contact the [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/)
-
-### Everyone: Make your voice heard {#everyone}
-
-- [Install F-Droid](https://f-droid.org) on your Android device(s). The more people that use alternative app marketplaces, the harder it will be to shut them out.
-- Provide feedback directly to Google using their [Android developer verification requirements survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Make your voice heard on social media and with blog posts, and link to <https://keepandroidopen.org>
-- Combat astroturfing: when you encounter suspect posts on community forums and social media in support of the policy (“Well, actually…”), challenge them and do not be shy.
-- Help this project out by [editing this page](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) with more useful information.
-- [Sign this change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
-

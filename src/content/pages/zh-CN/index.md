@@ -50,7 +50,27 @@ lockdown_banner: "安卓将成为一个封闭平台"
 
 </div>
 
-## 你可以如何出一分力
+## 你可以如何出一分力 {#help}
+
+### 开发者: 坚决抵制拒之门外 {#developers}
+
+如果你是应用开发者，恳请 _**不注册**_ 抢先体验计划、进行身份验证，又或接受邀请加入 Android 开发人员控制台。有（礼貌地）回应任何邀请，列出你的疑虑和异议。
+
+—— _只有在开发商的默许下，他们的统领谋划才会得逞_ ——
+
+不建议其他应用程序开发人员还有组织注册该计划。可使用社区论坛、社交媒体和博客文章来传播该信息。可将[FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn)包含在你的代码以通知你的应用用户。
+
+如果你是一名有心的Google 员工或承包商，并且对该计划有更多了解，包括计划中的技术实施细节或该计划实施的其他缘由，请通过一台 _非工作_ 设备和 _非Gmail_ 帐户与[tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)联系。你的信息将被严格保密。
+
+### 所有人: 来发出自己的声音 {#everyone}
+
+- 在你的Android设备上[安装F-Droid](https://f-droid.org)。越多人使用替代的应用市场，就越难将其摒弃。
+- 使用他们的直接向Google反馈意见[Android 开发者验证要求调查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- 在社交媒体和博客文章上发出你的声音，并链接到<https://keepandroidopen.org>
+- 对线网络水军：当您在社区论坛和社交媒体上遇到支持该政策的可疑帖子(“其实……”)，不妨以理据争，无所顾忌。
+- 通过[编辑此页面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-CN/index.md)丰富更多有用的信息来帮助这个项目。
+- [签署这份 change.org 请愿书](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### 消费者：联系国家监管机构 {#consumers}
 世界各地的监管机构真正关注科技行业的垄断和权力集中，并希望直接听取受影响和担忧的个人意见。直接联系监管机构时，你应该 _礼貌_ 而又 _详尽_ 地说明你所认为这些政策将对消费者和竞争造成的伤害。
@@ -169,25 +189,4 @@ lockdown_banner: "安卓将成为一个封闭平台"
 - 联系[国家电子通信监管委员会](https://nkek.gov.ua/)
 - 联系[数字化转型部](https://thedigital.gov.ua/)
 - 联系[乌克兰反垄断委员会](https://amcu.gov.ua/)
-
-
-
-### 开发者: 坚决抵制拒之门外
-
-如果你是应用开发者，恳请 _**不注册**_ 抢先体验计划、进行身份验证，又或接受邀请加入 Android 开发人员控制台。有（礼貌地）回应任何邀请，列出你的疑虑和异议。
-
-—— _只有在开发商的默许下，他们的统领谋划才会得逞_ ——
-
-不建议其他应用程序开发人员还有组织注册该计划。可使用社区论坛、社交媒体和博客文章来传播该信息。可将[FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn)包含在你的代码以通知你的应用用户。
-
-如果你是一名有心的Google 员工或承包商，并且对该计划有更多了解，包括计划中的技术实施细节或该计划实施的其他缘由，请通过一台 _非工作_ 设备和 _非Gmail_ 帐户与[tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)联系。你的信息将被严格保密。
-
-### 所有人: 来发出自己的声音
-
-- 在你的Android设备上[安装F-Droid](https://f-droid.org)。越多人使用替代的应用市场，就越难将其摒弃。
-- 使用他们的直接向Google反馈意见[Android 开发者验证要求调查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- 在社交媒体和博客文章上发出你的声音，并链接到<https://keepandroidopen.org>
-- 对线网络水军：当您在社区论坛和社交媒体上遇到支持该政策的可疑帖子(“其实……”)，不妨以理据争，无所顾忌。
-- 通过[编辑此页面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-CN/index.md)丰富更多有用的信息来帮助这个项目。
-- [签署这份 change.org 请愿书](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 

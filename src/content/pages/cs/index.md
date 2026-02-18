@@ -51,7 +51,25 @@ Dokud nepředloží důkazy o tom, že bude možné obejít proces ověřování
 
 </div>
 
-## Jak můžete pomoci
+## Jak můžete pomoci {#help}
+
+### Vývojáři: Odolejte a odmítněte {#developers}
+
+Pokud jste vývojáři aplikací, _**nepřihlašujte se**_ do programu ranného přístupu, neprovádějte ověření identity ani nepřijímejte pozvání do Android Developer Console. Odpovězte (zdvořile) na jakoukoli pozvánku seznamem věcí, které vás v této souvislosti znepokojuje a se kterými nesouhlasíte.
+
+—— _Jen s tichým souhlasem vývojářů může jejich plán uspět._ ——
+
+Zkuste přimět své spřízněné vývojáře a organizace, aby se nepřihlašovali do tohoto programu. Využijte komunitní fóra, sociální sítě a články na blozích k rozšíření této zprávy. Zahrňte [knihovnu FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) do své aplikace, abyste informovali její uživatele.
+
+### Každý: Buďte slyšet {#everyone}
+
+- [Nainstalujte si F-Droid](https://f-droid.org) na vaše androidí zařízení. Čím více lidí bude používat alternativní obchody s aplikacemi, tím těžší bude je vypnout.
+- Poskytněte Googlu zpětnou vazbu přímo prostřednictvím jejich [Průzkumu k požadavkům na ověření vývojářů pro Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Vyjádřete svůj názor na sociálních sítích a na blozích a odkazujte na <https://keepandroidopen.org>
+- Bojujte s astroturfingem: když zaznamenáte podezřelé příspěvky na komunitních fórech a sociálních sítích, které podporují tato nová pravidla (“Dobře, ale…”), reagujte na ně a nebuďte nesmělí.
+- Pomozte tomuto projektu [úpravou této stránky](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/cs/index.md) přidáním dalších užitečných informací.
+- [Podepište tuto petici na change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Spotřebitelé: Kontaktovat státní regulátory {#consumers}
 
@@ -171,22 +189,3 @@ Stížnosti jsou zvláště efektivní, když pochází od občanů dané země 
 - Kontaktujte [Národní komisi pro státní regulaci elektronických komunikací](https://nkek.gov.ua/)
 - Kontaktujte [Ministerstvo pro digitální transformaci](https://thedigital.gov.ua/)
 - Kontaktujte [Antimonopolní výbor Ukrajiny](https://amcu.gov.ua/)
-
-
-### Vývojáři: Odolejte a odmítněte
-
-Pokud jste vývojáři aplikací, _**nepřihlašujte se**_ do programu ranného přístupu, neprovádějte ověření identity ani nepřijímejte pozvání do Android Developer Console. Odpovězte (zdvořile) na jakoukoli pozvánku seznamem věcí, které vás v této souvislosti znepokojuje a se kterými nesouhlasíte.
-
-—— _Jen s tichým souhlasem vývojářů může jejich plán uspět._ ——
-
-Zkuste přimět své spřízněné vývojáře a organizace, aby se nepřihlašovali do tohoto programu. Využijte komunitní fóra, sociální sítě a články na blozích k rozšíření této zprávy. Zahrňte [knihovnu FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) do své aplikace, abyste informovali její uživatele.
-
-### Každý: Buďte slyšet
-
-- [Nainstalujte si F-Droid](https://f-droid.org) na vaše androidí zařízení. Čím více lidí bude používat alternativní obchody s aplikacemi, tím těžší bude je vypnout.
-- Poskytněte Googlu zpětnou vazbu přímo prostřednictvím jejich [Průzkumu k požadavkům na ověření vývojářů pro Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Vyjádřete svůj názor na sociálních sítích a na blozích a odkazujte na <https://keepandroidopen.org>
-- Bojujte s astroturfingem: když zaznamenáte podezřelé příspěvky na komunitních fórech a sociálních sítích, které podporují tato nová pravidla (“Dobře, ale…”), reagujte na ně a nebuďte nesmělí.
-- Pomozte tomuto projektu [úpravou této stránky](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/cs/index.md) přidáním dalších užitečných informací.
-- [Podepište tuto petici na change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
-

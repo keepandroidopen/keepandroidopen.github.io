@@ -53,7 +53,27 @@ Sampai mereka menunjukkan bukti bahwa akan memungkinkan untuk melewati proses ve
 
 </div>
 
-## Bagaimana Anda dapat membantu
+## Bagaimana Anda dapat membantu {#help}
+
+### Pengembang: Tahan dan tolak {#developers}
+
+Jika Anda adalah pengembang aplikasi, _**jangan mendaftar**_ untuk program akses awal, melakukan verifikasi identitas, atau menerima undangan ke Android Developer Console. Tanggapi (dengan sopan) setiap undangan dengan daftar kekhawatiran dan keberatan Anda.
+
+—— _Hanya dengan persetujuan para pengembanglah rencana pengambilalihan mereka dapat berhasil._ ——
+
+Mencegah pengembang aplikasi dan organisasi lain untuk mendaftar ke program ini. Gunakan forum komunitas, media sosial, dan posting blog untuk menyebarkan pesan ini. Sertakan [Pustaka FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) dalam kode Anda untuk memberitahu pengguna aplikasi Anda.
+
+Jika Anda adalah karyawan Google atau kontraktor yang memiliki integritas dan memiliki wawasan tambahan tentang program ini, termasuk rincian implementasi teknis yang direncanakan atau alasan tambahan untuk program ini, silakan hubungi [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) dari perangkat _non-kerja_ dan akun _non-Gmail_. Informasi Anda akan dijaga kerahasiaannya dengan ketat.
+
+### Semua orang: Buat suara Anda didengar! {#everyone}
+
+- [Instal F-Droid](https://f-droid.org) di perangkat Android Anda. Semakin banyak orang yang menggunakan pasar aplikasi alternatif, semakin sulit bagi pihak berwenang untuk memblokirnya.
+- Berikan umpan balik langsung kepada Google melalui survei persyaratan verifikasi pengembang Android mereka [Survei Persyaratan Verifikasi Pengembang Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Sampaikan pendapat Anda di media sosial dan melalui posting blog, dan tautkan ke <https://keepandroidopen.org>
+- Berantas pemasaran astroturf: ketika Anda menemui postingan mencurigakan di forum komunitas dan media sosial yang mendukung kebijakan tersebut (“Nah, sebenarnya...”), tantanglah mereka dan jangan ragu-ragu.
+- Bantu proyek ini dengan [mengedit halaman ini](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/id/index.md) dengan informasi yang lebih berguna.
+- [Tandatangani petisi change.org ini.](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Konsumen: Hubungi regulator nasional {#consumers}
 
@@ -176,25 +196,4 @@ Keluhan memiliki dampak yang lebih besar ketika diajukan oleh warga negara atau 
 - Hubungi [Komisi Nasional untuk Pengaturan Negara atas Komunikasi Elektronik](https://nkek.gov.ua/)
 - Hubungi [Kementerian Transformasi Digital](https://thedigital.gov.ua/)
 - Hubungi [Komisi Anti-Monopoli Ukraina](https://amcu.gov.ua/)
-
-
-
-### Pengembang: Tahan dan tolak
-
-Jika Anda adalah pengembang aplikasi, _**jangan mendaftar**_ untuk program akses awal, melakukan verifikasi identitas, atau menerima undangan ke Android Developer Console. Tanggapi (dengan sopan) setiap undangan dengan daftar kekhawatiran dan keberatan Anda.
-
-—— _Hanya dengan persetujuan para pengembanglah rencana pengambilalihan mereka dapat berhasil._ ——
-
-Mencegah pengembang aplikasi dan organisasi lain untuk mendaftar ke program ini. Gunakan forum komunitas, media sosial, dan posting blog untuk menyebarkan pesan ini. Sertakan [Pustaka FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) dalam kode Anda untuk memberitahu pengguna aplikasi Anda.
-
-Jika Anda adalah karyawan Google atau kontraktor yang memiliki integritas dan memiliki wawasan tambahan tentang program ini, termasuk rincian implementasi teknis yang direncanakan atau alasan tambahan untuk program ini, silakan hubungi [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) dari perangkat _non-kerja_ dan akun _non-Gmail_. Informasi Anda akan dijaga kerahasiaannya dengan ketat.
-
-### Semua orang: Buat suara Anda didengar!
-
-- [Instal F-Droid](https://f-droid.org) di perangkat Android Anda. Semakin banyak orang yang menggunakan pasar aplikasi alternatif, semakin sulit bagi pihak berwenang untuk memblokirnya.
-- Berikan umpan balik langsung kepada Google melalui survei persyaratan verifikasi pengembang Android mereka [Survei Persyaratan Verifikasi Pengembang Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Sampaikan pendapat Anda di media sosial dan melalui posting blog, dan tautkan ke <https://keepandroidopen.org>
-- Berantas pemasaran astroturf: ketika Anda menemui postingan mencurigakan di forum komunitas dan media sosial yang mendukung kebijakan tersebut (“Nah, sebenarnya...”), tantanglah mereka dan jangan ragu-ragu.
-- Bantu proyek ini dengan [mengedit halaman ini](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/id/index.md) dengan informasi yang lebih berguna.
-- [Tandatangani petisi change.org ini.](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 

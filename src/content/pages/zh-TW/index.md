@@ -48,7 +48,27 @@ lockdown_banner: "Android 將會變成一個受限制的平台"
 
 </div>
 
-## 您可如何出一分力
+## 您可如何出一分力 {#help}
+
+### 開發者：奮力抵抗、堅決說不 {#developers}
+
+若您是一位應用程式開發者，敬請 _**不要註冊**_ 搶先體驗計劃、進行身份驗證，又或接受邀請加入 Android 開發人員控制台。請向任何邀請 (有禮貌地) 回應並詳列您的各項關注與異議。
+
+—— _唯有開發者默許順從，他們統佔天下的計謀才得以得逞。_ ——
+
+勸諫應用程式開發者與組織同儕，不要註冊該計劃。善用社群討論區、社群媒體與部落格帖文，將此訊息傳開去。在您的程式碼中包含 [FreeDroidWarn 程式庫](https://github.com/woheller69/FreeDroidWarn)，藉以告知您的應用程式使用者。
+
+若您是一名 Google 僱員或承辦商，對此計劃殊有洞察，包括有所計劃的技術實作詳情，又或此計劃別有玄機，心中又抱持良知不吐不快，請使用一臺 _非工作_ 機器、透過一個 _非 gmail_ 帳戶，以電子郵件來鴻 [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)。您的資訊必嚴加保密。
+
+### 齊集氣：集結您的聲音，呼聲響徹雲霄 {#everyone}
+
+- 在您的 (各個) Android 裝置上[安裝 F-Droid](https://f-droid.org)。越多人使用替代應用程式市集，就越難將之摒出去。
+- 藉其 [Android 開發人員驗證要求問卷調查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接提供意見反映給 Google。
+- 在社群媒體上與部落格帖文中為自己發聲，並附上連結至 <https://keepandroidopen.org>
+- 迎擊網路打手：當您在社群討論區與社群媒體上，遇到可疑的帖文支持該政策 (「老實說…」)，不妨當仁不讓，仗義執言，直斥其非，以正視聽。
+- 助此專案一把，[編輯此頁面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-TW/index.md)以豐富更多有用資訊。
+- [簽署此 change.org 請願書](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### 消費者：聯絡國家監管機構 {#consumers}
 
@@ -169,25 +189,4 @@ lockdown_banner: "Android 將會變成一個受限制的平台"
 - 聯絡[國家電子通訊監管委員會](https://nkek.gov.ua/)
 - 聯絡[數位轉型部](https://thedigital.gov.ua/)
 - 聯絡[烏克蘭反壟斷委員會](https://amcu.gov.ua/)
-
-
-
-### 開發者：奮力抵抗、堅決說不
-
-若您是一位應用程式開發者，敬請 _**不要註冊**_ 搶先體驗計劃、進行身份驗證，又或接受邀請加入 Android 開發人員控制台。請向任何邀請 (有禮貌地) 回應並詳列您的各項關注與異議。
-
-—— _唯有開發者默許順從，他們統佔天下的計謀才得以得逞。_ ——
-
-勸諫應用程式開發者與組織同儕，不要註冊該計劃。善用社群討論區、社群媒體與部落格帖文，將此訊息傳開去。在您的程式碼中包含 [FreeDroidWarn 程式庫](https://github.com/woheller69/FreeDroidWarn)，藉以告知您的應用程式使用者。
-
-若您是一名 Google 僱員或承辦商，對此計劃殊有洞察，包括有所計劃的技術實作詳情，又或此計劃別有玄機，心中又抱持良知不吐不快，請使用一臺 _非工作_ 機器、透過一個 _非 gmail_ 帳戶，以電子郵件來鴻 [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)。您的資訊必嚴加保密。
-
-### 齊集氣：集結您的聲音，呼聲響徹雲霄
-
-- 在您的 (各個) Android 裝置上[安裝 F-Droid](https://f-droid.org)。越多人使用替代應用程式市集，就越難將之摒出去。
-- 藉其 [Android 開發人員驗證要求問卷調查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接提供意見反映給 Google。
-- 在社群媒體上與部落格帖文中為自己發聲，並附上連結至 <https://keepandroidopen.org>
-- 迎擊網路打手：當您在社群討論區與社群媒體上，遇到可疑的帖文支持該政策 (「老實說…」)，不妨當仁不讓，仗義執言，直斥其非，以正視聽。
-- 助此專案一把，[編輯此頁面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-TW/index.md)以豐富更多有用資訊。
-- [簽署此 change.org 請願書](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 

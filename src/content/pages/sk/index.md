@@ -52,7 +52,25 @@ Dovtedy, kým nepredložia dôkaz, že bude možné obísť proces overovania be
 
 </div>
 
-## Ako môžete pomôcť
+## Ako môžete pomôcť {#help}
+
+### Vývojári: Odporujte a odmietnite {#developers}
+
+Ak ste vývojár aplikácií, _**neprihlasujte sa**_ do programu včasného prístupu, nevykonávajte overenie identity ani neprijímajte pozvánku do konzoly pre vývojárov Android. Na každú pozvánku odpovedzte (zdvorilo) so zoznamom vašich obáv a námietok.
+
+—— _Iba prostredníctvom súhlasu vývojárov môže ich plán prevzatia uspieť._ ——
+
+Odradzujte kolegov vývojárov aplikácií a organizácie od prihlásenia sa do programu. Použite komunitné fóra, sociálne médiá a blogové príspevky na šírenie tejto správy. Do svojho kódu zahrňte knižnicu [FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn), aby ste informovali používateľov vašej aplikácie.
+
+### Všetci: Dajte o sebe vedieť {#everyone}
+
+- [Nainštalujte si F-Droid](https://f-droid.org) na svoje zariadenia s Androidom. Čím viac ľudí bude používať alternatívne obchody s aplikáciami, tým ťažšie bude ich uzavrieť.
+- Poskytnite spätnú väzbu priamo spoločnosti Google prostredníctvom ich [dotazníka o požiadavkách na overenie vývojárov Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Dajte o sebe vedieť na sociálnych médiách a v blogových príspevkoch a odkazujte na <https://keepandroidopen.org>.
+- Bojujte proti astroturfingu: keď narazíte na podozrivé príspevky na komunitných fórach a sociálnych médiách, ktoré podporujú túto politiku („No, vlastne...“), spochybnite ich a nehanbite sa.
+- Pomôžte tomuto projektu tým, že [upravíte túto stránku](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/sk/index.md) a doplníte ju o ďalšie užitočné informácie.
+- [Podpíšte túto petíciu na change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Spotrebitelia: Kontaktujte národné regulačné orgány {#consumers}
 
@@ -169,22 +187,4 @@ Sťažnosti majú osobitný vplyv, ak sú napísané občanom danej krajiny aleb
 
 * E-mail: [podatelna@antimon.gov.sk](mailto:podatelna@antimon.gov.sk?cc=slovakia@keepandroidopen.org)
 * Kontaktujte [Protimonopolný úrad Slovenskej republiky](https://www.antimon.gov.sk/en/)
-
-
-### Vývojári: Odporujte a odmietnite
-
-Ak ste vývojár aplikácií, _**neprihlasujte sa**_ do programu včasného prístupu, nevykonávajte overenie identity ani neprijímajte pozvánku do konzoly pre vývojárov Android. Na každú pozvánku odpovedzte (zdvorilo) so zoznamom vašich obáv a námietok.
-
-—— _Iba prostredníctvom súhlasu vývojárov môže ich plán prevzatia uspieť._ ——
-
-Odradzujte kolegov vývojárov aplikácií a organizácie od prihlásenia sa do programu. Použite komunitné fóra, sociálne médiá a blogové príspevky na šírenie tejto správy. Do svojho kódu zahrňte knižnicu [FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn), aby ste informovali používateľov vašej aplikácie.
-
-### Všetci: Dajte o sebe vedieť
-
-- [Nainštalujte si F-Droid](https://f-droid.org) na svoje zariadenia s Androidom. Čím viac ľudí bude používať alternatívne obchody s aplikáciami, tým ťažšie bude ich uzavrieť.
-- Poskytnite spätnú väzbu priamo spoločnosti Google prostredníctvom ich [dotazníka o požiadavkách na overenie vývojárov Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Dajte o sebe vedieť na sociálnych médiách a v blogových príspevkoch a odkazujte na <https://keepandroidopen.org>.
-- Bojujte proti astroturfingu: keď narazíte na podozrivé príspevky na komunitných fórach a sociálnych médiách, ktoré podporujú túto politiku („No, vlastne...“), spochybnite ich a nehanbite sa.
-- Pomôžte tomuto projektu tým, že [upravíte túto stránku](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/sk/index.md) a doplníte ju o ďalšie užitočné informácie.
-- [Podpíšte túto petíciu na change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 

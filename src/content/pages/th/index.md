@@ -53,7 +53,27 @@ open_letter_description: "จดหมายเปิดผนึกเพื่
 
 </div>
 
-## คุณสามารถช่วยเหลือได้อย่างไรบ้าง
+## คุณสามารถช่วยเหลือได้อย่างไรบ้าง {#help}
+
+### นักพัฒนา: ต่อต้านและปฏิเสธ {#developers}
+
+หากคุณเป็นนักพัฒนาแอปพลิเคชัน _**อย่าสมัคร**_ สำหรับโปรแกรมการเข้าถึงก่อนใคร ทำการตรวจสอบตัวตน หรือยอมรับคำเชิญไปยัง Android Developer Console ตอบกลับ (อย่างสุภาพ) ต่อคำเชิญใด ๆ ด้วยรายการข้อกังวลและข้อคัดค้านของคุณ
+
+—— _แผนการยึดครองของพวกเขาจะสามารถประสบความสำเร็จได้ หากนักพัฒนายอมรับมัน_ ——
+
+ไม่สนับสนุนให้เหล่านักพัฒนา แอพ และองค์กร สมัครเข้าสู่โปรแกรมเหล่านั้น ใช้บอร์ดสาธารณะ โซเชี่ยลมีเดีย และ บล๊อคโพสต์ ในการกระจายข่าว ใส่ [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) ในโค้ดของคุณ เพื่อให้ผู้ใช้แอพของคุณรับรู้
+
+If you are a Google employee or contractor of good conscience and have additional insight about the program, including planned technical implementation details or additional rationales for the program, please reach out to [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a _non-work_ machine and a _non-gmail_ account. Your information will be kept in strict confidence.
+
+### ทุกคน: ทำให้เสียงของคุณดังขึ้น {#everyone}
+
+- [ติดตั้ง F-Droid](https://f-droid.org) บนอุปกรณ์Androidของคุณ ยิ่งมีผู้คนมากขึ้นที่ใช้ตลาดแอปพลิเคชันทางเลือก มันก็ยิ่งยากขึ้นที่จะปิดกั้นพวกเขา
+- ให้ความคิดเห็นโดยตรงแก่ Google โดยใช้แบบสำรวจ [ข้อกำหนดการตรวจสอบตัวตนของนักพัฒนาAndroid](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)
+- ทำให้เสียงของคุณดังขึ้นบนโซเชียลมีเดียและเขียนโพส และลิงก์ไปยัง <https://keepandroidopen.org>
+- ต่อสู้กับ astroturfing: เมื่อคุณพบโพสต์ที่น่าสงสัยบนฟอรั่มชุมชนและโซเชียลมีเดียที่สนับสนุนานโยบาย ("เอ่อ จริงๆแล้วนะ...") ให้ท้าทายพวกเขาและอย่าอาย
+- ช่วยโครงการนี้โดย [แก้ไขหน้านี้](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/th/index.md) ด้วยข้อมูลที่เป็นประโยชน์เพิ่มเติม
+- [ลงชื่อใน petitition change.org นี้](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### ผู้บริโภค: ติดต่อหน่วยงานกำกับดูแลระดับชาติ {#consumers}
 
@@ -180,25 +200,4 @@ open_letter_description: "จดหมายเปิดผนึกเพื่
 - ติดต่อ [คณะกรรมการแห่งชาติสำหรับการกำกับดูแลการสื่อสารทางอิเล็กทรอนิกส์ของรัฐ](https://nkek.gov.ua/)
 - ติดต่อ [กระทรวงการเปลี่ยนแปลงดิจิทัล](https://thedigital.gov.ua/)
 - ติดต่อ [คณะกรรมการต่อต้านผูกขาดแห่งยูเครน](https://amcu.gov.ua/)
-
-
-
-### นักพัฒนา: ต่อต้านและปฏิเสธ
-
-หากคุณเป็นนักพัฒนาแอปพลิเคชัน _**อย่าสมัคร**_ สำหรับโปรแกรมการเข้าถึงก่อนใคร ทำการตรวจสอบตัวตน หรือยอมรับคำเชิญไปยัง Android Developer Console ตอบกลับ (อย่างสุภาพ) ต่อคำเชิญใด ๆ ด้วยรายการข้อกังวลและข้อคัดค้านของคุณ
-
-—— _แผนการยึดครองของพวกเขาจะสามารถประสบความสำเร็จได้ หากนักพัฒนายอมรับมัน_ ——
-
-ไม่สนับสนุนให้เหล่านักพัฒนา แอพ และองค์กร สมัครเข้าสู่โปรแกรมเหล่านั้น ใช้บอร์ดสาธารณะ โซเชี่ยลมีเดีย และ บล๊อคโพสต์ ในการกระจายข่าว ใส่ [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) ในโค้ดของคุณ เพื่อให้ผู้ใช้แอพของคุณรับรู้
-
-If you are a Google employee or contractor of good conscience and have additional insight about the program, including planned technical implementation details or additional rationales for the program, please reach out to [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a _non-work_ machine and a _non-gmail_ account. Your information will be kept in strict confidence.
-
-### ทุกคน: ทำให้เสียงของคุณดังขึ้น
-
-- [ติดตั้ง F-Droid](https://f-droid.org) บนอุปกรณ์Androidของคุณ ยิ่งมีผู้คนมากขึ้นที่ใช้ตลาดแอปพลิเคชันทางเลือก มันก็ยิ่งยากขึ้นที่จะปิดกั้นพวกเขา
-- ให้ความคิดเห็นโดยตรงแก่ Google โดยใช้แบบสำรวจ [ข้อกำหนดการตรวจสอบตัวตนของนักพัฒนาAndroid](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)
-- ทำให้เสียงของคุณดังขึ้นบนโซเชียลมีเดียและเขียนโพส และลิงก์ไปยัง <https://keepandroidopen.org>
-- ต่อสู้กับ astroturfing: เมื่อคุณพบโพสต์ที่น่าสงสัยบนฟอรั่มชุมชนและโซเชียลมีเดียที่สนับสนุนานโยบาย ("เอ่อ จริงๆแล้วนะ...") ให้ท้าทายพวกเขาและอย่าอาย
-- ช่วยโครงการนี้โดย [แก้ไขหน้านี้](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/th/index.md) ด้วยข้อมูลที่เป็นประโยชน์เพิ่มเติม
-- [ลงชื่อใน petitition change.org นี้](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 

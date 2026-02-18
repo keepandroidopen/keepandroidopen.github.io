@@ -51,7 +51,24 @@ Tant qu'ils n'auront pas apporté la preuve qu'il sera possible de contourner le
 
 </div>
 
-## Comment vous pouvez aider
+## Comment vous pouvez aider {#help}
+
+### Développeurs : Résistez et refusez {#developers}
+
+Si vous êtes développeur d'applications, **ne vous inscrivez pas** au programme d'accès anticipé, ne procédez pas à la vérification d'identité et n'acceptez aucune invitation à la console développeur Android. Répondez poliment à toute invitation en listant vos préoccupations et objections.
+
+—— **C'est uniquement grâce à l'acquiescement des développeurs que leur plan de prise de contrôle pourra réussir.**
+
+Dissuadez les autres développeurs d'applications et les organisations de s'inscrire au programme. Utilisez les forums communautaires, les réseaux sociaux et les articles de blog pour diffuser le message.
+
+### À tous : Faites entendre votre voix {#everyone}
+
+- [Installez F-Droid](https://f-droid.org) sur vos appareils Android. Plus il y aura d'utilisateurs de plateformes alternatives, plus il sera difficile de les exclure.
+- Fournissez vos commentaires directement à Google en utilisant leur [enquête sur les exigences de vérification des développeurs Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Faites entendre votre voix sur les réseaux sociaux et via des articles de blog, et n'oubliez pas de faire un lien vers <https://keepandroidopen.org>
+- Combattez la manipulation de l'opinion : lorsque vous rencontrez des publications suspectes sur les forums communautaires et les médias sociaux soutenant la politique (« Eh bien, en fait… »), contestez-les et n'ayez pas peur.
+- Contribuez à ce projet en [modifiant cette page](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/fr/index.md) avec des informations plus utiles.
+- [Signez cette pétition change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 
 ### Consommateurs : Contactez les autorités de régulation nationales {#consumers}
 
@@ -167,21 +184,3 @@ Les plaintes sont particulièrement efficaces lorsqu'elles émanent d'un citoyen
 - Contact the [Ministry of Digital Transformation](https://thedigital.gov.ua/)
 - Contact the [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/)
   
-
-### Développeurs : Résistez et refusez
-
-Si vous êtes développeur d'applications, **ne vous inscrivez pas** au programme d'accès anticipé, ne procédez pas à la vérification d'identité et n'acceptez aucune invitation à la console développeur Android. Répondez poliment à toute invitation en listant vos préoccupations et objections.
-
-—— **C'est uniquement grâce à l'acquiescement des développeurs que leur plan de prise de contrôle pourra réussir.**
-
-Dissuadez les autres développeurs d'applications et les organisations de s'inscrire au programme. Utilisez les forums communautaires, les réseaux sociaux et les articles de blog pour diffuser le message.
-
-### À tous : Faites entendre votre voix
-
-- [Installez F-Droid](https://f-droid.org) sur vos appareils Android. Plus il y aura d'utilisateurs de plateformes alternatives, plus il sera difficile de les exclure.
-- Fournissez vos commentaires directement à Google en utilisant leur [enquête sur les exigences de vérification des développeurs Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Faites entendre votre voix sur les réseaux sociaux et via des articles de blog, et n'oubliez pas de faire un lien vers <https://keepandroidopen.org>
-- Combattez la manipulation de l'opinion : lorsque vous rencontrez des publications suspectes sur les forums communautaires et les médias sociaux soutenant la politique (« Eh bien, en fait… »), contestez-les et n'ayez pas peur.
-- Contribuez à ce projet en [modifiant cette page](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/fr/index.md) avec des informations plus utiles.
-- [Signez cette pétition change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
-

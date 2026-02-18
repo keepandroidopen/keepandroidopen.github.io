@@ -53,7 +53,7 @@ Dopóki nie pokażą dowodów, że będzie dało się ominąć proces weryfikacj
 
 </div>
 
-## Jak możesz pomóc
+## Jak możesz pomóc {#help}
 
 ### Deweloperzy: Stawiajcie opór i odmawiajcie {#developers}
 
@@ -64,6 +64,16 @@ Jeśli jesteś deweloperem aplikacji, _**nie zapisuj się**_ do programu wczesne
 Zniechęcaj innych deweloperów i organizacje do zapisywania się do programu. Wykorzystuj fora społecznościowe, media społecznościowe i wpisy na blogach, by nagłaśniać przekaz. Dodaj do swojego kodu bibliotekę [FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn), aby informować użytkowników Twojej aplikacji.
 
 Jeśli jesteś pracownikiem Google lub podwykonawcą z czystym sumieniem i masz dodatkowy wgląd w program, w tym planowane szczegóły technicznej implementacji lub dodatkowe uzasadnienia programu, skontaktuj się proszę pod adresem [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) z _niesłużbowego_ urządzenia i konta _nie-gmail_. Twoje informacje zostaną zachowane w ścisłej poufności.
+
+### Wszyscy: Dajcie znać, co myślicie {#everyone}
+
+- [Zainstaluj F-Droid](https://f-droid.org) na swoim urządzeniu (lub urządzeniach) z Androidem. Im więcej osób korzysta z alternatywnych marketplace’ów z aplikacjami, tym trudniej będzie je wyeliminować.
+- Przekaż opinię bezpośrednio Google, korzystając z ich [ankiety dot. wymagań weryfikacji deweloperów Androida](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Zabierz głos w mediach społecznościowych i na blogach oraz podlinkuj <https://keepandroidopen.org>
+- Walcz z astroturfingiem: gdy natkniesz się na podejrzane posty na forach społecznościowych i w mediach społecznościowych popierające tę politykę („No dobrze, ale…”), kwestionuj je i nie wahaj się.
+- Pomóż temu projektowi, [edytując tę stronę](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) i dodając bardziej przydatne informacje.
+- [Podpisz tę petycję change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Konsumenci: Skontaktujcie się z krajowymi regulatorami {#consumers}
 
@@ -190,13 +200,3 @@ Skargi są szczególnie skuteczne, gdy pisze je obywatel danego kraju lub region
 - Skontaktuj się z [National Commission for the State Regulation of Electronic Communications](https://nkek.gov.ua/)
 - Skontaktuj się z [Ministry of Digital Transformation](https://thedigital.gov.ua/)
 - Skontaktuj się z [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/)
-
-### Wszyscy: Dajcie znać, co myślicie {#everyone}
-
-- [Zainstaluj F-Droid](https://f-droid.org) na swoim urządzeniu (lub urządzeniach) z Androidem. Im więcej osób korzysta z alternatywnych marketplace’ów z aplikacjami, tym trudniej będzie je wyeliminować.
-- Przekaż opinię bezpośrednio Google, korzystając z ich [ankiety dot. wymagań weryfikacji deweloperów Androida](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Zabierz głos w mediach społecznościowych i na blogach oraz podlinkuj <https://keepandroidopen.org>
-- Walcz z astroturfingiem: gdy natkniesz się na podejrzane posty na forach społecznościowych i w mediach społecznościowych popierające tę politykę („No dobrze, ale…”), kwestionuj je i nie wahaj się.
-- Pomóż temu projektowi, [edytując tę stronę](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) i dodając bardziej przydatne informacje.
-- [Podpisz tę petycję change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
-

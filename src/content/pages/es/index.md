@@ -51,7 +51,25 @@ Hasta que no hayan demostrado evidencia de que será posible eludir el proceso d
 
 </div>
 
-## Cómo puedes ayudar
+## Cómo puedes ayudar {#help}
+
+### Desarrolladores: resistan y rechacen {#developers}
+
+Si son desarrolladores de aplicaciones, **no se inscriban** en el programa de acceso anticipado, no verifiquen su identidad y no acepten ninguna invitación a la consola de desarrolladores de Android. Respondan cortésmente a cualquier invitación enumerando sus preocupaciones y objeciones.
+
+—— **Solo con el consentimiento de los desarrolladores podrá tener éxito su plan de toma de control.**
+
+Desanime a otros desarrolladores de aplicaciones y organizaciones a inscribirse en el programa. Utilice los foros comunitarios, las redes sociales y los artículos de blog para difundir el mensaje.
+
+### A todos: hagan oír su voz {#everyone}
+
+- [Instalen F-Droid](https://f-droid.org) en sus dispositivos Android. Cuantos más usuarios haya de plataformas alternativas, más difícil será excluirlos.
+- Envíe sus comentarios directamente a Google utilizando su [encuesta sobre los requisitos de verificación de los desarrolladores de Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Haga oír su voz en las redes sociales y a través de artículos de blog, y no olvide incluir un enlace a <https://keepandroidopen.org>.
+- Combate la manipulación de la opinión pública: cuando encuentres publicaciones sospechosas en foros comunitarios y redes sociales que apoyen la política («Bueno, en realidad...»), refútalas y no tengas miedo.
+- Contribuye a este proyecto [editando esta página](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/es/index.md) con información más útil.
+- [Firma esta petición en change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Consumidores: pónganse en contacto con las autoridades reguladoras nacionales {#consumers}
 
@@ -166,21 +184,3 @@ Las quejas son especialmente efectivas cuando provienen de un ciudadano del paí
 - Contact the [Ministry of Digital Transformation](https://thedigital.gov.ua/)
 - Contact the [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/)
   
-
-### Desarrolladores: resistan y rechacen
-
-Si son desarrolladores de aplicaciones, **no se inscriban** en el programa de acceso anticipado, no verifiquen su identidad y no acepten ninguna invitación a la consola de desarrolladores de Android. Respondan cortésmente a cualquier invitación enumerando sus preocupaciones y objeciones.
-
-—— **Solo con el consentimiento de los desarrolladores podrá tener éxito su plan de toma de control.**
-
-Desanime a otros desarrolladores de aplicaciones y organizaciones a inscribirse en el programa. Utilice los foros comunitarios, las redes sociales y los artículos de blog para difundir el mensaje.
-
-### A todos: hagan oír su voz
-
-- [Instalen F-Droid](https://f-droid.org) en sus dispositivos Android. Cuantos más usuarios haya de plataformas alternativas, más difícil será excluirlos.
-- Envíe sus comentarios directamente a Google utilizando su [encuesta sobre los requisitos de verificación de los desarrolladores de Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Haga oír su voz en las redes sociales y a través de artículos de blog, y no olvide incluir un enlace a <https://keepandroidopen.org>.
-- Combate la manipulación de la opinión pública: cuando encuentres publicaciones sospechosas en foros comunitarios y redes sociales que apoyen la política («Bueno, en realidad...»), refútalas y no tengas miedo.
-- Contribuye a este proyecto [editando esta página](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/es/index.md) con información más útil.
-- [Firma esta petición en change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
-

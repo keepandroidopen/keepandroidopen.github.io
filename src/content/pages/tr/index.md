@@ -51,15 +51,28 @@ Doğrulama sürecini aşırı zorluk olmadan atlamanın mümkün olacağına dai
 
 </div>
 
-## Nasıl yardımcı olabilirsiniz
+## Nasıl yardımcı olabilirsiniz {#help}
 
-### Direnin ve reddedin
+## Sesiniz duyulsun
+
+### Direnin ve reddedin {#developers}
 
 Eğer bir geliştiriciyseniz, erken erişim programına _**kayıt olmayın**_, kimlik doğrulaması yapmayın veya Android Geliştirici Konsolu için herhangi bir daveti kabul etmeyin. Böyle bir daveti (nazikçe) endişeleriniz ve itirazlarınızın listesiyle cevaplayın.
 
 Tanıdık uygulama geliştiricilerini ve teşkilatları programa kaydolmak konusunda teşvik etmeyin ve uyarın.
 
 —— _Bu kontrolü ele alma planı sadece geliştiricilerin rızasıyla başarıya ulaşabilir._ ——
+
+## Herkes, sesiniz duyulsun {#everyone}
+- Android cihazlarınıza [F-Droid kurun](https://f-droid.org). Alternatif uygulama pazarları kullanan kişi sayısı arttıkça, onları devreden çıkarmak da o kadar zor olacaktır.
+- Google'a doğrudan geri bildirimde bulunun, onların [Android geliştirici denetleme gereksinimleri anketini kullanarak](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Sesinizin sosyal medya ve blog makaleleriyle duyulmasını sağlayın ve https://keepandroidopen.org sitesine bağlantı koyun.
+- Yanıltıcı mesajlarla mücadele edin: topluluk forumlarında ve sosyal medyada bu şartları destekleyen şüpheli mesajlara rastladığınızda (“İyi hoş, tamam da…”), onları sorgulayın ve utangaç olmayın.
+- Bu projeye [bu sayfayı faydalı bilgilerle düzenleyerek](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/tr/index.md) yardımcı olun.
+
+### Bu Dilekçeleri İmzalayın
+- [Şu change.org dilekçesini imazalayın](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Millî düzenleyicilerle irtibata geçin {#consumers}
 
@@ -155,17 +168,4 @@ Tüm dünyada düzenleyici kurumlar hakikaten teknoloji sektöründeki tekeller 
 - [National Commission for the State Regulation of Electronic Communications](https://nkek.gov.ua/) ile irtibata geçin
 - [Ministry of Digital Transformation](https://thedigital.gov.ua/) ile irtibata geçin
 - [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/) ile irtibata geçin
-
-
-## Sesiniz duyulsun
-
-## Herkes, sesiniz duyulsun
-- Android cihazlarınıza [F-Droid kurun](https://f-droid.org). Alternatif uygulama pazarları kullanan kişi sayısı arttıkça, onları devreden çıkarmak da o kadar zor olacaktır.
-- Google'a doğrudan geri bildirimde bulunun, onların [Android geliştirici denetleme gereksinimleri anketini kullanarak](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Sesinizin sosyal medya ve blog makaleleriyle duyulmasını sağlayın ve https://keepandroidopen.org sitesine bağlantı koyun.
-- Yanıltıcı mesajlarla mücadele edin: topluluk forumlarında ve sosyal medyada bu şartları destekleyen şüpheli mesajlara rastladığınızda (“İyi hoş, tamam da…”), onları sorgulayın ve utangaç olmayın.
-- Bu projeye [bu sayfayı faydalı bilgilerle düzenleyerek](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/tr/index.md) yardımcı olun.
-
-### Bu Dilekçeleri İmzalayın
-- [Şu change.org dilekçesini imazalayın](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 

@@ -51,7 +51,25 @@ Até que eles tenham demonstrado evidências de que será possível contornar o 
 
 </div>
 
-## Como você pode ajudar
+## Como você pode ajudar {#help}
+
+### Desenvolvedores: Resistam e rejeitem {#developers}
+
+Se você é um desenvolvedor de aplicativo, _**não se inscreva**_ no programa de acesso antecipado, faça verificação de identidade, ou aceite um convite para o Android Developer Console. Responda (educadamente) qualquer convite com uma lista de preocupações e objeções.
+
+—— _É somente através do consentimento dos desenvolvedores que o plano de tomada de controle pode ter sucesso._ ——
+
+Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreverem no programa. Use fóruns comunitários, mídias sociais e postagens em blogs para espalhar a mensagem. Inclua a [biblioteca FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) no seu código para informar os usuários do seu aplicativo.
+
+### Todos: Faça sua voz ser ouvida {#everyone}
+
+- [Instale a F-Droid](https://f-droid.org) em seus dispositivos Android. Quanto mais gente usando lojas alternativas de aplicativos, mais difícil será de desligá-las.
+- Forneça feedback diretamente ao Google usando sua [pesquisa sobre os requisitos de verificação de desenvolvedores do Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Faça sua voz ser ouvida nas redes sociais e em posts em blogs, e referencie <https://keepandroidopen.org>
+- Combara "astroturfing": quando encontrar posts suspeitos em fóruns de comunidades e nas redes sociais que suportem essa política (“Bem, na verdade...“), desafie-os e não seja tímido.
+- Ajude este projeto [editando essa página](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/pt-BR/index.md) e adicione mais informações úteis.
+- [Assine essa petição em change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Consumidores: Contatem os órgãos reguladores nacionais {#consumers}
 
@@ -167,21 +185,3 @@ As reclamações são especialmente impactantes quando são escritas por um cida
 - Contact the [Ministry of Digital Transformation](https://thedigital.gov.ua/)
 - Contact the [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/)
   
-
-### Desenvolvedores: Resistam e rejeitem
-
-Se você é um desenvolvedor de aplicativo, _**não se inscreva**_ no programa de acesso antecipado, faça verificação de identidade, ou aceite um convite para o Android Developer Console. Responda (educadamente) qualquer convite com uma lista de preocupações e objeções.
-
-—— _É somente através do consentimento dos desenvolvedores que o plano de tomada de controle pode ter sucesso._ ——
-
-Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreverem no programa. Use fóruns comunitários, mídias sociais e postagens em blogs para espalhar a mensagem. Inclua a [biblioteca FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) no seu código para informar os usuários do seu aplicativo.
-
-### Todos: Faça sua voz ser ouvida
-
-- [Instale a F-Droid](https://f-droid.org) em seus dispositivos Android. Quanto mais gente usando lojas alternativas de aplicativos, mais difícil será de desligá-las.
-- Forneça feedback diretamente ao Google usando sua [pesquisa sobre os requisitos de verificação de desenvolvedores do Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Faça sua voz ser ouvida nas redes sociais e em posts em blogs, e referencie <https://keepandroidopen.org>
-- Combara "astroturfing": quando encontrar posts suspeitos em fóruns de comunidades e nas redes sociais que suportem essa política (“Bem, na verdade...“), desafie-os e não seja tímido.
-- Ajude este projeto [editando essa página](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/pt-BR/index.md) e adicione mais informações úteis.
-- [Assine essa petição em change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
-

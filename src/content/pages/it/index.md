@@ -50,7 +50,27 @@ Fino a quando non avranno dimostrato con prove concrete che sarà possibile aggi
 
 </div>
 
-## Come puoi aiutare
+## Come puoi aiutare {#help}
+
+### Sviluppatori: resistete e rifiutate {#developers}
+
+Se sei uno sviluppatore di applicazioni, _**non iscriverti**_ al programma di accesso anticipato, non effettuare la verifica dell'identità e non accettare l'invito alla Android Developer Console. Rispondi (educatamente) a qualsiasi invito con un elenco delle tue preoccupazioni e obiezioni.
+
+—— _Solo attraverso il consenso degli sviluppatori il loro piano di presa del potere potrà avere successo._ ——
+
+Scoraggia i colleghi sviluppatori di applicazioni e le organizzazioni dall'iscriversi al programma. Utilizza i forum della comunità, i social media e gli articoli dei blog per diffondere il messaggio. Includi la [libreria FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) nel tuo codice per informare gli utenti delle tue applicazioni.
+
+Se sei dipendente o collaboratore di Google con una coscienza pulita e hai ulteriori informazioni sul programma, compresi i dettagli tecnici sull'implementazione previsti o ulteriori motivazioni a suo sostegno, contatta [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) da un computer _non aziendale_ e da un account _non gmail_. Le tue informazioni saranno trattate con la massima riservatezza.
+
+### A tutti: fate sentire la vostra voce {#everyone}
+
+- [Installa F-Droid](https://f-droid.org) sui tuoi dispositivi Android. Più persone utilizzano app store alternativi, più difficile sarà chiuderli.
+- Invia il tuo feedback direttamente a Google utilizzando il [sondaggio sui requisiti di verifica per gli sviluppatori Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Fai sentire la tua voce sui social media e con gli articoli sui blog e inserisci il link a <https://keepandroidopen.org>.
+- Combatti la manipolazione dell'opinione pubblica: quando trovi articoli-post sospetti sui forum della comunità e sui social media che sostengono la politica ("Beh, in realtà..."), confutali e non essere timido.
+- Aiuta questo progetto [modificando questa pagina](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/it/index.md) con informazioni più utili.
+- [Firma questa petizione su change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
 
 ### Consumatori: contattate le autorità di regolamentazione nazionali {#consumers}
 
@@ -168,23 +188,3 @@ I reclami hanno un impatto particolarmente significativo quando sono redatti da 
 - Contatta [National Commission for the State Regulation of Electronic Communications](https://nkek.gov.ua/)
 - Contatta [Ministry of Digital Transformation](https://thedigital.gov.ua/)
 - Contatta [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/)
-
-### Sviluppatori: resistete e rifiutate
-
-Se sei uno sviluppatore di applicazioni, _**non iscriverti**_ al programma di accesso anticipato, non effettuare la verifica dell'identità e non accettare l'invito alla Android Developer Console. Rispondi (educatamente) a qualsiasi invito con un elenco delle tue preoccupazioni e obiezioni.
-
-—— _Solo attraverso il consenso degli sviluppatori il loro piano di presa del potere potrà avere successo._ ——
-
-Scoraggia i colleghi sviluppatori di applicazioni e le organizzazioni dall'iscriversi al programma. Utilizza i forum della comunità, i social media e gli articoli dei blog per diffondere il messaggio. Includi la [libreria FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) nel tuo codice per informare gli utenti delle tue applicazioni.
-
-Se sei dipendente o collaboratore di Google con una coscienza pulita e hai ulteriori informazioni sul programma, compresi i dettagli tecnici sull'implementazione previsti o ulteriori motivazioni a suo sostegno, contatta [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) da un computer _non aziendale_ e da un account _non gmail_. Le tue informazioni saranno trattate con la massima riservatezza.
-
-### A tutti: fate sentire la vostra voce
-
-- [Installa F-Droid](https://f-droid.org) sui tuoi dispositivi Android. Più persone utilizzano app store alternativi, più difficile sarà chiuderli.
-- Invia il tuo feedback direttamente a Google utilizzando il [sondaggio sui requisiti di verifica per gli sviluppatori Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Fai sentire la tua voce sui social media e con gli articoli sui blog e inserisci il link a <https://keepandroidopen.org>.
-- Combatti la manipolazione dell'opinione pubblica: quando trovi articoli-post sospetti sui forum della comunità e sui social media che sostengono la politica ("Beh, in realtà..."), confutali e non essere timido.
-- Aiuta questo progetto [modificando questa pagina](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/it/index.md) con informazioni più utili.
-- [Firma questa petizione su change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
-

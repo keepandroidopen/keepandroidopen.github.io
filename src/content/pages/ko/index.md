@@ -54,7 +54,7 @@ lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:
 </div>
 
 
-## 제가 어떻게 도울 수 있나요?
+## 제가 어떻게 도울 수 있나요? {#help}
 
 ### 개발자로써: 거절하고, 저항하세요. {#developers}
 
@@ -65,6 +65,16 @@ lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:
 다른 개발자나 단체에서 Android Developer Console에 가입하지 않도록 제지하세요. 커뮤니티 포럼, SNS, 블로그 등을 통해 이 메시지를 공유해주세요. [FreeDroidWarn 라이브러리](https://github.com/woheller69/FreeDroidWarn)를 애플리케이션에 추가해 사용자들에게 이 상황을 알려주세요.
 
 당신이 Google 직원 또는 관계자이고, 프로그램에 대한 추가적인 정보(세부적인 로드맵이나 내부적인 자료 등)를 가지고 계시다면, _근무 외 기기 및 Gmail 계정이 아닌_ 다른 계정으로 [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)에 연락해 주십시오. 당신의 정보는 엄격하게 기밀로 유지될 것입니다.
+
+
+### 모두에게: 목소리를 내어 주세요 {#everyone}
+
+- 대체 앱스토어 [F-Droid](https://f-droid.org)를 설치해주세요. 더 많은 사용자가 제삼자 앱스토어를 사용할 수록, Google이 이 서비스들을 종료시키기 어렵게 만듭니다.
+- [Android developer verification requirements survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)에서 여러분의 의견을 Google에 직접적으로 제출해주세요.
+- <https://keepandroidopen.org/ko>을 SNS와 블로그 게시글로 공유해주세요.
+- 가짜 여론 조성에 맞서 싸우세요: 커뮤니티 포럼과 SNS에서 정책을 지지하는 의심스러운 게시물을 발견하면 망설이지 말고 반론하세요.
+- [이 페이지를 수정하여](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ko/index.md) 더 유용한 정보를 추가하고, 번역을 개선하여 주세요.
+- [change.org 청원에 서명해주세요.](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
 
 
 ### 사용자로써: 규제 당국에 문의해주세요. {#consumers}
@@ -192,14 +202,3 @@ lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:
 - Contact the [National Commission for the State Regulation of Electronic Communications](https://nkek.gov.ua/)
 - Contact the [Ministry of Digital Transformation](https://thedigital.gov.ua/)
 - Contact the [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/)
-
-
-### 모두에게: 목소리를 내어 주세요 {#everyone}
-
-- 대체 앱스토어 [F-Droid](https://f-droid.org)를 설치해주세요. 더 많은 사용자가 제삼자 앱스토어를 사용할 수록, Google이 이 서비스들을 종료시키기 어렵게 만듭니다.
-- [Android developer verification requirements survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)에서 여러분의 의견을 Google에 직접적으로 제출해주세요.
-- <https://keepandroidopen.org/ko>을 SNS와 블로그 게시글로 공유해주세요.
-- 가짜 여론 조성에 맞서 싸우세요: 커뮤니티 포럼과 SNS에서 정책을 지지하는 의심스러운 게시물을 발견하면 망설이지 말고 반론하세요.
-- [이 페이지를 수정하여](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ko/index.md) 더 유용한 정보를 추가하고, 번역을 개선하여 주세요.
-- [change.org 청원에 서명해주세요.](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
-
