@@ -8,9 +8,9 @@ contact_header: "İrtibat"
 contact_email: "E-posta"
 site_problems_header: "Sorunlar"
 site_report_issues: "Site Sorunlarını Raporlayın"
-site_disclaimer: "**Disclaimer**: Bu site kâr amacı gütmez ve topluluk tarafından yönetilen bir girişimdir. Sadece bigilendirme ve eğitim amaçları bulunur."
-site_privacy: "**Mahremiyet Beyanı**: Bu site hiçbir çerez kullanmaz ve kullanıcıları takip etmez veya kaydetmez."
-site_copyright: "**Telif Hakkı**: Yok. Bu çalışma kamu malıdır:"
+site_disclaimer: "**Disclaimer**: Bu site kâr amacı gütmez ve topluluk tarafından yönetilen bir girişimdir. Sadece bigilendirme ve eğitim amaçları için bulunur."
+site_privacy: "**Gizlilik**: Bu site hiçbir çerez kullanmaz ve kullanıcıları takip etmez veya kaydetmez."
+site_copyright: "**Telif Hakkı**: Telif hakkı yoktur. Bu çalışma kamu malıdır:"
 
 lockdown_banner: "Android kısıtlı bir platform haline gelecek."
 ---
@@ -33,7 +33,7 @@ Bu kayıt, şunlara sebep olacaktır:
 
 ## Bu, haklarınız için ne anlama gelir
 
-➤ **Bir tüketici** olarak siz, Android cihazınızı Google'ın Android için seçtiğiniz her türlü yazılımı çalıştırabileceğiniz açık bir bilgisayar platformu olduğu vaadine inanarak satın aldınız. Bunun yerine, Google gelecek seneden itibaren karşılıklı rıza olmadan işletim sisteminize bu hakkı geri alınamaz bir şekilde engelleyen bir güncelleme kuracak ve bu sizi, hangi yazılıma güvenebileceğinize izin verilmesi mevzusunda onların kararına tabi bırakacaktır.
+➤ **Bir tüketici** olarak siz, Android cihazınızı Google'ın Android için seçtiğiniz her türlü yazılımı çalıştırabileceğiniz açık bir bilgisayar platformu olduğu vaadine inanarak satın aldınız. Bunun yerine, Google gelecek seneden itibaren karşılıklı rıza olmadan işletim sisteminize bu hakkı geri alınamaz bir şekilde engelleyen bir güncelleme yapacak ve bu sizi, hangi yazılıma güvenebileceğinize izin verilmesi mevzusunda onların kararına tabi bırakacaktır.
 
 ➤ **Bir geliştirici** olarak siz, önceden Google'ın onayını almadan artık uygulama geliştirip arkadaşlarınız, aileniz ve topluluk ile paylaşamayacaksınız. Android'in vaadi — ve kendisini iPhone'dan ayırmak için kullandığı pazarlama avantajı — daima onun "açık" oluşuydu. Ancak Google açıkça düzenleme kontrolü beraber Android ekosistemi üzerinde yeteri kadar kontrol elde ettiğini düşünüyor, ki bu ilkeyi artık sonuçlarına katlanmak zorunda kalmadan bir kenara atmayı göze alıyor.
 
@@ -150,16 +150,21 @@ Tüm dünyada düzenleyici kurumlar hakikaten teknoloji sektöründeki tekeller 
 - [Philippine Competition Commission (PCC)](https://www.phcc.gov.ph/) ile irtibata geçin
 
 
-#### Ukraine
+#### Ukranya
 
-- Contact the [National Commission for the State Regulation of Electronic Communications](https://nkek.gov.ua/)
-- Contact the [Ministry of Digital Transformation](https://thedigital.gov.ua/)
-- Contact the [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/)
+- [National Commission for the State Regulation of Electronic Communications](https://nkek.gov.ua/) ile irtibata geçin
+- [Ministry of Digital Transformation](https://thedigital.gov.ua/) ile irtibata geçin
+- [Antimonopoly Committee of Ukraine](https://amcu.gov.ua/) ile irtibata geçin
 
 
 ## Sesiniz duyulsun
 
-### Açık Mektubu İmzalayın
+## Herkes, sesiniz duyulsun
+- Android cihazlarınıza [F-Droid kurun](https://f-droid.org). Alternatif uygulama pazarları kullanan kişi sayısı arttıkça, onları devreden çıkarmak da o kadar zor olacaktır.
+- Google'a doğrudan geri bildirimde bulunun, onların [Android geliştirici denetleme gereksinimleri anketini kullanarak](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Sesinizin sosyal medya ve blog makaleleriyle duyulmasını sağlayın ve https://keepandroidopen.org sitesine bağlantı koyun.
+- Yanıltıcı mesajlarla mücadele edin: topluluk forumlarında ve sosyal medyada bu şartları destekleyen şüpheli mesajlara rastladığınızda (“İyi hoş, tamam da…”), onları sorgulayın ve utangaç olmayın.
+- Bu projeye [bu sayfayı faydalı bilgilerle düzenleyerek](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/tr/index.md) yardımcı olun.
 
 ### Bu Dilekçeleri İmzalayın
 - [Şu change.org dilekçesini imazalayın](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
@@ -197,13 +202,6 @@ Bu projeler, mobil donanım alanında çok ihtiyaç duyulan rekabeti sağlamak i
 - [Mobian](https://mobian-project.org/)
 - [LineageOS](https://lineageos.org/)
 - [/e/OS](https://e.foundation/e-os/)
-
-## Diğerleri
-- Android cihazlarınıza [F-Droid kurun](https://f-droid.org). Ne kadar çok kişi alternatif marketler kullanırsa, onları devreden çıkarmak o kadar zor olacaktır.
-- Google'a doğrudan geri bildirimde bulunun, onların [Android geliştirici denetleme gereksinimleri anketini kullanarak](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Sesinizin sosyal medya ve blog makaleleriyle duyulmasını sağlayın ve https://keepandroidopen.org sitesine bağlantı koyun.
-- Yanıltıcı mesajlarla mücadele edin: topluluk forumlarında ve sosyal medyada bu şartları destekleyen şüpheli mesajlara rastladığınızda (“İyi hoş, tamam da…”), onları sorgulayın ve utangaç olmayın.
-- Bu projeye [bu sayfayı faydalı bilgilerle düzenleyerek](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/tr/index.md) yardımcı olun.
 
 ## Referanslar
 
@@ -281,5 +279,5 @@ Bu projeler, mobil donanım alanında çok ihtiyaç duyulan rekabeti sağlamak i
 
 ### Çeşitli
 
-- [Android Developer Verification Discourse](https://gist.github.com/agnostic-apollo/b8d8daa24cbdd216687a6bef53d417a6) by Termux developer [agnostic-apollo](https://github.com/agnostic-apollo)
+- [Android Developer Verification Discourse](https://gist.github.com/agnostic-apollo/b8d8daa24cbdd216687a6bef53d417a6) Termux developer tarafından [agnostic-apollo](https://github.com/agnostic-apollo)
 - [Opposition recommendations](https://docs.google.com/document/d/1axlQkdc-wseda9PL2ZP0fgy3I4DqAVVlK5kJw4ksIwU)
