@@ -1,5 +1,5 @@
 ---
-title: "Zachowaj Androida otwartym"
+title: "Obrońmy otwartość Androida"
 lang: pl
 description: "Wspieramy Androida jako wolną, otwartą platformę, na której każdy może tworzyć aplikacje."
 
