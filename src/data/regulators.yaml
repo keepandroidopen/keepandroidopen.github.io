@@ -305,18 +305,6 @@ countries:
           pt-BR: "~~Email (EXTINTO): [antitrust.complaints@usdoj.gov](mailto:antitrust.complaints@usdoj.gov?cc=usdoj@keepandroidopen.org)~~"
           zh-CN: "~~电子邮件 (失效)：[antitrust.complaints@usdoj.gov](mailto:antitrust.complaints@usdoj.gov?cc=usdoj@keepandroidopen.org)~~"
           zh-TW: "~~電子郵件 (**失效**)：[antitrust.complaints@usdoj.gov](mailto:antitrust.complaints@usdoj.gov?cc=usdoj@keepandroidopen.org)~~"
-      - text:
-          en: "_Note: Due to the ongoing [US government shutdown](https://www.npr.org/series/g-s1-91413/government-shutdown-2025), it may take a long time before complaints are acknowledged and registered._"
-          de: "*Hinweis: Aufgrund des [US government shutdown](https://www.npr.org/series/g-s1-91413/government-shutdown-2025) kann es lange dauern, bis Beschwerden bearbeitet werden.*"
-          fr: "_Remarque : En raison du [US government shutdown](https://www.npr.org/series/g-s1-91413/government-shutdown-2025), il pourrait s'écouler beaucoup de temps avant que les plaintes ne soient prises en compte et enregistrées._"
-          es: "_Nota: Debido al [cierre del Gobierno de EE. UU.](https://www.npr.org/series/g-s1-91413/government-shutdown-2025), es posible que transcurra mucho tiempo antes de que las reclamaciones sean atendidas y registradas._"
-          it: "_Nota: a causa dell'attuale [blocco delle attività amministrative negli Stati Uniti](https://www.npr.org/series/g-s1-91413/government-shutdown-2025), potrebbe essere necessario molto tempo prima che i reclami vengano presi in carico e registrati._"
-          cs: "_Poznámka: Kvůli probíhajícímu [shutdownu vlády USA](https://www.npr.org/series/g-s1-91413/government-shutdown-2025) může trvat dlouho, než budou stížnosti potvrzeny a zaregistrovány._"
-          sk: "_Poznámka: Vzhľadom na pretrvávajúce [uzavretie vlády USA](https://www.npr.org/series/g-s1-91413/government-shutdown-2025) môže trvať dlhší čas, kým budú sťažnosti prijaté a zaregistrované._"
-          uk: "_Примітка: Через поточне [припинення роботи уряду США](https://www.npr.org/series/g-s1-91413/government-shutdown-2025), може знадобитися багато часу, перш ніж скарги будуть підтверджені та зареєстровані._"
-          pt-BR: "_Nota: Devido ao [US government shutdown](https://www.npr.org/series/g-s1-91413/government-shutdown-2025) em andamento, pode levar muito tempo até que as reclamações sejam reconhecidas e registradas._"
-          zh-CN: "_注意: 由于持续的[美国政府停摆](https://www.npr.org/series/g-s1-91413/government-shutdown-2025)，投诉可能需要很长时间才能得到确认和登记。_"
-          zh-TW: "_註：茲因[美國政府停擺](https://www.npr.org/series/g-s1-91413/government-shutdown-2025)持續，投訴或相當需時確認與註冊。_"
   - id: brazil
     name:
       en: "Brazil"
