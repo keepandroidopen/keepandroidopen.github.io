@@ -1,20 +1,21 @@
 ---
-import { languages, markdownify } from '../i18n/config';
+import { languages } from '../i18n/config';
 import ThemeToggle from '../components/ThemeToggle.astro';
-import Base from './Base.astro'; // Import the new Base layout
+import Footer from '../components/Footer.astro';
+import Base from './Base.astro';
 
 interface Props {
   title: string;
   lang: string;
   description: string;
-  contact_header: string;
-  contact_email: string;
-  site_problems_header: string;
-  site_report_issues: string;
-  site_disclaimer: string;
-  site_privacy: string;
-  site_copyright: string;
-  lockdown_banner: string;
+  contact_header?: string;
+  contact_email?: string;
+  site_problems_header?: string;
+  site_report_issues?: string;
+  site_disclaimer?: string;
+  site_privacy?: string;
+  site_copyright?: string;
+  lockdown_banner?: string;
 }
 
 const {
@@ -39,7 +40,7 @@ const languageEntries = Object.entries(languages);
   description={description} 
 >
   <div id="kao-banner"></div>
-  <script is:inline src="/banner.js?id=kao-banner&size=normal&hidebutton=off"></script>
+  <script is:inline src="/banner.js?id=kao-banner&link=none&size=normal&hidebutton=off"></script>
   <header>
     <span class="header-icons"><a href="https://techhub.social/@keepandroidopen" class="header-icon-link" aria-label="Mastodon" title="Mastodon" rel="me" target="_blank"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16.45 17.77c2.77-.33 5.18-2.03 5.49-3.58.47-2.45.44-5.97.44-5.97 0-4.77-3.15-6.17-3.15-6.17-1.58-.72-4.3-1.03-7.13-1.05h-.07c-2.83.02-5.55.33-7.13 1.05 0 0-3.14 1.4-3.14 6.17v.91c-.01.88-.02 1.86 0 2.88.12 4.67.87 9.27 5.2 10.4 2 .53 3.72.64 5.1.57 2.51-.14 3.92-.9 3.92-.9l-.08-1.8s-1.8.56-3.8.5c-2-.08-4.1-.22-4.43-2.66a4.97 4.97 0 0 1-.04-.68s1.96.48 4.44.59c1.51.07 2.94-.09 4.38-.26Zm2.22-3.4h-2.3v-5.6c0-1.19-.5-1.79-1.5-1.79-1.1 0-1.66.71-1.66 2.12v3.07h-2.3V9.1c0-1.4-.55-2.12-1.65-2.12-1 0-1.5.6-1.5 1.78v5.61h-2.3V8.6c0-1.18.3-2.12.9-2.81a3.17 3.17 0 0 1 2.47-1.05c1.18 0 2.07.45 2.66 1.35l.57.96.58-.96a2.97 2.97 0 0 1 2.66-1.35c1.01 0 1.83.36 2.46 1.05.6.7.9 1.63.9 2.81v5.78Z"></path></svg></a><ThemeToggle /></span>
     <h1>{title}</h1>
@@ -55,32 +56,14 @@ const languageEntries = Object.entries(languages);
   <main>
     <slot />
   </main>
-  <footer>
-    <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 2em; margin-left: auto; margin-right: auto;">
-      <div style="flex: 1; min-width: 22em; margin: 20px;">
-        <h4 style="margin-top: 0; margin-bottom: 10px; font-size: 16px;">
-          {contact_header}
-        </h4>
-        <ul style="padding: 0; margin: 0;">
-          <li style="list-style: none; margin-bottom: 5px;">{contact_email}: <a href="mailto:info@keepandroidopen.org" style="text-decoration: none;">info@keepandroidopen.org</a></li>
-          <li style="list-style: none; margin-bottom: 5px;">Mastodon: <a target="_blank" href="https://techhub.social/@keepandroidopen" style="text-decoration: none;">@keepandroidopen@techhub.social</a></li>
-          <li style="list-style: none; margin-bottom: 5px;">{site_problems_header}: <a target="_blank" href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" style="text-decoration: none;">{site_report_issues}</a></li>
-          <li style="list-style: none; margin-bottom: 5px;"><a href="/banner" style="text-decoration: none;">Add countdown banner to your site</a></li>
-        </ul>
-      </div>
-      <div style="flex: 3; min-width: 280px; margin: 20px;">
-        <p><Fragment set:html={markdownify(site_disclaimer)} /></p>
-        <p><Fragment set:html={markdownify(site_privacy)} /></p>
-        <p>
-          <Fragment set:html={markdownify(site_copyright)} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0 logo" style="max-width: 1em; max-height: 1em; margin-left: .2em;"><img src="/img/zero.svg" alt="CC0 zero logo" style="max-width: 1em; max-height: 1em; margin-left: .2em;">
-        </p>
-      </div>
-      <div style="flex: 1; min-width: 200px; margin: 20px; text-align: center; justify-content: center; align-items: center;">
-        <div class="outerlync" style="margin-top: 0; margin-bottom: 10px; font-size: 20px;">
-          <img class="innerlync" alt="Altered Deal Logo" src="/img/altered-deal.png" style="width: 150px; margin-left: auto; margin-right: auto; text-align: center; justify-content: center; align-items: center; display: flex;">
-        </div>
-      </div>
-    </div>
-  </footer>
+  <Footer
+    contact_header={contact_header}
+    contact_email={contact_email}
+    site_problems_header={site_problems_header}
+    site_report_issues={site_report_issues}
+    site_disclaimer={site_disclaimer}
+    site_privacy={site_privacy}
+    site_copyright={site_copyright}
+  />
 
 </Base>

@@ -1,0 +1,50 @@
+---
+import { markdownify } from '../i18n/config';
+
+interface Props {
+  contact_header?: string;
+  contact_email?: string;
+  site_problems_header?: string;
+  site_report_issues?: string;
+  site_disclaimer?: string;
+  site_privacy?: string;
+  site_copyright?: string;
+}
+
+const {
+  contact_header = "Contact",
+  contact_email = "Email",
+  site_problems_header = "Problems",
+  site_report_issues = "Report Site Issues",
+  site_disclaimer = "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes.",
+  site_privacy = "**Privacy:** This site uses no cookies and performs no user tracking or logging.",
+  site_copyright = "**Copyright:** None. This work is marked",
+} = Astro.props;
+---
+<footer>
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 2em; margin-left: auto; margin-right: auto;">
+    <div style="flex: 1; min-width: 22em; margin: 20px;">
+      <h4 style="margin-top: 0; margin-bottom: 10px; font-size: 16px;">
+        {contact_header}
+      </h4>
+      <ul style="padding: 0; margin: 0;">
+        <li style="list-style: none; margin-bottom: 5px;">{contact_email}: <a href="mailto:info@keepandroidopen.org" style="text-decoration: none;">info@keepandroidopen.org</a></li>
+        <li style="list-style: none; margin-bottom: 5px;">Mastodon: <a target="_blank" href="https://techhub.social/@keepandroidopen" style="text-decoration: none;">@keepandroidopen@techhub.social</a></li>
+        <li style="list-style: none; margin-bottom: 5px;">{site_problems_header}: <a target="_blank" href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" style="text-decoration: none;">{site_report_issues}</a></li>
+        <li style="list-style: none; margin-bottom: 5px;"><a href="/banner" style="text-decoration: none;">Add countdown banner to your site</a></li>
+      </ul>
+    </div>
+    <div style="flex: 3; min-width: 280px; margin: 20px;">
+      <p><Fragment set:html={markdownify(site_disclaimer)} /></p>
+      <p><Fragment set:html={markdownify(site_privacy)} /></p>
+      <p>
+        <Fragment set:html={markdownify(site_copyright)} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0 logo" style="max-width: 1em; max-height: 1em; margin-left: .2em;"><img src="/img/zero.svg" alt="CC0 zero logo" style="max-width: 1em; max-height: 1em; margin-left: .2em;">
+      </p>
+    </div>
+    <div style="flex: 1; min-width: 200px; margin: 20px; text-align: center; justify-content: center; align-items: center;">
+      <div class="outerlync" style="margin-top: 0; margin-bottom: 10px; font-size: 20px;">
+        <img class="innerlync" alt="Altered Deal Logo" src="/img/altered-deal.png" style="width: 150px; margin-left: auto; margin-right: auto; text-align: center; justify-content: center; align-items: center; display: flex;">
+      </div>
+    </div>
+  </div>
+</footer>

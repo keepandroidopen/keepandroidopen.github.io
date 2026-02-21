@@ -1,7 +1,7 @@
 ---
-import { languages, markdownify } from '../i18n/config';
 import ThemeToggle from '../components/ThemeToggle.astro';
-import Base from './Base.astro'; // Import the new Base layout
+import Footer from '../components/Footer.astro';
+import Base from './Base.astro';
 
 interface Props {
   title: string;
@@ -17,10 +17,10 @@ const {
 
 ---
 
-<Base 
-  title={title} 
-  lang={lang} 
-  description={description} 
+<Base
+  title={title}
+  lang={lang}
+  description={description}
 >
   <header>
     <h1><ThemeToggle /></h1>
@@ -28,4 +28,5 @@ const {
   <main>
     <slot />
   </main>
+  <Footer />
 </Base>
