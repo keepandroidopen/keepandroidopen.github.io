@@ -1,0 +1,14 @@
+---
+import Letter from "../layouts/Letter.astro";
+import { getEntry } from 'astro:content';
+
+const entry = await getEntry('pages', 'banner');
+if (!entry) throw new Error('Banner content not found');
+const { Content } = await entry.render();
+const { data } = entry;
+---
+<Letter {...data}>
+  <article>
+    <Content />
+  </article>
+</Letter>

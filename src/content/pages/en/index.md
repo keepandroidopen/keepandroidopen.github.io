@@ -61,7 +61,7 @@ If you are an app developer, _**do not sign up**_ for the early access program, 
 
 —— _It is only through developer acquiescence that their takeover plan can possibly succeed._ ——
 
-Discourage fellow app developers and organizations from signing up to the program. Use community forums, social media, and blog posts to spread the message. Include the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) in your code to inform your app users.
+Discourage fellow app developers and organizations from signing up to the program. Use community forums, social media, and blog posts to spread the message. Include the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) in your code to inform your app users. If you manage a web site, consider [adding the countdown banner](/banner) to the top of your page.
 
 If you are a Google employee or contractor of good conscience and have additional insight about the program, including planned technical implementation details or additional rationales for the program, please reach out to [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a _non-work_ machine and a _non-gmail_ account. Your information will be kept in strict confidence.
 
@@ -73,3 +73,7 @@ If you are a Google employee or contractor of good conscience and have additiona
 - Combat astroturfing: when you encounter suspect posts on community forums and social media in support of the policy (“Well, actually…”), challenge them and do not be shy.
 - Help this project out by [editing this page](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) with more useful information.
 - [Sign this change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+
+### Web Site Owners: Show your support {#webmasters}
+
+[Add the countdown banner to your site](/banner) with a single `<script>` tag — no dependencies, 20 built-in localizations, fully customizable.

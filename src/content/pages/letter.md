@@ -34,7 +34,7 @@ lang: en
     text-color: var(--pico-text) !important;
 }
 </style>
-<!-- <div class="draft-watermark">Draft</div> -->
+<div class="draft-watermark">Draft</div>
 
 ```
 Date: February 24, 2026
