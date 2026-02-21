@@ -9,6 +9,7 @@ export async function getStaticPaths() {
   return pages
     .filter((page) => page.slug !== 'en')
     .filter((page) => page.slug !== 'letter')
+    .filter((page) => page.slug !== 'banner')
     .map((page) => {
       // Use id (preserves original case: pt-BR, zh-CN, zh-TW)
       const locale = page.id.replace('/index.md', '');
