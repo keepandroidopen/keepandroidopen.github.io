@@ -15,7 +15,7 @@ site_copyright: "**版权:** 无。本著作已标记为"
 lockdown_banner: "安卓将成为一个封闭平台"
 ---
 
-2025年八月，Google [宣布](https://developer.android.com/developer-verification)从明年开始，
+2025年八月，Google [宣布](https://developer.android.google.cn/developer-verification)从明年开始，
 未先经过向Google集中注册，将不再能为Android平台开发应用程序。
 该注册将涉及：
 
@@ -42,7 +42,7 @@ lockdown_banner: "安卓将成为一个封闭平台"
 
 ### 更新：Google **并未**在开发者验证上"退让" {#clarification}
 
-与一则含糊的[提及](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html)所述的可能存在的"高级流程"——该流程或许最终将允许"有经验的用户接受安装未经验证的软件的风险"——相反，Google 对该计划的[描述](https://developer.android.com/developer-verification)仍然明确指出：
+与一则含糊的[提及](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html)所述的可能存在的"高级流程"——该流程或许最终将允许"有经验的用户接受安装未经验证的软件的风险"——相反，Google 对该计划的[描述](https://developer.android.google.cn/developer-verification)仍然明确指出：
 
 > 从 2026 年 9 月开始，Android 将要求所有应用都必须由经过验证的开发者注册，才能安装在 已获认证的 Android 设备上。
 
