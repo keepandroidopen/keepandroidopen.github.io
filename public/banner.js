@@ -33,7 +33,7 @@
     fr:      "Android deviendra une plateforme verrouill\u00E9e",
     id:      "Android akan menjadi platform yang terkunci.",
     it:      "Android diventer\u00E0 una piattaforma bloccata",
-    ko:      "Android\uAC00 \uD3D0\uC1E0\uB41C \uD50C\uB7AB\uD3FC\uC774 \uB418\uAE30 \uAE4C\uC9C0 \uB0A8\uC740 \uC2DC\uAC04:",
+    ko:      "Android\uAC00 \uD3D0\uC1C4\uB41C \uD50C\uB7AB\uD3FC\uC774 \uB418\uAE30 \uAE4C\uC9C0 \uB0A8\uC740 \uC2DC\uAC04:",
     pl:      "Android stanie si\u0119 platform\u0105 zamkni\u0119t\u0105",
     "pt-BR": "O Android se tornar\u00E1 uma plataforma fechada",
     ru:      "Android \u0441\u0442\u0430\u043D\u0435\u0442 \u0437\u0430\u043A\u0440\u044B\u0442\u043E\u0439 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u043E\u0439 \u0447\u0435\u0440\u0435\u0437",

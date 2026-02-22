@@ -12,7 +12,7 @@ site_disclaimer: "**면책 조항:** 본 사이트는 커뮤니티 주도의 비
 site_privacy: "**개인정보:** 본 사이트는 쿠키 등의 정보 수집 장치, 추적 및 기록 등을 하지 않습니다."
 site_copyright: "**저작권:** 없음. 사이트는 다음 저작권으로 배포됩니다:"
 
-lockdown_banner: "Android가 폐쇠된 플랫폼이 되기 까지 남은 시간:"
+lockdown_banner: "Android가 폐쇄된 플랫폼이 되기 까지 남은 시간:"
 ---
 
 2025년 8월, Google은 2026년 9월부터 Google에 등록하지 않은 개발자의 애플리케이션을 Android 플랫폼에 설치할 수 없다는
