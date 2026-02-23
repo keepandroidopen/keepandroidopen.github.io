@@ -11,21 +11,118 @@ console.log(`entry: ${entry}`);
 if (!entry) throw new Error('Letter content not found');
 const { Content } = await entry.render();
 const { data } = entry;
+
+// Convert ISO 3166-1 alpha-2 code to flag emoji (e.g. "US" → 🇺🇸)
+function regionFlag(code?: string): string {
+  if (!code || code.length !== 2) return "\u{1F310}";
+  return String.fromCodePoint(
+    ...code.toUpperCase().split("").map(c => 0x1F1E6 + c.charCodeAt(0) - 65)
+  );
+}
 ---
 <Letter {...data}>
   <article class="prose dark:prose-invert">
     <Content />
-    <!--
-    <div class="signatures-block">
-      <h2>Signatures</h2>
-      <ul>
-        {signatures.map(signature => (
+    <div class="signatories">
+      <div class="sig-rule"></div>
+      <h2>Signatories</h2>
+      <ol>
+        {signatures.map((sig: any) => (
           <li>
-            <strong>{signature.organization}</strong> (<a target="_blank" href={`https://${signature.url}`}>{signature.url}</a>)
+            <span class="sig-flag">{regionFlag(sig.region)}</span>
+            <div class="sig-details">
+              <span class="sig-name">{sig.organization}</span>
+              <a target="_blank" href={`https://${sig.url}`}>{sig.url}</a>
+            </div>
           </li>
         ))}
-      </ul>
+      </ol>
+      <div class="sig-rule"></div>
     </div>
-    -->
   </article>
 </Letter>
+
+<style is:global>
+  .signatories {
+    margin-top: 4rem;
+  }
+
+  .sig-rule {
+    border: none;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #333, transparent);
+    margin: 0 auto;
+    max-width: 36rem;
+  }
+
+  .signatories h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-variant: small-caps;
+    letter-spacing: 0.25em;
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .sig-count {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 0.8rem;
+    opacity: 0.5;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  .signatories ol {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 2rem;
+    max-width: 36rem;
+  }
+
+  .signatories li {
+    display: flex;
+    align-items: flex-start;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
+  }
+
+  .signatories li:last-child {
+    border-bottom: none;
+    padding-bottom: 1.5rem;
+  }
+
+  .sig-flag {
+    flex-shrink: 0;
+    width: 2.5rem;
+    padding-top: 0.1rem;
+    font-size: 1.3rem;
+    line-height: 1;
+  }
+
+  .sig-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .sig-name {
+    font-weight: 800;
+    font-size: 1.05rem;
+    letter-spacing: 0.01em;
+  }
+
+  .sig-details a {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+  }
+
+  .sig-details a:hover {
+    opacity: 0.8;
+  }
+</style>

@@ -1,93 +1,117 @@
 - organization: "AdGuard"
   url: "adguard.com"
   poc: "Daria Magdik <daria@adguard.com>"
-- organization: "App Fair Project"
+  region: CY
+- organization: "The App Fair Project"
   url: "appfair.org"
   poc: "Marc Prud'hommeaux <marc@appfair.org>"
-- organization: "Article 19"
+  region: FR
+- organization: "ARTICLE 19"
   url: "article19.org"
   poc: "Mark Dempsey <mark.dempsey@article19.org>"
+  region: GB
 - organization: "Aurora Store"
   url: "auroraoss.com"
   poc: "Vishal Bakhai <vishal@auroraoss.com>"
-- organization: "Center for Digital Progress"
+  region: IN
+- organization: "The Center for Digital Progress (D64)"
   url: "d-64.org"
   poc: "Esther Bauer - D64 – Zentrum für Digitalen Fortschritt <buero@d-64.org>"
-- organization: "Chaos Computer Club"
+  region: DE
+- organization: "The Chaos Computer Club (CCC)"
   url: "ccc.de"
   poc: "Elina Eickstädt <presse@ccc.de>"
+  region: DE
 - organization: "Codeberg e.V."
   url: "codeberg.org"
   poc: "Gusted <contact@codeberg.org>"
+  region: DE
 - organization: "Cryptee"
   url: "crypt.ee"
   poc: "John Ozbay <hello@johnozbay.com>"
-- organization: "Digital Rights Foundation"
+  region: EE
+- organization: "The Digital Rights Foundation"
   url: "digitalrightsfoundation.pk"
   poc: "Nighat Dad <nighat@digitalrightsfoundation.pk>"
+  region: PK
 - organization: "Digital Rights Watch"
   url: "digitalrightswatch.org.au"
   poc: "Tom Sulston <tom@digitalrightswatch.org.au>"
-- organization: "Ente"
-  url: "ente.io"
-  poc: "Vishnu Mohandas <vishnu@ente.io>"
+  region: AU
 - organization: "epicenter.works – for digital rights"
   url: "epicenter.works"
   poc: "Thomas Lohninger <thomas.lohninger@epicenter.works>"
-- organization: "E Foundation"
+  region: AT
+- organization: "/e/ Foundation"
   url: "e.foundation"
   poc: "Rik Viergever <rikviergever@e.email>"
+  region: FR
 - organization: "European Digital Rights (EDRi)"
   url: "edri.org"
   poc: "Jan Penfrat <jan.penfrat@edri.org>"
-- organization: "Electronic Frontier Foundation (EFF)"
+  region: BE
+- organization: "The Electronic Frontier Foundation (EFF)"
   url: "eff.org"
   poc: "Mitch Stoltz <mitch@eff.org>"
+  region: US
 - organization: "F-Droid"
   url: "f-droid.org"
   poc: "board@f-droid.org"
-- organization: "Free Software Foundation Europe (FSFE)"
+  region: NL
+- organization: "The Free Software Foundation Europe (FSFE)"
   url: "fsfe.org"
   poc: "Lucas Lasota <lucas.lasota@fsfe.org>"
-- organization: "Guardian Project"
+  region: DE
+- organization: "The Guardian Project"
   url: "guardianproject.info"
   poc: "Nathan Freitas <nathan@guardianproject.info>"
+  region: US
 - organization: "Obtainium"
   url: "obtainium.imranr.dev"
   poc: "Imran <contact@imranr.dev>"
-- organization: "OpenStreetMap Foundation"
+- organization: "The OpenStreetMap Foundation (OSMF)"
   url: "osmfoundation.org"
   poc: "Héctor Ochoa Ortiz <hector.ochoa.ortiz@osmfoundation.org>"
+  region: GB
 - organization: "Osservatorio Nessuno OdV"
   url: "osservatorionessuno.org"
   poc: "Giulio B <giulio@osservatorionessuno.org>"
+  region: IT
 - organization: "IzzyOnDroid"
   url: "izzyondroid.org"
   poc: "Andreas Itzchak Rehberg <izzy@izzyondroid.org>"
 - organization: "Nextcloud"
   url: "nextcloud.com"
   poc: "Jos Poortvliet <jos.poortvliet@nextcloud.com>"
+  region: DE
 - organization: "Open Rights Group (ORG)"
   url: "openrightsgroup.org"
   poc: "Jim Killock <jim@openrightsgroup.org>"
+  region: GB
 - organization: "Rossman Group"
   url: "rossmanngroup.com"
   poc: "Louis Rossmann <youtube@rossmanngroup.com>"
+  region: US
 - organization: "Software Freedom Conservancy"
   url: "sfconservancy.org"
   poc: "Denver Gingerich <denver@sfconservancy.org>"
+  region: US
 - organization: "Techlore"
   url: "techlore.tech"
   poc: "Henry Fisher <henry@techlore.tech>"
-- organization: "Tor Project"
+  region: US
+- organization: "The Tor Project"
   url: "torproject.org"
   poc: "Isabela Fernandes <isabela@torproject.org>"
+  region: US
 - organization: "Tuta Mail"
   url: "tutao.de"
   poc: "Hanna Bozakov <hanna.bozakov@tutao.de>"
-- organization: "Vivaldi"
+  region: DE
+- organization: "Vivaldi Technologies AS"
   url: "vivaldi.com"
   poc: "Jon von Tetzchner <jon@vivaldi.com>"
+  region: "NO"
 
 #- organization: "XXX"
 #  url: "XXX"
