@@ -1,5 +1,5 @@
 ---
-import { languages, markdownify } from '../i18n/config';
+import { languages, markdownify, isRtl } from '../i18n/config';
 import ThemeToggle from '../components/ThemeToggle.astro';
 
 interface Props {
@@ -14,9 +14,10 @@ const {
   description,
 } = Astro.props;
 
+const dir = isRtl(lang) ? "rtl" : "ltr";
 ---
 <!DOCTYPE html>
-<html lang={lang}>
+<html lang={lang} dir={dir}>
 <head>
   <title>{title}</title>
   <meta charset="UTF-8">
@@ -114,78 +115,78 @@ const {
       vertical-align: middle;
       background-repeat: no-repeat;
       background-position: left center;
-      padding-left: 2em;
+      padding-inline-start: 2em;
       line-height: 1.5;
       content: "➤ ";
     }
 
     .li-list::before {
-      margin-right: 0.5em;
+      margin-inline-end: 0.5em;
     }
 
     .li-money::before {
-      mask: url('/img/money_bag.svg') no-repeat center / contain; 
+      mask: url('/img/money_bag.svg') no-repeat center / contain;
       -webkit-mask: url('/img/money_bag.svg') no-repeat center / contain;
       background-color: var(--pico-color);
-      width: 1em; 
-      height: 1em; 
-      content: ""; 
-      display: inline-block; 
-      margin-left: -1.5em;
-      margin-right: 0.5em;
+      width: 1em;
+      height: 1em;
+      content: "";
+      display: inline-block;
+      margin-inline-start: -1.5em;
+      margin-inline-end: 0.5em;
     }
 
     .li-terms::before {
-      mask: url('/img/contract_edit.svg') no-repeat center / contain; 
+      mask: url('/img/contract_edit.svg') no-repeat center / contain;
       -webkit-mask: url('/img/contract_edit.svg') no-repeat center / contain;
       background-color: var(--pico-color);
-      width: 1em; 
-      height: 1em; 
-      content: ""; 
-      display: inline-block; 
-      margin-left: -1.5em;
-      margin-right: 0.5em;
+      width: 1em;
+      height: 1em;
+      content: "";
+      display: inline-block;
+      margin-inline-start: -1.5em;
+      margin-inline-end: 0.5em;
     }
 
     .li-id::before {
-      mask: url('/img/id_card.svg') no-repeat center / contain; 
+      mask: url('/img/id_card.svg') no-repeat center / contain;
       -webkit-mask: url('/img/id_card.svg') no-repeat center / contain;
       background-color: var(--pico-color);
-      width: 1em; 
-      height: 1em; 
-      content: ""; 
-      display: inline-block; 
-      margin-left: -1.5em;
-      margin-right: 0.5em;
+      width: 1em;
+      height: 1em;
+      content: "";
+      display: inline-block;
+      margin-inline-start: -1.5em;
+      margin-inline-end: 0.5em;
     }
 
     .li-signing::before {
-      mask: url('/img/fingerprint.svg') no-repeat center / contain; 
+      mask: url('/img/fingerprint.svg') no-repeat center / contain;
       -webkit-mask: url('/img/fingerprint.svg') no-repeat center / contain;
       background-color: var(--pico-color);
-      width: 1em; 
-      height: 1em; 
-      content: ""; 
-      display: inline-block; 
-      margin-left: -1.5em;
-      margin-right: 0.5em;
+      width: 1em;
+      height: 1em;
+      content: "";
+      display: inline-block;
+      margin-inline-start: -1.5em;
+      margin-inline-end: 0.5em;
     }
 
     .li-appids::before {
-      mask: url('/img/receipt.svg') no-repeat center / contain; 
+      mask: url('/img/receipt.svg') no-repeat center / contain;
       -webkit-mask: url('/img/receipt.svg') no-repeat center / contain;
       background-color: var(--pico-color);
-      width: 1em; 
-      height: 1em; 
-      content: ""; 
-      display: inline-block; 
-      margin-left: -1.5em;
-      margin-right: 0.5em;
+      width: 1em;
+      height: 1em;
+      content: "";
+      display: inline-block;
+      margin-inline-start: -1.5em;
+      margin-inline-end: 0.5em;
     }
 
     .header-icons {
-      float: right;
-      margin-right: 1rem;
+      float: inline-end;
+      margin-inline-end: 1rem;
       z-index: 1000;
       display: inline-flex;
       align-items: center;
@@ -205,11 +206,12 @@ const {
     }
 
     .callout-warning {
-      border-left: 4px solid #d32f2f;
+      border-inline-start: 4px solid #d32f2f;
       background: rgba(211, 47, 47, 0.08);
       padding: 1rem 1.5rem;
       margin: 1.5rem 0;
-      border-radius: 0 0.5rem 0.5rem 0;
+      border-start-end-radius: 0.5rem;
+      border-end-end-radius: 0.5rem;
     }
 
     .callout-warning h3 {
@@ -218,7 +220,7 @@ const {
     }
 
     .callout-warning blockquote {
-      border-left: none;
+      border-inline-start: none;
       background: rgba(211, 47, 47, 0.08);
       border-radius: 0.5rem;
       padding: 1rem 1.5rem;
@@ -234,7 +236,7 @@ const {
       font-size: 1.5em;
       font-weight: bold;
       color: #d32f2f;
-      margin-right: 0.15em;
+      margin-inline-end: 0.15em;
       vertical-align: -0.15em;
       line-height: 0;
     }
@@ -244,7 +246,7 @@ const {
       font-size: 1.5em;
       font-weight: bold;
       color: #d32f2f;
-      margin-left: 0.1em;
+      margin-inline-start: 0.1em;
       vertical-align: -0.15em;
       line-height: 0;
     }

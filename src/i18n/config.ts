@@ -24,6 +24,13 @@ export const languages = {
 export type Locale = keyof typeof languages;
 export const defaultLocale: Locale = "en";
 
+const rtlLanguages = new Set(["ar", "he", "fa", "ur"]);
+
+/** Returns true if the given language code is a right-to-left script. */
+export function isRtl(lang: string): boolean {
+  return rtlLanguages.has(lang.split("-")[0].toLowerCase());
+}
+
 import { marked } from "marked";
 
 /** Render a markdown string to inline HTML (no wrapping <p> tags). */
