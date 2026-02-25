@@ -151,7 +151,10 @@
   url: "vivaldi.com"
   poc: "Jon von Tetzchner <jon@vivaldi.com>"
   region: "NO"
-
+- organization: "PWA Store"
+  url: "pwa-store-7x5.pages.dev"
+  poc: "Shengdun Wang <swang206@binghamton.edu>"
+  region: CN
 #- organization: "XXX"
 #  url: "XXX"
 

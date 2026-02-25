@@ -64,7 +64,7 @@ Dissuadez les autres développeurs d'applications et les organisations de s'insc
 
 ### À tous : Faites entendre votre voix {#everyone}
 
-- [Installez F-Droid](https://f-droid.org) sur vos appareils Android. Plus il y aura d'utilisateurs de plateformes alternatives, plus il sera difficile de les exclure.
+- Installez [F-Droid](https://f-droid.org) et [PWA Store](https://pwa-store-7x5.pages.dev/store/) sur vos appareils Android. Plus il y aura d'utilisateurs de plateformes alternatives, plus il sera difficile de les exclure.
 - Fournissez vos commentaires directement à Google en utilisant leur [enquête sur les exigences de vérification des développeurs Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Faites entendre votre voix sur les réseaux sociaux et via des articles de blog, et n'oubliez pas de faire un lien vers <https://keepandroidopen.org>
 - Combattez la manipulation de l'opinion : lorsque vous rencontrez des publications suspectes sur les forums communautaires et les médias sociaux soutenant la politique (« Eh bien, en fait… »), contestez-les et n'ayez pas peur.

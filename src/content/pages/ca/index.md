@@ -67,7 +67,7 @@ Si ets un empleat o contractista de Google amb bona consciència i tens més inf
 
 ### Tothom: Feu sentir la vostra veu {#everyone}
 
-- [Instal·la F-Droid](https://f-droid.org) al(s) teu(s) dispositiu(s) Android.
+- Instal·la [F-Droid](https://f-droid.org) i [PWA Store](https://pwa-store-7x5.pages.dev/store/) al(s) teu(s) dispositiu(s) Android.
   Com més gent utilitzi mercats alternatius d’aplicacions, més difícil serà deixar-los fora.
 - Dona la teva opinió directament a Google mitjançant la seva [enquesta sobre els requisits de verificació de desenvolupadors d'Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Fes sentir la teva veu a les xarxes socials i amb entrades de blog, i enllaça a

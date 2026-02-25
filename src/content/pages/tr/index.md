@@ -65,7 +65,7 @@ Tanıdık uygulama geliştiricilerini ve teşkilatları programa kaydolmak konus
 —— _Bu kontrolü ele alma planı sadece geliştiricilerin rızasıyla başarıya ulaşabilir._ ——
 
 ## Herkes, sesiniz duyulsun {#everyone}
-- Android cihazlarınıza [F-Droid kurun](https://f-droid.org). Alternatif uygulama pazarları kullanan kişi sayısı arttıkça, onları devreden çıkarmak da o kadar zor olacaktır.
+- Android cihazlarınıza [F-Droid](https://f-droid.org) ve [PWA Store](https://pwa-store-7x5.pages.dev/store/) kurun. Alternatif uygulama pazarlarını kullanan kişi sayısı arttıkça, onları devreden çıkarmak da o kadar zor olacaktır.
 - Google'a doğrudan geri bildirimde bulunun, onların [Android geliştirici denetleme gereksinimleri anketini kullanarak](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Sesinizin sosyal medya ve blog makaleleriyle duyulmasını sağlayın ve https://keepandroidopen.org sitesine bağlantı koyun.
 - Yanıltıcı mesajlarla mücadele edin: topluluk forumlarında ve sosyal medyada bu şartları destekleyen şüpheli mesajlara rastladığınızda (“İyi hoş, tamam da…”), onları sorgulayın ve utangaç olmayın.

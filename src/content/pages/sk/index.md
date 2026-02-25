@@ -65,7 +65,7 @@ Odradzujte kolegov vývojárov aplikácií a organizácie od prihlásenia sa do 
 
 ### Všetci: Dajte o sebe vedieť {#everyone}
 
-- [Nainštalujte si F-Droid](https://f-droid.org) na svoje zariadenia s Androidom. Čím viac ľudí bude používať alternatívne obchody s aplikáciami, tým ťažšie bude ich uzavrieť.
+- Nainštalujte si [F-Droid](https://f-droid.org) a [PWA Store](https://pwa-store-7x5.pages.dev/store/) na svoje zariadenia s Androidom. Čím viac ľudí bude používať alternatívne obchody s aplikáciami, tým ťažšie bude ich uzavrieť.
 - Poskytnite spätnú väzbu priamo spoločnosti Google prostredníctvom ich [dotazníka o požiadavkách na overenie vývojárov Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Dajte o sebe vedieť na sociálnych médiách a v blogových príspevkoch a odkazujte na <https://keepandroidopen.org>.
 - Bojujte proti astroturfingu: keď narazíte na podozrivé príspevky na komunitných fórach a sociálnych médiách, ktoré podporujú túto politiku („No, vlastne...“), spochybnite ich a nehanbite sa.

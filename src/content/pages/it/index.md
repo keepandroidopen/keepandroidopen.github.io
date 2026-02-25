@@ -65,7 +65,7 @@ Se sei dipendente o collaboratore di Google con una coscienza pulita e hai ulter
 
 ### A tutti: fate sentire la vostra voce {#everyone}
 
-- [Installa F-Droid](https://f-droid.org) sui tuoi dispositivi Android. Più persone utilizzano app store alternativi, più difficile sarà chiuderli.
+- Installa [F-Droid](https://f-droid.org) e [PWA Store](https://pwa-store-7x5.pages.dev/store/) sui tuoi dispositivi Android. Più persone utilizzano app store alternativi, più difficile sarà chiuderli.
 - Invia il tuo feedback direttamente a Google utilizzando il [sondaggio sui requisiti di verifica per gli sviluppatori Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Fai sentire la tua voce sui social media e con gli articoli sui blog e inserisci il link a <https://keepandroidopen.org>.
 - Combatti la manipolazione dell'opinione pubblica: quando trovi articoli-post sospetti sui forum della comunità e sui social media che sostengono la politica ("Beh, in realtà..."), confutali e non essere timido.

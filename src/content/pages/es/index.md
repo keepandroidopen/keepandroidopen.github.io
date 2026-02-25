@@ -64,7 +64,7 @@ Desanime a otros desarrolladores de aplicaciones y organizaciones a inscribirse 
 
 ### A todos: hagan oír su voz {#everyone}
 
-- [Instalen F-Droid](https://f-droid.org) en sus dispositivos Android. Cuantos más usuarios haya de plataformas alternativas, más difícil será excluirlos.
+- Instalen [F-Droid](https://f-droid.org) y [PWA Store](https://pwa-store-7x5.pages.dev/store/) en sus dispositivos Android. Cuantos más usuarios haya de plataformas alternativas, más difícil será excluirlos.
 - Envíe sus comentarios directamente a Google utilizando su [encuesta sobre los requisitos de verificación de los desarrolladores de Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Haga oír su voz en las redes sociales y a través de artículos de blog, y no olvide incluir un enlace a <https://keepandroidopen.org>.
 - Combate la manipulación de la opinión pública: cuando encuentres publicaciones sospechosas en foros comunitarios y redes sociales que apoyen la política («Bueno, en realidad...»), refútalas y no tengas miedo.

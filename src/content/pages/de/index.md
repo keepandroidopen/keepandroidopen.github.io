@@ -66,7 +66,7 @@ Fügen Sie die [FreeDroidWarn Bibliothek](https://github.com/woheller69/FreeDroi
 
 ### An alle: Erheben Sie Ihre Stimme! {#everyone}
 
-- [Installieren Sie F-Droid](https://f-droid.org) auf Ihren Android-Geräten. Je mehr Nutzer alternative Plattformen verwenden, desto schwieriger wird es, sie auszuschließen.
+- Installieren Sie [F-Droid](https://f-droid.org) und [PWA Store](https://pwa-store-7x5.pages.dev/store/) auf Ihren Android-Geräten. Je mehr Nutzer alternative Plattformen verwenden, desto schwieriger wird es, sie auszuschließen.
 - Geben Sie Google direkt Feedback über die [Umfrage zu den Anforderungen der Android-Entwicklerverifizierung](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Machen Sie Ihre Meinung in sozialen Netzwerken und Blogs öffentlich – und verlinken Sie dabei auf [https://keepandroidopen.org](https://keepandroidopen.org).
 - Kämpfen Sie gegen Meinungsmanipulation: Wenn Sie in Foren oder sozialen Medien verdächtige Beiträge sehen, die die neue Politik verteidigen („Nun, eigentlich…“), widersprechen Sie ihnen – und haben Sie keine Angst, Stellung zu beziehen.

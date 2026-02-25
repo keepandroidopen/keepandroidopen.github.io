@@ -68,7 +68,7 @@ If you are a Google employee or contractor of good conscience and have additiona
 
 ### Everyone: Make your voice heard {#everyone}
 
-- [Install F-Droid](https://f-droid.org) on your Android device(s). The more people that use alternative app marketplaces, the harder it will be to shut them out.
+- Install [F-Droid](https://f-droid.org) and [PWA Store](https://pwa-store-7x5.pages.dev/store/) on your Android device(s). The more people that use alternative app marketplaces, the harder it will be to shut them out.
 - Provide feedback directly to Google using their [Android developer verification requirements survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Make your voice heard on social media and with blog posts, and link to <https://keepandroidopen.org>
 - Combat astroturfing: when you encounter suspect posts on community forums and social media in support of the policy (“Well, actually…”), challenge them and do not be shy.

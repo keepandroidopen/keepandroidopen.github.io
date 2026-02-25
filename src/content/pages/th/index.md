@@ -68,7 +68,7 @@ If you are a Google employee or contractor of good conscience and have additiona
 
 ### ทุกคน: ทำให้เสียงของคุณดังขึ้น {#everyone}
 
-- [ติดตั้ง F-Droid](https://f-droid.org) บนอุปกรณ์Androidของคุณ ยิ่งมีผู้คนมากขึ้นที่ใช้ตลาดแอปพลิเคชันทางเลือก มันก็ยิ่งยากขึ้นที่จะปิดกั้นพวกเขา
+- ติดตั้ง [F-Droid](https://f-droid.org) และ [PWA Store](https://pwa-store-7x5.pages.dev/store/) บนอุปกรณ์ Android ของคุณ ยิ่งมีผู้คนมากขึ้นที่ใช้ตลาดแอปพลิเคชันทางเลือก ก็ยิ่งทำให้การปิดกั้นพวกเขาทำได้ยากขึ้น
 - ให้ความคิดเห็นโดยตรงแก่ Google โดยใช้แบบสำรวจ [ข้อกำหนดการตรวจสอบตัวตนของนักพัฒนาAndroid](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)
 - ทำให้เสียงของคุณดังขึ้นบนโซเชียลมีเดียและเขียนโพส และลิงก์ไปยัง <https://keepandroidopen.org>
 - ต่อสู้กับ astroturfing: เมื่อคุณพบโพสต์ที่น่าสงสัยบนฟอรั่มชุมชนและโซเชียลมีเดียที่สนับสนุนานโยบาย ("เอ่อ จริงๆแล้วนะ...") ให้ท้าทายพวกเขาและอย่าอาย

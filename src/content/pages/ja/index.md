@@ -61,7 +61,7 @@ open_letter_description: "自由でオープンなプラットフォームとし
 
 ### すべての人へ: 声を上げてください {#everyone}
 
-- お使いの Android デバイス に [F-Droid をインストール](https://f-droid.org)してください。代替のアプリストアを利用する人が増えれば増えるほど、それらを締め出すことは困難になります。
+- お使いの Android デバイスに [F-Droid](https://f-droid.org) と [PWA Store](https://pwa-store-7x5.pages.dev/store/) をインストールしてください。代替のアプリストアを利用する人が増えれば増えるほど、それらを締め出すことは困難になります。
 - Google の [Android 開発者認証要件に関するアンケート](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)を利用して、直接 Google にフィードバックを送ってください。
 - SNS やブログ記事で声を上げ、<https://keepandroidopen.org> へのリンクを貼ってください。
 - 世論操作と戦いましょう：コミュニティフォーラムや SNS で、このポリシーを支持するような疑わしい投稿（「いや、実は…」といった擁護）を見かけたら、躊躇せずに反論してください。

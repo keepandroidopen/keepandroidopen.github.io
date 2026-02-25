@@ -69,7 +69,7 @@ Google 직원 또는 내부 관계자이시고, 프로그램에 대한 추가적
 
 ### 모두에게: 목소리를 내어 주세요 {#everyone}
 
-- 대체 앱스토어 [F-Droid](https://f-droid.org)를 설치해 주세요. 더 많은 사용자가 제삼자 앱스토어를 사용할수록, Google에서 이 서비스들을 종료시키기 어렵게 만듭니다.
+- 대체 앱스토어인 [F-Droid](https://f-droid.org)와 [PWA Store](https://pwa-store-7x5.pages.dev/store/)를 설치해 주세요. 더 많은 사용자가 제삼자 앱스토어를 사용할수록 Google이 이 서비스들을 종료시키기 어려워집니다.
 - [Android developer verification requirements survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)에서 여러분의 의견을 Google에 직접적으로 제출해 주세요.
 - <https://keepandroidopen.org/ko>을 SNS와 블로그 게시글로 공유해주세요.
 - 가짜 여론 조성에 맞서 싸우세요: 커뮤니티 포럼과 SNS에서 정책을 지지하는 의심스러운 게시물을 발견하면 망설이지 말고 반론하세요.

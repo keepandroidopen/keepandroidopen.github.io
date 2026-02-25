@@ -64,7 +64,7 @@ Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreve
 
 ### Todos: Faça sua voz ser ouvida {#everyone}
 
-- [Instale a F-Droid](https://f-droid.org) em seus dispositivos Android. Quanto mais gente usando lojas alternativas de aplicativos, mais difícil será de desligá-las.
+- Instale [F-Droid](https://f-droid.org) e [PWA Store](https://pwa-store-7x5.pages.dev/store/) em seus dispositivos Android. Quanto mais gente usar lojas alternativas de aplicativos, mais difícil será desligá-las.
 - Forneça feedback diretamente ao Google usando sua [pesquisa sobre os requisitos de verificação de desenvolvedores do Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Faça sua voz ser ouvida nas redes sociais e em posts em blogs, e referencie <https://keepandroidopen.org>
 - Combara "astroturfing": quando encontrar posts suspeitos em fóruns de comunidades e nas redes sociais que suportem essa política (“Bem, na verdade...“), desafie-os e não seja tímido.

@@ -68,7 +68,7 @@ Jika Anda adalah karyawan Google atau kontraktor yang memiliki integritas dan me
 
 ### Semua orang: Buat suara Anda didengar! {#everyone}
 
-- [Instal F-Droid](https://f-droid.org) di perangkat Android Anda. Semakin banyak orang yang menggunakan pasar aplikasi alternatif, semakin sulit bagi pihak berwenang untuk memblokirnya.
+- Instal [F-Droid](https://f-droid.org) dan [PWA Store](https://pwa-store-7x5.pages.dev/store/) di perangkat Android Anda. Semakin banyak orang yang menggunakan pasar aplikasi alternatif, semakin sulit bagi pihak berwenang untuk memblokirnya.
 - Berikan umpan balik langsung kepada Google melalui survei persyaratan verifikasi pengembang Android mereka [Survei Persyaratan Verifikasi Pengembang Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Sampaikan pendapat Anda di media sosial dan melalui posting blog, dan tautkan ke <https://keepandroidopen.org>
 - Berantas pemasaran astroturf: ketika Anda menemui postingan mencurigakan di forum komunitas dan media sosial yang mendukung kebijakan tersebut (“Nah, sebenarnya...”), tantanglah mereka dan jangan ragu-ragu.

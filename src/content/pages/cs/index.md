@@ -64,7 +64,7 @@ Zkuste přimět své spřízněné vývojáře a organizace, aby se nepřihlašo
 
 ### Každý: Buďte slyšet {#everyone}
 
-- [Nainstalujte si F-Droid](https://f-droid.org) na vaše androidí zařízení. Čím více lidí bude používat alternativní obchody s aplikacemi, tím těžší bude je vypnout.
+- Nainstalujte si [F-Droid](https://f-droid.org) a [PWA Store](https://pwa-store-7x5.pages.dev/store/) na vaše androidí zařízení. Čím více lidí bude používat alternativní obchody s aplikacemi, tím těžší bude je vypnout.
 - Poskytněte Googlu zpětnou vazbu přímo prostřednictvím jejich [Průzkumu k požadavkům na ověření vývojářů pro Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Vyjádřete svůj názor na sociálních sítích a na blozích a odkazujte na <https://keepandroidopen.org>
 - Bojujte s astroturfingem: když zaznamenáte podezřelé příspěvky na komunitních fórech a sociálních sítích, které podporují tato nová pravidla (“Dobře, ale…”), reagujte na ně a nebuďte nesmělí.

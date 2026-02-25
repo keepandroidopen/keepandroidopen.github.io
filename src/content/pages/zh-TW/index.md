@@ -65,7 +65,7 @@ open_letter_description: "倡導 Android 該當一個自由、開放平臺之公
 
 ### 齊集氣：集結您的聲音，呼聲響徹雲霄 {#everyone}
 
-- 在您的 (各個) Android 裝置上[安裝 F-Droid](https://f-droid.org)。越多人使用替代應用程式市集，就越難將之摒出去。
+- 在您的 (各個) Android 裝置上安裝 [F-Droid](https://f-droid.org)和[PWA Store](https://pwa-store-7x5.pages.dev/store/)。越多人使用替代應用程式市集，就越難將之摒出去。
 - 藉其 [Android 開發人員驗證要求問卷調查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接提供意見反映給 Google。
 - 在社群媒體上與部落格帖文中為自己發聲，並附上連結至 <https://keepandroidopen.org>
 - 迎擊網路打手：當您在社群討論區與社群媒體上，遇到可疑的帖文支持該政策 (「老實說…」)，不妨當仁不讓，仗義執言，直斥其非，以正視聽。

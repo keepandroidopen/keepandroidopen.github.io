@@ -107,9 +107,7 @@ iPhone - всегда заключалось в открытости. Но, по
 
 ### Все остальные: дайте о себе знать {#everyone}
 
-- Установите [F-Droid](https://f-droid.org) на свои устройства
-  Android. Чем больше пользователей альтернативных магазинов
-  приложений, тем сложнее будет их вытеснить.
+- Установите [F-Droid](https://f-droid.org) и [PWA Store](https://pwa-store-7x5.pages.dev/store/) на свои устройства Android. Чем больше пользователей альтернативных магазинов приложений, тем сложнее будет их вытеснить.
 - Оставьте отзыв напрямую Google через их [опрос о требованиях
   верификации
   разработчиков](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
