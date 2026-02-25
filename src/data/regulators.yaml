@@ -2160,15 +2160,3 @@ countries:
           ar: "البريد الإلكتروني: [info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
           en: "Email: [info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
           fr: "Courriel: [info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
-      - text:
-          ar: "رقم الهاتف: +966114406666"
-          en: "Telephone: +966114406666"
-          fr: "Téléphone: +966114406666"
-      - text:
-          ar: "رقم الهاتف المجاني: 8002441222"
-          en: "Toll-free number: 8002441222"
-          fr: "Numéro sans frais: 8002441222"
-      - text:
-          ar: "رقم الفاكس: +966114406655"
-          en: "Fax: +966114406655"
-          fr: "Télécopieur: +966114406655"
