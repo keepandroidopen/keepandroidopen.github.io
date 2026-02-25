@@ -26,6 +26,10 @@
   url: "codeberg.org"
   poc: "Gusted <contact@codeberg.org>"
   region: DE
+- organization: "Conversations"
+  url: "conversations.im"
+  poc: "Daniel Gultsch <daniel@gultsch.de>"
+  region: DE
 - organization: "Cryptee"
   url: "crypt.ee"
   poc: "John Ozbay <hello@johnozbay.com>"
