@@ -36,13 +36,13 @@ Esse registro envolverá:
 
 ➤ Você, **consumidor**, comprou seu dispositivo Android acreditando na promessa do Google de que era uma plataforma de computação aberta e que você poderia executar qualquer software que escolhesse. Em vez disso, a partir de setembro de 2026, eles estarão forçando, sem consentimento, uma atualização em seu sistema operacional que bloqueia irrevogavelmente esse direito e o deixa à mercê do julgamento deles sobre quais softwares você pode confiar.
 
-➤ Você, **criador**, não pode mais desenvolver um aplicativo e compartilhá-lo diretamente com seus amigos, familiares e comunidade sem antes buscar a aprovação do Google. A promessa do Android — e uma vantagem de marketing que a empresa usou para se distinguir do iPhone — sempre foi a de que ele é “aberto“. Mas o Google claramente sente que tem controle suficiente sobre o ecossistema Android, junto com uma captura regulatória adequada, para poder descartar esse princípio com preconceito e impunidade.
+➤ Você, **criador**, não pode mais desenvolver um aplicativo e compartilhá-lo diretamente com seus amigos, familiares e comunidade sem antes buscar a aprovação da Google. A promessa do Android — e uma vantagem de marketing que a empresa usou para se distinguir do iPhone — sempre foi a de que ele é “aberto“. Mas a Google claramente sente que tem controle suficiente sobre o ecossistema Android, junto com uma captura regulatória adequada, para poder descartar esse princípio com preconceito e impunidade.
 
 ➤ Você, **o Estado**, está cedendo os direitos de seus cidadãos e sua própria soberania digital a uma empresa com histórico de cumprir com as demandas extrajudiciais de regimes autoritários para remover aplicativos perfeitamente legais que eles simplesmente não gostam. O software que é crítico para o funcionamento de seus negócios e governos estará à mercê dos caprichos opacos de uma corporação distante e irresponsável.
 
 <div class="callout-warning">
 
-### Atualização: o Google **não** "recuou" na verificação de desenvolvedores {#clarification}
+### Atualização: a Google **não** "recuou" na verificação de desenvolvedores {#clarification}
 
 Ao contrário de uma vaga [menção](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) a um possível "fluxo avançado" que eventualmente poderia permitir que "usuários experientes aceitem os riscos de instalar software que não é verificado", a [descrição do programa](https://developer.android.com/developer-verification) do Google continua a declarar claramente que:
 
@@ -67,6 +67,6 @@ Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreve
 - [Instale a F-Droid](https://f-droid.org) em seus dispositivos Android. Quanto mais gente usando lojas alternativas de aplicativos, mais difícil será de desligá-las.
 - Forneça feedback diretamente ao Google usando sua [pesquisa sobre os requisitos de verificação de desenvolvedores do Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
 - Faça sua voz ser ouvida nas redes sociais e em posts em blogs, e referencie <https://keepandroidopen.org>
-- Combara "astroturfing": quando encontrar posts suspeitos em fóruns de comunidades e nas redes sociais que suportem essa política (“Bem, na verdade...“), desafie-os e não seja tímido.
+- Combata "astroturfing": quando encontrar posts suspeitos em fóruns de comunidades e nas redes sociais que suportem essa política (“Bem, na verdade...“), desafie-os e não seja tímido.
 - Ajude este projeto [editando essa página](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/pt-BR/index.md) e adicione mais informações úteis.
 - [Assine essa petição em change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
