@@ -44,7 +44,8 @@
     tr:      "Android k\u0131s\u0131tl\u0131 bir platform haline gelecek.",
     uk:      "Android \u0441\u0442\u0430\u043D\u0435 \u0437\u0430\u043A\u0440\u0438\u0442\u043E\u044E \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u043E\u044E",
     "zh-CN": "\u5B89\u5353\u5C06\u6210\u4E3A\u4E00\u4E2A\u5C01\u95ED\u5E73\u53F0",
-    "zh-TW": "\u5012\u6578 Android \u5373\u5C07\u6DEA\u70BA\u756B\u5730\u70BA\u7262\u3001\u684E\u688F\u6EFF\u76C8\u7684\u5C01\u9589\u5E73\u81FA"
+    "zh-TW": "\u5012\u6578 Android \u5373\u5C07\u6DEA\u70BA\u756B\u5730\u70BA\u7262\u3001\u684E\u688F\u6EFF\u76C8\u7684\u5C01\u9589\u5E73\u81FA",
+    ja:      "Androidは閉鎖的なプラットフォームになろうとしています"
   };
 
   // ── Parse query parameters from the script's own src URL ──────────────

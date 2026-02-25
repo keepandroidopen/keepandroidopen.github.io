@@ -97,17 +97,10 @@
   url: "jmp.chat"
   poc: "Stephen Paul Weber <info@jmp.chat>"
   region: CA
-- organization: "Obtainium"
-  url: "obtainium.imranr.dev"
-  poc: "Imran <contact@imranr.dev>"
-- organization: "The OpenStreetMap Foundation (OSMF)"
-  url: "osmfoundation.org"
-  poc: "Héctor Ochoa Ortiz <hector.ochoa.ortiz@osmfoundation.org>"
-  region: GB
-- organization: "Osservatorio Nessuno OdV"
-  url: "osservatorionessuno.org"
-  poc: "Giulio B <giulio@osservatorionessuno.org>"
-  region: IT
+- organization: "KDE e.V."
+  url: "kde.org"
+  poc: "Carl Schwan <carlschwan@kde.org>"
+  region: DE
 - organization: "Molly"
   url: "molly.im"
   poc: "Oscar Mira <valldrac@molly.im>"
@@ -115,10 +108,21 @@
   url: "nextcloud.com"
   poc: "Jos Poortvliet <jos.poortvliet@nextcloud.com>"
   region: DE
+- organization: "Obtainium"
+  url: "obtainium.imranr.dev"
+  poc: "Imran <contact@imranr.dev>"
+- organization: "The OpenStreetMap Foundation (OSMF)"
+  url: "osmfoundation.org"
+  poc: "Héctor Ochoa Ortiz <hector.ochoa.ortiz@osmfoundation.org>"
+  region: GB
 - organization: "Open Rights Group (ORG)"
   url: "openrightsgroup.org"
   poc: "Jim Killock <jim@openrightsgroup.org>"
   region: GB
+- organization: "Osservatorio Nessuno OdV"
+  url: "osservatorionessuno.org"
+  poc: "Giulio B <giulio@osservatorionessuno.org>"
+  region: IT
 - organization: "Proton AG"
   url: "proton.me"
   poc: "Samuele Kaplun <samuele.kaplun@proton.ch>"
@@ -140,7 +144,7 @@
   poc: "Isabela Fernandes <isabela@torproject.org>"
   region: US
 - organization: "Tuta Mail"
-  url: "tutao.de"
+  url: "tuta.com"
   poc: "Hanna Bozakov <hanna.bozakov@tutao.de>"
   region: DE
 - organization: "Vivaldi Technologies AS"

@@ -19,6 +19,7 @@ heading:
   pt-BR: "Consumidores: Contatem os órgãos reguladores nacionais"
   zh-CN: "消费者：联系国家监管机构"
   zh-TW: "消費者：聯絡國家監管機構"
+  ja: "消費者へ: 国の規制当局に連絡してください"
 
 intro:
   ar: "يشعر المنظمون في جميع أنحاء العالم بقلق بالغ إزاء الاحتكارات وتمركز السلطة في قطاع التكنولوجيا، ويرغبون في الاستماع مباشرةً إلى الأفراد المتضررين والمهتمين. عند التواصل مع المنظمين مباشرةً، ينبغي التحلي _باللباقة و الوضوح_ في شرح الضرر الذي تعتقد أن هذه السياسات ستسببه، سواءً للمستهلكين أو للمنافسة."
@@ -41,6 +42,7 @@ intro:
   pt-BR: "Os reguladores em todo o mundo estão genuinamente preocupados com monopólios e a centralização de poder no setor de tecnologia, e querem ouvir diretamente de indivíduos que são afetados e preocupados. Ao contatar os reguladores diretamente, você deve ser _educado_ e _específico_ sobre o dano que acredita que essas políticas causarão, tanto aos consumidores quanto à concorrência."
   zh-CN: "全球的监管机构确实非常关注科技领域的垄断和权力集中问题，并希望直接听取受到影响以及关注此事的个人的意见。在直接联系监管机构时，您应该 _保持礼貌_ 并 _具体_ 说明您认为这些政策将对消费者和竞争造成的危害。"
   zh-TW: "世界各地的監管機構都真誠地關注壟斷以及科技行業中的權力集中，並希望直接聽取受其影響並與其關切的個人所言。當直接聯絡監管機構時，您該 _保持禮貌_ 並 _具體說明_ 您相信此等政策將會導致的傷害，不論是有損消費者，還是有損競爭亦然。"
+  ja: "世界中の規制当局は、テクノロジー業界における独占と権力の集中を真に懸念しており、影響を受け懸念を抱く個人から直接意見を聞きたいと考えています。規制当局に直接連絡する際は、これらの政策が消費者と競争の両方に与えると考えられる害について、_礼儀正しく_、_具体的_ に述べてください。"
 
 follow_up:
   ar: "تكون الشكاوى ذات تأثير بالغ، خاصةً عندما يُقدّمها مواطن من ذلك البلد أو المنطقة، وعندما تكون لغة البريد الإلكتروني إحدى اللغات الرسمية للهيئة الحاكمة في المنطقة. اطلبوا _إشعارًا كتابياً_ باستلام الشكوى، و يرجى إعادة توجيه أي ردود تتلقونها إلى [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) حتى نتمكن من تسليط الضوء عليها و الإشارة إليها."
@@ -63,6 +65,7 @@ follow_up:
   pt-BR: "As reclamações são especialmente impactantes quando são escritas por um cidadão daquele país ou região, e quando a linguagem do e-mail está escrita em uma das línguas oficiais do órgão governamental da região. Solicite um _reconhecimento por escrito_ da reclamação e considere encaminhar qualquer resposta que você receber para [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) para que possamos destacá-las e referenciá-las."
   zh-CN: "如果投诉是由该国家或地区的公民撰写的，并且电子邮件使用的是该地区管理机构的官方语言之一，那么这种投诉的效果尤为显著。请要求对方对投诉予以 _书面确认_ ，并考虑将您收到的任何回复转发至 [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) ，以便我们能够重点关注并引用这些内容。"
   zh-TW: "投訴的影響力尤具份量，當該等投訴由一名該國市民編撰，並以該地管治機構的官方語言之一撰寫該電子郵件。請就該投訴索取一份 _書面確認_ ，並考慮轉寄任何您收到的回應至 [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org)，好讓我們得以精選並參照。"
+  ja: "苦情は、その国や地域の市民によって提出され、かつメールの言語が当該地域の統治機関の公用語のうちの一つで書かれている場合に特に効果的です。苦情の受理確認書を文書で請求し、受け取った回答は [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) に転送することをご検討ください。そうすることで、私達がそれらを強調し参照することが可能となります。"
 
 countries:
   - id: united-states
@@ -85,6 +88,7 @@ countries:
       pt-BR: "Estados Unidos da América"
       zh-CN: "美国"
       zh-TW: "美國"
+      ja: "アメリカ合衆国"
     items:
       - text:
           ar: "قدّم تقريراً إلى [قسم مكافحة الاحتكار التابع لوزارة العدل الأمريكية عبر الإنترنت](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
@@ -647,6 +651,7 @@ countries:
       pt-BR: "União Européia"
       zh-CN: "欧盟"
       zh-TW: "歐盟"
+      ja: "欧州連合"
     items:
       - text:
           ar: "تواصل مع فريق قانون الأسواق الرقمية عبر البريد الإلكتروني [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
@@ -817,7 +822,7 @@ countries:
               zh-TW: "聯絡[斯洛伐克共和國反壟斷局](https://www.antimon.gov.sk/en/)"
   - id: united-kingdom
     name:
-      fa: "بریتانیای کبیر"    
+      fa: "بریتانیای کبیر"
       ar: "المملكة المتحدة"
       en: "United Kingdom"
       ru: "Великобритания"
@@ -837,6 +842,7 @@ countries:
       pt-BR: "Reino Unido"
       zh-CN: "英国"
       zh-TW: "英國"
+      ja: "イギリス"
     items:
       - text:
           ar: "البريد الإلكتروني: [general.enquiries@cma.gov.uk](mailto:general.enquiries@cma.gov.uk?cc=uk@keepandroidopen.org)"
@@ -893,6 +899,7 @@ countries:
       pt-BR: "Estados Unidos da América"
       zh-CN: "美国"
       zh-TW: "美國"
+      ja: "アメリカ合衆国"
     items:
       - text:
           ar: "قدّم تقريراً إلى [قسم مكافحة الاحتكار التابع لوزارة العدل الأمريكية عبر الإنترنت](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
@@ -987,6 +994,7 @@ countries:
       pt-BR: "Brasil"
       zh-CN: "巴西"
       zh-TW: "巴西"
+      ja: "ブラジル"
     items:
       - text:
           ar: "البريد الإلكتروني: [superintendencia@cade.gov.br](mailto:superintendencia@cade.gov.br?cc=brazil@keepandroidopen.org)"
@@ -1065,6 +1073,7 @@ countries:
       pt-BR: "Singapura"
       zh-CN: "新加坡"
       zh-TW: "新加坡"
+      ja: "シンガポール"
     items:
       - text:
           ar: "البريد الإلكتروني: [cccs_feedback@cccs.gov.sg](mailto:cccs_feedback@cccs.gov.sg?cc=singapore@keepandroidopen.org)"
@@ -1142,6 +1151,7 @@ countries:
       pt-BR: "Tailândia"
       zh-CN: "泰国"
       zh-TW: "泰國"
+      ja: "タイ"
     items:
       - text:
           ar: "البريد الإلكتروني: [saraban@tcct.or.th](mailto:saraban@tcct.or.th?cc=thailand@keepandroidopen.org)"
@@ -1256,6 +1266,7 @@ countries:
       pt-BR: "Indonésia"
       zh-CN: "印度尼西亚"
       zh-TW: "印尼"
+      ja: "インドネシア"
     items:
       - text:
           ar: "البريد الإلكتروني: [infokom@kppu.go.id](mailto:infokom@kppu.go.id?cc=indonesia@keepandroidopen.org)"
@@ -1332,6 +1343,7 @@ countries:
       pt-BR: "Switzerland"
       zh-CN: "瑞士"
       zh-TW: "瑞士"
+      ja: "スイス"
     items:
       - text:
           ar: "قدّم تقريراً إلى [لجنة المنافسة](https://www.weko.admin.ch/weko/en/home/kontakt/kontakt.html)"
@@ -1370,6 +1382,7 @@ countries:
       pt-BR: "Austrália"
       zh-CN: "澳大利亚"
       zh-TW: "澳洲"
+      ja: "オーストラリア"
     items:
       - text:
           ar: "البريد الإلكتروني: [international@accc.gov.au](mailto:international@accc.gov.au?cc=australia@keepandroidopen.org)"
@@ -1467,6 +1480,7 @@ countries:
       pt-BR: "Japão"
       zh-CN: "日本"
       zh-TW: "日本"
+      ja: "日本"
     items:
       - text:
           ar: "البريد الإلكتروني: Email: [intnldiv@jftc.go.jp](mailto:intnldiv@jftc.go.jp?cc=japan@keepandroidopen.org)"
@@ -1484,6 +1498,9 @@ countries:
           pl: "E-mail: [intnldiv@jftc.go.jp](mailto:intnldiv@jftc.go.jp?cc=japan@keepandroidopen.org)"
           zh-CN: "电子邮件：[intnldiv@jftc.go.jp](mailto:intnldiv@jftc.go.jp?cc=japan@keepandroidopen.org)"
           zh-TW: "電子郵件：[intnldiv@jftc.go.jp](mailto:intnldiv@jftc.go.jp?cc=japan@keepandroidopen.org)"
+          ja: "メール: [intnldiv@jftc.go.jp](mailto:intnldiv@jftc.go.jp?cc=japan@keepandroidopen.org)"
+      - text:
+          en: "Contact the [Mobile Software Competition Act (MCSA)](https://www.msca-soudan.jftc.go.jp/)"
       - text:
           ar: "تواصل مع [لجنة التجارة العادلة اليابانية (JFTC)](https://www.jftc.go.jp/)"
           en: "Contact the [Japan Fair Trade Commission (JFTC)](https://www.jftc.go.jp/)"
@@ -1503,6 +1520,7 @@ countries:
           pt-BR: "Entre em contato com a [Japan Fair Trade Commission (JFTC)](https://www.jftc.go.jp/)"
           zh-CN: "联系[日本公平贸易委员会 (JFTC)](https://www.jftc.go.jp/)"
           zh-TW: "聯絡[日本公平交易委員會 (JFTC)](https://www.jftc.go.jp/)"
+          ja: "[公正取引委員会 (JFTC)](https://www.jftc.go.jp/)に連絡してください"
 
   - id: "south-korea"
     name:
@@ -1525,6 +1543,7 @@ countries:
       pt-BR: "Coréia do Sul"
       zh-CN: "韩国"
       zh-TW: "南韓"
+      ja: "韓国"
     items:
       - text:
           ar: "البريد الإلكتروني: [kftc@korea.kr](mailto:kftc@korea.kr?cc=korea@keepandroidopen.org)"
@@ -1584,6 +1603,7 @@ countries:
       pt-BR: "Índia"
       zh-CN: "印度"
       zh-TW: "印度"
+      ja: "インド"
     items:
       - text:
           ar: "البريد الإلكتروني: [cci‑chairman@nic.in](mailto:cci‑chairman@nic.in?cc=india@keepandroidopen.org)"
@@ -1643,6 +1663,7 @@ countries:
       pt-BR: "Canadá"
       zh-CN: "加拿大"
       zh-TW: "加拿大"
+      ja: "カナダ"
     items:
       - text:
           ar: "البريد الإلكتروني: [info@competitionbureau.gc.ca](mailto:info@competitionbureau.gc.ca?cc=canada@keepandroidopen.org)"
@@ -1721,6 +1742,7 @@ countries:
       pt-BR: "Taiwan"
       zh-CN: "中国台湾"
       zh-TW: "臺灣"
+      ja: "台湾"
     items:
       - text:
           ar: "البريد الإلكتروني: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
@@ -1780,6 +1802,7 @@ countries:
       pt-BR: "Turquia"
       zh-CN: "土耳其"
       zh-TW: "土耳其"
+      ja: "トルコ"
     items:
       - text:
           ar: " تواصل مع [Rekabet Kurumu / هيئة المنافسة التركية (RK)](https://edevlet.rekabet.gov.tr/Talep/Anasayfa)"
@@ -1823,6 +1846,7 @@ countries:
       pt-BR: "Argentina"
       zh-CN: "阿根廷"
       zh-TW: "阿根廷"
+      ja: "アルゼンチン"
     items:
       - text:
           ar: "البريد الإلكتروني: [cndc@produccion.gob.ar](mailto:cndc@produccion.gob.ar?cc=argentina@keepandroidopen.org)"
@@ -1882,6 +1906,7 @@ countries:
       pt-BR: "México"
       zh-CN: "墨西哥"
       zh-TW: "墨西哥"
+      ja: "メキシコ"
     items:
       - text:
           ar: "البريد الإلكتروني: [denuncias@antimonopolio.gob.mx](mailto:denuncias@antimonopolio.gob.mx?cc=mexico@keepandroidopen.org)"
@@ -1941,6 +1966,7 @@ countries:
       pt-BR: "Filipinas"
       zh-CN: "菲律宾"
       zh-TW: "菲律賓"
+      ja: "フィリピン"
     items:
       - text:
           ar: "تواصل مع [لجنة المنافسة الفلبينية (PCC)](https://www.phcc.gov.ph/)"
@@ -1974,6 +2000,7 @@ countries:
       id: "Polandia"
       pl: "Polska"
       zh-TW: "波蘭"
+      ja: "ポーランド"
     items:
       - text:
           ar: "البريد الإلكتروني: [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)"
@@ -2010,6 +2037,7 @@ countries:
       pl: "Czechy"
       zh-CN: "捷克共和国"
       zh-TW: "捷克共和國"
+      ja: "チェコ"
     items:
       - text:
           ar: "البريد الإلكتروني: [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)"
@@ -2060,6 +2088,7 @@ countries:
       pt-BR: "Ukraine"
       zh-CN: "乌克兰"
       zh-TW: "烏克蘭"
+      ja: "ウクライナ"
     items:
       - text:
           ar: "تواصل مع [اللجنة الوطنية لتنظيم الاتصالات الإلكترونية](https://nkek.gov.ua/)"
@@ -2112,6 +2141,7 @@ countries:
       ru: "Словакия"
       sk: "Slovenská republika"
       zh-TW: "斯洛伐克"
+      ja: "スロバキア"
     locales:
       - sk
     items:
@@ -2133,6 +2163,7 @@ countries:
       en: "Chinese Mainland"
       zh-CN: "中国大陆"
       zh-TW: "中國大陸"
+      ja: "中国本土"
     items:
       - text:
           ar: "تواصل مع [الإدارة الحكومية لتنظيم السوق (SAMR)](https://www.samr.gov.cn/) عن طريق الاتصال بالرقم 010-88650000."

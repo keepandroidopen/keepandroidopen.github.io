@@ -19,6 +19,7 @@ heading:
   uk: "Різне"
   zh-CN: "杂项"
   zh-TW: "其他"
+  ja: "その他"
 
 items:
   - text: "Android Developer Verification Discourse"

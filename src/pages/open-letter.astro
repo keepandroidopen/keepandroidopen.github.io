@@ -21,7 +21,7 @@ function regionFlag(code?: string): string {
 }
 
 // Logos stored as SVG for these domains; all others are PNG
-const svgLogos = new Set(["appfair.org", "auroraoss.com", "guardianproject.info", "fastmail.com", "jmp.chat", "osmfoundation.org", "molly.im"]);
+const svgLogos = new Set(["appfair.org", "auroraoss.com", "guardianproject.info", "fastmail.com", "jmp.chat", "kde.org", "osmfoundation.org", "molly.im"]);
 function logoPath(url: string): string {
   const ext = svgLogos.has(url) ? "svg" : "png";
   return `/img/logos/${url}.${ext}`;
