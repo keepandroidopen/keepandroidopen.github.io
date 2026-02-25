@@ -86,7 +86,15 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
     return (
       <li>
         <a href={item.url} target="_blank">{resolve(item.text, locale)} ↗</a>
-        {hasAuthor && <> {byLabel} {item.author} <a href={item.author_url} target="_blank">{item.author_text} ↗</a></>}
+        {hasAuthor && (
+          <>
+            {' '}{byLabel}{' '}
+            {item.author}{' '}
+            <a href={item.author_url} target="_blank">
+              {item.author_text} ↗
+    </a>
+  </>
+)}
       </li>
     );
   })}
