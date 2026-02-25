@@ -73,7 +73,7 @@ If you are a Google employee or contractor of good conscience and have additiona
 - Make your voice heard on social media and with blog posts, and link to <https://keepandroidopen.org>
 - Combat astroturfing: when you encounter suspect posts on community forums and social media in support of the policy (“Well, actually…”), challenge them and do not be shy.
 - Help this project out by [editing this page](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) with more useful information.
-- [Sign this change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [Sign this change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)
 
 ### Web Site Owners: Show your support {#webmasters}
 
