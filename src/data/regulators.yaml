@@ -95,7 +95,7 @@ countries:
           en: "Make a report to the [US Department of Justice Antitrust Report Online](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
           ru: "Отправьте обращение в [US Department of Justice Antitrust Report Online](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
           de: "Melden Sie sich beim [US-Justizministerium – Online-Antitrust-Meldungsformular](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
-          fr: "Déposer un signalement auprès du [Département de la Justice des États-Unis – Formulaire de signalement antitrust en ligne](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
+          fr: "Déposez un signalement auprès du [Département de la Justice des États-Unis – Formulaire de signalement antitrust en ligne](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
           es: "Presentar una denuncia ante el [Departamento de Justicia de los Estados Unidos – Formulario de denuncia antimonopolio en línea](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
           it: "Presenta una segnalazione [US Department of Justice Antitrust Report Online](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
           cs: "Pošlete oznámení [US Department of Justice Antitrust Report Online](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
@@ -113,7 +113,7 @@ countries:
           en: "File a complaint with the [US Federal Trade Commission: Antitrust Complaints](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
           ru: "Подайте жалобу в [US Federal Trade Commission: Antitrust Complaints](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
           de: "Reichen Sie eine Beschwerde bei der [Federal Trade Commission – Antitrust-Beschwerden](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake) ein."
-          fr: "Déposer une plainte auprès de la [Commission fédérale du commerce des États-Unis : Plaintes antitrust](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
+          fr: "Déposez une plainte auprès de la [Commission fédérale du commerce des États-Unis : Plaintes antitrust](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
           es: "Presentar una denuncia ante la [Comisión Federal de Comercio de los Estados Unidos: Denuncias antimonopolio](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
           it: "Presenta un reclamo [US Federal Trade Commission: Antitrust Complaints](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
           cs: "Pošlete stížnost na [US Federal Trade Commission: Antitrust Complaints](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
@@ -132,503 +132,703 @@ countries:
       - id: "us-al"
         name:
           en: "Alabama"
+          fr: "Alabama"
         items:
           - text:
               en: "File a complaint with the [Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
+              fr: "Déposez une plainte auprès de l'[Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
           - text:
               en: "Contact Senator [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
+              fr: "Contactez le sénateur [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
           - text:
               en: "Contact Senator [Katie Britt](https://www.britt.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Katie Britt](https://www.britt.senate.gov/contact)"
       - id: "us-ak"
         name:
           en: "Alaska"
+          fr: "Alaska"
         items:
           - text:
               en: "File a complaint with the [Alaska Attorney General Consumer Protection](https://law.alaska.gov/department/civil/consumer/cp_complaint.html)"
+              fr: "Déposez une plainte auprès de l'[Alaska Attorney General Consumer Protection](https://law.alaska.gov/department/civil/consumer/cp_complaint.html)"
           - text:
               en: "Contact Senator [Lisa Murkowski](https://www.murkowski.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Lisa Murkowski](https://www.murkowski.senate.gov/contact)"
           - text:
               en: "Contact Senator [Dan Sullivan](https://www.sullivan.senate.gov/contact)"
+              fr: "Contactez le sénateur [Dan Sullivan](https://www.sullivan.senate.gov/contact)"
       - id: "us-az"
         name:
           en: "Arizona"
+          fr: "Arizona"
         items:
           - text:
               en: "File a complaint with the [Arizona Attorney General Consumer Protection](https://www.azag.gov/complaints/consumer)"
+              fr: "Déposez une plainte auprès de l'[Arizona Attorney General Consumer Protection](https://www.azag.gov/complaints/consumer)"
           - text:
               en: "Contact Senator [Mark Kelly](https://www.kelly.senate.gov/contact)"
+              fr: "Contactez le sénateur [Mark Kelly](https://www.kelly.senate.gov/contact)"
           - text:
               en: "Contact Senator [Ruben Gallego](https://www.gallego.senate.gov/contact)"
+              fr: "Contactez le sénateur [Ruben Gallego](https://www.gallego.senate.gov/contact)"
       - id: "us-ar"
         name:
           en: "Arkansas"
+          fr: "Arkansas"
         items:
           - text:
               en: "File a complaint with the [Arkansas Attorney General Consumer Protection](https://arkansasag.gov/file-a-complaint/)"
+              fr: "Déposez une plainte auprès de l'[Arkansas Attorney General Consumer Protection](https://arkansasag.gov/file-a-complaint/)"
           - text:
               en: "Contact Senator [John Boozman](https://www.boozman.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Boozman](https://www.boozman.senate.gov/contact)"
           - text:
               en: "Contact Senator [Tom Cotton](https://www.cotton.senate.gov/contact)"
+              fr: "Contactez le sénateur [Tom Cotton](https://www.cotton.senate.gov/contact)"
       - id: "us-ca"
         name:
           en: "California"
+          fr: "Californie"
         items:
           - text:
               en: "File a complaint with the [California Attorney General Consumer Protection](https://oag.ca.gov/contact/consumer-complaint-against-business-or-company)"
+              fr: "Déposez une plainte auprès de la [California Attorney General Consumer Protection](https://oag.ca.gov/contact/consumer-complaint-against-business-or-company)"
           - text:
               en: "Contact Senator [Alex Padilla](https://www.padilla.senate.gov/contact)"
+              fr: "Contactez le sénateur [Alex Padilla](https://www.padilla.senate.gov/contact)"
           - text:
               en: "Contact Senator [Adam Schiff](https://www.schiff.senate.gov/contact)"
+              fr: "Contactez le sénateur [Adam Schiff](https://www.schiff.senate.gov/contact)"
       - id: "us-co"
         name:
           en: "Colorado"
+          fr: "Colorado"
         items:
           - text:
               en: "File a complaint with the [Colorado Attorney General Consumer Protection](https://coag.gov/file-complaint/)"
+              fr: "Déposez une plainte auprès du [Colorado Attorney General Consumer Protection](https://coag.gov/file-complaint/)"
           - text:
               en: "Contact Senator [Michael Bennet](https://www.bennet.senate.gov/contact)"
+              fr: "Contactez le sénateur [Michael Bennet](https://www.bennet.senate.gov/contact)"
           - text:
               en: "Contact Senator [John Hickenlooper](https://www.hickenlooper.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Hickenlooper](https://www.hickenlooper.senate.gov/contact)"
       - id: "us-ct"
         name:
           en: "Connecticut"
+          fr: "Connecticut"
         items:
           - text:
               en: "File a complaint with the [Connecticut Attorney General Consumer Protection](https://portal.ct.gov/AG/Common/Complaint-Form-Landing-page)"
+              fr: "Déposez une plainte auprès du [Connecticut Attorney General Consumer Protection](https://portal.ct.gov/AG/Common/Complaint-Form-Landing-page)"
           - text:
               en: "Contact Senator [Richard Blumenthal](https://www.blumenthal.senate.gov/contact)"
+              fr: "Contactez le sénateur [Richard Blumenthal](https://www.blumenthal.senate.gov/contact)"
           - text:
               en: "Contact Senator [Chris Murphy](https://www.murphy.senate.gov/contact)"
+              fr: "Contactez le sénateur [Chris Murphy](https://www.murphy.senate.gov/contact)"
       - id: "us-de"
         name:
           en: "Delaware"
+          fr: "Delaware"
         items:
           - text:
               en: "File a complaint with the [Delaware Attorney General Consumer Protection](https://attorneygeneral.delaware.gov/fraud/cpu/)"
+              fr: "Déposez une plainte auprès du [Delaware Attorney General Consumer Protection](https://attorneygeneral.delaware.gov/fraud/cpu/)"
           - text:
               en: "Contact Senator [Chris Coons](https://www.coons.senate.gov/contact)"
+              fr: "Contactez le sénateur [Chris Coons](https://www.coons.senate.gov/contact)"
           - text:
               en: "Contact Senator [Lisa Blunt Rochester](https://www.bluntrochester.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Lisa Blunt Rochester](https://www.bluntrochester.senate.gov/contact)"
       - id: "us-fl"
         name:
           en: "Florida"
+          fr: "Floride"
         items:
           - text:
               en: "File a complaint with the [Florida Attorney General Consumer Protection](https://www.myfloridalegal.com/consumer-protection/consumer-complaint-form)"
+              fr: "Déposez une plainte auprès de la [Florida Attorney General Consumer Protection](https://www.myfloridalegal.com/consumer-protection/consumer-complaint-form)"
           - text:
               en: "Contact Senator [Rick Scott](https://www.rickscott.senate.gov/contact)"
+              fr: "Contactez le sénateur [Rick Scott](https://www.rickscott.senate.gov/contact)"
           - text:
               en: "Contact Senator [Ashley Moody](https://www.moody.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Ashley Moody](https://www.moody.senate.gov/contact)"
       - id: "us-ga"
         name:
           en: "Georgia"
+          fr: "Géorgie"
         items:
           - text:
               en: "File a complaint with the [Georgia Consumer Protection Division](https://consumer.georgia.gov/resolve-your-dispute/how-do-i-file-complaint/consumer-complaint-form)"
+              fr: "Déposez une plainte auprès de la [Georgia Consumer Protection Division](https://consumer.georgia.gov/resolve-your-dispute/how-do-i-file-complaint/consumer-complaint-form)"
           - text:
               en: "Contact Senator [Jon Ossoff](https://www.ossoff.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jon Ossoff](https://www.ossoff.senate.gov/contact)"
           - text:
               en: "Contact Senator [Raphael Warnock](https://www.warnock.senate.gov/contact)"
+              fr: "Contactez le sénateur [Raphael Warnock](https://www.warnock.senate.gov/contact)"
       - id: "us-hi"
         name:
           en: "Hawaii"
+          fr: "Hawaï"
         items:
           - text:
               en: "File a complaint with the [Hawaii Office of Consumer Protection](https://cca.hawaii.gov/ocp/)"
+              fr: "Déposez une plainte auprès de la [Hawaii Office of Consumer Protection](https://cca.hawaii.gov/ocp/)"
           - text:
               en: "Contact Senator [Brian Schatz](https://www.schatz.senate.gov/contact)"
+              fr: "Contactez le sénateur [Brian Schatz](https://www.schatz.senate.gov/contact)"
           - text:
               en: "Contact Senator [Mazie Hirono](https://www.hirono.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Mazie Hirono](https://www.hirono.senate.gov/contact)"
       - id: "us-id"
         name:
           en: "Idaho"
+          fr: "Idaho"
         items:
           - text:
               en: "File a complaint with the [Idaho Attorney General Consumer Protection](https://www.ag.idaho.gov/consumer-protection/consumer-complaints/)"
+              fr: "Déposez une plainte auprès de l'[Idaho Attorney General Consumer Protection](https://www.ag.idaho.gov/consumer-protection/consumer-complaints/)"
           - text:
               en: "Contact Senator [Mike Crapo](https://www.crapo.senate.gov/contact)"
+              fr: "Contactez le sénateur [Mike Crapo](https://www.crapo.senate.gov/contact)"
           - text:
               en: "Contact Senator [Jim Risch](https://www.risch.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jim Risch](https://www.risch.senate.gov/contact)"
       - id: "us-il"
         name:
           en: "Illinois"
+          fr: "Illinois"
         items:
           - text:
               en: "File a complaint with the [Illinois Attorney General Consumer Protection](https://illinoisattorneygeneral.gov/file-a-complaint/consumer/)"
+              fr: "Déposez une plainte auprès de l'[Illinois Attorney General Consumer Protection](https://illinoisattorneygeneral.gov/file-a-complaint/consumer/)"
           - text:
               en: "Contact Senator [Dick Durbin](https://www.durbin.senate.gov/contact)"
+              fr: "Contactez le sénateur [Dick Durbin](https://www.durbin.senate.gov/contact)"
           - text:
               en: "Contact Senator [Tammy Duckworth](https://www.duckworth.senate.gov/contact)"
+              fr: "Contactez le sénateur [Tammy Duckworth](https://www.duckworth.senate.gov/contact)"
       - id: "us-in"
         name:
           en: "Indiana"
+          fr: "Indiana"
         items:
           - text:
               en: "File a complaint with the [Indiana Attorney General Consumer Protection](https://www.in.gov/attorneygeneral/consumer-protection-division/file-a-complaint/)"
+              fr: "Déposez une plainte auprès de l'[Indiana Attorney General Consumer Protection](https://www.in.gov/attorneygeneral/consumer-protection-division/file-a-complaint/)"
           - text:
               en: "Contact Senator [Todd Young](https://www.young.senate.gov/contact)"
+              fr: "Contactez le sénateur [Todd Young](https://www.young.senate.gov/contact)"
           - text:
               en: "Contact Senator [Jim Banks](https://www.banks.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jim Banks](https://www.banks.senate.gov/contact)"
       - id: "us-ia"
         name:
           en: "Iowa"
+          fr: "Iowa"
         items:
           - text:
               en: "File a complaint with the [Iowa Attorney General Consumer Protection](https://www.iowaattorneygeneral.gov/for-consumers/file-a-consumer-complaint)"
+              fr: "Déposez une plainte auprès de l'[Iowa Attorney General Consumer Protection](https://www.iowaattorneygeneral.gov/for-consumers/file-a-consumer-complaint)"
           - text:
               en: "Contact Senator [Chuck Grassley](https://www.grassley.senate.gov/contact)"
+              fr: "Contactez le sénateur [Chuck Grassley](https://www.grassley.senate.gov/contact)"
           - text:
               en: "Contact Senator [Joni Ernst](https://www.ernst.senate.gov/contact)"
+              fr: "Contactez le sénateur [Joni Ernst](https://www.ernst.senate.gov/contact)"
       - id: "us-ks"
         name:
           en: "Kansas"
+          fr: "Kansas"
         items:
           - text:
               en: "File a complaint with the [Kansas Attorney General Consumer Protection](https://www.ag.ks.gov/file-a-complaint/consumer-protection)"
+              fr: "Déposez une plainte auprès du [Kansas Attorney General Consumer Protection](https://www.ag.ks.gov/file-a-complaint/consumer-protection)"
           - text:
               en: "Contact Senator [Jerry Moran](https://www.moran.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jerry Moran](https://www.moran.senate.gov/contact)"
           - text:
               en: "Contact Senator [Roger Marshall](https://www.marshall.senate.gov/contact)"
+              fr: "Contactez le sénateur [Roger Marshall](https://www.marshall.senate.gov/contact)"
       - id: "us-ky"
         name:
           en: "Kentucky"
+          fr: "Kentucky"
         items:
           - text:
               en: "File a complaint with the [Kentucky Attorney General Consumer Protection](https://www.ag.ky.gov/Resources/Consumer-Resources/Consumers/Pages/Consumer-Complaints.aspx)"
+              fr: "Déposez une plainte auprès du [Kentucky Attorney General Consumer Protection](https://www.ag.ky.gov/Resources/Consumer-Resources/Consumers/Pages/Consumer-Complaints.aspx)"
           - text:
               en: "Contact Senator [Mitch McConnell](https://www.mcconnell.senate.gov/contact)"
+              fr: "Contactez le sénateur [Mitch McConnell](https://www.mcconnell.senate.gov/contact)"
           - text:
               en: "Contact Senator [Rand Paul](https://www.paul.senate.gov/contact)"
+              fr: "Contactez le sénateur [Rand Paul](https://www.paul.senate.gov/contact)"
       - id: "us-la"
         name:
           en: "Louisiana"
+          fr: "Louisiane"
         items:
           - text:
               en: "File a complaint with the [Louisiana Attorney General Consumer Protection](https://ag.louisiana.gov/Form/Consumer/Dispute)"
+              fr: "Déposez une plainte auprès du [Louisiana Attorney General Consumer Protection](https://ag.louisiana.gov/Form/Consumer/Dispute)"
           - text:
               en: "Contact Senator [Bill Cassidy](https://www.cassidy.senate.gov/contact)"
+              fr: "Contactez le sénateur [Bill Cassidy](https://www.cassidy.senate.gov/contact)"
           - text:
               en: "Contact Senator [John Kennedy](https://www.kennedy.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Kennedy](https://www.kennedy.senate.gov/contact)"
       - id: "us-me"
         name:
           en: "Maine"
+          fr: "Maine"
         items:
           - text:
               en: "File a complaint with the [Maine Attorney General Consumer Protection](https://www.maine.gov/ag/consumer/complaints/)"
+              fr: "Déposez une plainte auprès du [Maine Attorney General Consumer Protection](https://www.maine.gov/ag/consumer/complaints/)"
           - text:
               en: "Contact Senator [Susan Collins](https://www.collins.senate.gov/contact)"
+              fr: "Contactez le sénateur [Susan Collins](https://www.collins.senate.gov/contact)"
           - text:
               en: "Contact Senator [Angus King](https://www.king.senate.gov/contact)"
+              fr: "Contactez le sénateur [Angus King](https://www.king.senate.gov/contact)"
       - id: "us-md"
         name:
           en: "Maryland"
+          fr: "Maryland"
         items:
           - text:
               en: "File a complaint with the [Maryland Attorney General Consumer Protection](https://www.marylandattorneygeneral.gov/Pages/CPD/Complaint.aspx)"
+              fr: "Déposez une plainte auprès du [Maryland Attorney General Consumer Protection](https://www.marylandattorneygeneral.gov/Pages/CPD/Complaint.aspx)"
           - text:
               en: "Contact Senator [Chris Van Hollen](https://www.vanhollen.senate.gov/contact)"
+              fr: "Contactez le sénateur [Chris Van Hollen](https://www.vanhollen.senate.gov/contact)"
           - text:
               en: "Contact Senator [Angela Alsobrooks](https://www.alsobrooks.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Angela Alsobrooks](https://www.alsobrooks.senate.gov/contact)"
       - id: "us-ma"
         name:
           en: "Massachusetts"
+          fr: "Massachusetts"
         items:
           - text:
               en: "File a complaint with the [Massachusetts Attorney General Consumer Protection](https://www.mass.gov/how-to/file-a-consumer-complaint)"
+              fr: "Déposez une plainte auprès du [Massachusetts Attorney General Consumer Protection](https://www.mass.gov/how-to/file-a-consumer-complaint)"
           - text:
               en: "Contact Senator [Elizabeth Warren](https://www.warren.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Elizabeth Warren](https://www.warren.senate.gov/contact)"
           - text:
               en: "Contact Senator [Ed Markey](https://www.markey.senate.gov/contact)"
+              fr: "Contactez le sénateur [Ed Markey](https://www.markey.senate.gov/contact)"
       - id: "us-mi"
         name:
           en: "Michigan"
+          fr: "Michigan"
         items:
           - text:
               en: "File a complaint with the [Michigan Attorney General Consumer Protection](https://www.michigan.gov/ag/complaints)"
+              fr: "Déposez une plainte auprès du [Michigan Attorney General Consumer Protection](https://www.michigan.gov/ag/complaints)"
           - text:
               en: "Contact Senator [Gary Peters](https://www.peters.senate.gov/contact)"
+              fr: "Contactez le sénateur [Gary Peters](https://www.peters.senate.gov/contact)"
           - text:
               en: "Contact Senator [Elissa Slotkin](https://www.slotkin.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Elissa Slotkin](https://www.slotkin.senate.gov/contact)"
       - id: "us-mn"
         name:
           en: "Minnesota"
+          fr: "Minnesota"
         items:
           - text:
               en: "File a complaint with the [Minnesota Attorney General Consumer Protection](https://www.ag.state.mn.us/office/complaint.asp)"
+              fr: "Déposez une plainte auprès du [Minnesota Attorney General Consumer Protection](https://www.ag.state.mn.us/office/complaint.asp)"
           - text:
               en: "Contact Senator [Amy Klobuchar](https://www.klobuchar.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Amy Klobuchar](https://www.klobuchar.senate.gov/contact)"
           - text:
               en: "Contact Senator [Tina Smith](https://www.smith.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Tina Smith](https://www.smith.senate.gov/contact)"
       - id: "us-ms"
         name:
           en: "Mississippi"
+          fr: "Mississippi"
         items:
           - text:
               en: "File a complaint with the [Mississippi Attorney General Consumer Protection](https://attorneygenerallynnfitch.com/divisions/consumer-protection/)"
+              fr: "Déposez une plainte auprès du [Mississippi Attorney General Consumer Protection](https://attorneygenerallynnfitch.com/divisions/consumer-protection/)"
           - text:
               en: "Contact Senator [Roger Wicker](https://www.wicker.senate.gov/contact)"
+              fr: "Contactez le sénateur [Roger Wicker](https://www.wicker.senate.gov/contact)"
           - text:
               en: "Contact Senator [Cindy Hyde-Smith](https://www.hydesmith.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Cindy Hyde-Smith](https://www.hydesmith.senate.gov/contact)"
       - id: "us-mo"
         name:
           en: "Missouri"
+          fr: "Missouri"
         items:
           - text:
               en: "File a complaint with the [Missouri Attorney General Consumer Protection](https://ago.mo.gov/get-help/programs-services-from-a-z/consumer-complaints/)"
+              fr: "Déposez une plainte auprès du [Missouri Attorney General Consumer Protection](https://ago.mo.gov/get-help/programs-services-from-a-z/consumer-complaints/)"
           - text:
               en: "Contact Senator [Josh Hawley](https://www.hawley.senate.gov/contact)"
+              fr: "Contactez le sénateur [Josh Hawley](https://www.hawley.senate.gov/contact)"
           - text:
               en: "Contact Senator [Eric Schmitt](https://www.schmitt.senate.gov/contact)"
+              fr: "Contactez le sénateur [Eric Schmitt](https://www.schmitt.senate.gov/contact)"
       - id: "us-mt"
         name:
           en: "Montana"
+          fr: "Montana"
         items:
           - text:
               en: "File a complaint with the [Montana Attorney General Consumer Protection](https://dojmt.gov/consumer/consumer-complaints/)"
+              fr: "Déposez une plainte auprès du [Montana Attorney General Consumer Protection](https://dojmt.gov/consumer/consumer-complaints/)"
           - text:
               en: "Contact Senator [Steve Daines](https://www.daines.senate.gov/contact)"
+              fr: "Contactez le sénateur [Steve Daines](https://www.daines.senate.gov/contact)"
           - text:
               en: "Contact Senator [Tim Sheehy](https://www.sheehy.senate.gov/contact)"
+              fr: "Contactez le sénateur [Tim Sheehy](https://www.sheehy.senate.gov/contact)"
       - id: "us-ne"
         name:
           en: "Nebraska"
+          fr: "Nebraska"
         items:
           - text:
               en: "File a complaint with the [Nebraska Attorney General Consumer Protection](https://protectthegoodlife.nebraska.gov/)"
+              fr: "Déposez une plainte auprès du [Nebraska Attorney General Consumer Protection](https://protectthegoodlife.nebraska.gov/)"
           - text:
               en: "Contact Senator [Deb Fischer](https://www.fischer.senate.gov/contact)"
+              fr: "Contactez le sénateur [Deb Fischer](https://www.fischer.senate.gov/contact)"
           - text:
               en: "Contact Senator [Pete Ricketts](https://www.ricketts.senate.gov/contact)"
+              fr: "Contactez le sénateur [Pete Ricketts](https://www.ricketts.senate.gov/contact)"
       - id: "us-nv"
         name:
           en: "Nevada"
+          fr: "Nevada"
         items:
           - text:
               en: "File a complaint with the [Nevada Attorney General Consumer Protection](https://ag.nv.gov/Complaints/CSU_Complaints___FAQ/)"
+              fr: "Déposez une plainte auprès du [Nevada Attorney General Consumer Protection](https://ag.nv.gov/Complaints/CSU_Complaints___FAQ/)"
           - text:
               en: "Contact Senator [Catherine Cortez Masto](https://www.cortezmasto.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Catherine Cortez Masto](https://www.cortezmasto.senate.gov/contact)"
           - text:
               en: "Contact Senator [Jacky Rosen](https://www.rosen.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jacky Rosen](https://www.rosen.senate.gov/contact)"
       - id: "us-nh"
         name:
           en: "New Hampshire"
+          fr: "New Hampshire"
         items:
           - text:
               en: "File a complaint with the [New Hampshire Attorney General Consumer Protection](https://www.doj.nh.gov/citizens/consumer-protection-antitrust-bureau/consumer-complaints)"
+              fr: "Déposez une plainte auprès du [New Hampshire Attorney General Consumer Protection](https://www.doj.nh.gov/citizens/consumer-protection-antitrust-bureau/consumer-complaints)"
           - text:
               en: "Contact Senator [Jeanne Shaheen](https://www.shaheen.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Jeanne Shaheen](https://www.shaheen.senate.gov/contact)"
           - text:
               en: "Contact Senator [Maggie Hassan](https://www.hassan.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Maggie Hassan](https://www.hassan.senate.gov/contact)"
       - id: "us-nj"
         name:
           en: "New Jersey"
+          fr: "New Jersey"
         items:
           - text:
               en: "File a complaint with the [New Jersey Consumer Affairs](https://www.njconsumeraffairs.gov/Pages/Consumer-Complaints.aspx)"
+              fr: "Déposez une plainte auprès du [New Jersey Consumer Affairs](https://www.njconsumeraffairs.gov/Pages/Consumer-Complaints.aspx)"
           - text:
               en: "Contact Senator [Cory Booker](https://www.booker.senate.gov/contact)"
+              fr: "Contactez le sénateur [Cory Booker](https://www.booker.senate.gov/contact)"
           - text:
               en: "Contact Senator [Andy Kim](https://www.kim.senate.gov/contact)"
+              fr: "Contactez le sénateur [Andy Kim](https://www.kim.senate.gov/contact)"
       - id: "us-nm"
         name:
           en: "New Mexico"
+          fr: "Nouveau-Mexique"
         items:
           - text:
               en: "File a complaint with the [New Mexico Attorney General Consumer Protection](https://nmdoj.gov/get-help/submit-a-complaint/)"
+              fr: "Déposez une plainte auprès du [New Mexico Attorney General Consumer Protection](https://nmdoj.gov/get-help/submit-a-complaint/)"
           - text:
               en: "Contact Senator [Martin Heinrich](https://www.heinrich.senate.gov/contact)"
+              fr: "Contactez le sénateur [Martin Heinrich](https://www.heinrich.senate.gov/contact)"
           - text:
               en: "Contact Senator [Ben Ray Lujan](https://www.lujan.senate.gov/contact)"
+              fr: "Contactez le sénateur [Ben Ray Lujan](https://www.lujan.senate.gov/contact)"
       - id: "us-ny"
         name:
           en: "New York"
+          fr: "New York"
         items:
           - text:
               en: "File a complaint with the [New York Attorney General Consumer Protection](https://ag.ny.gov/file-complaint/consumer)"
+              fr: "Déposez une plainte auprès du [New York Attorney General Consumer Protection](https://ag.ny.gov/file-complaint/consumer)"
           - text:
               en: "Contact Senator [Chuck Schumer](https://www.schumer.senate.gov/contact)"
+              fr: "Contactez le sénateur [Chuck Schumer](https://www.schumer.senate.gov/contact)"
           - text:
               en: "Contact Senator [Kirsten Gillibrand](https://www.gillibrand.senate.gov/contact)"
+              fr: "Contactez le sénateur [Kirsten Gillibrand](https://www.gillibrand.senate.gov/contact)"
       - id: "us-nc"
         name:
           en: "North Carolina"
+          fr: "Caroline du Nord"
         items:
           - text:
               en: "File a complaint with the [North Carolina Attorney General Consumer Protection](https://ncdoj.gov/file-a-complaint/consumer-complaint/)"
+              fr: "Déposez une plainte auprès du [North Carolina Attorney General Consumer Protection](https://ncdoj.gov/file-a-complaint/consumer-complaint/)"
           - text:
               en: "Contact Senator [Thom Tillis](https://www.tillis.senate.gov/contact)"
+              fr: "Contactez le sénateur [Thom Tillis](https://www.tillis.senate.gov/contact)"
           - text:
               en: "Contact Senator [Ted Budd](https://www.budd.senate.gov/contact)"
+              fr: "Contactez le sénateur [Ted Budd](https://www.budd.senate.gov/contact)"
       - id: "us-nd"
         name:
           en: "North Dakota"
+          fr: "Dakota du Nord"
         items:
           - text:
               en: "File a complaint with the [North Dakota Attorney General Consumer Protection](https://attorneygeneral.nd.gov/consumer-resources/consumer-complaints/)"
+              fr: "Déposez une plainte auprès du [North Dakota Attorney General Consumer Protection](https://attorneygeneral.nd.gov/consumer-resources/consumer-complaints/)"
           - text:
               en: "Contact Senator [John Hoeven](https://www.hoeven.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Hoeven](https://www.hoeven.senate.gov/contact)"
           - text:
               en: "Contact Senator [Kevin Cramer](https://www.cramer.senate.gov/contact)"
+              fr: "Contactez le sénateur [Kevin Cramer](https://www.cramer.senate.gov/contact)"
       - id: "us-oh"
         name:
           en: "Ohio"
+          fr: "Ohio"
         items:
           - text:
               en: "File a complaint with the [Ohio Attorney General Consumer Protection](https://www.ohioattorneygeneral.gov/Individuals-and-Families/Consumers/File-A-Complaint)"
+              fr: "Déposez une plainte auprès de l'[Ohio Attorney General Consumer Protection](https://www.ohioattorneygeneral.gov/Individuals-and-Families/Consumers/File-A-Complaint)"
           - text:
               en: "Contact Senator [Bernie Moreno](https://www.moreno.senate.gov/contact)"
+              fr: "Contactez le sénateur [Bernie Moreno](https://www.moreno.senate.gov/contact)"
           - text:
               en: "Contact Senator [Jon Husted](https://www.husted.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jon Husted](https://www.husted.senate.gov/contact)"
       - id: "us-ok"
         name:
           en: "Oklahoma"
+          fr: "Oklahoma"
         items:
           - text:
               en: "File a complaint with the [Oklahoma Attorney General Consumer Protection](https://oklahoma.gov/oag/complaints-tiplines/complaints.html)"
+              fr: "Déposez une plainte auprès de l'[Oklahoma Attorney General Consumer Protection](https://oklahoma.gov/oag/complaints-tiplines/complaints.html)"
           - text:
               en: "Contact Senator [James Lankford](https://www.lankford.senate.gov/contact)"
+              fr: "Contactez le sénateur [James Lankford](https://www.lankford.senate.gov/contact)"
           - text:
               en: "Contact Senator [Markwayne Mullin](https://www.mullin.senate.gov/contact)"
+              fr: "Contactez le sénateur [Markwayne Mullin](https://www.mullin.senate.gov/contact)"
       - id: "us-or"
         name:
           en: "Oregon"
+          fr: "Oregon"
         items:
           - text:
               en: "File a complaint with the [Oregon Attorney General Consumer Protection](https://www.doj.state.or.us/consumer-protection/consumer-complaints/)"
+              fr: "Déposez une plainte auprès de l'[Oregon Attorney General Consumer Protection](https://www.doj.state.or.us/consumer-protection/consumer-complaints/)"
           - text:
               en: "Contact Senator [Ron Wyden](https://www.wyden.senate.gov/contact)"
+              fr: "Contactez le sénateur [Ron Wyden](https://www.wyden.senate.gov/contact)"
           - text:
               en: "Contact Senator [Jeff Merkley](https://www.merkley.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jeff Merkley](https://www.merkley.senate.gov/contact)"
       - id: "us-pa"
         name:
           en: "Pennsylvania"
+          fr: "Pennsylvanie"
         items:
           - text:
               en: "File a complaint with the [Pennsylvania Attorney General Consumer Protection](https://www.attorneygeneral.gov/submit-a-complaint/consumer-complaint/)"
+              fr: "Déposez une plainte auprès de la [Pennsylvania Attorney General Consumer Protection](https://www.attorneygeneral.gov/submit-a-complaint/consumer-complaint/)"
           - text:
               en: "Contact Senator [John Fetterman](https://www.fetterman.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Fetterman](https://www.fetterman.senate.gov/contact)"
           - text:
               en: "Contact Senator [Dave McCormick](https://www.mccormick.senate.gov/contact)"
+              fr: "Contactez le sénateur [Dave McCormick](https://www.mccormick.senate.gov/contact)"
       - id: "us-ri"
         name:
           en: "Rhode Island"
+          fr: "Rhode Island"
         items:
           - text:
               en: "File a complaint with the [Rhode Island Attorney General Consumer Protection](https://riag.ri.gov/forms/consumer-complaint)"
+              fr: "Déposez une plainte auprès du [Rhode Island Attorney General Consumer Protection](https://riag.ri.gov/forms/consumer-complaint)"
           - text:
               en: "Contact Senator [Jack Reed](https://www.reed.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jack Reed](https://www.reed.senate.gov/contact)"
           - text:
               en: "Contact Senator [Sheldon Whitehouse](https://www.whitehouse.senate.gov/contact)"
+              fr: "Contactez le sénateur [Sheldon Whitehouse](https://www.whitehouse.senate.gov/contact)"
       - id: "us-sc"
         name:
           en: "South Carolina"
+          fr: "Caroline du Sud"
         items:
           - text:
               en: "File a complaint with the [South Carolina Department of Consumer Affairs](https://consumer.sc.gov/consumer-resources/consumer-complaints)"
+              fr: "Déposez une plainte auprès de la [South Carolina Department of Consumer Affairs](https://consumer.sc.gov/consumer-resources/consumer-complaints)"
           - text:
               en: "Contact Senator [Lindsey Graham](https://www.lgraham.senate.gov/contact)"
+              fr: "Contactez le sénateur [Lindsey Graham](https://www.lgraham.senate.gov/contact)"
           - text:
               en: "Contact Senator [Tim Scott](https://www.scott.senate.gov/contact)"
+              fr: "Contactez le sénateur [Tim Scott](https://www.scott.senate.gov/contact)"
       - id: "us-sd"
         name:
           en: "South Dakota"
+          fr: "Dakota du Sud"
         items:
           - text:
               en: "File a complaint with the [South Dakota Attorney General Consumer Protection](https://consumer.sd.gov/complaintform.aspx)"
+              fr: "Déposez une plainte auprès de la [South Dakota Attorney General Consumer Protection](https://consumer.sd.gov/complaintform.aspx)"
           - text:
               en: "Contact Senator [John Thune](https://www.thune.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Thune](https://www.thune.senate.gov/contact)"
           - text:
               en: "Contact Senator [Mike Rounds](https://www.rounds.senate.gov/contact)"
+              fr: "Contactez le sénateur [Mike Rounds](https://www.rounds.senate.gov/contact)"
       - id: "us-tn"
         name:
           en: "Tennessee"
+          fr: "Tennessee"
         items:
           - text:
               en: "File a complaint with the [Tennessee Attorney General Consumer Protection](https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer/file-a-complaint.html)"
+              fr: "Déposez une plainte auprès du [Tennessee Attorney General Consumer Protection](https://www.tn.gov/attorneygeneral/working-for-tennessee/consumer/file-a-complaint.html)"
           - text:
               en: "Contact Senator [Marsha Blackburn](https://www.blackburn.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Marsha Blackburn](https://www.blackburn.senate.gov/contact)"
           - text:
               en: "Contact Senator [Bill Hagerty](https://www.hagerty.senate.gov/contact)"
+              fr: "Contactez le sénateur [Bill Hagerty](https://www.hagerty.senate.gov/contact)"
       - id: "us-tx"
         name:
           en: "Texas"
+          fr: "Texas"
         items:
           - text:
               en: "File a complaint with the [Texas Attorney General Consumer Protection](https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint)"
+              fr: "Déposez une plainte auprès du [Texas Attorney General Consumer Protection](https://www.texasattorneygeneral.gov/consumer-protection/file-consumer-complaint)"
           - text:
               en: "Contact Senator [John Cornyn](https://www.cornyn.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Cornyn](https://www.cornyn.senate.gov/contact)"
           - text:
               en: "Contact Senator [Ted Cruz](https://www.cruz.senate.gov/contact)"
+              fr: "Contactez le sénateur [Ted Cruz](https://www.cruz.senate.gov/contact)"
       - id: "us-ut"
         name:
           en: "Utah"
+          fr: "Utah"
         items:
           - text:
               en: "File a complaint with the [Utah Division of Consumer Protection](https://dcp.utah.gov/)"
+              fr: "Déposez une plainte auprès de l'[Utah Division of Consumer Protection](https://dcp.utah.gov/)"
           - text:
               en: "Contact Senator [Mike Lee](https://www.lee.senate.gov/contact)"
+              fr: "Contactez le sénateur [Mike Lee](https://www.lee.senate.gov/contact)"
           - text:
               en: "Contact Senator [John Curtis](https://www.curtis.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Curtis](https://www.curtis.senate.gov/contact)"
       - id: "us-vt"
         name:
           en: "Vermont"
+          fr: "Vermont"
         items:
           - text:
               en: "File a complaint with the [Vermont Attorney General Consumer Protection](https://ago.vermont.gov/cap/get-help-consumer-complaint)"
+              fr: "Déposez une plainte auprès de la [Vermont Attorney General Consumer Protection](https://ago.vermont.gov/cap/get-help-consumer-complaint)"
           - text:
               en: "Contact Senator [Bernie Sanders](https://www.sanders.senate.gov/contact)"
+              fr: "Contactez le sénateur [Bernie Sanders](https://www.sanders.senate.gov/contact)"
           - text:
               en: "Contact Senator [Peter Welch](https://www.welch.senate.gov/contact)"
+              fr: "Contactez le sénateur [Peter Welch](https://www.welch.senate.gov/contact)"
       - id: "us-va"
         name:
           en: "Virginia"
+          fr: "Virginie"
         items:
           - text:
               en: "File a complaint with the [Virginia Attorney General Consumer Protection](https://www.oag.state.va.us/consumer-protection/index.php/file-a-complaint)"
+              fr: "Déposez une plainte auprès de la [Virginia Attorney General Consumer Protection](https://www.oag.state.va.us/consumer-protection/index.php/file-a-complaint)"
           - text:
               en: "Contact Senator [Mark Warner](https://www.warner.senate.gov/contact)"
+              fr: "Contactez le sénateur [Mark Warner](https://www.warner.senate.gov/contact)"
           - text:
               en: "Contact Senator [Tim Kaine](https://www.kaine.senate.gov/contact)"
+              fr: "Contactez le sénateur [Tim Kaine](https://www.kaine.senate.gov/contact)"
       - id: "us-wa"
         name:
           en: "Washington"
+          fr: "Washington"
         items:
           - text:
               en: "File a complaint with the [Washington Attorney General Consumer Protection](https://www.atg.wa.gov/file-complaint)"
+              fr: "Déposez une plainte auprès du [Washington Attorney General Consumer Protection](https://www.atg.wa.gov/file-complaint)"
           - text:
               en: "Contact Senator [Patty Murray](https://www.murray.senate.gov/contact)"
+              fr: "Contactez le sénateur [Patty Murray](https://www.murray.senate.gov/contact)"
           - text:
               en: "Contact Senator [Maria Cantwell](https://www.cantwell.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Maria Cantwell](https://www.cantwell.senate.gov/contact)"
       - id: "us-wv"
         name:
           en: "West Virginia"
+          fr: "Virginie-Occidentale"
         items:
           - text:
               en: "File a complaint with the [West Virginia Attorney General Consumer Protection](https://ago.wv.gov/consumer-protection/file-complaint-consumer-protection-division)"
+              fr: "Déposez une plainte auprès de la [West Virginia Attorney General Consumer Protection](https://ago.wv.gov/consumer-protection/file-complaint-consumer-protection-division)"
           - text:
               en: "Contact Senator [Shelley Moore Capito](https://www.capito.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Shelley Moore Capito](https://www.capito.senate.gov/contact)"
           - text:
               en: "Contact Senator [Jim Justice](https://www.justice.senate.gov/contact)"
+              fr: "Contactez le sénateur [Jim Justice](https://www.justice.senate.gov/contact)"
       - id: "us-wi"
         name:
           en: "Wisconsin"
+          fr: "Wisconsin"
         items:
           - text:
               en: "File a complaint with the [Wisconsin Consumer Protection (DATCP)](https://datcp.wi.gov/Pages/Programs_Services/FileConsumerComplaint.aspx)"
+              fr: "Déposez une plainte auprès du [Wisconsin Consumer Protection (DATCP)](https://datcp.wi.gov/Pages/Programs_Services/FileConsumerComplaint.aspx)"
           - text:
               en: "Contact Senator [Ron Johnson](https://www.ronjohnson.senate.gov/contact)"
+              fr: "Contactez le sénateur [Ron Johnson](https://www.ronjohnson.senate.gov/contact)"
           - text:
               en: "Contact Senator [Tammy Baldwin](https://www.baldwin.senate.gov/contact)"
+              fr: "Contactez le sénateur [Tammy Baldwin](https://www.baldwin.senate.gov/contact)"
       - id: "us-wy"
         name:
           en: "Wyoming"
+          fr: "Wyoming"
         items:
           - text:
               en: "File a complaint with the [Wyoming Attorney General Consumer Protection](https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/consumer-complaints)"
+              fr: "Déposez une plainte auprès du [Wyoming Attorney General Consumer Protection](https://attorneygeneral.wyo.gov/law-office-division/consumer-protection-and-antitrust-unit/consumer-complaints)"
           - text:
               en: "Contact Senator [John Barrasso](https://www.barrasso.senate.gov/contact)"
+              fr: "Contactez le sénateur [John Barrasso](https://www.barrasso.senate.gov/contact)"
           - text:
               en: "Contact Senator [Cynthia Lummis](https://www.lummis.senate.gov/contact)"
+              fr: "Contactez la sénatrice [Cynthia Lummis](https://www.lummis.senate.gov/contact)"
   - id: european-union
     name:
       fa: "اتّحادیّهٔ اروپا"
@@ -636,7 +836,7 @@ countries:
       en: "European Union"
       ru: "Европейский союз"
       de: "Europäische Union"
-      fr: "Union européenne"
+      fr: "Union Européenne"
       es: "Unión Europea"
       it: "Unione Europea"
       ko: "유럽 연합"
@@ -657,8 +857,8 @@ countries:
           ar: "تواصل مع فريق قانون الأسواق الرقمية عبر البريد الإلكتروني [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           en: "Email Digital Markets Act team: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           ru: "Электронная почта команды Digital Markets Act: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
-          de: "Email Digital Markets Act team: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
-          fr: "Email Digital Markets Act team : [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
+          de: "Email Digital Markets Act team : [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
+          fr: "Envoyez un e-mail à l'équipe chargée de la loi sur les marchés numériques : [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           it: "Invia un'e-mail al team Digital Markets Act: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           cs: "Napište týmu pro Nařízení o digitálních trzích (DMA): [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           sk: "E-mail tímu pre zákon o digitálnych trhoch: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
@@ -674,7 +874,7 @@ countries:
           en: "Contact DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           ru: "Свяжитесь с командой DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           de: "Contact DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_de](https://digital-markets-act.ec.europa.eu/contact-dma-team_de)"
-          fr: "Contact DMA team : [https://digital-markets-act.ec.europa.eu/contact-dma-team_fr](https://digital-markets-act.ec.europa.eu/contact-dma-team_fr)"
+          fr: "Contactez la DMA team : [https://digital-markets-act.ec.europa.eu/contact-dma-team_fr](https://digital-markets-act.ec.europa.eu/contact-dma-team_fr)"
           it: "Contatta il team DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           es: "Contact DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_es](https://digital-markets-act.ec.europa.eu/contact-dma-team_es)"
           cs: "Kontaktujte tým DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
@@ -689,12 +889,13 @@ countries:
           zh-TW: "聯絡 DMA 團隊：[https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
       - text:
           en: "Contact your Member of the European Parliament directly: [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
+          fr: "Contactez directement vos députés européen : [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
       - text:
           ar: "البريد الإلكتروني لمكافحة الاحتكار: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           en: "Email Antitrust: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           ru: "Электронная почта антимонопольного подразделения: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           de: "E-Mail Antitrust: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
-          fr: "Courriel Antitrust : [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
+          fr: "Envoyez un e-mail d'Antitrust : [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           es: "Correo electrónico Antitrust: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           it: "Invia un'e-mail all'Antitrust: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           cs: "Napište Antitrustu: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
@@ -731,6 +932,7 @@ countries:
           ar: "الجمهورية التشيكية"
           en: "Czech Republic"
           ru: "Чешская Республика"
+          fr: "République tchèque"
           it: "Repubblica Ceca"
           ko: "체코"
           cs: "Česká republika"
@@ -747,6 +949,7 @@ countries:
               ar: "البريد الإلكتروني: [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)"
               en: "Email: [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)"
               ru: "Электронная почта: [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)"
+              fr: "Envoyez un e-mail à l'UOHS : [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)"
               it: "E-mail: [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)"
               cs: "E-mail: [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)"
               sk: "E-mail: [posta@uohs.gov.cz](mailto:posta@uohs.gov.cz?cc=czechia@keepandroidopen.org)"
@@ -760,6 +963,7 @@ countries:
               ar: "اتصل بـ [مكتب حماية المنافسة (Úřad pro ochranu hospodářské soutěže – ÚOHS)](https://www.uohs.gov.cz/en/)"
               en: "Contact the [Office for the Protection of Competition (Úřad pro ochranu hospodářské soutěže – ÚOHS)](https://www.uohs.gov.cz/en/)"
               ru: "Свяжитесь с [Office for the Protection of Competition (Úřad pro ochranu hospodářské soutěže – ÚOHS)](https://www.uohs.gov.cz/en/)"
+              fr: "Contactez l'[Office de Protection de la Compétition (Úřad pro ochranu hospodářské soutěže – ÚOHS)](https://www.uohs.gov.cz/en/)"
               it: "Contatta [Office for the Protection of Competition (Úřad pro ochranu hospodářské soutěže – ÚOHS)](https://www.uohs.gov.cz/en/)"
               cs: "Kontaktujte [Úřad pro ochranu hospodářské soutěže (ÚOHS)](https://www.uohs.gov.cz/cs/)"
               sk: "Kontaktujte [Úrad pre ochranu hospodárskej súťaže (ÚOHS)](https://www.uohs.gov.cz/en/)"
@@ -775,6 +979,7 @@ countries:
           ar: "بولندا"
           en: "Poland"
           ru: "Польша"
+          fr: "Pologne"
           ko: "폴란드"
           el: "Πολωνία"
           th: "โปแลนด์"
@@ -786,6 +991,7 @@ countries:
               ar: "البريد الإلكتروني: [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)"
               en: "Email: [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)"
               ru: "Электронная почта: [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)"
+              fr: "Envoyez un e-mail à UOKIK : [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)"
               th: "อีเมล: [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)"
               id: "Pos-el: [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)"
               pl: "E-mail: [uokik@uokik.gov.pl](mailto:uokik@uokik.gov.pl?cc=poland@keepandroidopen.org)"
@@ -794,6 +1000,7 @@ countries:
               ar: "تواصل مع [مكتب حماية المنافسة والمستهلك (UOKiK)](https://uokik.gov.pl/)"
               en: "Contact the [Office of Competition and Consumer Protection (Urząd Ochrony Konkurencji i Konsumentów - UOKiK)](https://uokik.gov.pl/)"
               ru: "Свяжитесь с [Office of Competition and Consumer Protection (Urząd Ochrony Konkurencji i Konsumentów - UOKiK)](https://uokik.gov.pl/)"
+              fr: "Contactez l'[Office of Competition and Consumer Protection (Urząd Ochrony Konkurencji i Konsumentów - UOKiK)](https://uokik.gov.pl/)"
               el: "Επικοινωνήστε με το [Γραφείο Ανταγωνισμού και Προστασίας του Καταναλωτή (Urząd Ochrony Konkurencji i Konsumentów - UOKiK)](https://uokik.gov.pl/)"
               th: "ติดต่อ [สำนักงานปกป้องการแข่งขันและผู้บริโภค (Urząd Ochrony Konkurencji i Konsumentów - UOKiK)](https://uokik.gov.pl/)"
               id: "Hubungi [Badan Perlindungan Persaingan dan Konsumen (Urząd Ochrony Konkurencji i Konsumentów - UOKiK)](https://uokik.gov.pl/)"
@@ -1649,6 +1856,22 @@ countries:
       zh-TW: "臺灣"
       ja: "台湾"
     items:
+      - text:
+          ar: "البريد الإلكتروني: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          en: "Email: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          ru: "Электронная почта: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          de: "E-Mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          fr: "Courriel : [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          es: "Correo electrónico: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          it: "E-mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          sk: "E-mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          th: "อีเมล: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          id: "Pos-el: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          tr: "E-posta: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          uk: "Електронна пошта: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          pl: "E-mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          zh-CN: "电子邮件： [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
+          zh-TW: "電子郵件：[ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
       - text:
           ar: "اتصل بـ [لجنة التجارة العادلة (FTC)](https://www.ftc.gov.tw/)"
           en: "Contact the [Fair Trade Commission (FTC)](https://www.ftc.gov.tw/)"
