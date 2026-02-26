@@ -1666,23 +1666,6 @@ countries:
       ja: "台湾"
     items:
       - text:
-          ar: "البريد الإلكتروني: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          en: "Email: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          ru: "Электронная почта: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          de: "E-Mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          fr: "Courriel : [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          es: "Correo electrónico: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          it: "E-mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          sk: "E-mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          el: "Στείλτε e-mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          th: "อีเมล: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          id: "Pos-el: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          tr: "E-posta: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          uk: "Електронна пошта: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          pl: "E-mail: [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          zh-CN: "电子邮件： [ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-          zh-TW: "電子郵件：[ftc@ftc.gov.tw](mailto:ftc@ftc.gov.tw?cc=taiwan@keepandroidopen.org)"
-      - text:
           ar: "اتصل بـ [لجنة التجارة العادلة (FTC)](https://www.ftc.gov.tw/)"
           en: "Contact the [Fair Trade Commission (FTC)](https://www.ftc.gov.tw/)"
           ru: "Свяжитесь с [Fair Trade Commission (FTC)](https://www.ftc.gov.tw/)"
