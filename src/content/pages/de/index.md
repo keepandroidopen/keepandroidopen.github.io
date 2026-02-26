@@ -71,3 +71,7 @@ Fügen Sie die [FreeDroidWarn Bibliothek](https://github.com/woheller69/FreeDroi
 - Kämpfen Sie gegen Meinungsmanipulation: Wenn Sie in Foren oder sozialen Medien verdächtige Beiträge sehen, die die neue Politik verteidigen („Ja, aber…“), widersprechen Sie ihnen – und haben Sie keine Angst, Stellung zu beziehen.
 - Unterstützen Sie dieses Projekt, indem Sie [diese Seite bearbeiten](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/de/index.md) und nützliche Informationen hinzufügen.
 - [Unterschreiben Sie diese Petition auf change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
+
+### Webseiten-Eigentümer: Zeigen Sie Ihre Unterstützung {#webmasters}
+
+Fügen Sie mit einem einzigen `<script>`-Tag [einen Countdown-Banner zu Ihrer Webseite hinzu](/banner) — ohne Abhängigkeiten, beinhaltet 20 Übersetzungen und ist vollständig anpassbar.
