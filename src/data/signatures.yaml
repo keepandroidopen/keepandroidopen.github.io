@@ -158,6 +158,10 @@
   url: "vivaldi.com"
   poc: "Jon von Tetzchner <jon@vivaldi.com>"
   region: "NO"
+- organization: "LibreTube"
+  url: "libretube.dev"
+  poc: "libretube@proton.me"
+  region: "NO"
 
 #- organization: "XXX"
 #  url: "XXX"
