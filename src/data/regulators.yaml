@@ -1770,6 +1770,18 @@ countries:
           zh-CN: "联系[印度竞争委员会 (CCI)](https://www.cci.gov.in/)"
           zh-TW: "聯絡[印度競爭委員會 (CCI)](https://www.cci.gov.in/)"
 
+  - id: "italy"
+    name:
+      en: "Italy"
+      it: "Italia"
+    items:
+      - text:
+          en: "Submit a segnalation using the form at [this page](https://www.agcm.it/segnala-online/index) or send a Certified Email to [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
+          it: "Manda una segnalazione usando il form su [questa pagina](https://www.agcm.it/segnala-online/index) o una PEC a [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
+      - text:
+          en: "Contact the [Italian Competition Authority](https://www.agcm.it)"
+          it: "Contatta l'[Autorità Garante della Concorrenza e del Mercato](https://www.agcm.it)"
+
   - id: "canada"
     name:
       fa: "کانادا"
