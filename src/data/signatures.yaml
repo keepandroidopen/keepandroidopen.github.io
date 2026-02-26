@@ -158,6 +158,10 @@
   url: "vivaldi.com"
   poc: "Jon von Tetzchner <jon@vivaldi.com>"
   region: "NO"
+- organization: "DIGITAL PRIVACY .DIY"
+  url: "digitalprivacy.diy"
+  poc: "DIGITAL PRIVACY .DIY <keepandroidopen@digitalprivacy.diy>"
+  region: "NZ/DE"
 
 #- organization: "XXX"
 #  url: "XXX"
