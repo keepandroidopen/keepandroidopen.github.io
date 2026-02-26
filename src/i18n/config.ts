@@ -13,6 +13,7 @@ export const languages = {
   "ar": { label: "العربية", path: "/ar/"},
   "fa": { label: "فارسی", path: "/fa/"},
   "tr": { label: "Türkçe", path: "/tr/" },
+  "tl": { label: "Tagalog", path: "/tl/" },
   "el": { label: "Ελληνικά", path: "/el/" },
   "th": { label: "ไทย", path: "/th/" },
   "ru": { label: "Русский", path: "/ru/" },
