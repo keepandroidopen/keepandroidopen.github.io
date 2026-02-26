@@ -70,4 +70,4 @@ open_letter_description: "倡導 Android 該當一個自由、開放平臺之公
 - 在社群媒體上與部落格帖文中為自己發聲，並附上連結至 <https://keepandroidopen.org>
 - 迎擊網路打手：當您在社群討論區與社群媒體上，遇到可疑的帖文支持該政策 (「老實說…」)，不妨當仁不讓，仗義執言，直斥其非，以正視聽。
 - 助此專案一把，[編輯此頁面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-TW/index.md)以豐富更多有用資訊。
-- [簽署此 change.org 請願書](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [簽署此 change.org 請願書](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

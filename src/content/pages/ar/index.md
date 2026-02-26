@@ -73,7 +73,7 @@ open_letter_description: "رسالة مفتوحة للدعوة إلى أندرو
 - عبّر عن رأيك على وسائل التواصل الاجتماعي ومن خلال منشورات المدونات، و اربط إلى <https://keepandroidopen.org>
 - واجه حملات الترويج المموّه: عندما تصادف منشورات مشبوهة في المنتديات ووسائل التواصل تدعم السياسة («حسنًا، في الواقع…»)، تحدَّها ولا تتردد.
 - ساعد هذا المشروع عبر [تحرير هذه الصفحة](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) وإضافة معلومات أكثر فائدة.
-- [وقّع على عريضة change.org هذه](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [وقّع على عريضة change.org هذه](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
 
 ### مالكو المواقع: أظهروا دعمكم {#webmasters}
 

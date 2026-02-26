@@ -72,4 +72,4 @@ Tanıdık uygulama geliştiricilerini ve teşkilatları programa kaydolmak konus
 - Bu projeye [bu sayfayı faydalı bilgilerle düzenleyerek](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/tr/index.md) yardımcı olun.
 
 ### Bu Dilekçeleri İmzalayın
-- [Şu change.org dilekçesini imazalayın](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [Şu change.org dilekçesini imazalayın](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

@@ -69,4 +69,4 @@ open_letter_cta: "阅读我们反对安卓开发者验证计划的公开信"
 - 在社交媒体和博客文章上发出你的声音，并链接到<https://keepandroidopen.org>
 - 对线网络水军：当您在社区论坛和社交媒体上遇到支持该政策的可疑帖子(“其实……”)，不妨以理据争，无所顾忌。
 - 通过[编辑此页面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-CN/index.md)丰富更多有用的信息来帮助这个项目。
-- [签署这份 change.org 请愿书](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [签署这份 change.org 请愿书](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

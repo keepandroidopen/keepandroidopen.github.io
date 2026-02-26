@@ -74,4 +74,4 @@ Google 직원 또는 내부 관계자이시고, 프로그램에 대한 추가적
 - <https://keepandroidopen.org/ko>을 SNS와 블로그 게시글로 공유해주세요.
 - 가짜 여론 조성에 맞서 싸우세요: 커뮤니티 포럼과 SNS에서 정책을 지지하는 의심스러운 게시물을 발견하면 망설이지 말고 반론하세요.
 - [이 페이지를 수정하여](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ko/index.md) 더 유용한 정보를 추가하고, 번역을 개선하여 주세요.
-- [change.org 청원에 서명해 주세요.](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [change.org 청원에 서명해 주세요.](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

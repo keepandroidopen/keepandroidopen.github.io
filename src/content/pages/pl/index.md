@@ -73,4 +73,4 @@ Jeśli jesteś pracownikiem Google lub podwykonawcą z czystym sumieniem i masz 
 - Zabierz głos w mediach społecznościowych i na blogach oraz podlinkuj <https://keepandroidopen.org>
 - Walcz z astroturfingiem: gdy natkniesz się na podejrzane posty na forach społecznościowych i w mediach społecznościowych popierające tę politykę („No dobrze, ale…”), kwestionuj je i nie wahaj się.
 - Pomóż temu projektowi, [edytując tę stronę](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) i dodając bardziej przydatne informacje.
-- [Podpisz tę petycję change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [Podpisz tę petycję change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

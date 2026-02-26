@@ -70,4 +70,4 @@ Se sei dipendente o collaboratore di Google con una coscienza pulita e hai ulter
 - Fai sentire la tua voce sui social media e con gli articoli sui blog e inserisci il link a <https://keepandroidopen.org>.
 - Combatti la manipolazione dell'opinione pubblica: quando trovi articoli-post sospetti sui forum della comunità e sui social media che sostengono la politica ("Beh, in realtà..."), confutali e non essere timido.
 - Aiuta questo progetto [modificando questa pagina](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/it/index.md) con informazioni più utili.
-- [Firma questa petizione su change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [Firma questa petizione su change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

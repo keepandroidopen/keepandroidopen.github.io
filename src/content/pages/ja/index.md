@@ -66,7 +66,7 @@ open_letter_description: "自由でオープンなプラットフォームとし
 - SNS やブログ記事で声を上げ、<https://keepandroidopen.org> へのリンクを貼ってください。
 - 世論操作と戦いましょう：コミュニティフォーラムや SNS で、このポリシーを支持するような疑わしい投稿（「いや、実は…」といった擁護）を見かけたら、躊躇せずに反論してください。
 - より有用な情報を追記して[このページを編集](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ja/index.md)し、本プロジェクトを支援してください。
-- [change.org の署名キャンペーンに賛同](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)してください。
+- [change.org の署名キャンペーンに賛同](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
 
 ### ウェブサイト管理者へ：サポートを表明してください {#webmasters}
 

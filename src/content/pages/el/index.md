@@ -73,4 +73,4 @@ open_letter_description: "Ένα ανοιχτό γράμμα για την υπ�
 - Κάντε τη φωνή σας να ακουστεί στα κοινωνικά δίκτυα και με δημοσιεύσεις σε blog, και παραπέμψτε στο <https://keepandroidopen.org>.
 - Καταπολεμήστε το αστροτούρφινγκ: όταν συναντάτε ύποπτες δημοσιεύσεις σε φόρουμ κοινότητας ή κοινωνικά δίκτυα που υποστηρίζουν αυτήν την πολιτική («Λοιπόν, βασικά...»), αντιμετωπίστε τες και μην ντρέπεστε.
 - Βοηθήστε αυτό το έργο [προσθέτοντας σε αυτήν τη σελίδα](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) περισσότερες χρήσιμες πληροφορίες.
-- [Υπογράψτε αυτό το υπόμνημα στο change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [Υπογράψτε αυτό το υπόμνημα στο change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

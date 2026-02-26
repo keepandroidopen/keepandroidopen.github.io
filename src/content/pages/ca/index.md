@@ -73,4 +73,4 @@ Si ets un empleat o contractista de Google amb bona consciència i tens més inf
 - Fes sentir la teva veu a les xarxes socials i amb entrades de blog, i enllaça a
 - Combateix l'astroturfing: quan trobis publicacions sospitoses a fòrums comunitaris i xarxes socials a favor de la política (“Bé, en realitat…”), qüestiona-les i no et tallis.
 - Ajuda aquest projecte [editant aquesta pàgina](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) amb informació més útil.
-- [Signa aquesta petició a change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [Signa aquesta petició a change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

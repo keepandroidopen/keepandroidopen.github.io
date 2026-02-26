@@ -73,4 +73,4 @@ If you are a Google employee or contractor of good conscience and have additiona
 - ทำให้เสียงของคุณดังขึ้นบนโซเชียลมีเดียและเขียนโพส และลิงก์ไปยัง <https://keepandroidopen.org>
 - ต่อสู้กับ astroturfing: เมื่อคุณพบโพสต์ที่น่าสงสัยบนฟอรั่มชุมชนและโซเชียลมีเดียที่สนับสนุนานโยบาย ("เอ่อ จริงๆแล้วนะ...") ให้ท้าทายพวกเขาและอย่าอาย
 - ช่วยโครงการนี้โดย [แก้ไขหน้านี้](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/th/index.md) ด้วยข้อมูลที่เป็นประโยชน์เพิ่มเติม
-- [ลงชื่อใน petitition change.org นี้](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [ลงชื่อใน petitition change.org นี้](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

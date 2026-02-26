@@ -69,4 +69,4 @@ Dissuadez les autres développeurs d'applications et les organisations de s'insc
 - Faites entendre votre voix sur les réseaux sociaux et via des articles de blog, et n'oubliez pas de faire un lien vers <https://keepandroidopen.org>
 - Combattez la manipulation de l'opinion : lorsque vous rencontrez des publications suspectes sur les forums communautaires et les médias sociaux soutenant la politique (« Eh bien, en fait… »), contestez-les et n'ayez pas peur.
 - Contribuez à ce projet en [modifiant cette page](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/fr/index.md) avec des informations plus utiles.
-- [Signez cette pétition change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [Signez cette pétition change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)

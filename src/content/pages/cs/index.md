@@ -69,4 +69,4 @@ Zkuste přimět své spřízněné vývojáře a organizace, aby se nepřihlašo
 - Vyjádřete svůj názor na sociálních sítích a na blozích a odkazujte na <https://keepandroidopen.org>
 - Bojujte s astroturfingem: když zaznamenáte podezřelé příspěvky na komunitních fórech a sociálních sítích, které podporují tato nová pravidla (“Dobře, ale…”), reagujte na ně a nebuďte nesmělí.
 - Pomozte tomuto projektu [úpravou této stránky](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/cs/index.md) přidáním dalších užitečných informací.
-- [Podepište tuto petici na change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage?recruiter=1370041382&recruited_by_id=fddec6e0-0e30-11f0-a55d-cd0eb0fd0ac4)
+- [Podepište tuto petici na change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
