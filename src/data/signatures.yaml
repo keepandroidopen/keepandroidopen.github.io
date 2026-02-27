@@ -1,3 +1,9 @@
+# Please do not file pull requests adding signatures to this file.
+#
+# Signatures from notable organzations (e.g., with a Wikipedia entry)
+# should be emailed to signatories@keepandroidopen.org by an
+# authorized representative of the group with an attestation that
+# the organization's leadership authorized the signing of the letter.
 
 #- organization: ""
 #  url: ""
@@ -36,6 +42,10 @@
   url: "codeberg.org"
   poc: "Gusted <contact@codeberg.org>"
   region: "DE"
+- organization: "CryptPad"
+  url: "cryptpad.org"
+  poc: "David Benqué <david@cryptpad.org>"
+  region: "FR"
 - organization: "Cryptee"
   url: "crypt.ee"
   poc: "John Ozbay <hello@johnozbay.com>"
@@ -88,6 +98,10 @@
   url: "f-droid.org"
   poc: "board@f-droid.org"
   region: "NL"
+- organization: "Fedimedia"
+  url: "fedimedia.it"
+  poc: "Filippo Della Bianca, Fedimedia President <info@fedimedia.it>"
+  region: "IT"
 - organization: "The Free Software Foundation (FSF)"
   url: "fsf.org"
   poc: "Greg Farough via RT <campaigns@fsf.org>"
@@ -113,7 +127,7 @@
   region: "DE"
 - organization: "LineageOS"
   url: "lineageos.org"
-  poc: "Nolen Johnson <johnsonnolen@gmail.com>"
+  poc: "Nolen Johnson <nolenjohnson@lineageos.org>"
   region: "US"
 - organization: "microG"
   url: "microg.org"

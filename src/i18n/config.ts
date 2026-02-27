@@ -1,28 +1,42 @@
 export const languages = {
+  // English (default)
   "en": { label: "English", path: "/" },
+
+  // Western European – Romance
   "fr": { label: "Français", path: "/fr/" },
+  "es": { label: "Español", path: "/es/" },
+  "ca": { label: "Català", path: "/ca/" },
+  "it": { label: "Italiano", path: "/it/" },
+  "pt-BR": { label: "Português", path: "/pt-BR/" },
+
+  // Western European – Germanic & Nordic
   "de": { label: "Deutsch", path: "/de/" },
   "da": { label: "Dansk", path: "/da/" },
-  "ca": { label: "Català", path: "/ca/" },
-  "es": { label: "Español", path: "/es/" },
-  "id": { label: "Indonesia", path: "/id/" },
-  "it": { label: "Italiano", path: "/it/" },
+  "fi": { label: "Suomi", path: "/fi/" },
+
+  // Central & Eastern European
   "pl": { label: "Polski", path: "/pl/" },
-  "pt-BR": { label: "Português", path: "/pt-BR/" },
   "cs": { label: "Čeština", path: "/cs/" },
   "sk": { label: "Slovenčina", path: "/sk/" },
-  "ar": { label: "العربية", path: "/ar/"},
-  "fa": { label: "فارسی", path: "/fa/"},
-  "tr": { label: "Türkçe", path: "/tr/" },
-  "tl": { label: "Tagalog", path: "/tl/" },
   "el": { label: "Ελληνικά", path: "/el/" },
-  "th": { label: "ไทย", path: "/th/" },
   "ru": { label: "Русский", path: "/ru/" },
   "uk": { label: "Українська", path: "/uk/" },
-  "ko": { label: "한국어", path: "/ko/" },
+
+  // Middle Eastern
+  "tr": { label: "Türkçe", path: "/tr/" },
+  "ar": { label: "العربية", path: "/ar/" },
+  "fa": { label: "فارسی", path: "/fa/" },
+
+  // South & Southeast Asian
+  "th": { label: "ไทย", path: "/th/" },
+  "id": { label: "Indonesia", path: "/id/" },
+  "tl": { label: "Tagalog", path: "/tl/" },
+
+  // CJK (East Asian)
   "zh-CN": { label: "简体中文", path: "/zh-CN/" },
   "zh-TW": { label: "正體中文", path: "/zh-TW/" },
   "ja": { label: "日本語", path: "/ja/" },
+  "ko": { label: "한국어", path: "/ko/" },
 } as const;
 
 export type Locale = keyof typeof languages;
