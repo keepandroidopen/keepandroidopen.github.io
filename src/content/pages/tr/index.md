@@ -53,8 +53,6 @@ Doğrulama sürecini aşırı zorluk olmadan atlamanın mümkün olacağına dai
 
 ## Nasıl yardımcı olabilirsiniz {#help}
 
-## Sesiniz duyulsun
-
 ### Direnin ve reddedin {#developers}
 
 Eğer bir geliştiriciyseniz, erken erişim programına _**kayıt olmayın**_, kimlik doğrulaması yapmayın veya Android Geliştirici Konsolu için herhangi bir daveti kabul etmeyin. Böyle bir daveti (nazikçe) endişeleriniz ve itirazlarınızın listesiyle cevaplayın.
