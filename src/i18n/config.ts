@@ -23,6 +23,7 @@ export const languages = {
   "zh-CN": { label: "简体中文", path: "/zh-CN/" },
   "zh-TW": { label: "正體中文", path: "/zh-TW/" },
   "ja": { label: "日本語", path: "/ja/" },
+  "fi": { label: "Suomi", path: "/fi/" },
 } as const;
 
 export type Locale = keyof typeof languages;
