@@ -21,6 +21,7 @@ export const languages = {
   "el": { label: "Ελληνικά", path: "/el/" },
   "ru": { label: "Русский", path: "/ru/" },
   "uk": { label: "Українська", path: "/uk/" },
+  "hu": { label: "Magyar", path: "/hu/" },
 
   // Middle Eastern
   "tr": { label: "Türkçe", path: "/tr/" },
