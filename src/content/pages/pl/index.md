@@ -20,36 +20,36 @@ open_letter_description: "List otwarty w obronie Androida jako wolnej, otwartej 
 W sierpniu 2025 roku Google [ogłosiło](https://developer.android.com/developer-verification), że od września 2026
 nie będzie już możliwe tworzenie aplikacji na platformę Android
 bez uprzedniej centralnej rejestracji w Google.
-Ta rejestracja będzie obejmować:
+Rejestracja ta będzie obejmować:
 
 - Uiszczenie opłaty na rzecz Google
 {:.li-list .li-money}
-- Zaakceptowanie Warunków i postanowień Google
+- Zaakceptowanie Warunków korzystania z usług Google
 {:.li-list .li-terms}
-- Przedstawienie dokumentu tożsamości wydanego przez państwo
+- Przedstawienie urzędowego dokumentu tożsamości
 {:.li-list .li-id}
-- Przesłanie dowodu prywatnego klucza podpisującego dewelopera
+- Przesłanie dowodu posiadania prywatnego klucza podpisywania dewelopera
 {:.li-list .li-signing}
-- Wykazanie wszystkich obecnych i przyszłych identyfikatorów aplikacji
+- Przedstawienie wykazu wszystkich obecnych i przyszłych identyfikatorów aplikacji
 {:.li-list .li-appids}
 
 ## Co to oznacza dla Twoich praw
 
-➤ Ty, **konsumencie**, kupiłeś swoje urządzenie z Androidem wierząc w obietnicę Google, że jest to otwarta platforma komputerowa i że możesz uruchamiać na niej dowolne oprogramowanie, jakie wybierzesz. Tymczasem od września 2026 będą oni bez Twojej zgody wymuszać aktualizację systemu operacyjnego, która nieodwracalnie zablokuje to prawo i pozostawi Cię na łasce ich oceny, jakie oprogramowanie wolno Ci uznać za godne zaufania.
+➤ Ty, **konsumencie**, kupiłeś urządzenie z Androidem, wierząc w obietnicę Google, że jest to otwarta platforma komputerowa, na której możesz uruchamiać dowolne wybrane przez siebie oprogramowanie. Tymczasem od września 2026 r. Google bez Twojej zgody wymusi aktualizację systemu operacyjnego, która nieodwracalnie zablokuje to prawo. Pozostawi Cię to na łasce ich oceny, jakie oprogramowanie wolno Ci uznać za godne zaufania.
 
-➤ Ty, **twórco**, nie możesz już stworzyć aplikacji i udostępnić jej bezpośrednio znajomym, rodzinie i społeczności bez wcześniejszego uzyskania aprobaty Google. Obietnicą Androida — i przewagą marketingową, którą od zawsze wykorzystywał, by odróżniać się od iPhone’a — było to, że jest „otwarty”. Ale Google najwyraźniej uznaje, że już ma wystarczająco silną pozycję w ekosystemie Androida, oraz wystarczający wpływ na regulatorów, że może teraz porzucić tę zasadę bez skrupułów i konsekwencji.
+➤ Ty, **twórco**, nie możesz już stworzyć aplikacji i udostępnić jej bezpośrednio znajomym, rodzinie czy społeczności bez wcześniejszej aprobaty Google. Obietnicą Androida — i przewagą marketingową, którą od zawsze wykorzystywała ta platforma, by odróżnić się od iPhone’a — była jego „otwartość”. Jednak Google najwyraźniej uznaje, że ma już wystarczająco silną pozycję w ekosystemie Androida oraz wpływ na regulatorów, by porzucić tę zasadę bez skrupułów i konsekwencji.
 
-➤ Ty, **państwo**, oddajesz prawa swoich obywateli oraz własną suwerenność cyfrową firmie, która ma na koncie podporządkowywanie się pozasądowym żądaniom reżimów autorytarnych, by usuwać w pełni legalne aplikacje, których te reżimy akurat nie lubią. Oprogramowanie kluczowe dla funkcjonowania Twoich przedsiębiorstw i administracji będzie zdane na nieprzejrzyste kaprysy odległej i nieodpowiedzialnej korporacji.
+➤ Ty, **państwo**, oddajesz prawa swoich obywateli oraz własną suwerenność cyfrową firmie, która ma na koncie uleganie pozasądowym żądaniom autorytarnych reżimów, aby usuwać całkowicie legalne aplikacje, które akurat im się nie podobają. Oprogramowanie kluczowe dla funkcjonowania Twoich przedsiębiorstw i administracji będzie zdane na nieprzejrzyste kaprysy odległej i nieodpowiedzialnej korporacji.
 
 <div class="callout-warning">
 
 ### Aktualizacja: Google **nie** „wycofało się” z weryfikacji deweloperów {#clarification}
 
-Wbrew mglistej [wzmiance](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) o możliwym „zaawansowanym trybie”, który w przyszłości mógłby pozwolić „doświadczonym użytkownikom zaakceptować ryzyko instalowania oprogramowania, które nie jest zweryfikowane”, [opis programu](https://developer.android.com/developer-verification) ze strony Google nadal jasno stwierdza, że:
+Wbrew mglistej [wzmiance](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) o możliwym „zaawansowanym procesie instalacji”, który rzekomo w przyszłości miałby pozwolić „doświadczonym użytkownikom zaakceptować ryzyko instalowania oprogramowania, które nie jest zweryfikowane”, [opis programu](https://developer.android.com/developer-verification) przez Google nadal jasno stwierdza:
 
 > Od września 2026 r. Android będzie wymagać, aby wszystkie aplikacje instalowane na certyfikowanych urządzeniach z Androidem były zarejestrowane przez zweryfikowanych deweloperów.
 
-Dopóki nie pokażą dowodów, że będzie dało się ominąć proces weryfikacji bez nadmiernych utrudnień, musimy wierzyć temu, co widnieje na ich oficjalnej stronie: że **wszystkie** aplikacje od niezarejestrowanych deweloperów **zostaną zablokowane**, gdy „zamykanie” platformy wejdzie w życie.
+Dopóki nie przedstawią dowodów, że proces weryfikacji będzie można ominąć bez nadmiernych utrudnień, musimy wierzyć temu, co widnieje na ich oficjalnej stronie: że **wszystkie** aplikacje od niezarejestrowanych deweloperów **zostaną zablokowane** po wejściu w życie blokady platformy.
 
 </div>
 
@@ -57,19 +57,23 @@ Dopóki nie pokażą dowodów, że będzie dało się ominąć proces weryfikacj
 
 ### Deweloperzy: Stawiajcie opór i odmawiajcie {#developers}
 
-Jeśli jesteś deweloperem aplikacji, _**nie zapisuj się**_ do programu wczesnego dostępu, nie przechodź weryfikacji tożsamości i nie akceptuj zaproszenia do Android Developer Console. Odpowiadaj (uprzejmie) na każde zaproszenie listą swoich obaw i zastrzeżeń.
+Jeśli tworzysz aplikacje, _**nie zapisuj się**_ do programu wczesnego dostępu, nie przechodź weryfikacji tożsamości i nie akceptuj zaproszenia do Android Developer Console. Odpowiadaj (uprzejmie) na każde zaproszenie, wymieniając swoje obawy i zastrzeżenia.
 
-—— _To tylko dzięki uległości deweloperów ich plan przejęcia może się w ogóle powieść._ ——
+—— _To tylko dzięki uległości deweloperów plan zawłaszczenia platformy może się w ogóle powieść._ ——
 
-Zniechęcaj innych deweloperów i organizacje do zapisywania się do programu. Wykorzystuj fora społecznościowe, media społecznościowe i wpisy na blogach, by nagłaśniać przekaz. Dodaj do swojego kodu bibliotekę [FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn), aby informować użytkowników Twojej aplikacji.
+Zniechęcaj innych deweloperów i organizacje do udziału w programie. Nagłaśniaj sprawę na forach, w mediach społecznościowych i na blogach. Dodaj do swojego kodu bibliotekę [FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn), aby informować użytkowników Twojej aplikacji.
 
-Jeśli jesteś pracownikiem Google lub podwykonawcą z czystym sumieniem i masz dodatkowy wgląd w program, w tym planowane szczegóły technicznej implementacji lub dodatkowe uzasadnienia programu, skontaktuj się proszę pod adresem [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) z _niesłużbowego_ urządzenia i konta _nie-gmail_. Twoje informacje zostaną zachowane w ścisłej poufności.
+Jeśli jesteś pracownikiem lub podwykonawcą Google o czystym sumieniu i masz wgląd w program, w tym planowane szczegóły techniczne wdrożenia lub dodatkowe uzasadnienia programu, proszę skontaktuj się z nami pod adresem [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) z _niesłużbowego_ urządzenia i konta _spoza domeny Gmail_. Twoje informacje zostaną zachowane w ścisłej poufności.
 
 ### Wszyscy: Dajcie znać, co myślicie {#everyone}
 
-- [Zainstaluj F-Droid](https://f-droid.org) na swoim urządzeniu (lub urządzeniach) z Androidem. Im więcej osób korzysta z alternatywnych marketplace’ów z aplikacjami, tym trudniej będzie je wyeliminować.
-- Przekaż opinię bezpośrednio Google, korzystając z ich [ankiety dot. wymagań weryfikacji deweloperów Androida](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Zabierz głos w mediach społecznościowych i na blogach oraz podlinkuj <https://keepandroidopen.org>
-- Walcz z astroturfingiem: gdy natkniesz się na podejrzane posty na forach społecznościowych i w mediach społecznościowych popierające tę politykę („No dobrze, ale…”), kwestionuj je i nie wahaj się.
-- Pomóż temu projektowi, [edytując tę stronę](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/pl/index.md) i dodając bardziej przydatne informacje.
-- [Podpisz tę petycję change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
+- [Zainstaluj F-Droid](https://f-droid.org) na swoim urządzeniu (lub urządzeniach) z Androidem. Im więcej osób korzysta z alternatywnych sklepów z aplikacjami, tym trudniej będzie je wyeliminować.
+- Przekaż opinię bezpośrednio do Google, korzystając z ich [ankiety dot. wymagań weryfikacji deweloperów Androida](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
+- Zabierz głos w mediach społecznościowych i na blogach oraz udostępnij link: <https://keepandroidopen.org>
+- Walcz z astroturfingiem: gdy natkniesz się na podejrzane posty na forach i w mediach społecznościowych popierające tę politykę („No dobrze, ale…”), nie wahaj się ich kwestionować.
+- Pomóż w rozwoju tego projektu, [edytując tę stronę](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/pl/index.md) i dodając bardziej przydatne informacje.
+- [Podpisz petycję na change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
+
+### Właściciele stron internetowych: Okażcie swoje wsparcie {#webmasters}
+
+[Dodajcie baner z odliczaniem na swoją stronę](/banner) za pomocą jednego tagu `<script>` — bez dodatkowych zależności, z 20 wbudowanymi wersjami językowymi, z pełną możliwością konfiguracji.
