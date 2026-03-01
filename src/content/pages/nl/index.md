@@ -1,24 +1,24 @@
 ---
 title: "Houd Android Open"
 lang: nl
-description: "Pleiten voor Android als een vrij, open platform waarop iedereen apps kan bouwen."
+description: "Pleitend voor Android als vrij, open platform waarop iedereen apps kan bouwen."
 
 # localiseerbare secties voor de voettekst
 contact_header: "Contact"
 contact_email: "E-mail"
 site_problems_header: "Problemen"
-site_report_issues: "Meld siteproblemen"
-site_disclaimer: "**Disclaimer:** Deze website is een door de gemeenschap gedreven niet-commerciële onderneming. Ze wordt uitsluitend beheerd voor informatieve en educatieve doeleinden."
-site_privacy: "**Privacy:** Deze site gebruikt geen cookies en voert geen gebruikers-tracking of logging uit."
+site_report_issues: "Meld problemen met deze site"
+site_disclaimer: "**Disclaimer:** Deze website wordt onderhouden door een niet-commerciële gemeenschap. Ze wordt uitsluitend beheerd voor informatieve en educatieve doeleinden."
+site_privacy: "**Privacy:** Deze site gebruikt geen cookies en doet niet aan gebruikers-tracking of logging."
 site_copyright: "**Copyright:** Geen. Dit werk is gemarkeerd"
 
-open_letter_cta: "Lees onze open brief die zich verzet tegen het Android Developer Verification-programma"
+open_letter_cta: "Lees onze open brief die zich verzet tegen Android Developer Verification"
 open_letter_header: "Open brief"
-open_letter_description: "Een open brief om te pleiten voor Android als een vrij, open platform."
+open_letter_description: "Een open brief die pleit voor Android als een vrij, open platform."
 ---
 
-In augustus 2025 [kondigde](https://developer.android.com/developer-verification) Google aan dat vanaf september 2026
-het niet langer mogelijk zal zijn om apps voor het Android-platform te ontwikkelen
+In augustus 2025 [kondigde](https://developer.android.com/developer-verification) Google aan dat het vanaf september 2026
+niet langer mogelijk zal zijn om apps voor het Android-platform te ontwikkelen
 zonder je eerst centraal bij Google te registreren.
 Deze registratie zal het volgende omvatten:
 
@@ -26,18 +26,18 @@ Deze registratie zal het volgende omvatten:
 {:.li-list .li-money}
 - Akkoord gaan met Google's Algemene Voorwaarden
 {:.li-list .li-terms}
-- Overheidsidentificatie verstrekken
+- Het verstrekken van overheidsidentificatie
 {:.li-list .li-id}
-- Bewijs uploaden van de private ondertekeningssleutel van de ontwikkelaar
+- Bewijs uploaden van de privésleutel van de ontwikkelaar
 {:.li-list .li-signing}
 - Alle huidige en toekomstige applicatie-identifiers vermelden
 {:.li-list .li-appids}
 
 ## Wat dit betekent voor jouw rechten
 
-➤ Jij, **de consument**, hebt je Android-apparaat gekocht in de overtuiging van Google's belofte dat het een open platform was en dat je er welke software dan ook op kon draaien die je zelf kiest. In plaats daarvan zullen ze vanaf september 2026 zonder jouw instemming een update naar je besturingssysteem pushen die dit recht onherroepelijk blokkeert en je overlevert aan hun oordeel over welke software jij mag vertrouwen.
+➤ Jij, **als consument**, hebt je Android-apparaat gekocht in de overtuiging van Google's belofte dat het een open platform was en dat je er welke software dan ook op kon draaien die je zelf kiest. In plaats daarvan zullen ze vanaf september 2026 zonder jouw instemming een update naar je besturingssysteem pushen die dit recht onherroepelijk blokkeert en je overlevert aan hun oordeel over welke software jij mag vertrouwen.
 
-➤ Jij, **de maker**, kunt niet langer een app ontwikkelen en die rechtstreeks delen met je vrienden, familie en gemeenschap zonder eerst Google's goedkeuring te vragen. De belofte van Android — en een marketingvoordeel dat het heeft gebruikt om zich te onderscheiden van de iPhone — is altijd geweest dat het “open” is. Maar Google vindt duidelijk dat ze genoeg grip hebben op het Android-ecosysteem, samen met voldoende regelgevende beïnvloeding, dat ze dit principe nu bewust en zonder gevolgen overboord kunnen gooien.
+➤ Jij, **als maker**, kunt niet langer een app ontwikkelen en die rechtstreeks delen met je vrienden, familie en gemeenschap zonder eerst Google's goedkeuring te vragen. De belofte van Android — en een marketingvoordeel dat het heeft gebruikt om zich te onderscheiden van de iPhone — is altijd geweest dat het “open” is. Maar Google vindt duidelijk dat ze genoeg grip hebben op het Android-ecosysteem, samen met voldoende regelgevende beïnvloeding, dat ze dit principe nu bewust en zonder gevolgen overboord kunnen gooien.
 
 ➤ Jij, **de staat**, staat de rechten van je burgers en je eigen digitale soevereiniteit af aan een bedrijf met een staat van dienst in het voldoen aan buitengerechtelijke eisen van autoritaire regimes om volledig legale apps te verwijderen die ze toevallig niet bevallen. De software die cruciaal is voor het functioneren van je bedrijven en overheden zal overgeleverd zijn aan de ondoorzichtige grillen van een verre en niet-verantwoorde onderneming.
 
