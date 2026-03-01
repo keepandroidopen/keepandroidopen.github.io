@@ -23,8 +23,11 @@ export const languages = {
   "uk": { label: "Українська", path: "/uk/" },
   "hu": { label: "Magyar", path: "/hu/" },
 
-  // Middle Eastern
+  // Turkic & Central Asian
   "tr": { label: "Türkçe", path: "/tr/" },
+  "kk": { label: "Қазақша", path: "/kk/" },
+
+  // Middle Eastern
   "ar": { label: "العربية", path: "/ar/" },
   "fa": { label: "فارسی", path: "/fa/" },
 
