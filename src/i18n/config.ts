@@ -13,6 +13,7 @@ export const languages = {
   "de": { label: "Deutsch", path: "/de/" },
   "da": { label: "Dansk", path: "/da/" },
   "fi": { label: "Suomi", path: "/fi/" },
+  "nl": { label: "Nederlands", path: "/nl/" },
 
   // Central & Eastern European
   "pl": { label: "Polski", path: "/pl/" },
