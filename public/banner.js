@@ -31,7 +31,7 @@
     cs:      "Android will become a locked-down platform in",
     de:      "Android wird eine geschlossene Plattform werden.",
     da:      "Android vil blive en lukket platform om",
-    nl:      "Android zal een gesloten platform worden over",
+    nl:      "Android zal een gesloten platform worden",
     el:      "\u03A4\u03BF Android \u03B8\u03B1 \u03B3\u03AF\u03BD\u03B5\u03B9 \u03BC\u03AF\u03B1 \u03BA\u03BB\u03B5\u03B9\u03C3\u03C4\u03AE \u03C0\u03BB\u03B1\u03C4\u03C6\u03CC\u03C1\u03BC\u03B1",
     es:      "Android se convertir\u00E1 en una plataforma cerrada",
     fr:      "Android va devenir une plateforme ferm\u00E9e",
