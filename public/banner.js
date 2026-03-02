@@ -99,7 +99,8 @@
 
   // ── Link ────────────────────────────────────────────────────────────
   var linkParam = params.link;
-  var linkUrl = linkParam === "none" ? null : (linkParam || "https://keepandroidopen.org");
+  var defaultLink = "https://keepandroidopen.org" + (locale === "en" ? "" : "/" + locale + "/");
+  var linkUrl = linkParam === "none" ? null : (linkParam || defaultLink);
 
   // ── Close button ────────────────────────────────────────────────────
   var showClose = params.hidebutton !== "off";
