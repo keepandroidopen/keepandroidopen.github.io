@@ -28,7 +28,7 @@
     ar:      "سيصبح نظام أندرويد منصة مغلقة في",
     en:      "Android will become a locked-down platform in",
     ca:      "Android es convertir\u00E0 en una plataforma tancada",
-    cs:      "Android will become a locked-down platform in",
+    cs:      "Android se stane uzamčenou platformou za",
     de:      "Android wird eine geschlossene Plattform werden.",
     da:      "Android vil blive en lukket platform om",
     nl:      "Android zal een gesloten platform worden over",
