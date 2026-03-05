@@ -803,11 +803,11 @@ countries:
           zh-TW: "蒙大拿州"
         items:
           - text:
-              en: "File a complaint with the [Montana Attorney General Consumer Protection](https://dojmt.gov/consumer/consumer-complaints/)"
-              fr: "Déposez une plainte auprès du [Montana Attorney General Consumer Protection](https://dojmt.gov/consumer/consumer-complaints/)"
-              da: "Indsend en klage til [Montana Attorney General Consumer Protection](https://dojmt.gov/consumer/consumer-complaints/)"
-              zh-CN: "向[蒙大拿州 总检察长消费者保护局](https://dojmt.gov/consumer/consumer-complaints/)提出投诉"
-              zh-TW: "向[蒙大拿州 總檢察長消費者保護局](https://dojmt.gov/consumer/consumer-complaints/)提出申訴"
+              en: "File a complaint with the [Montana Attorney General Consumer Protection](https://dojmt.gov/office-of-consumer-protection/)"
+              fr: "Déposez une plainte auprès du [Montana Attorney General Consumer Protection](https://dojmt.gov/office-of-consumer-protection/)"
+              da: "Indsend en klage til [Montana Attorney General Consumer Protection](https://dojmt.gov/office-of-consumer-protection/)"
+              zh-CN: "向[蒙大拿州 总检察长消费者保护局](https://dojmt.gov/office-of-consumer-protection/)提出投诉"
+              zh-TW: "向[蒙大拿州 總檢察長消費者保護局](https://dojmt.gov/office-of-consumer-protection/)提出申訴"
           - text:
               en: "Contact Senator [Steve Daines](https://www.daines.senate.gov/contact)"
               fr: "Contactez le sénateur [Steve Daines](https://www.daines.senate.gov/contact)"
