@@ -18,6 +18,8 @@
  *                 Set link=none to disable the link
  *   hidebutton=on Show an X close button (default: on)
  *                 Set hidebutton=off to hide the close button
+ *   animation=on  Add animation to border of banner (default: on)
+ *                 Set animation=off to disable
  */
 (function () {
   "use strict";
@@ -136,7 +138,6 @@
         "0px 3px 0px #751111," +
         "0px 4px 0px #5e0d0d," +
         "0px 6px 10px rgba(0,0,0,0.5);" +
-      "animation:kao-pulse 2s infinite;" +
       "padding:0.5rem 2.5rem;" +
       "line-height:1.6;" +
       "box-sizing:border-box;" +
@@ -159,7 +160,6 @@
         "0px 1px 0px #9e1a1a," +
         "0px 2px 0px #8a1515," +
         "0px 3px 5px rgba(0,0,0,0.4);" +
-      "animation:kao-pulse 2s infinite;" +
       "padding:0.25rem 1.5rem;" +
       "line-height:1.4;" +
       "box-sizing:border-box;" +
@@ -205,7 +205,10 @@
       "line-height:1;" +
       "text-shadow:none;" +
     "}" +
-    ".kao-banner-close:hover{opacity:1;}" +
+    ".kao-banner-close:hover{opacity:1;}";
+
+	var cssKaoPulse =
+    ".kao-banner { animation:kao-pulse 2s infinite; }" +
     "@keyframes kao-pulse{" +
       "0%{box-shadow:0 0 0 0 rgba(211,47,47,0.7)}" +
       "70%{box-shadow:0 0 0 15px rgba(211,47,47,0)}" +
@@ -213,7 +216,9 @@
     "}";
 
   var style = document.createElement("style");
-  style.textContent = (size === "mini" ? cssMini : size === "minimal" ? cssMinimal : cssNormal) + cssCommon;
+  style.textContent = (size === "mini" ? cssMini : size === "minimal" ? cssMinimal : cssNormal)
+		+ (params.animation === "off" ? "" : cssKaoPulse)
+		+ cssCommon;
   document.head.appendChild(style);
 
   // ── Check if previously dismissed (reappears after dismissDays) ─────
