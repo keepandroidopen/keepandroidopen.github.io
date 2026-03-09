@@ -1571,7 +1571,6 @@ countries:
           - text:
               en: "Contact the Danish Competition and Consumer Authority's [Tech Division](https://en.kfst.dk/competition/contact-a-competition-division/tech)"
               da: "Kontakt Konkurrence- og Forbrugerstyrelsens [Center for Tech](https://kfst.dk/konkurrenceforhold/kontakt-et-konkurrencecenter/center-for-tech-tech)"
-    children:
       - id: czech-republic
         name:
           ar: "الجمهورية التشيكية"
