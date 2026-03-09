@@ -1560,6 +1560,18 @@ countries:
           zh-CN: "向 [欧盟竞争政策局](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) 提出投诉"
           zh-TW: "向 [歐盟競爭政策局](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) 提出申訴"
     children:
+      - id: denmark
+        name:
+          en: "Denmark"
+          da: "Danmark"
+        items:
+          - text:
+              en: "Contact the Danish [Consumer Ombudsman](https://forbrugerombudsmanden.dk/consumer-ombudsman)"
+              da: "Kontakt [Forbrugerombudsmanden](https://forbrugerombudsmanden.dk/)"
+          - text:
+              en: "Contact the Danish Competition and Consumer Authority's [Tech Division](https://en.kfst.dk/competition/contact-a-competition-division/tech)"
+              da: "Kontakt Konkurrence- og Forbrugerstyrelsens [Center for Tech](https://kfst.dk/konkurrenceforhold/kontakt-et-konkurrencecenter/center-for-tech-tech)"
+    children:
       - id: czech-republic
         name:
           ar: "الجمهورية التشيكية"
