@@ -13,7 +13,7 @@
  *   lang=fr       Override the browser language (default: auto-detected)
  *   id=myDiv      Insert the banner inside the element with this id
  *                 (default: prepend to <body>)
- *   size=normal   Banner size: "normal" (default) or "mini"
+ *   size=normal   Banner size: "normal" (default), "mini" or "minimal"
  *   link=URL      Make the banner text a link (default: https://keepandroidopen.org)
  *                 Set link=none to disable the link
  *   hidebutton=on Show an X close button (default: on)
@@ -101,7 +101,10 @@
   );
 
   // ── Size variant ──────────────────────────────────────────────────────
-  var size = params.size === "mini" ? "mini" : "normal";
+  var size = params.size === "mini" ? "mini"
+      : params.size === "minimal"
+        ? "minimal"
+        : "normal";
 
   // ── Link ────────────────────────────────────────────────────────────
   var linkParam = params.link;
@@ -162,6 +165,28 @@
       "box-sizing:border-box;" +
     "}";
 
+  var cssMinimal =
+    ".kao-banner{" +
+    "position:relative;" +
+    "font-variant-numeric:tabular-nums;" +
+    "background:linear-gradient(180deg,#d32f2f 0%,#b71c1c 100%);" +
+    "border-bottom:2px solid #801313;" +
+    "color:#fff;" +
+    "font-family:'Arial Black',sans-serif;" +
+    "font-weight:900;" +
+    "text-transform:uppercase;" +
+    "letter-spacing:1px;" +
+    "font-size:0.75rem;" +
+    "text-align:center;" +
+    "text-shadow:" +
+    "0px 1px 0px #9e1a1a," +
+    "0px 2px 0px #8a1515," +
+    "0px 3px 5px rgba(0,0,0,0.4);" +
+    "padding:0.25rem 1.5rem;" +
+    "line-height:1.4;" +
+    "box-sizing:border-box;" +
+    "}";
+
   var cssCommon =
     ".kao-banner a{color:#fff;text-decoration:none;}" +
     ".kao-banner a:hover{text-decoration:underline;}" +
@@ -188,7 +213,7 @@
     "}";
 
   var style = document.createElement("style");
-  style.textContent = (size === "mini" ? cssMini : cssNormal) + cssCommon;
+  style.textContent = (size === "mini" ? cssMini : size === "minimal" ? cssMinimal : cssNormal) + cssCommon;
   document.head.appendChild(style);
 
   // ── Check if previously dismissed (reappears after dismissDays) ─────
@@ -220,7 +245,11 @@
     banner.appendChild(document.createTextNode(messageText));
   }
 
-  banner.appendChild(document.createElement("br"));
+  if (params.size === "minimal") {
+    banner.appendChild(document.createTextNode("\u00A0"));
+  } else {
+    banner.appendChild(document.createElement("br"));
+  }
 
   var countdownSpan = document.createElement("span");
   countdownSpan.textContent = "\u00A0";
