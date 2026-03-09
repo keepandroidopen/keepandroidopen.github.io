@@ -32,19 +32,18 @@ Denne registrering vil omfatte:
 
 ## Hvad det betyder for dine rettigheder
 
-➤ Du, **forbrugeren**, købte din Android-enhed i tillid til Googles løfte om, at det var en åben computerplatform, hvor du helt selv kunne bestemme, hvilken software du ville køre. Men fra september 2026 vil Google konsekvent fremtvinge installation af en opdatering til dit operativsystem – uden dit samtykke – som permanent blokerer denne ret. Dette gør dig fuldstændig afhængig af Googles vurdering af, hvilke apps du fremover må "stole på" og dermed installere på din enhed.
+➤ Du, **forbrugeren**, købte din Android-enhed i tillid til Googles løfte om, at det var en åben computerplatform, hvor du helt selv kunne bestemme, hvilken software du ville køre. Men fra september 2026 vil Google – uden dit samtykke – gennemtvinge installationen af en opdatering til dit operativsystem som permanent blokerer denne ret. Dette gør dig fuldstændig afhængig af Googles vurdering af, hvilke apps de tillader at du fremover må "stole på" og dermed installere på din enhed.
 
-
-➤ Du, **udvikleren**, vil ikke længere kunne udvikle en app og dele den direkte med venner, familie og dit fællesskab, uden først at få Googles godkendelse. Løftet ved Android – og et af de vigtigste argumenter, systemet altid har brugt for at adskille sig iPhone – har altid været dets åbenhed. Men Google mener åbenbart, at de nu har tilstrækkelig kontrol over Android-økosystemet og tilstrækkelig regulatorisk indflydelse til uden videre at kunne opgive dette princip.
+➤ Du, **udvikleren**, vil ikke længere kunne udvikle en app og dele den direkte med venner, familie og dit fællesskab, uden først at få Googles godkendelse. Løftet ved Android – og et af de vigtigste argumenter, systemet har brugt for at adskille sig fra iPhone – har altid været dets åbenhed. Men Google mener åbenbart, at de nu har tilstrækkelig kontrol over Android-økosystemet og tilstrækkelig regulatorisk indflydelse til uden videre at kunne opgive dette princip.
 
 ➤ Du, **staten**, overlader dine borgeres rettigheder og din egen digitale suverænitet til en virksomhed, der har en historik med at efterkomme udenretslige krav fra autoritære regimer, om at fjerne fuldt lovlige apps som de ikke bryder sig om. Den software, som er afgørende for driften af virksomheder og myndigheder, vil dermed være overladt til en fjern og ukontrollerbar virksomhed, som opererer uden gennemsigtighed og ansvar.
 
 
 <div class="callout-warning">
 
-### Opdatering: Google har **ikke** “trukket i land” med udviklerverificering{#clarification}
+### Opdatering: Google har **ikke** “trukket i land” med udviklerverificering {#clarification}
 
-På trods af en usikker [omtale](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) af en mulig "avanceret måde", som måske på sigt kan give "erfarne brugere" mulighed for at "acceptere risikoen ved at installere software, som ikke er verificeret", siger Googles [beskrivelse af programmet](https://developer.android.com/developer-verification) stadig helt klart:
+I modsætning til en vag [omtale](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) af en mulig "avanceret måde", som måske på sigt kan give "erfarne brugere" mulighed for at "acceptere risikoen ved at installere software, som ikke er verificeret", siger Googles [beskrivelse af programmet](https://developer.android.com/developer-verification) fortsat helt utvetydigt:
 
 > Fra september 2026 skal alle Android-apps være registreret af verificerede udviklere for at kunne installeres på certificerede Android-enheder.
 
@@ -56,13 +55,11 @@ Indtil Google fremlægger konkret dokumentation for, at det vil være muligt at 
 
 ### Udviklere: Modstå og afvis {#developers}
 
-Hvis du er app-udvikler, så _**ikke tilmeld dig**_ early access-programmet, gennemfør ikke identitetsverificering, og accepter ikke invitationer til Android Developer Console. Svar (høfligt) på enhver invitation ved at forklare dine bekymringer og indvendinger.
+Hvis du er app-udvikler, så _**tilmeld dig ikke**_ early access-programmet, gennemfør ikke identitetsverificering, og accepter ikke invitationer til Android Developer Console. Svar (høfligt) på enhver invitation ved at forklare dine bekymringer og indvendinger.
 
-—— _Det er kun gennem udviklernes accept, at Googles overtagelsesplan måske kan lykkes._
+—— _Det er kun ved udviklernes underkastelse og kapitulation, at Googles overtagelsesplan måske kan lykkes._ ——
 
-Opfordre andre udviklerer og organisationer til ikke at registrere sig.
-Brug fællesskabsforumer, sociale medier og blogindlæg til at sprede budskabet.
-Tilføj [FreeDroidWarn-biblioteket](https://github.com/woheller69/FreeDroidWarn) til dit projekt for at informere dine brugere. Hvis du driver en hjemmeside, så overvej at [tilføje nedtællingsbanneret](/banner) til toppen af din side.
+Opfordr andre udviklere og organisationer til at afslå registrering. Brug fællesskabsfora, sociale medier og blogindlæg til at sprede budskabet. Tilføj [FreeDroidWarn-biblioteket](https://github.com/woheller69/FreeDroidWarn) til dit projekt for at informere dine brugere. Hvis du driver en hjemmeside, så overvej at [tilføje nedtællingsbanneret](/banner) til toppen af din side.
 
 Hvis du er ansat hos Google eller på anden måde er tilknyttet udviklerverificeringen med samvittigheden i behold, og du har yderligere indsigt i programmet – herunder planlagte tekniske implementeringsdetaljer eller anden relevant information – bedes du kontakte [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) fra en _ikke-arbejdsmaskine_ og en _ikke-gmail_ konto. Dine oplysninger vil blive behandlet strengt fortroligt.
 
