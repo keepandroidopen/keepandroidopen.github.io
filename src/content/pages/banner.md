@@ -50,6 +50,14 @@ Link to a custom page, no close button:
 <div id="my-banner-custom"></div>
 <script src="/banner.js?link=https://example.com/android&hidebutton=off&size=mini&id=my-banner-custom"></script>
 
+Minimal size without animations.
+
+```html
+<script src="/banner.js?size=minimal&animation=off&id=my-banner-minimal"></script>
+```
+<div id="my-banner-minimal"></div>
+<script src="/banner.js?size=minimal&animation=off&id=my-banner-minimal"></script>
+
 ## Source
 
 The source for the banner can be found at [https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/public/banner.js](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/public/banner.js). Suggestions for improvement are welcome!
