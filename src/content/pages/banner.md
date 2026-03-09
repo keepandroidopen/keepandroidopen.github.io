@@ -23,9 +23,10 @@ Customize the banner by appending query parameters to the script URL:
 |-----------|--------|---------|-------------|
 | `lang` | `en`, `fr`, `de`, `es`, … | Browser language | Override the display language |
 | `id` | Any element id | _(prepend to body)_ | Insert the banner inside the element with this id |
-| `size` | `normal`, `mini` | `normal` | Banner size variant |
+| `size` | `normal`, `mini`, `minimal` | `normal` | Banner size variant |
 | `link` | Any URL, or `none` | `https://keepandroidopen.org` | Make the banner text a clickable link; set to `none` to disable |
 | `hidebutton` | `on`, `off` | `on` | Show or hide the X close button (dismissed state is remembered per-site via localStorage) |
+| `animation` | `on`, `off` | `on` | Enable or disable the banner's pulsing animation |
 
 ## Examples
 
