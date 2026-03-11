@@ -1706,6 +1706,17 @@ countries:
               el: "Επικοινωνήστε με την [Υπηρεσία Αντιμονοπωλίου της Σλοβακικής Δημοκρατίας](https://www.antimon.gov.sk/en/)"
               zh-TW: "聯絡[斯洛伐克共和國反壟斷辦公室](https://www.antimon.gov.sk/en/)"
               zh-CN: "联系[斯洛伐克共和国反垄断办公室](https://www.antimon.gov.sk/en/)"
+      - id: hungary
+        name:
+          en: "Hungary"
+          hu: "Magyarország"
+        items:
+          - text:
+              en: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+              hu: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+          - text:
+              en: "Contact the [Hungarian Competition Authority (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
+              hu: "Vedd fel a kapcsolatot a [Gazdasági Versenyhivatallal](https://www.gvh.hu/gvh/2361_hu_elerhetosegek_kapcsolatok)"
   - id: united-kingdom
     name:
       fa: "بریتانیای کبیر"
@@ -3127,3 +3138,14 @@ countries:
           tr: "E-posta: [info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
           zh-CN: "电子邮件：[info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
           zh-TW: "電子郵件：[info@gac.gov.sa](mailto:info@gac.gov.sa?cc=sa@keepandroidopen.org)"
+  - id: hungary
+    name:
+      en: "Hungary"
+      hu: "Magyarország"
+    items:
+      - text:
+          en: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+          hu: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+      - text:
+          en: "Contact the [Hungarian Competition Authority (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
+          hu: "Vedd fel a kapcsolatot a [Gazdasági Versenyhivatallal](https://www.gvh.hu/gvh/2361_hu_elerhetosegek_kapcsolatok)"
