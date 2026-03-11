@@ -1,5 +1,5 @@
 ---
-title: "Keep Android Open"
+title: "Keep Android Open - _Garder Android ouvert_"
 lang: fr
 description: "Plaidoyer pour Android en tant que plateforme libre et ouverte permettant à tous de développer des applications."
 
