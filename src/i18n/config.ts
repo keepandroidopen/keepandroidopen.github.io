@@ -1,28 +1,51 @@
 export const languages = {
+  // English (default)
   "en": { label: "English", path: "/" },
+
+  // Western European – Romance
   "fr": { label: "Français", path: "/fr/" },
-  "de": { label: "Deutsch", path: "/de/" },
-  "ca": { label: "Català", path: "/ca/" },
   "es": { label: "Español", path: "/es/" },
-  "id": { label: "Indonesia", path: "/id/" },
+  "ca": { label: "Català", path: "/ca/" },
   "it": { label: "Italiano", path: "/it/" },
-  "pl": { label: "Polski", path: "/pl/" },
   "pt-BR": { label: "Português", path: "/pt-BR/" },
+
+  // Western European – Germanic & Nordic
+  "de": { label: "Deutsch", path: "/de/" },
+  "da": { label: "Dansk", path: "/da/" },
+  "fi": { label: "Suomi", path: "/fi/" },
+  "nl": { label: "Nederlands", path: "/nl/" },
+
+  // Central & Eastern European
+  "pl": { label: "Polski", path: "/pl/" },
   "cs": { label: "Čeština", path: "/cs/" },
   "sk": { label: "Slovenčina", path: "/sk/" },
-  "ar": { label: "العربية", path: "/ar/"},
-  "fa": { label: "فارسی", path: "/fa/"},
-  "tr": { label: "Türkçe", path: "/tr/" },
-  "tl": { label: "Tagalog", path: "/tl/" },
   "el": { label: "Ελληνικά", path: "/el/" },
-  "th": { label: "ไทย", path: "/th/" },
   "ru": { label: "Русский", path: "/ru/" },
   "uk": { label: "Українська", path: "/uk/" },
-  "ko": { label: "한국어", path: "/ko/" },
+  "hu": { label: "Magyar", path: "/hu/" },
+
+  // Turkic & Central Asian
+  "tr": { label: "Türkçe", path: "/tr/" },
+  "kk": { label: "Қазақша", path: "/kk/" },
+
+  // Middle Eastern
+  "he": { label: "עברית", path: "/he/" },
+  "ar": { label: "العربية", path: "/ar/" },
+  "fa": { label: "فارسی", path: "/fa/" },
+
+  // South & Southeast Asian
+  "vi": { label: "Tiếng Việt", path: "/vi/" },
+  "th": { label: "ไทย", path: "/th/" },
+  "id": { label: "Indonesia", path: "/id/" },
+  "tl": { label: "Tagalog", path: "/tl/" },
+  "bn": { label: "বাংলা", path: "/bn/" },
+
+  // CJK (East Asian)
   "zh-CN": { label: "简体中文", path: "/zh-CN/" },
   "zh-TW": { label: "正體中文", path: "/zh-TW/" },
   "ja": { label: "日本語", path: "/ja/" },
-  "bn": { label: "বাংলা", path: "/bn/" },
+  "ko": { label: "한국어", path: "/ko/" },
+  
 } as const;
 
 export type Locale = keyof typeof languages;

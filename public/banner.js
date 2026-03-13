@@ -13,11 +13,13 @@
  *   lang=fr       Override the browser language (default: auto-detected)
  *   id=myDiv      Insert the banner inside the element with this id
  *                 (default: prepend to <body>)
- *   size=normal   Banner size: "normal" (default) or "mini"
+ *   size=normal   Banner size: "normal" (default), "mini" or "minimal"
  *   link=URL      Make the banner text a link (default: https://keepandroidopen.org)
  *                 Set link=none to disable the link
  *   hidebutton=on Show an X close button (default: on)
  *                 Set hidebutton=off to hide the close button
+ *   animation=on  Add animation to border of banner (default: on)
+ *                 Set animation=off to disable
  */
 (function () {
   "use strict";
@@ -26,10 +28,13 @@
   var messages = {
     fa:      "اندروید، یک سکّوی بسته خواهد شد!",
     ar:      "سيصبح نظام أندرويد منصة مغلقة في",
-    en:      "Android will become a locked-down platform",
+    he:      "אנדרואיד תהפוך לפלטפורמה נעולה בעוד",
+    en:      "Android will become a locked-down platform in",
     ca:      "Android es convertir\u00E0 en una plataforma tancada",
-    cs:      "Android will become a locked-down platform in",
+    cs:      "Android se stane uzamčenou platformou za",
     de:      "Android wird eine geschlossene Plattform werden.",
+    da:      "Android vil blive en lukket platform om",
+    nl:      "Android zal een gesloten platform worden over",
     el:      "\u03A4\u03BF Android \u03B8\u03B1 \u03B3\u03AF\u03BD\u03B5\u03B9 \u03BC\u03AF\u03B1 \u03BA\u03BB\u03B5\u03B9\u03C3\u03C4\u03AE \u03C0\u03BB\u03B1\u03C4\u03C6\u03CC\u03C1\u03BC\u03B1",
     es:      "Android se convertir\u00E1 en una plataforma cerrada",
     fr:      "Android va devenir une plateforme ferm\u00E9e",
@@ -44,8 +49,11 @@
     tr:      "Android k\u0131s\u0131tl\u0131 bir platform haline gelecek.",
     uk:      "Android \u0441\u0442\u0430\u043D\u0435 \u0437\u0430\u043A\u0440\u0438\u0442\u043E\u044E \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u043E\u044E",
     "zh-CN": "\u5B89\u5353\u5C06\u6210\u4E3A\u4E00\u4E2A\u5C01\u95ED\u5E73\u53F0",
-    "zh-TW": "\u5012\u6578 Android \u5373\u5C07\u6DEA\u70BA\u756B\u5730\u70BA\u7262\u3001\u684E\u688F\u6EFF\u76C8\u7684\u5C01\u9589\u5E73\u81FA",
-    ja:      "Androidは閉鎖的なプラットフォームになろうとしています"
+    "zh-TW": "Android \u5C07\u6210\u70BA\u4E00\u500B\u5C01\u9589\u5E73\u53F0",
+    ja:      "Androidは閉鎖的なプラットフォームになろうとしています",
+    fi:      "Androidista tulee suljettu alusta",
+    hu:      "Az Android egy lezárt platform lesz",
+    vi:      "Android sẽ trở thành một hệ điều hành đóng",
   };
 
   // ── Parse query parameters from the script's own src URL ──────────────
@@ -70,15 +78,21 @@
   // ── Determine locale ──────────────────────────────────────────────────
   function resolveLocale(tag) {
     if (!tag) return "en";
+    // Exact match
     if (messages[tag]) return tag;
+    // Case-insensitive exact match (e.g. "pt-br" → "pt-BR")
     var lower = tag.toLowerCase();
     for (var key in messages) {
       if (key.toLowerCase() === lower) return key;
     }
-    var base = tag.split("-")[0].toLowerCase();
-    if (messages[base]) return base;
+    // Fallback to base language (e.g. "de-CH" → "de", "zh-Hans" → "zh")
+    var base = lower.split("-")[0];
     for (var key2 in messages) {
-      if (key2.toLowerCase().split("-")[0] === base) return key2;
+      if (key2.toLowerCase() === base) return key2;
+    }
+    // Fallback to any regional variant of the base language (e.g. "pt" → "pt-BR")
+    for (var key3 in messages) {
+      if (key3.toLowerCase().split("-")[0] === base) return key3;
     }
     return "en";
   }
@@ -91,11 +105,15 @@
   );
 
   // ── Size variant ──────────────────────────────────────────────────────
-  var size = params.size === "mini" ? "mini" : "normal";
+  var size = params.size === "mini" ? "mini"
+      : params.size === "minimal"
+        ? "minimal"
+        : "normal";
 
   // ── Link ────────────────────────────────────────────────────────────
   var linkParam = params.link;
-  var linkUrl = linkParam === "none" ? null : (linkParam || "https://keepandroidopen.org");
+  var defaultLink = "https://keepandroidopen.org" + (locale === "en" ? "" : "/" + locale + "/");
+  var linkUrl = linkParam === "none" ? null : (linkParam || defaultLink);
 
   // ── Close button ────────────────────────────────────────────────────
   var showClose = params.hidebutton !== "off";
@@ -122,7 +140,6 @@
         "0px 3px 0px #751111," +
         "0px 4px 0px #5e0d0d," +
         "0px 6px 10px rgba(0,0,0,0.5);" +
-      "animation:kao-pulse 2s infinite;" +
       "padding:0.5rem 2.5rem;" +
       "line-height:1.6;" +
       "box-sizing:border-box;" +
@@ -145,10 +162,31 @@
         "0px 1px 0px #9e1a1a," +
         "0px 2px 0px #8a1515," +
         "0px 3px 5px rgba(0,0,0,0.4);" +
-      "animation:kao-pulse 2s infinite;" +
       "padding:0.25rem 1.5rem;" +
       "line-height:1.4;" +
       "box-sizing:border-box;" +
+    "}";
+
+  var cssMinimal =
+    ".kao-banner{" +
+    "position:relative;" +
+    "font-variant-numeric:tabular-nums;" +
+    "background:linear-gradient(180deg,#d32f2f 0%,#b71c1c 100%);" +
+    "border-bottom:2px solid #801313;" +
+    "color:#fff;" +
+    "font-family:'Arial Black',sans-serif;" +
+    "font-weight:900;" +
+    "text-transform:uppercase;" +
+    "letter-spacing:1px;" +
+    "font-size:0.75rem;" +
+    "text-align:center;" +
+    "text-shadow:" +
+    "0px 1px 0px #9e1a1a," +
+    "0px 2px 0px #8a1515," +
+    "0px 3px 5px rgba(0,0,0,0.4);" +
+    "padding:0.25rem 1.5rem;" +
+    "line-height:1.4;" +
+    "box-sizing:border-box;" +
     "}";
 
   var cssCommon =
@@ -169,7 +207,10 @@
       "line-height:1;" +
       "text-shadow:none;" +
     "}" +
-    ".kao-banner-close:hover{opacity:1;}" +
+    ".kao-banner-close:hover{opacity:1;}";
+
+  var cssKaoPulse =
+    ".kao-banner:not(.no-animation) { animation:kao-pulse 2s infinite; }" +
     "@keyframes kao-pulse{" +
       "0%{box-shadow:0 0 0 0 rgba(211,47,47,0.7)}" +
       "70%{box-shadow:0 0 0 15px rgba(211,47,47,0)}" +
@@ -177,7 +218,9 @@
     "}";
 
   var style = document.createElement("style");
-  style.textContent = (size === "mini" ? cssMini : cssNormal) + cssCommon;
+  style.textContent = (size === "mini" ? cssMini : size === "minimal" ? cssMinimal : cssNormal)
+    + (params.animation === "off" ? "" : cssKaoPulse)
+    + cssCommon;
   document.head.appendChild(style);
 
   // ── Check if previously dismissed (reappears after dismissDays) ─────
@@ -194,7 +237,7 @@
 
   // ── Create banner DOM ─────────────────────────────────────────────────
   var banner = document.createElement("div");
-  banner.className = "kao-banner";
+  banner.className = params.animation === "off" ? "kao-banner no-animation" : "kao-banner";
 
   var messageText = messages[locale] || messages.en;
 
@@ -209,7 +252,11 @@
     banner.appendChild(document.createTextNode(messageText));
   }
 
-  banner.appendChild(document.createElement("br"));
+  if (params.size === "minimal") {
+    banner.appendChild(document.createTextNode("\u00A0"));
+  } else {
+    banner.appendChild(document.createElement("br"));
+  }
 
   var countdownSpan = document.createElement("span");
   countdownSpan.textContent = "\u00A0";
@@ -244,73 +291,15 @@
   // ── Countdown logic ───────────────────────────────────────────────────
   var countDownDate = new Date("Sep 1, 2026 00:00:00").getTime();
 
-  var formatter = new Intl.RelativeTimeFormat(locale, { style: "narrow" });
+  var unitFormatters = {
+    day: new Intl.NumberFormat(locale, { style: "unit", unit: "day", unitDisplay: "narrow" }),
+    hour: new Intl.NumberFormat(locale, { style: "unit", unit: "hour", unitDisplay: "narrow" }),
+    minute: new Intl.NumberFormat(locale, { style: "unit", unit: "minute", unitDisplay: "narrow" }),
+    second: new Intl.NumberFormat(locale, { style: "unit", unit: "second", unitDisplay: "narrow" })
+  };
 
-  var pfx = new Array(4);
-  var sfx = new Array(4);
-
-  function getOffset(unit) {
-    switch (unit) {
-      case "day":    return 0;
-      case "hour":   return 1;
-      case "minute": return 2;
-      case "second": return 3;
-    }
-  }
-
-  function extractCommon(p, c, reverse) {
-    var s = 0;
-    var w = 0;
-    var i = reverse ? p.length - 1 : 0;
-    var j = reverse ? c.length - 1 : 0;
-    var pEnd = reverse ? 0 : p.length;
-    var cEnd = reverse ? 0 : c.length;
-    var chr;
-    while (
-      (reverse ? i >= pEnd : i < pEnd) &&
-      (reverse ? j >= cEnd : j < cEnd) &&
-      (chr = p[reverse ? i-- : i++]) === c[reverse ? j-- : j++]
-    ) {
-      w = chr === " " ? w + 1 : 0;
-      s++;
-    }
-    return s - w;
-  }
-
-  function cacheFormattingInfo(value, unit) {
-    var p = formatter.formatToParts(value, unit);
-    if (!p.length) return;
-    var c = formatter.formatToParts(-value, unit);
-
-    var offset = getOffset(unit);
-    if (p[0].type === "literal" && (!c.length || c[0].type !== "literal" || !c[0].value.endsWith(p[0].value))) {
-      pfx[offset] = p[0].value.length;
-    }
-    if (p[p.length - 1].type === "literal") {
-      if (!c.length || c[c.length - 1].type !== "literal") {
-        sfx[offset] = p[p.length - 1].value.length;
-      } else if (!c[c.length - 1].value.startsWith(p[p.length - 1].value)) {
-        sfx[offset] =
-          p[p.length - 1].value.length -
-          extractCommon(p[p.length - 1].value, c[c.length - 1].value, false);
-      }
-    }
-  }
-
-  cacheFormattingInfo(1, "day");
-  cacheFormattingInfo(2, "hour");
-  cacheFormattingInfo(3, "minute");
-  cacheFormattingInfo(4, "second");
-
-  function getLocalizedUnit(value, unit, trimConjunction, trimSuffix) {
-    var offset = getOffset(unit);
-    var string = formatter.format(value, unit);
-    var p = pfx[offset];
-    var s = sfx[offset];
-    return string.slice(
-      trimConjunction && p || (p == 1 && string[0] === "+") ? pfx[offset] : 0,
-      trimSuffix && s ? -sfx[offset] : string.length
-    );
+  function formatUnit(value, unit) {
+    return unitFormatters[unit].format(value);
   }
 
   var remaining = new Array(7);
@@ -329,19 +318,22 @@
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     var parts = 0;
-    remaining[0] = days > 0 ? getLocalizedUnit(days, "day", parts++, true) : null;
+    remaining[0] = days > 0 ? formatUnit(days, "day") : null;
+    if (remaining[0]) parts++;
     remaining[1] = parts ? separator : null;
     remaining[2] =
       parts || hours > 0
-        ? getLocalizedUnit(hours, "hour", parts++, true)
+        ? formatUnit(hours, "hour")
         : null;
+    if (remaining[2]) parts++;
     remaining[3] = parts ? separator : null;
     remaining[4] =
       parts || minutes > 0
-        ? getLocalizedUnit(minutes, "minute", parts++, true)
+        ? formatUnit(minutes, "minute")
         : null;
+    if (remaining[4]) parts++;
     remaining[5] = parts ? separator : null;
-    remaining[6] = getLocalizedUnit(seconds, "second", parts++, false);
+    remaining[6] = formatUnit(seconds, "second");
 
     countdownSpan.textContent = remaining.join("");
 

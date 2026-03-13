@@ -1,7 +1,7 @@
 ---
 title: "Android Açık Kalsın"
 lang: tr
-description: "Android'in herkesin üzerinde uygulama geliştirebileceği özgür, açık bir platform olmasını savunuyoruz."
+description: "Android'in herkesin üzerinde uygulama geliştirebileceği özgür ve açık bir platform olmasını savunuyoruz."
 
 # localizable sections for the footer text
 contact_header: "İrtibat"
@@ -52,8 +52,6 @@ Doğrulama sürecini aşırı zorluk olmadan atlamanın mümkün olacağına dai
 </div>
 
 ## Nasıl yardımcı olabilirsiniz {#help}
-
-## Sesiniz duyulsun
 
 ### Direnin ve reddedin {#developers}
 

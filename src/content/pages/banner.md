@@ -23,9 +23,10 @@ Customize the banner by appending query parameters to the script URL:
 |-----------|--------|---------|-------------|
 | `lang` | `en`, `fr`, `de`, `es`, … | Browser language | Override the display language |
 | `id` | Any element id | _(prepend to body)_ | Insert the banner inside the element with this id |
-| `size` | `normal`, `mini` | `normal` | Banner size variant |
+| `size` | `normal`, `mini`, `minimal` | `normal` | Banner size variant |
 | `link` | Any URL, or `none` | `https://keepandroidopen.org` | Make the banner text a clickable link; set to `none` to disable |
 | `hidebutton` | `on`, `off` | `on` | Show or hide the X close button (dismissed state is remembered per-site via localStorage) |
+| `animation` | `on`, `off` | `on` | Enable or disable the banner's pulsing animation |
 
 ## Examples
 
@@ -39,6 +40,7 @@ French, mini size, inserted into a specific element:
 <div id="my-banner"></div>
 <script src="/banner.js?lang=fr&size=mini&id=my-banner"></script>
 
+---
 
 Link to a custom page, no close button:
 
@@ -48,6 +50,16 @@ Link to a custom page, no close button:
 
 <div id="my-banner-custom"></div>
 <script src="/banner.js?link=https://example.com/android&hidebutton=off&size=mini&id=my-banner-custom"></script>
+
+---
+
+Minimal size without animations.
+
+```html
+<script src="https://keepandroidopen.org/banner.js?size=minimal&animation=off></script>
+```
+<div id="my-banner-minimal"></div>
+<script src="/banner.js?size=minimal&animation=off&id=my-banner-minimal"></script>
 
 ## Source
 

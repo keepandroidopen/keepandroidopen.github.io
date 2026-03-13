@@ -204,16 +204,13 @@ const dir = isRtl(lang) ? "rtl" : "ltr";
     }
 
     .header-icons {
-      float: inline-end;
-      margin-inline-end: 1rem;
-      z-index: 1000;
-      display: inline-flex;
+      display: flex;
+      justify-content: center;
       align-items: center;
       gap: 0.25rem;
     }
 
     .header-icon-link {
-      color: var(--pico-text);
       padding: 0.5rem;
       transition: all 0.3s ease;
       display: inline-flex;
@@ -222,6 +219,57 @@ const dir = isRtl(lang) ? "rtl" : "ltr";
 
     .header-icon-link:hover {
       opacity: 0.8;
+    }
+
+    /* Social media icons – CSS mask with brand colors */
+    .social-icon {
+      display: inline-block;
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+      -webkit-mask-position: center;
+      mask-position: center;
+    }
+
+    .icon-mastodon {
+      -webkit-mask-image: url('/img/mastodon.svg');
+      mask-image: url('/img/mastodon.svg');
+      background-color: #6364FF;
+    }
+
+    .icon-bluesky {
+      -webkit-mask-image: url('/img/bluesky.svg');
+      mask-image: url('/img/bluesky.svg');
+      background-color: #1185FE;
+    }
+
+    .icon-x {
+      -webkit-mask-image: url('/img/x-twitter.svg');
+      mask-image: url('/img/x-twitter.svg');
+      background-color: #14171A;
+    }
+
+    [data-theme="dark"] .icon-mastodon {
+      background-color: #858AFA;
+    }
+
+    [data-theme="dark"] .icon-bluesky {
+      background-color: #409CFF;
+    }
+
+    [data-theme="dark"] .icon-x {
+      background-color: #E7E9EA;
+    }
+
+    .icon-linkedin {
+      -webkit-mask-image: url('/img/linkedin.svg');
+      mask-image: url('/img/linkedin.svg');
+      background-color: #0A66C2;
+    }
+
+    [data-theme="dark"] .icon-linkedin {
+      background-color: #5BA4E5;
     }
 
     .callout-warning {

@@ -5,6 +5,8 @@ heading:
   ru: "Реакция прессы"
   cs: "Reakce v médiích"
   de: "Presseberichte"
+  da: "Reaktioner i pressen"
+  nl: "Reacties in de media"
   el: "Αντιδράσεις του Τύπου"
   es: "Reacciones de la prensa"
   fr: "Réactions de la presse"
@@ -22,6 +24,8 @@ heading:
   ja: "報道の反応"
 
 items:
+  - text: "With developer verification, Google’s Apple envy threatens to dismantle Android’s open legacy"
+    url: "https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/"
   - text: "37 groups urge the company to drop ID checks for apps distributed outside Play"
     url: "https://www.theregister.com/2026/02/24/google_android_developer_verification_plan/"
   - text: "'Keep Android Open' movement fights back against Google sideloading restrictions"
