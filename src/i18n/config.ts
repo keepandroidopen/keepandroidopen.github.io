@@ -39,6 +39,8 @@ export const languages = {
   "id": { label: "Indonesia", path: "/id/" },
   "tl": { label: "Tagalog", path: "/tl/" },
   "bn": { label: "বাংলা", path: "/bn/" },
+  "hi": { label: "हिंदी", path: "/hi/"},
+  
 
   // CJK (East Asian)
   "zh-CN": { label: "简体中文", path: "/zh-CN/" },
