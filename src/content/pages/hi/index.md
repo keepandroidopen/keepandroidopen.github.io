@@ -72,7 +72,7 @@ Google ने एक अस्पष्ट [उल्लेख](https://android-
 
 —— केवल डेवलपर्स की सहमति और समर्पण से ही उनकी यह अधिग्रहण योजना सफल हो सकती है। ——
 
-साथी ऐप डेवलपर्स और संगठनों को program में साइन अप करने से मना करें। संदेश फैलाने के लिए community forums, social media (जैसे की WhatsApp, Facebook आदि) का उपयोग करें। अपने ऐप उपयोगकर्ताओं को सूचित करने के लिए अपने code में [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) शामिल करें। यदि आप कोई वेबसाइट चलाते हैं, तो अपने पेज के शीर्ष पर [countdown banner जोड़ने](/banner) पर विचार करें।
+साथी ऐप डेवलपर्स और संगठनों को program में साइन अप करने से मना करें। संदेश फैलाने के लिए community forums, social media (जैसे की WhatsApp, Facebook आदि) का उपयोग करें। अपने ऐप उपयोगकर्ताओं को सूचित करने के लिए अपने code में [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) शामिल करें। यदि आप कोई वेबसाइट चलाते हैं, तो अपने पेज के शीर्ष पर [countdown banner](/banner) जोड़ने पर विचार करें।
 
 यदि आप Google के किसी कर्मचारी या contractor हैं जिनमें अभी भी अंतरात्मा जीवित है और आपके पास program के बारे में अतिरिक्त जानकारी है, जिसमें तकनीकी कार्यान्वयन विवरण या program के औचित्य शामिल हैं, तो कृपया गैर-कार्य मशीन और गैर-gmail खाते से [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) पर संपर्क करें। आपकी जानकारी पूर्णतः गोपनीय रखी जाएगी।
 
