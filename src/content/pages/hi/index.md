@@ -1,9 +1,9 @@
 ---
-title: एंड्रॉइड को खुला रखो
+title: एंड्रॉइड को एक खुला प्लेटफार्म रखें
 lang: hi
 description: एंड्रॉइड को एक स्वतंत्र, खुले प्लेटफ़ॉर्म के रूप में बनाए रखने का प्रयास, जहाँ सभी ऐप बना सकें।
 
-# Footer text, which got localized in hindi
+# Footer text for localization
 contact_header: संपर्क
 contact_email: ईमेल
 site_problems_header: समस्याएँ
