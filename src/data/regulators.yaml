@@ -2661,6 +2661,20 @@ countries:
           pt-BR: "Entre em contato com a [Fair Trade Commission (FTC)](https://www.ftc.gov.tw/)"
           zh-CN: "联系[公平交易委员会 (FTC)](https://www.ftc.gov.tw/)"
           zh-TW: "聯絡[公平交易委員會 (FTC)](https://www.ftc.gov.tw/)"
+  - id: hongkongsar
+    name:
+      en: "Hong Kong SAR"
+      zh-CN: "香港"
+      zh-TW: "香港"
+    items:
+      - text:
+          en: "Email: [complaints@compcomm.hk](mailto:complaints@compcomm.hk?cc=hongkong@keepandroidopen.org)"
+          zh-CN: "电子邮件：[complaints@compcomm.hk](mailto:complaints@compcomm.hk?cc=hongkong@keepandroidopen.org)"
+          zh-TW: "電子郵件：[complaints@compcomm.hk](mailto:complaints@compcomm.hk?cc=hongkong@keepandroidopen.org)"
+      - text:
+          en: "Contact the [Competition Commission](https://www.compcomm.hk/en/applications/make_a_complaint/complaint.html)"
+          zh-CN: "联系[竞争事务委员会](https://www.compcomm.hk/sc/applications/make_a_complaint/complaint.html)"
+          zh-TW: "聯絡[競爭事務委員會](https://www.compcomm.hk/tc/applications/make_a_complaint/complaint.html)"
   - id: turkey
     name:
       fa: "ترکیه"
