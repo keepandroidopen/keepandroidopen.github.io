@@ -19,8 +19,8 @@ heading:
   uk: "Споживачі: Звертайтеся до національних регуляторів"
   pl: "Konsumenci: Skontaktujcie się z krajowymi regulatorami"
   pt-BR: "Consumidores: Contatem os órgãos reguladores nacionais"
-  zh-CN: "消费者：联系国家监管机构"
-  zh-TW: "消費者：聯絡國家監管機構"
+  zh-CN: "消费者：联系政府监管机构"
+  zh-TW: "消費者：聯絡政府監管機構"
   ja: "消費者へ: 国の規制当局に連絡してください"
 
 intro:
@@ -3157,21 +3157,29 @@ countries:
     name:
         ar: "جمهورية مصر العربية"
         en: "Egypt"
+        zh-CN: "埃及"
+        zh-TW: "埃及"
     items:
     - text:
         ar: "تواصل مع [جهاز حماية المنافسة](https://eca.org.eg/ar-eg)"
         en: "Contact the [Egyptian Competition Authority](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
+        zh-CN: "联系 [埃及竞争管理局（Egyptian Competition Authority）](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
     - text:
         ar: "[info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org) :البريد الإلكتروني"
         en: "Email: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
+        zh-CN: "电子邮件: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
   - id: hungary
     name:
       en: "Hungary"
       hu: "Magyarország"
+      zh-CN: "匈牙利"
+      zh-TW: "匈牙利"
     items:
       - text:
           en: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
           hu: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+          zh-CN: "电子邮件: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
       - text:
           en: "Contact the [Hungarian Competition Authority (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
           hu: "Vedd fel a kapcsolatot a [Gazdasági Versenyhivatallal](https://www.gvh.hu/gvh/2361_hu_elerhetosegek_kapcsolatok)"
+          en: "联系 [匈牙利竞争管理局（Gazdasági Versenyhivatal）](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
