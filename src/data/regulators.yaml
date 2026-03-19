@@ -2303,6 +2303,24 @@ countries:
           pt-BR: "Entre em contato com seu deputado local ou senador estadual. Se você não souber seu eleitorado, pode encontrá-lo [aqui](https://electorate.aec.gov.au/) e pode buscar seus parlamentares ou senadores [aqui](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results)."
           zh-CN: "联系您当地的国会议员或州参议员。如果您不知道您的选区，可以在[这里](https://electorate.aec.gov.au/)找到；您可以在[这里](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results)搜索您的国会议员或参议员。"
           zh-TW: "聯絡您當地的國會議員或州參議員。如果您不知道您的選區，可以在[這裡](https://electorate.aec.gov.au/)找到；您可以在[這裡](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results)搜尋您的國會議員或參議員。"
+  - id: new-zealand
+    name:
+      en: "Aotearoa / New Zealand"
+    items:
+      - text:
+          en: "Email: [contact@comcom.govt.nz](mailto:contact@comcom.govt.nz?cc=nz@keepandroidopen.org)"
+      - text:
+          en: "Phone: [0800 943 600](tel:08009436000)"
+      - text:
+          en: "Report anti-competitive conduct to the [Commerce Commission](https://www.comcom.govt.nz/report-a-concern/)"
+      - text:
+          en: "Contact the Minister of Commerce and Consumer Affairs, Hon Scott Simpson: [scott.simpson@parliament.govt.nz](mailto:scott.simpson@parliament.govt.nz)"
+      - text:
+          en: "Contact your local Member of Parliament. If you don't know your electorate, find it at [vote.nz](https://www.vote.nz)"
+      - text:
+          en: "Contact [InternetNZ](https://internetnz.nz) — the non-profit advocate for an open internet in Aotearoa: [office@internetnz.net.nz](mailto:office@internetnz.net.nz)"
+      - text:
+          en: "Contact [Consumer NZ](https://www.consumer.org.nz/about/contact-us) — Aotearoa's independent consumer advocacy organisation. Ask them to lodge a formal complaint to the Commerce Commission on behalf of consumers."
   - id: japan
     name:
       fa: "ژاپن"
