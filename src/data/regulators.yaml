@@ -156,6 +156,7 @@ countries:
           en: "Alabama"
           fr: "Alabama"
           da: "Alabama"
+          pt-BR: "Alabama"
           zh-CN: "阿拉巴马州"
           zh-TW: "阿拉巴馬州"
           vi: "Alabama"
@@ -183,6 +184,7 @@ countries:
           en: "Alaska"
           fr: "Alaska"
           da: "Alaska"
+          pt-BR: "Alasca"
           zh-CN: "阿拉斯加州"
           zh-TW: "阿拉斯加州"
         items:
@@ -209,6 +211,7 @@ countries:
           en: "Arizona"
           fr: "Arizona"
           da: "Arizona"
+          pt-BR: "Arizona"
           zh-CN: "亚利桑那州"
           zh-TW: "亞利桑那州"
         items:
@@ -235,6 +238,7 @@ countries:
           en: "Arkansas"
           fr: "Arkansas"
           da: "Arkansas"
+          pt-BR: "Arkansas"
           zh-CN: "阿肯色州"
           zh-TW: "阿肯色州"
         items:
@@ -261,6 +265,7 @@ countries:
           en: "California"
           fr: "Californie"
           da: "Californien"
+          pt-BR: "Califórnia"
           zh-CN: "加利福尼亚州"
           zh-TW: "加利福尼亞州"
         items:
@@ -287,6 +292,7 @@ countries:
           en: "Colorado"
           fr: "Colorado"
           da: "Colorado"
+          pt-BR: "Colorado"
           zh-CN: "科罗拉多州"
           zh-TW: "科羅拉多州"
         items:
@@ -313,6 +319,7 @@ countries:
           en: "Connecticut"
           fr: "Connecticut"
           da: "Connecticut"
+          pt-BR: "Connecticut"
           zh-CN: "康涅狄格州"
           zh-TW: "康乃狄克州"
         items:
@@ -339,6 +346,7 @@ countries:
           en: "Delaware"
           fr: "Delaware"
           da: "Delaware"
+          pt-BR: "Delaware"
           zh-CN: "特拉华州"
           zh-TW: "德拉瓦州"
         items:
@@ -365,6 +373,7 @@ countries:
           en: "Florida"
           fr: "Floride"
           da: "Florida"
+          pt-BR: "Flórida"
           zh-CN: "佛罗里达州"
           zh-TW: "佛羅里達州"
         items:
@@ -391,6 +400,7 @@ countries:
           en: "Georgia"
           fr: "Géorgie"
           da: "Georgia"
+          pt-BR: "Geórgia"
           zh-CN: "佐治亚州"
           zh-TW: "喬治亞州"
         items:
@@ -417,6 +427,7 @@ countries:
           en: "Hawaii"
           fr: "Hawaï"
           da: "Hawaii"
+          pt-BR: "Havaí"
           zh-CN: "夏威夷州"
           zh-TW: "夏威夷州"
         items:
@@ -443,6 +454,7 @@ countries:
           en: "Idaho"
           fr: "Idaho"
           da: "Idaho"
+          pt-BR: "Idaho"
           zh-CN: "爱达荷州"
           zh-TW: "愛達荷州"
         items:
@@ -469,6 +481,7 @@ countries:
           en: "Illinois"
           fr: "Illinois"
           da: "Illinois"
+          pt-BR: "Illinois"
           zh-CN: "伊利诺伊州"
           zh-TW: "伊利諾州"
         items:
@@ -495,6 +508,7 @@ countries:
           en: "Indiana"
           fr: "Indiana"
           da: "Indiana"
+          pt-BR: "Indiana"
           zh-CN: "印第安纳州"
           zh-TW: "印第安納州"
         items:
@@ -521,6 +535,7 @@ countries:
           en: "Iowa"
           fr: "Iowa"
           da: "Iowa"
+          pt-BR: "Iowa"
           zh-CN: "爱荷华州"
           zh-TW: "愛荷華州"
         items:
@@ -547,6 +562,7 @@ countries:
           en: "Kansas"
           fr: "Kansas"
           da: "Kansas"
+          pt-BR: "Kansas"
           zh-CN: "堪萨斯州"
           zh-TW: "堪薩斯州"
         items:
@@ -573,6 +589,7 @@ countries:
           en: "Kentucky"
           fr: "Kentucky"
           da: "Kentucky"
+          pt-BR: "Kentucky"
           zh-CN: "肯塔基州"
           zh-TW: "肯塔基州"
         items:
@@ -599,6 +616,7 @@ countries:
           en: "Louisiana"
           fr: "Louisiane"
           da: "Louisiana"
+          pt-BR: "Louisiana"
           zh-CN: "路易斯安那州"
           zh-TW: "路易斯安那州"
         items:
@@ -625,6 +643,7 @@ countries:
           en: "Maine"
           fr: "Maine"
           da: "Maine"
+          pt-BR: "Maine"
           zh-CN: "缅因州"
           zh-TW: "緬因州"
         items:
@@ -651,6 +670,7 @@ countries:
           en: "Maryland"
           fr: "Maryland"
           da: "Maryland"
+          pt-BR: "Maryland"
           zh-CN: "马里兰州"
           zh-TW: "馬里蘭州"
         items:
@@ -677,6 +697,7 @@ countries:
           en: "Massachusetts"
           fr: "Massachusetts"
           da: "Massachusetts"
+          pt-BR: "Massachusetts"
           zh-CN: "马萨诸塞州"
           zh-TW: "麻薩諸塞州"
         items:
@@ -703,6 +724,7 @@ countries:
           en: "Michigan"
           fr: "Michigan"
           da: "Michigan"
+          pt_BR: "Michigan"
           zh-CN: "密歇根州"
           zh-TW: "密西根州"
         items:
@@ -729,6 +751,7 @@ countries:
           en: "Minnesota"
           fr: "Minnesota"
           da: "Minnesota"
+          pt-BR: "Minnesota"
           zh-CN: "明尼苏达州"
           zh-TW: "明尼蘇達州"
         items:
@@ -755,6 +778,7 @@ countries:
           en: "Mississippi"
           fr: "Mississippi"
           da: "Mississippi"
+          pt-BR: "Mississippi"
           zh-CN: "密西西比州"
           zh-TW: "密西西比州"
         items:
@@ -781,6 +805,7 @@ countries:
           en: "Missouri"
           fr: "Missouri"
           da: "Missouri"
+          pt-BR: "Missouri"
           zh-CN: "密苏里州"
           zh-TW: "密蘇里州"
         items:
@@ -807,6 +832,7 @@ countries:
           en: "Montana"
           fr: "Montana"
           da: "Montana"
+          pt-BR: "Montana"
           zh-CN: "蒙大拿州"
           zh-TW: "蒙大拿州"
         items:
@@ -833,6 +859,7 @@ countries:
           en: "Nebraska"
           fr: "Nebraska"
           da: "Nebraska"
+          pt-BR: "Nebraska"
           zh-CN: "内布拉斯加州"
           zh-TW: "內布拉斯加州"
         items:
@@ -859,6 +886,7 @@ countries:
           en: "Nevada"
           fr: "Nevada"
           da: "Nevada"
+          pt-BR: "Nevada"
           zh-CN: "内华达州"
           zh-TW: "內華達州"
         items:
@@ -885,6 +913,7 @@ countries:
           en: "New Hampshire"
           fr: "New Hampshire"
           da: "New Hampshire"
+          pt-BR: "New Hampshire"
           zh-CN: "新罕布什尔州"
           zh-TW: "新罕布夏州"
         items:
@@ -911,6 +940,7 @@ countries:
           en: "New Jersey"
           fr: "New Jersey"
           da: "New Jersey"
+          pt-BR: "Nova Jersey"
           zh-CN: "新泽西州"
           zh-TW: "紐澤西州"
         items:
@@ -937,6 +967,7 @@ countries:
           en: "New Mexico"
           fr: "Nouveau-Mexique"
           da: "New Mexico"
+          pt-BR: "Novo México"
           zh-CN: "新墨西哥州"
           zh-TW: "新墨西哥州"
         items:
@@ -963,6 +994,7 @@ countries:
           en: "New York"
           fr: "New York"
           da: "New York"
+          pt-BR: "Nova York"
           zh-CN: "纽约州"
           zh-TW: "紐約州"
         items:
@@ -989,6 +1021,7 @@ countries:
           en: "North Carolina"
           fr: "Caroline du Nord"
           da: "North Carolina"
+          pt-BR: "Carolina do Norte"
           zh-CN: "北卡罗来纳州"
           zh-TW: "北卡羅萊納州"
         items:
@@ -1015,6 +1048,7 @@ countries:
           en: "North Dakota"
           fr: "Dakota du Nord"
           da: "North Dakota"
+          pt-BR: "Dakota do Norte"
           zh-CN: "北达科他州"
           zh-TW: "北達科他州"
         items:
@@ -1041,6 +1075,7 @@ countries:
           en: "Ohio"
           fr: "Ohio"
           da: "Ohio"
+          pt-BR: "Ohio"
           zh-CN: "俄亥俄州"
           zh-TW: "俄亥俄州"
         items:
@@ -1067,6 +1102,7 @@ countries:
           en: "Oklahoma"
           fr: "Oklahoma"
           da: "Oklahoma"
+          pt-BR: "Oklahoma"
           zh-CN: "俄克拉何马州"
           zh-TW: "奧克拉荷馬州"
         items:
@@ -1093,6 +1129,7 @@ countries:
           en: "Oregon"
           fr: "Oregon"
           da: "Oregon"
+          pt-BR: "Oregon"
           zh-CN: "俄勒冈州"
           zh-TW: "俄勒岡州"
         items:
@@ -1119,6 +1156,7 @@ countries:
           en: "Pennsylvania"
           fr: "Pennsylvanie"
           da: "Pennsylvania"
+          pt-BR: "Pensilvânia"
           zh-CN: "宾夕法尼亚州"
           zh-TW: "賓夕法尼亞州"
         items:
@@ -1145,6 +1183,7 @@ countries:
           en: "Rhode Island"
           fr: "Rhode Island"
           da: "Rhode Island"
+          pt-BR: "Rhode Island"
           zh-CN: "罗得岛州"
           zh-TW: "羅德島州"
         items:
@@ -1171,6 +1210,7 @@ countries:
           en: "South Carolina"
           fr: "Caroline du Sud"
           da: "South Carolina"
+          pt-BR: "Carolina do Sul"
           zh-CN: "南卡罗来纳州"
           zh-TW: "南卡羅萊納州"
         items:
@@ -1197,6 +1237,7 @@ countries:
           en: "South Dakota"
           fr: "Dakota du Sud"
           da: "South Dakota"
+          pt-BR: "Dakota do Sul"
           zh-CN: "南达科他州"
           zh-TW: "南達科他州"
         items:
@@ -1223,6 +1264,7 @@ countries:
           en: "Tennessee"
           fr: "Tennessee"
           da: "Tennessee"
+          pt-BR: "Tennessee"
           zh-CN: "田纳西州"
           zh-TW: "田納西州"
         items:
@@ -1249,6 +1291,7 @@ countries:
           en: "Texas"
           fr: "Texas"
           da: "Texas"
+          pt-BR: "Texas"
           zh-CN: "得克萨斯州"
           zh-TW: "德克薩斯州"
         items:
@@ -1275,6 +1318,7 @@ countries:
           en: "Utah"
           fr: "Utah"
           da: "Utah"
+          pt-BR: "Utah"
           zh-CN: "犹他州"
           zh-TW: "猶他州"
         items:
@@ -1301,6 +1345,7 @@ countries:
           en: "Vermont"
           fr: "Vermont"
           da: "Vermont"
+          pt-BR: "Vermont"
           zh-CN: "佛蒙特州"
           zh-TW: "佛蒙特州"
         items:
@@ -1327,6 +1372,7 @@ countries:
           en: "Virginia"
           fr: "Virginie"
           da: "Virginia"
+          pt-BR: "Virgínia"
           zh-CN: "弗吉尼亚州"
           zh-TW: "維吉尼亞州"
         items:
@@ -1353,6 +1399,7 @@ countries:
           en: "Washington"
           fr: "Washington"
           da: "Washington"
+          pt-BR: "Washington"
           zh-CN: "华盛顿州"
           zh-TW: "華盛頓州"
         items:
@@ -1379,6 +1426,7 @@ countries:
           en: "West Virginia"
           fr: "Virginie-Occidentale"
           da: "West Virginia"
+          pt-BR: "Virgínia Ocidental"
           zh-CN: "西弗吉尼亚州"
           zh-TW: "西維吉尼亞州"
         items:
@@ -1405,6 +1453,7 @@ countries:
           en: "Wisconsin"
           fr: "Wisconsin"
           da: "Wisconsin"
+          pt-BR: "Wisconsin"
           zh-CN: "威斯康星州"
           zh-TW: "威斯康辛州"
         items:
@@ -1431,6 +1480,7 @@ countries:
           en: "Wyoming"
           fr: "Wyoming"
           da: "Wyoming"
+          pt-BR: "Wyoming"
           zh-CN: "怀俄明州"
           zh-TW: "懷俄明州"
         items:
