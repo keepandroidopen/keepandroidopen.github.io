@@ -2251,7 +2251,7 @@ countries:
       tr: "İsviçre"
       uk: "Швейцарія"
       pl: "Szwajcaria"
-      pt-BR: "Switzerland"
+      pt-BR: "Suíça"
       zh-CN: "瑞士"
       zh-TW: "瑞士"
       ja: "スイス"
@@ -2379,6 +2379,7 @@ countries:
   - id: new-zealand
     name:
       en: "Aotearoa / New Zealand"
+      pt-BR: "Aotearoa / Nova Zelândia"
       zh-CN: "奥特亚罗瓦/新西兰"
     items:
       - text:
@@ -2602,6 +2603,7 @@ countries:
     name:
       en: "Italy"
       it: "Italia"
+      pt-BR: "Itália"
       zh-CN: "意大利"
       zh-TW: "義大利"
     items:
@@ -2983,6 +2985,7 @@ countries:
       th: "โปแลนด์"
       id: "Polandia"
       pl: "Polska"
+      pt-BR: "Polônia"
       zh-TW: "波蘭"
       ja: "ポーランド"
       zh-CN: "波兰"
@@ -3028,6 +3031,7 @@ countries:
       tr: "Çek Cumhuriyeti"
       uk: "Чеська Республіка"
       pl: "Czechy"
+      pt-BR: "República Tcheca"
       zh-CN: "捷克共和国"
       zh-TW: "捷克共和國"
       ja: "チェコ"
@@ -3083,7 +3087,7 @@ countries:
       tr: "Ukranya"
       uk: "Україна"
       pl: "Ukraina"
-      pt-BR: "Ukraine"
+      pt-BR: "Ucrânia"
       zh-CN: "乌克兰"
       zh-TW: "烏克蘭"
       ja: "ウクライナ"
@@ -3145,6 +3149,7 @@ countries:
       ja: "スロバキア"
       el: "Σλοβακία"
       tr: "Slovakya"
+      pt-BR: "Eslováquia"
       zh-CN: "斯洛伐克"
     locales:
       - sk
@@ -3173,6 +3178,7 @@ countries:
       ar: "جمهورية الصين"
       en: "Chinese Mainland"
       da: "Det kinesiske fastland"
+      pt-BR: "China Continental"
       zh-CN: "中国大陆"
       zh-TW: "中國大陸"
       ja: "中国本土"
@@ -3211,6 +3217,7 @@ countries:
       fr: "Arabie Saoudite"
       el: "Σαουδική Αραβία"
       tr: "Suudi Arabistan"
+      pt-BR: "Arábia Saudita"
       zh-CN: "沙特阿拉伯"
       zh-TW: "沙烏地阿拉伯"
     items:
@@ -3236,6 +3243,7 @@ countries:
     name:
         ar: "جمهورية مصر العربية"
         en: "Egypt"
+        pt-BR: "Egito"
         zh-CN: "埃及"
         zh-TW: "埃及"
     items:
@@ -3251,6 +3259,7 @@ countries:
     name:
       en: "Hungary"
       hu: "Magyarország"
+      pt-BR: "Hungria"
       zh-CN: "匈牙利"
       zh-TW: "匈牙利"
     items:
