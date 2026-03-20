@@ -1548,6 +1548,7 @@ countries:
           tr: "Dijital Piyasalar Yasası ekibine e-posta atın: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           uk: "Електронна пошта до команди Акту про цифрові ринки (DMA): [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           pl: "E-mail do zespołu Digital Markets Act: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
+          pt-BR: "Envie um email para o Digital Markets Act team: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           zh-CN: "给数字市场法案团队发送电子邮件：[EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           zh-TW: "傳送電子郵件給數位市場法案團隊：[EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
       - text:
@@ -1568,7 +1569,7 @@ countries:
           tr: "DMA ekibiyle iletişime geçin: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           uk: "Зв'язатися з командою DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           pl: "Kontakt z zespołem DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
-          pt-BR: "Contact DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_pt](https://digital-markets-act.ec.europa.eu/contact-dma-team_pt)"
+          pt-BR: "Entre em contato com o DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_pt](https://digital-markets-act.ec.europa.eu/contact-dma-team_pt)"
           zh-CN: "联系 DMA 团队：[https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           zh-TW: "聯絡 DMA 團隊：[https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
       - text:
@@ -1577,6 +1578,7 @@ countries:
           de: "Kontaktieren Sie Ihre Mitglieder des Europäischen Parlaments: [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
           fr: "Contactez directement vos députés européen : [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
           tr: "Avrupa Parlamentosu Milletvekilinizle doğrudan iletişime geçin: [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
+          pt-BR: "Entre em contato direto com um membro do Parlamento Europeu: [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
           zh-CN: "直接联系您的欧洲议会议员：[https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
           zh-TW: "直接聯絡您的歐洲議會議員：[https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
       - text:
@@ -1597,6 +1599,7 @@ countries:
           id: "Pos-el Anti-Monopoli: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           uk: "Електронна пошта антимонопольного комітету: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           pl: "E-mail dot. antymonopolu: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
+          pt-BR: "Envie um email para a Direção Antitruste: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           zh-CN: "给反垄断部门发送电子邮件：[COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           zh-TW: "傳送電子郵件給反壟斷部門：[COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
       - text:
@@ -1617,7 +1620,7 @@ countries:
           tr: "Şu kuruma şikayette bulunun: [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
           uk: "Поскаржитися до [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
           pl: "Złóż skargę do [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
-          pt-BR: "Reclame para a [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
+          pt-BR: "Envie uma reclamação para a [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
           zh-CN: "向 [欧盟竞争政策局](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) 提出投诉"
           zh-TW: "向 [歐盟競爭政策局](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) 提出申訴"
     children:
