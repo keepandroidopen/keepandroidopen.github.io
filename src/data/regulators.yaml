@@ -165,18 +165,21 @@ countries:
               en: "File a complaint with the [Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
               fr: "Déposez une plainte auprès de l'[Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
               da: "Indsend en klage til [Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
+              pt-BR: "Faça uma reclamação junto à [Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
               zh-CN: "向[阿拉巴马州 总检察长消费者保护局](https://www.alabamaag.gov/consumer-complaint/)提出投诉"
               zh-TW: "向[阿拉巴馬州 總檢察長消費者保護局](https://www.alabamaag.gov/consumer-complaint/)提出申訴"
           - text:
               en: "Contact Senator [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
               fr: "Contactez le sénateur [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
               da: "Kontakt senator [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
+              pt-BR: "Entre em contato com o senador [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
               zh-CN: "联系参议员 [汤米·特伯维尔](https://www.tuberville.senate.gov/contact)"
               zh-TW: "聯絡參議員 [湯米·塔伯維爾](https://www.tuberville.senate.gov/contact)"
           - text:
               en: "Contact Senator [Katie Britt](https://www.britt.senate.gov/contact)"
               fr: "Contactez la sénatrice [Katie Britt](https://www.britt.senate.gov/contact)"
               da: "Kontakt senator [Katie Britt](https://www.britt.senate.gov/contact)"
+              pt-BR: "Entre em contato com a senadora [Katie Britt](https://www.britt.senate.gov/contact)"
               zh-CN: "联系参议员 [凯蒂·布里特](https://www.britt.senate.gov/contact)"
               zh-TW: "聯絡參議員 [凱蒂·布里特](https://www.britt.senate.gov/contact)"
       - id: us-ak
