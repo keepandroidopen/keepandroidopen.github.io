@@ -19,9 +19,10 @@ heading:
   uk: "Споживачі: Звертайтеся до національних регуляторів"
   pl: "Konsumenci: Skontaktujcie się z krajowymi regulatorami"
   pt-BR: "Consumidores: Contatem os órgãos reguladores nacionais"
-  zh-CN: "消费者：联系国家监管机构"
-  zh-TW: "消費者：聯絡國家監管機構"
+  zh-CN: "消费者：联系政府监管机构"
+  zh-TW: "消費者：聯絡政府監管機構"
   ja: "消費者へ: 国の規制当局に連絡してください"
+  vi: "Người dùng: Liên hệ với cơ quan quản lý của chính phủ"
 
 intro:
   ar: "يشعر المنظمون في جميع أنحاء العالم بقلق بالغ إزاء الاحتكارات وتمركز السلطة في قطاع التكنولوجيا، ويرغبون في الاستماع مباشرةً إلى الأفراد المتضررين والمهتمين. عند التواصل مع المنظمين مباشرةً، ينبغي التحلي _باللباقة و الوضوح_ في شرح الضرر الذي تعتقد أن هذه السياسات ستسببه، سواءً للمستهلكين أو للمنافسة."
@@ -44,9 +45,10 @@ intro:
   uk: "Регулятори в усьому світі щиро занепокоєні монополіями та централізацією влади в технологічному секторі й хочуть чути безпосередньо від людей, яких це стосується та турбує. Звертаючись до регуляторів, ви повинні бути _ввічливими_ та _конкретними_ щодо шкоди, яку, на вашу думку, завдадуть ці політики як споживачам, так і конкуренції."
   pl: "Regulatorzy na całym świecie realnie martwią się monopolami i centralizacją władzy w sektorze technologicznym oraz chcą usłyszeć bezpośrednio od osób, których to dotyczy i które są zaniepokojone. Kontaktując się z regulatorami, bądź _uprzejmy_ i _konkretny_ w opisie szkód, jakie — Twoim zdaniem — spowodują te polityki, zarówno dla konsumentów, jak i dla konkurencji."
   pt-BR: "Os reguladores em todo o mundo estão genuinamente preocupados com monopólios e a centralização de poder no setor de tecnologia, e querem ouvir diretamente de indivíduos que são afetados e preocupados. Ao contatar os reguladores diretamente, você deve ser _educado_ e _específico_ sobre o dano que acredita que essas políticas causarão, tanto aos consumidores quanto à concorrência."
-  zh-CN: "全球各地的监管机构对科技领域的垄断和权力集中深表关切，并希望直接倾听受到影响和关注此事的个人的声音。在直接联系监管机构时，您应该保持_礼貌_，并_具体_说明您认为这些政策将对消费者和竞争造成的危害。"
-  zh-TW: "全球各地的監管機構對科技領域的壟斷和權力集中深表關切，並希望直接傾聽受到影響和關注此事的個人的聲音。在直接聯絡監管機構時，您應該保持_禮貌_，並_具體_說明您認為這些政策將對消費者和競爭造成的危害。"
+  zh-CN: "全球各地的监管机构对科技领域的垄断和权力集中深表关切，并希望直接倾听受到影响和关注此事的个人的声音。在直接联系监管机构时，您应该保持 _礼貌_ ，并 _具体_ 说明您认为这些政策将对消费者和竞争造成的危害。"
+  zh-TW: "全球各地的監管機構對科技領域的壟斷和權力集中深表關切，並希望直接傾聽受到影響和關注此事的個人的聲音。在直接聯絡監管機構時，您應該保持 _禮貌_ ，並 _具體_ 說明您認為這些政策將對消費者和競爭造成的危害。"
   ja: "世界中の規制当局は、テクノロジー業界における独占と権力の集中を真に懸念しており、影響を受け懸念を抱く個人から直接意見を聞きたいと考えています。規制当局に直接連絡する際は、これらの政策が消費者と競争の両方に与えると考えられる害について、_礼儀正しく_、_具体的_ に述べてください。"
+  vi: "Các cơ quan quản lý trên toàn thế giới quan ngại sâu sắc về sự độc quyền và tập trung quyền lực trong lĩnh vực công nghệ, đồng thời muốn lắng nghe ý kiến ​​trực tiếp từ những cá nhân bị ảnh hưởng và có liên quan. Khi liên hệ trực tiếp với cơ quan quản lý, bạn phải _lịch sự_ và giải thích _cụ thể_ về tác hại mà bạn tin rằng những chính sách này sẽ gây ra cho người tiêu dùng và sự cạnh tranh."
 
 follow_up:
   ar: "تكون الشكاوى ذات تأثير بالغ، خاصةً عندما يُقدّمها مواطن من ذلك البلد أو المنطقة، وعندما تكون لغة البريد الإلكتروني إحدى اللغات الرسمية للهيئة الحاكمة في المنطقة. اطلبوا _إشعارًا كتابياً_ باستلام الشكوى، و يرجى إعادة توجيه أي ردود تتلقونها إلى [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) حتى نتمكن من تسليط الضوء عليها و الإشارة إليها."
@@ -72,6 +74,7 @@ follow_up:
   zh-CN: "当投诉是由该国家或地区的公民撰写，并且邮件语言是该地区管理机构的官方语言之一时，投诉的影响力尤为显著。请要求对投诉给予_书面确认_，并考虑将您收到的任何回复转发至 [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) ，以便我们突出显示并作为参考。"
   zh-TW: "當申訴是由該國家或地區的公民撰寫，並且電子郵件語言是該地區管理機構的官方語言之一時，申訴的影響力尤為顯著。請要求對申訴給予_書面確認_，並考慮將您收到的任何回覆轉發至 [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) ，以便我們突出顯示並作為參考。"
   ja: "苦情は、その国や地域の市民によって提出され、かつメールの言語が当該地域の統治機関の公用語のうちの一つで書かれている場合に特に効果的です。苦情の受理確認書を文書で請求し、受け取った回答は [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) に転送することをご検討ください。そうすることで、私達がそれらを強調し参照することが可能となります。"
+  vi: "Tác động của khiếu nại đặc biệt quan trọng khi nó được viết bởi công dân của quốc gia hoặc khu vực đó và ngôn ngữ email là một trong những ngôn ngữ chính thức của cơ quan quản lý khu vực. Vui lòng yêu cầu văn bản xác nhận đơn khiếu nại và cân nhắc chuyển tiếp mọi phản hồi bạn nhận được tới [victory@keepandroidopen.org](mailto:victory@keepandroidopen.org) để chúng tôi có thể đánh dấu và tham khảo chúng."
 
 countries:
   - id: united-states
@@ -96,6 +99,7 @@ countries:
       zh-CN: "美国"
       zh-TW: "美國"
       ja: "アメリカ合衆国"
+      vi: "Hoa Kỳ"
     items:
       - text:
           ar: "قدّم تقريراً إلى [قسم مكافحة الاحتكار التابع لوزارة العدل الأمريكية عبر الإنترنت](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
@@ -117,6 +121,7 @@ countries:
           pt-BR: "Faça um relato para o [US Department of Justice Antitrust Report Online](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
           zh-CN: "向[美国司法部在线反垄断报告](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)报告"
           zh-TW: "向[美國司法部線上反壟斷報告](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)報告"
+          vi: "Báo cáo cho [Báo cáo chống độc quyền trực tuyến của Bộ Tư pháp Hoa Kỳ](https://www.justice.gov/atr/webform/submit-your-antitrust-report-online)"
       - text:
           ar: "قدّم شكوى إلى [لجنة التجارة الفيدرالية الأمريكية: شكاوى مكافحة الاحتكار](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
           en: "File a complaint with the [US Federal Trade Commission: Antitrust Complaints](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
@@ -137,37 +142,44 @@ countries:
           pt-BR: "Faça uma reclamação junto à [US Federal Trade Commission: Antitrust Complaints](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
           zh-CN: "向[美国联邦贸易委员会：反垄断投诉](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)提出投诉"
           zh-TW: "向[美國聯邦貿易委員會：反壟斷申訴](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)提出申訴"
+          vi: "Gửi khiếu nại lên [Ủy ban Thương mại Liên bang Hoa Kỳ: Khiếu nại chống độc quyền](https://www.ftc.gov/advice-guidance/competition-guidance/antitrust-complaint-intake)"
       - text:
           en: "[Find your House Representative](https://www.house.gov/representatives/find-your-representative)"
           da: "[Find din repræsentant i Repræsentanternes Hus](https://www.house.gov/representatives/find-your-representative)"
           tr: "[Temsilcinizi bulun](https://www.house.gov/representatives/find-your-representative)"
           zh-CN: "[寻找您的众议员](https://www.house.gov/representatives/find-your-representative)"
           zh-TW: "[尋找您的眾議員](https://www.house.gov/representatives/find-your-representative)"
+          vi: "[Tìm người đại diện của bạn](https://www.house.gov/representatives/find-your-representative)"
     children:
       - id: us-al
         name:
           en: "Alabama"
           fr: "Alabama"
           da: "Alabama"
+          pt-BR: "Alabama"
           zh-CN: "阿拉巴马州"
           zh-TW: "阿拉巴馬州"
+          vi: "Alabama"
         items:
           - text:
               en: "File a complaint with the [Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
               fr: "Déposez une plainte auprès de l'[Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
               da: "Indsend en klage til [Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
+              pt-BR: "Faça uma reclamação junto à [Alabama Attorney General Consumer Protection](https://www.alabamaag.gov/consumer-complaint/)"
               zh-CN: "向[阿拉巴马州 总检察长消费者保护局](https://www.alabamaag.gov/consumer-complaint/)提出投诉"
               zh-TW: "向[阿拉巴馬州 總檢察長消費者保護局](https://www.alabamaag.gov/consumer-complaint/)提出申訴"
           - text:
               en: "Contact Senator [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
               fr: "Contactez le sénateur [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
               da: "Kontakt senator [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
+              pt-BR: "Entre em contato com o senador [Tommy Tuberville](https://www.tuberville.senate.gov/contact)"
               zh-CN: "联系参议员 [汤米·特伯维尔](https://www.tuberville.senate.gov/contact)"
               zh-TW: "聯絡參議員 [湯米·塔伯維爾](https://www.tuberville.senate.gov/contact)"
           - text:
               en: "Contact Senator [Katie Britt](https://www.britt.senate.gov/contact)"
               fr: "Contactez la sénatrice [Katie Britt](https://www.britt.senate.gov/contact)"
               da: "Kontakt senator [Katie Britt](https://www.britt.senate.gov/contact)"
+              pt-BR: "Entre em contato com a senadora [Katie Britt](https://www.britt.senate.gov/contact)"
               zh-CN: "联系参议员 [凯蒂·布里特](https://www.britt.senate.gov/contact)"
               zh-TW: "聯絡參議員 [凱蒂·布里特](https://www.britt.senate.gov/contact)"
       - id: us-ak
@@ -175,6 +187,7 @@ countries:
           en: "Alaska"
           fr: "Alaska"
           da: "Alaska"
+          pt-BR: "Alasca"
           zh-CN: "阿拉斯加州"
           zh-TW: "阿拉斯加州"
         items:
@@ -201,6 +214,7 @@ countries:
           en: "Arizona"
           fr: "Arizona"
           da: "Arizona"
+          pt-BR: "Arizona"
           zh-CN: "亚利桑那州"
           zh-TW: "亞利桑那州"
         items:
@@ -227,6 +241,7 @@ countries:
           en: "Arkansas"
           fr: "Arkansas"
           da: "Arkansas"
+          pt-BR: "Arkansas"
           zh-CN: "阿肯色州"
           zh-TW: "阿肯色州"
         items:
@@ -253,6 +268,7 @@ countries:
           en: "California"
           fr: "Californie"
           da: "Californien"
+          pt-BR: "Califórnia"
           zh-CN: "加利福尼亚州"
           zh-TW: "加利福尼亞州"
         items:
@@ -279,6 +295,7 @@ countries:
           en: "Colorado"
           fr: "Colorado"
           da: "Colorado"
+          pt-BR: "Colorado"
           zh-CN: "科罗拉多州"
           zh-TW: "科羅拉多州"
         items:
@@ -305,6 +322,7 @@ countries:
           en: "Connecticut"
           fr: "Connecticut"
           da: "Connecticut"
+          pt-BR: "Connecticut"
           zh-CN: "康涅狄格州"
           zh-TW: "康乃狄克州"
         items:
@@ -331,6 +349,7 @@ countries:
           en: "Delaware"
           fr: "Delaware"
           da: "Delaware"
+          pt-BR: "Delaware"
           zh-CN: "特拉华州"
           zh-TW: "德拉瓦州"
         items:
@@ -357,6 +376,7 @@ countries:
           en: "Florida"
           fr: "Floride"
           da: "Florida"
+          pt-BR: "Flórida"
           zh-CN: "佛罗里达州"
           zh-TW: "佛羅里達州"
         items:
@@ -383,6 +403,7 @@ countries:
           en: "Georgia"
           fr: "Géorgie"
           da: "Georgia"
+          pt-BR: "Geórgia"
           zh-CN: "佐治亚州"
           zh-TW: "喬治亞州"
         items:
@@ -409,6 +430,7 @@ countries:
           en: "Hawaii"
           fr: "Hawaï"
           da: "Hawaii"
+          pt-BR: "Havaí"
           zh-CN: "夏威夷州"
           zh-TW: "夏威夷州"
         items:
@@ -435,6 +457,7 @@ countries:
           en: "Idaho"
           fr: "Idaho"
           da: "Idaho"
+          pt-BR: "Idaho"
           zh-CN: "爱达荷州"
           zh-TW: "愛達荷州"
         items:
@@ -461,6 +484,7 @@ countries:
           en: "Illinois"
           fr: "Illinois"
           da: "Illinois"
+          pt-BR: "Illinois"
           zh-CN: "伊利诺伊州"
           zh-TW: "伊利諾州"
         items:
@@ -487,6 +511,7 @@ countries:
           en: "Indiana"
           fr: "Indiana"
           da: "Indiana"
+          pt-BR: "Indiana"
           zh-CN: "印第安纳州"
           zh-TW: "印第安納州"
         items:
@@ -513,6 +538,7 @@ countries:
           en: "Iowa"
           fr: "Iowa"
           da: "Iowa"
+          pt-BR: "Iowa"
           zh-CN: "爱荷华州"
           zh-TW: "愛荷華州"
         items:
@@ -539,6 +565,7 @@ countries:
           en: "Kansas"
           fr: "Kansas"
           da: "Kansas"
+          pt-BR: "Kansas"
           zh-CN: "堪萨斯州"
           zh-TW: "堪薩斯州"
         items:
@@ -565,6 +592,7 @@ countries:
           en: "Kentucky"
           fr: "Kentucky"
           da: "Kentucky"
+          pt-BR: "Kentucky"
           zh-CN: "肯塔基州"
           zh-TW: "肯塔基州"
         items:
@@ -591,6 +619,7 @@ countries:
           en: "Louisiana"
           fr: "Louisiane"
           da: "Louisiana"
+          pt-BR: "Louisiana"
           zh-CN: "路易斯安那州"
           zh-TW: "路易斯安那州"
         items:
@@ -617,6 +646,7 @@ countries:
           en: "Maine"
           fr: "Maine"
           da: "Maine"
+          pt-BR: "Maine"
           zh-CN: "缅因州"
           zh-TW: "緬因州"
         items:
@@ -643,6 +673,7 @@ countries:
           en: "Maryland"
           fr: "Maryland"
           da: "Maryland"
+          pt-BR: "Maryland"
           zh-CN: "马里兰州"
           zh-TW: "馬里蘭州"
         items:
@@ -669,6 +700,7 @@ countries:
           en: "Massachusetts"
           fr: "Massachusetts"
           da: "Massachusetts"
+          pt-BR: "Massachusetts"
           zh-CN: "马萨诸塞州"
           zh-TW: "麻薩諸塞州"
         items:
@@ -695,6 +727,7 @@ countries:
           en: "Michigan"
           fr: "Michigan"
           da: "Michigan"
+          pt_BR: "Michigan"
           zh-CN: "密歇根州"
           zh-TW: "密西根州"
         items:
@@ -721,6 +754,7 @@ countries:
           en: "Minnesota"
           fr: "Minnesota"
           da: "Minnesota"
+          pt-BR: "Minnesota"
           zh-CN: "明尼苏达州"
           zh-TW: "明尼蘇達州"
         items:
@@ -747,6 +781,7 @@ countries:
           en: "Mississippi"
           fr: "Mississippi"
           da: "Mississippi"
+          pt-BR: "Mississippi"
           zh-CN: "密西西比州"
           zh-TW: "密西西比州"
         items:
@@ -773,6 +808,7 @@ countries:
           en: "Missouri"
           fr: "Missouri"
           da: "Missouri"
+          pt-BR: "Missouri"
           zh-CN: "密苏里州"
           zh-TW: "密蘇里州"
         items:
@@ -799,6 +835,7 @@ countries:
           en: "Montana"
           fr: "Montana"
           da: "Montana"
+          pt-BR: "Montana"
           zh-CN: "蒙大拿州"
           zh-TW: "蒙大拿州"
         items:
@@ -825,6 +862,7 @@ countries:
           en: "Nebraska"
           fr: "Nebraska"
           da: "Nebraska"
+          pt-BR: "Nebraska"
           zh-CN: "内布拉斯加州"
           zh-TW: "內布拉斯加州"
         items:
@@ -851,6 +889,7 @@ countries:
           en: "Nevada"
           fr: "Nevada"
           da: "Nevada"
+          pt-BR: "Nevada"
           zh-CN: "内华达州"
           zh-TW: "內華達州"
         items:
@@ -877,6 +916,7 @@ countries:
           en: "New Hampshire"
           fr: "New Hampshire"
           da: "New Hampshire"
+          pt-BR: "New Hampshire"
           zh-CN: "新罕布什尔州"
           zh-TW: "新罕布夏州"
         items:
@@ -903,6 +943,7 @@ countries:
           en: "New Jersey"
           fr: "New Jersey"
           da: "New Jersey"
+          pt-BR: "Nova Jersey"
           zh-CN: "新泽西州"
           zh-TW: "紐澤西州"
         items:
@@ -929,6 +970,7 @@ countries:
           en: "New Mexico"
           fr: "Nouveau-Mexique"
           da: "New Mexico"
+          pt-BR: "Novo México"
           zh-CN: "新墨西哥州"
           zh-TW: "新墨西哥州"
         items:
@@ -955,6 +997,7 @@ countries:
           en: "New York"
           fr: "New York"
           da: "New York"
+          pt-BR: "Nova York"
           zh-CN: "纽约州"
           zh-TW: "紐約州"
         items:
@@ -981,6 +1024,7 @@ countries:
           en: "North Carolina"
           fr: "Caroline du Nord"
           da: "North Carolina"
+          pt-BR: "Carolina do Norte"
           zh-CN: "北卡罗来纳州"
           zh-TW: "北卡羅萊納州"
         items:
@@ -1007,6 +1051,7 @@ countries:
           en: "North Dakota"
           fr: "Dakota du Nord"
           da: "North Dakota"
+          pt-BR: "Dakota do Norte"
           zh-CN: "北达科他州"
           zh-TW: "北達科他州"
         items:
@@ -1033,6 +1078,7 @@ countries:
           en: "Ohio"
           fr: "Ohio"
           da: "Ohio"
+          pt-BR: "Ohio"
           zh-CN: "俄亥俄州"
           zh-TW: "俄亥俄州"
         items:
@@ -1059,6 +1105,7 @@ countries:
           en: "Oklahoma"
           fr: "Oklahoma"
           da: "Oklahoma"
+          pt-BR: "Oklahoma"
           zh-CN: "俄克拉何马州"
           zh-TW: "奧克拉荷馬州"
         items:
@@ -1085,6 +1132,7 @@ countries:
           en: "Oregon"
           fr: "Oregon"
           da: "Oregon"
+          pt-BR: "Oregon"
           zh-CN: "俄勒冈州"
           zh-TW: "俄勒岡州"
         items:
@@ -1111,6 +1159,7 @@ countries:
           en: "Pennsylvania"
           fr: "Pennsylvanie"
           da: "Pennsylvania"
+          pt-BR: "Pensilvânia"
           zh-CN: "宾夕法尼亚州"
           zh-TW: "賓夕法尼亞州"
         items:
@@ -1137,6 +1186,7 @@ countries:
           en: "Rhode Island"
           fr: "Rhode Island"
           da: "Rhode Island"
+          pt-BR: "Rhode Island"
           zh-CN: "罗得岛州"
           zh-TW: "羅德島州"
         items:
@@ -1163,6 +1213,7 @@ countries:
           en: "South Carolina"
           fr: "Caroline du Sud"
           da: "South Carolina"
+          pt-BR: "Carolina do Sul"
           zh-CN: "南卡罗来纳州"
           zh-TW: "南卡羅萊納州"
         items:
@@ -1189,6 +1240,7 @@ countries:
           en: "South Dakota"
           fr: "Dakota du Sud"
           da: "South Dakota"
+          pt-BR: "Dakota do Sul"
           zh-CN: "南达科他州"
           zh-TW: "南達科他州"
         items:
@@ -1215,6 +1267,7 @@ countries:
           en: "Tennessee"
           fr: "Tennessee"
           da: "Tennessee"
+          pt-BR: "Tennessee"
           zh-CN: "田纳西州"
           zh-TW: "田納西州"
         items:
@@ -1241,6 +1294,7 @@ countries:
           en: "Texas"
           fr: "Texas"
           da: "Texas"
+          pt-BR: "Texas"
           zh-CN: "得克萨斯州"
           zh-TW: "德克薩斯州"
         items:
@@ -1267,6 +1321,7 @@ countries:
           en: "Utah"
           fr: "Utah"
           da: "Utah"
+          pt-BR: "Utah"
           zh-CN: "犹他州"
           zh-TW: "猶他州"
         items:
@@ -1293,6 +1348,7 @@ countries:
           en: "Vermont"
           fr: "Vermont"
           da: "Vermont"
+          pt-BR: "Vermont"
           zh-CN: "佛蒙特州"
           zh-TW: "佛蒙特州"
         items:
@@ -1319,6 +1375,7 @@ countries:
           en: "Virginia"
           fr: "Virginie"
           da: "Virginia"
+          pt-BR: "Virgínia"
           zh-CN: "弗吉尼亚州"
           zh-TW: "維吉尼亞州"
         items:
@@ -1345,6 +1402,7 @@ countries:
           en: "Washington"
           fr: "Washington"
           da: "Washington"
+          pt-BR: "Washington"
           zh-CN: "华盛顿州"
           zh-TW: "華盛頓州"
         items:
@@ -1371,6 +1429,7 @@ countries:
           en: "West Virginia"
           fr: "Virginie-Occidentale"
           da: "West Virginia"
+          pt-BR: "Virgínia Ocidental"
           zh-CN: "西弗吉尼亚州"
           zh-TW: "西維吉尼亞州"
         items:
@@ -1397,6 +1456,7 @@ countries:
           en: "Wisconsin"
           fr: "Wisconsin"
           da: "Wisconsin"
+          pt-BR: "Wisconsin"
           zh-CN: "威斯康星州"
           zh-TW: "威斯康辛州"
         items:
@@ -1423,6 +1483,7 @@ countries:
           en: "Wyoming"
           fr: "Wyoming"
           da: "Wyoming"
+          pt-BR: "Wyoming"
           zh-CN: "怀俄明州"
           zh-TW: "懷俄明州"
         items:
@@ -1487,6 +1548,7 @@ countries:
           tr: "Dijital Piyasalar Yasası ekibine e-posta atın: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           uk: "Електронна пошта до команди Акту про цифрові ринки (DMA): [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           pl: "E-mail do zespołu Digital Markets Act: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
+          pt-BR: "Envie um email para o Digital Markets Act team: [EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           zh-CN: "给数字市场法案团队发送电子邮件：[EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
           zh-TW: "傳送電子郵件給數位市場法案團隊：[EC-DMA@ec.europa.eu](mailto:EC-DMA@ec.europa.eu?cc=dma@keepandroidopen.org)"
       - text:
@@ -1507,7 +1569,7 @@ countries:
           tr: "DMA ekibiyle iletişime geçin: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           uk: "Зв'язатися з командою DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           pl: "Kontakt z zespołem DMA: [https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
-          pt-BR: "Contact DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_pt](https://digital-markets-act.ec.europa.eu/contact-dma-team_pt)"
+          pt-BR: "Entre em contato com o DMA team: [https://digital-markets-act.ec.europa.eu/contact-dma-team_pt](https://digital-markets-act.ec.europa.eu/contact-dma-team_pt)"
           zh-CN: "联系 DMA 团队：[https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
           zh-TW: "聯絡 DMA 團隊：[https://digital-markets-act.ec.europa.eu/contact-dma-team_en](https://digital-markets-act.ec.europa.eu/contact-dma-team_en)"
       - text:
@@ -1516,6 +1578,7 @@ countries:
           de: "Kontaktieren Sie Ihre Mitglieder des Europäischen Parlaments: [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
           fr: "Contactez directement vos députés européen : [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
           tr: "Avrupa Parlamentosu Milletvekilinizle doğrudan iletişime geçin: [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
+          pt-BR: "Entre em contato direto com um membro do Parlamento Europeu: [https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
           zh-CN: "直接联系您的欧洲议会议员：[https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
           zh-TW: "直接聯絡您的歐洲議會議員：[https://zeyus.com/contact-mep-representative](https://zeyus.com/contact-mep-representative)"
       - text:
@@ -1536,6 +1599,7 @@ countries:
           id: "Pos-el Anti-Monopoli: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           uk: "Електронна пошта антимонопольного комітету: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           pl: "E-mail dot. antymonopolu: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
+          pt-BR: "Envie um email para a Direção Antitruste: [COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           zh-CN: "给反垄断部门发送电子邮件：[COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
           zh-TW: "傳送電子郵件給反壟斷部門：[COMP-GREFFE-ANTITRUST@ec.europa.eu](mailto:COMP-GREFFE-ANTITRUST@ec.europa.eu?cc=europe@keepandroidopen.org)"
       - text:
@@ -1556,7 +1620,7 @@ countries:
           tr: "Şu kuruma şikayette bulunun: [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
           uk: "Поскаржитися до [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
           pl: "Złóż skargę do [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
-          pt-BR: "Reclame para a [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
+          pt-BR: "Envie uma reclamação para a [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
           zh-CN: "向 [欧盟竞争政策局](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) 提出投诉"
           zh-TW: "向 [歐盟競爭政策局](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) 提出申訴"
     children:
@@ -1564,13 +1628,16 @@ countries:
         name:
           en: "Denmark"
           da: "Danmark"
+          zh-CN: "丹麦"
         items:
           - text:
               en: "Contact the Danish [Consumer Ombudsman](https://forbrugerombudsmanden.dk/consumer-ombudsman)"
               da: "Kontakt [Forbrugerombudsmanden](https://forbrugerombudsmanden.dk/)"
+              zh-CN: "联系丹麦[消费者申诉专员](https://forbrugerombudsmanden.dk/consumer-ombudsman)"
           - text:
               en: "Contact the Danish Competition and Consumer Authority's [Tech Division](https://en.kfst.dk/competition/contact-a-competition-division/tech)"
               da: "Kontakt Konkurrence- og Forbrugerstyrelsens [Center for Tech](https://kfst.dk/konkurrenceforhold/kontakt-et-konkurrencecenter/center-for-tech-tech)"
+              zh-CN: "联系丹麦竞争与消费者管理局的[技术部门](https://en.kfst.dk/competition/contact-a-competition-division/tech)"
       - id: czech-republic
         name:
           ar: "الجمهورية التشيكية"
@@ -1670,11 +1737,14 @@ countries:
       - id: lithuania
         name:
           en: "Lithuania"
+          zh-CN: "立陶宛"
         items:
           - text:
               en: "Email: [tarnyba@vvtat.lt](mailto:tarnyba@vvtat.lt?cc=lithuania@keepandroidopen.org) [taryba@kt.gov.lt](mailto:taryba@kt.gov.lt?cc=lithuania@keepandroidopen.org)"
+              zh-CN: "电子邮件：[tarnyba@vvtat.lt](mailto:tarnyba@vvtat.lt?cc=lithuania@keepandroidopen.org) [taryba@kt.gov.lt](mailto:taryba@kt.gov.lt?cc=lithuania@keepandroidopen.org)"
           - text:
               en: "Contact the [State Consumer Rights Protection Authority (SCRPA) (Valstybinė vartotojų teisių apsaugos tarnyba)](https://vvtat.lrv.lt/lt/) [Complaint portal](https://vtis.lt/) [The Competition Council of the Republic of Lithuania (KT) (Lietuvos Respublikos konkurencijos taryba)](https://kt.gov.lt/) [Complaint portal](https://kt.gov.lt/lt/formos/pranesimas-apie-karteli/)"
+              zh-CN: "联系[国家消费者权益保护局 (SCRPA) (Valstybinė vartotojų teisių apsaugos tarnyba)](https://vvtat.lrv.lt/lt/) [投诉入口](https://vtis.lt/) [立陶宛共和国竞争委员会 (KT) (Lietuvos Respublikos konkurencijos taryba)](https://kt.gov.lt/) [投诉入口](https://kt.gov.lt/lt/formos/pranesimas-apie-karteli/)"
       - id: slovakia
         name:
           ar: "سلوفاكيا"
@@ -1710,13 +1780,16 @@ countries:
         name:
           en: "Hungary"
           hu: "Magyarország"
+          zh-CN: "匈牙利"
         items:
           - text:
               en: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
               hu: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+              zh-CN: "电子邮件：[ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
           - text:
               en: "Contact the [Hungarian Competition Authority (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
               hu: "Vedd fel a kapcsolatot a [Gazdasági Versenyhivatallal](https://www.gvh.hu/gvh/2361_hu_elerhetosegek_kapcsolatok)"
+              zh-CN: "联系[匈牙利竞争管理局 (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
   - id: united-kingdom
     name:
       fa: "بریتانیای کبیر"
@@ -2178,7 +2251,7 @@ countries:
       tr: "İsviçre"
       uk: "Швейцарія"
       pl: "Szwajcaria"
-      pt-BR: "Switzerland"
+      pt-BR: "Suíça"
       zh-CN: "瑞士"
       zh-TW: "瑞士"
       ja: "スイス"
@@ -2303,6 +2376,33 @@ countries:
           pt-BR: "Entre em contato com seu deputado local ou senador estadual. Se você não souber seu eleitorado, pode encontrá-lo [aqui](https://electorate.aec.gov.au/) e pode buscar seus parlamentares ou senadores [aqui](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results)."
           zh-CN: "联系您当地的国会议员或州参议员。如果您不知道您的选区，可以在[这里](https://electorate.aec.gov.au/)找到；您可以在[这里](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results)搜索您的国会议员或参议员。"
           zh-TW: "聯絡您當地的國會議員或州參議員。如果您不知道您的選區，可以在[這裡](https://electorate.aec.gov.au/)找到；您可以在[這裡](https://www.aph.gov.au/Senators_and_Members/Parliamentarian_Search_Results)搜尋您的國會議員或參議員。"
+  - id: new-zealand
+    name:
+      en: "Aotearoa / New Zealand"
+      pt-BR: "Aotearoa / Nova Zelândia"
+      zh-CN: "奥特亚罗瓦/新西兰"
+    items:
+      - text:
+          en: "Email: [contact@comcom.govt.nz](mailto:contact@comcom.govt.nz?cc=nz@keepandroidopen.org)"
+          zh-CN: "电子邮件：[contact@comcom.govt.nz](mailto:contact@comcom.govt.nz?cc=nz@keepandroidopen.org)"
+      - text:
+          en: "Phone: [0800 943 600](tel:08009436000)"
+          zh-CN: "电话：[0800 943 600](tel:08009436000)"
+      - text:
+          en: "Report anti-competitive conduct to the [Commerce Commission](https://www.comcom.govt.nz/report-a-concern/)"
+          zh-CN: "向 [商务委员会](https://www.comcom.govt.nz/report-a-concern/) 举报反竞争行为"
+      - text:
+          en: "Contact the Minister of Commerce and Consumer Affairs, Hon Scott Simpson: [scott.simpson@parliament.govt.nz](mailto:scott.simpson@parliament.govt.nz)"
+          zh-CN: "联系商务与消费者事务部部长，斯科特·辛普森阁下：[scott.simpson@parliament.govt.nz](mailto:scott.simpson@parliament.govt.nz)"
+      - text:
+          en: "Contact your local Member of Parliament. If you don't know your electorate, find it at [vote.nz](https://www.vote.nz)"
+          zh-CN: "联系您当地的议员。如果您不知道您的选区，可在[vote.nz](https://www.vote.nz)查找"
+      - text:
+          en: "Contact [InternetNZ](https://internetnz.nz) — the non-profit advocate for an open internet in Aotearoa: [office@internetnz.net.nz](mailto:office@internetnz.net.nz)"
+          zh-CN: "联系[InternetNZ](https://internetnz.nz) — 新西兰开放互联网的非盈利倡导者：[office@internetnz.net.nz](mailto:office@internetnz.net.nz)"
+      - text:
+          en: "Contact [Consumer NZ](https://www.consumer.org.nz/about/contact-us) — Aotearoa's independent consumer advocacy organisation. Ask them to lodge a formal complaint to the Commerce Commission on behalf of consumers."
+          zh-CN: "联系[Consumer NZ](https://www.consumer.org.nz/about/contact-us) — 新西兰独立的消费者权益组织。要求他们代表消费者向商务委员会提出正式投诉。"
   - id: japan
     name:
       fa: "ژاپن"
@@ -2503,6 +2603,7 @@ countries:
     name:
       en: "Italy"
       it: "Italia"
+      pt-BR: "Itália"
       zh-CN: "意大利"
       zh-TW: "義大利"
     items:
@@ -2561,7 +2662,7 @@ countries:
           zh-TW: "電子郵件：[info@competitionbureau.gc.ca](mailto:info@competitionbureau.gc.ca?cc=canada@keepandroidopen.org)"
       - text:
           ar: "قدّم شكوى إلى [مكتب المنافسة الكندي](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          en: "Make a complaint to [Competition Bureau Canada](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
+          en: "Make a complaint to the [Competition Bureau Canada](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
           da: "Indsend en klage til [Competition Bureau Canada](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
           ru: "Подайте жалобу в [Competition Bureau Canada](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
           de: "Reichen Sie eine Beschwerde beim [Wettbewerbsbüro Kanadas](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form) ein."
@@ -2579,26 +2680,6 @@ countries:
           pt-BR: "Faça uma reclamação na [Competition Bureau Canada](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
           zh-CN: "向[加拿大竞争局](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)提出投诉"
           zh-TW: "向[加拿大競爭局](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)提出申訴"
-      - text:
-          ar: "قدّم بلاغاً إلى [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          en: "File a report with the [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          da: "Indsend en indberetning til [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          ru: "Подайте обращение через [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          de: "Reichen Sie einen Bericht über dasselbe [Online-Formular](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form) ein."
-          fr: "Déposer un rapport auprès du [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          es: "Presentar un informe ante la [Oficina de Protección al Consumidor de Ontario (https://competition-bureau.canada.ca/en)](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          it: "Presenta una segnalazione [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          cs: "Podejte oznámení na [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          sk: "Podajte správu na [Kanadský úrad pre spravodlivý obchod (https://competition-bureau.canada.ca/en)](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          el: "Κάνετε μια αναφορά στο [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          th: "ยื่นรายงานต่อ [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          id: "Ajukan laporan ke [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          tr: "Bu kuruma bir rapor iletin: [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          uk: "Подати звіт за посиланням [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          pl: "Zgłoś sprawę przez [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          pt-BR: "Registre uma denúncia com [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form)"
-          zh-CN: "向 [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form) 提交报告"
-          zh-TW: "向 [https://competition-bureau.canada.ca/en](https://competition-bureau.canada.ca/en/contact-competition-bureau-canada/complaint-form) 提交報告"
   - id: taiwan
     name:
       fa: "تایوان"
@@ -2661,6 +2742,20 @@ countries:
           pt-BR: "Entre em contato com a [Fair Trade Commission (FTC)](https://www.ftc.gov.tw/)"
           zh-CN: "联系[公平交易委员会 (FTC)](https://www.ftc.gov.tw/)"
           zh-TW: "聯絡[公平交易委員會 (FTC)](https://www.ftc.gov.tw/)"
+  - id: hongkongsar
+    name:
+      en: "Hong Kong SAR"
+      zh-CN: "香港"
+      zh-TW: "香港"
+    items:
+      - text:
+          en: "Email: [complaints@compcomm.hk](mailto:complaints@compcomm.hk?cc=hongkong@keepandroidopen.org)"
+          zh-CN: "电子邮件：[complaints@compcomm.hk](mailto:complaints@compcomm.hk?cc=hongkong@keepandroidopen.org)"
+          zh-TW: "電子郵件：[complaints@compcomm.hk](mailto:complaints@compcomm.hk?cc=hongkong@keepandroidopen.org)"
+      - text:
+          en: "Contact the [Competition Commission](https://www.compcomm.hk/en/applications/make_a_complaint/complaint.html)"
+          zh-CN: "联系[竞争事务委员会](https://www.compcomm.hk/sc/applications/make_a_complaint/complaint.html)"
+          zh-TW: "聯絡[競爭事務委員會](https://www.compcomm.hk/tc/applications/make_a_complaint/complaint.html)"
   - id: turkey
     name:
       fa: "ترکیه"
@@ -2890,6 +2985,7 @@ countries:
       th: "โปแลนด์"
       id: "Polandia"
       pl: "Polska"
+      pt-BR: "Polônia"
       zh-TW: "波蘭"
       ja: "ポーランド"
       zh-CN: "波兰"
@@ -2935,6 +3031,7 @@ countries:
       tr: "Çek Cumhuriyeti"
       uk: "Чеська Республіка"
       pl: "Czechy"
+      pt-BR: "República Tcheca"
       zh-CN: "捷克共和国"
       zh-TW: "捷克共和國"
       ja: "チェコ"
@@ -2990,7 +3087,7 @@ countries:
       tr: "Ukranya"
       uk: "Україна"
       pl: "Ukraina"
-      pt-BR: "Ukraine"
+      pt-BR: "Ucrânia"
       zh-CN: "乌克兰"
       zh-TW: "烏克蘭"
       ja: "ウクライナ"
@@ -3052,6 +3149,7 @@ countries:
       ja: "スロバキア"
       el: "Σλοβακία"
       tr: "Slovakya"
+      pt-BR: "Eslováquia"
       zh-CN: "斯洛伐克"
     locales:
       - sk
@@ -3080,6 +3178,7 @@ countries:
       ar: "جمهورية الصين"
       en: "Chinese Mainland"
       da: "Det kinesiske fastland"
+      pt-BR: "China Continental"
       zh-CN: "中国大陆"
       zh-TW: "中國大陸"
       ja: "中国本土"
@@ -3118,6 +3217,7 @@ countries:
       fr: "Arabie Saoudite"
       el: "Σαουδική Αραβία"
       tr: "Suudi Arabistan"
+      pt-BR: "Arábia Saudita"
       zh-CN: "沙特阿拉伯"
       zh-TW: "沙烏地阿拉伯"
     items:
@@ -3143,21 +3243,43 @@ countries:
     name:
         ar: "جمهورية مصر العربية"
         en: "Egypt"
+        pt-BR: "Egito"
+        zh-CN: "埃及"
+        zh-TW: "埃及"
     items:
     - text:
         ar: "تواصل مع [جهاز حماية المنافسة](https://eca.org.eg/ar-eg)"
         en: "Contact the [Egyptian Competition Authority](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
+        zh-CN: "联系 [埃及竞争管理局（Egyptian Competition Authority）](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
     - text:
         ar: "[info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org) :البريد الإلكتروني"
         en: "Email: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
+        zh-CN: "电子邮件: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
   - id: hungary
     name:
       en: "Hungary"
       hu: "Magyarország"
+      pt-BR: "Hungria"
+      zh-CN: "匈牙利"
+      zh-TW: "匈牙利"
     items:
       - text:
           en: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
           hu: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+          zh-CN: "电子邮件: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
       - text:
           en: "Contact the [Hungarian Competition Authority (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
           hu: "Vedd fel a kapcsolatot a [Gazdasági Versenyhivatallal](https://www.gvh.hu/gvh/2361_hu_elerhetosegek_kapcsolatok)"
+          zh-CN: "联系[匈牙利竞争管理局 (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
+  - id: colombia
+    name:
+      en: "Colombia"
+      es: "Colombia"
+      pt-BR: "Colômbia"
+      zh-CN: "哥伦比亚"
+    items:
+      - text:
+          en: Make a report to the [Superintendence of Industry and Commerce](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
+          es: Presentar una denuncia ante la [Superintendencia de Industria y Comercio](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
+          pt-BR: Faça um relato para a [Superintendência de Indústria e Comércio](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
+          zh-CN: 向[工商业监管局](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)报告

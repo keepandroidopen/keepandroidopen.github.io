@@ -22,7 +22,7 @@ open_letter_cta: "阅读我们反对安卓开发者验证计划的公开信"
 {:.li-list .li-money}
 - 同意Google的条款及其条件
 {:.li-list .li-terms}
-- 提供身份证明
+- 提供政府的身份证明
 {:.li-list .li-id}
 - 上传开发者的私人签名密钥证明
 {:.li-list .li-signing}

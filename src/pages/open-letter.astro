@@ -30,13 +30,13 @@ function logoPath(url: string): string {
 // Build compose/draft URLs for each social platform
 function xDraftUrl(orgName: string, xUrl: string): string {
   const handle = '@' + xUrl.split('/').pop();
-  const text = `Thank you ${handle} for supporting Keep @Android Open @AlteredDeal #KeepAndroidOpen`;
+  const text = `Thank you ${orgName} (${handle}) for supporting Keep @Android Open @AlteredDeal #KeepAndroidOpen`;
   return `https://x.com/intent/tweet?text=${encodeURIComponent(text)}`;
 }
 
 function bskyDraftUrl(orgName: string, bskyUrl: string): string {
   const handle = '@' + bskyUrl.split('/').pop();
-  const text = `Thank you ${handle} for supporting Keep Android Open @keepandroidopen.bsky.social #KeepAndroidOpen`;
+  const text = `Thank you ${orgName} (${handle}) for supporting Keep Android Open @keepandroidopen.bsky.social #KeepAndroidOpen`;
   return `https://bsky.app/intent/compose?text=${encodeURIComponent(text)}`;
 }
 
@@ -44,7 +44,7 @@ function mastodonDraftUrl(orgName: string, mastodonUrl: string): string {
   const url = new URL(mastodonUrl);
   const user = url.pathname.split('/').pop();
   const handle = `${user}@${url.hostname}`;
-  const text = `Thank you ${handle} for supporting Keep Android Open at https://keepandroidopen.org/open-letter/#signatories @keepandroidopen@techhub.social #KeepAndroidOpen`;
+  const text = `Thank you ${orgName} (${handle}) for supporting Keep Android Open at https://keepandroidopen.org/open-letter/#signatories @keepandroidopen@techhub.social #KeepAndroidOpen`;
   return `https://share.joinmastodon.org/?text=${encodeURIComponent(text)}`;
 }
 
