@@ -59,7 +59,7 @@ open_letter_cta: "阅读我们反对安卓开发者验证计划的公开信"
 
 不要建议其他应用程序开发人员还有组织注册该计划。你可以通过论坛、社交媒体和博客文章来传播该信息。可将[FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn)包含在你的代码来通知你的应用用户。
 
-如果你是一名有心的Google正式员工或合同工，并且对该计划有更多了解，包括计划中的技术实施细节或该计划实施的其他缘由，请通过一台 _非工作_ 设备和 _非Gmail_ 帐户与[tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)联系。你的信息将被严格保密。
+如果你是一名有心的Google正式员工或合同工，并且对该计划有更多了解，包括计划中的技术实施细节或该计划实施的其他缘由，请通过一台 _非工作_ 设备和 _非Gmail_ 账户与[tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)联系。你的信息将被严格保密。
 
 ### 所有人: 发出自己的声音！ {#everyone}
 
