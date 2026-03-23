@@ -13,7 +13,7 @@ heading:
   id: "Hubungi Kelompok-Kelompok Hak Konsumen/Digital Ini"
   it: "Contatta questi gruppi per i diritti dei consumatori/digitali"
   ko: "아래 소비자/디지털 권리 기관에 문의해주세요"
-  pl: "Skontaktuj się z tymi organizacjami konsumenckimi / cyfrowych praw"
+  pl: "Skontaktuj się z organizacjami broniącymi praw konsumentów i praw cyfrowych"
   pt-BR: "Entre em contato com estes Grupos de Direitos Digitais/do Consumidor"
   sk: "Kontaktujte tieto spotrebiteľské/digitálne právne skupiny"
   th: "ติดต่อองค์กรสิทธิผู้บริโภค/สิทธิดิจิทัลเหล่านี้"
@@ -52,9 +52,11 @@ items:
   - text:
       en: "Korea Consumer Agency"
       ko: "한국소비자원 (KCA)"
+      pl: "Koreańska Agencja Konsumencka (KCA)"
     url:
       en: "https://www.kca.go.kr/eng/main.do"
       ko: "https://www.kca.go.kr/"
+      pl: "https://www.kca.go.kr/eng/main.do"
   - text: "La Quadrature du Net (France)"
     url: "https://www.laquadrature.net/"
   - text: "Open Rights Group (UK)"
@@ -65,5 +67,6 @@ items:
     url: "https://www.swechaap.org/"
   - text:
       en: "China Consumer Association (Website only to be accessed within the Chinese Mainland)"
+      pl: "Chińskie Stowarzyszenie Konsumentów (strona dostępna wyłącznie z terenu Chin kontynentalnych)"
       zh-CN: "中国消费者协会"
     url: "https://www.cca.org.cn/"
