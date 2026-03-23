@@ -78,9 +78,9 @@ Android प्लेटफ़ॉर्म के लिए ऐप विकस�
 
 और एक और बात — यह पूरा system Android OS का हिस्सा नहीं है, बल्कि Google Play Services के through आता है। मतलब Google चाहे तो बिना कोई OS update दिए और बिना तुमसे पूछे इसे कभी भी बदल सकता है, limit कर सकता है, या हटा सकता है।
 
-अभी तक यह "advanced flow" किसी भी Android beta, dev preview या canary release में नहीं दिखा है। इस पोस्ट की date तक यह सिर्फ एक blog post और कुछ UI mockups के रूप में ही exist करता है। Community से expect किया जा रहा है कि वो एक product announcement को ही असली और working solution मान ले — और यह भी तब, जब lockdown आने में अभी पाँच महीने बाकी हैं।
+अभी तक यह "advanced flow" किसी भी Android beta, dev preview या canary release में नज़र नहीं आया है। इस पोस्ट के लिखे जाने तक यह बस एक blog post और कुछ UI mockups से ज़्यादा कुछ नहीं है। समुदाय से यह उम्मीद की जा रही है कि वो एक घोषणा को ही असली और काम करने वाला हल मान ले — और यह भी तब, जब तालाबंदी आने में अभी पाँच महीने बाकी हैं।
 
-जब तक Google कोई ऐसा actual working implementation नहीं देता जिसे independently verify किया जा सके, फिलहाल हमारे पास सिर्फ यही एक तरीका है: September 2026 में lockdown लागू होते ही बिना registered developers के सभी apps block हो जाएंगे।
+जब तक Google कोई ऐसा असली और काम करने वाला तरीका नहीं दिखाता जिसे खुद जाँचा-परखा जा सके, फिलहाल हमारे पास सिर्फ यही एक रास्ता है: September 2026 में **तालाबंदी** लागू होते ही बिना registered developers के सभी independent apps ब्लॉक हो जाएंगे।
 
 </div>
 
