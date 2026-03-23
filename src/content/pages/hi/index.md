@@ -57,30 +57,21 @@ Android प्लेटफ़ॉर्म के लिए ऐप विकस�
 गूगल ने 19 मार्च, 2026 को, [advanced flow]([https://android-developers.googleblog.com/2026/03/android-developer-verification.html](https://android-developers.googleblog.com/2026/03/android-developer-verification.html)) नामक एक प्रक्रिया के बारे में अपने Android Developers Blog पर प्रकाशित किया जिससे की "power users" तबके के यूज़र्स अपने डिवाइस पर अप्रमाणित डेवेलपर्स द्वारा बनाये गए ऐप्प्स को लॉकडाउन होने के बाद भी इनस्टॉल करने की क्षमता प्रदान करता है। यह प्रक्रिया इस प्रकार है :
 
 1. अपने डिवाइस पर [Developer Mode]([https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/)) चालु करें, यह मोड अपने मोबाइल फ़ोन सेटिंग्स में जाकर _About Phone_ वाले ऑप्शन पर जाएँ तथा build number को **सात बार** टैप करें। (यह ऑप्शन आपको settings में सर्च करने पर भी मिल जाएगा )।
-    
 2. Developer Mode ऑप्शन खोलने के बाद आपको "Allow Unverified Packages" ऑप्शन तक स्क्रॉल करें।
-    
 3. "Allow Unverified Packages" टॉगल को चालु करें अथवा पुष्टि करें की आप किसी दबाव में नहीं है।
-    
 4. अपना डिवाइस अनलॉक पिन/पासवर्ड डालें।
-    
 5. डिवाइस रीस्टार्ट करें।
+6. **24 घंटे इंतज़ार करें।**
+7. सुरक्षा देरी खत्म होने के बाद "unverified packages" मेनू पर वापस जाएं।
+8. अतिरिक्त चेतावनी स्क्रीन को पार करते हुए "Allow temporarily" (सात दिन) या "Allow indefinitely" में से कोई एक ऑप्शन चुनें।
+9. अगली चेतावनी स्क्रीन पर पुष्टि करें कि आप जोखिम समझते हैं।
+10. अब आप package manager में "Install anyway" विकल्प टैप करके बिना वेरिफिकेशन वाले ऐप्स इंस्टॉल कर सकते हैं।
     
-6. सुरक्षा देरी खत्म होने के बाद "unverified packages" मेनू पर वापस जाएं।
-    
-7. अतिरिक्त चेतावनी स्क्रीन को पार करते हुए "Allow temporarily" (सात दिन) या "Allow indefinitely" में से कोई एक ऑप्शन चुनें।
-    
-8. अगली चेतावनी स्क्रीन पर पुष्टि करें कि आप जोखिम समझते हैं।
-    
-9. अब आप package manager में "Install anyway" विकल्प टैप करके बिना वेरिफिकेशन वाले ऐप्स इंस्टॉल कर सकते हैं।
-    
-एक बात यहां पर गौर करने लायक है, पहले एक "third-party/independent" app install करना कितना आसान था — अब सिर्फ एक app के लिए इतनी सारी कलाबाज़ियाँ करनी पड़ रही हैं।
-
-और एक और बात — यह पूरा system Android OS का हिस्सा नहीं है, बल्कि Google Play Services के through आता है। मतलब Google चाहे तो बिना कोई OS update दिए और बिना तुमसे पूछे इसे कभी भी बदल सकता है, limit कर सकता है, या हटा सकता है।
+एक बात यहां पर गौर करने लायक है, पहले एक "third-party/independent" app install करना कितना आसान था — अब सिर्फ एक app के लिए इतनी सारी कलाबाज़ियाँ करनी पड़ रही हैं और एक और बात — यह पूरा system Android OS का हिस्सा नहीं है, बल्कि Google Play Services के through आता है। मतलब Google चाहे तो बिना कोई OS update दिए और बिना तुमसे पूछे इसे कभी भी बदल सकता है, limit कर सकता है, या हटा सकता है।
 
 अभी तक यह "advanced flow" किसी भी Android beta, dev preview या canary release में नज़र नहीं आया है। इस पोस्ट के लिखे जाने तक यह बस एक blog post और कुछ UI mockups से ज़्यादा कुछ नहीं है। समुदाय से यह उम्मीद की जा रही है कि वो एक घोषणा को ही असली और काम करने वाला हल मान ले — और यह भी तब, जब तालाबंदी आने में अभी पाँच महीने बाकी हैं।
 
-जब तक Google कोई ऐसा असली और काम करने वाला तरीका नहीं दिखाता जिसे खुद जाँचा-परखा जा सके, फिलहाल हमारे पास सिर्फ यही एक रास्ता है: September 2026 में **तालाबंदी** लागू होते ही बिना registered developers के सभी independent apps ब्लॉक हो जाएंगे।
+जब तक Google कोई ऐसा असली और काम करने वाला तरीका नहीं दिखाता जिसे खुद जाँचा-परखा जा सके, फिलहाल हमारे पास सिर्फ यही एक रास्ता है: September 2026 में **तालाबंदी** लागू होते ही **बिना registered developers के सभी independent apps ब्लॉक हो जाएंगे**।
 
 </div>
 
