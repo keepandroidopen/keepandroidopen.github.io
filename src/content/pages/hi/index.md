@@ -54,9 +54,9 @@ Android प्लेटफ़ॉर्म के लिए ऐप विकस�
 
 ### अपडेट: Google ने "advanced flow" पेश किया — यह कोई समाधान नहीं है
 
-गूगल ने 19 मार्च, 2026 को, [advanced flow]([https://android-developers.googleblog.com/2026/03/android-developer-verification.html](https://android-developers.googleblog.com/2026/03/android-developer-verification.html)) नामक एक प्रक्रिया के बारे में अपने Android Developers Blog पर प्रकाशित किया जिससे की "power users" तबके के यूज़र्स अपने डिवाइस पर अप्रमाणित डेवेलपर्स द्वारा बनाये गए ऐप्प्स को लॉकडाउन होने के बाद भी इनस्टॉल करने की क्षमता प्रदान करता है। यह प्रक्रिया इस प्रकार है :
+गूगल ने 19 मार्च, 2026 को, [advanced flow](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) नामक एक प्रक्रिया के बारे में अपने Android Developers Blog पर प्रकाशित किया जिससे की "power users" तबके के यूज़र्स अपने डिवाइस पर अप्रमाणित डेवेलपर्स द्वारा बनाये गए ऐप्प्स को लॉकडाउन होने के बाद भी इनस्टॉल करने की क्षमता प्रदान करता है। यह प्रक्रिया इस प्रकार है :
 
-1. अपने डिवाइस पर [Developer Mode]([https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/)) चालु करें, यह मोड अपने मोबाइल फ़ोन सेटिंग्स में जाकर _About Phone_ वाले ऑप्शन पर जाएँ तथा build number को **सात बार** टैप करें। (यह ऑप्शन आपको settings में सर्च करने पर भी मिल जाएगा )।
+1. अपने डिवाइस पर [Developer Mode](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/) चालु करें, यह मोड अपने मोबाइल फ़ोन सेटिंग्स में जाकर _About Phone_ वाले ऑप्शन पर जाएँ तथा build number को **सात बार** टैप करें। (यह ऑप्शन आपको settings में सर्च करने पर भी मिल जाएगा )।
 2. Developer Mode ऑप्शन खोलने के बाद आपको "Allow Unverified Packages" ऑप्शन तक स्क्रॉल करें।
 3. "Allow Unverified Packages" टॉगल को चालु करें अथवा पुष्टि करें की आप किसी दबाव में नहीं है।
 4. अपना डिवाइस अनलॉक पिन/पासवर्ड डालें।
