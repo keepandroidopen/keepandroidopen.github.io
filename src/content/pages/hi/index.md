@@ -58,7 +58,6 @@ Android प्लेटफ़ॉर्म के लिए ऐप विकस�
 
 1. अपने डिवाइस पर [Developer Mode]([https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/)) चालु करें, यह मोड अपने मोबाइल फ़ोन सेटिंग्स में जाकर _About Phone_ वाले ऑप्शन पर जाएँ तथा build number को **सात बार** टैप करें। (यह ऑप्शन आपको settings में सर्च करने पर भी मिल जाएगा )।
     
-
 2. Developer Mode ऑप्शन खोलने के बाद आपको "Allow Unverified Packages" ऑप्शन तक स्क्रॉल करें।
     
 3. "Allow Unverified Packages" टॉगल को चालु करें अथवा पुष्टि करें की आप किसी दबाव में नहीं है।
@@ -75,14 +74,13 @@ Android प्लेटफ़ॉर्म के लिए ऐप विकस�
     
 9. अब आप package manager में "Install anyway" विकल्प टैप करके बिना वेरिफिकेशन वाले ऐप्स इंस्टॉल कर सकते हैं।
     
+एक बात यहां पर गौर करने लायक है, पहले एक "third-party/independent" app install करना कितना आसान था — अब सिर्फ एक app के लिए इतनी सारी कलाबाज़ियाँ करनी पड़ रही हैं।
 
-एक बात यहां पर गौर करने लायक है, पहले की तरह सामान्य प्रक्रिया के बजाय आपको बहुत सारी उछल-कूद करनी पड़ रही है वो भी सिर्फ एक ऐप इंस्टॉल करने के लिए।
+और एक और बात — यह पूरा system Android OS का हिस्सा नहीं है, बल्कि Google Play Services के through आता है। मतलब Google चाहे तो बिना कोई OS update दिए और बिना तुमसे पूछे इसे कभी भी बदल सकता है, limit कर सकता है, या हटा सकता है।
 
-यह पूरी प्रक्रिया Android OS के बजाय Google Play Services के ज़रिए दी जाती है, यानी Google बिना कोई OS अपडेट दिए और बिना यूज़र की सहमति के इसे कभी भी बदल सकता है, सीमित कर सकता है या हटा सकता है।
+अभी तक यह "advanced flow" किसी भी Android beta, dev preview या canary release में नहीं दिखा है। इस पोस्ट की date तक यह सिर्फ एक blog post और कुछ UI mockups के रूप में ही exist करता है। Community से expect किया जा रहा है कि वो एक product announcement को ही असली और working solution मान ले — और यह भी तब, जब lockdown आने में अभी पाँच महीने बाकी हैं।
 
-अब तक यह "advanced flow" किसी भी Android beta, dev preview या canary release में नहीं आया है। इस अपडेट की तारीख तक यह केवल एक ब्लॉग पोस्ट और UI mockups के रूप में मौजूद है। समुदाय से अपेक्षा की जा रही है कि वह एक product announcement को एक कार्यात्मक सुरक्षा उपाय मान ले — और यह भी तब, जब लॉकडाउन लागू होने में अभी पाँच महीने बाकी हैं।
-
-जब तक Google कोई ऐसा shipping implementation नहीं देता जिसे स्वतंत्र रूप से सत्यापित किया जा सके, हमारा रुख वही रहेगा: सितंबर 2026 में लॉकडाउन लागू होते ही बिना रजिस्टर्ड डेवलपर्स के सभी ऐप्स ब्लॉक हो जाएंगे।
+जब तक Google कोई ऐसा actual working implementation नहीं देता जिसे independently verify किया जा सके, फिलहाल हमारे पास सिर्फ यही एक तरीका है: September 2026 में lockdown लागू होते ही बिना registered developers के सभी apps block हो जाएंगे।
 
 </div>
 
@@ -121,4 +119,4 @@ Android प्लेटफ़ॉर्म के लिए ऐप विकस�
 
 एक `<script>` tag के साथ [अपनी साइट पर countdown banner जोड़ें](/banner) — कोई dependencies नहीं, 20 built-in localizations, पूरी तरह customizable
 
-देखिये ऊपर लिखी तीन बिंदुओं को साफ़ समझ आता है के Google की नीतियां आपके निजता एवं उपभोक्ता अधिकार का सरासर उल्लंधन करता है अतः , कृपया सहयोग प्रदान करें। 
+देखिये ऊपर लिखी तीन बिंदुओं को साफ़ समझ आता है के Google की नीतियां आपके निजता एवं उपभोक्ता अधिकार का सरासर उल्लंधन करता है अतः , कृपया सहयोग प्रदान करें।
