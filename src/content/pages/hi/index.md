@@ -52,16 +52,43 @@ Android प्लेटफ़ॉर्म के लिए ऐप विकस�
 
 <div class="callout-warning">
 
-### अपडेट: Google ने डेवलपर सत्यापन से **कदम वापस नहीं लिया** है {#clarification}
+### अपडेट: Google ने "advanced flow" पेश किया — यह कोई समाधान नहीं है
 
-Google ने एक अस्पष्ट [उल्लेख](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) किया है कि शायद भविष्य में एक "advanced flow" आ सकता है जो "अनुभवी उपयोगकर्ताओं को असत्यापित सॉफ़्टवेयर इंस्टॉल करने के जोखिम स्वीकार करने" की अनुमति दे, लेकिन यह सिर्फ़ एक संभावना है, कोई वादा नहीं। इसके विपरीत, Google के [कार्यक्रम के विवरण](https://developer.android.com/developer-verification) में आज भी साफ़ लिखा है कि:
+गूगल ने 19 मार्च, 2026 को, [advanced flow]([https://android-developers.googleblog.com/2026/03/android-developer-verification.html](https://android-developers.googleblog.com/2026/03/android-developer-verification.html)) नामक एक प्रक्रिया के बारे में अपने Android Developers Blog पर प्रकाशित किया जिससे की "power users" तबके के यूज़र्स अपने डिवाइस पर अप्रमाणित डेवेलपर्स द्वारा बनाये गए ऐप्प्स को लॉकडाउन होने के बाद भी इनस्टॉल करने की क्षमता प्रदान करता है। यह प्रक्रिया इस प्रकार है :
 
-> सितंबर 2026 से, Android सभी ऐप्स के लिए यह अनिवार्य कर देगा कि उन्हें केवल सत्यापित डेवलपर्स द्वारा पंजीकृत किया जाए, तभी वे certified Android डिवाइस पर इंस्टॉल हो सकेंगे।
+1. अपने डिवाइस पर [Developer Mode]([https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/)) चालु करें, यह मोड अपने मोबाइल फ़ोन सेटिंग्स में जाकर _About Phone_ वाले ऑप्शन पर जाएँ तथा build number को **सात बार** टैप करें। (यह ऑप्शन आपको settings में सर्च करने पर भी मिल जाएगा )।
+    
 
-जब तक Google यह साबित नहीं कर देता कि सत्यापन प्रक्रिया को बिना किसी अनुचित बाधा के bypass करना संभव होगा, तब तक हमें उनके आधिकारिक पेज पर लिखी बात को ही सच मानना होगा: कि **सभी** गैर-पंजीकृत डेवलपर्स के ऐप्स उनके इस lock-down के लागू होते ही **ब्लॉक कर दिए जाएंगे।**
+2. Developer Mode ऑप्शन खोलने के बाद आपको "Allow Unverified Packages" ऑप्शन तक स्क्रॉल करें।
+    
+3. "Allow Unverified Packages" टॉगल को चालु करें अथवा पुष्टि करें की आप किसी दबाव में नहीं है।
+    
+4. अपना डिवाइस अनलॉक पिन/पासवर्ड डालें।
+    
+5. डिवाइस रीस्टार्ट करें।
+    
+6. सुरक्षा देरी खत्म होने के बाद "unverified packages" मेनू पर वापस जाएं।
+    
+7. अतिरिक्त चेतावनी स्क्रीन को पार करते हुए "Allow temporarily" (सात दिन) या "Allow indefinitely" में से कोई एक ऑप्शन चुनें।
+    
+8. अगली चेतावनी स्क्रीन पर पुष्टि करें कि आप जोखिम समझते हैं।
+    
+9. अब आप package manager में "Install anyway" विकल्प टैप करके बिना वेरिफिकेशन वाले ऐप्स इंस्टॉल कर सकते हैं।
+    
 
-बात साफ़ है आप सिर्फ एक खोखले वादे पर विश्वास नहीं कर सकते।
+एक बात यहां पर गौर करने लायक है, पहले की तरह सामान्य प्रक्रिया के बजाय आपको बहुत सारी उछल-कूद करनी पड़ रही है वो भी सिर्फ एक ऐप इंस्टॉल करने के लिए।
 
+यह पूरी प्रक्रिया Android OS के बजाय Google Play Services के ज़रिए दी जाती है, यानी Google बिना कोई OS अपडेट दिए और बिना यूज़र की सहमति के इसे कभी भी बदल सकता है, सीमित कर सकता है या हटा सकता है।
+
+अब तक यह "advanced flow" किसी भी Android beta, dev preview या canary release में नहीं आया है। इस अपडेट की तारीख तक यह केवल एक ब्लॉग पोस्ट और UI mockups के रूप में मौजूद है। समुदाय से अपेक्षा की जा रही है कि वह एक product announcement को एक कार्यात्मक सुरक्षा उपाय मान ले — और यह भी तब, जब लॉकडाउन लागू होने में अभी पाँच महीने बाकी हैं।
+
+जब तक Google कोई ऐसा shipping implementation नहीं देता जिसे स्वतंत्र रूप से सत्यापित किया जा सके, हमारा रुख वही रहेगा: सितंबर 2026 में लॉकडाउन लागू होते ही बिना रजिस्टर्ड डेवलपर्स के सभी ऐप्स ब्लॉक हो जाएंगे।
+
+</div>
+
+<!-- embedded poll -->
+<div style="text-align: center; margin-left: auto; margin-right: auto;">
+<blockquote class="mastodon-embed" data-embed-url="https://techhub.social/@keepandroidopen/116251892296272830/embed" style="background: #FCF8FF; border-radius: 8px; border: 1px solid #C9C4DA; margin: 0; max-width: 540px; min-width: 270px; overflow: hidden; padding: 0;"> <a href="https://techhub.social/@keepandroidopen/116251892296272830" target="_blank" style="align-items: center; color: #1C1A25; display: flex; flex-direction: column; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Roboto, sans-serif; font-size: 14px; justify-content: center; letter-spacing: 0.25px; line-height: 20px; padding: 24px; text-decoration: none;"> <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 79 75"><path d="M63 45.3v-20c0-4.1-1-7.3-3.2-9.7-2.1-2.4-5-3.7-8.5-3.7-4.1 0-7.2 1.6-9.3 4.7l-2 3.3-2-3.3c-2-3.1-5.1-4.7-9.2-4.7-3.5 0-6.4 1.3-8.6 3.7-2.1 2.4-3.1 5.6-3.1 9.7v20h8V25.9c0-4.1 1.7-6.2 5.2-6.2 3.8 0 5.8 2.5 5.8 7.4V37.7H44V27.1c0-4.9 1.9-7.4 5.8-7.4 3.5 0 5.2 2.1 5.2 6.2V45.3h8ZM74.7 16.6c.6 6 .1 15.7.1 17.3 0 .5-.1 4.8-.1 5.3-.7 11.5-8 16-15.6 17.5-.1 0-.2 0-.3 0-4.9 1-10 1.2-14.9 1.4-1.2 0-2.4 0-3.6 0-4.8 0-9.7-.6-14.4-1.7-.1 0-.1 0-.1 0s-.1 0-.1 0 0 .1 0 .1 0 0 0 0c.1 1.6.4 3.1 1 4.5.6 1.7 2.9 5.7 11.4 5.7 5 0 9.9-.6 14.8-1.7 0 0 0 0 0 0 .1 0 .1 0 .1 0 0 .1 0 .1 0 .1.1 0 .1 0 .1.1v5.6s0 .1-.1.1c0 0 0 0 0 .1-1.6 1.1-3.7 1.7-5.6 2.3-.8.3-1.6.5-2.4.7-7.5 1.7-15.4 1.3-22.7-1.2-6.8-2.4-13.8-8.2-15.5-15.2-.9-3.8-1.6-7.6-1.9-11.5-.6-5.8-.6-11.7-.8-17.5C3.9 24.5 4 20 4.9 16 6.7 7.9 14.1 2.2 22.3 1c1.4-.2 4.1-1 16.5-1h.1C51.4 0 56.7.8 58.1 1c8.4 1.2 15.5 7.5 16.6 15.6Z" fill="currentColor"/></svg> <div style="color: #787588; margin-top: 16px;">Post by @ keepandroidopen@techhub.social</div> <div style="font-weight: 500;">View on Mastodon</div> </a> </blockquote> <script data-allowed-prefixes="https://techhub.social/" async src="https://techhub.social/embed.js"></script>
 </div>
 
 ## आप कैसे मदद कर सकते हैं {#help}
