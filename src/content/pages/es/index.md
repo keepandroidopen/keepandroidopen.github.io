@@ -11,6 +11,7 @@ site_report_issues: "Informar sobre problemas en el sitio"
 site_disclaimer: "**Aviso:** Este sitio web es una iniciativa comunitaria sin ánimo de lucro. Se utiliza únicamente con fines informativos y educativos."
 site_privacy: "**Privacidad:** Este sitio web no utiliza cookies ni realiza ningún tipo de seguimiento o registro de los usuarios."
 site_copyright: "**Derechos de autor:** Ninguno. Esta obra está bajo la licencia"
+banner_footer_message: "Añade un banner con cuenta atrás a tu sitio web"
 
 open_letter_cta: "Lea nuestra carta abierta contra el programa de verificación de desarrolladores de Android"
 ---
