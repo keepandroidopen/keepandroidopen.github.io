@@ -14,6 +14,7 @@ const pagesCollection = defineCollection({
     site_privacy: z.string().optional(),
     site_copyright: z.string().optional(),
     open_letter_cta: z.string().optional(),
+    banner_footer_message: z.string().optional(),
   }),
 });
 
