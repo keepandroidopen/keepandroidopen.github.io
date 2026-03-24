@@ -4,13 +4,13 @@ lang: es
 description: "Defensa de Android como plataforma libre y abierta que permite a todo el mundo desarrollar aplicaciones."
 
 # localizable sections for the footer text
-contact_header: «Contacto»
-contact_email: «Correo electrónico»
-site_problems_header: «Problemas»
-site_report_issues: «Informar de un problema en el sitio web»
-site_disclaimer: «**Aviso:** Este sitio web es una iniciativa comunitaria sin ánimo de lucro. Se utiliza únicamente con fines informativos y educativos».
-site_privacy: «**Privacidad:** Este sitio web no utiliza cookies ni realiza ningún tipo de seguimiento o registro de los usuarios».
-site_copyright: «**Derechos de autor:** Ninguno. Esta obra está bajo la licencia».
+contact_header: "Contacto"
+contact_email: "Correo electrónico"
+site_problems_header: "Problemas"
+site_report_issues: "Informar sobre problemas en el sitio"
+site_disclaimer: "**Aviso:** Este sitio web es una iniciativa comunitaria sin ánimo de lucro. Se utiliza únicamente con fines informativos y educativos."
+site_privacy: "**Privacidad:** Este sitio web no utiliza cookies ni realiza ningún tipo de seguimiento o registro de los usuarios."
+site_copyright: "**Derechos de autor:** Ninguno. Esta obra está bajo la licencia"
 
 open_letter_cta: "Lea nuestra carta abierta contra el programa de verificación de desarrolladores de Android"
 ---
