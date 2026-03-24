@@ -69,3 +69,7 @@ Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreve
 - Combata "astroturfing": quando encontrar posts suspeitos em fóruns de comunidades e nas redes sociais que suportem essa política (“Bem, na verdade...“), desafie-os e não seja tímido.
 - Ajude este projeto [editando essa página](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/pt-BR/index.md) e adicione mais informações úteis.
 - [Assine essa petição em change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
+
+### Donos de Websites: Mostrem o seu apoio {#webmasters}
+
+[Adicione o banner de contagem regressiva ao seu site](/banner) com uma simples tag `<script>` — sem dependências, 20 localizações integradas, completamente customizável
