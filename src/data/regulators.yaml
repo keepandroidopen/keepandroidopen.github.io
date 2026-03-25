@@ -1812,17 +1812,20 @@ countries:
           da: "Danmark"
           pl: "Dania"
           zh-CN: "丹麦"
+          zh-TW: "丹麥"
         items:
           - text:
               en: "Contact the Danish [Consumer Ombudsman](https://forbrugerombudsmanden.dk/consumer-ombudsman)"
               da: "Kontakt [Forbrugerombudsmanden](https://forbrugerombudsmanden.dk/)"
               pl: "Skontaktuj się z duńskim [Rzecznikiem Konsumentów (Consumer Ombudsman)](https://forbrugerombudsmanden.dk/)"
               zh-CN: "联系丹麦[消费者申诉专员](https://forbrugerombudsmanden.dk/consumer-ombudsman)"
+              zh-TW: "聯絡丹麥[消費者申訴專員](https://forbrugerombudsmanden.dk/consumer-ombudsman)"
           - text:
               en: "Contact the Danish Competition and Consumer Authority's [Tech Division](https://en.kfst.dk/competition/contact-a-competition-division/tech)"
               da: "Kontakt Konkurrence- og Forbrugerstyrelsens [Center for Tech](https://kfst.dk/konkurrenceforhold/kontakt-et-konkurrencecenter/center-for-tech-tech)"
               pl: "Skontaktuj się z [Wydziałem Technologicznym duńskiego Urzędu ds. Konkurencji i Konsumentów](https://en.kfst.dk/competition/contact-a-competition-division/tech)"
               zh-CN: "联系丹麦竞争与消费者管理局的[技术部门](https://en.kfst.dk/competition/contact-a-competition-division/tech)"
+              zh-TW: "聯絡丹麥競爭與消費者管理局的[技術部門](https://en.kfst.dk/competition/contact-a-competition-division/tech)"
       - id: czech-republic
         name:
           ar: "الجمهورية التشيكية"
@@ -1924,15 +1927,18 @@ countries:
           en: "Lithuania"
           pl: "Litwa"
           zh-CN: "立陶宛"
+          zh-TW: "立陶宛"
         items:
           - text:
               en: "Email: [tarnyba@vvtat.lt](mailto:tarnyba@vvtat.lt?cc=lithuania@keepandroidopen.org) [taryba@kt.gov.lt](mailto:taryba@kt.gov.lt?cc=lithuania@keepandroidopen.org)"
               pl: "E-mail: [tarnyba@vvtat.lt](mailto:tarnyba@vvtat.lt?cc=lithuania@keepandroidopen.org) [taryba@kt.gov.lt](mailto:taryba@kt.gov.lt?cc=lithuania@keepandroidopen.org)"
               zh-CN: "电子邮件：[tarnyba@vvtat.lt](mailto:tarnyba@vvtat.lt?cc=lithuania@keepandroidopen.org) [taryba@kt.gov.lt](mailto:taryba@kt.gov.lt?cc=lithuania@keepandroidopen.org)"
+              zh-TW: "電子郵件：[tarnyba@vvtat.lt](mailto:tarnyba@vvtat.lt?cc=lithuania@keepandroidopen.org) [taryba@kt.gov.lt](mailto:taryba@kt.gov.lt?cc=lithuania@keepandroidopen.org)"
           - text:
               en: "Contact the [State Consumer Rights Protection Authority (SCRPA) (Valstybinė vartotojų teisių apsaugos tarnyba)](https://vvtat.lrv.lt/lt/) [Complaint portal](https://vtis.lt/) [The Competition Council of the Republic of Lithuania (KT) (Lietuvos Respublikos konkurencijos taryba)](https://kt.gov.lt/) [Complaint portal](https://kt.gov.lt/lt/formos/pranesimas-apie-karteli/)"
               pl: "Skontaktuj się z litewską [Państwową Służbą Ochrony Praw Konsumentów (VVTAT)](https://vvtat.lrv.lt/lt/) przez [portal zgłoszeniowy](https://vtis.lt/) lub z [Radą Konkurencji Republiki Litewskiej (KT)](https://kt.gov.lt/) przez [formularz zgłoszenia kartelu](https://kt.gov.lt/lt/formos/pranesimas-apie-karteli/)"
               zh-CN: "联系[国家消费者权益保护局 (SCRPA) (Valstybinė vartotojų teisių apsaugos tarnyba)](https://vvtat.lrv.lt/lt/) [投诉入口](https://vtis.lt/) [立陶宛共和国竞争委员会 (KT) (Lietuvos Respublikos konkurencijos taryba)](https://kt.gov.lt/) [投诉入口](https://kt.gov.lt/lt/formos/pranesimas-apie-karteli/)"
+              zh-TW: "聯絡[國家消費者權益保護局 (SCRPA) (Valstybinė vartotojų teisių apsaugos tarnyba)](https://vvtat.lrv.lt/lt/) [投訴入口](https://vtis.lt/) [立陶宛共和國競爭委員會 (KT) (Lietuvos Respublikos konkurencijos taryba)](https://kt.gov.lt/) [投訴入口](https://kt.gov.lt/lt/formos/pranesimas-apie-karteli/)"
       - id: slovakia
         name:
           ar: "سلوفاكيا"
@@ -1973,17 +1979,20 @@ countries:
           hu: "Magyarország"
           pl: "Węgry"
           zh-CN: "匈牙利"
+          zh-TW: "匈牙利"
         items:
           - text:
               en: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
               hu: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
               pl: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
               zh-CN: "电子邮件：[ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+              zh-TW: "電子郵件：[ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
           - text:
               en: "Contact the [Hungarian Competition Authority (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
               hu: "Vedd fel a kapcsolatot a [Gazdasági Versenyhivatallal](https://www.gvh.hu/gvh/2361_hu_elerhetosegek_kapcsolatok)"
               pl: "Skontaktuj się z [Węgierskim Urzędem ds. Konkurencji (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
               zh-CN: "联系[匈牙利竞争管理局 (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
+              zh-TW: "聯絡[匈牙利競爭管理局 (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
   - id: united-kingdom
     name:
       fa: "بریتانیای کبیر"
@@ -2581,35 +2590,43 @@ countries:
       pt-BR: "Aotearoa / Nova Zelândia"
       pl: "Nowa Zelandia"
       zh-CN: "奥特亚罗瓦/新西兰"
+      zh-TW: "奧特亞羅瓦/紐西蘭"
     items:
       - text:
           en: "Email: [contact@comcom.govt.nz](mailto:contact@comcom.govt.nz?cc=nz@keepandroidopen.org)"
           pl: "E-mail: [contact@comcom.govt.nz](mailto:contact@comcom.govt.nz?cc=nz@keepandroidopen.org)"
           zh-CN: "电子邮件：[contact@comcom.govt.nz](mailto:contact@comcom.govt.nz?cc=nz@keepandroidopen.org)"
+          zh-TW: "電子郵件：[contact@comcom.govt.nz](mailto:contact@comcom.govt.nz?cc=nz@keepandroidopen.org)"
       - text:
           en: "Phone: [0800 943 600](tel:08009436000)"
           pl: "Telefon: [0800 943 600](tel:08009436000)"
           zh-CN: "电话：[0800 943 600](tel:08009436000)"
+          zh-TW: "電話：[0800 943 600](tel:08009436000)"
       - text:
           en: "Report anti-competitive conduct to the [Commerce Commission](https://www.comcom.govt.nz/report-a-concern/)"
           pl: "Zgłoś praktyki antykonkurencyjne do nowozelandzkiej [Komisji Handlu (Commerce Commission)](https://www.comcom.govt.nz/report-a-concern/)"
           zh-CN: "向 [商务委员会](https://www.comcom.govt.nz/report-a-concern/) 举报反竞争行为"
+          zh-TW: "向 [商務委員會](https://www.comcom.govt.nz/report-a-concern/) 舉報反競爭行為"
       - text:
           en: "Contact the Minister of Commerce and Consumer Affairs, Hon Scott Simpson: [scott.simpson@parliament.govt.nz](mailto:scott.simpson@parliament.govt.nz)"
           pl: "Skontaktuj się z Ministrem Handlu i Spraw Konsumenckich, Hon Scottem Simpsonem: [scott.simpson@parliament.govt.nz](mailto:scott.simpson@parliament.govt.nz)"
           zh-CN: "联系商务与消费者事务部部长，斯科特·辛普森阁下：[scott.simpson@parliament.govt.nz](mailto:scott.simpson@parliament.govt.nz)"
+          zh-TW: "聯絡商務與消費者事務部長，斯科特·辛普森閣下：[scott.simpson@parliament.govt.nz](mailto:scott.simpson@parliament.govt.nz)"
       - text:
           en: "Contact your local Member of Parliament. If you don't know your electorate, find it at [vote.nz](https://www.vote.nz)"
           pl: "Skontaktuj się z lokalnym członkiem parlamentu. Jeśli nie znasz swojego okręgu, sprawdź go na stronie [vote.nz](https://www.vote.nz)"
           zh-CN: "联系您当地的议员。如果您不知道您的选区，可在[vote.nz](https://www.vote.nz)查找"
+          zh-TW: "聯絡您當地的議員。如果您不知道您的選區，可在[vote.nz](https://www.vote.nz)查找"
       - text:
           en: "Contact [InternetNZ](https://internetnz.nz) — the non-profit advocate for an open internet in Aotearoa: [office@internetnz.net.nz](mailto:office@internetnz.net.nz)"
           pl: "Skontaktuj się z [InternetNZ](https://internetnz.nz) — organizacją non-profit, która jest rzecznikiem otwartego internetu w Aotearoa: [office@internetnz.net.nz](mailto:office@internetnz.net.nz)"
           zh-CN: "联系[InternetNZ](https://internetnz.nz) — 新西兰开放互联网的非盈利倡导者：[office@internetnz.net.nz](mailto:office@internetnz.net.nz)"
+          zh-TW: "聯絡[InternetNZ](https://internetnz.nz) — 新西蘭開放互聯網的非盈利倡導者：[office@internetnz.net.nz](mailto:office@internetnz.net.nz)"
       - text:
           en: "Contact [Consumer NZ](https://www.consumer.org.nz/about/contact-us) — Aotearoa's independent consumer advocacy organisation. Ask them to lodge a formal complaint to the Commerce Commission on behalf of consumers."
           pl: "Skontaktuj się z [Consumer NZ](https://www.consumer.org.nz/about/contact-us) — niezależną organizacją ochrony konsumentów w Aotearoa. Poproś ich o złożenie formalnej skargi do Komisji Handlu w imieniu konsumentów."
           zh-CN: "联系[Consumer NZ](https://www.consumer.org.nz/about/contact-us) — 新西兰独立的消费者权益组织。要求他们代表消费者向商务委员会提出正式投诉。"
+          zh-TW: "聯絡[Consumer NZ](https://www.consumer.org.nz/about/contact-us) — 新西蘭獨立的消費者權益組織。要求他們代表消費者向商務委員會提出正式投訴。"
   - id: japan
     name:
       fa: "ژاپن"
@@ -3478,11 +3495,13 @@ countries:
         en: "Contact the [Egyptian Competition Authority](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
         pl: "Skontaktuj się z [Egipskim Urzędem ds. Konkurencji](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
         zh-CN: "联系 [埃及竞争管理局（Egyptian Competition Authority）](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
+        zh-TW: "聯絡 [埃及競爭管理局（Egyptian Competition Authority）](https://eca.org.eg/en-us/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%AC%D9%87%D8%A7%D8%B2-%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%A7%D9%81%D8%B3%D8%A9/%D8%B9%D9%86-%D8%A7%D9%84%D8%AC%D9%87%D8%A7%D8%B2)"
     - text:
         ar: "[info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org) :البريد الإلكتروني"
         en: "Email: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
         pl: "E-mail: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
         zh-CN: "电子邮件: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
+        zh-TW: "電子郵件: [info@eca.org.eg](mailto:info@eca.org.eg?cc=egypt@keepandroidopen.org)"
   - id: hungary
     name:
       en: "Hungary"
@@ -3497,11 +3516,13 @@ countries:
           hu: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
           pl: "E-mail: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
           zh-CN: "电子邮件: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
+          zh-TW: "電子郵件: [ugyfelszolgalat@gvh.hu](mailto:ugyfelszolgalat@gvh.hu?cc=hungary@keepandroidopen.org)"
       - text:
           en: "Contact the [Hungarian Competition Authority (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
           hu: "Vedd fel a kapcsolatot a [Gazdasági Versenyhivatallal](https://www.gvh.hu/gvh/2361_hu_elerhetosegek_kapcsolatok)"
           pl: "Skontaktuj się z [Węgierskim Urzędem ds. Konkurencji (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
           zh-CN: "联系[匈牙利竞争管理局 (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
+          zh-TW: "聯絡[匈牙利競爭管理局 (Gazdasági Versenyhivatal)](https://www.gvh.hu/en/gvh/2361_en_contact_us)"
   - id: colombia
     name:
       en: "Colombia"
@@ -3509,6 +3530,7 @@ countries:
       pl: "Kolumbia"
       pt-BR: "Colômbia"
       zh-CN: "哥伦比亚"
+      zh-TW: "哥倫比亞"
     items:
       - text:
           en: Make a report to the [Superintendence of Industry and Commerce](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
@@ -3516,3 +3538,4 @@ countries:
           pl: Prześlij zgłoszenie do [Nadzoru Przemysłu i Handlu](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
           pt-BR: Faça um relato para a [Superintendência de Indústria e Comércio](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
           zh-CN: 向[工商业监管局](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)报告
+          zh-TW: 向[工商業監理局](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)報告
