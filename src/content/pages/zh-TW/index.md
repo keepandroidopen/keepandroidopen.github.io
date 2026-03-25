@@ -60,12 +60,12 @@ open_letter_description: "倡導 Android 該當一個自由、開放平臺之公
 
 不要建議其他應用程式開發人員及組織註冊該計畫。你可以透過論壇、社群媒體和部落格文章來傳播該訊息。可將[FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn)包含在你的程式碼來通知你的應用程式使用者。
 
-如果你是一名有心的 Google 正職員工或約聘人員，並且對該計畫有更多了解，包括計畫中的技術實作細節或該計畫實施的其他緣由，請透過一台 _非工作_ 裝置和 _非Gmail_ 帳戶與[tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)聯絡。你的資訊將被嚴格保密。
+如果你是一名有心的 Google 正職員工或約聘人員，並且對該計畫有更多了解，包括計畫中的技術實作細節或該計畫實施的其他緣由，請透過一台 _非工作_ 裝置和 _非 Gmail_ 帳戶與[tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)聯絡。你的資訊將被嚴格保密。
 
 ### 所有人：發出自己的聲音！ {#everyone}
 
 - 在你的 Android 裝置上[安裝 F-Droid](https://f-droid.org)。只要越多人使用其他替代的應用程式商店，就越難將其摒棄。
-- 使用[Android 開發者驗證要求調查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接向 Google 回饋意見。
+- 使用[ Android 開發者驗證要求調查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接向 Google 回饋意見。
 - 在社群媒體和部落格文章上發出你的聲音，並連結至<https://keepandroidopen.org>
 - 對線網路水軍：當你在社群論壇和社群媒體上遇到支持該政策的可疑貼文(「其實……」)，不妨以理據爭，無所顧忌。
 - 透過[編輯此頁面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-TW/index.md)豐富更多有用的資訊來幫助這個專案。
