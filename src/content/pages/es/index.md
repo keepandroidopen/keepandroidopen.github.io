@@ -43,8 +43,7 @@ Este registro implicará:
 
 ### Actualización: Google reveló el "flujo avanzado" — no es una solución
 
-En 19 de marzo del 2026, Google [publicó detalles](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) sobre el mecanismo del "flujo avanzado" pensado para "usuarios avanzados" para permitir instalar aplicaciones de desarrolladores no verificados después
-de que el bloqueo haga efecto. Funcionará de la siguiente manera:
+En 19 de marzo del 2026, Google [publicó detalles](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) sobre el mecanismo del "flujo avanzado" pensado para "usuarios avanzados" para permitir instalar aplicaciones de desarrolladores no verificados después de que el bloqueo haga efecto. Funcionará de la siguiente manera:
 
 1. Active las [Opciones del desarrollador](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/) tocando _Número de compilación_ en _Información del teléfono_ **siete veces**
 1. En Ajustes > Sistema, abra las Opciones del desarrollador y desplácese hasta "Permitir paquetes no verificados".
