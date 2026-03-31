@@ -1994,7 +1994,7 @@ countries:
           zh-TW: "義大利"
         items:
           - text:
-              en: "Submit a segnalation using the form at [this page](https://www.agcm.it/segnala-online/index) or send a Certified Email to [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
+              en: "Submit a report using the form at [this page](https://www.agcm.it/segnala-online/index) or send a Certified Email to [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
               it: "Manda una segnalazione usando il form su [questa pagina](https://www.agcm.it/segnala-online/index) o una PEC a [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
               pl: "Prześlij zgłoszenie za pomocą formularza na [tej stronie](https://www.agcm.it/segnala-online/index) lub wyślij certyfikowany e-mail (PEC) na adres [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
               zh-CN: "使用[此页面](https://www.agcm.it/segnala-online/index)的表格提交举报，或发送带有认证的电子邮件至 [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
