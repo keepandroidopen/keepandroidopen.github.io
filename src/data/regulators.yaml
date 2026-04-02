@@ -2824,27 +2824,6 @@ countries:
           pt-BR: "Entre em contato com a [Competition Commission of India (CCI)](https://www.cci.gov.in/)"
           zh-CN: "联系[印度竞争委员会 (CCI)](https://www.cci.gov.in/)"
           zh-TW: "聯絡[印度競爭委員會 (CCI)](https://www.cci.gov.in/)"
-  - id: italy
-    name:
-      en: "Italy"
-      it: "Italia"
-      pl: "Włochy"
-      pt-BR: "Itália"
-      zh-CN: "意大利"
-      zh-TW: "義大利"
-    items:
-      - text:
-          en: "Submit a segnalation using the form at [this page](https://www.agcm.it/segnala-online/index) or send a Certified Email to [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
-          it: "Manda una segnalazione usando il form su [questa pagina](https://www.agcm.it/segnala-online/index) o una PEC a [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
-          pl: "Prześlij zgłoszenie za pomocą formularza na [tej stronie](https://www.agcm.it/segnala-online/index) lub wyślij certyfikowany e-mail (PEC) na adres [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
-          zh-CN: "使用[此页面](https://www.agcm.it/segnala-online/index)的表格提交举报，或发送带有认证的电子邮件至 [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
-          zh-TW: "使用[此頁面](https://www.agcm.it/segnala-online/index)的表格提交舉報，或傳送有認證的電子郵件至 [protocollo.agcm@pec.agcm.it](protocollo.agcm@pec.agcm.it)"
-      - text:
-          en: "Contact the [Italian Competition Authority](https://www.agcm.it)"
-          it: "Contatta l'[Autorità Garante della Concorrenza e del Mercato](https://www.agcm.it)"
-          pl: "Skontaktuj się z [Włoskim Urzędem ds. Konkurencji (AGCM)](https://www.agcm.it)"
-          zh-CN: "联系[意大利竞争管理局](https://www.agcm.it)"
-          zh-TW: "聯絡[義大利競爭管理局](https://www.agcm.it)"
   - id: canada
     name:
       fa: "کانادا"
