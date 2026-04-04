@@ -1,3 +1,5 @@
+import { marked } from "marked";
+
 export const languages = {
   // English (default)
   "en": { label: "English", path: "/" },
@@ -32,7 +34,7 @@ export const languages = {
   // Middle Eastern
   "he": { label: "עברית", path: "/he/" },
   "ar": { label: "العربية", path: "/ar/" },
-  "fa": { label: "فارسی", path: "/fa/" },
+  "fa": { label: "فარسی", path: "/fa/" },
 
   // South & Southeast Asian
   "vi": { label: "Tiếng Việt", path: "/vi/" },
@@ -40,15 +42,18 @@ export const languages = {
   "id": { label: "Indonesia", path: "/id/" },
   "tl": { label: "Tagalog", path: "/tl/" },
   "bn": { label: "বাংলা", path: "/bn/" },
-  "hi": { label: "हिंदी", path: "/hi/"},
-  
+  "hi": { label: "हिंदी", path: "/hi/" },
 
   // CJK (East Asian)
   "zh-CN": { label: "简体中文", path: "/zh-CN/" },
   "zh-TW": { label: "正體中文", path: "/zh-TW/" },
   "ja": { label: "日本語", path: "/ja/" },
   "ko": { label: "한국어", path: "/ko/" },
-  
+
+  // Kartvelian
+  "ka": { label: "ქართული", path: "/ka/" },
+  "mnglz": { label: "მარგალური/ლაზური", path: "/mnglz/" },
+  "sva": { label: "ლუშნუ/სვანური", path: "/sva/" },
 } as const;
 
 export type Locale = keyof typeof languages;
@@ -60,8 +65,6 @@ const rtlLanguages = new Set(["ar", "he", "fa", "ur"]);
 export function isRtl(lang: string): boolean {
   return rtlLanguages.has(lang.split("-")[0].toLowerCase());
 }
-
-import { marked } from "marked";
 
 /** Render a markdown string to inline HTML (no wrapping <p> tags). */
 export function markdownify(text: string): string {
