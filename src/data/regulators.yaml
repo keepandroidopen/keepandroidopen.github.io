@@ -3518,3 +3518,45 @@ countries:
           pt-BR: Faça um relato para a [Superintendência de Indústria e Comércio](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)
           zh-CN: 向[工商业监管局](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)报告
           zh-TW: 向[工商業監理局](https://servicioslinea.sic.gov.co/servilinea/pqrsf/)報告
+  - id: peru
+    name:
+      ar: "بيرو"
+      en: "Peru"
+      da: "Peru"
+      ru: "Перу"
+      de: "Peru"
+      fr: "Pérou"
+      es: "Perú"
+      it: "Perù"
+      ko: "페루"
+      cs: "Peru"
+      sk: "Peru"
+      el: "Περού"
+      th: "เปรู"
+      id: "Peru"
+      tr: "Peru"
+      uk: "Перу"
+      pl: "Peru"
+      pt-BR: "Peru"
+      zh-CN: "秘鲁"
+      zh-TW: "秘魯"
+      ja: "ペルー"
+    items:
+      - text:
+          ar: "البريد الإلكتروني: [st-clc@indecopi.gob.pe](mailto:st-clc@indecopi.gob.pe?cc=victory@keepandroidopen.org) / [sacreclamo@indecopi.gob.pe](mailto:sacreclamo@indecopi.gob.pe?cc=victory@keepandroidopen.org)"
+          en: "Email: [st-clc@indecopi.gob.pe](mailto:st-clc@indecopi.gob.pe?cc=victory@keepandroidopen.org) / [sacreclamo@indecopi.gob.pe](mailto:sacreclamo@indecopi.gob.pe?cc=victory@keepandroidopen.org)"
+          es: "Correo electrónico: [st-clc@indecopi.gob.pe](mailto:st-clc@indecopi.gob.pe?cc=victory@keepandroidopen.org) / [sacreclamo@indecopi.gob.pe](mailto:sacreclamo@indecopi.gob.pe?cc=victory@keepandroidopen.org)"
+          fr: "Courriel : [st-clc@indecopi.gob.pe](mailto:st-clc@indecopi.gob.pe?cc=victory@keepandroidopen.org) / [sacreclamo@indecopi.gob.pe](mailto:sacreclamo@indecopi.gob.pe?cc=victory@keepandroidopen.org)"
+          pt-BR: "E-mail: [st-clc@indecopi.gob.pe](mailto:st-clc@indecopi.gob.pe?cc=victory@keepandroidopen.org) / [sacreclamo@indecopi.gob.pe](mailto:sacreclamo@indecopi.gob.pe?cc=victory@keepandroidopen.org)"
+          pl: "E-mail: [st-clc@indecopi.gob.pe](mailto:st-clc@indecopi.gob.pe?cc=victory@keepandroidopen.org) / [sacreclamo@indecopi.gob.pe](mailto:sacreclamo@indecopi.gob.pe?cc=victory@keepandroidopen.org)"
+          zh-CN: "电子邮件：[st-clc@indecopi.gob.pe](mailto:st-clc@indecopi.gob.pe?cc=victory@keepandroidopen.org) / [sacreclamo@indecopi.gob.pe](mailto:sacreclamo@indecopi.gob.pe?cc=victory@keepandroidopen.org)"
+          zh-TW: "電子郵件：[st-clc@indecopi.gob.pe](mailto:st-clc@indecopi.gob.pe?cc=victory@keepandroidopen.org) / [sacreclamo@indecopi.gob.pe](mailto:sacreclamo@indecopi.gob.pe?cc=victory@keepandroidopen.org)"
+      - text:
+          ar: "تواصل مع [المعهد الوطني للدفاع عن المنافسة (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)"
+          en: "Make a complaint to the [National Institute for the Defense of Competition and Protection of Intellectual Property (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)"
+          es: "Presentar un reclamo ante el [Instituto Nacional de Defensa de la Competencia y de la Protección de la Propiedad Intelectual (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)"
+          fr: "Déposer une plainte auprès de l'[Institut national de défense de la concurrence et de la protection de la propriété intellectuelle (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)"
+          pt-BR: "Faça uma reclamação ao [Instituto Nacional de Defesa da Concorrência e da Proteção da Propriedade Intelectual (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)"
+          pl: "Złóż skargę do [Narodowego Instytutu Obrony Konkurencji i Ochrony Własności Intelektualnej (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)"
+          zh-CN: "向[国家竞争防卫和知识产权保护局 (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)提出投诉"
+          zh-TW: "向[國家競爭防衛和知識產權保護局 (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)提出申訴"
