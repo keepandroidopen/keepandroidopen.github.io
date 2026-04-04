@@ -2,6 +2,8 @@
 
 **Keep Android Open** is a [community advocacy website](https://keepandroidopen.org) fighting against Google's 2025 developer verification mandate, which will require all developers to be registered with Google.
 
+## What is this fork?
+ This fork was developed by a developer named DeniusGG, and this fork adds the Kartvelian Language Family languages - Kartvelian, Svan, and Mingrelian/Laz.
 ## Purpose
 
 Launched in direct response to the Google announcement, the site defends Android's core promise: an open platform where anyone can build, share, and install apps without centralized gatekeeping.
