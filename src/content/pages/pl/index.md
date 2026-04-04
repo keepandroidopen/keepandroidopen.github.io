@@ -43,13 +43,24 @@ Rejestracja ta będzie obejmować:
 
 <div class="callout-warning">
 
-### Aktualizacja: Google **nie** „wycofało się” z weryfikacji deweloperów {#clarification}
+### Aktualizacja: Google ujawniło „zaawansowany proces instalacji” – to nie jest rozwiązanie
 
-Wbrew mglistej [wzmiance](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) o możliwym „zaawansowanym procesie instalacji”, który rzekomo w przyszłości miałby pozwolić „doświadczonym użytkownikom zaakceptować ryzyko instalowania oprogramowania, które nie jest zweryfikowane”, [opis programu](https://developer.android.com/developer-verification) przez Google nadal jasno stwierdza:
+19 marca 2026 r. Google [opublikowało szczegóły](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) dotyczące mechanizmu „zaawansowanego procesu instalacji” (_advanced flow_), przeznaczonego dla „zaawansowanych użytkowników”, który ma umożliwić instalowanie aplikacji od niezweryfikowanych deweloperów po wejściu w życie ograniczeń. Wygląda on następująco:
 
-> Od września 2026 r. Android będzie wymagać, aby wszystkie aplikacje instalowane na certyfikowanych urządzeniach z Androidem były zarejestrowane przez zweryfikowanych deweloperów.
+1. Włącz [tryb programisty](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/), klikając **siedem razy** numer kompilacji oprogramowania w sekcji _Informacje o telefonie_.
+1. W menu Ustawienia > System otwórz Opcje programistyczne i przewiń do opcji „Zezwalaj na niezweryfikowane pakiety”.
+1. Włącz opcję i potwierdź na ekranie ostrzegawczym, że nie działasz pod przymusem.
+1. Wprowadź kod PIN lub hasło odblokowujące urządzenie.
+1. Uruchom ponownie urządzenie.
+1. **Odczekaj 24 godziny.**
+1. Wróć do menu _niezweryfikowanych pakietów_ po upływie okresu zabezpieczającego.
+1. Przewiń kolejne ekrany ostrzegawcze i wybierz opcję „Zezwalaj tymczasowo” (na siedem dni) lub „Zezwalaj na stałe”.
+1. Na kolejnym ekranie ostrzegawczym potwierdź, że rozumiesz związane z tym ryzyko.
+1. Możesz teraz instalować niezweryfikowane pakiety na urządzeniu, wybierając opcję „Zainstaluj mimo to” w menedżerze pakietów.
 
-Dopóki nie przedstawią dowodów, że proces weryfikacji będzie można ominąć bez nadmiernych utrudnień, musimy wierzyć temu, co widnieje na ich oficjalnej stronie: że **wszystkie** aplikacje od niezarejestrowanych deweloperów **zostaną zablokowane** po wejściu w życie blokady platformy.
+Cały ten proces jest realizowany przez Usługi Google Play, a nie przez system operacyjny Android. Oznacza to, że Google może go zmodyfikować, ograniczyć lub usunąć w dowolnym momencie bez potrzeby aktualizacji systemu i bez zgody użytkownika. Zaawansowany proces instalacji wciąż nie pojawił się w żadnej wersji beta Androida, wersji deweloperskiej ani wydaniu typu „canary”. Na dzień publikacji tej aktualizacji istnieje on jedynie jako wpis na blogu i makiety interfejsu. Od społeczności oczekuje się, że zaakceptuje zapowiedzi produktu jako funkcjonalne zabezpieczenie na pięć miesięcy przed wejściem w życie nowych wymogów.
+
+Dopóki Google nie udostępni gotowej implementacji, którą będzie można niezależnie zweryfikować, nasze stanowisko pozostaje niezmienne: **wszystkie** aplikacje od niezarejestrowanych deweloperów **zostaną zablokowane** wraz z wejściem w życie zapowiadanej blokady we wrześniu 2026 roku.
 
 </div>
 

@@ -22,6 +22,7 @@ heading:
   zh-CN: "官方文档"
   zh-TW: "官方說明文件"
   ja: "公式文書"
+  vi: "Tài liệu chính thức"
 
 items:
   - text: "Initial announcement"
@@ -40,3 +41,5 @@ items:
     url: "https://support.google.com/android-developer-console/answer/16450960"
   - text: "API Documentation"
     url: "https://developer.android.com/reference/android/content/pm/PackageInstaller#DEVELOPER_VERIFICATION_FAILED_REASON_DEVELOPER_BLOCKED"
+  - text: "How the advanced flow works for users"
+    url: "https://android-developers.googleblog.com/2026/03/android-developer-verification.html"

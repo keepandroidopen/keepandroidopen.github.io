@@ -20,7 +20,7 @@ open_letter_description: "Surat terbuka untuk mendukung Android sebagai platform
 Pada Agustus 2025, Google [mengumumkan](https://developer.android.com/developer-verification) bahwa mulai September 2026,
 pengembang tidak lagi dapat mengembangkan aplikasi untuk platform Android
 tanpa terlebih dahulu mendaftar secara terpusat di Google.
-This registration will involve:
+Pendaftaran ini akan melibatkan:
 
 - Membayar biaya kepada Google
 {:.li-list .li-money}
