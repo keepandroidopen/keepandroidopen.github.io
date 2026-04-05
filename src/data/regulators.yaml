@@ -3560,3 +3560,14 @@ countries:
           pl: "Złóż skargę do [Narodowego Instytutu Obrony Konkurencji i Ochrony Własności Intelektualnej (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)"
           zh-CN: "向[国家竞争防卫和知识产权保护局 (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)提出投诉"
           zh-TW: "向[國家競爭防衛和知識產權保護局 (INDECOPI)](https://enlinea.indecopi.gob.pe/reclamavirtual/)提出申訴"
+  - id: vietnam
+    name:
+      en: "Vietnam"
+      vi: "Việt Nam"
+    items:
+      - text:
+          en: "Contact the [Vietnam Competition Commission](https://en.vcc.gov.vn/)"
+          vi: "Liên hệ [Ủy ban Cạnh tranh Việt Nam](https://vcc.gov.vn/)"
+      - text:
+          en: "Email: [vcc@moit.gov.vn](mailto:vcc@moit.gov.vn?cc=vn@keepandroidopen.org)"
+          vi: "Email: [vcc@moit.gov.vn](mailto:vcc@moit.gov.vn?cc=vn@keepandroidopen.org)"
