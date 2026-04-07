@@ -54,7 +54,8 @@
     fi:      "Androidista tulee suljettu alusta",
     hu:      "Az Android egy lezárt platform lesz",
     vi:      "Android sẽ trở thành một hệ điều hành đóng",
-    bg:      "Android ще стане заключена платформа след"
+    bg:      "Android ще стане заключена платформа след",
+    be:      "Android \u0441\u0442\u0430\u043d\u0435 \u0437\u0430\u043a\u0440\u044b\u0442\u0430\u0439 \u043f\u043b\u0430\u0444\u0442\u043e\u0440\u043c\u0430\u0439 \u0020 \u0020"
   };
 
   // ── Parse query parameters from the script's own src URL ──────────────
