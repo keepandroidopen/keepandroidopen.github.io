@@ -24,6 +24,7 @@ export const languages = {
   "uk": { label: "Українська", path: "/uk/" },
   "hu": { label: "Magyar", path: "/hu/" },
   "bg": { label: "Български", path: "/bg/" },
+  "be": { label: "Беларуская", path: "/be/" },
 
   // Turkic & Central Asian
   "tr": { label: "Türkçe", path: "/tr/" },
