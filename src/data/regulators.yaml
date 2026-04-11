@@ -1818,6 +1818,14 @@ countries:
           zh-TW: "向 [歐盟競爭政策局](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en) 提出申訴"
           fi: "Lähetä valitus [EU Competition Policy](https://competition-policy.ec.europa.eu/antitrust-and-cartels/contact_en)"
     children:
+      - id: austria
+        name:
+          en: "Austria"
+          de: "Österreich"
+        items:
+          - text:
+              en: "Contact the Austrian [Federal Competition Authority](https://www.bwb.gv.at/beschwerdeeinbringung)"
+              de: "Reichen Sie eine Beschwerde bei der [Bundeswettbewerbsbehörde](https://www.bwb.gv.at/beschwerdeeinbringung) ein"
       - id: denmark
         name:
           en: "Denmark"
