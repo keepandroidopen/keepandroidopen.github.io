@@ -43,7 +43,7 @@ open_letter_cta: "阅读我们反对安卓开发者验证计划的公开信"
 
 在2026年3月19日，Google公布了在封锁生效之后，针对“高级用户”允许从未经验证的开发者应用安装的“高级流程”机制的[详细信息](https://android-developers.googleblog.com/2026/03/android-developer-verification.html)。它是这样的：
 
-1. 通过点击 _关于手机_ 里的软件版本号**七次**打开[开发者模式](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/)
+1. 通过点击 _关于手机_ 里的软件版本号**七次**打开[开发者模式](https://developer.android.google.cn/studio/debug/dev-options?hl=zh-cn)
 1. 在设置>系统中，打开开发人员选项并下滑到“允许未经验证的软件包”
 1. 切换开关并在一个警告界面中答复，确认你没有被胁迫
 1. 输入你的设备解锁pin码/密码
