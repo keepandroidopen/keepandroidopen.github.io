@@ -52,7 +52,7 @@ open_letter_cta: "קראו את המכתב הפתוח שלנו נגד תוכני
 # ============================================================================
 
 # Meta
-description: "הטלפון שלך עומד להפסיק להיות שלך. החל מספטמבר 2026, Google תחסום כל יישום לאנדרואיד שהמפתחים שלו לא נרשמו דרכם."
+# description: "הטלפון שלך עומד להפסיק להיות שלך. החל מספטמבר 2026, Google תחסום כל יישום לאנדרואיד שהמפתחים שלו לא נרשמו דרכם."
 
 # Hero
 hero_lede: "הטלפון שלך עומד להפסיק להיות שלך."
@@ -63,10 +63,10 @@ hero_countdown_label: "ימים עד להיסגרות"
 # What Google is doing
 what_heading: "מה Google עושה"
 # what_intro: "In August 2025, Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">announced &#8599;</a> a new requirement: starting September 2026, <strong>every Android app developer must register centrally with Google</strong> before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through <a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
-# what_registration: "ההרשמה דורשת:"
+what_registration: "ההרשמה דורשת:"
 what_req_fee: "תשלום עמלה ל־Google"
-# what_req_terms: "הסכמה לתנאים וההתניות של Google"
-# what_req_id: "Surrendering your government-issued identification"
+what_req_terms: "הסכמה לתנאים וההתניות של Google"
+what_req_id: "הענקת תעודת הזהות האישית שהונפקה במשרדי הממשלה"
 # what_req_signing: "Providing evidence of your private signing key"
 # what_req_appids: "Listing all current and all future application identifiers"
 # what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
