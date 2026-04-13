@@ -114,7 +114,7 @@ impact_gov_p2: "<a href=\"https://www.eff.org/deeplinks/2025/11/application-gate
 
 # Advanced flow
 flow_heading: "La \"trappe de secours\" de Google est un piège."
-flow_intro: "Google indique que les \"utilisateurs avancés\" peuvent <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">\"toujours installer\"</a> des applications non vérifiées. Voici à quoi cela ressemble <i>concrètement</i> :
+flow_intro: "Google indique que les \"utilisateurs avancés\" peuvent <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">\"toujours installer\"</a> des applications non vérifiées. Voici à quoi cela ressemble <i>concrètement</i> :"
 flow_step1: "Accéder aux paramètres système et recherchez les options pour les développeurs."
 flow_step2: "Appuyer <strong>sept fois</strong> sur le numéro de build pour activer le mode développeur."
 flow_step3: "Ignorer les écrans alarmistes concernant la coercition"
@@ -137,7 +137,7 @@ precedent_p2: "L'ouverture d'Android n'a jamais été une simple fonctionnalité
 # Objections
 # objections_heading: "But wait, isn't this..."
 obj_security_q: "\"...juste à propos de la sécurité ?\""
-obj_security_a: "L'argument de sécurité invoqué n'est qu'un leurre. Google Play Protect analyse déjà les applications à la recherche de logiciels malveillants indépendamment de l'identité du développeur. Exiger une pièce d'identité officielle ne rend pas le code plus sûr. Cela permet d'identifier et de contrôler les <em>développeurs</em>. Les auteurs de logiciels malveillants peuvent s'enregistrer. Les développeurs indépendants et les dissidents, souvent, ne le peuvent pas. L'<a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF &#8599;</a> est catégorique : le contrôle d'accès basé sur l'identité est un outil de censure, et non de sécurité.
+obj_security_a: "L'argument de sécurité invoqué n'est qu'un leurre. Google Play Protect analyse déjà les applications à la recherche de logiciels malveillants indépendamment de l'identité du développeur. Exiger une pièce d'identité officielle ne rend pas le code plus sûr. Cela permet d'identifier et de contrôler les <em>développeurs</em>. Les auteurs de logiciels malveillants peuvent s'enregistrer. Les développeurs indépendants et les dissidents, souvent, ne le peuvent pas. L'<a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF &#8599;</a> est catégorique : le contrôle d'accès basé sur l'identité est un outil de censure, et non de sécurité."
 obj_sideloading_q: "\"...toujours du sideloading si l'on utilise un processus avancé?\""
 obj_sideloading_a: "Neuf étapes, 24 heures d'attente, dissimulées dans les options pour développeurs, via un service propriétaire que Google peut révoquer à tout moment. Il ne s'agit pas d'installation d'applications hors du système. C'est un <strong>mécanisme de dissuasion</strong> conçu pour empêcher presque tout le monde de le mener à bien. Et comme il passe par les services Google Play et non par le système d'exploitation, Google peut le restreindre ou le supprimer discrètement."
 obj_hide_q: "\"...seulement un problème si l'on a quelque chose à cacher ?\""
@@ -145,7 +145,7 @@ obj_hide_a: "Les lanceurs d'alerte, les journalistes et les militants sous les r
 obj_apple_q: "\"...la même politique qu'Apple?\""
 obj_apple_a: "Depuis sa création, Apple a toujours été un écosystème fermé. Les utilisateurs ont choisi <em>Android parce qu'il était différent</em>. Affirmer \"qu'Apple fait pareil\" relève d'une course au moins-disant et d'un argument <i>fallacieux</i>. Sous la pression réglementaire (notamment la directive européenne sur les marchés numériques), même Apple est contrainte de s'ouvrir. Google, quant à lui, prend le contrepied de cette tendance : il cherche à consolider son monopole."
 obj_cost_q: "\"...seulement $25 et un peu de paperasse?\""
-obj_cost_a: "Peut-être, si vous êtes un développeur américain possédant une carte de crédit et un permis de conduire. Imaginez être étudiant en Afrique subsaharienne, dissident au Myanmar ou bénévole gérant une application de santé communautaire. Le coût n'est pas seulement financier : vous devez fournir une pièce d'identité officielle et des justificatifs, ou vos clés de signature, à une entreprise qui <a href=\"https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/\" target=\"_blank\">se plie systématiquement &#8599;</a> aux exigences gouvernementales de suppression d'applications et de dénonciation des développeurs.
+obj_cost_a: "Peut-être, si vous êtes un développeur américain possédant une carte de crédit et un permis de conduire. Imaginez être étudiant en Afrique subsaharienne, dissident au Myanmar ou bénévole gérant une application de santé communautaire. Le coût n'est pas seulement financier : vous devez fournir une pièce d'identité officielle et des justificatifs, ou vos clés de signature, à une entreprise qui <a href=\"https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/\" target=\"_blank\">se plie systématiquement &#8599;</a> aux exigences gouvernementales de suppression d'applications et de dénonciation des développeurs."
 
 # Fight back
 # act_heading: "Fight back"
@@ -154,7 +154,7 @@ act_fdroid: "<strong><a href=\"https://f-droid.org\" target=\"_blank\">Installez
 act_regulators: "<strong><a href=\"/cta/#consumers\">Contactez vos organismes de régulation.</a></strong> Les organismes de réglementation du monde entier sont véritablement préoccupés par les monopoles et la centralisation du pouvoir dans le secteur technologique, et souhaitent entendre directement les personnes concernées."
 act_share: "<strong>Partagez cette page.</strong> Lien vers <a href=\"https://keepandroidopen.org\">keepandroidopen.org</a> partout."
 act_astroturf: "<strong>Résistez aux manipulations de l'opinion publique.</strong> Les partisans du \"en fait… \" sont nombreux. Ne les laissez pas dicter le récit."
-act_petition: "<strong><a href=\"https://www.change.org/p/stop-google-from-limiting-apk-file-usage/\" target=\"_blank\">Signez la pétition sur change.org &#8599;</a></strong> et rejoignez les plus de 100 000 signataires qui ont fait entendre leur voix.
+act_petition: "<strong><a href=\"https://www.change.org/p/stop-google-from-limiting-apk-file-usage/\" target=\"_blank\">Signez la pétition sur change.org &#8599;</a></strong> et rejoignez les plus de 100 000 signataires qui ont fait entendre leur voix."
 act_letter: "<strong><a href=\"/open-letter\">Lisez and partagez notre lettre ouverte</a></strong>"
 act_survey: "<strong>Dites à Google ce que vous pensez de cela</strong> par leur propre<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1\" target=\"_blank\">sondage sur la vérification des développeurs&#8599;</a> <small>(pour tout le bien que cela fera)</small>."
 act_dev_heading: "Développeurs"
