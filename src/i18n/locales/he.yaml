@@ -52,12 +52,11 @@ open_letter_cta: "קראו את המכתב הפתוח שלנו נגד תוכני
 # ============================================================================
 
 # Meta
-title: "משאירים את אנדרואיד פתוחה"
 description: "הטלפון שלך עומד להפסיק להיות שלך. החל מספטמבר 2026, Google תחסום כל יישום לאנדרואיד שהמפתחים שלו לא נרשמו דרכם."
 
 # Hero
 hero_lede: "הטלפון שלך עומד להפסיק להיות שלך."
-# hero_countdown_label: "days until lockdown"
+hero_countdown_label: "ימים עד להיסגרות"
 # hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will <strong>block every Android app</strong> whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
 
@@ -78,7 +77,7 @@ impact_you_heading: "בך"
 # impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
 # impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: <i>your</i> property, that <i>you</i> paid for."
 impact_dev_heading: "במפתחים עצמאיים"
-# impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
+impact_dev_p1: "בין אם זה היישום הראשון של הנער או הנערה, כלי הפרטיות הקהילתי, או תוכנית הביתא הסגורה חֶברה טכנולוגית.  זה לא משנה. החל מספטמבר 2026, לא יהיה ניתן להתקין אף אחד מהיישומים האלה ללא אישורה של Google."
 # impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, home to thousands of free and open-source Android apps, has called this an <a href=\"https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html\" target=\"_blank\">\"existential\" threat &#8599;</a>. Cory Doctorow calls it <a href=\"https://pluralistic.net/2025/09/01/fulu/\" target=\"_blank\">\"Darth Android\" &#8599;</a>."
 # impact_gov_heading: "Governments & civil society"
 # impact_gov_p1: "Google has a <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">documented track record &#8599;</a> of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
