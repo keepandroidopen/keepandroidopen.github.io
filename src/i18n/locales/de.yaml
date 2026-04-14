@@ -51,7 +51,7 @@ hero_kicker: "Jede App und jedes Gerät, weltweit, ohne Möglichkeit des Widersp
 # What Google is doing
 what_heading: "Was Google tut"
 what_intro: >-
-  Im August 2025, hat Google eine neue Bedingung <a href="https://developer.android.com/developer-verification" target="_blank">angekündigt &#8599;</a>: ab September 2026, <strong>muss sich jeder Android-App-Entwickler
+  Im August 2025 hat Google eine neue Bedingung <a href="https://developer.android.com/developer-verification" target="_blank">angekündigt &#8599;</a>: ab September 2026 <strong>muss sich jeder Android-App-Entwickler
   zentral bei Google anmelden</strong> bevor seine oder ihre Software auf irgend einem Gerät installiert werden kann. Nicht nur Apps aus dem Play Store: alle Apps. Das beinhaltet auch Apps, die
   unter Freunden geteilt werden, die über <a href="https://f-droid.org" target="_blank">F-Droid &#8599;</a> verteilt werden, die von Hobbyisten zur persönlichen Verwendung entwickelt werden. Unabhängige Entwickler,
   Kirchen- und Gemeinschaftsgruppen sowie Hobbyisten werden gleichermaßen von der Entwicklung und der Weitergabe ihrer Software ausgeschlossen.
