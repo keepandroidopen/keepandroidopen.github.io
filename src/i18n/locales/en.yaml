@@ -109,6 +109,8 @@ act_dev_resist: "Google's plan only works if developers comply. Don't."
 act_dev_talk: "Talk other developers and organizations out of signing up."
 act_dev_warn: >-
   Add the <a href="https://github.com/woheller69/FreeDroidWarn" target="_blank">FreeDroidWarn library &#8599;</a> to your apps to warn users.
+act_dev_pledge: >-
+  Add your name to the <a href="https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/data/developer-pledges.yaml" target="_blank">list of developers</a> pledging to remove their apps from Google Play.
 act_dev_banner: >-
   Run a website? <a href="/banner">Add the countdown banner.</a>
 act_google_heading: "Google employees"
