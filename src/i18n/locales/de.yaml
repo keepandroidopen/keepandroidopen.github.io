@@ -46,7 +46,7 @@ description: "Dein Smartphone wird bald nicht mehr Dir gehören. Im September 20
 hero_lede: "Dein Handy wird bald nicht mehr dir gehören."
 hero_countdown_label: "Tage bis zum Lockdown"
 hero_sub: "Ab September 2026 wird ein stilles Update von Google ohne Zustimmung der Nutzer <strong>alle Android-Apps blockieren</strong>, deren Entwickler sich nicht bei Google registriert, ihren Vertrag nicht unterzeichnet und nicht bezahlt haben."
-hero_kicker: "Jede App und jedes Gerät, weltweit, ohne Möglichkeit zum Widerspruchs."
+hero_kicker: "Jede App und jedes Gerät, weltweit, ohne Möglichkeit des Widerspruchs."
 
 # What Google is doing
 what_heading: "Was Google tut"
@@ -87,7 +87,7 @@ impact_gov_p2: >-
 # Advanced flow
 flow_heading: "Googles \"Notausgang\" ist eine Falltür"
 flow_intro: >-
-  Google sagt, dass \"Power-User\" nicht überprüfte Apps <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">immer noch installieren</a> können.
+  Google sagt, dass "Power-User" nicht überprüfte Apps <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">immer noch installieren</a> können.
   Hier erläutern wir, was das <i>tatsächlich</i> bedeutet:
 flow_step1: "Öffne die Systemeinstellungen und suche nach den Entwickleroptionen."
 flow_step2: "Tippe <strong>sieben Mal</strong> auf die Build-Nummer, um den Entwicklermodus zu aktivieren."
