@@ -139,32 +139,31 @@ what_pullquote: "Αν ένας προγραμματιστής δεν συμμο�
 # act_google_text: "If you know something about the program's technical implementation or internal rationale, contact <a href=\"mailto:tips@keepandroidopen.org\">tips@keepandroidopen.org</a> from a <em>non-work</em> m..."
 
 # Voices section
-# voices_heading: "What they're saying"
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
+voices_heading: "Τι λένε"
+voices_press: "Τεχνολογικοί ημοσιογράφοι"
+voices_editorials: "Εκδοτικά σημειώματα & ανάλυση"
+voices_orgs: "Οργανισμοί & ανοικτές επιστολές"
+voices_creators: "YouTuber & δημιουργοί"
+voices_community: "Προγραμματιστές & κοινότητα"
+voices_petition: "Φωνές απο την αίτηση"
+voices_more: "Όλες οι αναφορές, εκδοτικές σημειώσει, δημοσιογραφική κάληψη, και βίντεο"
 
 # Signatories section
-# signatories_heading: "All those opposed&hellip;"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
+signatories_heading: "Ολοί οσοι αντιτίθενται&hellip;"
+signatories_count: "{count} οργανισμοί από {countries} χώρες έχουν υπογράψει την"
+signatories_open_letter_link: "ανοικτή επιστολή"
+signatories_more: "Διάβασε ολόκληρη την ανοικτή επιστολή και ευχαρίστησε τους υπογράφοντες"
 
 # CTA banners
 cta_action_label: "Πάρε Δράση"
 cta_action_desc: "Ολόκληρη η λίστα υλικού, στοιχεία επικοινωνίας με νομοθέτες, links για κάθε χώρα, και πως να αντισταθείς"
-cta_letter_label: "Ανοικτό Μήνυμα"
-cta_letter_desc: "Διάβασε το ανοικτό μήνυμα που έχει υπογραφεί απο οργανισμούς ενάντια στην ταυτοποιήση προγραμματιστών"
+cta_letter_label: "Ανοικτή Επιστολή"
+cta_letter_desc: "Διάβασε η ανοικτή επιστολή που έχει υπογραφεί απο οργανισμούς ενάντια στην ταυτοποιήση προγραμματιστών"
 
 # Closing
 closing_line1: "Εσύ αγόρασες το κινητό σου."
 closing_line2: "Εσύ πρέπει να αποφασίσεις τι τρέχει σε αυτό."
 closing_detail: "Αυτό δεν θα έπρεπε να χρειάζεται μια διαδικασία 9 βημάτων, μια εικοσιτετράωρη αναμονή, και την εξακολουθητική άδεια της Google."
-closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 closing_cta: "Μοιράσου αυτήν την σελίδα. Μην κάνεις εγγραφή. Μην τους επιτρέψεις να κλειδώσουν το Android."
 closing_share_heading: "Μοίρασε το μήνυμα"
 
@@ -205,7 +204,7 @@ spread_label_facebook: "Facebook"
 # Footer
 footer_get_involved: "Εμπλέξου"
 footer_take_action: "Πάρε δράση & υλικό"
-footer_open_letter: "Ανοικτό γράμμα"
+footer_open_letter: "Ανοικτή Επιστολή"
 footer_add_banner: "Πρόσθεσε την banner αντίστροφης μέτρησης"
 footer_sign_petition: "Υπέγραψε την αίτηση"
 footer_contact: "Επικοινωνία"
