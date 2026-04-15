@@ -151,9 +151,9 @@ obj_cost_a: >-
 act_heading: "Wehrt euch"
 act_everyone_heading: "Alle"
 act_fdroid: >-
-  <strong><a href=\"https://f-droid.org\" target=\"_blank\">Installiere F-Droid &#8599;</a></strong> auf jedem Deiner Android-Geräte. Alternative App-Stores können nur überleben, wenn sie auch genutzt werden.
+  <strong><a href="https://f-droid.org" target="_blank">Installiere F-Droid &#8599;</a></strong> auf jedem Deiner Android-Geräte. Alternative App-Stores können nur überleben, wenn sie auch genutzt werden.
 act_regulators:  >-
-  <strong><a href=\"/cta/#consumers\">Wende Dich an Deine Aufsichtsbehörde.</a></strong> Aufsichtsbehörden weltweit sind ernsthaft besorgt über Monopole und die Machtkonzentration im Technologiesektor
+  <strong><a href="/cta/#consumers">Wende Dich an Deine Aufsichtsbehörde.</a></strong> Aufsichtsbehörden weltweit sind ernsthaft besorgt über Monopole und die Machtkonzentration im Technologiesektor
   und möchten direkt von Betroffenen und besorgten Personen hören.
 act_share: >-
   <strong>Teile diese Seite.</strong> Setze einen Link zu <a href="https://keepandroidopen.org">keepandroidopen.org</a> überall.
