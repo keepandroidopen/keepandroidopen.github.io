@@ -124,7 +124,7 @@ obj_security_q: "\"...nur zur Sicherheit?\""
 obj_security_a: >-
   Die Sicherheitsbegründung ist ein Vorwand. Google Play Protect scannt bereits unabhängig von der Entwickleridentität nach Malware. Die Pflicht zur Vorlage eines amtlichen Ausweises macht den Code
   nicht sicherer. Sie macht Entwickler identifizierbar und kontrollierbar. Malware-Autoren können sich registrieren. Indie-Entwickler und Dissidenten hingegen oft nicht.
-  Die <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF &#8599;</a> (Economic Freedom Fighters)
+  Die <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF &#8599;</a> (Economic Frontier Foundation)
   bringt es auf den Punkt: identitätsbasierte Zugangskontrolle ist ein Instrument der Zensur, nicht der Sicherheit.
 obj_sideloading_q: "\"...wird das auch bei Verwendung des erweiterten Ablaufs noch per Sideloading erfolgen?\""
 obj_sideloading_a: >-
