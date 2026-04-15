@@ -23,6 +23,7 @@ heading:
   zh-TW: "其他"
   ja: "その他"
   vi: "Linh tinh"
+  fi: "Sekalaiset"
 
 items:
   - text: "Android Developer Verification Discourse"

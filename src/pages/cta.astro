@@ -1,0 +1,17 @@
+---
+import { getCollection } from 'astro:content';
+import Default from '../layouts/Default.astro';
+import SharedLinks from '../components/SharedLinks.astro';
+import Regulators from '../components/Regulators.astro';
+
+const pages = await getCollection('pages');
+const entry = pages.find((p) => p.slug === 'en');
+if (!entry) throw new Error('English content not found');
+const { Content } = await entry.render();
+const { data } = entry;
+---
+<Default {...data}>
+  <Content />
+  <Regulators locale="en" />
+  <SharedLinks locale="en" />
+</Default>

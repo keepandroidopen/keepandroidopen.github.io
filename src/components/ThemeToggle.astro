@@ -16,6 +16,12 @@
 </button>
 
 <style>
+  /*!
+   * @license magnet:?xt=urn:btih:8e4f440f4c65981c5bf93c76d35135ba5064d8b7&dn=apache-2.0.txt Apache-2.0
+   * Keep Android Open – Theme Toggle Styles
+   * Copyright 2025-2026 Keep Android Open Contributors
+   * SPDX-License-Identifier: Apache-2.0
+   */
   #theme-toggle {
     color: var(--pico-text);
     background: none;
@@ -30,6 +36,12 @@
 </style>
 
 <script is:inline>
+  /**
+   * @license magnet:?xt=urn:btih:8e4f440f4c65981c5bf93c76d35135ba5064d8b7&dn=apache-2.0.txt Apache-2.0
+   * Keep Android Open – Theme Toggle
+   * Copyright 2025–2026 Keep Android Open Contributors
+   * SPDX-License-Identifier: Apache-2.0
+   */
   const themeToggle = document.getElementById('theme-toggle');
   const htmlElement = document.documentElement;
   const moonIcon = document.getElementById('moon-icon');
@@ -67,4 +79,5 @@
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     applyTheme(newTheme);
   });
+  // @license-end
 </script>

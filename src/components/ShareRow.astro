@@ -1,0 +1,115 @@
+---
+/**
+ * Social media share buttons row.
+ * Dynamic random message selection on the client side.
+ * Class names avoid "share", "social", "btn" which trigger ad-blocker rules.
+ * SVG icons are inline to avoid external URL pattern-matching by blockers.
+ */
+interface Props {
+  t: Record<string, string>;
+}
+
+const { t } = Astro.props;
+const siteUrl = 'https://keepandroidopen.org';
+
+// Helper to get all variants for a prefix
+function getVariants(prefix: string): string[] {
+  const variants = [];
+  for (let i = 1; i <= 10; i++) {
+    const key = `${prefix}${i}`;
+    if (t[key]) variants.push(t[key]);
+  }
+  return variants;
+}
+
+const xVariants = getVariants('social_callout_x_');
+const mastoVariants = getVariants('social_callout_mastodon_');
+const bskyVariants = getVariants('social_callout_bluesky_');
+const fbVariants = getVariants('social_callout_facebook_');
+const liVariants = getVariants('social_callout_linkedin_');
+
+// Initial server-side pick for no-JS fallback
+const initialX = (xVariants[0] || '').replace('{url}', siteUrl);
+const initialMasto = (mastoVariants[0] || '').replace('{url}', siteUrl);
+const initialBsky = (bskyVariants[0] || '').replace('{url}', siteUrl);
+const initialFb = (fbVariants[0] || '').replace('{url}', siteUrl);
+const initialLi = (liVariants[0] || '').replace('{url}', siteUrl);
+
+const xUrl = `https://x.com/intent/tweet?text=${encodeURIComponent(initialX)}`;
+const mastoUrl = `https://share.joinmastodon.org/?text=${encodeURIComponent(initialMasto)}`;
+const bskyUrl = `https://bsky.app/intent/compose?text=${encodeURIComponent(initialBsky)}`;
+const liUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(siteUrl)}`;
+const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(siteUrl)}&quote=${encodeURIComponent(initialFb)}`;
+---
+
+<div class="spread-row" data-url={siteUrl}>
+  <a class="spread-pill spread-xcom" href={xUrl} target="_blank" rel="noopener" data-variants={JSON.stringify(xVariants)}>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+    <span>{t.spread_label_x || 'Post on X'}</span>
+  </a>
+  <a class="spread-pill spread-masto" href={mastoUrl} target="_blank" rel="noopener" data-variants={JSON.stringify(mastoVariants)}>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M21.327 8.566c0-4.339-2.843-5.61-2.843-5.61-1.433-.658-3.894-.935-6.451-.956h-.063c-2.557.021-5.016.298-6.45.956 0 0-2.843 1.272-2.843 5.61 0 .993-.019 2.181.012 3.441.103 4.243.778 8.425 4.701 9.463 1.809.479 3.362.579 4.612.51 2.268-.126 3.541-.814 3.541-.814l-.075-1.646s-1.621.511-3.441.449c-1.804-.062-3.707-.194-3.999-2.409a4.523 4.523 0 0 1-.04-.621s1.77.432 4.014.535c1.372.063 2.658-.08 3.965-.236 2.506-.299 4.688-1.843 4.962-3.254.434-2.224.398-5.424.398-5.424zm-3.353 5.59h-2.081V9.057c0-1.075-.452-1.62-1.357-1.62-1 0-1.501.647-1.501 1.927v2.792h-2.069V9.364c0-1.28-.501-1.927-1.502-1.927-.904 0-1.357.545-1.357 1.62v5.099H6.026V8.903c0-1.074.273-1.927.823-2.558.566-.631 1.307-.955 2.228-.955 1.065 0 1.872.41 2.405 1.228l.518.869.519-.869c.533-.818 1.34-1.228 2.405-1.228.92 0 1.662.324 2.228.955.549.631.822 1.484.822 2.558z"/></svg>
+    <span>{t.spread_label_mastodon || 'Post on Mastodon'}</span>
+  </a>
+  <a class="spread-pill spread-bsky" href={bskyUrl} target="_blank" rel="noopener" data-variants={JSON.stringify(bskyVariants)}>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12 10.8c-1.087-2.114-4.046-6.053-6.798-7.995C2.566.944 1.561 1.266.902 1.565.139 1.908 0 3.08 0 3.768c0 .69.378 5.65.624 6.479.785 2.627 3.6 3.476 6.158 3.13-4.295.59-7.063 2.546-4.155 7.394 3.166 4.907 6.161-.418 7.373-3.08C10.39 17.19 10.93 16 12 16s1.61 1.19 2 1.69c1.212 2.663 4.207 7.988 7.373 3.08 2.908-4.848.14-6.804-4.155-7.394 2.558.346 5.373-.503 6.158-3.13C23.622 9.418 24 4.458 24 3.768c0-.69-.139-1.861-.902-2.203-.659-.3-1.664-.62-4.3 1.24C16.046 4.748 13.087 8.687 12 10.8"/></svg>
+    <span>{t.spread_label_bluesky || 'Post on Bluesky'}</span>
+  </a>
+  <a class="spread-pill spread-lnkd" href={liUrl} target="_blank" rel="noopener" data-variants={JSON.stringify(liVariants)}>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"/></svg>
+    <span>{t.spread_label_linkedin || 'LinkedIn'}</span>
+  </a>
+  <a class="spread-pill spread-fb" href={fbUrl} target="_blank" rel="noopener" data-variants={JSON.stringify(fbVariants)}>
+    <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 0 1 1-1h3v-4h-3a5 5 0 0 0-5 5v2.01h-2l-.396 3.98h2.396v8.01Z"/></svg>
+    <span>{t.spread_label_facebook || 'Facebook'}</span>
+  </a>
+</div>
+
+<script is:inline>
+/**
+ * @license magnet:?xt=urn:btih:8e4f440f4c65981c5bf93c76d35135ba5064d8b7&dn=apache-2.0.txt Apache-2.0
+ * Keep Android Open – Dynamic Social Sharing
+ * Copyright 2025-2026 Keep Android Open Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+(function() {
+  function ready(fn) {
+    if (document.readyState === 'complete') fn();
+    else window.addEventListener('load', fn);
+  }
+
+  ready(function() {
+    document.querySelectorAll('.spread-row').forEach(function(row) {
+      var siteUrl = row.getAttribute('data-url');
+      
+      row.querySelectorAll('.spread-pill').forEach(function(pill) {
+        pill.addEventListener('click', function(e) {
+          var variantsJson = pill.getAttribute('data-variants');
+          if (!variantsJson) return;
+          var variants = JSON.parse(variantsJson);
+          if (!variants || variants.length === 0) return;
+          
+          var pick = variants[Math.floor(Math.random() * variants.length)];
+          var msg = pick.replace(/{url}/g, siteUrl);
+          var href = '';
+          
+          if (pill.classList.contains('spread-xcom')) {
+            href = 'https://x.com/intent/tweet?text=' + encodeURIComponent(msg);
+          } else if (pill.classList.contains('spread-masto')) {
+            href = 'https://share.joinmastodon.org/?text=' + encodeURIComponent(msg);
+          } else if (pill.classList.contains('spread-bsky')) {
+            href = 'https://bsky.app/intent/compose?text=' + encodeURIComponent(msg);
+          } else if (pill.classList.contains('spread-lnkd')) {
+            href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(siteUrl);
+          } else if (pill.classList.contains('spread-fb')) {
+            href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(siteUrl) + '&quote=' + encodeURIComponent(msg);
+          }
+          
+          if (href) pill.setAttribute('href', href);
+        });
+      });
+    });
+  });
+})();
+// @license-end
+</script>

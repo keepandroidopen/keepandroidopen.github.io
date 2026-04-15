@@ -1,0 +1,87 @@
+---
+/**
+ * Infinite horizontally scrolling ticker using CSS animation.
+ * Two copies of the content sit side-by-side and translate continuously.
+ * Hover pause is pure CSS (:hover) to avoid JS-induced animation jumps.
+ * JS handles: touch pause with 10s resume, and per-card colors.
+ */
+interface Props {
+  direction?: 'left' | 'right';
+  variant?: string;
+  /** Seconds for one full cycle. Longer = slower. */
+  duration?: number;
+}
+
+const { direction = 'left', variant = 'press', duration = 60 } = Astro.props;
+const animName = direction === 'right' ? 'ticker-scroll-right' : 'ticker-scroll-left';
+// Add ±10% random jitter so tickers don't appear perfectly synchronized
+const jitter = duration * (0.9 + Math.random() * 0.2);
+const actualDuration = Math.round(jitter);
+---
+
+<div class={`ticker ticker-${variant}`} data-direction={direction}>
+  <div class="ticker-track" style={`animation: ${animName} ${actualDuration}s linear infinite;`}>
+    <div class="ticker-half">
+      <slot />
+    </div>
+    <div class="ticker-half" aria-hidden="true">
+      <slot />
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+/**
+ * @license magnet:?xt=urn:btih:8e4f440f4c65981c5bf93c76d35135ba5064d8b7&dn=apache-2.0.txt Apache-2.0
+ * Keep Android Open – Quote Ticker
+ * Copyright 2025-2026 Keep Android Open Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+(function() {
+  if (window.__tickerV4) return;
+  window.__tickerV4 = true;
+
+  var TOUCH_PAUSE_MS = 10000;
+  var PALETTE = [
+    {h:207,s:70},{h:220,s:65},{h:190,s:60},{h:260,s:55},{h:340,s:60},
+    {h:15,s:65},{h:170,s:50},{h:280,s:50},{h:45,s:55},{h:150,s:45}
+  ];
+
+  function ready(fn) {
+    if (document.readyState === 'complete') fn();
+    else window.addEventListener('load', fn);
+  }
+
+  ready(function() {
+    // Assign per-card colors
+    document.querySelectorAll('.ticker-card').forEach(function(card) {
+      if (card.getAttribute('data-color')) {
+        card.style.setProperty('--tc-accent', card.getAttribute('data-color'));
+        return;
+      }
+      var text = card.textContent || '';
+      var hash = 0;
+      for (var i = 0; i < text.length; i++) hash = ((hash << 5) - hash + text.charCodeAt(i)) | 0;
+      var p = PALETTE[Math.abs(hash) % PALETTE.length];
+      card.style.setProperty('--tc-h', String(p.h));
+      card.style.setProperty('--tc-s', p.s + '%');
+    });
+
+    // Touch-only pause (mouse hover is handled by pure CSS)
+    document.querySelectorAll('.ticker').forEach(function(el) {
+      var track = el.querySelector('.ticker-track');
+      if (!track) return;
+      var touchTimer = null;
+
+      el.addEventListener('touchstart', function() {
+        track.style.animationPlayState = 'paused';
+        if (touchTimer) clearTimeout(touchTimer);
+        touchTimer = setTimeout(function() {
+          track.style.animationPlayState = '';
+        }, TOUCH_PAUSE_MS);
+      }, {passive: true});
+    });
+  });
+})();
+// @license-end
+</script>

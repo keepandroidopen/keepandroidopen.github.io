@@ -1,0 +1,77 @@
+---
+/**
+ * Shared signatory list component used by both the landing page and open letter.
+ *
+ * Props:
+ *   mode: "compact" (landing page - no social links, lighter)
+ *         "full"    (open letter - social share buttons, numbered)
+ */
+import signatures from '../data/signatures.yaml';
+import { regionFlag, logoPath, xDraftUrl, bskyDraftUrl, mastodonDraftUrl, linkedinDraftUrl } from '../lib/signatures';
+
+interface Props {
+  mode: 'compact' | 'full';
+}
+
+const { mode } = Astro.props;
+const countryCount = new Set(signatures.map((s: any) => s.region).filter(Boolean)).size;
+---
+
+<div class={`signatories signatories-${mode}`} id="signatories">
+  {mode === 'compact' && <div class="sig-rule"></div>}
+  {mode === 'full' && <div class="sig-rule"></div>}
+
+  {mode === 'compact'
+    ? <h2>All those opposed&hellip;</h2>
+    : <h2>Signatories</h2>
+  }
+
+  <p class="sig-count">
+    {signatures.length} organizations from {countryCount} countries
+    {mode === 'compact' && <> have signed the <a href="/open-letter">open letter</a></>}
+  </p>
+
+  <ol>
+    {signatures.map((sig: any) => (
+      <li>
+        <img class="sig-logo" src={logoPath(sig.url)} alt={`${sig.organization} logo`} loading="lazy" />
+        <div class="sig-details">
+          <span class="sig-name">{sig.organization}</span>
+          <span class="sig-links">
+            <a target="_blank" href={`https://${sig.url}`}>
+              {sig.url}<span class="sig-flag">{regionFlag(sig.region)}</span>
+            </a>
+            {mode === 'full' && sig["social-mastodon"] && (
+              <a class="sig-social" target="_blank" href={mastodonDraftUrl(sig.organization, sig["social-mastodon"])} title="Thank this organization on Mastodon">
+                <span class="social-icon icon-mastodon" style="width:14px;height:14px"></span>
+              </a>
+            )}
+            {mode === 'full' && sig["social-bluesky"] && (
+              <a class="sig-social" target="_blank" href={bskyDraftUrl(sig.organization, sig["social-bluesky"])} title="Thank this organization on BlueSky">
+                <span class="social-icon icon-bluesky" style="width:14px;height:14px"></span>
+              </a>
+            )}
+            {mode === 'full' && sig["social-x"] && (
+              <a class="sig-social" target="_blank" href={xDraftUrl(sig.organization, sig["social-x"])} title="Thank this organization on X">
+                <span class="social-icon icon-x" style="width:14px;height:14px"></span>
+              </a>
+            )}
+            {mode === 'full' && sig["social-linkedin"] && (
+              <a class="sig-social" target="_blank" href={linkedinDraftUrl(sig.organization, sig["social-linkedin"])} title="Thank this organization on LinkedIn">
+                <span class="social-icon icon-linkedin" style="width:14px;height:14px"></span>
+              </a>
+            )}
+          </span>
+        </div>
+      </li>
+    ))}
+  </ol>
+
+  <div class="sig-rule"></div>
+
+  {mode === 'compact' && (
+    <p style="text-align:center; margin-top: 1rem;">
+      <a href="/open-letter" class="more-link">Read the full open letter and thank the signatories &rarr;</a>
+    </p>
+  )}
+</div>

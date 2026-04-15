@@ -1,6 +1,6 @@
 export const languages = {
   // English (default)
-  "en": { label: "English", path: "/" },
+  "en": { label: "English", path: "/en/" },
 
   // Western European – Romance
   "fr": { label: "Français", path: "/fr/" },
@@ -19,10 +19,13 @@ export const languages = {
   "pl": { label: "Polski", path: "/pl/" },
   "cs": { label: "Čeština", path: "/cs/" },
   "sk": { label: "Slovenčina", path: "/sk/" },
+  "sq": { label: "Shqip", path: "/sq/" },
   "el": { label: "Ελληνικά", path: "/el/" },
   "ru": { label: "Русский", path: "/ru/" },
   "uk": { label: "Українська", path: "/uk/" },
   "hu": { label: "Magyar", path: "/hu/" },
+  "bg": { label: "Български", path: "/bg/" },
+  "be": { label: "Беларуская", path: "/be/" },
 
   // Turkic & Central Asian
   "tr": { label: "Türkçe", path: "/tr/" },

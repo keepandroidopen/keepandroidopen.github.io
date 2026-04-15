@@ -1,28 +1,16 @@
 ---
-import { getCollection } from 'astro:content';
-import Default from '../../layouts/Default.astro';
-import SharedLinks from '../../components/SharedLinks.astro';
-import Regulators from '../../components/Regulators.astro';
+/**
+ * Localized landing page at /{locale}/
+ * All content comes from the shared Landing layout.
+ */
+import Landing from '../../layouts/Landing.astro';
+import { languages } from '../../i18n/config';
 
-export async function getStaticPaths() {
-  const pages = await getCollection('pages');
-  return pages
-    .filter((page) => page.slug !== 'en')
-    .filter((page) => page.slug !== 'letter')
-    .filter((page) => page.slug !== 'banner')
-    .map((page) => {
-      // Use id (preserves original case: pt-BR, zh-CN, zh-TW)
-      const locale = page.id.replace('/index.md', '');
-      return { params: { locale }, props: { entry: page } };
-    });
+export function getStaticPaths() {
+  return Object.entries(languages)
+    .map(([code]) => ({ params: { locale: code } }));
 }
 
-const { entry } = Astro.props;
-const { Content } = await entry.render();
-const { data } = entry;
+const { locale } = Astro.params;
 ---
-<Default {...data}>
-  <Content />
-  <Regulators locale={data.lang} />
-  <SharedLinks locale={data.lang} />
-</Default>
+<Landing locale={locale!} />

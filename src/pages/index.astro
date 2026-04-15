@@ -1,17 +1,51 @@
 ---
-import { getCollection } from 'astro:content';
-import Default from '../layouts/Default.astro';
-import SharedLinks from '../components/SharedLinks.astro';
-import Regulators from '../components/Regulators.astro';
+/**
+ * Root landing page at /
+ * Renders the English landing page with an auto-redirect script that
+ * sends non-English browsers to their locale-specific landing page.
+ * The actual page content is in src/layouts/Landing.astro.
+ */
+import Landing from '../layouts/Landing.astro';
+import { languages } from '../i18n/config';
 
-const pages = await getCollection('pages');
-const entry = pages.find((p) => p.slug === 'en');
-if (!entry) throw new Error('English content not found');
-const { Content } = await entry.render();
-const { data } = entry;
+// Build a JSON map of supported locale codes → paths for the redirect script
+const localePaths = Object.fromEntries(
+  Object.entries(languages)
+    .filter(([code]) => code !== 'en')
+    .map(([code, { path }]) => [code.toLowerCase(), path])
+);
 ---
-<Default {...data}>
-  <Content />
-  <Regulators locale="en" />
-  <SharedLinks locale="en" />
-</Default>
+<Landing locale="en">
+  <script slot="head" set:html={`
+/**
+ * @license magnet:?xt=urn:btih:8e4f440f4c65981c5bf93c76d35135ba5064d8b7&dn=apache-2.0.txt Apache-2.0
+ * Keep Android Open – Browser Language Redirect
+ * Copyright 2025-2026 Keep Android Open Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+(function() {
+  var paths = ${JSON.stringify(localePaths)};
+  function matchLang(tag) {
+    if (!tag) return null;
+    var t = tag.toLowerCase();
+    if (paths[t]) return paths[t];
+    var prefix = t.split('-')[0];
+    for (var code in paths) {
+      if (code === prefix || code.split('-')[0] === prefix) {
+        return paths[code];
+      }
+    }
+    return null;
+  }
+  var langs = navigator.languages || [navigator.language || ''];
+  var dest = null;
+  for (var i = 0; i < langs.length; i++) {
+    dest = matchLang(langs[i]);
+    if (dest) break;
+    if (i === 0 && langs[i].toLowerCase().split('-')[0] === 'en') break;
+  }
+  if (dest) window.location.replace(dest);
+})();
+// @license-end
+`} />
+</Landing>

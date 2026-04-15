@@ -1,0 +1,100 @@
+---
+/**
+ * Dropdown language picker for the landing page.
+ * Uses a simple div-based menu (no ul/li) for maximum Safari compatibility.
+ * Client-side JS detects the browser language and promotes the match to the top.
+ */
+import { languages } from '../i18n/config';
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+const currentLabel = languages[locale as keyof typeof languages]?.label ?? 'English';
+const entries = Object.entries(languages) as [string, { label: string; path: string }][];
+---
+
+<div class="lang-picker" data-current={locale}>
+  <button class="lang-picker-btn" type="button" aria-expanded="false">
+    <span class="lang-picker-globe">&#127760;</span>
+    <span class="lang-picker-label">{currentLabel}</span>
+    <span class="lang-picker-caret">&#9662;</span>
+  </button>
+  <div class="lang-picker-menu">
+    {entries.map(([code, { label, path }]) => (
+      <a href={path} data-lang={code} class:list={['lang-picker-item', code === locale && 'lang-current']}>
+        <span class="lang-picker-item-label">{label}</span>
+        {code === locale && <span class="lang-picker-check">&#10003;</span>}
+      </a>
+    ))}
+  </div>
+</div>
+
+<script is:inline>
+/**
+ * @license magnet:?xt=urn:btih:8e4f440f4c65981c5bf93c76d35135ba5064d8b7&dn=apache-2.0.txt Apache-2.0
+ * Keep Android Open – Language Picker
+ * Copyright 2025–2026 Keep Android Open Contributors
+ * SPDX-License-Identifier: Apache-2.0
+ */
+(function() {
+  document.querySelectorAll('.lang-picker-btn').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.stopPropagation();
+      var menu = btn.parentElement.querySelector('.lang-picker-menu');
+      var isOpen = menu.classList.contains('is-open');
+      // Close any other open pickers first
+      document.querySelectorAll('.lang-picker-menu.is-open').forEach(function(m) { m.classList.remove('is-open'); });
+      document.querySelectorAll('.lang-picker-btn').forEach(function(b) { b.setAttribute('aria-expanded', 'false'); });
+      if (!isOpen) {
+        menu.classList.add('is-open');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.lang-picker')) {
+      document.querySelectorAll('.lang-picker-menu.is-open').forEach(function(m) { m.classList.remove('is-open'); });
+      document.querySelectorAll('.lang-picker-btn').forEach(function(b) { b.setAttribute('aria-expanded', 'false'); });
+    }
+  });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      document.querySelectorAll('.lang-picker-menu.is-open').forEach(function(m) { m.classList.remove('is-open'); });
+      document.querySelectorAll('.lang-picker-btn').forEach(function(b) { b.setAttribute('aria-expanded', 'false'); });
+    }
+  });
+
+  // Detect browser language and promote matching entry to top
+  var browserLang = (navigator.language || '').toLowerCase();
+  document.querySelectorAll('.lang-picker').forEach(function(picker) {
+    var current = picker.getAttribute('data-current');
+    var menu = picker.querySelector('.lang-picker-menu');
+    if (!menu) return;
+    var items = Array.from(menu.querySelectorAll('.lang-picker-item'));
+    var match = null;
+
+    // Exact match first, then prefix match
+    for (var i = 0; i < items.length; i++) {
+      var code = (items[i].getAttribute('data-lang') || '').toLowerCase();
+      if (code === browserLang) { match = items[i]; break; }
+    }
+    if (!match) {
+      var prefix = browserLang.split('-')[0];
+      for (var i = 0; i < items.length; i++) {
+        var code = (items[i].getAttribute('data-lang') || '').toLowerCase();
+        if (code === prefix || code.split('-')[0] === prefix) { match = items[i]; break; }
+      }
+    }
+
+    if (match && match.getAttribute('data-lang') !== current) {
+      match.classList.add('lang-detected');
+      menu.insertBefore(match, menu.firstChild);
+    }
+  });
+})();
+// @license-end
+</script>

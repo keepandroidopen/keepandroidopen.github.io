@@ -1,0 +1,30 @@
+---
+/**
+ * Localized CTA (Call to Action) page at /{locale}/cta/
+ * Renders the content collection markdown for the given locale.
+ */
+import { getCollection } from 'astro:content';
+import Default from '../../layouts/Default.astro';
+import SharedLinks from '../../components/SharedLinks.astro';
+import Regulators from '../../components/Regulators.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages
+    .filter((page) => page.slug !== 'letter')
+    .filter((page) => page.slug !== 'banner')
+    .map((page) => {
+      const locale = page.id.replace('/index.md', '');
+      return { params: { locale }, props: { entry: page } };
+    });
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+const { data } = entry;
+---
+<Default {...data}>
+  <Content />
+  <Regulators locale={data.lang} />
+  <SharedLinks locale={data.lang} />
+</Default>
