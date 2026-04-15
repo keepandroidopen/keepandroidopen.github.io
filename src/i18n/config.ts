@@ -19,6 +19,7 @@ export const languages = {
   "pl": { label: "Polski", path: "/pl/" },
   "cs": { label: "Čeština", path: "/cs/" },
   "sk": { label: "Slovenčina", path: "/sk/" },
+  "sr": { label: "Српски", path: "/sr/" },
   "sq": { label: "Shqip", path: "/sq/" },
   "el": { label: "Ελληνικά", path: "/el/" },
   "ru": { label: "Русский", path: "/ru/" },
