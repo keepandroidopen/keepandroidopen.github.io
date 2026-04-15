@@ -16,17 +16,16 @@
 #   4. Keep YAML quoting intact: use double quotes for values that contain
 #      special characters. For long values, use >- for folded scalars.
 #
-#   5. Submit your changes as a pull request on GitHub.
+#   5. Validate your file at https://onlineyamltools.com/validate-yaml
+#      The file must be valid YAML and must NOT contain duplicate keys.
+#
+#   6. Submit your changes as a pull request on GitHub.
 #
 # IMPORTANT:
 #   Translations MAY be drafted with the assistance of a machine translation
 #   tool or LLM, but they MUST be reviewed and submitted by a NATIVE SPEAKER
 #   of the target language. We do not accept unreviewed machine translations.
 #   Fluency, natural phrasing, and cultural accuracy matter.
-#
-# Keys that are not present (or left as comments) will automatically fall
-# back to the English value from en.yaml.
-#
 # ==========================================================================
 
 #

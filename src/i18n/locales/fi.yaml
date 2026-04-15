@@ -16,17 +16,16 @@
 #   4. Keep YAML quoting intact: use double quotes for values that contain
 #      special characters. For long values, use >- for folded scalars.
 #
-#   5. Submit your changes as a pull request on GitHub.
+#   5. Validate your file at https://onlineyamltools.com/validate-yaml
+#      The file must be valid YAML and must NOT contain duplicate keys.
+#
+#   6. Submit your changes as a pull request on GitHub.
 #
 # IMPORTANT:
 #   Translations MAY be drafted with the assistance of a machine translation
 #   tool or LLM, but they MUST be reviewed and submitted by a NATIVE SPEAKER
 #   of the target language. We do not accept unreviewed machine translations.
 #   Fluency, natural phrasing, and cultural accuracy matter.
-#
-# Keys that are not present (or left as comments) will automatically fall
-# back to the English value from en.yaml.
-#
 # ==========================================================================
 
 # Active translations for this locale:
@@ -53,8 +52,6 @@ open_letter_cta: "Lue avoin kirjeemme, jossa vastustamme Android-kehittäjien va
 # ============================================================================
 
 # Meta
-# title: "Keep Android Open"
-# description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 
 # Hero
 # hero_lede: "Your phone is about to stop being yours."
@@ -213,11 +210,3 @@ open_letter_cta: "Lue avoin kirjeemme, jossa vastustamme Android-kehittäjien va
 # footer_translations: "Translations"
 # footer_languages: "English (+ 30 languages)"
 # footer_help_translate: "Help translate"
-# site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
-# site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
-# site_copyright: "**Copyright:** None. This work is marked"
-# contact_header: "Contact"
-# contact_email: "Email"
-# site_problems_header: "Problems"
-# site_report_issues: "Report Site Issues"
-# open_letter_cta: "Read our open letter opposing the Android Developer Verification program"

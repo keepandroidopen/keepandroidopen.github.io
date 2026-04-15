@@ -16,17 +16,16 @@
 #   4. Keep YAML quoting intact: use double quotes for values that contain
 #      special characters. For long values, use >- for folded scalars.
 #
-#   5. Submit your changes as a pull request on GitHub.
+#   5. Validate your file at https://onlineyamltools.com/validate-yaml
+#      The file must be valid YAML and must NOT contain duplicate keys.
+#
+#   6. Submit your changes as a pull request on GitHub.
 #
 # IMPORTANT:
 #   Translations MAY be drafted with the assistance of a machine translation
 #   tool or LLM, but they MUST be reviewed and submitted by a NATIVE SPEAKER
 #   of the target language. We do not accept unreviewed machine translations.
 #   Fluency, natural phrasing, and cultural accuracy matter.
-#
-# Keys that are not present (or left as comments) will automatically fall
-# back to the English value from en.yaml.
-#
 # ==========================================================================
 
 # Active translations for this locale:
@@ -55,25 +54,23 @@ open_letter_cta: "Διαβάστε την ανοιχτή επιστολή μας
 # ============================================================================
 
 # Meta
-# title: "Keep Android Open"
-# description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will <strong>block every Android app</strong> whose developer hasn't registered with Google, signed their contract, paid ..."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
+hero_lede: "Το κινητό σου σε λίγο δεν θα σου ανήκει πια."
+hero_countdown_label: "μέρες μέχρι το lockdown"
+hero_sub: "Από τον Σεπτέμβριο του 2026, μια αθόρυβη αναβάθμιση, που θα εγκαταστήσει η Google χωρίς συναίνεση, θα <strong>μπλοκάρει κάθε εφαρμογή Android</strong> της οποίας ο προγραμματιστής δεν έχει εγγραφεί στην Google, δεν έχει υπογράψει το συμβόλαιο της, δεν έχει πληρώσει και δεν έχει παραδώσει κρατικό έγγραφο ταυτοπροσωπίας."
+hero_kicker: "Κάθε εφαρμογή και κάθσε συσκευή, παγκοσμίως, χωρίς δυνατότητα άρνησης."
 
 # What Google is doing
-# what_heading: "What Google is doing"
+what_heading: "Τι κάνει η Google"
 # what_intro: "In August 2025, Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">announced &#8599;</a> a new requirement: starting September 2026, <strong>every Android app..."
-# what_registration: "Registration requires:"
-# what_req_fee: "Paying a fee to Google"
-# what_req_terms: "Agreeing to Google's Terms and Conditions"
-# what_req_id: "Surrendering your government-issued identification"
-# what_req_signing: "Providing evidence of your private signing key"
-# what_req_appids: "Listing all current and all future application identifiers"
-# what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+what_registration: "Η εγγραφή προϋποθέτει:"
+what_req_fee: "Πληρωμή χρέωσης στην Google"
+what_req_terms: "Συμφωνία με τους Όρους και Προϋποθέσεις της Google"
+what_req_id: "Παράδοση κρατικού εγγράφου ταυτοπροσωπίας"
+what_req_signing: "Παράδοση αποδείξης για το ιδιωτικό κλειδή υπογραφής"
+what_req_appids: "Απαρίθμηση όλων τον τωρινών και μελλοντικών αναγνωριστικών της εφαρογής"
+what_pullquote: "Αν ένας προγραμματιστής δεν συμμορφωθεί, οι εφαρμογές του μπλοκάρονται αθόρυβα σε όλες τις συσκευές Android παγκοσμίως."
 
 # Who this hurts
 # impact_heading: "Who this hurts"
@@ -142,33 +139,33 @@ open_letter_cta: "Διαβάστε την ανοιχτή επιστολή μας
 # act_google_text: "If you know something about the program's technical implementation or internal rationale, contact <a href=\"mailto:tips@keepandroidopen.org\">tips@keepandroidopen.org</a> from a <em>non-work</em> m..."
 
 # Voices section
-# voices_heading: "What they're saying"
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
+voices_heading: "Τι λένε"
+voices_press: "Τεχνολογικοί ημοσιογράφοι"
+voices_editorials: "Εκδοτικά σημειώματα & ανάλυση"
+voices_orgs: "Οργανισμοί & ανοικτές επιστολές"
+voices_creators: "YouTuber & δημιουργοί"
+voices_community: "Προγραμματιστές & κοινότητα"
+voices_petition: "Φωνές απο την αίτηση"
+voices_more: "Όλες οι αναφορές, εκδοτικές σημειώσει, δημοσιογραφική κάληψη, και βίντεο"
 
 # Signatories section
-# signatories_heading: "All those opposed&hellip;"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
+signatories_heading: "Ολοί οσοι αντιτίθενται&hellip;"
+signatories_count: "{count} οργανισμοί από {countries} χώρες έχουν υπογράψει την"
+signatories_open_letter_link: "ανοικτή επιστολή"
+signatories_more: "Διάβασε ολόκληρη την ανοικτή επιστολή και ευχαρίστησε τους υπογράφοντες"
 
 # CTA banners
-# cta_action_label: "Take Action"
-# cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
-# cta_letter_label: "Open Letter"
-# cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
+cta_action_label: "Πάρε Δράση"
+cta_action_desc: "Ολόκληρη η λίστα υλικού, στοιχεία επικοινωνίας με νομοθέτες, links για κάθε χώρα, και πως να αντισταθείς"
+cta_letter_label: "Ανοικτή Επιστολή"
+cta_letter_desc: "Διάβασε η ανοικτή επιστολή που έχει υπογραφεί απο οργανισμούς ενάντια στην ταυτοποιήση προγραμματιστών"
 
 # Closing
-# closing_line1: "You bought your phone."
-# closing_line2: "You should decide what runs on it."
-# closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
-# closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
+closing_line1: "Εσύ αγόρασες το κινητό σου."
+closing_line2: "Εσύ πρέπει να αποφασίσεις τι τρέχει σε αυτό."
+closing_detail: "Αυτό δεν θα έπρεπε να χρειάζεται μια διαδικασία 9 βημάτων, μια εικοσιτετράωρη αναμονή, και την εξακολουθητική άδεια της Google."
+closing_cta: "Μοιράσου αυτήν την σελίδα. Μην κάνεις εγγραφή. Μην τους επιτρέψεις να κλειδώσουν το Android."
+closing_share_heading: "Μοίρασε το μήνυμα"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal ..."
@@ -198,28 +195,20 @@ open_letter_cta: "Διαβάστε την ανοιχτή επιστολή μας
 # social_callout_facebook_5: "The EFF calls app gatekeeping \"a pathway to censorship.\" Google's developer verification would give a single company the ability to block any app, from any developer, on any certified device worl..."
 
 # Social button labels
-# spread_label_x: "Post on X"
-# spread_label_mastodon: "Post on Mastodon"
-# spread_label_bluesky: "Post on Bluesky"
-# spread_label_linkedin: "LinkedIn"
-# spread_label_facebook: "Facebook"
+spread_label_x: "Κάνε ανάρτηση στο X"
+spread_label_mastodon: "Κάνε ανάρτηση στο Mastodon"
+spread_label_bluesky: "Κάνε ανάρτηση στο Bluesky"
+spread_label_linkedin: "LinkedIn"
+spread_label_facebook: "Facebook"
 
 # Footer
-# footer_get_involved: "Get involved"
-# footer_take_action: "Take action & resources"
-# footer_open_letter: "Open letter"
-# footer_add_banner: "Add countdown banner"
-# footer_sign_petition: "Sign the petition"
-# footer_contact: "Contact"
-# footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
-# footer_help_translate: "Help translate"
-# site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
-# site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
-# site_copyright: "**Copyright:** None. This work is marked"
-# contact_header: "Contact"
-# contact_email: "Email"
-# site_problems_header: "Problems"
-# site_report_issues: "Report Site Issues"
-# open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
+footer_get_involved: "Εμπλέξου"
+footer_take_action: "Πάρε δράση & υλικό"
+footer_open_letter: "Ανοικτή Επιστολή"
+footer_add_banner: "Πρόσθεσε την banner αντίστροφης μέτρησης"
+footer_sign_petition: "Υπέγραψε την αίτηση"
+footer_contact: "Επικοινωνία"
+footer_report_issues: "Αναφορά θεμάτων με την ιστοσελίδα"
+footer_translations: "Μεταφράσεις"
+footer_languages: "Αγγλικά (+ 30 γλώσσες)"
+footer_help_translate: "Βοήθησε με την μετάφραση"

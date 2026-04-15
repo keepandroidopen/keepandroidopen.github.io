@@ -16,17 +16,16 @@
 #   4. Keep YAML quoting intact: use double quotes for values that contain
 #      special characters. For long values, use >- for folded scalars.
 #
-#   5. Submit your changes as a pull request on GitHub.
+#   5. Validate your file at https://onlineyamltools.com/validate-yaml
+#      The file must be valid YAML and must NOT contain duplicate keys.
+#
+#   6. Submit your changes as a pull request on GitHub.
 #
 # IMPORTANT:
 #   Translations MAY be drafted with the assistance of a machine translation
 #   tool or LLM, but they MUST be reviewed and submitted by a NATIVE SPEAKER
 #   of the target language. We do not accept unreviewed machine translations.
 #   Fluency, natural phrasing, and cultural accuracy matter.
-#
-# Keys that are not present (or left as comments) will automatically fall
-# back to the English value from en.yaml.
-#
 # ==========================================================================
 
 # Active translations for this locale:
@@ -74,25 +73,10 @@ what_pullquote: "Якщо розробник не буде дотримуват�
 # ============================================================================
 
 # Meta
-# title: "Keep Android Open"
-# description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will <strong>block every Android app</strong> whose developer hasn't registered with Google, signed their contract, paid ..."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
 
 # What Google is doing
-# what_heading: "What Google is doing"
-# what_intro: "In August 2025, Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">announced &#8599;</a> a new requirement: starting September 2026, <strong>every Android app..."
-# what_registration: "Registration requires:"
-# what_req_fee: "Paying a fee to Google"
-# what_req_terms: "Agreeing to Google's Terms and Conditions"
-# what_req_id: "Surrendering your government-issued identification"
-# what_req_signing: "Providing evidence of your private signing key"
-# what_req_appids: "Listing all current and all future application identifiers"
-# what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
 
 # Who this hurts
 # impact_heading: "Who this hurts"
@@ -234,11 +218,3 @@ what_pullquote: "Якщо розробник не буде дотримуват�
 # footer_translations: "Translations"
 # footer_languages: "English (+ 30 languages)"
 # footer_help_translate: "Help translate"
-# site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
-# site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
-# site_copyright: "**Copyright:** None. This work is marked"
-# contact_header: "Contact"
-# contact_email: "Email"
-# site_problems_header: "Problems"
-# site_report_issues: "Report Site Issues"
-# open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
