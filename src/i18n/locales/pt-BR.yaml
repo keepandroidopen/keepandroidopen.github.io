@@ -154,17 +154,17 @@ open_letter_cta: "Leia nossa carta aberta contra o programa de verificação de 
 # signatories_more: "Read the full open letter and thank the signatories"
 
 # CTA banners
-# cta_action_label: "Take Action"
-# cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
-# cta_letter_label: "Open Letter"
-# cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
+cta_action_label: "Entre em ação"
+cta_action_desc: "Lista completa de recursos, contatos das autoridades reguladoras, links de cada país e como reagir"
+cta_letter_label: "Carta Aberta"
+cta_letter_desc: "Leia a carta aberta assinada por organizações que se opõem à verificação de desenvolvedor"
 
 # Closing
-# closing_line1: "You bought your phone."
-# closing_line2: "You should decide what runs on it."
-# closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
-# closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
+closing_line1: "Você comprou seu celular."
+closing_line2: "Você deve decidir o que é executado nele."
+closing_detail: "Isso não deveria exigir um processo de 9 etapas, uma espera de 24 horas e a autorização contínua do Google."
+closing_cta: "Compartilhe esta página. Não se registre. Não deixe que fechem o Android."
+closing_share_heading: "Divulgue a notícia"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal ..."
