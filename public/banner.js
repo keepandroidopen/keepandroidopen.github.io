@@ -50,7 +50,7 @@
     tr:      "Android k\u0131s\u0131tl\u0131 bir platform haline gelecek.",
     uk:      "Android \u0441\u0442\u0430\u043D\u0435 \u0437\u0430\u043A\u0440\u0438\u0442\u043E\u044E \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u043E\u044E",
     "zh-CN": "\u5B89\u5353\u5C06\u6210\u4E3A\u4E00\u4E2A\u5C01\u95ED\u5E73\u53F0",
-    "zh-TW": "Android \u5C07\u621 0\u70BA\u4E00\u500B\u5C01\u9589\u5E73\u53F0",
+    "zh-TW": "Android \u5C07\u6210\u70BA\u4E00\u500B\u5C01\u9589\u5E73\u53F0",
     ja:      "Androidは閉鎖的なプラットフォームになろうとしています",
     fi:      "Androidista tulee suljettu alusta",
     hu:      "Az Android egy lezárt platform lesz",
