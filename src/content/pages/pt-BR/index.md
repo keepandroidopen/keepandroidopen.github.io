@@ -72,6 +72,8 @@ Se você é um desenvolvedor de aplicativo, _**não se inscreva**_ no programa d
 
 Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreverem no programa. Use fóruns comunitários, mídias sociais e postagens em blogs para espalhar a mensagem. Inclua a [biblioteca FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) no seu código para informar os usuários do seu aplicativo.
 
+Se você é um funcionário ou prestador de serviços do Google com consciência boa e possui informações adicionais sobre o programa, incluindo detalhes sobre a implementação técnica planejada ou justificativas adicionais para o programa, entre em contato com [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) a partir de um computador _que não seja do trabalho_ e de uma conta _que não seja do Gmail_. Suas informações serão mantidas em sigilo absoluto.
+
 ### Todos: Faça sua voz ser ouvida {#everyone}
 
 - [Instale a F-Droid](https://f-droid.org) em seus dispositivos Android. Quanto mais gente usando lojas alternativas de aplicativos, mais difícil será de desligá-las.
