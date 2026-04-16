@@ -89,26 +89,31 @@ impact_gov_p2: >-
   A <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF considera </a> controles de acesso à aplicativos "um caminho cada vez mais fácil para a censura na internet".
 
 # Advanced flow
-# flow_heading: "Google's \"escape hatch\" is a trap door"
-# flow_intro: "Google says \"power users\" can <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">\"still install\"</a> unverified apps. Here's wha..."
-# flow_step1: "Delve into System Settings, find Developer Options"
-# flow_step2: "Tap the build number <strong>seven times</strong> to enable Developer Mode"
-# flow_step3: "Dismiss scare screens about coercion"
-# flow_step4: "Enter your PIN"
-# flow_step5: "Restart the device"
-# flow_step6: "<strong>Wait 24 hours</strong>"
-# flow_step7: "Come back, dismiss more scare screens"
-# flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
-# flow_step9: "Confirm, again, that you understand \"the risks\""
-# flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. <em>For installing software on a device you own.</em>"
-# flow_detail: "Worse: this flow runs entirely through <strong>Google Play Services</strong>, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent..."
+flow_heading: "A \"saída de emergência\" do Google é uma armadilha"
+flow_intro: >-
+  O Google afirma que os "usuários avançados" podem <a href="https://android-developers.googleblog.com/2026/03/android-developer-verification.html" target="_blank">"ainda instalar"</a> aplicativos não verificados. Veja como isso <i>realmente</i> funciona:
+flow_step1: "Acesse as Configurações do Sistema e localize as Opções de Desenvolvedor"
+flow_step2: "Toque no número da versão <strong>sete vezes</strong> para ativar o Modo de Desenvolvedor"
+flow_step3: "Ignore os alertas alarmistas sobre coerção"
+flow_step4: "Digite seu PIN"
+flow_step5: "Reinicie o dispositivo"
+flow_step6: "<strong>Aguarde por 24 horas</strong>"
+flow_step7: "Volte, feche mais telas de alerta"
+flow_step8: "Escolha entre \"permitir temporariamente\" (7 dias) ou \"permitir indefinidamente\""
+flow_step9: "Confirme, mais uma vez, que compreende \"os riscos\""
+flow_summary: "Nove etapas. Um período de espera obrigatório de 24 horas. <em>Para instalar software em um dispositivo de sua propriedade.</em>"
+flow_detail: >-
+  Pior ainda: esse fluxo opera inteiramente por meio do <strong>Google Play Services</strong>, e não do sistema operacional Android. O Google pode alterá-lo, restringir seu acesso ou desativá-lo a qualquer momento, sem a necessidade de atualização do sistema operacional e sem precisar de consentimento. E, até o momento, ele não foi incluído em nenhuma versão beta, preview ou canary. Ele existe apenas como uma publicação no blog e algumas maquetes.
 
 # Precedent
-# precedent_heading: "This is bigger than Android"
-# precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
-# precedent_p1: "The principle being established: <strong>the company that made your device gets to decide, after you've bought it, what software you're allowed to run.</strong> In software, this is called a \"rug ..."
-# precedent_p2: "Android's openness was never just a feature. It was the <em>promise</em> that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unila..."
-# precedent_arstechnica: "<a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\" target=\"_blank\">Ars Technica &#8599;</a>: <em>\"Goo..."
+precedent_heading: "Isso vai além do Android"
+precedent_pullquote: "Se o Google pode bloquear retroativamente bilhões de dispositivos que foram vendidos como plataformas abertas, todos os fabricantes de hardware do mundo estarão de olho nisso."
+precedent_p1: >-
+  O precedente que está sendo estabelecido: <strong>a empresa que fabricou o seu dispositivo decide, depois que você o comprou, qual software você tem permissão para executar.</strong> No mundo do software, isso é chamado de "rug pull"; mas, pelo menos, você sempre podia instalar um software concorrente. No hardware, trata-se de um <i>fato consumado</i> que tira de você o poder de decisão e o deixa à mercê dos caprichos de um único guardião irresponsável e monopolista convicto.
+precedent_p2: >-
+  A abertura do Android nunca foi apenas um recurso. Era a <em>promessa</em> que o diferenciava do iPhone. Milhões de pessoas escolheram o Android exatamente por esse motivo. Agora, o Google está revogando essa promessa unilateralmente, em dispositivos <i>que já</i> estão nos bolsos das pessoas, porque decidiu que possui domínio de mercado e influência regulatória suficientes para se safar dessa.
+precedent_arstechnica: >-
+  <a href="https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/" target="_blank">Ars Technica &#8599; </a>: <em>"A inveja do Google pela Apple ameaça desmantelar o legado aberto do Android."</em>
 
 # Objections
 objections_heading: "Mas espere, isso não é..."
