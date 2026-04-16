@@ -7,10 +7,11 @@ description: "Defendendo o Android como uma plataforma livre e aberta para todos
 contact_header: "Contato"
 contact_email: "Email"
 site_problems_header: "Problemas"
-site_report_issues: "Reportar Problemas no Site"
+site_report_issues: "Reportar problemas no site"
 site_disclaimer: "**Atenção:** Este website é uma empreitada comunitária não comercial. Ele está sendo operado com propostas puramente informativas e educacionais."
 site_privacy: "**Privacidade:** Este site não utiliza cookies nem faz rastreamento dos usuários ou salva logs de uso."
 site_copyright: "**Copyright:** Nenhum. Esse trabalho é marcado como"
+banner_footer_message: "Adicione o banner de contagem regressiva ao seu site"
 
 open_letter_cta: "Leia nossa carta aberta contra o programa de verificação de desenvolvedores Android"
 ---

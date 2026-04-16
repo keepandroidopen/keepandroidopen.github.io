@@ -9,6 +9,7 @@ interface Props {
   site_disclaimer?: string;
   site_privacy?: string;
   site_copyright?: string;
+  banner_footer_message?: string;
 }
 
 const {
@@ -19,6 +20,7 @@ const {
   site_disclaimer = "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes.",
   site_privacy = "**Privacy:** This site uses no cookies and performs no user tracking or logging.",
   site_copyright = "**Copyright:** None. This work is marked",
+  banner_footer_message = "Add countdown banner to your site",
 } = Astro.props;
 ---
 <footer>
@@ -34,7 +36,7 @@ const {
         <li style="list-style: none; margin-bottom: 5px;">Twitter: <a target="_blank" href="https://x.com/AlteredDeal" style="text-decoration: none;">@AlteredDeal</a></li>
         <li style="list-style: none; margin-bottom: 5px;">LinkedIn: <a target="_blank" href="https://linkedin.com/company/keepandroidopen" style="text-decoration: none;">keepandroidopen</a></li>
         <li style="list-style: none; margin-bottom: 5px;">{site_problems_header}: <a target="_blank" href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" style="text-decoration: none;">{site_report_issues}</a></li>
-        <li style="list-style: none; margin-bottom: 5px;"><a href="/banner" style="text-decoration: none;">Add countdown banner to your site</a></li>
+        <li style="list-style: none; margin-bottom: 5px;"><a href="/banner" style="text-decoration: none;">{banner_footer_message}</a></li>
       </ul>
     </div>
     <div style="flex: 3; min-width: 280px; margin: 20px;">

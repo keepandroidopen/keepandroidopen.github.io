@@ -16,6 +16,7 @@ interface Props {
   site_privacy?: string;
   site_copyright?: string;
   open_letter_cta?: string;
+  banner_footer_message?: string;
 }
 
 const {
@@ -30,6 +31,7 @@ const {
   site_privacy,
   site_copyright,
   open_letter_cta = "Read our open letter opposing the Android Developer Verification program",
+  banner_footer_message,
 } = Astro.props;
 
 const languageEntries = Object.entries(languages);
@@ -76,6 +78,7 @@ const languageEntries = Object.entries(languages);
     site_disclaimer={site_disclaimer}
     site_privacy={site_privacy}
     site_copyright={site_copyright}
+    banner_footer_message={banner_footer_message}
   />
 
 </Base>
