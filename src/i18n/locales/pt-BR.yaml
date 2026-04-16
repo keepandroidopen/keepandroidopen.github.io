@@ -55,10 +55,10 @@ open_letter_cta: "Leia nossa carta aberta contra o programa de verificação de 
 # Meta
 
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will <strong>block every Android app</strong> whose developer hasn't registered with Google, signed their contract, paid ..."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
+hero_lede: "Seu telefone está prestes a deixar de ser seu."
+hero_countdown_label: "dias até o fechamento"
+hero_sub: "A partir de Setembro de 2026, uma atualização silenciosa, imposta sem consentimento pelo Google, <strong>bloqueará todo aplicativo Android</strong> cujo desenvolvedor não se registrou no Google, não assinou o contrato e não pagou ..."
+hero_kicker: "Todos os aplicativos e todos os dispositivos, em todo o mundo, sem opção de não participar."
 
 # What Google is doing
 # what_heading: "What Google is doing"
@@ -138,20 +138,20 @@ open_letter_cta: "Leia nossa carta aberta contra o programa de verificação de 
 # act_google_text: "If you know something about the program's technical implementation or internal rationale, contact <a href=\"mailto:tips@keepandroidopen.org\">tips@keepandroidopen.org</a> from a <em>non-work</em> m..."
 
 # Voices section
-# voices_heading: "What they're saying"
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
+voices_heading: "O que estão dizendo"
+voices_press: "Imprensa especializada em tecnologia"
+voices_editorials: "Editoriais & análises"
+voices_orgs: "Organizações & cartas abertas"
+voices_creators: "YouTubers & criadores"
+voices_community: "Desenvolvedores & comunidade"
+voices_petition: "Testemunhos da petição"
+voices_more: "Todas as referências, editoriais, cobertura da mídia e vídeos"
 
 # Signatories section
-# signatories_heading: "All those opposed&hellip;"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
+signatories_heading: "Todos estes se opõem&hellip;"
+signatories_count: "{count} oraganizações de {countries} países assinaram a"
+signatories_open_letter_link: "carta aberta"
+signatories_more: "Leia a carta completa e agradeça aos signatários"
 
 # CTA banners
 cta_action_label: "Entre em ação"
