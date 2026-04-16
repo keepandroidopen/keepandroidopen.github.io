@@ -61,27 +61,32 @@ hero_sub: "A partir de Setembro de 2026, uma atualização silenciosa, imposta s
 hero_kicker: "Todos os aplicativos e todos os dispositivos, em todo o mundo, sem opção de não participar."
 
 # What Google is doing
-# what_heading: "What Google is doing"
-# what_intro: "In August 2025, Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">announced &#8599;</a> a new requirement: starting September 2026, <strong>every Android app..."
-# what_registration: "Registration requires:"
-# what_req_fee: "Paying a fee to Google"
-# what_req_terms: "Agreeing to Google's Terms and Conditions"
-# what_req_id: "Surrendering your government-issued identification"
-# what_req_signing: "Providing evidence of your private signing key"
-# what_req_appids: "Listing all current and all future application identifiers"
-# what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+what_heading: "O que o Google está fazendo"
+what_intro: >-
+  Em agosto de 2025, o Google <a href="https://developer.android.com/developer-verification" target="_blank">anunciou &#8599;</a> um novo requisito: a partir de setembro de 2026, <strong>todos os desenvolvedores de aplicativos Android deverão se registrar centralmente junto ao Google</strong> antes que seu software possa ser instalado em qualquer dispositivo. Não apenas os aplicativos da Play Store: todos os aplicativos. Isso inclui aplicativos compartilhados entre amigos, distribuídos através do <a href="https://f-droid.org" target="_blank">F-Droid &#8599;</a>, criados por amadores para uso pessoal. 
+  Desenvolvedores independentes, grupos religiosos e comunitários, assim como amadores, serão impedidos de desenvolver e distribuir seus softwares.
+what_registration: "O registro implica em:"
+what_req_fee: "Pagar uma taxa ao Google"
+what_req_terms: "Concordar com os Termos e Condições do Google"
+what_req_id: "Entregar o seu documento de identidade oficial emitido pelo governo"
+what_req_signing: "Apresentar provas da sua chave de assinatura privada"
+what_req_appids: "Listar todos os identificadores de aplicativo, atuais e futuros"
+what_pullquote: "Se um desenvolvedor não cumprir as regras, seus aplicativos serão bloqueados automaticamente em todos os dispositivos Android do mundo inteiro."
 
 # Who this hurts
-# impact_heading: "Who this hurts"
-# impact_you_heading: "You"
-# impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
-# impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: <i>your</i> property, t..."
-# impact_dev_heading: "Independent developers"
-# impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-# impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, home to thousands of free and open-source Android apps, has called this an <a href=\"https://f-droid.org/en/2025/09/29/google-..."
-# impact_gov_heading: "Governments & civil society"
-# impact_gov_p1: "Google has a <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">documented track record &#8599;</a> of complying when authoritarian regimes demand app removals...."
-# impact_gov_p2: "The <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF calls &#8599;</a> app gatekeeping \"an ever-expanding ..."
+impact_heading: "Quem é prejudicado por isso"
+impact_you_heading: "Você"
+impact_you_p1: "Você comprou um celular Android porque o Google disse que era um sistema aberto. Você poderia instalar o que quisesse, e esse era o acordo."
+impact_you_p2: "O Google está agora reformulando esse acordo, com efeito retroativo, no hardware que você já possui. Após a atualização, você só poderá executar softwares pré-aprovados pelo Google. No seu próprio celular: <i>seu</i> dispositivo, pelo qual <i>você</i> pagou."
+impact_dev_heading: "Desenvolvedores independentes"
+impact_dev_p1: "O primeiro aplicativo de um adolescente, uma ferramenta de privacidade criada por um voluntário ou uma versão beta interna confidencial de uma empresa. Não importa. A partir de setembro de 2026, nenhum desses aplicativos poderá ser instalado sem a aprovação do Google."
+impact_dev_p2: >-
+  A <a href="https://f-droid.org" target="_blank">F-Droid &#8599; </a>, que hospeda milhares de aplicativos Android gratuitos e de código aberto, classificou isso como uma <a href="https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html" target="_blank">ameaça "existencial" &#8599;</a>. Cory Doctorow chama isso de <a href="https://pluralistic.net/2025/09/01/fulu/" target="_blank">"Darth Android" &#8599;</a>.
+impact_gov_heading: "Governos & sociedade civil"
+impact_gov_p1: >-
+  O Google tem um <a href="https://www.aclu.org/news/free-speech/app-store-oligopoly" target="_blank">histórico comprovado &#8599;</a> de acatar as exigências de regimes autoritários quando estes solicitam a remoção de aplicativos. Com esse programa, o software executado pelas instituições do seu país ficará à mercê de uma única empresa estrangeira que não presta contas a ninguém.
+impact_gov_p2: >-
+  A <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF considera </a> controles de acesso à aplicativos "um caminho cada vez mais fácil para a censura na internet".
 
 # Advanced flow
 # flow_heading: "Google's \"escape hatch\" is a trap door"
