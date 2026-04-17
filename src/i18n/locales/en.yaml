@@ -83,7 +83,7 @@ obj_apple_a: >-
   Apple has been a walled garden from day one. People chose Android *because it was different*. "Apple does it too" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status.
 obj_cost_q: "\"...just $25 and some paperwork?\""
 obj_cost_a: >-
-  Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence or your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers.
+  Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that <a href="https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/" target="_blank">routinely complies &#8599;</a> with government demands to remove apps and expose developers.
 
 # Fight back
 act_heading: "Fight back"
