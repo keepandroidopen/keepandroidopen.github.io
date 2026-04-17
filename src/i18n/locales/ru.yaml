@@ -60,7 +60,7 @@ spread_label_facebook: "Facebook"
 # What Google is doing
 what_heading: "Что делает Google"
 what_intro: >-
-  В августе 2025 года, Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">анонсировал &#8599;</a> новое требование: начиная с сентября 2026 года, <strong>каждый
+  В августе 2025 года, Google <a href="https://developer.android.com/developer-verification" target="_blank">анонсировал &#8599;</a> новое требование: начиная с сентября 2026 года, <strong>каждый
   разработчик Android-приложений будет должен зарегистрироваться в Google</strong> перед тем, как их ПО будет доступно для установки на любое устройство. Не только приложения из Play Store: все приложения.
   Это также имеет в виду приложения, которыми делятся среди друзей и которые распространяются через <a href="https://f-droid.org">F-Droid &#8599;</a>, созданные любителями для личного использования.
   Независимые разработчики, церковные и общественные группы, или просто любители - все они больше не смогут разрабатывать и распространять свое программное обеспечение.
@@ -97,7 +97,7 @@ impact_gov_p2: >-
 # Advanced flow
 flow_heading: "\"Запасной люк\" от Google - это ловушка"
 flow_intro: >-
-  Google говорит, что <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">продвинутые пользователи</a>
+  Google говорит, что <a href="https://android-developers.googleblog.com/2026/03/android-developer-verification.html" target="_blank">продвинутые пользователи</a>
   смогут устанавливать неподтвержденные приложения. Вот как это выглядит <i>на самом деле</i>:
 flow_step1: "Откройте Системные Настройки, найдите Настройки Разработчика"
 flow_step2: "Нажмите на номер сборки <strong>семь раз</strong>, чтобы включить Режим Разработчика"
@@ -122,7 +122,7 @@ precedent_p2: >-
   Открытость Android никогда не было просто особенностью. Это было <i>обещание</i>, которое отличало его от iPhone. Миллионы людей выбрали Android именно по этой причине.
   Теперь Google отзывает это обещание...
 precedent_arstechnica: >-
-  <a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\" target=\"_blank\">Ars Technica &#8599;</a>:
+  <a href="https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/" target="_blank">Ars Technica &#8599;</a>:
   <em>"Зависть Google к Apple угрожает разрушением наследия открытости Android."</em></a>
 
 # Objections
@@ -160,12 +160,12 @@ act_heading: "Дадим отпор"
 act_everyone_heading: "Все"
 act_fdroid: "<strong><a href=\"https://f-droid.org\" target=\"_blank\">Установите F-Droid &#8599;</a></strong> на каждое Android-устройство, которым вы владеете. Альт-сторы могут выжить только если ими пользуются."
 act_regulators: >- 
-  <strong><a href=\"/cta/#consumers\">Свяжитесь с вашими регулирующими органами.</a></strong> Регуляторы по всему миру действительно обеспокоены о монополистах и их силой централизации в
+  <strong><a href="/cta/#consumers">Свяжитесь с вашими регулирующими органами.</a></strong> Регуляторы по всему миру действительно обеспокоены о монополистах и их силой централизации в
   технологическом секторе, и хотят услышать от отдельных лиц, на кого это влияет и кто об этим беспокоится
 act_share: "<strong>Распространите эту страницу.</strong> Оставляйте ссылки на <a href=\"https://keepandroidopen.org\">keepandroidopen.org</a> везде."
 act_astroturf: "<strong>Давайте отпор их поддержке.</strong> Народ \"ну, вообще-то\" собрался в большом количестве. Не дайте им определять ход событий."
 act_petition: >-
-  <strong><a href=\"https://www.change.org/p/stop-google-from-limiting-apk-file-usage/\" target=\"_blank\">Подпишите петицию на change.org&#8599;</a></strong> и присоединяйтесь к более чем 100,000
+  <strong><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">Подпишите петицию на change.org&#8599;</a></strong> и присоединяйтесь к более чем 100,000
   подписавшим, голоса которых стали услышанными.
 act_letter: "<strong><a href=\"/open-letter\">Прочитайте и распространите наше публичное письмо</a></strong>"
 act_survey: >-
