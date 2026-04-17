@@ -25,10 +25,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install PyYAML
+        run: pip install pyyaml
+
+      - name: Lint YAML files
+        run: python lint_yaml.py
+
       - name: Install, build, and upload site
         uses: withastro/action@v6
         #with:
         #  path: .
+
+      - name: Validate HTML
+        run: npx html-validate 'dist/**/*.html'
 
   deploy:
     needs: build

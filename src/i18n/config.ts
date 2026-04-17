@@ -65,6 +65,19 @@ export function isRtl(lang: string): boolean {
 
 import { marked } from "marked";
 
+// Add target="_blank" to external links rendered by marked
+marked.use({
+  renderer: {
+    link({ href, title, tokens }) {
+      const text = this.parser.parseInline(tokens);
+      const isExternal = /^https?:\/\//.test(href ?? '');
+      const target = isExternal ? ' target="_blank"' : '';
+      const titleAttr = title ? ` title="${title}"` : '';
+      return `<a href="${href}"${titleAttr}${target}>${text}</a>`;
+    }
+  }
+});
+
 /** Render a markdown string to inline HTML (no wrapping <p> tags). */
 export function markdownify(text: string): string {
   return marked.parseInline(text) as string;

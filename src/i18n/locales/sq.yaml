@@ -36,11 +36,11 @@ description: >-
 hero_lede: "Telefoni yt është duke pushuar së qeni yt."
 hero_countdown_label: "ditë deri në bllokim"
 hero_sub: >-
-  Duke filluar nga shtatori 2026, një përditësim i heshtur, i shtyrë nga Google pa pëlqimin tënd, do të <strong>bllokojë çdo aplikacion Android</strong> që zhvilluesi i tij nuk është regjistruar pranë Google, nuk ka nënshkruar kontratën e tyre, nuk ka paguar dhe nuk ka dorëzuar dokument identifikimi qeveritar.
+  Duke filluar nga shtatori 2026, një përditësim i heshtur, i shtyrë nga Google pa pëlqimin tënd, do të **bllokojë çdo aplikacion Android** që zhvilluesi i tij nuk është regjistruar pranë Google, nuk ka nënshkruar kontratën e tyre, nuk ka paguar dhe nuk ka dorëzuar dokument identifikimi qeveritar.
 hero_kicker: "Çdo aplikacion dhe çdo pajisje, në mbarë botën, pa mundësi zgjedhjeje."
 what_heading: "Çfarë po bën Google"
 what_intro: >-
-  Në gusht 2025, Google <a href="https://developer.android.com/developer-verification" target="_blank">njoftoi &#8599;</a> një kërkesë të re: duke filluar nga shtatori 2026, <strong>çdo zhvillues aplikacionesh Android duhet të regjistrohet qendroisht pranë Google</strong> para se softueri i tyre të mund të instalohet në çdo pajisje. Jo vetëm aplikacionet e Play Store: të gjitha aplikacionet. Kjo përfshin aplikacionet e ndara mes miqsh, të shpërndara përmes <a href="https://f-droid.org" target="_blank">F-Droid &#8599;</a>, të ndërtuara nga amatorë për përdorim personal. Zhvilluesit e pavarur, grupet fetare dhe komunitare, dhe amatorët do të jenë të gjithë të përjashtuar nga mundësia për të zhvilluar dhe shpërndarë softuerin e tyre.
+  Në gusht 2025, Google [njoftoi](https://developer.android.com/developer-verification) një kërkesë të re: duke filluar nga shtatori 2026, **çdo zhvillues aplikacionesh Android duhet të regjistrohet qendroisht pranë Google** para se softueri i tyre të mund të instalohet në çdo pajisje. Jo vetëm aplikacionet e Play Store: të gjitha aplikacionet. Kjo përfshin aplikacionet e ndara mes miqsh, të shpërndara përmes [F-Droid](https://f-droid.org), të ndërtuara nga amatorë për përdorim personal. Zhvilluesit e pavarur, grupet fetare dhe komunitare, dhe amatorët do të jenë të gjithë të përjashtuar nga mundësia për të zhvilluar dhe shpërndarë softuerin e tyre.
 what_registration: "Regjistrimi kërkon:"
 what_req_fee: "Pagimin e një tarife për Google"
 what_req_terms: "Pranimin e Kushteve dhe Rregullave të Google"
@@ -54,84 +54,84 @@ impact_you_heading: "Ti"
 impact_you_p1: >-
   Ti bleve një telefon Android sepse Google të tha se ishte i hapur. Mund të instalonie çfarë doje, dhe kjo ishte marrëveshja.
 impact_you_p2: >-
-  Google po rishkruan këtë marrëveshje, me efekt retroaktiv, në pajisje që tashmë i zotëron. Pas instalimit të përditësimit, mund të ekzekutosh vetëm softuer që Google ka miratuar paraprakisht. Në telefonin tënd: <i>pronë jote</i>, që <i>ti</i> pagove për të.
+  Google po rishkruan këtë marrëveshje, me efekt retroaktiv, në pajisje që tashmë i zotëron. Pas instalimit të përditësimit, mund të ekzekutosh vetëm softuer që Google ka miratuar paraprakisht. Në telefonin tënd: *pronë jote*, që *ti* pagove për të.
 impact_dev_heading: "Zhvilluesit e pavarur"
 impact_dev_p1: >-
   Aplikacioni i parë i një adoleshenti, një mjet privatësie i një vullnetari, ose një beta e brendshme konfidenciale e një kompanie. Nuk ka rëndësi. Pas shtatorit 2026, asnjëra nga këto nuk mund të instalohet pa bekimin e Google.
 impact_dev_p2: >-
-  <a href="https://f-droid.org" target="_blank">F-Droid &#8599;</a>, shtëpia e mijëra aplikacioneve falas dhe me burim të hapur për Android, e ka quajtur këtë një <a href="https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html" target="_blank">kërcënim "ekzistencial" &#8599;</a>. Cory Doctorow e quan <a href="https://pluralistic.net/2025/09/01/fulu/" target="_blank">"Darth Android" &#8599;</a>.
+  [F-Droid](https://f-droid.org), shtëpia e mijëra aplikacioneve falas dhe me burim të hapur për Android, e ka quajtur këtë një [kërcënim "ekzistencial"](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow e quan ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/).
 impact_gov_heading: "Qeveritë dhe shoqëria civile"
 impact_gov_p1: >-
-  Google ka një <a href="https://www.aclu.org/news/free-speech/app-store-oligopoly" target="_blank">historik të dokumentuar &#8599;</a> të pajtimit kur regjimet autoritare kërkojnë heqjen e aplikacioneve. Me këtë program, softueri që ekzekuton institucionet e vendit tënd do të ekzistojë me lejen e një korporate të vetme të jashtme dhe të papërgjegjshme.
+  Google ka një [historik të dokumentuar](https://www.aclu.org/news/free-speech/app-store-oligopoly) të pajtimit kur regjimet autoritare kërkojnë heqjen e aplikacioneve. Me këtë program, softueri që ekzekuton institucionet e vendit tënd do të ekzistojë me lejen e një korporate të vetme të jashtme dhe të papërgjegjshme.
 impact_gov_p2: >-
-  <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF thotë &#8599;</a> se ruajtja e portave të aplikacioneve është "rruga gjithnjë e zgjeruese e censurës në internet".
+  [EFF thotë](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) se ruajtja e portave të aplikacioneve është "rruga gjithnjë e zgjeruese e censurës në internet".
 flow_heading: "\"Porta e emergjencës\" e Google-it është një kurth"
 flow_intro: >-
-  Google thotë se "përdoruesit e avancuar" munden ende të <a href="https://android-developers.googleblog.com/2026/03/android-developer-verification.html" target="_blank">"instalojnë"</a> aplikacionet e pavërtetuara. Ja se si duket <i>me të vërtetë</i> kjo:
+  Google thotë se "përdoruesit e avancuar" munden ende të ["instalojnë"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) aplikacionet e pavërtetuara. Ja se si duket *me të vërtetë* kjo:
 flow_step1: "Hyr në Cilësimet e Sistemit, gjej Opsionet e Zhvilluesit"
-flow_step2: "Trokite numrin e ndërtimit <strong>shtatë herë</strong> për të aktivizuar Modalitetin e Zhvilluesit"
+flow_step2: "Trokite numrin e ndërtimit **shtatë herë** për të aktivizuar Modalitetin e Zhvilluesit"
 flow_step3: "Largo ekranet e frikësueshme për detyrim"
 flow_step4: "Vendos PIN-in tënd"
 flow_step5: "Rinis pajisjen"
-flow_step6: "<strong>Pritni 24 orë</strong>"
+flow_step6: "**Pritni 24 orë**"
 flow_step7: "Kthehu, largo më shumë ekrane frikësuese"
 flow_step8: "Zgjidh \"lejo përkohësisht\" (7 ditë) ose \"lejo pa kufizime\""
 flow_step9: "Konfirmo, përsëri, se kupton \"rreziqet\""
 flow_summary: >-
-  Nëntë hapa. Një periudhë detyruese prej 24 orësh pritjeje. <em>Për të instaluar softuer në një pajisje që ti zotëron.</em>
+  Nëntë hapa. Një periudhë detyruese prej 24 orësh pritjeje. *Për të instaluar softuer në një pajisje që ti zotëron.*
 flow_detail: >-
-  Më keq akoma: kjo rrugë ekzekutohet plotësisht përmes <strong>Google Play Services</strong>, jo përmes sistemit operativ Android. Google mund ta ndryshojë, ta ngushtojë ose ta heqë atë në çdo kohë, pa kërkuar përditësim të sistemit operativ dhe pa nevojë për pëlqim. Dhe deri më sot, nuk është dërguar në asnjë version beta, paraprak ose eksperimental. Ekziston vetëm si një postim blogu dhe disa modele.
+  Më keq akoma: kjo rrugë ekzekutohet plotësisht përmes **Google Play Services**, jo përmes sistemit operativ Android. Google mund ta ndryshojë, ta ngushtojë ose ta heqë atë në çdo kohë, pa kërkuar përditësim të sistemit operativ dhe pa nevojë për pëlqim. Dhe deri më sot, nuk është dërguar në asnjë version beta, paraprak ose eksperimental. Ekziston vetëm si një postim blogu dhe disa modele.
 precedent_heading: "Kjo është më e madhe se Android"
 precedent_pullquote: >-
   Nëse Google mund të bllokojë retroaktivisht miliarda pajisje që u shitën si platforma të hapura, çdo prodhues pajisjesh në planet po e vëzhgon.
 precedent_p1: >-
-  Parimi që po vendoset: <strong>kompania që prodhoi pajisjen tënde ka të drejtë të vendosë, pasi e ke blerë, se çfarë softueri të lejohet të ekzekutosh.</strong> Në softuer, kjo quhet "tërheqje e qilimave"; por së paku gjithmonë mund të instalosh softuer konkurrues. Në harduer, është një <i>fait accompli</i> që të heq agjencinë tënde dhe të bën të pafuqishëm ndaj dëshirave të një mbikëqyrësi të vetëm të papërgjegjshëm dhe monopolist të dënuar.
+  Parimi që po vendoset: **kompania që prodhoi pajisjen tënde ka të drejtë të vendosë, pasi e ke blerë, se çfarë softueri të lejohet të ekzekutosh.** Në softuer, kjo quhet "tërheqje e qilimave"; por së paku gjithmonë mund të instalosh softuer konkurrues. Në harduer, është një *fait accompli* që të heq agjencinë tënde dhe të bën të pafuqishëm ndaj dëshirave të një mbikëqyrësi të vetëm të papërgjegjshëm dhe monopolist të dënuar.
 precedent_p2: >-
-  Hapja e Android nuk ka qenë kurrë thjesht një karakteristikë. Ishte <em>premtimi</em> që e dallonte atë nga iPhone. Miliona zgjodhën Android për këtë arsye të saktë. Google po e anulon këtë premtim njëanshëm, në pajisje që tashmë janë <i>në xhepat</i> e njerëzve, sepse ka vendosur se ka mjaftueshëm dominim tregu dhe kapje rregullative për t'ia dalë mbanë.
+  Hapja e Android nuk ka qenë kurrë thjesht një karakteristikë. Ishte *premtimi* që e dallonte atë nga iPhone. Miliona zgjodhën Android për këtë arsye të saktë. Google po e anulon këtë premtim njëanshëm, në pajisje që tashmë janë *në xhepat* e njerëzve, sepse ka vendosur se ka mjaftueshëm dominim tregu dhe kapje rregullative për t'ia dalë mbanë.
 precedent_arstechnica: >-
-  <a href="https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/" target="_blank">Ars Technica &#8599;</a>: <em>"Smira e Google për Apple kërcënon të shkatërrojë trashëgiminë e hapur të Android."</em>
+  [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *"Smira e Google për Apple kërcënon të shkatërrojë trashëgiminë e hapur të Android."*
 objections_heading: "Por prit, a nuk është kjo..."
 obj_security_q: "\"...thjesht për sigurinë?\""
 obj_security_a: >-
-  Arsyetimi i sigurisë është një perde tymi. Google Play Protect tashmë skanon për malware pavarësisht identitetit të zhvilluesit. Kërkesa për një dokument identifikimi qeveritar nuk e bën kodin më të sigurt. E bën <em>zhvilluesit</em> të identifikueshëm dhe të kontrollueshëm. Autorët e malware mund të regjistrohen. Zhvilluesit e pavarur dhe disidentët shpesh nuk munden. <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF &#8599;</a> është i qartë: ruajtja e portave bazuar në identitet është një mjet censurë, jo një mjet sigurie.
+  Arsyetimi i sigurisë është një perde tymi. Google Play Protect tashmë skanon për malware pavarësisht identitetit të zhvilluesit. Kërkesa për një dokument identifikimi qeveritar nuk e bën kodin më të sigurt. E bën *zhvilluesit* të identifikueshëm dhe të kontrollueshëm. Autorët e malware mund të regjistrohen. Zhvilluesit e pavarur dhe disidentët shpesh nuk munden. [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) është i qartë: ruajtja e portave bazuar në identitet është një mjet censurë, jo një mjet sigurie.
 obj_sideloading_q: "\"...ende mund të instalosh jashtë nëse përdor rrjedhën e avancuar?\""
 obj_sideloading_a: >-
-  Nëntë hapa, pritje 24 orëshe, fshehur në Opsionet e Zhvilluesit, të dhënë përmes një shërbimi pronësor që Google mund ta heqë kurdo që dëshiron. Kjo nuk është instalim jashtë. Kjo është një <strong>mekanizëm frikësimi</strong> i ndërtuar për të siguruar që pothuajse askush nuk e plotëson. Dhe pasi ekzekutohet përmes Play Services dhe jo përmes sistemit operativ, Google mund ta ngushtojë ose ta heqë atë heshtazi.
+  Nëntë hapa, pritje 24 orëshe, fshehur në Opsionet e Zhvilluesit, të dhënë përmes një shërbimi pronësor që Google mund ta heqë kurdo që dëshiron. Kjo nuk është instalim jashtë. Kjo është një **mekanizëm frikësimi** i ndërtuar për të siguruar që pothuajse askush nuk e plotëson. Dhe pasi ekzekutohet përmes Play Services dhe jo përmes sistemit operativ, Google mund ta ngushtojë ose ta heqë atë heshtazi.
 obj_hide_q: "\"...vetëm një problem nëse ke diçka për të fshehur?\""
 obj_hide_a: >-
   Sinjaletuesit, gazetarët dhe aktivistët nën regjime autoritare do të jenë viktimat e para. Njerëzit në situata dhune në familje janë të tjetër. Të gjitha këto grupe kanë arsye legjitime për të shpërndarë ose përdorur softuer pa vënë identitetin e tyre ligjor në një bazë të dhënash të Google. Kontributi anonim me burim të hapur është një traditë më e vjetër se vetë Google. Kjo politikë e mbyll atë në Android.
 obj_apple_q: "\"...e njëjta gjë që bën Apple?\""
 obj_apple_a: >-
-  Apple ka qenë një kopsht i rrethuar që nga dita e parë. Njerëzit zgjodhën Android <em>sepse ishte ndryshe</em>. "Edhe Apple e bën" është një garë drejt fundit dhe një argument i dobët <i>tu quoque</i>. Dhe nën presion rregullator (Akti i Tregjeve Dixhitale të BE-së), edhe Apple po detyrohet të hapet. Google po lëviz në drejtimin e kundërt: duke u përpjekur të forcojë më tej statusin e tij si mbikëqyrës portash.
+  Apple ka qenë një kopsht i rrethuar që nga dita e parë. Njerëzit zgjodhën Android *sepse ishte ndryshe*. "Edhe Apple e bën" është një garë drejt fundit dhe një argument i dobët *tu quoque*. Dhe nën presion rregullator (Akti i Tregjeve Dixhitale të BE-së), edhe Apple po detyrohet të hapet. Google po lëviz në drejtimin e kundërt: duke u përpjekur të forcojë më tej statusin e tij si mbikëqyrës portash.
 obj_cost_q: "\"...vetëm 25 dollarë dhe pak letër punë?\""
 obj_cost_a: >-
-  Ndoshta, nëse jeni një zhvillues në SHBA me një kartë krediti dhe një patentë shoferi. Provoni të jeni një student në Afrikën Subsahariane, ose një disident në Mianmar, ose një vullnetar që mirëmban një aplikacion shëndetësor komunitar. Kosta nuk është vetëm financiare: ju jeni duke dorëzuar dokument identifikimi dhe provë të çelësave tuaj të nënshkrimit një kompanie që <a href="https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/" target="_blank">rutinisht pajtohet &#8599;</a> me kërkesat e qeverive për të hequr aplikacione dhe ekspozuar zhvilluesit.
+  Ndoshta, nëse jeni një zhvillues në SHBA me një kartë krediti dhe një patentë shoferi. Provoni të jeni një student në Afrikën Subsahariane, ose një disident në Mianmar, ose një vullnetar që mirëmban një aplikacion shëndetësor komunitar. Kosta nuk është vetëm financiare: ju jeni duke dorëzuar dokument identifikimi dhe provë të çelësave tuaj të nënshkrimit një kompanie që [rutinisht pajtohet](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) me kërkesat e qeverive për të hequr aplikacione dhe ekspozuar zhvilluesit.
 act_heading: "Luftoni kundër"
 act_everyone_heading: "Të gjithë"
 act_fdroid: >-
-  <strong><a href="https://f-droid.org" target="_blank">Instaloni F-Droid &#8599;</a></strong> në çdo pajisje Android që zotëroni. Dyqanet alternative mbijetojnë vetëm nëse njerëzit faktikisht i përdorin ato.
+  **[Instaloni F-Droid](https://f-droid.org)** në çdo pajisje Android që zotëroni. Dyqanet alternative mbijetojnë vetëm nëse njerëzit faktikisht i përdorin ato.
 act_regulators: >-
-  <strong><a href="/cta/#consumers">Kontaktoni rregullatorët tuaj.</a></strong> Rregullatorët në mbarë botën janë vërtet të shqetësuar për monopolet dhe centralizimin e pushtetit në sektorin e teknologjisë, dhe duan të dëgjojnë drejtpërdrejt nga individët që preken dhe shqetësohen.
+  **[Kontaktoni rregullatorët tuaj.](/cta/#consumers)** Rregullatorët në mbarë botën janë vërtet të shqetësuar për monopolet dhe centralizimin e pushtetit në sektorin e teknologjisë, dhe duan të dëgjojnë drejtpërdrejt nga individët që preken dhe shqetësohen.
 act_share: >-
-  <strong>Ndani këtë faqe.</strong> Lidhuni me <a href="https://keepandroidopen.org">keepandroidopen.org</a> kudo.
+  **Ndani këtë faqe.** Lidhuni me [keepandroidopen.org](https://keepandroidopen.org) kudo.
 act_astroturf: >-
-  <strong>Shtyni kundër propaganduesve.</strong> Turma "mirë, në të vërtetë..." është në lëvizje. Mos i lini ata të vendosin narrativën.
+  **Shtyni kundër propaganduesve.** Turma "mirë, në të vërtetë..." është në lëvizje. Mos i lini ata të vendosin narrativën.
 act_petition: >-
-  <strong><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">Nënshkruani peticionin në change.org &#8599;</a></strong> dhe bashkohuni me më shumë se 100,000 nënshkrues që kanë bërë zërat e tyre të dëgjohen.
-act_letter: "<strong><a href=\"/open-letter\">Lexoni dhe ndani letërën tonë të hapur</a></strong>"
+  **[Nënshkruani peticionin në change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** dhe bashkohuni me më shumë se 100,000 nënshkrues që kanë bërë zërat e tyre të dëgjohen.
+act_letter: "**[Lexoni dhe ndani letërën tonë të hapur](/open-letter)**"
 act_survey: >-
-  <strong>Tregojini Google se çfarë mendoni për këtë</strong> përmes <a href="https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1" target="_blank">anketës së tyre për verifikimin e zhvilluesve &#8599;</a> <small>(sa mirë që mund të bëjë)</small>.
+  **Tregojini Google se çfarë mendoni për këtë** përmes [anketës së tyre për verifikimin e zhvilluesve](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(sa mirë që mund të bëjë)</small>.
 act_dev_heading: "Zhvilluesit"
 act_dev_intro: >-
-  <strong style="text-transform: uppercase;">Mos u regjistroni.</strong> Mos i bashkoni programit duke u regjistruar në Android Developer Console dhe pranuar Kushtet e tyre të parrrevokueshme. Mos verifikoni identitetin tuaj. <i>Mos luani me rregullat e tyre.</i>
+  <strong style="text-transform: uppercase;">Mos u regjistroni.</strong> Mos i bashkoni programit duke u regjistruar në Android Developer Console dhe pranuar Kushtet e tyre të parrrevokueshme. Mos verifikoni identitetin tuaj. *Mos luani me rregullat e tyre.*
 act_dev_resist: "Plani i Google funksionon vetëm nëse zhvilluesit pajtohen. Mos pajtoheni."
 act_dev_talk: "Bindni zhvilluesit dhe organizatat e tjera të mos regjistrohen."
 act_dev_warn: >-
-  Shtoni librarinë <a href="https://github.com/woheller69/FreeDroidWarn" target="_blank">FreeDroidWarn &#8599;</a> në aplikacionet tuaja për të paralajmëruar përdoruesit.
-act_dev_banner: "Keni një faqe interneti? <a href=\"/banner\">Shtoni banderolën me numërues.</a>"
+  Shtoni librarinë [FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) në aplikacionet tuaja për të paralajmëruar përdoruesit.
+act_dev_banner: "Keni një faqe interneti? [Shtoni banderolën me numërues.](/banner)"
 act_google_heading: "Punonjësit e Google"
 act_google_text: >-
-  Nëse dini diçka për zbatimin teknik të programit ose arsyen e brendshme, kontaktoni <a href="mailto:tips@keepandroidopen.org">tips@keepandroidopen.org</a> nga një makinë <em>jopune</em> dhe një llogari <em>jo-Gmail</em>. Garanci absolute për konfidencialitetin.
+  Nëse dini diçka për zbatimin teknik të programit ose arsyen e brendshme, kontaktoni [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) nga një makinë *jopune* dhe një llogari *jo-Gmail*. Garanci absolute për konfidencialitetin.
 voices_heading: "Çfarë po thonë"
 voices_press: "Shtypi teknologjik"
 voices_editorials: "Editoriale dhe analiza"

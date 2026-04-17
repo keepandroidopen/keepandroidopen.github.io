@@ -12,7 +12,7 @@ import ShareRow from '../components/ShareRow.astro';
 import signatures from '../data/signatures.yaml';
 import { logoPath } from '../lib/signatures';
 import { getLandingStrings, getTranslationPercent } from '../i18n/locales';
-import { markdownify, languages } from '../i18n/config';
+import { languages } from '../i18n/config';
 import '../styles/landing.css';
 import techPressQuotes from '../data/quotes/tech-press.yaml';
 import editorialQuotes from '../data/quotes/editorials.yaml';
@@ -80,53 +80,49 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
       </p>
       <div class="countdown-strip">
         <span class="countdown-number">{daysLeft}</span>
-        <span class="countdown-label">{t.hero_countdown_label}</span>
+        <span class="countdown-label" set:html={t.hero_countdown_label} />
       </div>
-      <p class="hero-sub">
-        <Fragment set:html={t.hero_sub} />
-      </p>
-      <p class="hero-sub hero-kicker">
-        {t.hero_kicker}
-      </p>
+      <p class="hero-sub" set:html={t.hero_sub} />
+      <p class="hero-sub hero-kicker" set:html={t.hero_kicker} />
       <a href="#what" class="scroll-cue" aria-label="Read more">&#8595;</a>
 
-      <p class="share-heading">{t.closing_share_heading}</p>
+      <p class="share-heading" set:html={t.closing_share_heading} />
       <ShareRow t={t} />
     </section>
 
     <!-- What's happening -->
     <section id="what">
-      <h2>{t.what_heading}</h2>
-      <p><Fragment set:html={t.what_intro} /></p>
-      <p>{t.what_registration}</p>
+      <h2 set:html={t.what_heading} />
+      <p set:html={t.what_intro} />
+      <p set:html={t.what_registration} />
       <ul>
-        <li class="li-list li-money">{t.what_req_fee}</li>
-        <li class="li-list li-terms">{t.what_req_terms}</li>
-        <li class="li-list li-id">{t.what_req_id}</li>
-        <li class="li-list li-signing">{t.what_req_signing}</li>
-        <li class="li-list li-appids">{t.what_req_appids}</li>
+        <li class="li-list li-money" set:html={t.what_req_fee} />
+        <li class="li-list li-terms" set:html={t.what_req_terms} />
+        <li class="li-list li-id" set:html={t.what_req_id} />
+        <li class="li-list li-signing" set:html={t.what_req_signing} />
+        <li class="li-list li-appids" set:html={t.what_req_appids} />
       </ul>
-      <p class="pull-quote">{t.what_pullquote}</p>
+      <p class="pull-quote" set:html={t.what_pullquote} />
     </section>
 
     <!-- Who gets hurt -->
     <section id="impact">
-      <h2>{t.impact_heading}</h2>
+      <h2 set:html={t.impact_heading} />
       <div class="impact-cards">
         <div class="impact-card impact-consumer">
-          <h3>{t.impact_you_heading}</h3>
-          <p>{t.impact_you_p1}</p>
-          <p><Fragment set:html={t.impact_you_p2} /></p>
+          <h3 set:html={t.impact_you_heading} />
+          <p set:html={t.impact_you_p1} />
+          <p set:html={t.impact_you_p2} />
         </div>
         <div class="impact-card impact-dev">
-          <h3>{t.impact_dev_heading}</h3>
-          <p>{t.impact_dev_p1}</p>
-          <p><Fragment set:html={t.impact_dev_p2} /></p>
+          <h3 set:html={t.impact_dev_heading} />
+          <p set:html={t.impact_dev_p1} />
+          <p set:html={t.impact_dev_p2} />
         </div>
         <div class="impact-card impact-gov">
-          <h3>{t.impact_gov_heading}</h3>
-          <p><Fragment set:html={t.impact_gov_p1} /></p>
-          <p><Fragment set:html={t.impact_gov_p2} /></p>
+          <h3 set:html={t.impact_gov_heading} />
+          <p set:html={t.impact_gov_p1} />
+          <p set:html={t.impact_gov_p2} />
         </div>
       </div>
     </section>
@@ -134,78 +130,78 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
     <!-- The "solution" that isn't -->
     <section id="advanced-flow">
       <div class="callout-warning callout-trapdoor">
-        <h3><Fragment set:html={t.flow_heading} /></h3>
-        <p><Fragment set:html={t.flow_intro} /></p>
+        <h3 set:html={t.flow_heading} />
+        <p set:html={t.flow_intro} />
         <ol class="scare-steps">
-          <li><Fragment set:html={t.flow_step1} /></li>
-          <li><Fragment set:html={t.flow_step2} /></li>
-          <li><Fragment set:html={t.flow_step3} /></li>
-          <li><Fragment set:html={t.flow_step4} /></li>
-          <li><Fragment set:html={t.flow_step5} /></li>
-          <li class="step-highlight"><Fragment set:html={t.flow_step6} /></li>
-          <li><Fragment set:html={t.flow_step7} /></li>
-          <li><Fragment set:html={t.flow_step8} /></li>
-          <li><Fragment set:html={t.flow_step9} /></li>
+          <li set:html={t.flow_step1} />
+          <li set:html={t.flow_step2} />
+          <li set:html={t.flow_step3} />
+          <li set:html={t.flow_step4} />
+          <li set:html={t.flow_step5} />
+          <li class="step-highlight" set:html={t.flow_step6} />
+          <li set:html={t.flow_step7} />
+          <li set:html={t.flow_step8} />
+          <li set:html={t.flow_step9} />
         </ol>
-        <p><Fragment set:html={t.flow_summary} /></p>
-        <p><Fragment set:html={t.flow_detail} /></p>
+        <p set:html={t.flow_summary} />
+        <p set:html={t.flow_detail} />
       </div>
     </section>
 
     <!-- Why you should care -->
     <section id="precedent" class="precedent-section">
-      <h2>{t.precedent_heading}</h2>
-      <p class="pull-quote">{t.precedent_pullquote}</p>
-      <p><Fragment set:html={t.precedent_p1} /></p>
-      <p><Fragment set:html={t.precedent_p2} /></p>
-      <p><Fragment set:html={t.precedent_arstechnica} /></p>
+      <h2 set:html={t.precedent_heading} />
+      <p class="pull-quote" set:html={t.precedent_pullquote} />
+      <p set:html={t.precedent_p1} />
+      <p set:html={t.precedent_p2} />
+      <p set:html={t.precedent_arstechnica} />
     </section>
 
     <!-- Objections addressed -->
     <section id="objections" class="objections-section">
-      <h2>{t.objections_heading}</h2>
-      <details><summary><h4><Fragment set:html={t.obj_security_q} /></h4></summary><p><Fragment set:html={t.obj_security_a} /></p></details>
-      <details><summary><h4><Fragment set:html={t.obj_sideloading_q} /></h4></summary><p><Fragment set:html={t.obj_sideloading_a} /></p></details>
-      <details><summary><h4><Fragment set:html={t.obj_hide_q} /></h4></summary><p><Fragment set:html={t.obj_hide_a} /></p></details>
-      <details><summary><h4><Fragment set:html={t.obj_apple_q} /></h4></summary><p><Fragment set:html={t.obj_apple_a} /></p></details>
-      <details><summary><h4><Fragment set:html={t.obj_cost_q} /></h4></summary><p><Fragment set:html={t.obj_cost_a} /></p></details>
+      <h2 set:html={t.objections_heading} />
+      <details><summary><h4 set:html={t.obj_security_q} /></summary><p set:html={t.obj_security_a} /></details>
+      <details><summary><h4 set:html={t.obj_sideloading_q} /></summary><p set:html={t.obj_sideloading_a} /></details>
+      <details><summary><h4 set:html={t.obj_hide_q} /></summary><p set:html={t.obj_hide_a} /></details>
+      <details><summary><h4 set:html={t.obj_apple_q} /></summary><p set:html={t.obj_apple_a} /></details>
+      <details><summary><h4 set:html={t.obj_cost_q} /></summary><p set:html={t.obj_cost_a} /></details>
     </section>
 
     <!-- What you can do -->
     <section id="act" class="action-section">
-      <h2 id="help">{t.act_heading}</h2>
+      <h2 id="help" set:html={t.act_heading} />
       <div class="action-block">
-        <h3 id="everyone">{t.act_everyone_heading}</h3>
+        <h3 id="everyone" set:html={t.act_everyone_heading} />
         <ul>
-          <li><Fragment set:html={t.act_fdroid} /></li>
-          <li><Fragment set:html={t.act_regulators} /></li>
-          <li><Fragment set:html={t.act_share} /></li>
-          <li><Fragment set:html={t.act_astroturf} /></li>
-          <li><Fragment set:html={t.act_petition} /></li>
-          <li><Fragment set:html={t.act_letter} /></li>
-          <li><Fragment set:html={t.act_survey} /></li>
+          <li set:html={t.act_fdroid} />
+          <li set:html={t.act_regulators} />
+          <li set:html={t.act_share} />
+          <li set:html={t.act_astroturf} />
+          <li set:html={t.act_petition} />
+          <li set:html={t.act_letter} />
+          <li set:html={t.act_survey} />
         </ul>
       </div>
       <div class="action-block action-dev-block">
-        <h3 id="developers">{t.act_dev_heading}</h3>
-        <p><Fragment set:html={t.act_dev_intro} /></p>
-        <p class="callout-resist">{t.act_dev_resist}</p>
+        <h3 id="developers" set:html={t.act_dev_heading} />
+        <p set:html={t.act_dev_intro} />
+        <p class="callout-resist" set:html={t.act_dev_resist} />
         <ul>
-          <li>{t.act_dev_talk}</li>
-          <li><Fragment set:html={t.act_dev_warn} /></li>
-          <li><Fragment set:html={t.act_dev_banner} /></li>
+          <li set:html={t.act_dev_talk} />
+          <li set:html={t.act_dev_warn} />
+          <li set:html={t.act_dev_banner} />
         </ul>
       </div>
       <div class="action-block">
-        <h3>{t.act_google_heading}</h3>
-        <p><Fragment set:html={t.act_google_text} /></p>
+        <h3 set:html={t.act_google_heading} />
+        <p set:html={t.act_google_text} />
       </div>
     </section>
 
     <!-- Signatories -->
     <section id="signatories" class="signatories-landing">
       <div class="sig-rule"></div>
-      <h2><Fragment set:html={t.signatories_heading} /></h2>
+      <h2 set:html={t.signatories_heading} />
       <p class="sig-count"><Fragment set:html={t.signatories_count.replace('{count}', String(signatures.length)).replace('{countries}', String(sigCountryCount))} /> <a href="/open-letter"><Fragment set:html={t.signatories_open_letter_link} /></a></p>
       <QuoteTicker direction="right" variant="sigs" duration={160}>
         {shuffledSigs.map((sig: any) => (
@@ -217,67 +213,67 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
         ))}
       </QuoteTicker>
       <p style="text-align:center; margin-top: 1rem;">
-        <a href="/open-letter" class="more-link">{t.signatories_more} &rarr;</a>
+        <a href="/open-letter" class="more-link"><Fragment set:html={t.signatories_more} /> &rarr;</a>
       </p>
     </section>
 
     <!-- Press and coverage -->
     <section id="voices" class="voices-section">
-      <h2>{t.voices_heading}</h2>
-      <h3 class="voices-category">{t.voices_press}</h3>
+      <h2 set:html={t.voices_heading} />
+      <h3 class="voices-category" set:html={t.voices_press} />
       <QuoteTicker direction="left" variant="press" duration={270}>
         {pressItems.map((item: any) => (
           <blockquote class="ticker-card" data-color={item.color || null}>
             <p>"{item.quote}"</p>
-            <cite>{item.author && <>{item.author}, </>}<a href={item.url} target="_blank">{item.source} &#8599;</a></cite>
+            <cite>{item.author && <>{item.author}, </>}<a href={item.url} target="_blank">{item.source}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
-      <h3 class="voices-category">{t.voices_editorials}</h3>
+      <h3 class="voices-category" set:html={t.voices_editorials} />
       <QuoteTicker direction="right" variant="featured" duration={135}>
         {editorialItems.map((item: any) => (
           <blockquote class="ticker-card tc-featured" data-color={item.color || null}>
             <p>"{item.quote}"</p>
-            <cite>{item.author && <>{item.author}, </>}<a href={item.url} target="_blank">{item.source} &#8599;</a></cite>
+            <cite>{item.author && <>{item.author}, </>}<a href={item.url} target="_blank">{item.source}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
-      <h3 class="voices-category">{t.voices_orgs}</h3>
+      <h3 class="voices-category" set:html={t.voices_orgs} />
       <QuoteTicker direction="left" variant="org" duration={120}>
         {orgItems.map((item: any) => (
           <blockquote class="ticker-card" data-color={item.color || null}>
             <p>"{item.quote}"</p>
-            <cite><a href={item.url} target="_blank">{item.source} &#8599;</a></cite>
+            <cite><a href={item.url} target="_blank">{item.source}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
-      <h3 class="voices-category">{t.voices_creators}</h3>
+      <h3 class="voices-category" set:html={t.voices_creators} />
       <QuoteTicker direction="right" variant="video" duration={210}>
         {creatorItems.map((item: any) => (
           <blockquote class="ticker-card tc-video" data-color={item.color || null}>
             <p>"{item.quote}"</p>
-            <cite>{item.author} &ndash; <a href={item.url} target="_blank">{item.link_text || 'YouTube'} &#8599;</a></cite>
+            <cite>{item.author} &ndash; <a href={item.url} target="_blank">{item.link_text || 'YouTube'}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
-      <h3 class="voices-category">{t.voices_community}</h3>
+      <h3 class="voices-category" set:html={t.voices_community} />
       <QuoteTicker direction="left" variant="community" duration={180}>
         {communityItems.map((item: any) => (
           <blockquote class="ticker-card tc-community" data-color={item.color || null}>
             <p>"{item.quote}"</p>
-            <cite>{item.author}{item.author_note && <> ({item.author_note})</>}, <a href={item.url} target="_blank">{item.source} &#8599;</a></cite>
+            <cite>{item.author}{item.author_note && <> ({item.author_note})</>}, <a href={item.url} target="_blank">{item.source}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
 
       {petitionItems.length > 0 && (
         <>
-          <h3 class="voices-category">{t.voices_petition}</h3>
+          <h3 class="voices-category" set:html={t.voices_petition} />
           <QuoteTicker direction="right" variant="petition" duration={240}>
             {petitionItems.map((item: any) => (
               <blockquote class="ticker-card tc-petition">
                 <p>"{item.content}"</p>
-                <cite>{item.author}, <a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">change.org &#8599;</a></cite>
+                <cite>{item.author}, <a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">change.org</a></cite>
               </blockquote>
             ))}
           </QuoteTicker>
@@ -285,29 +281,29 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
       )}
 
       <p style="text-align:center; margin-top: 2rem;">
-        <a href={ctaPath} class="more-link">{t.voices_more} &rarr;</a>
+        <a href={ctaPath} class="more-link"><Fragment set:html={t.voices_more} /> &rarr;</a>
       </p>
     </section>
 
     <!-- CTA banner -->
     <section id="take-action" class="cta-banner">
       <a href={ctaPath} class="cta-banner-link">
-        <span class="cta-banner-label">{t.cta_action_label}</span>
-        <span class="cta-banner-desc">{t.cta_action_desc}</span>
+        <span class="cta-banner-label" set:html={t.cta_action_label} />
+        <span class="cta-banner-desc" set:html={t.cta_action_desc} />
         <span class="cta-banner-arrow">&rarr;</span>
       </a>
       <a href="/open-letter" class="cta-banner-link cta-banner-link-alt">
-        <span class="cta-banner-label">{t.cta_letter_label}</span>
-        <span class="cta-banner-desc">{t.cta_letter_desc}</span>
+        <span class="cta-banner-label" set:html={t.cta_letter_label} />
+        <span class="cta-banner-desc" set:html={t.cta_letter_desc} />
         <span class="cta-banner-arrow">&rarr;</span>
       </a>
     </section>
 
     <!-- Closing -->
     <section id="share" class="closing">
-      <p class="closing-lede">{t.closing_line1}<br>{t.closing_line2}</p>
-      <p>{t.closing_detail}</p>
-      <p class="closing-cta"><strong>{t.closing_cta}</strong></p>
+      <p class="closing-lede"><Fragment set:html={t.closing_line1} /><br><Fragment set:html={t.closing_line2} /></p>
+      <p set:html={t.closing_detail} />
+      <p class="closing-cta"><strong><Fragment set:html={t.closing_cta} /></strong></p>
       <ShareRow t={t} />
     </section>
   </main>
@@ -318,7 +314,7 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
         <a href={homePath} class="outerlync">
           <img class="innerlync" alt="Altered Deal Logo" src="/img/altered-deal.png" style="width: 150px;">
         </a>
-        <h2 class="footer-title">{t.title}</h2>
+        <h2 class="footer-title" set:html={t.title} />
         <div class="footer-social">
           <a href="https://techhub.social/@keepandroidopen" aria-label="Mastodon" title="Mastodon" rel="me" target="_blank"><span class="social-icon icon-mastodon" style="width:24px;height:24px"></span></a>
           <a href="https://bsky.app/profile/keepandroidopen.bsky.social" aria-label="BlueSky" title="BlueSky" target="_blank"><span class="social-icon icon-bluesky" style="width:24px;height:24px"></span></a>
@@ -328,34 +324,34 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
       </div>
       <div class="footer-links-row">
         <div class="footer-col">
-          <h4>{t.footer_get_involved}</h4>
+          <h4 set:html={t.footer_get_involved} />
           <ul>
-            <li><a href={ctaPath}>{t.footer_take_action}</a></li>
-            <li><a href="/open-letter">{t.footer_open_letter}</a></li>
-            <li><a href="/banner">{t.footer_add_banner}</a></li>
-            <li><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">{t.footer_sign_petition} &#8599;</a></li>
+            <li><a href={ctaPath}><Fragment set:html={t.footer_take_action} /></a></li>
+            <li><a href="/open-letter"><Fragment set:html={t.footer_open_letter} /></a></li>
+            <li><a href="/banner"><Fragment set:html={t.footer_add_banner} /></a></li>
+            <li><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank"><Fragment set:html={t.footer_sign_petition} /></a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>{t.footer_contact}</h4>
+          <h4 set:html={t.footer_contact} />
           <ul>
             <li><a href="mailto:info@keepandroidopen.org">info@keepandroidopen.org</a></li>
             <li><a href="mailto:tips@keepandroidopen.org">tips@keepandroidopen.org</a></li>
-            <li><a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" target="_blank">{t.footer_report_issues} &#8599;</a></li>
+            <li><a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" target="_blank"><Fragment set:html={t.footer_report_issues} /></a></li>
           </ul>
         </div>
         <div id="translations" class="footer-col">
-          <h4>{t.footer_translations}</h4>
+          <h4 set:html={t.footer_translations} />
           <ul>
-            <li><a href={ctaPath}>{t.footer_languages}</a></li>
-            <li><a href={translateUrl} target="_blank">{t.footer_help_translate}{translatePct < 100 && ` (${translatePct}% ${(languages as any)[locale].label})`} &#8599;</a></li>
+            <li><a href={ctaPath}><Fragment set:html={t.footer_languages} /></a></li>
+            <li><a href={translateUrl} target="_blank"><Fragment set:html={t.footer_help_translate} />{translatePct < 100 && ` (${translatePct}% ${(languages as any)[locale].label})`}</a></li>
           </ul>
         </div>
       </div>
       <div id="disclaimers" class="footer-legal">
-        <p><Fragment set:html={markdownify(t.site_disclaimer)} /></p>
-        <p><Fragment set:html={markdownify(t.site_privacy)} /></p>
-        <p><Fragment set:html={markdownify(t.site_copyright)} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0" style="max-width: 1em; max-height: 1em; margin-left: .2em;"><img src="/img/zero.svg" alt="Zero" style="max-width: 1em; max-height: 1em; margin-left: .2em;"></p>
+        <p set:html={t.site_disclaimer} />
+        <p set:html={t.site_privacy} />
+        <p><Fragment set:html={t.site_copyright} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0" style="max-width: 1em; max-height: 1em; margin-left: .2em;"><img src="/img/zero.svg" alt="Zero" style="max-width: 1em; max-height: 1em; margin-left: .2em;"></p>
       </div>
     </div>
   </footer>

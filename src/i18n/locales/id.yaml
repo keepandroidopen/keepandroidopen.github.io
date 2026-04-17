@@ -64,7 +64,7 @@ hero_kicker: "Berlaku bagi setiap aplikasi dan setiap perangkat di seluruh dunia
 # What Google is doing
 what_heading: "Apa yang dilakukan Google"
 what_intro: >-
-  Pada Agustus 2025, Google <a href="https://developer.android.com/developer-verification" target="_blank">mengumumkan &#8599;</a> persyaratan baru: mulai September 2026, <strong>setiap pengembang aplikasi Android harus mendaftar secara terpusat ke Google</strong> sebelum perangkat lunak mereka dapat diinstal di perangkat apa pun. Bukan hanya aplikasi Play Store: semua aplikasi. Ini termasuk aplikasi yang dibagikan antar teman, didistribusikan melalui <a href="https://f-droid.org" target="_blank">F-Droid &#8599;</a>, yang dibuat oleh para penggemar untuk penggunaan pribadi. Pengembang independen, kelompok keagamaan dan komunitas, serta para pehobi, semuanya akan terhalang untuk dapat mengembangkan dan mendistribusikan perangkat lunak mereka.
+  Pada Agustus 2025, Google [mengumumkan](https://developer.android.com/developer-verification) persyaratan baru: mulai September 2026, **setiap pengembang aplikasi Android harus mendaftar secara terpusat ke Google** sebelum perangkat lunak mereka dapat diinstal di perangkat apa pun. Bukan hanya aplikasi Play Store: semua aplikasi. Ini termasuk aplikasi yang dibagikan antar teman, didistribusikan melalui [F-Droid](https://f-droid.org), yang dibuat oleh para penggemar untuk penggunaan pribadi. Pengembang independen, kelompok keagamaan dan komunitas, serta para pehobi, semuanya akan terhalang untuk dapat mengembangkan dan mendistribusikan perangkat lunak mereka.
 what_registration: "Pendaftaran memerlukan:"
 what_req_fee: "Membayar biaya ke Google"
 what_req_terms: "Menyetujui Syarat dan Ketentuan Google"
@@ -78,89 +78,89 @@ impact_heading: "Siapa yang dirugikan"
 impact_you_heading: "Anda"
 impact_you_p1: "Anda membeli ponsel Android karena Google memberi tahu Anda bahwa platform ini terbuka. Anda bisa memasang apa pun yang Anda inginkan, dan itulah kesepakatannya."
 impact_you_p2: >- 
-  Google kini mengubah ketentuan tersebut secara retroaktif, berlaku untuk perangkat keras yang sudah Anda miliki. Setelah pembaruan diterapkan, Anda hanya dapat menjalankan perangkat lunak yang telah disetujui sebelumnya oleh Google. Di ponsel Anda: <i>milik Anda</i>, yang <i>Anda</i> bayar.
+  Google kini mengubah ketentuan tersebut secara retroaktif, berlaku untuk perangkat keras yang sudah Anda miliki. Setelah pembaruan diterapkan, Anda hanya dapat menjalankan perangkat lunak yang telah disetujui sebelumnya oleh Google. Di ponsel Anda: *milik Anda*, yang *Anda* bayar.
 impact_dev_heading: "Pengembang independen"
 impact_dev_p1: "Aplikasi pertama seorang remaja, alat privasi seorang relawan, atau beta internal rahasia sebuah perusahaan. Tidak masalah. Setelah September 2026, tidak satu pun dari ini dapat dipasang tanpa restu Google."
 impact_dev_p2: >-
-  <a href="https://f-droid.org" target="_blank">F-Droid &#8599; </a>, rumah bagi ribuan aplikasi Android gratis dan bersumber terbuka, menyebut hal ini sebagai <a href="https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html" target="_blank">ancaman "eksistensial" &#8599;</a>. Cory Doctorow menyebutnya <a href="https://pluralistic.net/2025/09/01/fulu/" target="_blank">“Darth Android” &#8599;</a>.
+  [F-Droid](https://f-droid.org), rumah bagi ribuan aplikasi Android gratis dan bersumber terbuka, menyebut hal ini sebagai [ancaman "eksistensial"](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow menyebutnya [“Darth Android”](https://pluralistic.net/2025/09/01/fulu/).
 impact_gov_heading: "Pemerintah & masyarakat sipil"
 impact_gov_p1: >-
-  Google memiliki <a href="https://www.aclu.org/news/free-speech/app-store-oligopoly" target="_blank">rekam jejak yang tercatat &#8599;</a> dalam menuruti permintaan rezim otoriter untuk menghapus aplikasi. Dengan program ini, perangkat lunak yang menggerakkan lembaga-lembaga di negara Anda akan bergantung sepenuhnya pada kehendak sebuah perusahaan asing yang tidak bertanggung jawab.
+  Google memiliki [rekam jejak yang tercatat](https://www.aclu.org/news/free-speech/app-store-oligopoly) dalam menuruti permintaan rezim otoriter untuk menghapus aplikasi. Dengan program ini, perangkat lunak yang menggerakkan lembaga-lembaga di negara Anda akan bergantung sepenuhnya pada kehendak sebuah perusahaan asing yang tidak bertanggung jawab.
 impact_gov_p2: >-
-  <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF melabeli &#8599;</a> praktik pembatasan aplikasi sebagai 'jalur sensor internet yang terus berkembang'."
+  [EFF melabeli](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) praktik pembatasan aplikasi sebagai 'jalur sensor internet yang terus berkembang'."
 
 # Advanced flow
 flow_heading: " \"Pintu keluar\" Google adalah sebuah jebakan."
 flow_intro: >-
-  Google mengatakan "pengguna tingkat lanjut" masih bisa <a href="https://android-developers.googleblog.com/2026/03/android-developer-verification.html" target="_blank">"memasang"</a> aplikasi yang tidak terverifikasi. Inilah <i>sebenarnya</i> seperti apa prosesnya:"
+  Google mengatakan "pengguna tingkat lanjut" masih bisa ["memasang"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) aplikasi yang tidak terverifikasi. Inilah *sebenarnya* seperti apa prosesnya:"
 flow_step1: "Masuk ke Setelan Sistem, cari Pilihan Pengembang"
-flow_step2: "Ketuk nomor build <strong>tujuh kali</strong> untuk mengaktifkan Mode Pengembang"
+flow_step2: "Ketuk nomor build **tujuh kali** untuk mengaktifkan Mode Pengembang"
 flow_step3: "Abaikan layar peringatan tentang paksaan"
 flow_step4: "Masukkan PIN Anda"
 flow_step5: "Mulai ulang perangkat"
-flow_step6: "<strong>Tunggu 24 jam</strong>"
+flow_step6: "**Tunggu 24 jam**"
 flow_step7: "Kembali lagi, abaikan lebih banyak layar peringatan"
 flow_step8: "Pilih \"izinkan sementara\" (7 hari) atau \"izinkan selamanya\""
 flow_step9: "Konfirmasikan, sekali lagi, bahwa Anda memahami \"risikonya\""
-flow_summary: "Sembilan langkah. Masa tunggu wajib 24 jam. <em>Untuk memasang perangkat lunak pada perangkat yang Anda miliki sendiri.</em>"
+flow_summary: "Sembilan langkah. Masa tunggu wajib 24 jam. *Untuk memasang perangkat lunak pada perangkat yang Anda miliki sendiri.*"
 flow_detail: >-
-  Lebih buruk lagi: alur ini berjalan sepenuhnya melalui <strong>Layanan Google Play</strong>, bukan OS Android. Google dapat mengubah, memperketat, atau mematikannya kapan saja, tanpa perlu pembaruan OS dan tanpa persetujuan. Dan hingga saat ini, fitur tersebut belum dirilis dalam versi beta, preview, atau canary build mana pun. Fitur tersebut hanya ada dalam bentuk postingan blog dan beberapa mockup.
+  Lebih buruk lagi: alur ini berjalan sepenuhnya melalui **Layanan Google Play**, bukan OS Android. Google dapat mengubah, memperketat, atau mematikannya kapan saja, tanpa perlu pembaruan OS dan tanpa persetujuan. Dan hingga saat ini, fitur tersebut belum dirilis dalam versi beta, preview, atau canary build mana pun. Fitur tersebut hanya ada dalam bentuk postingan blog dan beberapa mockup.
 
 # Precedent
 precedent_heading: "Persoalan ini lebih besar daripada sekadar Android"
 precedent_pullquote: "Apabila Google dapat secara retroaktif membatasi akses pada miliaran perangkat yang dipasarkan sebagai platform terbuka, maka setiap produsen perangkat keras di seluruh dunia kini tengah mengamati langkah tersebut."
-precedent_p1: "Prinsip yang sedang ditegakkan adalah: <strong>perusahaan manufaktur perangkat Anda berhak menentukan perangkat lunak apa yang diizinkan untuk dijalankan, bahkan setelah transaksi pembelian selesai dilakukan.</strong> Dalam industri perangkat lunak, praktik ini dikenal sebagai \"rug pull\" (pencabutan dukungan secara mendadak); namun, dalam situasi tersebut setidaknya Anda masih memiliki kemungkinan untuk memasang perangkat lunak kompetitor. Dalam konteks perangkat keras, hal ini merupakan sebuah <i>fait accompli</i> yang merampas kedaulatan pengguna dan menjadikan Anda tidak berdaya di hadapan kehendak sepihak dari penjaga gerbang (gatekeeper) tunggal yang tidak akuntabel serta pelaku monopoli yang telah terbukti."
-precedent_p2: "Keterbukaan Android tidak pernah sekadar berfungsi sebagai sebuah fitur semata. Hal tersebut merupakan sebuah <i>janji</i> yang membedakannya dari iPhone. Jutaan orang memilih Android tepat karena alasan tersebut. Kini, Google membatalkan janji itu secara sepihak pada perangkat yang sudah berada dalam genggaman masyarakat, karena mereka merasa telah memiliki dominasi pasar dan pengaruh terhadap regulasi (regulatory capture) yang cukup kuat untuk melakukannya tanpa konsekuensi berarti."
+precedent_p1: "Prinsip yang sedang ditegakkan adalah: **perusahaan manufaktur perangkat Anda berhak menentukan perangkat lunak apa yang diizinkan untuk dijalankan, bahkan setelah transaksi pembelian selesai dilakukan.** Dalam industri perangkat lunak, praktik ini dikenal sebagai \"rug pull\" (pencabutan dukungan secara mendadak); namun, dalam situasi tersebut setidaknya Anda masih memiliki kemungkinan untuk memasang perangkat lunak kompetitor. Dalam konteks perangkat keras, hal ini merupakan sebuah *fait accompli* yang merampas kedaulatan pengguna dan menjadikan Anda tidak berdaya di hadapan kehendak sepihak dari penjaga gerbang (gatekeeper) tunggal yang tidak akuntabel serta pelaku monopoli yang telah terbukti."
+precedent_p2: "Keterbukaan Android tidak pernah sekadar berfungsi sebagai sebuah fitur semata. Hal tersebut merupakan sebuah *janji* yang membedakannya dari iPhone. Jutaan orang memilih Android tepat karena alasan tersebut. Kini, Google membatalkan janji itu secara sepihak pada perangkat yang sudah berada dalam genggaman masyarakat, karena mereka merasa telah memiliki dominasi pasar dan pengaruh terhadap regulasi (regulatory capture) yang cukup kuat untuk melakukannya tanpa konsekuensi berarti."
 precedent_arstechnica: >-
-  <a href="https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/" target="_blank">Ars Technica &#8599;</a>: <em>"Google's Apple envy threatens to dismantle Android's open legacy."</em>
+  [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *"Google's Apple envy threatens to dismantle Android's open legacy."*
 
 # Objections
 objections_heading: "Namun, bukankah ini..."
 obj_security_q: "\"...hanya demi keamanan?\""
 obj_security_a: >-
-  Dalih keamanan hanyalah sebuah tabir asap. Google Play Protect sudah melakukan pemindaian malware secara mandiri tanpa bergantung pada identitas pengembang. Mewajibkan identitas resmi pemerintah (ID) tidak membuat kode program menjadi lebih aman; hal tersebut hanya membuat pengembang dapat diidentifikasi dan dikendalikan. Pembuat malware tetap dapat mendaftarkan diri, sementara pengembang independen dan aktivis sering kali tidak mampu melakukannya. <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF ↗</a> menegaskan dengan lugas: kontrol akses (gatekeeping) berbasis identitas adalah alat sensor, bukan instrumen keamanan.
+  Dalih keamanan hanyalah sebuah tabir asap. Google Play Protect sudah melakukan pemindaian malware secara mandiri tanpa bergantung pada identitas pengembang. Mewajibkan identitas resmi pemerintah (ID) tidak membuat kode program menjadi lebih aman; hal tersebut hanya membuat pengembang dapat diidentifikasi dan dikendalikan. Pembuat malware tetap dapat mendaftarkan diri, sementara pengembang independen dan aktivis sering kali tidak mampu melakukannya. [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) menegaskan dengan lugas: kontrol akses (gatekeeping) berbasis identitas adalah alat sensor, bukan instrumen keamanan.
 obj_sideloading_q: "\"...tetap dikategorikan sebagai sideloading jika menggunakan prosedur lanjutan?\""
 obj_sideloading_a: >-
-  Sembilan tahapan prosedur, waktu tunggu 24 jam, opsi yang tersembunyi di dalam menu Opsi Pengembang, dan dijalankan melalui layanan berpemilik (proprietary) yang aksesnya dapat dicabut Google kapan saja. Itu bukanlah sideloading. Itu adalah sebuah <strong>mekanisme penghambat</strong> yang dirancang sedemikian rupa agar hampir tidak ada pengguna yang mampu menyelesaikannya. Dan karena prosedur ini berjalan melalui Layanan Google Play (Play Services) dan bukan melalui sistem operasi (OS), Google dapat memperketat atau menghentikan fungsi tersebut secara diam-diam.
+  Sembilan tahapan prosedur, waktu tunggu 24 jam, opsi yang tersembunyi di dalam menu Opsi Pengembang, dan dijalankan melalui layanan berpemilik (proprietary) yang aksesnya dapat dicabut Google kapan saja. Itu bukanlah sideloading. Itu adalah sebuah **mekanisme penghambat** yang dirancang sedemikian rupa agar hampir tidak ada pengguna yang mampu menyelesaikannya. Dan karena prosedur ini berjalan melalui Layanan Google Play (Play Services) dan bukan melalui sistem operasi (OS), Google dapat memperketat atau menghentikan fungsi tersebut secara diam-diam.
 obj_hide_q: "\"...hanya menjadi masalah bagi mereka yang menyembunyikan sesuatu?\""
 obj_hide_a: >-
   Pelapor tindak pidana (whistleblowers), jurnalis, dan aktivis di bawah rezim otoriter akan menjadi korban pertama. Kelompok masyarakat dalam situasi kekerasan domestik adalah berikutnya. Semua kelompok ini memiliki alasan yang sah untuk mendistribusikan atau menggunakan perangkat lunak tanpa harus menyerahkan identitas legal mereka ke dalam basis data Google. Kontribusi sumber terbuka (open-source) secara anonim adalah tradisi yang lebih tua dari Google itu sendiri. Kebijakan ini mengakhiri tradisi tersebut di platform Android.
 obj_apple_q: "\"...praktik yang sama dengan yang dilakukan Apple?\""
 obj_apple_a: >-
- Apple telah menjadi ekosistem tertutup sejak hari pertama. Masyarakat memilih Android karena <i>ia berbeda</i>. Argumen bahwa "Apple juga melakukannya" adalah sebuah perlombaan menuju standar terendah dan merupakan argumen <i>tu quoque</i> yang lemah. Bahkan di bawah tekanan regulasi (seperti Undang-Undang Pasar Digital/DMA di Uni Eropa), Apple kini mulai dipaksa untuk membuka diri. Sebaliknya, Google justru bergerak ke arah yang berlawanan: berupaya untuk semakin memperkuat statusnya sebagai penjaga gerbang (gatekeeper).
+ Apple telah menjadi ekosistem tertutup sejak hari pertama. Masyarakat memilih Android karena *ia berbeda*. Argumen bahwa "Apple juga melakukannya" adalah sebuah perlombaan menuju standar terendah dan merupakan argumen *tu quoque* yang lemah. Bahkan di bawah tekanan regulasi (seperti Undang-Undang Pasar Digital/DMA di Uni Eropa), Apple kini mulai dipaksa untuk membuka diri. Sebaliknya, Google justru bergerak ke arah yang berlawanan: berupaya untuk semakin memperkuat statusnya sebagai penjaga gerbang (gatekeeper).
 obj_cost_q: "\"...hanya persoalan biaya 25 dolar dan beberapa berkas administrasi?\""
 obj_cost_a: >-
-  Mungkin demikian jika Anda adalah seorang pengembang di Amerika Serikat yang memiliki kartu kredit dan surat izin mengemudi. Namun, bayangkan jika Anda adalah seorang mahasiswa di Afrika bagian selatan, seorang aktivis di Myanmar, atau seorang sukarelawan yang mengelola aplikasi kesehatan masyarakat. Biaya yang harus dibayar bukan sekadar finansial: Anda menyerahkan identitas resmi pemerintah dan bukti kunci penandatanganan aplikasi (signing keys) kepada perusahaan yang <a href="https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/" target="_blank">secara rutin mematuhi ↗</a> tuntutan pemerintah untuk menghapus aplikasi dan mengungkap identitas pengembang.
+  Mungkin demikian jika Anda adalah seorang pengembang di Amerika Serikat yang memiliki kartu kredit dan surat izin mengemudi. Namun, bayangkan jika Anda adalah seorang mahasiswa di Afrika bagian selatan, seorang aktivis di Myanmar, atau seorang sukarelawan yang mengelola aplikasi kesehatan masyarakat. Biaya yang harus dibayar bukan sekadar finansial: Anda menyerahkan identitas resmi pemerintah dan bukti kunci penandatanganan aplikasi (signing keys) kepada perusahaan yang [secara rutin mematuhi](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) tuntutan pemerintah untuk menghapus aplikasi dan mengungkap identitas pengembang.
 
 # Fight back
 act_heading: "Langkah Perlawanan"
 act_everyone_heading: "Semua Orang"
 act_fdroid: >-
-  <strong><a href="https://f-droid.org" target="_blank">Pasang F-Droid ↗</a></strong> pada setiap perangkat Android milik Anda. Toko aplikasi alternatif hanya dapat bertahan jika masyarakat benar-benar menggunakannya.
+  **[Pasang F-Droid](https://f-droid.org)** pada setiap perangkat Android milik Anda. Toko aplikasi alternatif hanya dapat bertahan jika masyarakat benar-benar menggunakannya.
 act_regulators: >-
-  <strong><a href="/cta/#consumers">Hubungi otoritas regulasi Anda.</a></strong> Regulator di seluruh dunia tengah menaruh perhatian serius terhadap isu monopoli dan sentralisasi kekuasaan di sektor teknologi. Mereka perlu mendengar langsung dari individu yang terdampak dan merasa prihatin.
+  **[Hubungi otoritas regulasi Anda.](/cta/#consumers)** Regulator di seluruh dunia tengah menaruh perhatian serius terhadap isu monopoli dan sentralisasi kekuasaan di sektor teknologi. Mereka perlu mendengar langsung dari individu yang terdampak dan merasa prihatin.
 act_share: >-
-  <strong>Sebarluaskan laman ini.</strong> Bagikan tautan <a href="https://keepandroidopen.org">keepandroidopen.org</a> kemana saja
+  **Sebarluaskan laman ini.** Bagikan tautan [keepandroidopen.org](https://keepandroidopen.org) kemana saja
 act_astroturf: >-
-  <strong>Lawan narasi semu (astroturfing).</strong> Kelompok "tapi, sebenarnya..." sedang gencar beraksi. Jangan biarkan mereka menentukan narasi.
+  **Lawan narasi semu (astroturfing).** Kelompok "tapi, sebenarnya..." sedang gencar beraksi. Jangan biarkan mereka menentukan narasi.
 act_petition: >-
-  <strong><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">Tanda tangani petisi change.org ↗</a></strong> dan bergabunglah dengan lebih dari 100.000 penandatangan yang telah menyuarakan aspirasi mereka.
+  **[Tanda tangani petisi change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** dan bergabunglah dengan lebih dari 100.000 penandatangan yang telah menyuarakan aspirasi mereka.
 act_letter: >-
-  <strong><a href="/open-letter">Baca dan sebarluaskan surat terbuka kami</a></strong>
+  **[Baca dan sebarluaskan surat terbuka kami](/open-letter)**
 act_survey: >-
-  <strong>Sampaikan pendapat Anda kepada Google</strong> melalui <a href="https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1" target="_blank">survei verifikasi pengembang ↗</a> milik mereka sendiri <small>(terlepas dari seberapa besar dampaknya nanti)</small>.
+  **Sampaikan pendapat Anda kepada Google** melalui [survei verifikasi pengembang](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) milik mereka sendiri <small>(terlepas dari seberapa besar dampaknya nanti)</small>.
 act_dev_heading: "Pengembang"
 act_dev_intro: >-
   <strong style="text-transform: uppercase;">Jangan mendaftarkan diri.</strong> Jangan bergabung dalam program ini melalui Konsol Pengembang Android dan menyetujui Syarat dan Ketentuan mereka yang bersifat mengikat secara hukum. Jangan melakukan verifikasi identitas. Jangan berkompromi.
 act_dev_resist: "Rencana Google hanya akan berhasil jika pengembang patuh. Jangan."
 act_dev_talk: "Ajak pengembang dan organisasi lain untuk tidak mendaftar."
 act_dev_warn: >-
-  Tambahkan <a href="https://github.com/woheller69/FreeDroidWarn" target="_blank">pustaka FreeDroidWarn &#8599;</a> ke aplikasi Anda untuk memperingatkan pengguna.
+  Tambahkan [pustaka FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) ke aplikasi Anda untuk memperingatkan pengguna.
 act_dev_banner: >-
-  "Mengelola situs web? <a href="/banner">Tambahkan spanduk hitung mundur.</a>"
+  "Mengelola situs web? [Tambahkan spanduk hitung mundur.](/banner)"
 act_google_heading: "Karyawan Google"
 act_google_text: >-
-  Apabila Anda memiliki informasi terkait implementasi teknis program ini atau latar belakang internalnya, silakan hubungi <a href="mailto:tips@keepandroidopen.org">tips@keepandroidopen.org</a> menggunakan perangkat bukan milik kantor dan akun non-Gmail. Kami menjamin kerahasiaan identitas Anda sepenuhnya.
+  Apabila Anda memiliki informasi terkait implementasi teknis program ini atau latar belakang internalnya, silakan hubungi [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) menggunakan perangkat bukan milik kantor dan akun non-Gmail. Kami menjamin kerahasiaan identitas Anda sepenuhnya.
 
 # Voices section
 voices_heading: "Apa yang mereka katakan"
@@ -173,7 +173,7 @@ voices_petition: "Suara dari petisi"
 voices_more: "Semua referensi, editorial, liputan pers, dan video"
 
 # Signatories section
-signatories_heading: "Semua yang menentang&hellip;"
+signatories_heading: "Semua yang menentang…"
 signatories_count: "{count} organisasi dari {countries} negara telah menandatangani"
 signatories_open_letter_link: "surat terbuka"
 signatories_more: "Baca surat terbuka selengkapnya dan berikan apresiasi kepada para penandatangan"

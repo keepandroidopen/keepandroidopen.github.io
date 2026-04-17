@@ -4,11 +4,18 @@
  * Loads per-locale YAML files from src/i18n/locales/{locale}.yaml,
  * falling back to English for any missing key.
  *
+ * All values are processed through marked.parseInline() so that
+ * markdown in locale strings (bold, italic, links) is converted to
+ * HTML at load time.  A small set of keys that are used as plain text
+ * (meta attributes, social-media share messages) are left raw.
+ *
  * Usage:
  *   import { getLandingStrings } from '../i18n/locales';
  *   const t = getLandingStrings('fr');
  *   t.hero_lede  // French if available, English otherwise
  */
+
+import { markdownify } from '../config';
 
 // Eagerly import all locale YAML files via Vite's glob import (sync).
 // Each module default-exports the parsed YAML object.
@@ -21,20 +28,37 @@ function loadLocale(locale: string): Record<string, string> {
 
 const enStrings = loadLocale('en');
 
+/** Keys that must stay as raw text (used in HTML attributes or as
+ *  plain-text social-media messages, not rendered with set:html). */
+const RAW_KEYS = new Set(['title', 'description']);
+function isRawKey(key: string): boolean {
+  return RAW_KEYS.has(key) || key.startsWith('social_callout_');
+}
+
 /**
  * Returns a merged string map for the given locale.
  * Every key present in en.yaml is guaranteed to exist in the result;
  * locale-specific overrides take precedence.
+ *
+ * Values are pre-processed through markdown→HTML conversion unless
+ * the key is in the raw-key set.
  */
 export function getLandingStrings(locale: string = 'en'): Record<string, string> {
-  if (locale === 'en') return { ...enStrings };
-  const raw = loadLocale(locale);
-  // Filter out empty strings so they fall back to English
-  const localeStrings: Record<string, string> = {};
-  for (const [k, v] of Object.entries(raw)) {
-    if (v !== '') localeStrings[k] = v;
+  let merged: Record<string, string>;
+  if (locale === 'en') {
+    merged = { ...enStrings };
+  } else {
+    const raw = loadLocale(locale);
+    // Filter out empty strings so they fall back to English
+    const localeStrings: Record<string, string> = {};
+    for (const [k, v] of Object.entries(raw)) {
+      if (v !== '') localeStrings[k] = v;
+    }
+    merged = { ...enStrings, ...localeStrings };
   }
-  return { ...enStrings, ...localeStrings };
+  return Object.fromEntries(
+    Object.entries(merged).map(([k, v]) => [k, isRawKey(k) ? v : markdownify(v)])
+  );
 }
 
 /**

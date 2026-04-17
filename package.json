@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "validate": "html-validate 'dist/**/*.html'"
   },
   "dependencies": {
     "astro": "^6.1.7",
@@ -16,6 +17,7 @@
     "remark-custom-heading-id": "^2.0.0"
   },
   "devDependencies": {
-    "@rollup/plugin-yaml": "^4.1.2"
+    "@rollup/plugin-yaml": "^4.1.2",
+    "html-validate": "^10.13.0"
   }
 }

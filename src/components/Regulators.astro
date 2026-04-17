@@ -9,21 +9,17 @@ interface Props {
 
 const { locale } = Astro.props;
 
-/** Parse inline markdown and add target="_blank" + ↗ to http/https links */
+/** Parse inline markdown and add target="_blank" to http/https links */
 function renderInline(md: string): string {
   let html = marked.parseInline(md) as string;
   html = html.replace(/<a href="(https?:\/\/[^"]*)">/g, '<a href="$1" target="_blank">');
-  html = html.replace(/<a href="(https?:\/\/[^"]*)" target="_blank">([^<]*)<\/a>/g,
-    '<a href="$1" target="_blank">$2 ↗</a>');
   return html;
 }
 
-/** Parse block markdown and add target="_blank" + ↗ to http/https links */
+/** Parse block markdown and add target="_blank" to http/https links */
 function renderBlock(md: string): string {
   let html = marked.parse(md) as string;
   html = html.replace(/<a href="(https?:\/\/[^"]*)">/g, '<a href="$1" target="_blank">');
-  html = html.replace(/<a href="(https?:\/\/[^"]*)" target="_blank">([^<]*)<\/a>/g,
-    '<a href="$1" target="_blank">$2 ↗</a>');
   return html;
 }
 

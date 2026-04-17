@@ -73,86 +73,86 @@ footer_report_issues: "Signaler un problème"
 footer_translations: "Traductions"
 footer_help_translate: "Aider à traduire"
 hero_sub: >-
-  À partir de septembre 2026, une mise à jour silencieuse, imposée sans consentement par Google, <strong>bloquera toutes les applications Android</strong> dont le développeur ne s'est pas enregistré auprès de Google, n'a pas signé son contrat, n'a pas payé et n'a pas fourni de pièce d'identité officielle.
+  À partir de septembre 2026, une mise à jour silencieuse, imposée sans consentement par Google, **bloquera toutes les applications Android** dont le développeur ne s'est pas enregistré auprès de Google, n'a pas signé son contrat, n'a pas payé et n'a pas fourni de pièce d'identité officielle.
 what_intro: >-
-  En août 2025, Google <a href="https://developer.android.com/developer-verification" target="_blank">a annoncé &#8599;</a> une nouvelle exigence: à partir de septembre 2026, <strong>tout développeur d'applications Android devra s'inscrire auprès de Google</strong> avant que son logiciel puisse être installé sur un appareil. Cela concerne toutes les applications, et pas seulement celles du Play Store. Cela inclut les applications partagées entre amis, distribuées via <a href="https://f-droid.org" target="_blank">F-Droid &#8599;</a>, ou encore celles créées par des amateurs pour un usage personnel. Les développeurs indépendants, les groupes religieux et communautaires, ainsi que les amateurs, seront tous empêchés de développer et de distribuer leurs logiciels.
+  En août 2025, Google [a annoncé](https://developer.android.com/developer-verification) une nouvelle exigence: à partir de septembre 2026, **tout développeur d'applications Android devra s'inscrire auprès de Google** avant que son logiciel puisse être installé sur un appareil. Cela concerne toutes les applications, et pas seulement celles du Play Store. Cela inclut les applications partagées entre amis, distribuées via [F-Droid](https://f-droid.org), ou encore celles créées par des amateurs pour un usage personnel. Les développeurs indépendants, les groupes religieux et communautaires, ainsi que les amateurs, seront tous empêchés de développer et de distribuer leurs logiciels.
 what_pullquote: >-
   Si un développeur ne se conforme pas à la réglementation, ses applications seront silencieusement bloquées sur tous les appareils Android du monde entier.
 impact_you_p1: >-
   Vous avez acheté un téléphone Android parce que Google vous avait dit qu'il était ouvert. Vous pouviez installer ce que vous vouliez, et c'était le marché.
 impact_you_p2: >-
-  Google modifie désormais cet accord, rétroactivement, sur les appareils que vous possédez déjà. Après la mise à jour, vous ne pourrez exécuter que les applications préalablement approuvées par Google. Sur votre téléphone : <i>votre appareil</i>, que <i>vous</i> avez payé.
+  Google modifie désormais cet accord, rétroactivement, sur les appareils que vous possédez déjà. Après la mise à jour, vous ne pourrez exécuter que les applications préalablement approuvées par Google. Sur votre téléphone : *votre appareil*, que *vous* avez payé.
 impact_dev_p1: >-
   Première application d'un adolescent, outil de protection de la vie privée d'un bénévole ou version bêta interne confidentielle d'une entreprise : peu importe. Après septembre 2026, aucune de ces applications ne pourra être installée sans l'autorisation de Google.
 impact_dev_p2: >-
-  <a href="https://f-droid.org" target="_blank">F-Droid &#8599;</a>, qui héberge des milliers d'applications Android gratuites et open source, a qualifié cela de <a href="https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html" target="_blank">menace "existentielle" &#8599;</a>. Cory Doctorow le nomme <a href="https://pluralistic.net/2025/09/01/fulu/" target="_blank">"Darth Android" &#8599;</a>.
+  [F-Droid](https://f-droid.org), qui héberge des milliers d'applications Android gratuites et open source, a qualifié cela de [menace "existentielle"](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow le nomme ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/).
 impact_gov_p1: >-
-  Google a un <a href="https://www.aclu.org/news/free-speech/app-store-oligopoly" target="_blank">historique bien documenté &#8599;</a> de sa capacité à se conformer aux exigences de retrait d'applications formulées par des régimes autoritaires. Avec ce programme, le logiciel qui fait fonctionner les institutions de votre pays sera à la merci d'une seule et unique multinationale étrangère irresponsable.
+  Google a un [historique bien documenté](https://www.aclu.org/news/free-speech/app-store-oligopoly) de sa capacité à se conformer aux exigences de retrait d'applications formulées par des régimes autoritaires. Avec ce programme, le logiciel qui fait fonctionner les institutions de votre pays sera à la merci d'une seule et unique multinationale étrangère irresponsable.
 impact_gov_p2: >-
-  <a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">L’EFF qualifie &#8599;</a> le contrôle d’accès aux applications de "voie toujours plus large vers la censure d’Internet."
+  [L’EFF qualifie](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) le contrôle d’accès aux applications de "voie toujours plus large vers la censure d’Internet."
 flow_heading: "La \"trappe de secours\" de Google est un piège."
 flow_intro: >-
-  Google indique que les "utilisateurs avancés" peuvent <a href="https://android-developers.googleblog.com/2026/03/android-developer-verification.html" target="_blank">"toujours installer"</a> des applications non vérifiées. Voici à quoi cela ressemble <i>concrètement</i> :
+  Google indique que les "utilisateurs avancés" peuvent ["toujours installer"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) des applications non vérifiées. Voici à quoi cela ressemble *concrètement* :
 flow_step1: "Accéder aux paramètres système et recherchez les options pour les développeurs."
-flow_step2: "Appuyer <strong>sept fois</strong> sur le numéro de build pour activer le mode développeur."
+flow_step2: "Appuyer **sept fois** sur le numéro de build pour activer le mode développeur."
 flow_step3: "Ignorer les écrans alarmistes concernant la coercition"
 flow_step4: "Saisir votre code PIN"
 flow_step5: "Redémarrer l'appareil"
-flow_step6: "<strong>Attendre 24 heures</strong>"
+flow_step6: "**Attendre 24 heures**"
 flow_step7: "Revenir, ignorer plus d'écrans alarmistes"
 flow_step8: "Choisir \"autoriser temporairement\" (7 jours) ou \"autoriser définitivement\""
 flow_step9: "Confirmer, de nouveau, que vous comprenez \"les risques\""
 flow_summary: >-
-  Neuf étapes. Une période de réflexion obligatoire de 24 heures.<em>Pour installer du logiciel sur un apparail qui vous appartient.</em>
+  Neuf étapes. Une période de réflexion obligatoire de 24 heures.*Pour installer du logiciel sur un apparail qui vous appartient.*
 flow_detail: >-
-  Pire encore : ce flux passe entièrement par les services <strong>Google Play</strong>, et non par le système d’exploitation Android. Google peut le modifier, le restreindre ou le supprimer à tout moment, sans mise à jour du système d’exploitation ni consentement requis. À ce jour, il n’est intégré à aucune version bêta, préversion ou version Canary. Il n’existe pour l’instant que sous forme d’article de blog et de quelques maquettes.
+  Pire encore : ce flux passe entièrement par les services **Google Play**, et non par le système d’exploitation Android. Google peut le modifier, le restreindre ou le supprimer à tout moment, sans mise à jour du système d’exploitation ni consentement requis. À ce jour, il n’est intégré à aucune version bêta, préversion ou version Canary. Il n’existe pour l’instant que sous forme d’article de blog et de quelques maquettes.
 precedent_heading: "C'est plus grand qu'Android"
 precedent_pullquote: >-
   Si Google peut verrouiller rétroactivement des milliards d'appareils vendus comme plateformes ouvertes, tous les fabricants de matériel de la planète ont les yeux rivés sur eux.
 precedent_p1: >-
-  Le principe qui s'impose est le suivant : <strong>après l'achat de votre appareil, l'entreprise qui l'a fabriqué décide des logiciels que vous êtes autorisé à utiliser.</strong> Dans le domaine du logiciel, on parle d'une "arnaque éclair" ; mais au moins, vous pouviez toujours installer des logiciels concurrents. Dans le domaine du matériel, c'est un <i>fait accompli</i> qui vous prive de toute liberté de choix et vous rend impuissant face aux caprices d'un unique détenteur de pouvoir irresponsable et d'un monopoliste condamné.
+  Le principe qui s'impose est le suivant : **après l'achat de votre appareil, l'entreprise qui l'a fabriqué décide des logiciels que vous êtes autorisé à utiliser.** Dans le domaine du logiciel, on parle d'une "arnaque éclair" ; mais au moins, vous pouviez toujours installer des logiciels concurrents. Dans le domaine du matériel, c'est un *fait accompli* qui vous prive de toute liberté de choix et vous rend impuissant face aux caprices d'un unique détenteur de pouvoir irresponsable et d'un monopoliste condamné.
 precedent_p2: >-
-  L'ouverture d'Android n'a jamais été une simple fonctionnalité. C'était la <em>promesse</em> qui le distinguait de l'iPhone. Des millions de personnes ont choisi Android précisément pour cette raison. Google revient aujourd'hui unilatéralement sur cette promesse, sur des appareils <i>déjà</i> en circulation, car l'entreprise estime que sa position dominante sur le marché et son emprise sur la réglementation lui permettent d'agir ainsi en toute impunité.
+  L'ouverture d'Android n'a jamais été une simple fonctionnalité. C'était la *promesse* qui le distinguait de l'iPhone. Des millions de personnes ont choisi Android précisément pour cette raison. Google revient aujourd'hui unilatéralement sur cette promesse, sur des appareils *déjà* en circulation, car l'entreprise estime que sa position dominante sur le marché et son emprise sur la réglementation lui permettent d'agir ainsi en toute impunité.
 obj_security_q: "\"...juste à propos de la sécurité ?\""
 obj_security_a: >-
-  L'argument de sécurité invoqué n'est qu'un leurre. Google Play Protect analyse déjà les applications à la recherche de logiciels malveillants indépendamment de l'identité du développeur. Exiger une pièce d'identité officielle ne rend pas le code plus sûr. Cela permet d'identifier et de contrôler les <em>développeurs</em>. Les auteurs de logiciels malveillants peuvent s'enregistrer. Les développeurs indépendants et les dissidents, souvent, ne le peuvent pas. L'<a href="https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship" target="_blank">EFF &#8599;</a> est catégorique : le contrôle d'accès basé sur l'identité est un outil de censure, et non de sécurité.
+  L'argument de sécurité invoqué n'est qu'un leurre. Google Play Protect analyse déjà les applications à la recherche de logiciels malveillants indépendamment de l'identité du développeur. Exiger une pièce d'identité officielle ne rend pas le code plus sûr. Cela permet d'identifier et de contrôler les *développeurs*. Les auteurs de logiciels malveillants peuvent s'enregistrer. Les développeurs indépendants et les dissidents, souvent, ne le peuvent pas. L'[EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) est catégorique : le contrôle d'accès basé sur l'identité est un outil de censure, et non de sécurité.
 obj_sideloading_q: "\"...toujours du sideloading si l'on utilise un processus avancé?\""
 obj_sideloading_a: >-
-  Neuf étapes, 24 heures d'attente, dissimulées dans les options pour développeurs, via un service propriétaire que Google peut révoquer à tout moment. Il ne s'agit pas d'installation d'applications hors du système. C'est un <strong>mécanisme de dissuasion</strong> conçu pour empêcher presque tout le monde de le mener à bien. Et comme il passe par les services Google Play et non par le système d'exploitation, Google peut le restreindre ou le supprimer discrètement.
+  Neuf étapes, 24 heures d'attente, dissimulées dans les options pour développeurs, via un service propriétaire que Google peut révoquer à tout moment. Il ne s'agit pas d'installation d'applications hors du système. C'est un **mécanisme de dissuasion** conçu pour empêcher presque tout le monde de le mener à bien. Et comme il passe par les services Google Play et non par le système d'exploitation, Google peut le restreindre ou le supprimer discrètement.
 obj_hide_q: "\"...seulement un problème si l'on a quelque chose à cacher ?\""
 obj_hide_a: >-
   Les lanceurs d'alerte, les journalistes et les militants sous les régimes autoritaires seront les premières victimes. Les personnes victimes de violences conjugales viendront ensuite. Tous ces groupes ont des raisons légitimes de distribuer ou d'utiliser des logiciels sans que leur identité légale soit enregistrée dans la base de données de Google. La contribution anonyme aux logiciels libres est une tradition antérieure à Google lui-même. Cette politique y met fin sur Android.
 obj_apple_q: "\"...la même politique qu'Apple?\""
 obj_apple_a: >-
-  Depuis sa création, Apple a toujours été un écosystème fermé. Les utilisateurs ont choisi <em>Android parce qu'il était différent</em>. Affirmer "qu'Apple fait pareil" relève d'une course au moins-disant et d'un argument <i>fallacieux</i>. Sous la pression réglementaire (notamment la directive européenne sur les marchés numériques), même Apple est contrainte de s'ouvrir. Google, quant à lui, prend le contrepied de cette tendance : il cherche à consolider son monopole.
+  Depuis sa création, Apple a toujours été un écosystème fermé. Les utilisateurs ont choisi *Android parce qu'il était différent*. Affirmer "qu'Apple fait pareil" relève d'une course au moins-disant et d'un argument *fallacieux*. Sous la pression réglementaire (notamment la directive européenne sur les marchés numériques), même Apple est contrainte de s'ouvrir. Google, quant à lui, prend le contrepied de cette tendance : il cherche à consolider son monopole.
 obj_cost_q: "\"...seulement $25 et un peu de paperasse?\""
 obj_cost_a: >-
-  Peut-être, si vous êtes un développeur américain possédant une carte de crédit et un permis de conduire. Imaginez être étudiant en Afrique subsaharienne, dissident au Myanmar ou bénévole gérant une application de santé communautaire. Le coût n'est pas seulement financier : vous devez fournir une pièce d'identité officielle et des justificatifs, ou vos clés de signature, à une entreprise qui <a href="https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/" target="_blank">se plie systématiquement &#8599;</a> aux exigences gouvernementales de suppression d'applications et de dénonciation des développeurs.
+  Peut-être, si vous êtes un développeur américain possédant une carte de crédit et un permis de conduire. Imaginez être étudiant en Afrique subsaharienne, dissident au Myanmar ou bénévole gérant une application de santé communautaire. Le coût n'est pas seulement financier : vous devez fournir une pièce d'identité officielle et des justificatifs, ou vos clés de signature, à une entreprise qui [se plie systématiquement](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) aux exigences gouvernementales de suppression d'applications et de dénonciation des développeurs.
 act_everyone_heading: "Tout le monde"
 act_fdroid: >-
-  <strong><a href="https://f-droid.org" target="_blank">Installez F-Droid &#8599;</a></strong> sur chaque apparail Android que vous possédez. Les magasins alternatifs ne survivent que si les gens les utilisent.
+  **[Installez F-Droid](https://f-droid.org)** sur chaque apparail Android que vous possédez. Les magasins alternatifs ne survivent que si les gens les utilisent.
 act_regulators: >-
-  <strong><a href="/cta/#consumers">Contactez vos organismes de régulation.</a></strong> Les organismes de réglementation du monde entier sont véritablement préoccupés par les monopoles et la centralisation du pouvoir dans le secteur technologique, et souhaitent entendre directement les personnes concernées.
+  **[Contactez vos organismes de régulation.](/cta/#consumers)** Les organismes de réglementation du monde entier sont véritablement préoccupés par les monopoles et la centralisation du pouvoir dans le secteur technologique, et souhaitent entendre directement les personnes concernées.
 act_share: >-
-  <strong>Partagez cette page.</strong> Lien vers <a href="https://keepandroidopen.org">keepandroidopen.org</a> partout.
+  **Partagez cette page.** Lien vers [keepandroidopen.org](https://keepandroidopen.org) partout.
 act_astroturf: >-
-  <strong>Résistez aux manipulations de l'opinion publique.</strong> Les partisans du "en fait… " sont nombreux. Ne les laissez pas dicter le récit.
+  **Résistez aux manipulations de l'opinion publique.** Les partisans du "en fait… " sont nombreux. Ne les laissez pas dicter le récit.
 act_petition: >-
-  <strong><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">Signez la pétition sur change.org &#8599;</a></strong> et rejoignez les plus de 100 000 signataires qui ont fait entendre leur voix.
-act_letter: "<strong><a href=\"/open-letter\">Lisez and partagez notre lettre ouverte</a></strong>"
+  **[Signez la pétition sur change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** et rejoignez les plus de 100 000 signataires qui ont fait entendre leur voix.
+act_letter: "**[Lisez and partagez notre lettre ouverte](/open-letter)**"
 act_survey: >-
-  <strong>Dites à Google ce que vous pensez de cela</strong> par leur propre<a href="https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1" target="_blank">sondage sur la vérification des développeurs&#8599;</a> <small>(pour tout le bien que cela fera)</small>.
+  **Dites à Google ce que vous pensez de cela** par leur propre[sondage sur la vérification des développeurs](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(pour tout le bien que cela fera)</small>.
 act_dev_heading: "Développeurs"
 act_dev_intro: >-
-  <strong style="text-transform: uppercase;">NE PAS SIGNER.</strong> Ne rejoignez pas le programme en vous inscrivant à la console développeur Android et en acceptant leurs conditions générales irrévocables. Ne vérifiez pas votre identité. <i>Ne jouez pas le jeu.</i>
+  <strong style="text-transform: uppercase;">NE PAS SIGNER.</strong> Ne rejoignez pas le programme en vous inscrivant à la console développeur Android et en acceptant leurs conditions générales irrévocables. Ne vérifiez pas votre identité. *Ne jouez pas le jeu.*
 act_dev_resist: "Le plan de Google ne fonctionne que si les développeurs s'y conforment. Ne le faites pas."
 act_dev_talk: "Convaincre les autres développeurs et organisations de ne pas s'inscrire."
 act_dev_warn: >-
-  Ajouter la <a href="https://github.com/woheller69/FreeDroidWarn" target="_blank">FreeDroidWarn librairie &#8599;</a> à vos applications pour avertir les utilisateurs.
-act_dev_banner: "Vous gérez un site web ? <a href=\"/banner\">Ajoutez la bannière de compte à rebours.</a>"
+  Ajouter la [FreeDroidWarn librairie](https://github.com/woheller69/FreeDroidWarn) à vos applications pour avertir les utilisateurs.
+act_dev_banner: "Vous gérez un site web ? [Ajoutez la bannière de compte à rebours.](/banner)"
 act_google_heading: "Employé(e)s de Google"
 act_google_text: >-
-  Si vous avez des connaissances sur la mise en œuvre technique du programme ou sur sa justification interne, contactez <a href="mailto:tips@keepandroidopen.org">tips@keepandroidopen.org</a> depuis une machine <em>personnel</em> et un compte <em>non-Gmail</em>. Confidentialité absolue garantie.
+  Si vous avez des connaissances sur la mise en œuvre technique du programme ou sur sa justification interne, contactez [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) depuis une machine *personnel* et un compte *non-Gmail*. Confidentialité absolue garantie.
 voices_press: "Press Tech"
 voices_editorials: "Éditoriaux & analyses"
 voices_orgs: "Organisations & lettres ouvertes"
@@ -188,7 +188,7 @@ footer_languages: "English (+ 30 langages)"
 # Advanced flow
 
 # Precedent
-# precedent_arstechnica: "<a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\" target=\"_blank\">Ars Technica &#8599;</a>: <em>\"Goo..."
+# precedent_arstechnica: "<a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\" target=\"_blank\">Ars Technica</a>: <em>\"Goo..."
 
 # Objections
 
