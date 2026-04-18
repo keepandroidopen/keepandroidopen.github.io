@@ -14,7 +14,8 @@ export async function getStaticPaths() {
     .filter((page) => page.id !== 'letter')
     .filter((page) => page.id !== 'banner')
     .map((page) => {
-      const locale = page.id;
+      // Prefer the declared language tag so locales like zh-TW / pt-BR keep casing.
+      const locale = page.data.lang || page.id;
       return { params: { locale }, props: { entry: page } };
     });
 }
