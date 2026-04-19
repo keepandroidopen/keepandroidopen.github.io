@@ -121,8 +121,7 @@ impact_gov_heading: "Gobiernos y Sociedad civil"
 impact_gov_p1: >-
   "Google tiene un [historial documentado](https://www.aclu.org/news/free-speech/app-store-oligopoly) de acatar las exigencias de los regímenes autoritarios cuando estos solicitan la retirada de aplicaciones. Con este programa, el software que hace funcionar las instituciones de tu país dependerá de la voluntad de una única empresa extranjera que no rinde cuentas a nadie."
 # impact_gov_p2: "The <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF calls</a> app gatekeeping \"an ever-expanding ..."
-impact_gov_p2: >-
-  "La [EFF califica](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) el control de acceso a las aplicaciones como \"una vía cada vez más amplia hacia la censura en Internet\"."
+impact_gov_p2: "La [EFF califica](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) el control de acceso a las aplicaciones como \"una vía cada vez más amplia hacia la censura en Internet\"."
 
 # Advanced flow
 # flow_heading: "Google's \"escape hatch\" is a trap door"
@@ -162,11 +161,9 @@ precedent_pullquote: "Si Google puede bloquear retroactivamente miles de millone
 precedent_p1: >-
   "El principio que se está imponiendo es el siguiente: **la empresa que ha fabricado tu dispositivo es la que decide, una vez que lo has comprado, qué software puedes utilizar.** En el ámbito del software, a esto se le llama \"tirar de la alfombra\"; pero al menos siempre podías instalar software de la competencia. En el ámbito del hardware, se trata de un *hecho consumado* que te priva de tu capacidad de decisión y te deja indefenso ante los caprichos de un único guardián que no rinde cuentas a nadie y que ha sido declarado culpable de monopolio."
 # precedent_p2: "Android's openness was never just a feature. It was the <em>promise</em> that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unila..."
-precedent_p2: >-
-  "La apertura de Android nunca fue solo una característica más. Era la *promesa* que lo distinguía del iPhone. Millones de personas eligieron Android precisamente por esa razón. Ahora, Google está incumpliendo esa promesa de forma unilateral, en dispositivos que *ya* están en manos de los usuarios, porque ha decidido que cuenta con suficiente dominio del mercado y influencia sobre los reguladores como para salirse con la suya."
+precedent_p2: "La apertura de Android nunca fue solo una característica más. Era la *promesa* que lo distinguía del iPhone. Millones de personas eligieron Android precisamente por esa razón. Ahora, Google está incumpliendo esa promesa de forma unilateral, en dispositivos que *ya* están en manos de los usuarios, porque ha decidido que cuenta con suficiente dominio del mercado y influencia sobre los reguladores como para salirse con la suya."
 # precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Goo..."
-precedent_arstechnica: >-
-  "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): \*"La envidia de google hacia Apple amenaza con desmantelar el legado abierto de Android.\"* "
+precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): \*"La envidia de google hacia Apple amenaza con desmantelar el legado abierto de Android.\"* "
 
 # Objections
 # objections_heading: "But wait, isn't this..."
