@@ -1822,10 +1822,14 @@ countries:
         name:
           en: "Austria"
           de: "Österreich"
+          zh-CN: "奥地利"
+          zh-TW: "奧地利"
         items:
           - text:
               en: "Contact the Austrian [Federal Competition Authority](https://www.bwb.gv.at/beschwerdeeinbringung)"
               de: "Reichen Sie eine Beschwerde bei der [Bundeswettbewerbsbehörde](https://www.bwb.gv.at/beschwerdeeinbringung) ein"
+              zh-CN: "联系奥地利[联邦竞争局](https://www.bwb.gv.at/beschwerdeeinbringung)"
+              zh-TW: "聯絡奧地利[聯邦競爭局](https://www.bwb.gv.at/beschwerdeeinbringung)"
       - id: denmark
         name:
           en: "Denmark"
