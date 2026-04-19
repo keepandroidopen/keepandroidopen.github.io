@@ -454,6 +454,11 @@
   social-bluesky: "https://bsky.app/profile/vivaldi.com"
   social-x: "https://x.com/vivaldibrowser"
   social-linkedin: "https://linkedin.com/company/vivaldi-technologies"
+- organization: "Lemmy"
+  url: "join-lemmy.org"
+  poc: "dessalines <tyhou13@gmx.com>"
+  region: "EU"
+  social-mastodon: "https://mastodon.social/@LemmyDev"
 
 #- organization: "XXX"
 #  url: "XXX"
