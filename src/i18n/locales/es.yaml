@@ -34,23 +34,23 @@
 title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
-  "Tu teléfono está a punto de dejar de ser tuyo. En septiembre de 2026, Google bloqueará cada aplicación Android cuyo desarrollador no se haya registrado con ellos." 
+  Tu teléfono está a punto de dejar de ser tuyo. En septiembre de 2026, Google bloqueará toda aplicación Android cuyo desarrollador no se haya registrado con ellos.
 # [en] contact_header: "Contact"
-contact_header: "«Contacto»"
+contact_header: "Contacto"
 # [en] contact_email: "Email"
 contact_email: "«Correo electrónico»"
 # [en] site_problems_header: "Problems"
-site_problems_header: "«Problemas»"
+site_problems_header: "Problemas"
 # [en] site_report_issues: "Report Site Issues"
-site_report_issues: "«Informar de un problema en el sitio web»"
+site_report_issues: "Informar de un problema en el sitio web"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
-  «**Aviso:** Este sitio web es una iniciativa comunitaria sin ánimo de lucro. Se utiliza únicamente con fines informativos y educativos».
+  "**Aviso:** Este sitio web es una iniciativa comunitaria sin ánimo de lucro. Se utiliza únicamente con fines informativos y educativos."
 # [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: >-
-  «**Privacidad:** Este sitio web no utiliza cookies ni realiza ningún tipo de seguimiento o registro de los usuarios».
+  "**Privacidad:** Este sitio web no utiliza cookies ni realiza ningún tipo de seguimiento o registro de los usuarios."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
-site_copyright: "«**Derechos de autor:** Ninguno. Esta obra está bajo la licencia»."
+site_copyright: "**Derechos de autor:** Ninguno. Esta obra está bajo la licencia."
 # [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Lea nuestra carta abierta contra el programa de verificación de desarrolladores de Android"
 
