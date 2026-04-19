@@ -111,7 +111,6 @@ act_dev_warn: >-
   Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users.
 act_dev_pledge: >-
   Add your name to the [list of developers](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/data/developer-pledges.yaml) pledging to remove their apps from Google Play.
-  Add the <a href="https://github.com/woheller69/FreeDroidWarn" target="_blank">FreeDroidWarn library &#8599;</a> to your apps to warn users.
 act_dev_banner: >-
   Run a website? [Add the countdown banner.](/banner)
 act_google_heading: "Google employees"
