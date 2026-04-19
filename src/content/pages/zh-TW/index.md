@@ -67,6 +67,6 @@ open_letter_description: "倡導 Android 該當一個自由、開放平臺之公
 - 在你的 Android 裝置上[安裝 F-Droid](https://f-droid.org)。只要越多人使用其他替代的應用程式商店，就越難將其摒棄。
 - 使用[ Android 開發者驗證要求調查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接向 Google 回饋意見。
 - 在社群媒體和部落格文章上發出你的聲音，並連結至<https://keepandroidopen.org>
-- 對線網路水軍：當你在社群論壇和社群媒體上遇到支持該政策的可疑貼文(「其實……」)，不妨以理據爭，無所顧忌。
+- 對線網軍：當你在社群論壇和社群媒體上遇到支持該政策的可疑貼文(滿口「其實……」)，不妨以理據爭，無所顧忌。
 - 透過[編輯此頁面](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/zh-TW/index.md)豐富更多有用的資訊來幫助這個專案。
 - [連署這份 change.org 請願書](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
