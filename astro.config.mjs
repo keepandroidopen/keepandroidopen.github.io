@@ -31,10 +31,6 @@ export default defineConfig({
     remarkPlugins: [remarkHeadingId, remarkKramdownClasses],
     rehypePlugins: [[rehypeExternalLinks, {
       target: "_blank",
-      content: {
-        type: "text",
-        value: " ↗"
-      }
     }]
     ],
   },

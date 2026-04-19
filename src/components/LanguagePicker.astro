@@ -1,18 +1,32 @@
 ---
 /**
- * Dropdown language picker for the landing page.
+ * Dropdown language picker for the landing page and CTA page.
  * Uses a simple div-based menu (no ul/li) for maximum Safari compatibility.
  * Client-side JS detects the browser language and promotes the match to the top.
+ *
+ * Props:
+ *   locale: current locale code (e.g. "en", "fr")
+ *   suffix: optional path suffix appended to each locale root
+ *           (e.g. "cta/" for CTA page so entries link to /{locale}/cta/).
+ *           For English ("en"), the root is "/" so "/cta/" is the result.
  */
 import { languages } from '../i18n/config';
 
 interface Props {
   locale: string;
+  suffix?: string;
 }
 
-const { locale } = Astro.props;
+const { locale, suffix = '' } = Astro.props;
 const currentLabel = languages[locale as keyof typeof languages]?.label ?? 'English';
 const entries = Object.entries(languages) as [string, { label: string; path: string }][];
+
+// Build the URL for a given locale, honoring the suffix
+function localeHref(code: string, basePath: string): string {
+  if (!suffix) return basePath;
+  // basePath is e.g. "/fr/" or "/en/" — just append the suffix
+  return basePath + suffix;
+}
 ---
 
 <div class="lang-picker" data-current={locale}>
@@ -23,7 +37,7 @@ const entries = Object.entries(languages) as [string, { label: string; path: str
   </button>
   <div class="lang-picker-menu">
     {entries.map(([code, { label, path }]) => (
-      <a href={path} data-lang={code} class:list={['lang-picker-item', code === locale && 'lang-current']}>
+      <a href={localeHref(code, path)} data-lang={code} class:list={['lang-picker-item', code === locale && 'lang-current']}>
         <span class="lang-picker-item-label">{label}</span>
         {code === locale && <span class="lang-picker-check">&#10003;</span>}
       </a>

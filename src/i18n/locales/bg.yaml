@@ -10,8 +10,8 @@
 #   2. Uncomment the line (remove the leading "# ") and replace the English
 #      text with your translation.
 #
-#   3. Keep HTML tags (<strong>, <a href="...">, <em>, <i>) intact — only
-#      translate the visible text between the tags.
+#   3. Use markdown for formatting: **bold**, *italic*, [link text](url).
+#      Do not use raw HTML tags like <strong> or <a href="...">.
 #
 #   4. Keep YAML quoting intact: use double quotes for values that contain
 #      special characters. For long values, use >- for folded scalars.
@@ -30,18 +30,28 @@
 
 # Active translations for this locale:
 
+# [en] title: "Keep Android Open"
 title: "Keep Android Open"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
   Движение в подкрепа на запазването на Android като безплатна и отворена платформа за изграждане на приложения от всички.
+# [en] contact_header: "Contact"
 contact_header: "Контакти"
+# [en] contact_email: "Email"
 contact_email: "Имейл"
+# [en] site_problems_header: "Problems"
 site_problems_header: "Проблеми"
+# [en] site_report_issues: "Report Site Issues"
 site_report_issues: "Сигнал за проблеми в страницата"
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Отказ от правна отговорност:** Тази страница е дело на общи усилия с нетърговски цели на общността. Поддържа се единствено с информационни и образователни цели.
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: >-
   **Поверителност:** Тази страница не използва бисквитки и не извършва проследяване или регистриране на действията на потребителите.
+# [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Авторско право:** Неограничено. Използваният лиценз е"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Прочетете нашето отворено писмо срещу програмата за проверка на разработчици в Android"
 
 #
@@ -58,12 +68,12 @@ open_letter_cta: "Прочетете нашето отворено писмо с
 # Hero
 # hero_lede: "Your phone is about to stop being yours."
 # hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will <strong>block every Android app</strong> whose developer hasn't registered with Google, signed their contract, paid ..."
+# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid ..."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
 
 # What Google is doing
 # what_heading: "What Google is doing"
-# what_intro: "In August 2025, Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">announced &#8599;</a> a new requirement: starting September 2026, <strong>every Android app..."
+# what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app..."
 # what_registration: "Registration requires:"
 # what_req_fee: "Paying a fee to Google"
 # what_req_terms: "Agreeing to Google's Terms and Conditions"
@@ -79,14 +89,14 @@ open_letter_cta: "Прочетете нашето отворено писмо с
 # impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: <i>your</i> property, t..."
 # impact_dev_heading: "Independent developers"
 # impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-# impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, home to thousands of free and open-source Android apps, has called this an <a href=\"https://f-droid.org/en/2025/09/29/google-..."
+# impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid</a>, home to thousands of free and open-source Android apps, has called this an <a href=\"https://f-droid.org/en/2025/09/29/google-..."
 # impact_gov_heading: "Governments & civil society"
-# impact_gov_p1: "Google has a <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">documented track record &#8599;</a> of complying when authoritarian regimes demand app removals...."
-# impact_gov_p2: "The <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF calls &#8599;</a> app gatekeeping \"an ever-expanding ..."
+# impact_gov_p1: "Google has a <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">documented track record</a> of complying when authoritarian regimes demand app removals...."
+# impact_gov_p2: "The <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF calls</a> app gatekeeping \"an ever-expanding ..."
 
 # Advanced flow
 # flow_heading: "Google's \"escape hatch\" is a trap door"
-# flow_intro: "Google says \"power users\" can <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">\"still install\"</a> unverified apps. Here's wha..."
+# flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's wha..."
 # flow_step1: "Delve into System Settings, find Developer Options"
 # flow_step2: "Tap the build number <strong>seven times</strong> to enable Developer Mode"
 # flow_step3: "Dismiss scare screens about coercion"
@@ -96,47 +106,47 @@ open_letter_cta: "Прочетете нашето отворено писмо с
 # flow_step7: "Come back, dismiss more scare screens"
 # flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
 # flow_step9: "Confirm, again, that you understand \"the risks\""
-# flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. <em>For installing software on a device you own.</em>"
-# flow_detail: "Worse: this flow runs entirely through <strong>Google Play Services</strong>, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent..."
+# flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
+# flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent..."
 
 # Precedent
 # precedent_heading: "This is bigger than Android"
 # precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
 # precedent_p1: "The principle being established: <strong>the company that made your device gets to decide, after you've bought it, what software you're allowed to run.</strong> In software, this is called a \"rug ..."
 # precedent_p2: "Android's openness was never just a feature. It was the <em>promise</em> that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unila..."
-# precedent_arstechnica: "<a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\" target=\"_blank\">Ars Technica &#8599;</a>: <em>\"Goo..."
+# precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Goo..."
 
 # Objections
 # objections_heading: "But wait, isn't this..."
 # obj_security_q: "\"...just about security?\""
-# obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes <em>developers<..."
+# obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers..."
 # obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-# obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a <strong>deterrence mechani..."
+# obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechani..."
 # obj_hide_q: "\"...only a problem if you have something to hide?\""
 # obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distr..."
 # obj_apple_q: "\"...the same thing Apple does?\""
-# obj_apple_a: "Apple has been a walled garden from day one. People chose Android <em>because it was different</em>. \"Apple does it too\" is a race to the bottom and a weak <i>tu quoque</i> argument. And under re..."
+# obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under re..."
 # obj_cost_q: "\"...just $25 and some paperwork?\""
 # obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health..."
 
 # Fight back
 # act_heading: "Fight back"
 # act_everyone_heading: "Everyone"
-# act_fdroid: "<strong><a href=\"https://f-droid.org\" target=\"_blank\">Install F-Droid &#8599;</a></strong> on every Android device you own. Alternative stores only survive if people actually use them."
-# act_regulators: "<strong><a href=\"/cta/#consumers\">Contact your regulators.</a></strong> Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want ..."
-# act_share: "<strong>Share this page.</strong> Link to <a href=\"https://keepandroidopen.org\">keepandroidopen.org</a> everywhere."
-# act_astroturf: "<strong>Push back on astroturfers.</strong> The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
-# act_petition: "<strong><a href=\"https://www.change.org/p/stop-google-from-limiting-apk-file-usage/\" target=\"_blank\">Sign the change.org petition &#8599;</a></strong> and join the over 100,000 signatories who ..."
-# act_letter: "<strong><a href=\"/open-letter\">Read and share our open letter</a></strong>"
-# act_survey: "<strong>Tell Google what you think of this</strong> through their own <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1\" target=\"..."
+# act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
+# act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want ..."
+# act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
+# act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
+# act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who ..."
+# act_letter: "**[Read and share our open letter](/open-letter)**"
+# act_survey: "**Tell Google what you think of this** through their own ..."
 # act_dev_heading: "Developers"
-# act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. ..."
+# act_dev_intro: "**Do not sign up.** Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. ..."
 # act_dev_resist: "Google's plan only works if developers comply. Don't."
 # act_dev_talk: "Talk other developers and organizations out of signing up."
-# act_dev_warn: "Add the <a href=\"https://github.com/woheller69/FreeDroidWarn\" target=\"_blank\">FreeDroidWarn library &#8599;</a> to your apps to warn users."
-# act_dev_banner: "Run a website? <a href=\"/banner\">Add the countdown banner.</a>"
+# act_dev_warn: "Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users."
+# act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
 # act_google_heading: "Google employees"
-# act_google_text: "If you know something about the program's technical implementation or internal rationale, contact <a href=\"mailto:tips@keepandroidopen.org\">tips@keepandroidopen.org</a> from a <em>non-work</em> m..."
+# act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* m..."
 
 # Voices section
 # voices_heading: "What they're saying"

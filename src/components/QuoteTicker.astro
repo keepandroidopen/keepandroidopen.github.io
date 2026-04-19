@@ -2,8 +2,7 @@
 /**
  * Infinite horizontally scrolling ticker using CSS animation.
  * Two copies of the content sit side-by-side and translate continuously.
- * Hover pause is pure CSS (:hover) to avoid JS-induced animation jumps.
- * JS handles: touch pause with 10s resume, and per-card colors.
+ * JS smoothly ramps playbackRate on hover for gentle pause/resume.
  */
 interface Props {
   direction?: 'left' | 'right';
@@ -14,7 +13,6 @@ interface Props {
 
 const { direction = 'left', variant = 'press', duration = 60 } = Astro.props;
 const animName = direction === 'right' ? 'ticker-scroll-right' : 'ticker-scroll-left';
-// Add ±10% random jitter so tickers don't appear perfectly synchronized
 const jitter = duration * (0.9 + Math.random() * 0.2);
 const actualDuration = Math.round(jitter);
 ---
@@ -38,10 +36,11 @@ const actualDuration = Math.round(jitter);
  * SPDX-License-Identifier: Apache-2.0
  */
 (function() {
-  if (window.__tickerV4) return;
-  window.__tickerV4 = true;
+  if (window.__tickerV6) return;
+  window.__tickerV6 = true;
 
   var TOUCH_PAUSE_MS = 10000;
+  var RAMP_MS = 600;
   var PALETTE = [
     {h:207,s:70},{h:220,s:65},{h:190,s:60},{h:260,s:55},{h:340,s:60},
     {h:15,s:65},{h:170,s:50},{h:280,s:50},{h:45,s:55},{h:150,s:45}
@@ -50,6 +49,34 @@ const actualDuration = Math.round(jitter);
   function ready(fn) {
     if (document.readyState === 'complete') fn();
     else window.addEventListener('load', fn);
+  }
+
+  function shuffleChildren(container) {
+    var children = Array.from(container.children);
+    for (var i = children.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      container.appendChild(children[j]);
+      children.splice(j, 1, children[i]);
+    }
+  }
+
+  // Smoothly ramp playbackRate from current to target over RAMP_MS
+  function rampRate(anim, target, ms) {
+    if (!anim) return;
+    var start = anim.playbackRate;
+    var startTime = null;
+    function step(ts) {
+      if (!startTime) startTime = ts;
+      var elapsed = ts - startTime;
+      var progress = Math.min(elapsed / ms, 1);
+      // Ease-in-out cubic
+      var ease = progress < 0.5
+        ? 4 * progress * progress * progress
+        : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+      anim.playbackRate = start + (target - start) * ease;
+      if (progress < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
   }
 
   ready(function() {
@@ -67,19 +94,44 @@ const actualDuration = Math.round(jitter);
       card.style.setProperty('--tc-s', p.s + '%');
     });
 
-    // Touch-only pause (mouse hover is handled by pure CSS)
     document.querySelectorAll('.ticker').forEach(function(el) {
       var track = el.querySelector('.ticker-track');
       if (!track) return;
+      var halves = track.querySelectorAll('.ticker-half');
       var touchTimer = null;
 
+      // Get the CSS animation object from the track element
+      function getAnim() {
+        var anims = track.getAnimations();
+        return anims.length > 0 ? anims[0] : null;
+      }
+
+      // Mouse hover: gently ramp to 0 on enter, back to 1 on leave
+      el.addEventListener('pointerenter', function(e) {
+        if (e.pointerType !== 'mouse') return;
+        rampRate(getAnim(), 0, RAMP_MS);
+      });
+      el.addEventListener('pointerleave', function(e) {
+        if (e.pointerType !== 'mouse') return;
+        rampRate(getAnim(), 1, RAMP_MS);
+      });
+
+      // Touch: instant pause, resume after timeout
       el.addEventListener('touchstart', function() {
-        track.style.animationPlayState = 'paused';
+        var anim = getAnim();
+        if (anim) anim.playbackRate = 0;
         if (touchTimer) clearTimeout(touchTimer);
         touchTimer = setTimeout(function() {
-          track.style.animationPlayState = '';
+          rampRate(getAnim(), 1, RAMP_MS);
         }, TOUCH_PAUSE_MS);
       }, {passive: true});
+
+      // Reshuffle on each animation cycle
+      track.addEventListener('animationiteration', function() {
+        for (var i = 0; i < halves.length; i++) {
+          shuffleChildren(halves[i]);
+        }
+      });
     });
   });
 })();

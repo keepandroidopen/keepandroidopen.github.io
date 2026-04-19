@@ -41,13 +41,24 @@ Esse registro envolverá:
 
 <div class="callout-warning">
 
-### Atualização: a Google **não** "recuou" na verificação de desenvolvedores {#clarification}
+### Atualização: a Google revelou o "fluxo avançado" de instalação e ele não é uma solução
 
-Ao contrário de uma vaga [menção](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) a um possível "fluxo avançado" que eventualmente poderia permitir que "usuários experientes aceitem os riscos de instalar software que não é verificado", a [descrição do programa](https://developer.android.com/developer-verification) do Google continua a declarar claramente que:
+Em 19 de Março de 2026, o Google [publicou detalhes](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) do mecanismo de "fluxo avançado" concebido para permitir aos "usuários avançados" a instalação de aplicativos de desenvolvedores não verificados após o fechamento ter efeito. Ele funciona da seguinte forma:
 
-> A partir de setembro de 2026, o Android vai exigir que todos os apps sejam registrados por desenvolvedores verificados para que possam ser instalados em dispositivos Android certificados.
+1. Ative o [Modo Desenvolvedor](https://www.android.com/intl/pt_br/articles/como-ativar-o-modo-desenvolvedor/) clicando no número de compilação do software em _Sobre o telefone_ **sete vezes**
+1. Em Configurações > Sistema, entre nas Opções de Desenvolvedor e role até "Permitir Pacotes Não Verificados"
+1. Ative a opção e responda a uma tela de alerta confirmando que você não está sendo coagido
+1. Insira seu PIN/senha de desbloqueio do dispositivo
+1. Reinicie o celular
+1. **Aguarde por 24 horas**
+1. Retorne ao menu _Pacotes Não Verificados_ ao final do tempo de espera
+1. Role para baixo dos alertas adicionais na tela e selecione "Permitir temporariamente" (por sete dias) ou "Permitir indefinidamente"
+1. Na próxima tela de alerta, confirme que você entende os riscos
+1. Agora você pode instalar pacotes não verificados no dispositivo tocando na opção "Instalar mesmo assim" no gerenciador de pacotes
 
-Até que eles tenham demonstrado evidências de que será possível contornar o processo de verificação sem dificuldades indevidas, devemos acreditar no que está declarado em sua página oficial: que **todos** os aplicativos de desenvolvedores não registrados **serão bloqueados** assim que o bloqueio entrar em vigor.
+Todo esse fluxo é fornecido pelo Google Play Services, não pelo sistema Android, o que significa que o Google pode modificá-lo, restringi-lo ou removê-lo a qualquer momento sem uma atualização do sistema e sem o consentimento do usuário. O fluxo avançado ainda não apareceu em nenhuma versão beta, prévia para desenvolvedores ou canary do Android. Na data desta atualização, ele existe apenas como um post de blog e designs de interface. A comunidade está sendo convidada a aceitar um anúncio de produto como uma salvaguarda funcional cinco meses antes de a exigência entrar em vigor.
+
+Até que o Google forneça uma implementação que possa ser verificada de forma independente, nossa posição permanece inalterada: **todos** os aplicativos de desenvolvedores não registrados **serão bloqueados** quando o bloqueio entrar em vigor em setembro de 2026.
 
 </div>
 
@@ -61,6 +72,8 @@ Se você é um desenvolvedor de aplicativo, _**não se inscreva**_ no programa d
 
 Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreverem no programa. Use fóruns comunitários, mídias sociais e postagens em blogs para espalhar a mensagem. Inclua a [biblioteca FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) no seu código para informar os usuários do seu aplicativo.
 
+Se você é um funcionário ou prestador de serviços do Google com consciência boa e possui informações adicionais sobre o programa, incluindo detalhes sobre a implementação técnica planejada ou justificativas adicionais para o programa, entre em contato com [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) a partir de um computador _que não seja do trabalho_ e de uma conta _que não seja do Gmail_. Suas informações serão mantidas em sigilo absoluto.
+
 ### Todos: Faça sua voz ser ouvida {#everyone}
 
 - [Instale a F-Droid](https://f-droid.org) em seus dispositivos Android. Quanto mais gente usando lojas alternativas de aplicativos, mais difícil será de desligá-las.
@@ -69,3 +82,7 @@ Desencoraje outros desenvolvedores de aplicativos e organizações a se inscreve
 - Combata "astroturfing": quando encontrar posts suspeitos em fóruns de comunidades e nas redes sociais que suportem essa política (“Bem, na verdade...“), desafie-os e não seja tímido.
 - Ajude este projeto [editando essa página](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/pt-BR/index.md) e adicione mais informações úteis.
 - [Assine essa petição em change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
+
+### Donos de Websites: Mostrem o seu apoio {#webmasters}
+
+[Adicione o banner de contagem regressiva ao seu site](/banner) com uma simples tag `<script>` — sem dependências, 20 localizações integradas, completamente customizável

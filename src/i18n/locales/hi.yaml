@@ -10,8 +10,8 @@
 #   2. Uncomment the line (remove the leading "# ") and replace the English
 #      text with your translation.
 #
-#   3. Keep HTML tags (<strong>, <a href="...">, <em>, <i>) intact — only
-#      translate the visible text between the tags.
+#   3. Use markdown for formatting: **bold**, *italic*, [link text](url).
+#      Do not use raw HTML tags like <strong> or <a href="...">.
 #
 #   4. Keep YAML quoting intact: use double quotes for values that contain
 #      special characters. For long values, use >- for folded scalars.
@@ -30,140 +30,290 @@
 
 # Active translations for this locale:
 
-title: "एंड्रॉइड को एक खुला प्लेटफार्म रखें"
-description: "एंड्रॉइड को एक स्वतंत्र, खुले प्लेटफ़ॉर्म के रूप में बनाए रखने का प्रयास, जहाँ सभी ऐप बना सकें।"
+# [en] contact_header: "Contact"
 contact_header: "संपर्क"
+# [en] contact_email: "Email"
 contact_email: "ईमेल"
+# [en] site_problems_header: "Problems"
 site_problems_header: "समस्याएँ"
+# [en] site_report_issues: "Report Site Issues"
 site_report_issues: "साइट की समस्या रिपोर्ट करें"
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **अस्वीकरण:** यह वेबसाइट एक सामुदायिक, गैर-व्यावसायिक प्रयास है। यह केवल सूचनात्मक और शैक्षिक उद्देश्यों के लिए संचालित है।
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: "**गोपनीयता:** यह साइट कोई कुकी उपयोग नहीं करती और न ही किसी उपयोगकर्ता को ट्रैक या लॉग करती है।"
+# [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**कॉपीराइट:** कोई नहीं। यह कार्य चिह्नित है"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "एंड्रॉइड डेवलपर सत्यापन कार्यक्रम के विरोध में हमारा खुला पत्र पढ़ें"
 
-#
-# ============================================================================
-# TRANSLATABLE KEYS
-# Below are ALL keys from en.yaml, shown as comments.
-# To translate a key: uncomment it (remove the leading "# ") and replace
-# the English value with your translation. Leave keys you have not yet
-# translated as comments; they will automatically fall back to English.
-# ============================================================================
-
 # Meta
+# [en] title: "Keep Android Open"
+title: "एंड्रॉइड को एक खुला प्लेटफार्म रखें"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
+description: "आपका फ़ोन अब आपका नहीं रहेगा। सितम्बर 2026 में गूगल हर उस एंड्राइड ऐप्प पर प्रतिबन्ध लगा देगा जिनके डेवेलपर्स ने उनके साथ पंजीकरण नहीं किया है।"
 
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will <strong>block every Android app</strong> whose developer hasn't registered with Google, signed their contract, paid ..."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
-
+# [en] hero_lede: "Your phone is about to stop being yours."
+hero_lede: "आपका फ़ोन अब आपका नहीं रहेगा।"
+# [en] hero_countdown_label: "days until lockdown"
+hero_countdown_label: "दिन बाकी हैं लॉकडाउन में"
+# [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and hande..."
+hero_sub: >-
+  सितम्बर 2026 के शुरू होते ही, गूगल बड़े ही शान्ति से आपकी सहमति के बिना, **वे सारे एंड्राइड ऐप्प्स पर प्रतिबन्ध लगा देगा** जिनके डेवेलपर्स ने गूगल के साथ अपना पंजीकरण नहीं किया है, उनके अनुबंधों पर हस्ताक्षर नहीं किया, उन्हें पैसे नहीं दिए, **या फिर अपनी सरकारी पहचान पत्र (आधार कार्ड, पैन कार्ड आदि) न सौंपी हो।**
+# [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
+hero_kicker: "हर ऐप और हर डिवाइस, दुनियाभर में, बिना किसी विकल्प के।"
 # What Google is doing
-# what_heading: "What Google is doing"
-# what_intro: "In August 2025, Google <a href=\"https://developer.android.com/developer-verification\" target=\"_blank\">announced &#8599;</a> a new requirement: starting September 2026, <strong>every Android app..."
-# what_registration: "Registration requires:"
-# what_req_fee: "Paying a fee to Google"
-# what_req_terms: "Agreeing to Google's Terms and Conditions"
-# what_req_id: "Surrendering your government-issued identification"
-# what_req_signing: "Providing evidence of your private signing key"
-# what_req_appids: "Listing all current and all future application identifiers"
-# what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+# [en] what_heading: "What Google is doing"
+what_heading: "गूगल क्या कर रहा है?"
+# [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Googl..."
+what_intro: >-
+  अगस्त 2025 में, गूगल ने एंड्राइड पर डेवेलप करने के लिए नई आवश्यकताओं की
+  [घोषणा की](https://developer.android.com/developer-verification)
+  जिसके अनुसार: सितम्बर 2026 के शुरू होते ही, **हर एंड्राइड ऐप्प डेवलपर को केंद्रीय रूप से गूगल के साथ पंजीकृत होना होगा**
+  इससे पहले कि उनके द्वारा बनाये गए सॉफ्टवेयर किसी भी डिवाइस पर इनस्टॉल हो सकें। सिर्फ प्लेस्टोर वाले ही ऐप्प्स नहीं, सभी ऐप्प्स।
+  इसमें साथी-सहपाठियों के बीच शेयर किये गए ऐप्प्स भी आते हैं, और
+  [F-Droid](https://f-droid.org)
+  जैसे प्लेटफार्म भी, जो शौक़ीन तथा तकनीक प्रेमियों द्वारा निजी उपयोग के लिए बनाया गया है।
+  गूगल के इस कदम से स्वतंत्र डेवेलपर्स, मंदिर-मस्जिद-गुरुद्वारे जैसी धार्मिक संस्थाएं और सामुदायिक समूह,
+  और तकनीक-प्रेमी, ये सभी अपना सॉफ्टवेयर बनाने और वितरित करने के अधिकार से वंचित हो जाएंगे।
+# [en] what_registration: "Registration requires:"
+what_registration: "पंजीकरण करने के लिए आपको नीचे दिए गए कदम अपनाने होंगे:-"
+# [en] what_req_fee: "Paying a fee to Google"
+what_req_fee: "गूगल को एक तय शुल्क भुगतान करना"
+# [en] what_req_terms: "Agreeing to Google's Terms and Conditions"
+what_req_terms: "गूगल की नियम और शर्तों से सहमत होना"
+# [en] what_req_id: "Surrendering your government-issued identification"
+what_req_id: "सरकारी पहचान पत्र सौंपना (सर्वाधिक महत्त्वपूर्ण एवं चिंताजनक)"
+# [en] what_req_signing: "Providing evidence of your private signing key"
+what_req_signing: "सबूत के तौर पर अपनी private signing key दिखाना"
+# [en] what_req_appids: "Listing all current and all future application identifiers"
+what_req_appids: "सभी वर्तमान तथा भविष्य के application identifiers को सूचीबद्ध करना"
+# [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+what_pullquote: "यदि कोई डेवलपर इन शर्तों का पालन नहीं करता है, तो उनके ऐप्प्स पूरी दुनिया में शांतिपूर्ण ढंग से हर एंड्राइड डिवाइस पर ब्लॉक कर दिए जाएंगे।"
 
 # Who this hurts
-# impact_heading: "Who this hurts"
-# impact_you_heading: "You"
-# impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
-# impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: <i>your</i> property, t..."
-# impact_dev_heading: "Independent developers"
-# impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-# impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid &#8599;</a>, home to thousands of free and open-source Android apps, has called this an <a href=\"https://f-droid.org/en/2025/09/29/google-..."
-# impact_gov_heading: "Governments & civil society"
-# impact_gov_p1: "Google has a <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">documented track record &#8599;</a> of complying when authoritarian regimes demand app removals...."
-# impact_gov_p2: "The <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF calls &#8599;</a> app gatekeeping \"an ever-expanding ..."
+# [en] impact_heading: "Who this hurts"
+impact_heading: "यह किसे नुक्सान पहुंचा रहा है"
+# [en] impact_you_heading: "You"
+impact_you_heading: "आपको"
+# [en] impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
+impact_you_p1: "आपने एक एंड्राइड डिवाइस खरीदा क्यूंकि गूगल कहता है उनका डिवाइस एक खुला प्लेटफार्म है। आप उस डिवाइस पर वो इनस्टॉल कर सकते थे जो आपको पसंद है, यही शर्त थी।"
+# [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *..."
+impact_you_p2: >-
+  गूगल अब उस शर्त को नए सिरे से लिख रहा है, उस हार्डवेयर पर भी जो आप पहले से खरीद चुके हैं।
+  इस अपडेट के बाद, आप सिर्फ वही ऐप्प्स चला सकेंगे जो गूगल द्वारा प्रमाणित हैं।
+  आपके फ़ोन पर: *आपकी* संपत्ति, जिसके लिए *आपने* पैसे दिए हैं।
+# [en] impact_dev_heading: "Independent developers"
+impact_dev_heading: "स्वतंत्र डेवेलपर्स को"
+# [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
+impact_dev_p1: "एक किशोर लड़के का पहला ऐप्प, एक वॉलंटियर का प्राइवेसी टूल, या एक कंपनी का गोपनीय बीटा। गूगल के आशीर्वाद के बिना सितम्बर 2026 के बाद आप उनमें से किसी भी प्रकार के ऐप्प इनस्टॉल नहीं कर पाएंगे।"
+# [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-dec..."
+impact_dev_p2: >-
+  [F-Droid](https://f-droid.org), जो कि हज़ारों free और open-source ऐप्प्स का घर है,
+  उन्होंने इसे एंड्राइड के ["अस्तित्व पर खतरा"](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html) बताया है।
+  Cory Doctorow ने इसे ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/) कहा है।
+# [en] impact_gov_heading: "Governments & civil society"
+impact_gov_heading: "सरकारें एवं सामाजिक संगठन"
+# [en] impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that r..."
+impact_gov_p1: >-
+  गूगल का एक [साबित इतिहास](https://www.aclu.org/news/free-speech/app-store-oligopoly) है,
+  जब तानाशाही सरकारें ऐप हटाने की मांग करती हैं तो गूगल मान लेता है।
+  इस प्रोग्राम के साथ, आपके देश की संस्थाओं को चलाने वाला सॉफ्टवेयर एक ऐसी विदेशी कंपनी की मर्ज़ी पर निर्भर होगा जिसे कोई जवाबदेह नहीं ठहरा सकता।
+# [en] impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
+impact_gov_p2: >-
+  [EFF ने](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship)
+  app gatekeeping को "इंटरनेट सेंसरशिप की तरफ एक अग्रसर होता हुआ रास्ता" बताया है।
 
 # Advanced flow
-# flow_heading: "Google's \"escape hatch\" is a trap door"
-# flow_intro: "Google says \"power users\" can <a href=\"https://android-developers.googleblog.com/2026/03/android-developer-verification.html\" target=\"_blank\">\"still install\"</a> unverified apps. Here's wha..."
-# flow_step1: "Delve into System Settings, find Developer Options"
-# flow_step2: "Tap the build number <strong>seven times</strong> to enable Developer Mode"
-# flow_step3: "Dismiss scare screens about coercion"
-# flow_step4: "Enter your PIN"
-# flow_step5: "Restart the device"
-# flow_step6: "<strong>Wait 24 hours</strong>"
-# flow_step7: "Come back, dismiss more scare screens"
-# flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
-# flow_step9: "Confirm, again, that you understand \"the risks\""
-# flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. <em>For installing software on a device you own.</em>"
-# flow_detail: "Worse: this flow runs entirely through <strong>Google Play Services</strong>, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent..."
+# [en] flow_heading: "Google's \"escape hatch\" is a trap door"
+flow_heading: 'गूगल का "escape hatch" एक जाल है।'
+# [en] flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
+flow_intro: >-
+  गूगल कहता है कि "power users" अभी भी
+  ["unverified apps इनस्टॉल कर सकते हैं।"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html)
+  पर *असल में* यह कुछ ऐसा दिखता है:
+# [en] flow_step1: "Delve into System Settings, find Developer Options"
+flow_step1: "System Settings में जाओ, फिर Developer Options ढूंढो।"
+# [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
+flow_step2: "build number को **सात बार** टैप करें ताकि Developer Mode चालू हो सके।"
+# [en] flow_step3: "Dismiss scare screens about coercion"
+flow_step3: "आपके साथ जबरदस्ती नहीं की जा रही है, इसकी पुष्टि करें।"
+# [en] flow_step4: "Enter your PIN"
+flow_step4: "PIN या कोई भी पासवर्ड मांगने पर डालें।"
+# [en] flow_step5: "Restart the device"
+flow_step5: "अपने डिवाइस को Restart करें।"
+# [en] flow_step6: "**Wait 24 hours**"
+flow_step6: "**24 घंटे का इंतज़ार करें**"
+# [en] flow_step7: "Come back, dismiss more scare screens"
+flow_step7: "वापस आएं, फिर और डरावनी screens पर पुष्टि करें कि आप अपने होश में हैं।"
+# [en] flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
+flow_step8: '"allow temporarily" (7 दिन) या "allow indefinitely" दोनों में से किसी एक विकल्प का चयन करें।'
+# [en] flow_step9: "Confirm, again, that you understand \"the risks\""
+flow_step9: 'फिर से कन्फर्म करें कि आप "जोखिमों" को समझते हैं।'
+# [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
+flow_summary: >-
+  नौ चरण। 24-घंटे का अनिवार्य cooling-off समय। *एक ऐप्प को अपने डिवाइस पर इनस्टॉल करने के लिए।*
+# [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And ..."
+flow_detail: >-
+  इससे भी बुरी बात: यह flow पूरी तरह से **Google Play Services** के द्वारा कार्यरत रहेगा, न कि Android OS द्वारा।
+  गूगल इसे बदल सकता है, इसे कठिन बना सकता है, या फिर किसी भी समय इस flow को खत्म कर सकता है,
+  इसके लिए न OS Updates की जरुरत है और न ही आपकी अनुमति की।
+  और अब तक उन्होंने न beta, न preview, और न ही कोई canary build शिप किया है।
+  यह flow सिर्फ एक blog post और कुछ mockups के रूप में है, इसे एक कागज़ी कार्यवाही भी बोल सकते हैं।
 
 # Precedent
-# precedent_heading: "This is bigger than Android"
-# precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
-# precedent_p1: "The principle being established: <strong>the company that made your device gets to decide, after you've bought it, what software you're allowed to run.</strong> In software, this is called a \"rug ..."
-# precedent_p2: "Android's openness was never just a feature. It was the <em>promise</em> that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unila..."
-# precedent_arstechnica: "<a href=\"https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/\" target=\"_blank\">Ars Technica &#8599;</a>: <em>\"Goo..."
+# [en] precedent_heading: "This is bigger than Android"
+precedent_heading: "यह सिर्फ Android तक ही सीमित नहीं है"
+# [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
+precedent_pullquote: "अगर गूगल उन अरबों डिवाइसों को लॉक कर सकता है जो खुले प्लेटफार्म के रूप में बेचे गए थे, तो दुनिया का हर हार्डवेयर निर्माता यह देख रहा है।"
+# [en] precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at ..."
+precedent_p1: >-
+  सन्देश यह जा रहा है कि: **वो कंपनी जिसने आपके डिवाइस को बनाया है, आपके खरीदने के बाद तय करेगी कि आप उस पर क्या चला सकते हैं।**
+  सॉफ्टवेयर की भाषा में इसे "rug pull" या फिर हिंदी में "पैरों तले जमीन खिसकना" बोलते हैं;
+  फिर भी सॉफ्टवेयर में आप कोई विकल्प इनस्टॉल कर सकते हो। पर हार्डवेयर के नज़रिये से देखें तो,
+  यह एक *fait accompli* है या "अब पछताए होत क्या, जब चिड़िया चुग गई खेत",
+  एक ऐसी स्थिति जो आपकी स्वतंत्रता छीन लेती है और आपको एक जवाबदेही से बचने वाले gatekeeper
+  और दोषी एकाधिकारी (monopolist) की मनमर्ज़ी के आगे बेबस कर देती है।
+# [en] precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally..."
+precedent_p2: >-
+  Android का खुलापन सिर्फ एक फीचर नहीं था। यह एक *वादा* भी था जिसके चलते यह iPhone से अलग था।
+  करोड़ों ने Android सिर्फ इसी वजह से चुना। गूगल अब उस वादे को एकतरफा रूप से तोड़ रहा है,
+  उन डिवाइसों पर भी जो *पहले से* लोगों की जेब में हैं, क्योंकि उन्होंने तय कर लिया है कि
+  उनके पास इतना बाज़ार वर्चस्व और सरकारी पकड़ है कि वे इससे बच निकलेंगे।
+# [en] precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Google's Apple envy threatens to dismantle And..."
+precedent_arstechnica: >-
+  [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/):
+  *"गूगल का एप्पल के प्रति द्वेष, एंड्राइड की खुली विरासत को तबाह करने पर उतारू है।"*
 
 # Objections
-# objections_heading: "But wait, isn't this..."
-# obj_security_q: "\"...just about security?\""
-# obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes <em>developers<..."
-# obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-# obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a <strong>deterrence mechani..."
-# obj_hide_q: "\"...only a problem if you have something to hide?\""
-# obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distr..."
-# obj_apple_q: "\"...the same thing Apple does?\""
-# obj_apple_a: "Apple has been a walled garden from day one. People chose Android <em>because it was different</em>. \"Apple does it too\" is a race to the bottom and a weak <i>tu quoque</i> argument. And under re..."
-# obj_cost_q: "\"...just $25 and some paperwork?\""
-# obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health..."
+# [en] objections_heading: "But wait, isn't this..."
+objections_heading: "परन्तु, यह..."
+# [en] obj_security_q: "\"...just about security?\""
+obj_security_q: '"...सुरक्षा वाली बात है न?"'
+# [en] obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* id..."
+obj_security_a: >-
+  सुरक्षा वाली वजह बस "आँखों में धूल झोंकने" वाली बात है। वैसे भी Google Play Protect डेवलपर की पहचान से अलग malware को स्कैन करता है।
+  Govt. ID की आवश्यकता से कोड सुरक्षित नहीं हो जाता, इससे *डेवेलपर्स* को पहचानने और नियंत्रित करने में आसानी होती है।
+  Malware वाले डेवेलपर्स पंजीकरण कर सकते हैं। स्वतंत्र डेवेलपर्स और आलोचक अक्सर नहीं कर सकते।
+  [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship)
+  साफ़-साफ़ कहता है: पहचान-आधारित gatekeeping एक सेंसरशिप का हथियार है, इसका सुरक्षा से कोई नाता नहीं है।
+# [en] obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
+obj_sideloading_q: '"...advanced flow के उपयोग से तो sideloading फिर भी मुमकिन है न?"'
+# [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** b..."
+obj_sideloading_a: >-
+  नौ चरण, 24-hour का इंतज़ार, Developer Options में दफनाया गया, एक proprietary service के द्वारा चलाया गया जिसे Google जब चाहे हटा दे।
+  इसे sideloading नहीं कहते। यह **"नाक में दम" करने वाली प्रक्रिया** है जिसे यह सुनिश्चित करने के लिए बनाया गया है
+  कि लगभग कोई भी इसे पूरा न कर सके। और चूँकि यह Play Services द्वारा चलाया जा रहा है न कि OS द्वारा,
+  गूगल इस प्रक्रिया को और सख्त या फिर चुपचाप हटा भी सकता है।
+# [en] obj_hide_q: "\"...only a problem if you have something to hide?\""
+obj_hide_q: '"...उन्हें दिक्कत देगा न जो कुछ छुपाना चाहते हैं?"'
+# [en] obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distr..."
+obj_hide_a: >-
+  Whistleblowers, पत्रकार, और activists जो तानाशाही सरकार के अंतर्गत काम कर रहे हैं, वे इसके पहले शिकार बनेंगे।
+  घरेलू उत्पीड़न से पीड़ित तबका इस कतार में अगले नंबर पर है।
+  इन सभी समूहों के पास अपना सॉफ्टवेयर बनाने और इस्तेमाल करने के वैध कारण हैं,
+  बिना अपनी कानूनी पहचान गूगल के डेटाबेस में डाले।
+  गुमनाम open-source योगदान की परंपरा Google से भी पुरानी है। यह नीति उसे Android पर समाप्त करती है।
+# [en] obj_apple_q: "\"...the same thing Apple does?\""
+obj_apple_q: '"...एप्पल भी तो करता है न?"'
+# [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory press..."
+obj_apple_a: >-
+  Apple पहले ही दिन से एक किले के समान है। लोगों ने Android इसीलिए चुना *क्यूंकि यह अलग था*।
+  "एप्पल भी करता है", यह तो बस "एक अंधा, दूसरे की लाठी" वाली बात है और एक कमज़ोर *तू भी तो* तर्क है।
+  और नियामक दबाव (EU के Digital Markets Act) के चलते, एप्पल को भी खुलने पर मजबूर किया जा रहा है।
+  गूगल इसके उलट दिशा में जा रहा है: अपनी gatekeeper वाली पहचान को और मज़बूत करने की कोशिश में।
+# [en] obj_cost_q: "\"...just $25 and some paperwork?\""
+obj_cost_q: '"...बस $25 और कुछ कागज़ात की ही तो बात है?"'
+# [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health..."
+obj_cost_a: >-
+  शायद, अगर आप भारत में एक डेवेलपर हैं जिसके पास क्रेडिट कार्ड और ड्राइविंग लाइसेंस है।
+  मान लीजिये आप sub-Saharan Africa में एक छात्र हैं, या Myanmar में एक विद्रोही हैं,
+  या फिर एक volunteer जो community health app चला रहा है।
+  बात सिर्फ पैसों तक सीमित नहीं है: आप अपने सरकारी पहचान पत्र और signing keys एक ऐसी कंपनी को सौंप रहे हैं
+  जो ऐप्स हटाने और डेवलपर्स को बेनकाब करने की सरकारी मांगों का
+  [नियमित रूप से पालन करती है](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/)।
 
 # Fight back
-# act_heading: "Fight back"
-# act_everyone_heading: "Everyone"
-# act_fdroid: "<strong><a href=\"https://f-droid.org\" target=\"_blank\">Install F-Droid &#8599;</a></strong> on every Android device you own. Alternative stores only survive if people actually use them."
-# act_regulators: "<strong><a href=\"/cta/#consumers\">Contact your regulators.</a></strong> Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want ..."
-# act_share: "<strong>Share this page.</strong> Link to <a href=\"https://keepandroidopen.org\">keepandroidopen.org</a> everywhere."
-# act_astroturf: "<strong>Push back on astroturfers.</strong> The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
-# act_petition: "<strong><a href=\"https://www.change.org/p/stop-google-from-limiting-apk-file-usage/\" target=\"_blank\">Sign the change.org petition &#8599;</a></strong> and join the over 100,000 signatories who ..."
-# act_letter: "<strong><a href=\"/open-letter\">Read and share our open letter</a></strong>"
-# act_survey: "<strong>Tell Google what you think of this</strong> through their own <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1\" target=\"..."
-# act_dev_heading: "Developers"
-# act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. ..."
-# act_dev_resist: "Google's plan only works if developers comply. Don't."
-# act_dev_talk: "Talk other developers and organizations out of signing up."
-# act_dev_warn: "Add the <a href=\"https://github.com/woheller69/FreeDroidWarn\" target=\"_blank\">FreeDroidWarn library &#8599;</a> to your apps to warn users."
-# act_dev_banner: "Run a website? <a href=\"/banner\">Add the countdown banner.</a>"
-# act_google_heading: "Google employees"
-# act_google_text: "If you know something about the program's technical implementation or internal rationale, contact <a href=\"mailto:tips@keepandroidopen.org\">tips@keepandroidopen.org</a> from a <em>non-work</em> m..."
+# [en] act_heading: "Fight back"
+act_heading: "इसका विरोध करें"
+# [en] act_everyone_heading: "Everyone"
+act_everyone_heading: "आप सभी"
+# [en] act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
+act_fdroid: >-
+  **[F-Droid इनस्टॉल करें](https://f-droid.org)**
+  उन सभी Android डिवाइस पर जो आपके पास हैं। वैकल्पिक स्टोर्स सिर्फ तभी बचेंगे जब लोग उन्हें उपयोग करेंगे।
+# [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from indi..."
+act_regulators: >-
+  **[अपने regulators को इसके बारे में सूचित करें।](/cta/#consumers)**
+  दुनियाभर के Regulators टेक सेक्टर में हो रहे monopolies तथा ताकत के केन्द्रीयकरण को लेकर गंभीर रूप से चिंतित हैं,
+  और सीधे उन व्यक्तियों से सुनना चाहते हैं जो इससे प्रभावित और चिंतित हैं।
+# [en] act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
+act_share: >-
+  **इस पेज को शेयर करें।**
+  [keepandroidopen.org](https://keepandroidopen.org) को हर जगह लिंक करें।
+# [en] act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
+act_astroturf: '**भाड़े के टट्टुओं का डट कर मुक़ाबला करें।** ये "किन्तु-परन्तु" वाली फ़ौज भी जोर लगा रही है। उन्हें अपनी मनमर्ज़ी का नैरेटिव बनाने न दें।'
+# [en] act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
+act_petition: >-
+  **इस [change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/) पर हस्ताक्षर करें**
+  और उन 100,000 से अधिक हस्ताक्षरकर्ताओं का साथ दें जिन्होंने अपनी आवाज़ उठाई है।
+# [en] act_letter: "**[Read and share our open letter](/open-letter)**"
+act_letter: '**[हमारे खुले पत्र को पढ़ें तथा शेयर करें](/open-letter)**'
+# [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <..."
+act_survey: >-
+  **गूगल को बताएं कि आप क्या सोचते हैं**, उनके ही
+  [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)
+  के द्वारा <small>(क्या पता अँधेरे में तीर सही निशाने पर लग जाए)</small>।
+# [en] act_dev_heading: "Developers"
+act_dev_heading: "डेवेलपर्स"
+# [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Do..."
+act_dev_intro: >-
+  <strong style="text-transform: uppercase;">sign up न करें।</strong>
+  Android Developer Console के लिए उनके प्रोग्राम को join करने के लिए sign up न करें
+  और ऐसी नियमों एवं शर्तों को न मानें जिन्हें वापस नहीं लिया जा सकता।
+  अपनी पहचान का सत्यापन न करें। *उनकी दाल मत गलने दो।*
+# [en] act_dev_resist: "Google's plan only works if developers comply. Don't."
+act_dev_resist: "गूगल का प्लान सिर्फ डेवेलपर्स की सहमति से ही काम कर सकता है। सहमति देने की भूल न करें।"
+# [en] act_dev_talk: "Talk other developers and organizations out of signing up."
+act_dev_talk: "वे डेवेलपर्स और संस्थान जो sign up कर रहे हैं या करना चाहते हैं उन्हें रोकें।"
+# [en] act_dev_warn: "Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users."
+act_dev_warn: >-
+  इस [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn)
+  को अपने users को सावधान करने के लिए अपने ऐप्प में जोड़ें।
+# [en] act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
+act_dev_banner: 'अगर आप एक वेबसाइट चलाते हैं तो इस [countdown banner](/banner) को अवश्य जोड़ें।'
+# [en] act_google_heading: "Google employees"
+act_google_heading: "Google employees"
+# [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gm..."
+act_google_text: >-
+  अगर आप इस प्रोग्राम के तकनीकी कार्यान्वयन (technical implementation) या इसके आंतरिक तर्क (internal rationale) के बारे में कुछ जानते हैं,
+  तो कृपया कार्यस्थल के कंप्यूटर और Gmail अकाउंट के बजाय किसी *अन्य निजी साधन* से हमें
+  [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) पर संपर्क करें।
+  आपकी गोपनीयता की पूर्ण गारंटी है।
 
 # Voices section
-# voices_heading: "What they're saying"
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
-
-# Signatories section
-# signatories_heading: "All those opposed&hellip;"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
+# [en] voices_heading: "What they're saying"
+voices_heading: "इनका क्या कहना है"
 
 # CTA banners
-# cta_action_label: "Take Action"
-# cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
-# cta_letter_label: "Open Letter"
-# cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
+# [en] cta_action_label: "Take Action"
+cta_action_label: "कदम उठाएं"
+# [en] cta_letter_label: "Open Letter"
+cta_letter_label: "खुला पत्र"
+# [en] cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
+cta_letter_desc: "इस खुले पत्र को पढ़ें जिसे उन संस्थानों द्वारा हस्ताक्षर किया गया है जो developer verification के विरोध में हैं।"
 
 # Closing
-# closing_line1: "You bought your phone."
-# closing_line2: "You should decide what runs on it."
-# closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
-# closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
+# [en] closing_line1: "You bought your phone."
+closing_line1: "आपने अपना फ़ोन ख़रीदा।"
+# [en] closing_line2: "You should decide what runs on it."
+closing_line2: "आपको फैसला करना चाहिए कि इस पर क्या चलेगा।"
+# [en] closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
+closing_detail: "इसके लिए एक 9-स्टेप वाली प्रक्रिया, 24-घंटे का इंतज़ार, और गूगल की कदम-कदम पर अनुमति की जरुरत नहीं पड़नी चाहिए।"
+# [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
+closing_cta: "इस पेज को शेयर करें। sign up न करें। उन्हें Android बंद न करने दें।"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal ..."
@@ -200,13 +350,19 @@ open_letter_cta: "एंड्रॉइड डेवलपर सत्याप
 # spread_label_facebook: "Facebook"
 
 # Footer
-# footer_get_involved: "Get involved"
-# footer_take_action: "Take action & resources"
-# footer_open_letter: "Open letter"
-# footer_add_banner: "Add countdown banner"
-# footer_sign_petition: "Sign the petition"
-# footer_contact: "Contact"
-# footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
-# footer_help_translate: "Help translate"
+# [en] footer_get_involved: "Get involved"
+footer_get_involved: "शामिल हों"
+# [en] footer_open_letter: "Open letter"
+footer_open_letter: "खुला पत्र"
+# [en] footer_add_banner: "Add countdown banner"
+footer_add_banner: "countdown banner लगाएं"
+# [en] footer_sign_petition: "Sign the petition"
+footer_sign_petition: "याचिका पर हस्ताक्षर करें"
+# [en] footer_contact: "Contact"
+footer_contact: "संपर्क"
+# [en] footer_report_issues: "Report site issues"
+footer_report_issues: "साइट की समस्या रिपोर्ट करें"
+# [en] footer_translations: "Translations"
+footer_translations: "अनुवाद"
+# [en] footer_help_translate: "Help translate"
+footer_help_translate: "अनुवाद करने में सहायता प्रदान करें"

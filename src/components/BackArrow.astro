@@ -1,0 +1,39 @@
+---
+/**
+ * Subtle left-facing arrow that takes the user up one level.
+ * Uses a relative "../" link so it works from any nested path.
+ */
+---
+<a href="../" class="back-arrow" aria-label="Back" title="Back">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <line x1="19" y1="12" x2="5" y2="12"></line>
+    <polyline points="12 19 5 12 12 5"></polyline>
+  </svg>
+</a>
+
+<style>
+  .back-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    color: var(--pico-muted-color, #888);
+    opacity: 0.6;
+    text-decoration: none;
+    transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+  }
+  .back-arrow:hover {
+    opacity: 1;
+    transform: translateX(-2px);
+    background-color: rgba(128, 128, 128, 0.08);
+    color: var(--pico-color, inherit);
+  }
+  .back-arrow:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+    opacity: 1;
+  }
+</style>

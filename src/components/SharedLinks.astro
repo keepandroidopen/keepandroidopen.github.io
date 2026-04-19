@@ -22,7 +22,7 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
   <summary><h4>{resolve(rightsGroups.heading, locale)}</h4></summary>
   <ul>
     {rightsGroups.items.map((item: any) => (
-      <li><a href={resolve(item.url, locale)} target="_blank">{resolve(item.text, locale)} ↗</a></li>
+      <li><a href={resolve(item.url, locale)} target="_blank">{resolve(item.text, locale)}</a></li>
     ))}
   </ul>
 </details>
@@ -32,7 +32,7 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
 <h3>{resolve(overview.heading, locale)}</h3>
 <ul>
   {overview.items.map((item: any) => (
-    <li><a href={item.url} target="_blank">{item.url} ↗</a></li>
+    <li><a href={item.url} target="_blank">{item.url}</a></li>
   ))}
 </ul>
 
@@ -40,9 +40,9 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
 <ul>
   {editorials.items.map((item: any) => (
     <li>
-      &ldquo;{resolve(item.text, locale)}&rdquo; &mdash; <a href={item.url} target="_blank">{item.url} ↗</a>
+      &ldquo;{resolve(item.text, locale)}&rdquo; &mdash; <a href={item.url} target="_blank">{item.url}</a>
       {item.extra_links?.map((extra: any) => (
-        <>{' '}(<a href={extra.url} target="_blank">{resolve(extra.text, locale)} ↗</a>)</>
+        <>{' '}(<a href={extra.url} target="_blank">{resolve(extra.text, locale)}</a>)</>
       ))}
     </li>
   ))}
@@ -51,7 +51,7 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
 <h3 id="press">{resolve(press.heading, locale)}</h3>
 <ul>
   {press.items.map((item: any) => (
-    <li>&ldquo;{resolve(item.text, locale)}&rdquo; &mdash; <a href={item.url} target="_blank">{item.url} ↗</a></li>
+    <li>&ldquo;{resolve(item.text, locale)}&rdquo; &mdash; <a href={item.url} target="_blank">{item.url}</a></li>
   ))}
 </ul>
 
@@ -61,8 +61,8 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
     <li>
       &ldquo;{resolve(item.text, locale)}&rdquo;
       {item.author && <> &mdash; {item.author}</>}
-      {' '}&mdash; <a href={`https://www.youtube.com/watch?v=${item.ytid}`} target="_blank">YouTube ↗</a>
-      {' '}| <a href={`https://redirect.invidious.io/watch?v=${item.ytid}`} target="_blank">Invidious ↗</a>
+      {' '}&mdash; <a href={`https://www.youtube.com/watch?v=${item.ytid}`} target="_blank">YouTube</a>
+      {' '}| <a href={`https://redirect.invidious.io/watch?v=${item.ytid}`} target="_blank">Invidious</a>
     </li>
   ))}
 </ul>
@@ -70,14 +70,14 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
 <h3 id="discussions">{resolve(discussions.heading, locale)}</h3>
 <ul>
   {discussions.items.map((item: any) => (
-    <li><a href={item.url} target="_blank">{item.url} ↗</a></li>
+    <li><a href={item.url} target="_blank">{item.url}</a></li>
   ))}
 </ul>
 
 <h3 id="docs">{resolve(officialDocs.heading, locale)}</h3>
 <ul>
   {officialDocs.items.map((item: any) => (
-    <li>{resolve(item.text, locale)} &mdash; <a href={item.url} target="_blank">{item.url} ↗</a></li>
+    <li>{resolve(item.text, locale)} &mdash; <a href={item.url} target="_blank">{item.url}</a></li>
   ))}
 </ul>
 
@@ -87,14 +87,13 @@ const byLabel = resolve({ en: 'by', ru: 'от' }, locale);
     const hasAuthor = item.author_text && item.author_url;
     return (
       <li>
-        <a href={item.url} target="_blank">{resolve(item.text, locale)} ↗</a>
+        <a href={item.url} target="_blank">{resolve(item.text, locale)}</a>
         {hasAuthor && (
           <>
             {' '}{byLabel}{' '}
             {item.author}{' '}
             <a href={item.author_url} target="_blank">
-              {item.author_text} ↗
-    </a>
+              {item.author_text}    </a>
   </>
 )}
       </li>

@@ -1,7 +1,6 @@
 ---
 import Letter from "../layouts/Letter.astro";
-import { getCollection } from 'astro:content';
-import { getEntry } from 'astro:content';
+import { getCollection, getEntry, render } from 'astro:content';
 import Signatories from '../components/Signatories.astro';
 
 const pages = await getCollection('pages');
@@ -9,7 +8,7 @@ console.log(`pages: ${pages.map(page => page.id)}`);
 const entry = await getEntry('pages', 'letter');
 console.log(`entry: ${entry}`);
 if (!entry) throw new Error('Letter content not found');
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 const { data } = entry;
 ---
 <Letter {...data}>

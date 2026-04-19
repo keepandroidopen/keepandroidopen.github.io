@@ -1,7 +1,10 @@
 ---
 import ThemeToggle from '../components/ThemeToggle.astro';
+import LanguagePicker from '../components/LanguagePicker.astro';
+import BackArrow from '../components/BackArrow.astro';
 import Footer from '../components/Footer.astro';
 import Base from './Base.astro';
+import '../styles/landing.css';
 
 interface Props {
   title: string;
@@ -14,7 +17,6 @@ const {
   lang,
   description,
 } = Astro.props;
-
 ---
 
 <Base
@@ -22,9 +24,13 @@ const {
   lang={lang}
   description={description}
 >
-  <header>
-    <h1><ThemeToggle /></h1>
-  </header>
+  <nav class="topbar">
+    <div class="topbar-left">
+      <BackArrow />
+      <ThemeToggle />
+    </div>
+    <LanguagePicker locale={lang} />
+  </nav>
   <main>
     <slot />
   </main>

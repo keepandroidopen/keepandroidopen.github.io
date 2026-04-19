@@ -26,14 +26,25 @@ The site should run locally and be browsable at [http://localhost:4321/](http://
 
 ## Translations Needed!
 
-To provide a translation into a new language like Italian (language code: "it"):
+All translatable strings live in YAML files under [`src/i18n/locales/`](https://github.com/keepandroidopen/keepandroidopen.github.io/tree/main/src/i18n/locales/). The English source is [`en.yaml`](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/i18n/locales/en.yaml).
 
-1. Edit [`src/i18n/config.ts`](https://github.com/keepandroidopen/keepandroidopen.github.io/edit/main/src/i18n/config.ts) in a fork and update the languages list with the new language code.
-2. Create a new folder in [`src/content/pages/`](https://github.com/keepandroidopen/keepandroidopen.github.io/tree/main/src/content/pages/) and add the translation of the English `index.md` file. Translate the markdown headers and page content. The most important text is at the beginning; the lists of links do not all need to be translated.
-3. Commit changes to your fork and file a Pull Request with your translation.
+### Updating an existing translation
+
+1. Open the locale file (e.g. `src/i18n/locales/fr.yaml`) in a fork.
+2. Each commented-out key shows the English value. Uncomment it and replace the English text with your translation.
+3. Use markdown for formatting: `**bold**`, `*italic*`, `[link text](url)`. Do not use raw HTML tags.
+4. Keep YAML quoting intact: use double quotes for values with special characters, or `>-` for long values.
+5. Validate your file at <https://onlineyamltools.com/validate-yaml>.
+6. Submit a pull request.
+
+### Adding a new language
+
+1. Add the language code and label to [`src/i18n/config.ts`](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/i18n/config.ts).
+2. Copy an existing locale file (e.g. `de.yaml`) to `src/i18n/locales/{code}.yaml` and translate the values.
+3. Submit a pull request.
 
 > [!IMPORTANT]
-> Please do not submit machine-generated translations (using LLMs or AI tools). We need _authentic human translations_ from _native speakers_ of the language.
+> Translations MAY be drafted with the assistance of a machine translation tool or LLM, but they MUST be reviewed and submitted by a native speaker of the target language. We do not accept unreviewed machine translations. Fluency, natural phrasing, and cultural accuracy matter.
 
 ## License 
 

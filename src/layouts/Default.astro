@@ -1,8 +1,10 @@
 ---
-import { languages } from '../i18n/config';
 import ThemeToggle from '../components/ThemeToggle.astro';
+import LanguagePicker from '../components/LanguagePicker.astro';
+import BackArrow from '../components/BackArrow.astro';
 import Footer from '../components/Footer.astro';
 import Base from './Base.astro';
+import '../styles/landing.css';
 
 interface Props {
   title: string;
@@ -31,19 +33,24 @@ const {
   site_copyright,
   open_letter_cta = "Read our open letter opposing the Android Developer Verification program",
 } = Astro.props;
-
-const languageEntries = Object.entries(languages);
 ---
-<Base 
-  title={title} 
-  lang={lang} 
-  description={description} 
+<Base
+  title={title}
+  lang={lang}
+  description={description}
 >
   <div id="kao-banner"></div>
   <script is:inline src="/banner.js?id=kao-banner&link=none&size=normal&hidebutton=off"></script>
   <div class="open-letter-cta">
     <a href="/open-letter">{open_letter_cta}</a>
   </div>
+  <nav class="topbar">
+    <div class="topbar-left">
+      <BackArrow />
+      <ThemeToggle />
+    </div>
+    <LanguagePicker locale={lang} suffix="cta/" />
+  </nav>
   <header>
     <h1>{title}</h1>
     <span class="header-icons">
@@ -51,19 +58,7 @@ const languageEntries = Object.entries(languages);
       <a href="https://bsky.app/profile/keepandroidopen.bsky.social" class="header-icon-link" aria-label="BlueSky" title="BlueSky" target="_blank"><span class="social-icon icon-bluesky" style="width:20px;height:20px"></span></a>
       <a href="https://x.com/AlteredDeal" class="header-icon-link" aria-label="Twitter" title="Twitter" target="_blank"><span class="social-icon icon-x" style="width:20px;height:20px"></span></a>
       <a href="https://linkedin.com/company/keepandroidopen" class="header-icon-link" aria-label="LinkedIn" title="LinkedIn" target="_blank"><span class="social-icon icon-linkedin" style="width:20px;height:20px"></span></a>
-      <ThemeToggle />
     </span>
-    <div class="lang-menu">
-      {languageEntries.map(([code, { label, path }], i) => (
-        <>
-          {i > 0 && ' | '}
-          {code === lang
-            ? <strong>{label}</strong>
-            : <a href={path}>{label}</a>
-          }
-        </>
-      ))}
-    </div>
   </header>
   <main>
     <slot />
