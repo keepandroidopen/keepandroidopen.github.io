@@ -33,7 +33,7 @@
 # [en] title: "Keep Android Open"
 title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: >- 
+description: >-
   Tu teléfono está a punto de dejar de ser tuyo. En septiembre de 2026, Google bloqueará cada aplicación Android cuyo desarrollador no se haya registrado con ellos. 
 # [en] contact_header: "Contact"
 contact_header: "«Contacto»"
@@ -114,7 +114,7 @@ impact_dev_p1: >-
   La primera aplicación de un adolescente, una herramienta de privacidad creada por un voluntario o una versión beta interna confidencial de una empresa. Da igual. A partir de septiembre de 2026, ninguna de ellas podrá instalarse sin el visto bueno de Google.
 # impact_dev_p2: [F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an ["existential" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/).
 impact_dev_p2: >- 
-  [F-Droid](https://f-droid.org), que alberga miles de aplicaciones gratuitas y de código abierto para Android, ha calificado esto como una [amenaza existencial](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow lo llama ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/)."
+  [F-Droid](https://f-droid.org), que alberga miles de aplicaciones gratuitas y de código abierto para Android, ha calificado esto como una [amenaza existencial](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow lo llama ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/).
 # impact_gov_heading: "Governments & civil society"
 impact_gov_heading: "Gobiernos y Sociedad civil"
 # impact_gov_p1: "Google has a <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">documented track record</a> of complying when authoritarian regimes demand app removals...."
