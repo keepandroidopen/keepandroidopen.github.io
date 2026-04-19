@@ -64,10 +64,10 @@ open_letter_cta: "اقرأ رسالتنا المفتوحة المعارضة لب
 # Meta
 
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid ..."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
+ hero_lede: "هاتفك على وشك التوقف عن كونه لك."
+ hero_countdown_label: "الأيام المتبقية حتى الإغلاق"
+ hero_sub: "اعتبارًا من سبتمبر 2026، ستقوم Google بتحديث صامت، يتم فرضه بدون موافقة، **بحظر كل تطبيقات Android** التي لم يقم مطورها بالتسجيل لدى Google، توقيع العقد، الدفع، وتسليم بطاقة الهوية الحكومية."
+ hero_kicker: "كل تطبيق وكل جهاز، في جميع أنحاء العالم، بدون خيار الانسحاب!"
 
 # What Google is doing
 # what_heading: "What Google is doing"
