@@ -33,8 +33,7 @@
 # [en] title: "Keep Android Open"
 title: "Android-ды ашық сақтайық"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: >-
-  Android еркін әрі ашық платформа болып қала берсін, кез келген адам қосымша жасай алсын деп қолдаймыз.
+description: "Телефоныңыз жақында сіздікі болмай қалуы ықтимал. 2026 жылдың қыркүйегінде Google тіркелмеген әзірлеушілердің барлық Android қосымшасын бұғаттайды."
 # [en] contact_header: "Contact"
 contact_header: "Байланыс"
 # [en] contact_email: "Email"
@@ -66,159 +65,215 @@ open_letter_cta: "Android әзірлеушілерді тексеру бағда
 # Meta
 
 # Hero
-# hero_lede: "Your phone is about to stop being yours."
-# hero_countdown_label: "days until lockdown"
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid ..."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
+hero_lede: "Телефоныңыз жақында сіздікі болмай қалуы ықтимал."
+hero_countdown_label: "блокқа дейін күн"
+hero_sub: >-
+  2026 жылдың қыркүйегінен бастап Google өз еркімен жіберетін үнсіз жаңарту Google-ге тіркелмеген, шартқа қол қоймаған, ақы төлемеген және мемлекеттік куәлігін бермеген әзірлеушілердің **барлық Android қосымшасын бұғаттайды**.
+hero_kicker: "Бас тарту мүмкіндігінсіз — дүниежүзіндегі барлық қосымша, барлық құрылғы."
 
 # What Google is doing
-# what_heading: "What Google is doing"
-# what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app..."
-# what_registration: "Registration requires:"
-# what_req_fee: "Paying a fee to Google"
-# what_req_terms: "Agreeing to Google's Terms and Conditions"
-# what_req_id: "Surrendering your government-issued identification"
-# what_req_signing: "Providing evidence of your private signing key"
-# what_req_appids: "Listing all current and all future application identifiers"
-# what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+what_heading: "Google не істеп жатыр"
+what_intro: >-
+  2025 жылдың тамызында Google жаңа талап [жариялады](https://developer.android.com/developer-verification): 2026 жылдың қыркүйегінен бастап **әрбір Android қосымша әзірлеушісі кез келген құрылғыға бағдарламасы орнатылар алдында Google-де орталықтан тіркелуі тиіс**. Бұл тек Play Store қосымшаларына емес — барлық қосымшаларға қатысты. Достарға таратылған, [F-Droid](https://f-droid.org) арқылы берілген немесе жеке пайдалану үшін жасалған қосымшалар да осыған кіреді. Тәуелсіз әзірлеушілер, шіркеу мен қоғамдастық топтары, хоббишілер — бәрі де өз бағдарламаларын жасау мен тарата алмайтын болады.
+what_registration: "Тіркелу үшін қажет:"
+what_req_fee: "Google-ге ақы төлеу"
+what_req_terms: "Google пайдалану шарттарымен келісу"
+what_req_id: "Мемлекеттік куәлігіңізді беру"
+what_req_signing: "Жеке қол қою кілтіңізді растайтын дерек беру"
+what_req_appids: "Бүгінгі және болашақтағы барлық қосымша идентификаторларын тізімдеу"
+what_pullquote: "Егер әзірлеуші талаптарды орындамаса, оның қосымшалары дүниежүзіндегі барлық Android құрылғыларда үндемей бұғатталады."
 
 # Who this hurts
-# impact_heading: "Who this hurts"
-# impact_you_heading: "You"
-# impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
-# impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: <i>your</i> property, t..."
-# impact_dev_heading: "Independent developers"
-# impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-# impact_dev_p2: "<a href=\"https://f-droid.org\" target=\"_blank\">F-Droid</a>, home to thousands of free and open-source Android apps, has called this an <a href=\"https://f-droid.org/en/2025/09/29/google-..."
-# impact_gov_heading: "Governments & civil society"
-# impact_gov_p1: "Google has a <a href=\"https://www.aclu.org/news/free-speech/app-store-oligopoly\" target=\"_blank\">documented track record</a> of complying when authoritarian regimes demand app removals...."
-# impact_gov_p2: "The <a href=\"https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship\" target=\"_blank\">EFF calls</a> app gatekeeping \"an ever-expanding ..."
+impact_heading: "Бұл кімге зиян тигізеді"
+impact_you_heading: "Сіз"
+impact_you_p1: "Сіз Android телефон сатып алдыңыз, өйткені Google оның ашық екенін айтты. Қалаған нәрсеңізді орнатуға болады — шарт осылай болды."
+impact_you_p2: >-
+  Енді Google сол уәдеден бас тартып жатыр — сіз жеке сатып алған құрылғыда. Жаңарту орналғаннан кейін тек Google алдын ала рұқсат берген бағдарламаларды ғана іске қоса аласыз. Өз телефоныңызда: *сіздің* меншігіңізде, *сіз* ақша төлеген нәрседе.
+impact_dev_heading: "Тәуелсіз әзірлеушілер"
+impact_dev_p1: "Жасөспірімнің алғашқы қосымшасы, еріктінің құпиялылық құралы немесе компанияның жабық ішкі бета нұсқасы. Маңызы жоқ. 2026 жылдың қыркүйегінен кейін Google рұқсатынсыз ештеңені орнатуға болмайды."
+impact_dev_p2: >-
+  [F-Droid](https://f-droid.org) — мыңдаған тегін ашық бастапқы кодты Android қосымшаларының ордасы — мұны [«тіршілікке қауіп»](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html) деп атады. Кори Доктороу оны [«Дарт Android»](https://pluralistic.net/2025/09/01/fulu/) деп атайды.
+impact_gov_heading: "Үкіметтер мен азаматтық қоғам"
+impact_gov_p1: >-
+  Google-дің авторитарлық режимдер қосымша жою талап еткенде орындайтынын [дәлелдейтін тарихы бар](https://www.aclu.org/news/free-speech/app-store-oligopoly). Бұл бағдарламамен бірге сіздің еліңіздің мекемелерін басқаратын бағдарлама есеп бермейтін бір шет елдік корпорацияның еркіне бағынады.
+impact_gov_p2: >-
+  [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) қосымша кіріс бақылауын «интернет цензурасына үздіксіз кеңейетін жол» деп атайды.
 
 # Advanced flow
-# flow_heading: "Google's \"escape hatch\" is a trap door"
-# flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's wha..."
-# flow_step1: "Delve into System Settings, find Developer Options"
-# flow_step2: "Tap the build number <strong>seven times</strong> to enable Developer Mode"
-# flow_step3: "Dismiss scare screens about coercion"
-# flow_step4: "Enter your PIN"
-# flow_step5: "Restart the device"
-# flow_step6: "<strong>Wait 24 hours</strong>"
-# flow_step7: "Come back, dismiss more scare screens"
-# flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
-# flow_step9: "Confirm, again, that you understand \"the risks\""
-# flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
-# flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent..."
+flow_heading: "Google-дің «шығу жолы» — тұзақ"
+flow_intro: >-
+  Google «озық пайдаланушылар» тексерілмеген қосымшаларды [«әлі де орната алады»](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) дейді. Ал бұл *шын мәнінде* қалай көрінеді:
+flow_step1: "Жүйе параметрлеріне кіріп, Әзірлеуші параметрлерін табу"
+flow_step2: "Әзірлеуші режимін қосу үшін нұсқа нөмірін **жеті рет** басу"
+flow_step3: "Мәжбүрлеу туралы қорқыту экрандарын жабу"
+flow_step4: "PIN-кодты енгізу"
+flow_step5: "Құрылғыны қайта іске қосу"
+flow_step6: "**24 сағат күту**"
+flow_step7: "Оралып, тағы да қорқыту экрандарын жабу"
+flow_step8: "«Уақытша рұқсат ету» (7 күн) немесе «Шексіз рұқсат ету» таңдау"
+flow_step9: "«Тәуекелдерді» түсінетіндігіңізді қайта растау"
+flow_summary: "Тоғыз қадам. Міндетті 24 сағаттық тыным. *Өз иелігіңіздегі құрылғыға бағдарлама орнату үшін.*"
+flow_detail: >-
+  Одан да жаманы: бұл процесс Android жүйесі арқылы емес, толығымен **Google Play Services** арқылы жүреді. Google оны кез келген уақытта жүйе жаңартуынсыз және келісімсіз өзгерте, қатайта немесе жоя алады. Бүгінгі күні ол ешбір бета, алдын ала немесе canary нұсқасында шықпаған. Тек блог жазбасы мен макет ретінде ғана бар.
 
 # Precedent
-# precedent_heading: "This is bigger than Android"
-# precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
-# precedent_p1: "The principle being established: <strong>the company that made your device gets to decide, after you've bought it, what software you're allowed to run.</strong> In software, this is called a \"rug ..."
-# precedent_p2: "Android's openness was never just a feature. It was the <em>promise</em> that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unila..."
-# precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Goo..."
+precedent_heading: "Бұл Android-тан үлкен мәселе"
+precedent_pullquote: "Егер Google ашық платформа ретінде сатылған миллиардтаған құрылғыларды кері бұғаттай алса, планетадағы әрбір аппараттық өндіруші мұны бақылап отыр."
+precedent_p1: >-
+  Қалыптасып жатқан принцип: **құрылғыңызды жасаған компания оны сатып алғаннан кейін қандай бағдарламаны іске қосуға болатынын шешеді.** Бағдарламалық жасақтамада мұны «rug pull» деп атайды; бірақ кем дегенде бәсекелес бағдарламаларды орнатуға болатын. Аппараттық жасақтамада бұл сіздің дербестігіңізді жойып, есеп бермейтін жалғыз бақылаушы — сотталған монополистің еркіне бағынуды білдіреді.
+precedent_p2: >-
+  Android-тың ашықтығы ешқашан тек бір мүмкіндік болған жоқ. Бұл оны iPhone-нан ерекшелендіретін *уәде* болды. Миллиондар дәл сол себептен Android таңдады. Google енді сол уәдеден бір жақты бас тартып жатыр — халықтың қалтасындағы *бар* құрылғыларда, өйткені нарықтық үстемдіктері реттеу жүйесін бағындыруға жетті деп санады.
+precedent_arstechnica: >-
+  [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *«Google-дің Apple-ге деген қызғанышы Android-тың ашық мұрасын жоюға қауіп төндіруде.»*
 
 # Objections
-# objections_heading: "But wait, isn't this..."
-# obj_security_q: "\"...just about security?\""
-# obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers..."
-# obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-# obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechani..."
-# obj_hide_q: "\"...only a problem if you have something to hide?\""
-# obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distr..."
-# obj_apple_q: "\"...the same thing Apple does?\""
-# obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under re..."
-# obj_cost_q: "\"...just $25 and some paperwork?\""
-# obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health..."
+objections_heading: "Бірақ бұл ведь..."
+obj_security_q: "«...тек қауіпсіздік үшін ғана?»"
+obj_security_a: >-
+  Қауіпсіздік уәжі — көзбояушылық. Google Play Protect зиянды бағдарламаларды әзірлеуші жеке басынан тәуелсіз қазірдің өзінде тексереді. Мемлекеттік куәлік талабы кодты қауіпсіз етпейді — ол *әзірлеушілерді* анықтауға және бақылауға мүмкіндік береді. Зиянды бағдарлама авторлары тіркеле алады. Тәуелсіз әзірлеушілер мен диссиденттер — жиі жоқ. [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) тура айтады: жеке сәйкестікке негізделген кіріс бақылауы — цензура құралы, қауіпсіздік құралы емес.
+obj_sideloading_q: "«...кеңейтілген процесті пайдалансаңыз, sideloading мүмкін?»"
+obj_sideloading_a: >-
+  Тоғыз қадам, 24 сағаттық күту, Әзірлеуші параметрлеріне жасырылған, Google қашан болса да өшіре алатын меншікті қызмет арқылы жеткізіледі. Бұл sideloading емес. Бұл — ешкім аяқтамауын қамтамасыз ету үшін жасалған **тосқауыл механизмі**. Ол OS арқылы емес, Play Services арқылы жұмыс істейтіндіктен Google оны үндемей қатайта немесе жоя алады.
+obj_hide_q: "«...жасырар нәрсеңіз болса ғана мәселе?»"
+obj_hide_a: >-
+  Авторитарлық үкіметтер астындағы ақпарат жариялаушылар, журналистер мен белсенділер бірінші жәбірленушілер болады. Үй ішілік зорлық-зомбылық жағдайындағылар одан кейін. Бұл топтардың барлығының өз заңи жеке басын Google дерекқорына енгізбестен бағдарлама тарату немесе пайдалану үшін заңды себептері бар. Анонимді ашық бастапқы код үлесі Google-дің өзінен де ескі дәстүр. Бұл саясат оны Android-та аяқтайды.
+obj_apple_q: "«...Apple жасайтынмен бірдей?»"
+obj_apple_a: >-
+  Apple бастан аяқ жабық бақша болды. Адамдар Android-ты *ол өзгеше болғандықтан* таңдады. «Apple да солай жасайды» — ең нашарға бәсеке және нашар *tu quoque* дәлелі. Сонымен қатар реттеу қысымы (ЕО-ның Цифрлық нарықтар туралы заңы) тіпті Apple-ді ашылуға мәжбүр етуде. Google керісінше бағытта: кіріс бақылаушы мәртебесін одан сайын нығайтуға тырысуда.
+obj_cost_q: "«...тек 25 доллар және бірнеше құжат?»"
+obj_cost_a: >-
+  Мүмкін, егер сіз кредит картасы мен жүргізуші куәлігі бар АҚШ-тағы әзірлеуші болсаңыз. Сахараның оңтүстігіндегі студент, Мьянмадағы диссидент немесе қоғамдық денсаулық қосымшасын қолдаушы ерікті болып көріңізші. Шығын тек қаржылық емес: сіз мемлекеттік куәлігіңіз бен қол қою кілттерінің дәлелін үкімет талаптарын [үнемі орындайтын](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) компанияға тапсыруыңыз керек болады.
 
 # Fight back
-# act_heading: "Fight back"
-# act_everyone_heading: "Everyone"
-# act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
-# act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want ..."
-# act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
-# act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
-# act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who ..."
-# act_letter: "**[Read and share our open letter](/open-letter)**"
-# act_survey: "**Tell Google what you think of this** through their own ..."
-# act_dev_heading: "Developers"
-# act_dev_intro: "**Do not sign up.** Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. ..."
-# act_dev_resist: "Google's plan only works if developers comply. Don't."
-# act_dev_talk: "Talk other developers and organizations out of signing up."
-# act_dev_warn: "Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users."
-# act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
-# act_google_heading: "Google employees"
-# act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* m..."
+act_heading: "Қарсы тұр"
+act_everyone_heading: "Барлығына"
+act_fdroid: >-
+  Иелігіңіздегі барлық Android құрылғыға **[F-Droid орнатыңыз](https://f-droid.org)**. Баламалы дүкендер тек адамдар шынымен пайдаланса ғана өмір сүреді.
+act_regulators: >-
+  **[Реттеушілеріңізге хабарласыңыз.](/cta/#consumers)** Дүниежүзі бойынша реттеушілер технологиялық секторда монополиялар мен биліктің орталықтандырылуына шынымен алаңдаулы және зардап шеккен адамдардан тікелей хабар алғысы келеді.
+act_share: >-
+  **Бұл бетті таратыңыз.** [keepandroidopen.org](https://keepandroidopen.org) сілтемесін барлық жерде жіберіңіз.
+act_astroturf: >-
+  **Ақиқатты бұрмалаушыларға жол бермеңіз.** «Ал, негізінде...» деп сылтауратып, мәселені кішірейтетіндер желіде толып жүр. Олардың оқиғаны өз пайдасына бұруына мүмкіндік бермеңіз.
+act_petition: >-
+  **[change.org петициясына қол қойыңыз](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** және өз дауыстарын білдірген 100 000-нан астам қол қоюшыға қосылыңыз.
+act_letter: >-
+  **[Ашық хатымызды оқып, таратыңыз](/open-letter)**
+act_survey: >-
+  **Бұл туралы не ойлайтыныңызды Google-ге айтыңыз** — олардың өз [әзірлеушілерді тексеру сауалнамасы](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) арқылы <small>(қанша пайдасы болса да)</small>.
+act_dev_heading: "Әзірлеушілерге"
+act_dev_intro: >-
+  <strong style="text-transform: uppercase;">Тіркелмеңіз.</strong> Android Developer Console-ге тіркеліп, олардың қайтарылмайтын пайдалану шарттарымен келісу арқылы бағдарламаға қосылмаңыз. Жеке басыңызды растамаңыз. *Олармен ойнамаңыз.*
+act_dev_resist: "Google-дің жоспары тек әзірлеушілер бағынса жұмыс істейді. Бағынбаңыз."
+act_dev_talk: "Басқа әзірлеушілер мен ұйымдарды тіркелмеуге сендіріңіз."
+act_dev_warn: >-
+  Пайдаланушыларды ескерту үшін қосымшаларыңызға [FreeDroidWarn кітапханасын](https://github.com/woheller69/FreeDroidWarn) қосыңыз.
+act_dev_banner: >-
+  Веб-сайтыңыз бар ма? [Кері санау баннерін қосыңыз.](/banner)
+act_google_heading: "Google қызметкерлеріне"
+act_google_text: >-
+  Бағдарламаның техникалық жүзеге асырылуы немесе ішкі уәждемесі туралы бірдеңе білсеңіз, *жұмыстық емес* компьютерден және *Gmail емес* есептік жазбадан [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) мекенжайына хабарласыңыз. Толық құпиялылық кепілдендіріледі.
 
 # Voices section
-# voices_heading: "What they're saying"
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
+voices_heading: "Олар не дейді"
+voices_press: "Технологиялық баспасөз"
+voices_editorials: "Редакциялық мақалалар мен талдаулар"
+voices_orgs: "Ұйымдар мен ашық хаттар"
+voices_creators: "YouTube авторлары мен контент жасаушылар"
+voices_community: "Әзірлеушілер мен қоғамдастық"
+voices_petition: "Петициядан дауыстар"
+voices_more: "Барлық сілтемелер, редакциялық мақалалар, баспасөз жазбалары және бейнелер"
 
 # Signatories section
-# signatories_heading: "All those opposed&hellip;"
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
+signatories_heading: "Барлық қарсыластар…"
+signatories_count: "{countries} елден {count} ұйым қол қойды"
+signatories_open_letter_link: "ашық хатқа"
+signatories_more: "Толық ашық хатты оқып, қол қоюшыларға алғыс білдіріңіз"
 
 # CTA banners
-# cta_action_label: "Take Action"
-# cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
-# cta_letter_label: "Open Letter"
-# cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
+cta_action_label: "Іс-қимыл жасаңыз"
+cta_action_desc: "Толық ресурстар тізімі, реттеуші байланыстар, әр ел бойынша сілтемелер және қарсы тұру жолдары"
+cta_letter_label: "Ашық хат"
+cta_letter_desc: "Әзірлеушілерді тексеруге қарсы ұйымдар қол қойған ашық хатты оқыңыз"
 
 # Closing
-# closing_line1: "You bought your phone."
-# closing_line2: "You should decide what runs on it."
-# closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
-# closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
+closing_line1: "Телефоныңызды өзіңіз сатып алдыңыз."
+closing_line2: "Оған не іске қосылатынын өзіңіз шешуіңіз керек."
+closing_detail: "Бұл үшін 9 қадамды, 24 сағаттық күтуді және Google-дің үздіксіз рұқсатын талап ету керек емес."
+closing_cta: "Бұл бетті таратыңыз. Тіркелмеңіз. Android-ты жаппауға жол бермеңіз."
+closing_share_heading: "Хабарды тарат"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
-# social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal ..."
-# social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @A..."
-# social_callout_x_3: "Android's openness distinguished it from iPhone for 17 years. Google is now requiring mandatory developer registration for all apps, including those distributed outside the Play Store. {url} #KeepA..."
-# social_callout_x_4: "F-Droid, the open-source Android app store, calls Google's developer verification an \"existential threat\" to alternative app distribution. The EFF warns it creates a pathway to censorship. {url} ..."
-# social_callout_x_5: "Google's proposed workaround for installing unverified apps requires 9 steps, a 24-hour wait, and runs through Play Services, which Google can modify at any time. It hasn't shipped in any beta. {ur..."
-# social_callout_linkedin_1: "Starting September 2026, Google will require every Android app developer to register centrally and provide government-issued identification before their software can be installed on any device. Thi..."
-# social_callout_linkedin_2: "Android's openness has been its distinguishing feature for nearly two decades. Google is now mandating developer registration for all Android apps, including those distributed through alternative s..."
-# social_callout_linkedin_3: "Google's developer verification program would give a single company the technical ability to block any app, from any developer, on any certified Android device worldwide. This affects independent d..."
-# social_callout_linkedin_4: "F-Droid estimates 85% of its open-source apps could face distribution issues under Google's new developer verification rules. The requirement for government ID and signing keys creates barriers for..."
-# social_callout_linkedin_5: "Google's proposed \"advanced flow\" for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and runs entirely through Google Play Services. The community has been aske..."
-# social_callout_bluesky_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects all apps, not just Play Store apps. F-Droid calls it an \"exist..."
-# social_callout_bluesky_2: "Google is requiring all Android developers to register centrally, pay a fee, and submit government ID. Apps from unregistered developers will be silently blocked. over 67 organizations oppose this. @ke..."
-# social_callout_bluesky_3: "After 17 years of marketing Android as an open platform, Google is mandating developer registration for all apps. Independent developers, open-source contributors, and alternative stores like F-Dro..."
-# social_callout_bluesky_4: "Google's proposed workaround for installing unverified apps: 9 steps, a 24-hour wait, delivered through Play Services (which Google can change at any time without consent). It exists only as a blog..."
-# social_callout_bluesky_5: "The EFF warns that Google's developer verification creates \"a pathway to censorship.\" Developers in restrictive countries, anonymous open-source contributors, and privacy tool maintainers are amo..."
-# social_callout_mastodon_1: "Starting September 2026, Google will require every Android app developer to register centrally, provide government ID, and submit signing keys. Apps from unregistered developers will be blocked on ..."
-# social_callout_mastodon_2: "Google's Android Developer Verification program requires government ID, signing keys, and a fee for any developer who wants their software installable on Android. The EFF calls app gatekeeping \"a ..."
-# social_callout_mastodon_3: "F-Droid, home to thousands of free and open-source Android apps, calls Google's developer verification an \"existential threat.\" An estimated 85% of F-Droid apps could face distribution issues bec..."
-# social_callout_mastodon_4: "Google's proposed workaround for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and is delivered through Google Play Services, not the Android OS. Google can modi..."
-# social_callout_mastodon_5: "The mandatory developer registration Google is imposing on Android raises concerns for developers in sanctioned countries, anonymous open-source contributors, and anyone building privacy or securit..."
-# social_callout_facebook_1: "Starting September 2026, Google will require every Android app developer to register centrally and provide government-issued identification. Apps from unregistered developers will be blocked on all..."
-# social_callout_facebook_2: "F-Droid, the open-source Android app store used by millions, calls Google's developer verification an \"existential threat\" to its continued operation. over 67 organizations including the EFF, FSF, an..."
-# social_callout_facebook_3: "Google's proposed workaround for installing unverified apps after their lockdown takes effect requires 9 steps, a mandatory 24-hour waiting period, and runs through Google Play Services (which Goog..."
-# social_callout_facebook_4: "Android's openness has been its defining characteristic for 17 years. Millions chose it over iPhone for exactly that reason. Google is now mandating developer registration for all apps, including t..."
-# social_callout_facebook_5: "The EFF calls app gatekeeping \"a pathway to censorship.\" Google's developer verification would give a single company the ability to block any app, from any developer, on any certified device worl..."
+social_callout_x_1: "2026 жылдың қыркүйегінен бастап Google тіркелмеген және мемлекеттік куәлігін бермеген әзірлеушінің кез келген Android қосымшасын бұғаттайды. Бұл дүниежүзіндегі барлық Android құрылғыларға қатысты. Толығырақ: {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_2: "Google барлық Android қосымша әзірлеушілері орталықтан тіркелуі, ақы төлеуі және мемлекеттік куәлігін беруі тиіс деп жариялады, әйтпесе олардың қосымшалары барлық құрылғыда бұғатталады. 67-ден астам ұйым мұнан бас тартуда. {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_3: "Android-тың ашықтығы оны iPhone-нан 17 жыл бойы ерекшелендірді. Google енді Play Store-тан тыс таратылғандарды қоса барлық қосымшалар үшін міндетті тіркелуді енгізуде. {url} #KeepAndroidOpen"
+social_callout_x_4: "Ашық бастапқы кодты Android қосымшалар дүкені F-Droid Google-дің тексерісін «тіршілікке қауіп» деп атайды. EFF оның цензураға жол ашатынын ескертеді. {url} #KeepAndroidOpen"
+social_callout_x_5: "Тексерілмеген қосымшаларды орнатуға Google ұсынған айналым жолы 9 қадам, 24 сағаттық күту алады және Google кез келген уақытта өзгерте алатын Play Services арқылы жұмыс істейді. Ешбір бетада шықпаған. {url} #KeepAndroidOpen"
+social_callout_x_6: "Android бізге ашық платформа ретінде сатылды. Енді Google қосымшаларыңызды орнатуға рұқсат беру үшін әрбір әзірлеушіден тіркелуін және куәлігін бергісі келеді. 3 миллиард пайдаланушыны алдамасын. {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_7: "Телефоныңызды сатып алсаңыз, иелік етуіңіз керек. Google-дің жаңа «тексерісі» олардың өз меншігіңізде қандай бағдарлама іске қосуға болатынын шешетінін білдіреді. Мұнан бас тартқан 100 000-нан астам адамға қосылыңыз: {url} #KeepAndroidOpen"
+social_callout_x_8: "Google Android-ты жабық бақшаға айналдырып жатыр. Міндетті куәлік, тіркелу төлемдері және sideloading үшін 9 қадамды «кеңейтілген процесс»? Бұл қауіпсіздік емес — монополия қадамы. {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_9: "Студенттің алғашқы қосымшасына не болады, еріктінің жасаған құпиялылық құралына не болады? Google-дің міндетті тіркелуі олардың барлығын Google ережелерін орындамаса бастапқыда бұғаттайды. {url} #KeepAndroidOpen"
+social_callout_x_10: "Android ашықтығының 17 жылы қауіп астында. Google-дің тексерілмеген қосымшаларды бұғаттау жоспары F-Droid пен тәуелсіз бағдарламалық жасақтамаға тікелей соққы. Бұғатты тоқтатыңыз: {url} @AlteredDeal #KeepAndroidOpen"
+
+social_callout_linkedin_1: "2026 жылдың қыркүйегінен бастап Google барлық Android қосымша әзірлеушілерінен бағдарламасы кез келген құрылғыға орнатылар алдында орталықтан тіркелуді және мемлекеттік куәлік ұсынуды талап етеді. Бұл тек Play Store қосымшаларына емес — барлығына қатысты. 67-ден астам ұйым мұнан қарсылық білдіретін ашық хатқа қол қойды. {url} #KeepAndroidOpen"
+social_callout_linkedin_2: "Android-тың ашықтығы оны екі онжылдыққа жуық уақыт бойы ерекшелендіретін мүмкіндік болды. Google енді F-Droid сияқты баламалы дүкендер арқылы таратылғандарды қоса барлық Android қосымшалары үшін тіркелуді міндетті етуде. EFF, FSF, Tor Project және ондаған ұйымдар күрделі алаңдаушылық білдіруде. {url} #KeepAndroidOpen"
+social_callout_linkedin_3: "Google-дің тексеру бағдарламасы бір компанияға дүниежүзіндегі кез келген сертификатталған Android құрылғысында кез келген әзірлеушінің қосымшасын бұғаттауға техникалық мүмкіндік береді. Бұл тәуелсіз әзірлеушілерге, ашық бастапқы кодты жобаларға және сатып алған аппараттық жасақтамадағы бағдарламаны бақылау принципіне қатысты. {url} #KeepAndroidOpen"
+social_callout_linkedin_4: "F-Droid Google-дің жаңа ережелері бойынша оның ашық бастапқы кодты қосымшаларының 85%-ы таратылу мәселелеріне тап болуы мүмкін деп болжайды. Мемлекеттік куәлік пен қол қою кілттері талабы анонимді үлесшілер, санкцияланған елдердегі әзірлеушілер және ерікті жобалар үшін кедергі туғызады. {url} #KeepAndroidOpen"
+social_callout_linkedin_5: "Google-дің тексерілмеген қосымшаларды sideloading үшін арналған «кеңейтілген процесі» 9 қадамды, міндетті 24 сағаттық күтуді талап етеді және толығымен Google Play Services арқылы жұмыс істейді. Қоғамдастыққа блог жазбасы функционалдық қорғаныс ретінде қабылдауы сұралды. Ешбір бетада шықпаған. {url} #KeepAndroidOpen"
+social_callout_linkedin_6: "Цифрлық егемендік қауіп астында. Google-дің барлық Android қосымшалары — тіпті Play Store-тан тыс таратылғандар — үшін тіркелуді міндетті ету жоспары 3 миллиард құрылғы үшін орталық бақылау нүктесін жасайды. {url} #KeepAndroidOpen"
+social_callout_linkedin_7: "«Android-ты ашық сақтайық» науқаны 67-ден астам жаһандық ұйымның қолдауын алды. Біз Google-дің орталықтан тіркелмеген және мемлекеттік куәлік бермеген әзірлеушінің қосымшасын бұғаттау жоспарына қарсымыз. Ашық хатты оқыңыз: {url} #KeepAndroidOpen"
+social_callout_linkedin_8: "Адамдар сатып алған аппараттық жасақтама ережелерін кері бұру — қауіпті прецедент. Google-дің міндетті тексерісі пайдаланушылардың дербестігін жойып, оларды басқарылатын экожүйеге мәжбүрлейді. {url} #KeepAndroidOpen"
+social_callout_linkedin_9: "F-Droid мен EFF дабыл қақты: Google-дің тексеру бағдарламасы баламалы қосымша тарату үшін «тіршілікке қауіп» болып табылады. Android-ты жасаған ашық бастапқы код экожүйесін қорғауымыз керек. {url} #KeepAndroidOpen"
+social_callout_linkedin_10: "Google кіріс бақылаушы мәртебесін нығайтуға тырысқан сайын, қоғамдастық қарсы тұруда. Сіздің құрылғыңыз сіздің меншігіңіз болуы керек, кері шектеулерге бағынған жалдамалы терминал емес. Қозғалысқа қосылыңыз: {url} #KeepAndroidOpen"
+
+social_callout_bluesky_1: "2026 жылдың қыркүйегінен бастап Google тіркелмеген және мемлекеттік куәлігін бермеген әзірлеушінің кез келген Android қосымшасын бұғаттайды. Тек Play Store қосымшаларына емес — барлығына қатысты. F-Droid оны «тіршілікке қауіп» деп атайды. @keepandroidopen.bsky.social #KeepAndroidOpen {url}"
+social_callout_bluesky_2: "Google барлық Android әзірлеушілерін орталықтан тіркелуге, ақы төлеуге және мемлекеттік куәлік беруге міндеттейді. Тіркелмеген әзірлеушілердің қосымшалары үндемей бұғатталады. 67-ден астам ұйым мұнан бас тартуда. @keepandroidopen.bsky.social {url}"
+social_callout_bluesky_3: "17 жыл бойы Android-ты ашық платформа ретінде жарнамалаған Google енді барлық қосымшалар үшін міндетті тіркелуді енгізуде. Тәуелсіз әзірлеушілер, ашық бастапқы кодты үлесшілер және F-Droid сияқты баламалы дүкендердің болашағы белгісіз. @keepandroidopen.bsky.social {url}"
+social_callout_bluesky_4: "Тексерілмеген қосымшаларды орнатуға арналған Google айналым жолы: 9 қадам, 24 сағаттық күту, Google кез келген уақытта өзгерте алатын Play Services арқылы. Тек блог жазбасы ретінде бар. @keepandroidopen.bsky.social #KeepAndroidOpen {url}"
+social_callout_bluesky_5: "EFF Google-дің тексерісі «цензураға жол ашады» деп ескертеді. Шектеулі елдердегі әзірлеушілер, анонимді үлесшілер және құпиялылық құралдарын қолдаушылар ең көп зардап шегетіндер арасында. @keepandroidopen.bsky.social {url}"
+social_callout_bluesky_6: "Google-дің тексерілмеген қосымшаларды бұғаттау жоспары — Android-ты ашықтығы үшін таңдаған 3 миллиард адамға «rug pull». Телефоныңызды жабық бақшаға айналдыруға жол бермеңіз. @keepandroidopen.bsky.social #KeepAndroidOpen {url}"
+social_callout_bluesky_7: "Иелік ету — бақылауды білдіреді. Егер Google телефоныңыздағы кез келген қосымшаны бұғаттай алса, оны шынымен иеленбейсіз. Android-ты ашық сақтау үшін күресіп жатқан 100 000-нан астам адамға қосылыңыз. @keepandroidopen.bsky.social {url}"
+social_callout_bluesky_8: "Барлық қосымша әзірлеушілер үшін міндетті куәлік тіркелуі? Бұл цензорлардың арманы және жеке өмір үшін нағыз қорқыныш. Ашық желіні және ашық мобильді платформаны қорғаңыз. @keepandroidopen.bsky.social {url}"
+social_callout_bluesky_9: "Sideloading 24 сағаттық күтуді және 9 қадамды талап ету керек пе? Google-дің «кеңейтілген процесі» сәтсіз болу үшін жасалған. Android-ты ашық сақтайық! @keepandroidopen.bsky.social {url}"
+social_callout_bluesky_10: "F-Droid-тан тәуелсіз әзірлеушілерге дейін Android экожүйесінің барлығы Google-дің жаңа міндетті тіркелу жарлығынан қауіп астында. 67-ден астам ұйым неге «жоқ» деп айтып жатқанын қараңыз: {url}"
+
+social_callout_mastodon_1: "2026 жылдың қыркүйегінен бастап Google барлық Android қосымша әзірлеушілерінен орталықтан тіркелуді, мемлекеттік куәлік беруді және қол қою кілттерін ұсынуды талап етеді. Тіркелмеген әзірлеушілердің қосымшалары дүниежүзіндегі барлық сертификатталған құрылғыларда бұғатталады. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_2: "Google-дің Android тексеру бағдарламасы кез келген әзірлеуші үшін мемлекеттік куәлік, қол қою кілттері және ақы төлеуді талап етеді. EFF қосымша кіріс бақылауын «цензураға жол» деп атайды. 67-ден астам ұйым ашық хатқа қол қойды. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_3: "Мыңдаған тегін ашық бастапқы кодты Android қосымшаларының ордасы F-Droid Google-дің тексерісін «тіршілікке қауіп» деп атайды. F-Droid қосымшаларының шамамен 85%-ы таратылу мәселелеріне тап болуы мүмкін — олардың әзірлеушілері Google арқылы емес, F-Droid арқылы қол қойды. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_4: "Google-дің тексерілмеген қосымшаларды sideloading үшін арналған айналым жолы 9 қадамды, міндетті 24 сағаттық күтуді талап етеді және Android жүйесі арқылы емес, Google Play Services арқылы жеткізіледі. Google оны кез келген уақытта келісімсіз өзгерте немесе жоя алады. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_5: "Google Android-та күшейтіп жатқан міндетті тіркелу санкцияланған елдердегі әзірлеушілер, анонимді үлесшілер және кез келген құпиялылық немесе қауіпсіздік құралдарын жасаушылар үшін алаңдаушылық тудырады. Google-дің қосымша жою үкімет талаптарын орындайтыны дәлелденген. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_6: "Android-тың күші оның орталықтандырылмаған сипатында болды. Google-дің барлық қосымша әзірлеушілер үшін орталық тіркелуді міндетті ету жоспары мұны жояды. Биліктің орталықтандырылуына қарсы тұруымыз керек. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_7: "Аппараттық жасақтаманы сатып алсаңыз, бағдарламалық жасақтама бойынша соңғы сөз сізде болуы керек. Google-дің тексерілмеген қосымшаларды бұғаттау жоспары пайдаланушы егемендігіне тікелей шабуыл. {url} @keepandroidopen@techhub.social #KeepAndroidOpen"
+social_callout_mastodon_8: "Кез келген хоббишіл немесе еріктінің жұмысын бөлісу үшін жаһандық корпорацияда тіркелуі қажет болатын дүниені елестетіп көріңіз. Google 2026 жылы Android үшін жасап жатқан дүние осы. {url} @keepandroidopen@techhub.social"
+social_callout_mastodon_9: "Google-дің sideloading үшін арналған «кеңейтілген процесі» — шығу жолы емес, тосқауыл механизмі. Өз меншігіндегі бағдарлама үшін 9 қадам және 24 сағаттық күту? Жоқ рахмет. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_10: "100 000-нан астам адам мен 67-ден астам ұйым Google-дің Android-ты бұғаттау әрекетіне қарсы тұруда. Шынымен ашық мобильді экожүйе үшін күреске қосылыңыз. {url} @keepandroidopen@techhub.social #KeepAndroidOpen"
+
+social_callout_facebook_1: "2026 жылдың қыркүйегінен бастап Google барлық Android қосымша әзірлеушілерінен орталықтан тіркелуді және мемлекеттік куәлік ұсынуды талап етеді. Тіркелмеген әзірлеушілердің қосымшалары дүниежүзіндегі барлық сертификатталған Android құрылғыларда бұғатталады. Бұл тек Play Store қосымшаларына ғана емес — барлығына қатысты. Толығырақ: {url}"
+social_callout_facebook_2: "Миллиондар пайдаланатын ашық бастапқы кодты Android қосымшалар дүкені F-Droid Google-дің тексерісін «тіршілікке қауіп» деп атайды. EFF, FSF және Tor Project-ті қоса 67-ден астам ұйым бұл саясатқа қарсылық білдіретін ашық хатқа қол қойды. {url}"
+social_callout_facebook_3: "Google-дің тексерілмеген қосымшаларды орнатуға арналған айналым жолы 9 қадамды, міндетті 24 сағаттық күтуді талап етеді және Google кез келген уақытта өзгерте алатын Play Services арқылы жұмыс істейді. Қоғамдастыққа блог жазбасы қорғаныс ретінде қабылдауы сұралуда. {url}"
+social_callout_facebook_4: "Android-тың ашықтығы 17 жыл бойы оның анықтаушы сипаттамасы болды. Миллиондар дәл сол себептен оны iPhone-нан таңдады. Google енді барлық қосымшалар, соның ішінде Play Store-тан тыс таратылғандары үшін тіркелуді міндетті етуде. {url}"
+social_callout_facebook_5: "EFF қосымша кіріс бақылауын «цензураға жол» деп атайды. Google-дің тексерісі бір компанияға дүниежүзіндегі кез келген сертификатталған құрылғыда кез келген қосымшаны бұғаттауға мүмкіндік береді. Бұл тек Android-тан тыс жеке компьютерлендірудің болашағына дейін созылатын прецедент. {url}"
+social_callout_facebook_6: "Телефоныңыз — сіздің таңдауыңыз ба? Егер Google шешсе — жоқ. 2026 жылдан бастап олар тіркелмеген әзірлеушінің кез келген қосымшасын бұғаттауды жоспарлайды. Бұл барлығына қатысты. {url}"
+social_callout_facebook_7: "Google ашық платформа ретінде сатылған миллиардтаған құрылғыларды кері бұғаттауда. Бұл «rug pull» тәуелсіз әзірлеушілер мен F-Droid сияқты баламалы дүкендеріне қауіп төндіреді. {url}"
+social_callout_facebook_8: "Телефоныңыз шынымен сіздікі ме? Егер Google қандай қосымшаны орнатуға болатынын шеше алса, жауап — жоқ. Android-ты ашық сақтау үшін күресіп жатқан 100 000-нан астам адамға қосылыңыз. {url}"
+social_callout_facebook_9: "Google-дің тексерілмеген қосымшаларға «рұқсат беру» процесінің 9 қадамы — тұзақ. Ешкім пайдаланбауы үшін қолайсыз етіп жасалған, Google-ге толық бақылауды беруде. {url}"
+social_callout_facebook_10: "Алғашқы қосымшаларын жасаушы студенттерден бастап құпиялылық құралдарын жасаушы еріктілерге дейін Google-дің міндетті тіркелу саясаты инновацияны тоқтатады. Android-ты ашық сақтауға көмектесіңіз! {url}"
 
 # Social button labels
-# spread_label_x: "Post on X"
-# spread_label_mastodon: "Post on Mastodon"
-# spread_label_bluesky: "Post on Bluesky"
-# spread_label_linkedin: "LinkedIn"
-# spread_label_facebook: "Facebook"
+spread_label_x: "X-те жариялаңыз"
+spread_label_mastodon: "Mastodon-да жариялаңыз"
+spread_label_bluesky: "Bluesky-де жариялаңыз"
+spread_label_linkedin: "LinkedIn"
+spread_label_facebook: "Facebook"
 
 # Footer
-# footer_get_involved: "Get involved"
-# footer_take_action: "Take action & resources"
-# footer_open_letter: "Open letter"
-# footer_add_banner: "Add countdown banner"
-# footer_sign_petition: "Sign the petition"
-# footer_contact: "Contact"
-# footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
-# footer_help_translate: "Help translate"
+footer_get_involved: "Қатысыңыз"
+footer_take_action: "Іс-қимыл жасаңыз және ресурстар"
+footer_open_letter: "Ашық хат"
+footer_add_banner: "Кері санау баннерін қосыңыз"
+footer_sign_petition: "Петицияға қол қойыңыз"
+footer_contact: "Байланыс"
+footer_report_issues: "Сайт мәселелерін хабарлаңыз"
+footer_translations: "Аудармалар"
+footer_languages: "Ағылшын тілі (+ 30 тіл)"
+footer_help_translate: "Аударуға көмектесіңіз"
