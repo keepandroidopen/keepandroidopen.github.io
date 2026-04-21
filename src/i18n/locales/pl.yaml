@@ -154,13 +154,21 @@ hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez moż
 
 # Voices section
 # voices_heading: "What they're saying"
+voices_heading: "Co mówią inni"
 # voices_press: "Tech press"
+voices_press: "Prasa techniczna"
 # voices_editorials: "Editorials & analysis"
+voices_editorials: "Artykuły redakcyjne i analizy"
 # voices_orgs: "Organizations & open letters"
+voices_orgs: "Organizacje & otwarte listy"
 # voices_creators: "YouTubers & creators"
+voices_creators: "YouTuberzy & twórcy"
 # voices_community: "Developers & community"
+voices_community: "Programiści & społeczność"
 # voices_petition: "Voices from the petition"
+voices_petition: "Głosy z petycji"
 # voices_more: "All references, editorials, press coverage, and videos"
+voices_more: "Wszystkie źródła, artykuły, prasa i filmy"
 
 # Signatories section
 # signatories_heading: "All those opposed…"
@@ -235,21 +243,36 @@ hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez moż
 
 # Social button labels
 # spread_label_x: "Post on X"
+spread_label_x: "Udostępnij na X"
 # spread_label_mastodon: "Post on Mastodon"
+spread_label_mastodon: "Udostępnij na Mastodon"
 # spread_label_bluesky: "Post on Bluesky"
+spread_label_bluesky: "Udostępnij na Bluesky"
 # spread_label_linkedin: "LinkedIn"
+spread_label_linkedin: "LinkedIn"
 # spread_label_facebook: "Facebook"
+spread_label_facebook: "Facebook"
 
 # Footer
 # footer_get_involved: "Get involved"
+footer_get_involved: "Zaangażuj się"
 # footer_take_action: "Take action & resources"
+footer_take_action: "Podejmij działanie & zasoby"
 # footer_open_letter: "Open letter"
+footer_open_letter: "Utwórz list"
 # footer_add_banner: "Add countdown banner"
+footer_add_banner: "Dodaj baner odliczania"
 # footer_sign_petition: "Sign the petition"
+footer_sign_petition: "Podpisz petycję"
 # footer_contact: "Contact"
+footer_contact: "Kontakt"
 # footer_report_issues: "Report site issues"
+footer_report_issues: "Zgłoś problemy ze stroną"
 # footer_translations: "Translations"
+footer_translations: "Tłumaczenia"
 # footer_languages: "English (+ 30 languages)"
+footer_languages: "Angielski (+30 języków)"
 # footer_help_translate: "Help translate"
+footer_help_translate: "Pomóż przetłumaczyć"
 
 # Shared site strings (also used by CTA/footer on other pages)
