@@ -67,9 +67,13 @@ open_letter_cta: "Przeczytaj nasz list otwarty przeciwko programowi weryfikacji 
 
 # Hero
 # hero_lede: "Your phone is about to stop being yours."
+hero_lede: "Twój telefon przestanie być twój."
 # hero_countdown_label: "days until lockdown"
+hero_countdown_label: "dni do zamknięcia systemu"
 # hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
+hero_sub: "Zaczynając września 2026, cicha aktualizacja wymuszona przez Google, **zablokuje każdą aplikację na Androida** której programiści nie zarejestrowali się w Google, podpisali kontraktu, zapłacili i przakazał danych z dowodu tożsamości."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
+hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez możliwości rezygnacji."
 
 # What Google is doing
 # what_heading: "What Google is doing"
