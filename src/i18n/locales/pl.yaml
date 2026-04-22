@@ -115,7 +115,7 @@ impact_dev_p1: >-
   Pierwsza aplikacja nastolatka, narzędzie do ochrony prywatności stworzone przez wolontariusza, poufna wewnętrzna beta danej firmy - nie ma to żadnego znaczenia. Wraz z początkiem września 2026 roku, żadna z nich nie będzie mogła być zainstalowana bez błogosławieństwa firmy Google.
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
-  [F-Droid](https://f-droid.org), dom dla tysiąca darmowych i otwartoźródłowych aplikacji, nazwał to [\"egzystencjonalnym\" zagrożeniem](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow nazywa to [\"Darth Androidem\"](https://pluralistic.net/2025/09/01/fulu/).
+  [F-Droid](https://f-droid.org), dom dla tysiąca darmowych i otwartoźródłowych aplikacji, nazwał to ["egzystencjonalnym" zagrożeniem](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow nazywa to ["Darth Androidem"](https://pluralistic.net/2025/09/01/fulu/).
 # [en] impact_gov_heading: "Governments & civil society"
 impact_gov_heading: "Rządy i organizacje społeczne"
 # [en] impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
@@ -123,14 +123,14 @@ impact_gov_p1: >-
   Firma Google ma [za sobą historię przypadków](https://www.aclu.org/news/free-speech/app-store-oligopoly), w których podporządkowywała się żądaniom autorytarnych reżimów dotyczącym usunięcia aplikacji. Wraz z wprowadzeniem powyższego programu oprogramowanie, z którego korzystają instytucje w Twoim kraju, będzie istniało tylko i wyłącznie dzięki woli jednej, niepodlegającej żadnej kontroli zagranicznej korporacji.
 # [en] impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
 impact_gov_p2: >-
-  [Oragnizacja EFF nazywa](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) kontrolę dostępu do aplikacji jako \"coraz szerszą drogę do cenzury w Internecie\".
+  [Oragnizacja EFF nazywa](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) kontrolę dostępu do aplikacji jako "coraz szerszą drogę do cenzury w Internecie".
 
 # Advanced flow
 # [en] flow_heading: "Google's \"escape hatch\" is a trap door"
 flow_heading: "\"Furtka\" od Google w rzeczywistości jest pułapką"
 # [en] flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
 flow_intro: >-
-  Google twierdzi, że \"zaawansowani użytkownicy\" [\"wciąż mogą zainstalować\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) niezweryfikowane aplikacje. Oto jak to *naprawdę* wygląda:
+  Google twierdzi, że "zaawansowani użytkownicy" ["wciąż mogą zainstalować"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) niezweryfikowane aplikacje. Oto jak to *naprawdę* wygląda:
 # [en] flow_step1: "Delve into System Settings, find Developer Options"
 flow_step1: "Przejdź do ustawień systemu i znajdź Opcje Programisty"
 # [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
@@ -193,7 +193,7 @@ obj_hide_a: >-
 obj_apple_q: "\"...jest to przypadkiem to samo co robi Apple?\""
 # [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
 obj_apple_a: >-
-  Apple od samego początku funkcjonowało jako zamknięty ekosystem. Ludzie wybierali Androida *właśnie dlatego, że był inny*. Apple od samego początku funkcjonowało jako zamknięty ekosystem. Ludzie wybierali Androida *właśnie dlatego, że był inny*. Twierdzenie \„Apple też tak robi\” to wyścig ku upadkowi i słaby argument typu *tu quoque* (tj. \"oni też\"). A pod wpływem presji regulatorów (Akt o rynkach cyfrowych) nawet Apple zostało zmuszone do otwarcia się. Natomiast Google podąża w przeciwnym kierunku: próbuje jeszcze bardziej umocnić swoją pozycję kontrolną.
+  Apple od samego początku funkcjonowało jako zamknięty ekosystem. Ludzie wybierali Androida *właśnie dlatego, że był inny*. Apple od samego początku funkcjonowało jako zamknięty ekosystem. Ludzie wybierali Androida *właśnie dlatego, że był inny*. Twierdzenie \„Apple też tak robi\” to wyścig ku upadkowi i słaby argument typu *tu quoque* (tj. "oni też"). A pod wpływem presji regulatorów (Akt o rynkach cyfrowych) nawet Apple zostało zmuszone do otwarcia się. Natomiast Google podąża w przeciwnym kierunku: próbuje jeszcze bardziej umocnić swoją pozycję kontrolną.
 # [en] obj_cost_q: "\"...just $25 and some paperwork?\""
 obj_cost_q: "\"...jest to po prostu 25 dolarów amerykańskich i jakaś papierologia?\""
 # [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
@@ -216,7 +216,7 @@ act_share: >-
   **Udostępnij tą stronę.** Wstaw wszędzie, gdzie możesz link do [keepandroidopen.org](https://keepandroidopen.org).
 # [en] act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
 act_astroturf: >-
-  **Nie daj się zmanipulować fałszywym aktywistom.** Grupy typu \"tak właściwie to...\" są teraz bardzo aktywne. Nie pozwól im dyktować tonu dyskusji.
+  **Nie daj się zmanipulować fałszywym aktywistom.** Grupy typu "tak właściwie to..." są teraz bardzo aktywne. Nie pozwól im dyktować tonu dyskusji.
 # [en] act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
 act_petition: >-
   **[Podpisz petycję w serwisie change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** i dołącz do ponad 100 tysięcy osób, które wyraziły swoje zdanie.
@@ -229,7 +229,7 @@ act_survey: >-
 act_dev_heading: "Programiści"
 # [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
 act_dev_intro: >-
-  <strong style=\"text-transform: uppercase;\">Nie podpisuj.</strong> Nie dołączaj do programu, rejestrując się w Android Developer Console i akceptując ich nieodwołalne Warunki korzystania z usługi. Nie potwierdzaj swojej tożsamości. Nie wchodź w to.
+  <strong style="text-transform: uppercase;">Nie podpisuj.</strong> Nie dołączaj do programu, rejestrując się w Android Developer Console i akceptując ich nieodwołalne Warunki korzystania z usługi. Nie potwierdzaj swojej tożsamości. Nie wchodź w to.
 # [en] act_dev_resist: "Google's plan only works if developers comply. Don't."
 act_dev_resist: "Plan Google'a zadziała tylko jeśli programiści się do niego zastosują. Nie rób tego."
 # [en] act_dev_talk: "Talk other developers and organizations out of signing up."
