@@ -33,78 +33,78 @@
 # [en] title: "Keep Android Open"
 title: "Android Açık Kalsın"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "Telefonun artık gerçekten senin olmaktan çıkmak üzere. Eylül 2026'dan itibaren Google, geliştiricisi kendilerine kayıt olmayan tüm Android uygulamalarını engelleyecek."
+description: "Telefonun artık sana ait olmamak üzere. Eylül 2026'dan itibaren Google, kendilerini kayıt etmeyen geliştiricilerin uygulamalarını engelleyecek."
 
 # Hero
 # [en] hero_lede: "Your phone is about to stop being yours."
-hero_lede: "Telefonun artık gerçekten senin olmaktan çıkmak üzere."
+hero_lede: "Telefonun artık sana ait olmamak üzere."
 # [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "kilitlenmeye kalan gün"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  Eylül 2026'dan itibaren Google'ın kullanıcıya sormadan göndereceği sessiz bir güncelleme, Google'a kayıt olmayan, sözleşmesini imzalamayan, ücreti ödemeyen ve resmi kimliğini vermeyen geliştiricilerin **tüm Android uygulamalarını engelleyecek**.
+  Eylül 2026'dan itibaren, Google kullanıcıya sormadan göndereceği sessiz bir güncelleme ile, Google'a kayıtlı olmayan, sözleşmeyi imzalamayan, ücreti ödemeyen ve resmi kimliğini vermeyen geliştiricilerin **tüm Android uygulamalarını engelleyecek**.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
-hero_kicker: "İstisnasız: dünyadaki her uygulama, her cihaz."
+hero_kicker: "İstisnasız: dünyadaki tüm cihazlar ve tüm uygulamalar."
 
 # What Google is doing
 # [en] what_heading: "What Google is doing"
-what_heading: "Google ne yapıyor"
+what_heading: "Google ne yapıyor?"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
-  Google, Ağustos 2025'te [duyurdu](https://developer.android.com/developer-verification): Eylül 2026'dan itibaren **her Android uygulama geliştiricisi, yazılımı herhangi bir cihaza kurulmadan önce merkezi olarak Google'a kayıt olmak zorunda**. Yalnızca Play Store uygulamaları değil, tüm uygulamalar. Buna arkadaşlar arasında paylaşılan uygulamalar, [F-Droid](https://f-droid.org) üzerinden dağıtılanlar ve hobi amaçlı kişisel projeler de dahil. Bağımsız geliştiriciler, kilise ve topluluk grupları, hobiciler... hepsi yazılım geliştirme ve dağıtım sürecinin dışına itilecek.
+  Google, Ağustos 2025'te [yeni planını duyurdu](https://developer.android.com/developer-verification): Eylül 2026'dan itibaren **her Android uygulama geliştiricisi, yaptığı uygulama herhangi bir cihaza kurulmadan önce Google'a kayıt olmak zorunda**. Yalnızca Play Store uygulamaları değil, tüm uygulamalar. Buna arkadaşlar arasında paylaşılan uygulamalar, [F-Droid](https://f-droid.org) üzerinden dağıtılanlar ve hobi amaçlı kişisel projeler de dahil. Bağımsız geliştiriciler, kilise ve topluluk grupları, hobiciler... hepsi uygulama geliştirme ve dağıtım sürecinin dışına itilecek.
 # [en] what_registration: "Registration requires:"
 what_registration: "Kayıt için gerekenler:"
 # [en] what_req_fee: "Paying a fee to Google"
 what_req_fee: "Google'a ücret ödemek"
 # [en] what_req_terms: "Agreeing to Google's Terms and Conditions"
-what_req_terms: "Google'ın Şartlar ve Koşullarını kabul etmek"
+what_req_terms: "Google'ın Şartlarını ve Koşullarını kabul etmek"
 # [en] what_req_id: "Surrendering your government-issued identification"
-what_req_id: "Devlet tarafından verilmiş kimliğini teslim etmek"
+what_req_id: "Devlet tarafından verilmiş kimlik bilgisini vermek"
 # [en] what_req_signing: "Providing evidence of your private signing key"
 what_req_signing: "Özel imzalama anahtarına sahip olduğunu kanıtlamak"
 # [en] what_req_appids: "Listing all current and all future application identifiers"
 what_req_appids: "Mevcut ve gelecekteki tüm uygulama kimliklerini listelemek"
 # [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
-what_pullquote: "Bir geliştirici bunu yapmazsa, uygulamaları dünya genelindeki tüm Android cihazlarda sessizce engelleniyor."
+what_pullquote: "Eğer bir geliştirici kayıt olmazsa, uygulamaları dünya genelindeki tüm Android cihazlarda sessiz sedasız bir şekilde engellenecek."
 
 # Who this hurts
 # [en] impact_heading: "Who this hurts"
 impact_heading: "Kimleri vuruyor"
 # [en] impact_you_heading: "You"
-impact_you_heading: "Sen"
+impact_you_heading: "Seni"
 # [en] impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
-impact_you_p1: "Android telefonu, Google açık bir platform dediği için aldın. İstediğin uygulamayı kurabiliyordun; anlaşma buydu."
+impact_you_p1: "Bir Android cihaz satın aldın çünkü Google sana bunun her şeye açık olduğunu söyledi. İstediğin uygulamayı kurabiliyordun; anlaşma da buydu."
 # [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
 impact_you_p2: >-
-  Google şimdi bu anlaşmayı, hem de geriye dönük şekilde ve zaten sana ait olan donanımda değiştiriyor. Güncelleme geldikten sonra yalnızca Google'ın önceden onayladığı yazılımları çalıştırabileceksin. Kendi telefonunda, *kendi* paranla aldığın cihazda.
+  Google şimdi bu anlaşmayı değiştiriyor. Hem de bunu geriye dönük bir şekilde ve zaten sana ait olan donanımda yapıyor. Güncelleme geldikten sonra yalnızca Google'ın önceden onayladığı uygulamaları çalıştırabileceksin. *Kendi* telefonunda, *kendi* paranla satın aldığın cihazda.
 # [en] impact_dev_heading: "Independent developers"
-impact_dev_heading: "Bağımsız geliştiriciler"
+impact_dev_heading: "Bağımsız geliştiricileri"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-impact_dev_p1: "Bir gencin ilk uygulaması, bir gönüllünün gizlilik aracı ya da bir şirketin gizli dahili beta sürümü... Fark etmiyor. Eylül 2026'dan sonra bunların hiçbiri Google onayı olmadan yüklenemeyecek."
+impact_dev_p1: "Bir gencin ilk uygulaması, bir gönüllünün gizlilik aracı veya bir şirketin gizli dahili beta sürümü... Fark etmez. Eylül 2026'dan sonra bunların hiçbiri Google onayı olmadan yüklenemeyecek."
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
-  Binlerce özgür ve açık kaynak Android uygulamasına ev sahipliği yapan [F-Droid](https://f-droid.org), bunu ["varoluşsal" bir tehdit](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html) olarak tanımlıyor. Cory Doctorow ise buna ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/) diyor.
+  Binlerce özgür ve açık kaynak Android uygulamasına ev sahipliği yapan [F-Droid](https://f-droid.org), bunu ["varlığına karşı" bir tehdit](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html) olarak tanımlıyor. Cory Doctorow ise buna ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/) diyor.
 # [en] impact_gov_heading: "Governments & civil society"
-impact_gov_heading: "Devletler ve sivil toplum"
+impact_gov_heading: "Devletleri ve sivil toplumları"
 # [en] impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
 impact_gov_p1: >-
-  Otoriter rejimler uygulama kaldırılmasını istediğinde Google'ın buna uyduğuna dair [belgeli bir geçmiş](https://www.aclu.org/news/free-speech/app-store-oligopoly) var. Bu programla birlikte, ülkenin kurumlarında çalışan yazılımlar hesap vermeyen tek bir yabancı şirketin insafına kalacak.
+  Otoriter rejimler, uygulama kaldırılmasını istediğinde Google'ın buna uyduğuna dair [sabıkalı bir geçmişi](https://www.aclu.org/news/free-speech/app-store-oligopoly) var. Bu programla birlikte, ülkenin kurumlarında çalışan uygulamalar hesap vermeyen tek bir yabancı şirketin insafına kalacak.
 # [en] impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
 impact_gov_p2: >-
   [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship), uygulama kapıcılığını "internet sansürüne açılan giderek büyüyen bir yol" olarak tanımlıyor.
 
 # Advanced flow
 # [en] flow_heading: "Google's \"escape hatch\" is a trap door"
-flow_heading: "Google'ın \"kaçış yolu\" aslında bir tuzak kapı"
+flow_heading: "Google'ın \"kaçış yolu\" aslında bir tuzak kapısı"
 # [en] flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
 flow_intro: >-
-  Google, doğrulanmamış uygulamaları "ileri düzey kullanıcıların" hâlâ ["yükleyebileceğini"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) söylüyor. İşin gerçekte nasıl göründüğü şu:
+  Google, doğrulanmamış uygulamaları "ileri düzey kullanıcıların" hâlâ ["yükleyebileceğini" söylüyor.](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) İşte size bunun *gerçekte* nasıl göründüğü:
 # [en] flow_step1: "Delve into System Settings, find Developer Options"
 flow_step1: "Sistem Ayarlarına girip Geliştirici Seçeneklerini bul"
 # [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
 flow_step2: "Geliştirici Modunu açmak için derleme numarasına **yedi kez** dokun"
 # [en] flow_step3: "Dismiss scare screens about coercion"
-flow_step3: "Korkutucu uyarı ekranlarını geç"
+flow_step3: "Korkutma amaçlı uyarı ekranlarını geç"
 # [en] flow_step4: "Enter your PIN"
 flow_step4: "PIN kodunu gir"
 # [en] flow_step5: "Restart the device"
@@ -112,60 +112,60 @@ flow_step5: "Cihazı yeniden başlat"
 # [en] flow_step6: "**Wait 24 hours**"
 flow_step6: "**24 saat bekle**"
 # [en] flow_step7: "Come back, dismiss more scare screens"
-flow_step7: "Geri dönüp daha fazla uyarı ekranını geç"
+flow_step7: "Geri dönüp daha fazla korkutma amaçlı şeyleri geç"
 # [en] flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
-flow_step8: "\"geçici olarak izin ver\" (7 gün) ya da \"süresiz izin ver\" seç"
+flow_step8: "\"geçici olarak izin ver\" (7 gün) ya da \"süresiz izin ver\" seçeneklerinden birini seç"
 # [en] flow_step9: "Confirm, again, that you understand \"the risks\""
 flow_step9: "\"riskleri\" anladığını bir kez daha onayla"
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
 flow_summary: "Dokuz adım. Zorunlu 24 saat bekleme. *Hem de sahibi olduğun bir cihaza yazılım kurmak için.*"
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 flow_detail: >-
-  Daha da kötüsü: bu akış Android işletim sisteminin değil, tamamen **Google Play Hizmetleri**nin içinden çalışıyor. Google bunu istediği an değiştirebilir, zorlaştırabilir ya da tamamen kaldırabilir; üstelik işletim sistemi güncellemesi ve kullanıcı onayı da gerekmez. Ve bugün itibarıyla bu özellik hiçbir beta, önizleme veya canary sürümünde yok. Ortada sadece bir blog yazısı ve bazı maketler var.
+  Daha da kötüsü: bu akış Android işletim sisteminin içinde olan bir şey değil, tamamen **Google Play Hizmetleri**nin içinden çalışan bir şey. Yani Google bunu istediği an değiştirebilir, zorlaştırabilir ya da tamamen kaldırabilir; üstelik işletim sistemi güncellemesi ve kullanıcı onayı da gerekmez. Ayrıca bugün itibarıyla bu özellik hiçbir beta, önizleme veya canary sürümünde yok. Ortada sadece bir blog yazısı ve bazı maketler var.
 
 # Precedent
 # [en] precedent_heading: "This is bigger than Android"
-precedent_heading: "Bu, Android'den daha büyük bir mesele"
+precedent_heading: "Bu, Android'den daha büyük bir mevzu"
 # [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
 precedent_pullquote: "Google açık platform diye satılmış milyarlarca cihazı sonradan kilitleyebiliyorsa, dünyadaki tüm donanım üreticileri bunu izliyor demektir."
 # [en] precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
 precedent_p1: >-
-  Yerleşen ilke şu: **Cihazını üreten şirket, sen onu satın aldıktan sonra bile hangi yazılımı çalıştırabileceğine karar veriyor.** Yazılım dünyasında buna "rug pull" denir; en azından rakip bir yazılım kurma şansın olurdu. Donanımda ise bu, seni iradenden eden ve tek bir hesap vermeyen kapı bekçisi ile hüküm giymiş bir tekelin keyfine bırakan bir *fait accompli*.
+  Beklenen durum şöyle: **Cihazını üreten şirket, sen onu satın aldıktan sonra bile hangi yazılımı çalıştırabileceğine karar verecek.** Yazılım dünyasında buna "rug pull" deniyor; eskiden en azından rakip bir yazılım kurma şansın olurdu. Donanımda ise bu, seni iradenden eden ve hiç hesap vermeyen kapı bekçisi ile hüküm giymiş bir tekelin keyfine bırakan bir *fait accompli*.
 # [en] precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
 precedent_p2: >-
-  Android'in açıklığı hiçbir zaman sadece bir özellik değildi. Onu iPhone'dan ayıran asıl *söz* buydu. Milyonlarca insan Android'i tam da bu yüzden seçti. Google şimdi bu sözü tek taraflı olarak geri çekiyor; hem de insanların cebindeki *mevcut* cihazlarda, çünkü piyasa gücü ve düzenleyici etki açısından bunu yapabilecek kadar güçlü olduğunu düşünüyor.
+  Android'in açık oluşu hiçbir zaman sadece bir özellik değildi. Onu iPhone'dan ayıran asıl *söz* buydu. Milyonlarca insan Android'i tam da bu yüzden seçti. Google şimdi bu sözü tek taraflı olarak geri çekiyor; hem de insanların cebindeki *mevcut* cihazlarda, çünkü piyasa gücü ve düzenleyici etki açısından bunu yapabilecek kadar güçlü olduğunu düşünüyor.
 # [en] precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Google's Apple envy threatens to dismantle Android's open legacy.\"*"
 precedent_arstechnica: >-
   [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *"Google'ın Apple'a özenmesi, Android'in açık mirasını dağıtma tehdidi yaratıyor."*
 
 # Objections
 # [en] objections_heading: "But wait, isn't this..."
-objections_heading: "Ama bir saniye, bu..."
+objections_heading: "Bekle biraz..."
 # [en] obj_security_q: "\"...just about security?\""
-obj_security_q: "\"...sadece güvenlik için değil mi?\""
+obj_security_q: "\"...bu sadece güvenlik için değil mi?\""
 # [en] obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one."
 obj_security_a: >-
-  Güvenlik gerekçesi bir sis perdesi. Google Play Protect, geliştirici kimliğinden bağımsız olarak kötü amaçlı yazılımları zaten tarıyor. Devlet kimliği istemek kodu daha güvenli yapmaz. Sadece *geliştiricileri* tespit edilebilir ve kontrol edilebilir hale getirir. Zararlı yazılım geliştirenler de kayıt olabilir. Bağımsız geliştiriciler ve muhalifler çoğu zaman olamaz. [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) bunu açık söylüyor: kimlik temelli kapıcılık güvenlik aracı değil, sansür aracıdır.
+  Güvenlik gerekçesi bir sis perdesi. Google Play Protect, geliştirici kimliğinden bağımsız olarak kötü amaçlı yazılımları zaten tarıyor. Devlet kimliği istemek kodu daha güvenli yapmaz. Sadece *geliştiricileri* tespit edilebilir ve kontrol edilebilir hale getirir. Zararlı yazılım geliştirenler de kayıt olabilir. Bağımsız geliştiriciler ve muhalifler çoğu zaman kayıt olmazlar. [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) bunu açıkça söylüyor: kimlik temelli kapıcılık güvenlik aracı değil, sansür aracıdır.
 # [en] obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-obj_sideloading_q: "\"...ileri akışı kullanırsan yine de yandan yükleme var, değil mi?\""
+obj_sideloading_q: "\"...ileri düzeyde ilerleyerek sideloading yapabilirsin.\""
 # [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
 obj_sideloading_a: >-
-  Dokuz adım, 24 saat bekleme, Geliştirici Seçeneklerinin içine gömülü bir yol ve Google'ın istediğinde iptal edebileceği kapalı bir servis... Bu yandan yükleme değil. Bu, neredeyse kimsenin tamamlayamaması için tasarlanmış bir **caydırma mekanizması**. Üstelik OS yerine Play Hizmetleri üzerinden çalıştığı için Google bunu sessizce daha da zorlaştırabilir ya da tamamen kapatabilir.
+  Dokuz adım, 24 saat bekleme süresi, Geliştirici Seçeneklerinin içine gömülü bir yol ve Google'ın istediğinde iptal edebileceği kapalı bir servis... Bu yandan yükleme (sideloading) değil. Bu, neredeyse kimsenin tamamlayamaması için tasarlanmış bir **caydırma mekanizması**. Üstelik işletim sistemide değil de Play Hizmetleri üzerinden çalıştığı için Google bunu sessizce daha da zorlaştırabilir ya da tamamen kapatabilir.
 # [en] obj_hide_q: "\"...only a problem if you have something to hide?\""
-obj_hide_q: "\"...sadece saklayacak bir şeyin varsa sorun olur, değil mi?\""
+obj_hide_q: "\"...bu sadece saklayacak bir şeyin varsa sorun olur, değil mi?\""
 # [en] obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
 obj_hide_a: >-
-  Otoriter yönetimlerdeki ihbarcılar, gazeteciler ve aktivistler ilk kurbanlar olacak. Aile içi şiddet durumunda olan insanlar da hemen ardından gelir. Bu grupların hepsinin, yasal kimliklerini Google veritabanına koymadan yazılım dağıtmak veya kullanmak için meşru nedenleri var. Anonim açık kaynak katkısı, Google'dan çok daha eski bir gelenek. Bu politika Android'de bunu bitiriyor.
+  Otoriter yönetimlerdeki ihbarcılar, gazeteciler ve aktivistler bu durumda ilk kurbanlar olacak. Aile içi şiddet durumunda olan insanlar da hemen ardından gelecek. Bu grupların hepsinin, yasal kimliklerini Google veritabanına koymadan yazılım dağıtmak veya kullanmak için meşru nedenleri var. Anonim açık kaynak katkısı, Google'dan çok daha eski bir gelenek. Bu politika Android'de bu geleneği bitiriyor.
 # [en] obj_apple_q: "\"...the same thing Apple does?\""
-obj_apple_q: "\"...Apple'ın yaptığıyla aynı şey değil mi?\""
+obj_apple_q: "\"...bu Apple'ın yaptığıyla aynı şey değil mi?\""
 # [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
 obj_apple_a: >-
-  Apple en başından beri duvarlı bir bahçeydi. İnsanlar Android'i *farklı olduğu için* seçti. "Apple da yapıyor" demek dibe doğru yarışmak ve zayıf bir *tu quoque* argümanı. Ayrıca düzenleyici baskı altında (AB Dijital Pazarlar Yasası gibi), Apple bile açılmaya zorlanıyor. Google ise ters yöne gidiyor: kapı bekçiliği konumunu daha da pekiştirmeye çalışıyor.
+  Apple en başından beri duvarlarla çevrili bir bahçeydi. İnsanlar Android'i *farklı olduğu için* seçti. "Apple da yapıyor" demek dibe doğru yarışmak ve zayıf bir *tu quoque* argümanı. Ayrıca Apple bile düzenleyici baskılar altında (AB Dijital Pazarlar Yasası gibi), açılmaya zorlanıyor. Google ise ters yöne gidiyor: kapı bekçiliği konumunu daha da pekiştirmeye çalışıyor.
 # [en] obj_cost_q: "\"...just $25 and some paperwork?\""
-obj_cost_q: "\"...altı üstü 25 dolar ve biraz evrak, değil mi?\""
+obj_cost_q: "\"...bu, altı üstü 25 dolar ve biraz evrak, değil mi?\""
 # [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
 obj_cost_a: >-
-  Belki, ABD'de kredi kartı ve ehliyeti olan bir geliştiriciysen. Ama Sahra Altı Afrika'da bir öğrenci olmayı, Myanmar'da bir muhalif olmayı ya da topluluk sağlığı uygulaması sürdüren bir gönüllü olmayı düşün. Maliyet sadece para değil: devlet kimliğini ve imzalama anahtarlarına dair kanıtları, hükümetlerin uygulama kaldırma ve geliştirici ifşa taleplerine [rutin olarak uyan](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) bir şirkete teslim ediyorsun.
+  Belki, eğer ABD'de kredi kartı ve ehliyeti olan bir geliştiriciysen öyledir. Ama Sahraaltı Afrika'da bir öğrenci olmayı, Myanmar'da bir muhalif olmayı ya da topluluk sağlığı uygulaması sürdüren bir gönüllü olmayı düşün. Maliyet sadece para değil: devlet kimliğini ve imzalama anahtarlarına dair kanıtları, hükümetlerin uygulama kaldırma ve geliştirici ifşa taleplerine [uymayı âdet edinmiş](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) bir şirkete teslim ediyorsun.
 
 # Fight back
 # [en] act_heading: "Fight back"
@@ -173,31 +173,31 @@ act_heading: "Harekete geç"
 # [en] act_everyone_heading: "Everyone"
 act_everyone_heading: "Herkes"
 # [en] act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
-act_fdroid: "**[F-Droid'u kur](https://f-droid.org)**. Sahip olduğun her Android cihaza kur. Alternatif mağazalar ancak insanlar gerçekten kullanırsa ayakta kalır."
+act_fdroid: "**[F-Droid'i kurun](https://f-droid.org)**. Sahip olduğunuz her Android cihaza kurun. Alternatif mağazalar ancak insanlar gerçekten kullanırsa ayakta kalır."
 # [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
-act_regulators: "**[Düzenleyici kurumlarla iletişime geç.](/cta/#consumers)** Dünyanın dört bir yanındaki düzenleyiciler, tekelleşme ve teknoloji sektöründe gücün merkezileşmesi konusunda ciddi şekilde endişeli. Etkilenen insanlardan doğrudan geri bildirim duymak istiyorlar."
+act_regulators: "**[Düzenleyici kurumlarla iletişime geçin.](/cta/#consumers)** Dünyanın dört bir yanındaki düzenleyiciler, tekelleşme ve teknoloji sektöründe gücün merkezileşmesi konusunda ciddi şekilde endişeli. Etkilenen insanlardan doğrudan geri bildirim duymak istiyorlar."
 # [en] act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
-act_share: "**Bu sayfayı paylaş.** Her yerde [keepandroidopen.org](https://keepandroidopen.org) bağlantısını ver."
+act_share: "**Bu sayfayı paylaşın.** Her yerde [keepandroidopen.org](https://keepandroidopen.org) bağlantısını paylaşın."
 # [en] act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
-act_astroturf: "**Sahte gündem oluşturanlara karşı çık.** \"Ama aslında...\" tayfası ortalıkta. Gündemi onların belirlemesine izin verme."
+act_astroturf: "**Sahte gündem oluşturanlara karşı çıkın.** \"Ama aslında...\" tayfası ortalıkta cirit atıyorlar. Gündemi onların belirlemesine izin vermeyin."
 # [en] act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
-act_petition: "**[change.org dilekçesini imzala](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** ve sesini duyuran 100.000'den fazla kişiye katıl."
+act_petition: "**[change.org dilekçesini imzalayın](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** ve sesini duyuran 100.000'den fazla kişiye katılın."
 # [en] act_letter: "**[Read and share our open letter](/open-letter)**"
-act_letter: "**[Açık mektubumuzu oku ve paylaş](/open-letter)**"
+act_letter: "**[Açık mektubumuzu okuyun ve paylaşın](/open-letter)**"
 # [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
-act_survey: "**Google'a bu konuda ne düşündüğünü söyle**. Kendi [geliştirici doğrulama anketleri](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) üzerinden iletebilirsin (ne kadar işe yararsa artık)."
+act_survey: "**Google'a bu konuda ne düşündüğünüzü söyleyin**. Kendi [geliştirici doğrulama anketleri](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) üzerinden düşüncelerinizi iletebilirsiniz (artık ne kadar işe yararsa tabi)."
 # [en] act_dev_heading: "Developers"
 act_dev_heading: "Geliştiriciler"
 # [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
-act_dev_intro: "**Kayıt olmayın.** Android Developer Console'a kaydolup geri alınamaz Şartlar ve Koşulları kabul ederek bu programa katılmayın. Kimliğinizi doğrulamayın. *Oyuna gelmeyin.*"
+act_dev_intro: "**Kayıt olmayın.** Android Developer Console'a kaydolup geri alınamaz Şartları ve Koşulları kabul ederek bu programa katılmayın. Kimliğinizi doğrulamayın. *Tezgâha gelmeyin.*"
 # [en] act_dev_resist: "Google's plan only works if developers comply. Don't."
-act_dev_resist: "Google'ın planı ancak geliştiriciler uyarsa çalışır. Uymayın."
+act_dev_resist: "Google'ın planı ancak geliştiriciler buna uyarlarsa çalışır. Uymayın."
 # [en] act_dev_talk: "Talk other developers and organizations out of signing up."
 act_dev_talk: "Diğer geliştiricileri ve kuruluşları da kayıt olmamaya ikna edin."
 # [en] act_dev_warn: "Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users."
 act_dev_warn: "Kullanıcıları uyarmak için uygulamalarına [FreeDroidWarn kütüphanesini](https://github.com/woheller69/FreeDroidWarn) ekleyin."
 # [en] act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
-act_dev_banner: "Bir web siten mi var? [Geri sayım banner'ını ekle.](/banner)"
+act_dev_banner: "Bir siteniz mi var? [Geri sayım banner'ını ekle.](/banner)"
 # [en] act_google_heading: "Google employees"
 act_google_heading: "Google çalışanları"
 # [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
@@ -243,13 +243,13 @@ cta_letter_desc: "Geliştirici doğrulamaya karşı çıkan kuruluşların imzal
 
 # Closing
 # [en] closing_line1: "You bought your phone."
-closing_line1: "Telefonu sen satın aldın."
+closing_line1: "Telefonunu sen satın aldın."
 # [en] closing_line2: "You should decide what runs on it."
 closing_line2: "Üzerinde ne çalışacağına sen karar vermelisin."
 # [en] closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 closing_detail: "Bunun için 9 adımlık bir süreç, 24 saat bekleme ve Google'ın sürekli izni gerekmemeli."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-closing_cta: "Bu sayfayı paylaş. Kayıt olma. Android'i kapatmalarına izin verme."
+closing_cta: "Bu sayfayı paylaş. Programa kaydolma. Android'i kapatmalarına izin verme."
 # [en] closing_share_heading: "Spread the word"
 closing_share_heading: "Haberi yay"
 
@@ -371,7 +371,7 @@ spread_label_facebook: "Facebook'ta paylaş"
 # [en] footer_get_involved: "Get involved"
 footer_get_involved: "Katıl"
 # [en] footer_take_action: "Take action & resources"
-footer_take_action: "Harekete geç ve kaynaklar"
+footer_take_action: "Harekete geç & kaynaklar"
 # [en] footer_open_letter: "Open letter"
 footer_open_letter: "Açık mektup"
 # [en] footer_add_banner: "Add countdown banner"
