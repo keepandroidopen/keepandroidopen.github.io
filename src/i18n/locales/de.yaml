@@ -161,7 +161,7 @@ obj_security_a: >-
   Die [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) (Economic Frontier Foundation)
   bringt es auf den Punkt: identitätsbasierte Zugangskontrolle ist ein Instrument der Zensur, nicht der Sicherheit.
 # [en] obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-obj_sideloading_q: "\"...wird das auch bei Verwendung des erweiterten Ablaufs noch per Sideloading erfolgen?\""
+obj_sideloading_q: "\"...weiterhin Sideloading, wenn man den erweiterten Ablauf verwendet?\""
 # [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
 obj_sideloading_a: >-
   Neun Schritte, 24 Stunden Wartezeit, versteckt in den Entwickleroptionen, bereitgestellt über einen proprietären Dienst, den Google jederzeit widerrufen kann. Das ist kein Sideloading. Das ist ein
