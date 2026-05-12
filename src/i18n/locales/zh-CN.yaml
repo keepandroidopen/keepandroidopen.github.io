@@ -44,11 +44,11 @@ site_problems_header: "问题"
 # [en] site_report_issues: "Report Site Issues"
 site_report_issues: "报告网站问题"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
-site_disclaimer: "**免责声明：**本站是一个由社区推动的非商业性项目。仅用于提供信息与教育目的。"
+site_disclaimer: "**免责声明**：本站是一个由社区推动的非商业性项目。仅用于提供信息与教育目的。"
 # [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
-site_privacy: "**隐私：**本站不使用 cookies，也不会跟踪或记录用户。"
+site_privacy: "**隐私**：本站不使用 cookies，也不会跟踪或记录用户。"
 # [en] site_copyright: "**Copyright:** None. This work is marked"
-site_copyright: "**版权：**无。本作品已标记为"
+site_copyright: "**版权**：无。本作品已标记为"
 # [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "阅读我们反对安卓开发者验证计划的公开信"
 # [en] hero_lede: "Your phone is about to stop being yours."
@@ -135,7 +135,7 @@ precedent_heading: "Android 只是开胃菜"
 precedent_pullquote: "如果 Google 能事后锁死数十亿台当初打着“开放平台”卖出去的设备，全世界硬件厂商都在看。"
 # [en] precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
 precedent_p1: >-
-  它要立下的规矩是：**你买了谁的设备，谁事后就能决定你能装什么软件。**软件圈管这叫“割韭菜”，但至少你还能装别人的软件。到了硬件这，就是*生米煮成熟饭*：剥夺你的自主权，让你被一个不受制衡的守门人、一个被判垄断的巨头任意摆布。
+  它要立下的规矩是：**你买了谁的设备，谁事后就能决定你能装什么软件**。软件圈管这叫“割韭菜”，但至少你还能装别人的软件。到了硬件这，就是*生米煮成熟饭*：剥夺你的自主权，让你被一个不受制衡的守门人、一个被判垄断的巨头任意摆布。
 # [en] precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
 precedent_p2: >-
   Android 的开放从来就不光是个功能，它还是 Android 区别于 iPhone 的*承诺*。百万人就是冲这点选的 Android。现在，Google 要单方面撕掉这个承诺，还要撕在大家*早已*揣进口袋的设备上，就因为他们觉得自己市场够大，监管也摆得平，可以这么干了。
@@ -177,11 +177,11 @@ act_everyone_heading: "所有人"
 act_fdroid: >-
   **给你所有 Android 手机[装上 F-Droid](https://f-droid.org)**。你不用我不用，最后就没人用，应用商店平替就要凉。
 # [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
-act_regulators: "**[联系监管部门。](/cta/#consumers)**全世界都在关注科技巨头的垄断和权力集中，监管部门想听听受害者的真实声音。"
+act_regulators: "**[联系监管部门](/cta/#consumers)**。全世界都在关注科技巨头的垄断和权力集中，监管部门想听听受害者的真实声音。"
 # [en] act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
-act_share: "**分享这个页面。**让 [keepandroidopen.org](https://keepandroidopen.org) 出现在每一处。"
+act_share: "**分享这个页面**。让 [keepandroidopen.org](https://keepandroidopen.org) 出现在每一处。"
 # [en] act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
-act_astroturf: "**怼水军。**那群张口便是“其实吧……”的水军已然出动，别让他们定义叙事。"
+act_astroturf: "**怼水军**。那群张口便是“其实吧……”的水军已然出动，别让他们定义叙事。"
 # [en] act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
 act_petition: >-
   **[签 change.org 的请愿书](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)**，加入那 10 万多个发声的人，别让这些声音被埋没。
@@ -194,7 +194,7 @@ act_survey: >-
 act_dev_heading: "开发者"
 # [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
 act_dev_intro: >-
-  **别注册。**别去注册 Android 开发者控制台，别签那个不可撤销的条款，别验证身份。*别给他们送人头。*
+  **别注册**。别去注册 Android 开发者控制台，别签那个不可撤销的条款，别验证身份。*别给他们送人头。*
 # [en] act_dev_resist: "Google's plan only works if developers comply. Don't."
 act_dev_resist: "Google 这招只有开发者配合才玩得转，不配合就废了。"
 # [en] act_dev_talk: "Talk other developers and organizations out of signing up."
@@ -208,7 +208,7 @@ act_dev_banner: "有网站？[加个倒计时横幅。](/banner)"
 act_google_heading: "Google 员工"
 # [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
 act_google_text: >-
-  如果你知道这个计划怎么实现的、内部是什么逻辑，用*非工作*电脑、*非 Gmail *账号发邮件到 [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)。绝对保密。
+  如果你知道这个计划怎么实现的、内部是什么逻辑，用*非工作*电脑、*非 Gmail* 账号发邮件到 [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)。绝对保密。
 # [en] voices_heading: "What they're saying"
 voices_heading: "大家怎么说"
 # [en] voices_press: "Tech press"
