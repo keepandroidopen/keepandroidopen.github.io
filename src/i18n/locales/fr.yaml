@@ -244,7 +244,7 @@ act_dev_banner: "Vous gérez un site web ? [Ajoutez la bannière de compte à re
 act_google_heading: "Employé(e)s de Google"
 # [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
 act_google_text: >-
-  Si vous avez des connaissances sur la mise en œuvre technique du programme ou sur sa justification interne, contactez [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) depuis une machine *personnel* et un compte *non-Gmail*. Confidentialité absolue garantie.
+  Si vous avez des connaissances sur la mise en œuvre technique du programme ou sur sa justification interne, contactez [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) depuis une machine *personnelle* et un compte *non-Gmail*. Confidentialité absolue garantie.
 # [en] voices_press: "Tech press"
 voices_press: "Press Tech"
 # [en] voices_editorials: "Editorials & analysis"
