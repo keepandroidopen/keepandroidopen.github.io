@@ -32,9 +32,9 @@
 
 
 # [en] title: "Keep Android Open"
-title: "Houd Android Open"
+title: "Houd Android open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "Pleitend voor Android als vrij, open platform waarop iedereen apps kan bouwen."
+description: "Je telefoon is straks niet meer van jou. In september 2026 zal Google elke Android-app blokkeren waarvan de ontwikkelaar zich niet bij hen heeft geregistreerd."
 # [en] contact_header: "Contact"
 contact_header: "Contact"
 # [en] contact_email: "Email"
@@ -47,11 +47,11 @@ site_report_issues: "Meld problemen met deze site"
 site_disclaimer: >-
   **Disclaimer:** Deze website wordt onderhouden door een niet-commerciële gemeenschap en is uitsluitend bedoeld voor informatieve en educatieve doeleinden.
 # [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
-site_privacy: "**Privacy:** Deze site gebruikt geen cookies en doet niet aan gebruikers-tracking of logging."
+site_privacy: "**Privacy:** Deze site gebruikt geen cookies en doet niet aan gebruikerstracking of logging."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Copyright:** Geen. Dit werk is beschikbaar onder"
 # [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Lees de open brief over ons verzet tegen Android Developer Verification"
+open_letter_cta: "Lees onze open brief tegen het Android Developer Verification-programma"
 
 #
 # ============================================================================
@@ -390,7 +390,7 @@ social_callout_bluesky_7: "Eigendom betekent controle. Als Google elke app op je
 # [en] social_callout_bluesky_8: "Mandatory ID registration for every app developer? This is a dream for censors and a nightmare for privacy. Protect the open web and open mobile. @keepandroidopen.bsky.social {url}"
 social_callout_bluesky_8: "Verplichte identiteitsregistratie voor elke app-ontwikkelaar? Een droom voor censoren en een nachtmerrie voor privacy. Bescherm het open web en open mobiel. @keepandroidopen.bsky.social {url}"
 # [en] social_callout_bluesky_9: "Sideloading shouldn't require a 24-hour waiting period and a 9-step gauntlet. Google's 'advanced flow' is designed to fail. Keep Android Open! @keepandroidopen.bsky.social {url}"
-social_callout_bluesky_9: "Sideloading hoort geen wachttijd van 24 uur en een hindernisbaan van 9 stappen te vergen. Googles 'uitgebreide procedure' is ontworpen om te falen. Houd Android Open! @keepandroidopen.bsky.social {url}"
+social_callout_bluesky_9: "Sideloading hoort geen wachttijd van 24 uur en een hindernisbaan van 9 stappen te vergen. Googles 'uitgebreide procedure' is ontworpen om te falen. Houd Android open! @keepandroidopen.bsky.social {url}"
 # [en] social_callout_bluesky_10: "From F-Droid to independent devs, the entire Android ecosystem is under threat from Google's new mandatory registration decree. See why 67+ orgs are saying no: {url}"
 social_callout_bluesky_10: "Van F-Droid tot onafhankelijke ontwikkelaars: het hele Android-ecosysteem wordt bedreigd door Googles nieuwe verplichte registratiebesluit. Lees waarom 67+ organisaties nee zeggen: {url}"
 # [en] social_callout_mastodon_1: "Starting September 2026, Google will require every Android app developer to register centrally, provide government ID, and submit signing keys. Apps from unregistered developers will be blocked on all certified devices worldwide. This threatens F-Droid, open-source distribution, and user autonomy. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
