@@ -70,7 +70,7 @@ impact_you_p1: "あなたは Googleが「Androidは自由なOSです」と言っ
 # [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
 impact_you_p2: "Googleは今になって、その約束を後出しで書き換えようとしています。しかも、すでにあなたが所有しているスマホで。このアップデートが実施されれば、あなたはGoogleが承認したアプリしか開けなくなります。 **あなた** がお金を払って買った、 **あなたが所有する** スマホなのに。"
 # [en] impact_dev_heading: "Independent developers"
-impact_dev_heading: "独立的した開発者"
+impact_dev_heading: "独立している開発者"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 impact_dev_p1: "中学生が初めて作ったアプリでも、ボランティアのプライバシー保護ツールでも、もしくは会社の極秘社内向けベータ版でも、関係ありません。2026年9月以降、これらのどれもGoogleの承認無しではこれまで通りにインストールすることができなくなります。"
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
