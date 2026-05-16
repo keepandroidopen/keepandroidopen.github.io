@@ -14,6 +14,9 @@ Checks:
      This catches the common mistake of converting a YAML quoted string
      to a block scalar without removing the outer quotes (which become
      literal characters in block scalars).
+  5. social_callout_{platform}_{n} values fit within each platform's
+     post character limit after {url} substitution, and contain the
+     required {url} placeholder so the share intent gets a link.
 """
 
 import glob
@@ -209,6 +212,78 @@ def check_quoted_block_scalars(path):
     return errors
 
 
+# Per-platform character limits for social_callout_{platform}_{n} messages.
+# url_weight = 23 reflects platforms that fold every URL to a fixed width
+# (X via t.co, Mastodon per its character-counting rules). Other platforms
+# count the URL as its visible length, so we substitute the longest URL
+# the site ever emits: https://keepandroidopen.org/{locale}/ — pt-BR and
+# zh-CN are tied at 34 chars.
+SOCIAL_PLATFORM_LIMITS = {
+    "x":        {"limit": 280,   "url_weight": 23},
+    "bluesky":  {"limit": 300,   "url_weight": None},
+    "mastodon": {"limit": 500,   "url_weight": 23},
+    "linkedin": {"limit": 3000,  "url_weight": None},
+    "facebook": {"limit": 63206, "url_weight": None},
+}
+LONGEST_SUBSTITUTED_URL = "https://keepandroidopen.org/zh-CN/"
+
+_SOCIAL_CALLOUT_KEY = re.compile(r"^social_callout_([a-z]+)_(\d+)$")
+
+
+def check_social_callout_limits(path):
+    """Return a list of error strings for social_callout_* keys whose
+    rendered length exceeds the target platform's post character limit,
+    or that are missing the required {url} placeholder.
+
+    Only applies to src/i18n/locales/*.yaml.
+    """
+    if "/locales/" not in path:
+        return []
+
+    errors = []
+    try:
+        with open(path) as fh:
+            data = yaml.safe_load(fh)
+    except yaml.YAMLError:
+        return []  # syntax error already reported
+
+    if not isinstance(data, dict):
+        return []
+
+    for key, value in data.items():
+        m = _SOCIAL_CALLOUT_KEY.match(key)
+        if not m:
+            continue
+        platform = m.group(1)
+        cfg = SOCIAL_PLATFORM_LIMITS.get(platform)
+        if cfg is None:
+            continue
+        if not isinstance(value, str):
+            errors.append(f"{path}: key '{key}': expected string value")
+            continue
+
+        if "{url}" not in value:
+            errors.append(
+                f"{path}: key '{key}': missing required {{url}} placeholder"
+            )
+            continue
+
+        if cfg["url_weight"] is not None:
+            rendered = value.replace("{url}", "x" * cfg["url_weight"])
+        else:
+            rendered = value.replace("{url}", LONGEST_SUBSTITUTED_URL)
+
+        n = len(rendered)
+        if n > cfg["limit"]:
+            errors.append(
+                f"{path}: key '{key}': {n} chars exceeds {platform} "
+                f"limit of {cfg['limit']} (counted after {{url}} "
+                f"substitution)"
+            )
+
+    return errors
+
+
 def main():
     files = find_yaml_files()
     if not files:
@@ -221,6 +296,7 @@ def main():
         all_errors.extend(check_escaped_quotes_in_block_scalars(path))
         all_errors.extend(check_html_in_locale_values(path))
         all_errors.extend(check_quoted_block_scalars(path))
+        all_errors.extend(check_social_callout_limits(path))
 
     if all_errors:
         print(f"Found {len(all_errors)} error(s):\n")
