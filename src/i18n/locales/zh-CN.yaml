@@ -85,7 +85,7 @@ impact_you_heading: "你"
 # [en] impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
 impact_you_p1: "你购买 Android 手机，是因为 Google 曾声明它会开放。你可以任意安装软件，这曾是说明好的。"
 # [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
-impact_you_p2: "然而，如今 Google 将要重写协议，追溯到你拥有的设备。更新落地后，纵使那是你的手机 —— *你的*东西，*你*花钱购买的 —— 也将只能运行 Google 许可的软件。"
+impact_you_p2: "然而，如今 Google 将要重写协议，追溯到你拥有的设备。更新落地后，你的手机 —— *你的*东西，*你*花钱购买的 —— 将只能运行 Google 许可的软件。"
 # [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "独立开发者"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
@@ -128,7 +128,7 @@ flow_step9: "再次确认你清楚所谓的“风险”"
 flow_summary: "*仅仅为了在自己的设备上安装侧载软件，*你就需要九步操作、等待二十四小时强制冷静期。"
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 flow_detail: >-
-  而且祸不单行：这套流程完全受**Google Play 服务**控制，而和 Android 系统无关。Google 可以随时改动、收紧甚至废止，无需系统更新，也无需用户同意。直至今日，它还仅存在于一篇博文和几张效果图里，暂未加入任何 beta、preview 或 canary 版本。
+  祸不单行：这一流程完全受**Google Play 服务**控制，而和 Android 系统无关。Google 可以随时改动、收紧甚至废止，无需系统更新，也无需用户同意。直至今日，它还仅存在于一篇博文和几张效果图里，暂未加入任何 beta、preview 或 canary 版本。
 # [en] precedent_heading: "This is bigger than Android"
 precedent_heading: "Android 只是起始"
 # [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
@@ -158,7 +158,7 @@ obj_sideloading_a: >-
 obj_hide_q: "“……没什么见不得人的，怕什么？”"
 # [en] obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
 obj_hide_a: >-
-  威权政府下的吹哨人、记者、活动家会首当其冲。其次会轮到家庭暴力受害者。这些群体有必要在分发或使用软件时不向Google 数据库提供真实身份，理由正当。匿名贡献开源代码的传统早在 Google 建立前就已形成，但新政策会在 Android 上消灭这一传统。
+  威权政府下的吹哨人、记者、活动家会首当其冲。其次会轮到家庭暴力受害者。这些群体有必要在分发或使用软件时不向 Google 数据库提供真实身份，理由正当。匿名贡献开源代码的传统早在 Google 建立前就已形成，但新政策会在 Android 上消灭这一传统。
 # [en] obj_apple_q: "\"...the same thing Apple does?\""
 obj_apple_q: "“……苹果不也这么干吗？”"
 # [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
