@@ -337,19 +337,19 @@ footer_help_translate: "अनुवाद करने में सहाय�
 # Fight back
 
 # Voices section
-# voices_press: "Tech press"
-# voices_editorials: "Editorials & analysis"
-# voices_orgs: "Organizations & open letters"
-# voices_creators: "YouTubers & creators"
-# voices_community: "Developers & community"
-# voices_petition: "Voices from the petition"
-# voices_more: "All references, editorials, press coverage, and videos"
+voices_press: "टेक प्रेस"
+voices_editorials: "संपादकीय तथा विश्लेषणकर्ता"
+voices_orgs: "संस्थान एवं खुले पत्र"
+voices_creators: "यूट्यूबर और क्रिएटर "
+voices_community: "डेवेलपर्स एवं कम्युनिटी"
+voices_petition: "याचिकाकर्ताओं की आवाज़ सुनें"
+voices_more: "सभी संदर्भ, संपादकीय, प्रेस कवरेज और वीडियो"
 
 # Signatories section
-signatories_heading: "प्रत्येक "
-# signatories_count: "{count} organizations from {countries} countries have signed the"
-# signatories_open_letter_link: "open letter"
-# signatories_more: "Read the full open letter and thank the signatories"
+signatories_heading: "वे सभी जिन्होंने इसका विरोध किया है..... "
+signatories_count: "{countries} देशों के {count} संस्थाओं ने हस्ताक्षर किया है"
+signatories_open_letter_link: "खुला पत्र"
+signatories_more: "पूरा खुला पत्र पढ़ें और हस्ताक्षरकर्ताओं का धन्यवाद करें"
 
 # CTA banners
 cta_action_desc: "संसाधनों की सूची, हर देश के लिंक, रेगुलेटर्स से संपर्क करने और जवाब देने के उपाय"
