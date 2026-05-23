@@ -30,7 +30,6 @@
 
 # Active translations for this locale:
 
-
 # [en] contact_header: "Contact"
 contact_header: "संपर्क"
 # [en] contact_email: "Email"
@@ -246,7 +245,7 @@ act_petition: >-
   **इस [change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/) पर हस्ताक्षर करें**
   और उन 100,000 से अधिक हस्ताक्षरकर्ताओं का साथ दें जिन्होंने अपनी आवाज़ उठाई है।
 # [en] act_letter: "**[Read and share our open letter](/open-letter)**"
-act_letter: '**[हमारे खुले पत्र को पढ़ें तथा शेयर करें](/open-letter)**'
+act_letter: "**[हमारे खुले पत्र को पढ़ें तथा शेयर करें](/open-letter)**"
 # [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
 act_survey: >-
   **गूगल को बताएं कि आप क्या सोचते हैं**, उनके ही
@@ -269,9 +268,9 @@ act_dev_warn: >-
   इस [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn)
   को अपने users को सावधान करने के लिए अपने ऐप्प में जोड़ें।
 # [en] act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
-act_dev_banner: 'अगर आप एक वेबसाइट चलाते हैं तो इस [countdown banner](/banner) को अवश्य जोड़ें।'
+act_dev_banner: "अगर आप एक वेबसाइट चलाते हैं तो इस [countdown banner](/banner) को अवश्य जोड़ें।"
 # [en] act_google_heading: "Google employees"
-act_google_heading: "Google employees"
+act_google_heading: "गूगल कर्मचारियों के लिए"
 # [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
 act_google_text: >-
   अगर आप इस प्रोग्राम के तकनीकी कार्यान्वयन (technical implementation) या इसके आंतरिक तर्क (internal rationale) के बारे में कुछ जानते हैं,
