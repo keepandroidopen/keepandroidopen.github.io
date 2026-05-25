@@ -206,6 +206,7 @@
       line-height: 1.15;
       max-width: 700px;
       margin: 0 auto 1.5rem;
+      padding-bottom: 0.2em;
       letter-spacing: -0.02em;
       background: linear-gradient(135deg, #d32f2f 0%, #ff6659 100%);
       -webkit-background-clip: text;
@@ -744,14 +745,25 @@
     }
 
     .ticker-card p {
+      position: relative;
       margin: 0 0 0.5rem;
       font-style: italic;
       font-weight: 500;
-      line-height: 1.4;
+      line-height: 1.25;
       display: -webkit-box;
       -webkit-line-clamp: 6;
       -webkit-box-orient: vertical;
       overflow: hidden;
+    }
+
+    .ticker-card p::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 2em;
+        height: 2em;
+        background: linear-gradient(0deg, hsl(var(--tc-h), var(--tc-s), 96%) 25%, rgba(255, 255, 255, 0));
     }
 
     .ticker-card cite {
