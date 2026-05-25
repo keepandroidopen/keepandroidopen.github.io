@@ -71,18 +71,18 @@ hero_lede: "Je telefoon is straks niet meer van jou."
 hero_countdown_label: "dagen tot de lockdown"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  Vanaf september 2026 zal een stille update, zonder toestemming uitgerold door Google, **elke Android-app blokkeren** waarvan de ontwikkelaar zich niet bij Google
-  heeft geregistreerd, het contract niet heeft getekend, niet heeft betaald en geen identiteitsbewijs heeft afgegeven.
+  Vanaf september 2026 zal Google zonder toestemming een stille update uitrollen die **elke Android-app blokkeert** waarvan de ontwikkelaar zich niet bij Google
+  heeft geregistreerd, een contract heeft getekend, Google heeft betaald én een identiteitsbewijs heeft afgegeven.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
-hero_kicker: "Elke app en elk apparaat, wereldwijd, zonder mogelijkheid om je af te melden."
+hero_kicker: "Dat geldt voor iedere app op ieder apparaat, wereldwijd, zonder dat je dit kunt voorkomen."
 
 # What Google is doing
 # [en] what_heading: "What Google is doing"
 what_heading: "Wat Google van plan is"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
-  In augustus 2025 [kondigde](https://developer.android.com/developer-verification) Google een nieuwe verplichting aan: vanaf september 2026 **moet elke Android-app-ontwikkelaar
-  zich centraal registreren bij Google** voordat hun software op enig apparaat geïnstalleerd kan worden. Niet alleen Play Store-apps: alle apps. Dit geldt ook voor
+  In augustus 2025 [kondigde](https://developer.android.com/developer-verification) Google een nieuwe verplichting aan: vanaf september 2026 **moet iedere Android-app-ontwikkelaar
+  zich centraal registreren bij Google** voordat hun software op enig apparaat geïnstalleerd kan worden. Niet alleen Play Store-apps: álle apps. Dit geldt ook voor
   apps die tussen vrienden gedeeld worden, die via [F-Droid](https://f-droid.org) verspreid worden, of die door hobbyisten voor eigen gebruik gebouwd worden.
   Onafhankelijke ontwikkelaars, kerk- en gemeenschapsgroepen en hobbyisten worden allemaal buitengesloten van het ontwikkelen en verspreiden van hun software.
 # [en] what_registration: "Registration requires:"
@@ -98,7 +98,7 @@ what_req_signing: "Bewijs leveren van je privé-ondertekeningssleutel"
 # [en] what_req_appids: "Listing all current and all future application identifiers"
 what_req_appids: "Alle huidige en toekomstige applicatie-identificatiecodes opsommen"
 # [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
-what_pullquote: "Als een ontwikkelaar zich er niet aan houdt, worden zijn apps stilletjes geblokkeerd op elk Android-apparaat ter wereld."
+what_pullquote: "Als een ontwikkelaar zich er niet aan houdt, worden zijn apps stilletjes geblokkeerd op elk Android-apparaat overal ter wereld."
 
 # Who this hurts
 # [en] impact_heading: "Who this hurts"
