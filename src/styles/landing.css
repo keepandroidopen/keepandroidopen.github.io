@@ -751,7 +751,7 @@
       font-weight: 500;
       line-height: 1.25;
       display: -webkit-box;
-      -webkit-line-clamp: 6;
+      -webkit-line-clamp: 5;
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
@@ -761,9 +761,9 @@
         position: absolute;
         left: 0;
         right: 0;
-        bottom: 2em;
+        bottom: 0;
         height: 2em;
-        background: linear-gradient(0deg, hsl(var(--tc-h), var(--tc-s), 96%) 25%, rgba(255, 255, 255, 0));
+        background: linear-gradient(0deg, hsl(var(--tc-h), var(--tc-s), 96%) 5%, rgba(255, 255, 255, 0));
     }
 
     .ticker-card cite {
