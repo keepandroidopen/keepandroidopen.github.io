@@ -164,7 +164,7 @@ flow_step8: "Choisir \"autoriser temporairement\" (7 jours) ou \"autoriser défi
 flow_step9: "Confirmer, de nouveau, que vous comprenez \"les risques\""
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
 flow_summary: >-
-  Neuf étapes. Une période de réflexion obligatoire de 24 heures.*Pour installer du logiciel sur un apparail qui vous appartient.*
+  Neuf étapes. Une période de réflexion obligatoire de 24 heures. *Pour installer du logiciel sur un appareil qui vous appartient.*
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 flow_detail: >-
   Pire encore : ce flux passe entièrement par les services **Google Play**, et non par le système d’exploitation Android. Google peut le modifier, le restreindre ou le supprimer à tout moment, sans mise à jour du système d’exploitation ni consentement requis. À ce jour, il n’est intégré à aucune version bêta, préversion ou version Canary. Il n’existe pour l’instant que sous forme d’article de blog et de quelques maquettes.
@@ -208,7 +208,7 @@ obj_cost_a: >-
 act_everyone_heading: "Tout le monde"
 # [en] act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
 act_fdroid: >-
-  **[Installez F-Droid](https://f-droid.org)** sur chaque apparail Android que vous possédez. Les magasins alternatifs ne survivent que si les gens les utilisent.
+  **[Installez F-Droid](https://f-droid.org)** sur chaque appareil Android que vous possédez. Les magasins alternatifs ne survivent que si les gens les utilisent.
 # [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
 act_regulators: >-
   **[Contactez vos organismes de régulation.](/cta/#consumers)** Les organismes de réglementation du monde entier sont véritablement préoccupés par les monopoles et la centralisation du pouvoir dans le secteur technologique, et souhaitent entendre directement les personnes concernées.
@@ -225,7 +225,7 @@ act_petition: >-
 act_letter: "**[Lisez and partagez notre lettre ouverte](/open-letter)**"
 # [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
 act_survey: >-
-  **Dites à Google ce que vous pensez de cela** par leur propre[sondage sur la vérification des développeurs](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(pour tout le bien que cela fera)</small>.
+  **Dites à Google ce que vous pensez de cela** par leur propre [sondage sur la vérification des développeurs](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(pour tout le bien que cela fera)</small>.
 # [en] act_dev_heading: "Developers"
 act_dev_heading: "Développeurs"
 # [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
