@@ -137,14 +137,14 @@ footer_add_banner: "הוספת באנר ספירה לאחור"
 # Meta
 
 # Hero
-# hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-# hero_kicker: "Every app and every device, worldwide, with no opt-out."
+hero_sub: "החל מספטמבר 2026, עדכון שקט, ש־Google תדחוף מבלי הסכמתך, **יחסום כל יישום לאנדרואיד** שהמפתחים שלו לא נרשמו אצל Google, חתמו על החוזה שלהם, שילמו, ומסרו להם את תעודת הזהות שלהם שהונפקה במשרדים הממשלתיים."
+hero_kicker: "כל היישומים בכל המכשירים, בכל רחבי העולם, מבלי אפשרות לבטל את החסימה."
 
 # What Google is doing
 # what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
-# what_req_signing: "Providing evidence of your private signing key"
+what_req_signing: "סיפוק הוכחה לבעלותך על מפתח החתימה הפרטי שלך"
 # what_req_appids: "Listing all current and all future application identifiers"
-# what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+what_pullquote: "אם מפתח מסוים לא נענה להנחיות, היישומים שלו ייחסמו בחשאי בכל מכשירי האנדרואיד בכל רחבי העולם."
 
 # Who this hurts
 # impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
@@ -159,7 +159,7 @@ footer_add_banner: "הוספת באנר ספירה לאחור"
 # flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
 # flow_step2: "Tap the build number **seven times** to enable Developer Mode"
 # flow_step3: "Dismiss scare screens about coercion"
-# flow_step4: "Enter your PIN"
+flow_step4: "הקלדת קוד האימות האישי"
 # flow_step7: "Come back, dismiss more scare screens"
 # flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
 # flow_step9: "Confirm, again, that you understand \"the risks\""
@@ -274,11 +274,11 @@ footer_add_banner: "הוספת באנר ספירה לאחור"
 # social_callout_facebook_10: "From students building their first apps to volunteers creating privacy tools, Google's mandatory registration policy will freeze out innovation. Help us keep Android open! {url}"
 
 # Social button labels
-# spread_label_x: "Post on X"
-# spread_label_mastodon: "Post on Mastodon"
-# spread_label_bluesky: "Post on Bluesky"
-# spread_label_linkedin: "LinkedIn"
-# spread_label_facebook: "Facebook"
+spread_label_x: "פרסום ב־X"
+spread_label_mastodon: "פרסום במסטודון"
+spread_label_bluesky: "פרסום ב־Bluesky"
+spread_label_linkedin: "LinkedIn"
+spread_label_facebook: "פייסבוק"
 
 # Footer
 # footer_take_action: "Take action & resources"
