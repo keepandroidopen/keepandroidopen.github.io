@@ -1,5 +1,5 @@
 ---
-title: "Keep Android Open"
+title: "Keep OUR Android Open"
 lang: en
 description: "Advocating for Android as a free, open platform for everyone to build apps on."
 
