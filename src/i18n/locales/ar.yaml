@@ -34,7 +34,7 @@
 # [en] title: "Keep Android Open"
 title: "أبقِ أندرويد مفتوحًا"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "الدعوة إلى أندرويد كمنصة حرة و مفتوحة للجميع لبناء التطبيقات."
+description: "هاتقك سوف يتوقف عن كونه ملكك. في سبتمبر 2026 ,جوجل سوف تحجب أي تطبيق أندرويد من مطور غير مسجل عندهم."
 # [en] contact_header: "Contact"
 contact_header: "تواصل"
 # [en] contact_email: "Email"
@@ -51,7 +51,7 @@ site_privacy: "**الخصوصية:** هذا الموقع لا يستخدم مل�
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**حقوق النشر:** لا توجد. هذا العمل مصنّف كـ"
 # [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "اقرأ رسالتنا المفتوحة المعارضة لبرنامج التحقق من مطوري أندرويد"
+open_letter_cta: "اقرأ خطابنا المفتوح المعارض لبرنامج التحقق من مطوري أندرويد"
 
 #
 # ============================================================================
@@ -65,13 +65,13 @@ open_letter_cta: "اقرأ رسالتنا المفتوحة المعارضة لب
 
 # Hero
 # [en] hero_lede: "Your phone is about to stop being yours."
-hero_lede: "هاتفك لن يعود ملكاً لك."
+hero_lede: "هاتفك على وشك أن يكون ملكك."
 # [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "الأيام المتبقية للإيقاف"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-hero_sub: "اعتبارًا من سبتمبر 2026، ستقوم جوجل بتحديث صامت، يتم فرضه بدون موافقة، **بحظر كل تطبيقات أندرويد** التي لم يقم مطورها بالتسجيل لدى جوجل، توقيع العقد، الدفع، وتسليم بطاقة الهوية الحكومية."
+hero_sub: "بدءًا من سبتمبر 2026، ستقوم جوجل بواسطة تحديث صامت، مفروض بدون موافقة، **بحظر كل تطبيقات أندرويد** التي لم يقم مطوروها بالتسجيل لدى جوجل، توقيع العقد، الدفع، وتسليم بطاقة الهوية الحكومية."
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
-hero_kicker: "كل تطبيق وكل جهاز، في جميع أنحاء العالم، بدون خيار الانسحاب ورفض التحديث!"
+hero_kicker: "كل تطبيق وكل جهاز، في جميع أنحاء العالم، بدون خيار للانسحاب أو رفض التحديث!"
 
 # What Google is doing
 # [en] what_heading: "What Google is doing"
@@ -149,7 +149,7 @@ precedent_heading: "هذا أكبر من أندرويد"
 # [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
 precedent_pullquote: "إذا كان بإمكان جوجل أن تغلق بأثر رجعي مليارات الأجهزة التي تم بيعها كمنصات مفتوحة، فإن كل مصنع للأجهزة على الكوكب يراقب."
 # [en] precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
-precedent_p1: "المبدأ الذي يتم إرساؤه: **الشركة التي صنعت جهازك هي التي تقرر، بعد أن تشتريه، أي البرامج مسموح لك بتشغيلها.** في عالم البرمجيات، يُسمى هذا \"سحب البساط\"؛ لكن على الأقل كان بإمكانك دائمًا تثبيت برامج منافسة. أما في عالم الأجهزة، فهو *أمر واقع* يجردك من قدرتك ويجعلك تنخضع لأهواء وصيّ واحد غير مسؤول واحتكاري مُدان."
+precedent_p1: "المبدأ الذي يتم إرساؤه: **الشركة التي صنعت جهازك هي التي تقرر، بعد أن تشتريه، البرامج التي يسمح لك بتشغيلها.** في عالم البرمجيات، يُسمى هذا \"سحب البساط\"؛ لكن على الأقل كان بإمكانك دائمًا تثبيت برامج منافسة. أما في عالم الأجهزة، فهو *أمر واقع* يجردك من قدرتك ويجعلك تنخضع لأهواء وصيّ واحد غير مسؤول واحتكاري مُدان."
 # [en] precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
 precedent_p2: "انفتاح أندرويد لم يكن يومًا مجرد ميزة. لقد كان *الوعد* الذي ميّزه عن الآيفون. اختار الملايين أندرويد لهذا السبب بالذات. جوجل الآن تلغي هذا الوعد من جانب واحد، على الأجهزة *التي هي بالفعل* في جيوب الناس، لأنهم قرروا أن لديهم سيطرة كافية على السوق وتأثيرًا تنظيميًا يسمح لهم بالقيام بذلك."
 # [en] precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Google's Apple envy threatens to dismantle Android's open legacy.\"*"
