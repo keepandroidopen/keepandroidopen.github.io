@@ -65,7 +65,7 @@ open_letter_cta: "اقرأ خطابنا المفتوح المعارض لبرنا
 
 # Hero
 # [en] hero_lede: "Your phone is about to stop being yours."
-hero_lede: "هاتفك على وشك أن يكون ملكك."
+hero_lede: "هاتفك على وشك أن يتوقف عن كونه ملكك."
 # [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "الأيام المتبقية للإيقاف"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
