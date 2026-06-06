@@ -4,7 +4,7 @@ heading:
   en: "Contact These Consumer/Digital Rights Groups"
   ru: "Свяжитесь с этими группами по защите прав потребителей и цифровых прав"
   cs: "Kontaktujte tyto skupiny na podporu spotřebitelských/digitálních práv"
-  de: "Kontaktieren Sie diese Verbraucher- und Digitalrechtsorganisationen"
+  de: "Kontaktiere diese Verbraucher- und Digitalrechtsorganisationen"
   da: "Kontakt disse forbruger- og digitalrettighedsorganisationer"
   nl: "Neem contact op met deze consumenten- en digitale rechtenorganisaties"
   el: "Επικοινωνήστε Με Αυτές Τις Ομάδες Καταναλωτικών/Ψηφιακών Δικαιωμάτων"
@@ -51,6 +51,22 @@ items:
   - text: "IT-Political Association of Denmark"
     url: "https://www.itpol.dk/"
   - text:
+      de: "Digitalcourage e.V.(Deutschland)"
+      en: "Digitalcourage e.V. (Germany)"
+    url:
+      de: "https://digitalcourage.de/"
+      en: "https://digitalcourage.de/en"
+  - text: 
+      de: "Chaos Computer Club e.V.(Deutschland)"
+      en: "Chaos Computer Club e.V. (Germany)"
+    url:
+      de: "https://www.ccc.de/"
+      en: "https://www.ccc.de/en/"
+  - text: "Save Social – Networks For Democracy (Germnany)"
+    url:
+      de: "https://savesocial.eu/"
+      en: "https://savesocial.eu/en/"
+  - text:
       en: "Korea Consumer Agency"
       ko: "한국소비자원 (KCA)"
       pl: "Koreańska Agencja Konsumencka (KCA)"
@@ -71,3 +87,9 @@ items:
       pl: "Chińskie Stowarzyszenie Konsumentów (strona dostępna wyłącznie z terenu Chin kontynentalnych)"
       zh-CN: "中国消费者协会"
     url: "https://www.cca.org.cn/"
+  - text:
+      en: "Federation of German Consumer Organisations (Verbraucherzentrale Bundesverband e.V.) (Germany)"
+      de: "Verbraucherzentrale Bundesverband e.V. (Deutschland)"
+    url: 
+      de: "https://www.vzbv.de/"
+      en: "https://www.vzbv.de/en"
