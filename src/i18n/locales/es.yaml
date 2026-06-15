@@ -60,7 +60,7 @@ hero_lede: "Tu teléfono está a punto de dejar de ser tuyo."
 hero_countdown_label: "días hasta el apagón"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  Comenzando en septiembre de 2026, una actualización silenciosa, no concensuada, pusheada por Google, **bloqueará cada app de Android** cuyo desarrollador no se haya registrado en Google, firmado su contrato, pagado su cuota y entregado un documento de identidad nacional.
+  Comenzando en septiembre de 2026, una actualización silenciosa, no consensuada, pusheada por Google, **bloqueará cada app de Android** cuyo desarrollador no se haya registrado en Google, firmado su contrato, pagado su cuota y entregado un documento de identidad nacional.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Cada app y cada dispositivo, mundialmente, sin excepción."
 # [en] what_heading: "What Google is doing"
@@ -109,7 +109,7 @@ impact_gov_p2: "La [EFF califica](https://www.eff.org/deeplinks/2025/11/applicat
 # [en] flow_heading: "Google's \"escape hatch\" is a trap door"
 flow_heading: "La \"vía de escape\" de Google es una puerta trampa"
 # [en] flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
-flow_intro: "Google dice que los \"usuarios avanzados\" pueden [\"seguir instalando\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) Aplicaciones no verificadas. Esto es lo que en *realidad* parece:"
+flow_intro: "Google dice que los \"usuarios avanzados\" pueden [\"seguir instalando\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) Aplicaciones no verificadas. Así es cómo se ve *en realidad*:"
 # [en] flow_step1: "Delve into System Settings, find Developer Options"
 flow_step1: "Accede a los Ajustes del Sistema y busca las Opciones de Desarrollador"
 # [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
