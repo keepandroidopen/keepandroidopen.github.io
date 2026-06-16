@@ -50,7 +50,7 @@ site_disclaimer: >-
 site_privacy: >-
   **Prywatność:** Ta strona nie używa plików cookie i nie prowadzi żadnego śledzenia ani logowania użytkowników.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
-site_copyright: "**Prawa autorskie:** Brak. To dzieło jest oznaczone"
+site_copyright: "**Prawa autorskie:** Brak zastrzeżonych praw. To dzieło zostało oznaczone jako"
 # [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Przeczytaj nasz list otwarty przeciwko programowi weryfikacji deweloperów Androida"
 
@@ -68,13 +68,13 @@ open_letter_cta: "Przeczytaj nasz list otwarty przeciwko programowi weryfikacji 
 # Hero
 # hero_lede: "Your phone is about to stop being yours."
 # [en] hero_lede: "Your phone is about to stop being yours."
-hero_lede: "Twój telefon przestanie być twój."
+hero_lede: "Twój telefon wkrótce przestanie być twój."
 # hero_countdown_label: "days until lockdown"
 # [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "dni do zamknięcia systemu"
 # hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-hero_sub: "Zaczynając od początku września 2026, cicha aktualizacja wymuszona przez Google, **zablokuje każdą aplikację na Androida** której programiści nie zarejestrowali się w Google, podpisali kontraktu, zapłacili i przakazał danych z dowodu tożsamości."
+hero_sub: "Z początkiem września 2026 roku, cicha aktualizacja wymuszona przez Google bez zgody użytkowników, **zablokuje każdą aplikację na Androida** której twórca nie zarejestrował się w Google, nie podpisał umowy, nie zapłacił i nie przakazał danych z dowodu tożsamości."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez możliwości rezygnacji."
@@ -84,7 +84,7 @@ hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez moż
 what_heading: "Co Google planuje"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
-  W sierpniu 2025 roku, Google [ogłosiło](https://developer.android.com/developer-verification) nowy wymóg: wraz z początkiem września 2026 roku **każdy programista aplikacji na Androida musi się zarejestrować w centralnym systemie Google** zanim ich aplikacja będzie mogła być zainstalowana na jakimkolwiek urządzeniu. Dotyczy to *wszystkich* aplikacji, nie tylko tych ze Sklepu Play. Aplikacje udostępniane miedzy przyjaciółmi, dystrybuowane przez F-Droida, stworzone przez hobbystów na użytek prywatny. Niezależni programiści, kościoły i grupy społecznościowe, a także hobbyści - wszyscy zostaną pozbawieni możliwości tworzenia i dystrybucji swojego oprogramowania.
+  W sierpniu 2025 roku, Google [ogłosiło](https://developer.android.com/developer-verification) nowy wymóg: wraz z początkiem września 2026 roku **każdy programista aplikacji na Androida musi się zarejestrować w centralnym systemie Google** zanim jego aplikacja będzie mogła zostać zainstalowana na jakimkolwiek urządzeniu. Dotyczy to *wszystkich* aplikacji, nie tylko tych ze Sklepu Play. Aplikacje udostępniane miedzy przyjaciółmi, dystrybuowane przez F-Droida, stworzone przez hobbystów na użytek prywatny. Niezależni programiści, organizacje kościelne i społeczne, a także hobbyści - wszyscy zostaną pozbawieni możliwości tworzenia i dystrybucji swojego oprogramowania.
 # [en] what_registration: "Registration requires:"
 what_registration: "Rejestracja wymaga:"
 # [en] what_req_fee: "Paying a fee to Google"
@@ -99,7 +99,7 @@ what_req_signing: "Przedłożenie dowodu posiadania prywatnego klucza do podpisy
 what_req_appids: "Wymienienia wszystkich obecnych i przyszłych identyfikatorów aplikacji"
 # [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
 what_pullquote: >-
-  Jeśli programista się nie zgodzi, ich aplikacja zostanie po cichu zablokowana na każdym urządzeniu z systemem Android na świecie.
+  Jeśli programista się nie zgodzi, jego aplikacja zostanie po cichu zablokowana na każdym urządzeniu z systemem Android na świecie.
 
 # Who this hurts
 # [en] impact_heading: "Who this hurts"
@@ -108,7 +108,7 @@ impact_heading: "Komu to zaszkodzi"
 impact_you_heading: "Tobie"
 # [en] impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
 impact_you_p1: >-
-  Twój telefon został zakupiony przez Ciebie, ponieważ Google powiedziało Ci, że jest otwarty. Można było zainstalować cokolwiek się zapragnęło i taka była umowa.
+  Telefon z Androidem wybierało się dlatego, że Google twierdziło, że to otwarty system. Można było instalować, co się chciało i taka była umowa.
 # [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
 impact_you_p2: >-
   Google teraz przepisuje tę umowę z mocą wsteczną (retroaktywnie) na każdym urządzeniu, które już posiadasz. Po zainstalowaniu aktualizacji, będzie można uruchomić tylko te aplikacje, które Google uwcześnie zatwierdziło. Na Twoim telefonie: *Twojej* własności, zakupionej przez Ciebie.
@@ -116,7 +116,7 @@ impact_you_p2: >-
 impact_dev_heading: "Niezależnym programistom"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 impact_dev_p1: >-
-  Pierwsza aplikacja nastolatka, narzędzie do ochrony prywatności stworzone przez wolontariusza, poufna wewnętrzna beta danej firmy - nie ma to żadnego znaczenia. Wraz z początkiem września 2026 roku, żadna z nich nie będzie mogła być zainstalowana bez błogosławieństwa firmy Google.
+  Pierwsza aplikacja nastolatka, narzędzie do ochrony prywatności stworzone przez wolontariusza, poufna wewnętrzna beta danej firmy - nie ma to żadnego znaczenia. Wraz z początkiem września 2026 roku, żadna z nich nie będzie mogła zostać zainstalowana bez błogosławieństwa firmy Google.
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), dom dla tysiąca darmowych i otwartoźródłowych aplikacji, nazwał to ["egzystencjonalnym" zagrożeniem](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow nazywa to ["Darth Androidem"](https://pluralistic.net/2025/09/01/fulu/).
@@ -140,7 +140,7 @@ flow_step1: "Przejdź do ustawień systemu i znajdź Opcje Programisty"
 # [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
 flow_step2: "Kliknij numer wersji **siedem razy** by włączyć Tryb Programisty"
 # [en] flow_step3: "Dismiss scare screens about coercion"
-flow_step3: "Zignoruj straszne komunikaty o tym, że ktoś cię zmusza do tego"
+flow_step3: "Pomiń odstraszające komunikaty sugerujące, że ktoś Cię do tego zmusza"
 # [en] flow_step4: "Enter your PIN"
 flow_step4: "Wprowadź kod PIN"
 # [en] flow_step5: "Restart the device"
@@ -148,29 +148,29 @@ flow_step5: "Uruchom ponownie urządzenie"
 # [en] flow_step6: "**Wait 24 hours**"
 flow_step6: "**Poczekaj 24 godziny**"
 # [en] flow_step7: "Come back, dismiss more scare screens"
-flow_step7: "Wróć i zignoruj kolejne straszne okienka ostrzegawcze"
+flow_step7: "Wróć i zamknij kolejne odstraszające ekrany"
 # [en] flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
 flow_step8: "Wybierz \"zezwól tymczasowo\" (7 dni) albo \"zezwól na czas nieokreślony\""
 # [en] flow_step9: "Confirm, again, that you understand \"the risks\""
 flow_step9: "Potwierdź, znowu, że rozumiesz \"zagrożenia\""
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
-flow_summary: "Dziewięć kroków. Obowiązkowy 24-godzinny okres oczekiwania. *Żeby móc zainstalować oprogramowanie na urządzeniu, które posiadasz.*"
+flow_summary: "Dziewięć kroków. Obowiązkowy 24-godzinny okres oczekiwania. *Żeby móc zainstalować oprogramowanie na urządzeniu, którego jesteś właścicielem.*"
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 flow_detail: >-
-  Co gorsza: cały ten proces odbywa się poprzez **Usługi Google Play**, a nie przez system Android. Google może to zmienić, zaostrzyć lub wyłączyć w każdym momencie, bez jakiejkolwiek zgody czy konieczności aktualizacji systemu operacyjnego. Na dzień dzisiejszy, program nie pojawił się jeszcze w żadnej wersji beta, podglądowej ani eksperymentalnej. Istnieje jedynie jako wpis na blogu i kilka makiet.
+  Co gorsza: cały ten proces odbywa się w całości przez **Usługi Google Play**, a nie przez system Android. Google może go zmienić, zaostrzyć jego zasady albo całkowicie wyłączyć w dowolnym momencie, bez jakiejkolwiek zgody czy konieczności aktualizacji systemu operacyjnego. Na dzień dzisiejszy, program nie trafił jeszcze do żadnej wersji beta, podglądowej ani eksperymentalnej. Istnieje jedynie jako wpis na blogu i kilka makiet.
 
 # Precedent
 # [en] precedent_heading: "This is bigger than Android"
 precedent_heading: "To jest coś większego niż tylko Android"
 # [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
 precedent_pullquote: >-
-  Jeśli Google może z mocą wsteczną zablokować miliardy urządzeń, które zostały sprzedane jako otwarte platformy, wszyscy producenci na świecie bacznie to obserwują
+  Jeśli Google może z mocą wsteczną zablokować miliardy urządzeń, które zostały sprzedane jako otwarte platformy, każdy producent sprzętu na świecie uważnie to obserwuje.
 # [en] precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
 precedent_p1: >-
   Przyjęta została zasada: **to producent decyduje po zakupie, jakie oprogramowanie możesz uruchomić na urządzeniu.** W świecie oprogramowania, nazywane jest to "rug pull" (dosłownie: wyciąganie spod kogoś dywanu), ale zawsze można było zainstalować konkurencyjne oprogramowanie. W przypadku sprzętu jest to *fakt dokonany*, który pozbawia Cię możliwości wyboru i sprawia, że nie masz wpływu na kaprysy pojedynczego, nieodpowiadającego przed nikim strażnika dostępu i skazanego monopolisty. 
 # [en] precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
 precedent_p2: >-
-  Otwartość Androida nigdy nie była tylko cechą. Była *obietnicą*, która odróżniała go od iPhone'a. Miliony wybrały Androida specyficznie z tego powodu. Google teraz jednostronnie wycofuje się z tej obietnicy w odniesieniu do urządzeń, które *już są* w kieszeniach użytkowników, ponieważ uznali, że mają wystarczającą dominację rynkową i wpływ na organy regulacyjne, aby uszło to im na sucho.
+  Otwartość Androida nigdy nie była tylko cechą. Była *obietnicą*, która odróżniała go od iPhone'a. Miliony wybrały Androida dokładnie z tego powodu. Google teraz jednostronnie wycofuje się z tej obietnicy w odniesieniu do urządzeń, które *już są* w kieszeniach użytkowników, ponieważ uznali, że mają wystarczającą dominację rynkową i wpływ na organy regulacyjne, aby uszło im to na sucho.
 # [en] precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Google's Apple envy threatens to dismantle Android's open legacy.\"*"
 precedent_arstechnica: >-
   [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *"Zazdrość Google'a wobec Apple'a grozi zniszczeniem tradycji otwartości Androida."*
@@ -187,22 +187,22 @@ obj_security_a: >-
 obj_sideloading_q: "\"...jest to wciąż instalacja z innego źródła?\""
 # [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
 obj_sideloading_a: >-
-  Dziewięć kroków, 24-godzinny okres oczekiwania, ukryte w Opcjach Programisty, dostarczone przez własnościową usługę, przez którą Google może wycofać dostęp kiedykolwiek będzie chciało. To nie jest instalacja z innego źródła. To jest **mechanizm odstraszający** stworzony, aby się upewnić, że prawie nikt go nie ukończy. Dzięki temu, że działa on poprzez Usługi Google Play a nie system operacyjny, Google może zaostrzyć go albo po cichu wyłączyć.
+  Dziewięć kroków, 24-godzinny okres oczekiwania, ukryte w Opcjach Programisty, dostarczone przez własnościową usługę, przez którą Google może wycofać dostęp kiedykolwiek będzie chciało. To nie jest instalacja z innego źródła. To jest **mechanizm odstraszający** stworzony, aby upewnić się, że prawie nikt go nie ukończy. Dzięki temu, że działa on poprzez Usługi Google Play a nie system operacyjny, Google może go zaostrzyć albo po cichu wyłączyć.
 # [en] obj_hide_q: "\"...only a problem if you have something to hide?\""
 obj_hide_q: "\"...jest to tylko problemem jeśli masz coś do ukrycia?\""
 # [en] obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
 obj_hide_a: >-
-  Pierwszymi ofiarami będą sygnaliści, dziennikarze i aktywiści działający w krajach rządzących przez reżimy autorytarne. Kolejną grupą będą osoby doświadczające przemocy domowej. Wszystkie te grupy mają uzasadnione powody, aby rozpowszechniać lub korzystać z oprogramowania bez przekazywania swojej tożsamości do baz danych Google'a. Anonimowy wkład w rozwój oprogramowania otwartoźródłowego jest tradycją starszą niż sama firma Google. Niniejsza polityka położy kres jej kres na Androidzie. 
+  Pierwszymi ofiarami będą sygnaliści, dziennikarze i aktywiści działający w krajach rządzonch przez reżimy autorytarne. Kolejną grupą będą osoby doświadczające przemocy domowej. Wszystkie te grupy mają uzasadnione powody, aby rozpowszechniać lub korzystać z oprogramowania bez przekazywania swojej tożsamości do baz danych Google'a. Anonimowy wkład w rozwój oprogramowania otwartoźródłowego to tradycja starsza niż samo Google. Niniejsza polityka położy jej kres na Androidzie. 
 # [en] obj_apple_q: "\"...the same thing Apple does?\""
 obj_apple_q: "\"...jest to przypadkiem to samo co robi Apple?\""
 # [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
 obj_apple_a: >-
-  Apple od samego początku funkcjonowało jako zamknięty ekosystem. Ludzie wybierali Androida *właśnie dlatego, że był inny*. Apple od samego początku funkcjonowało jako zamknięty ekosystem. Ludzie wybierali Androida *właśnie dlatego, że był inny*. Twierdzenie \„Apple też tak robi\” to wyścig ku upadkowi i słaby argument typu *tu quoque* (tj. "oni też"). A pod wpływem presji regulatorów (Akt o rynkach cyfrowych) nawet Apple zostało zmuszone do otwarcia się. Natomiast Google podąża w przeciwnym kierunku: próbuje jeszcze bardziej umocnić swoją pozycję kontrolną.
+  Apple od samego początku funkcjonowało jako zamknięty ekosystem. Ludzie wybierali Androida *właśnie dlatego, że był inny*. Twierdzenie „Apple też tak robi” to wyścig ku upadkowi i słaby argument typu *tu quoque* (tj. "oni też"). A pod wpływem presji regulatorów (Akt o rynkach cyfrowych) nawet Apple zostało zmuszone do otwarcia się. Natomiast Google podąża w przeciwnym kierunku: próbuje jeszcze bardziej umocnić swoją pozycję kontrolną.
 # [en] obj_cost_q: "\"...just $25 and some paperwork?\""
-obj_cost_q: "\"...jest to po prostu 25 dolarów amerykańskich i jakaś papierologia?\""
+obj_cost_q: "\"...jest to po prostu 25 dolarów i jakaś papierologia?\""
 # [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
 obj_cost_a: >-
-  Może jeśli jesteś programistą w Stanach Zjednoczonych z kartą kredytową i prawem jazdy. Spróbuj jednak postawić się w sytuacji studenta z Afryki Subsaharyjskiej , dysydenta z Birmy lub wolontariusza utrzymującego aplikację służącą lokalnej społeczności. Koszt nie jest tylko finansowy: oddajesz rządowy dowód tożsamości i dowody posiadania kluczy podpisujących firmie, która [rutynowo stosuje się](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) do żądań od rządów dotyczących usuwania aplikacji i ujawniania tożsamości programistów.
+  Może jeśli jesteś programistą w Stanach Zjednoczonych z kartą kredytową i prawem jazdy. Spróbuj jednak postawić się w sytuacji studenta z Afryki Subsaharyjskiej, dysydenta z Birmy lub wolontariusza utrzymującego aplikację służącą lokalnej społeczności. Koszt nie jest tylko finansowy: oddajesz rządowy dowód tożsamości i dowody posiadania kluczy podpisujących firmie, która [rutynowo stosuje się](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) do żądań od rządów dotyczących usuwania aplikacji i ujawniania tożsamości programistów.
 
 # Fight back
 # [en] act_heading: "Fight back"
@@ -214,10 +214,10 @@ act_fdroid: >-
   **[Zainstaluj F-Droida](https://f-droid.org)** na każdym urządzeniu jakie posiadasz z systemem Android. Alternatywne sklepy mogą przetrwać tylko, jeśli ludzie będą z nich korzystali.
 # [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
 act_regulators: >-
-  "**[Skontaktuj się z organami regulacyjnymi.](/cta/#consumers)** Organy regulacyjne na całym świecie są naprawdę zaniepokojone monopolem i centralizacją władzy w sektorze technologicznym i chcą poznać opinie bezpośrednio od osób, których ta sytuacja dotyczy i które są nią zaniepokojone.
+  **[Skontaktuj się z organami regulacyjnymi.](/cta/#consumers)** Organy regulacyjne na całym świecie są naprawdę zaniepokojone monopolem i centralizacją władzy w sektorze technologicznym i chcą poznać opinie bezpośrednio od osób, których ta sytuacja dotyczy i które są nią zaniepokojone.
 # [en] act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
 act_share: >-
-  **Udostępnij tą stronę.** Wstaw wszędzie, gdzie możesz link do [keepandroidopen.org](https://keepandroidopen.org).
+  **Udostępnij tę stronę.** Wstaw wszędzie, gdzie możesz link do [keepandroidopen.org](https://keepandroidopen.org).
 # [en] act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
 act_astroturf: >-
   **Nie daj się zmanipulować fałszywym aktywistom.** Grupy typu "tak właściwie to..." są teraz bardzo aktywne. Nie pozwól im dyktować tonu dyskusji.
@@ -228,12 +228,12 @@ act_petition: >-
 act_letter: "**[Przeczytaj i udostępnij nasz list otwarty](/open-letter)**"
 # [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
 act_survey: >-
-  **Powiedz Google'owi, co o tym myślisz** przez ich własną [ankietę o weryfikacji programistów](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(choć nie wiadomo czy to cokolwiek da)</small>."
+  **Powiedz Google'owi, co o tym myślisz** przez ich własną [ankietę o weryfikacji programistów](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(choć nie wiadomo, czy to cokolwiek da)</small>.
 # [en] act_dev_heading: "Developers"
 act_dev_heading: "Programiści"
 # [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
 act_dev_intro: >-
-  <strong style="text-transform: uppercase;">Nie podpisuj.</strong> Nie dołączaj do programu, rejestrując się w Android Developer Console i akceptując ich nieodwołalne Warunki korzystania z usługi. Nie potwierdzaj swojej tożsamości. Nie wchodź w to.
+  <strong style="text-transform: uppercase;">Nie rejestruj się.</strong> Nie dołączaj do programu, rejestrując się w Android Developer Console i akceptując ich nieodwołalne Warunki korzystania z usługi. Nie potwierdzaj swojej tożsamości. Nie wchodź w to.
 # [en] act_dev_resist: "Google's plan only works if developers comply. Don't."
 act_dev_resist: "Plan Google'a zadziała tylko jeśli programiści się do niego zastosują. Nie rób tego."
 # [en] act_dev_talk: "Talk other developers and organizations out of signing up."
@@ -256,11 +256,11 @@ voices_press: "Prasa techniczna"
 # [en] voices_editorials: "Editorials & analysis"
 voices_editorials: "Artykuły redakcyjne i analizy"
 # [en] voices_orgs: "Organizations & open letters"
-voices_orgs: "Organizacje & otwarte listy"
+voices_orgs: "Organizacje i listy otwarte"
 # [en] voices_creators: "YouTubers & creators"
-voices_creators: "YouTuberzy & twórcy"
+voices_creators: "YouTuberzy i twórcy"
 # [en] voices_community: "Developers & community"
-voices_community: "Programiści & społeczność"
+voices_community: "Programiści i społeczność"
 # [en] voices_petition: "Voices from the petition"
 voices_petition: "Głosy z petycji"
 # [en] voices_more: "All references, editorials, press coverage, and videos"
@@ -270,7 +270,7 @@ voices_more: "Wszystkie źródła, artykuły, prasa i filmy"
 # [en] signatories_heading: "All those opposed…"
 signatories_heading: "Wszyscy, którzy są przeciwni..."
 # [en] signatories_count: "{count} organizations from {countries} countries have signed the"
-signatories_count: "{count} oragnizacji z {countries} krajów podpisało"
+signatories_count: "{count} organizacji z {countries} krajów podpisało"
 # [en] signatories_open_letter_link: "open letter"
 signatories_open_letter_link: "list otwarty"
 # [en] signatories_more: "Read the full open letter and thank the signatories"
@@ -288,9 +288,9 @@ cta_letter_desc: "Przeczytaj list otwarty podpisany przez organizacje sprzeciwia
 
 # Closing
 # [en] closing_line1: "You bought your phone."
-closing_line1: "Twój telefon został zakupiony przez Ciebie."
+closing_line1: "Ten telefon jest Twój."
 # [en] closing_line2: "You should decide what runs on it."
-closing_line2: "Ty decydujesz, co na nim uruchamiasz.."
+closing_line2: "To Ty decydujesz, co na nim uruchamiasz."
 # [en] closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 closing_detail: "Nie powinno to wymagać dziewięciostopniowej procedury, 24-godzinnego oczekiwania ani ciągłej zgody Google."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
@@ -301,7 +301,7 @@ closing_share_heading: "Przekaż to dalej"
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_1: >-
-  Od września 2026 r. Google zablokuje aplikacje na Androida, których twórcy nie zarejestrowali się ani nie podali dokumentu. Dotyczy wszystkich urządzeń Android. Więcej: {url} @AlteredDeal #KeepAndroidOpen
+  Od września 2026 r. Google zablokuje aplikacje na Androida, których twórcy nie zarejestrowali się ani nie przedstawili dokumentu tożsamości. Dotyczy to każdego urządzenia z Androidem. Więcej: {url} @AlteredDeal #KeepAndroidOpen
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_2: >-
   Google: twórcy aplikacji Android muszą się zarejestrować, uiścić opłatę i pokazać dokument, inaczej ich aplikacje zostaną zablokowane. Ponad 67 organizacji się sprzeciwia. {url} @AlteredDeal #KeepAndroidOpen
@@ -319,7 +319,7 @@ social_callout_x_6: >-
   Android przedstawiano jako otwartą platformę. Teraz Google żąda, by każdy programista rejestrował się i podawał dane, by można było zainstalować jego aplikacje. Nie pozwólmy oszukać 3 mld użytkowników. {url} @AlteredDeal #KeepAndroidOpen
 # [en] social_callout_x_7: "If you bought your phone, you should own it. Google's new 'developer verification' means they decide what software you're allowed to run on your own property. Join the 100k+ signers opposing this: {url} #KeepAndroidOpen"
 social_callout_x_7: >-
-  Jeśli kupiłeś telefon, powinien należeć do Ciebie. 'Weryfikacja programistów' Google'a znaczy, że to oni decydują, jakie oprogramowanie możesz uruchamiać. Dołącz do 100k+ osób przeciwko temu: {url} #KeepAndroidOpen
+  Jeśli kupiłeś telefon, powinien należeć do Ciebie. 'Weryfikacja programistów' Google'a znaczy, że to oni decydują, jakie oprogramowanie możesz uruchamiać. Dołącz do ponad 100 tys. osób przeciwko temu: {url} #KeepAndroidOpen
 # [en] social_callout_x_8: "Google is turning Android into a walled garden. Mandatory ID, registration fees, and a 9-step 'advanced flow' for sideloading? That's not security, it's a monopoly move. {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_8: >-
   Google zamienia Androida w zamknięty ekosystem. Obowiązkowa identyfikacja, opłaty i 9-stopniowa 'zaawansowana procedura' dla aplikacji z innych źródeł? To nie bezpieczeństwo, to monopol. {url} @AlteredDeal #KeepAndroidOpen
@@ -358,19 +358,19 @@ social_callout_linkedin_9: >-
   F-Droid i EFF podniosły alarm: program weryfikacji programistów od Google'a stanowi 'egzystencjalne zagrożenie' dla alternatywnych kanałów dystrybucji aplikacji. Musimy chronić ekosystem oprogramowania open source, na którym opiera się system Android. {url} #KeepAndroidOpen
 # [en] social_callout_linkedin_10: "As Google moves to further entrench its gatekeeping status, the community is pushing back. Your device should be your property, not a leased terminal subject to retroactive restrictions. Join the movement: {url} #KeepAndroidOpen"
 social_callout_linkedin_10: >-
-  W trakcie gdy Google stara się jeszcze bardziej umocnić swoją pozycję kontrolną, społeczność podejmuje działania w odpowiedzi. Twoje urządzenie powinno być Twoją własnością, a nie wynajmowanym terminalem podlegającym ograniczeniom wprowadzanym z mocą wsteczną. Dołącz do ruchu: {url} #KeepAndroidOpen
+  W czasie gdy Google próbuje jeszcze bardziej umocnić swoją pozycję kontrolną, społeczność podejmuje działania w odpowiedzi. Twoje urządzenie powinno być Twoją własnością, a nie dzierżawionym terminalem podlegającym ograniczeniom wprowadzanym z mocą wsteczną. Dołącz do ruchu: {url} #KeepAndroidOpen
 # [en] social_callout_bluesky_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects all apps, not just Play Store apps. F-Droid calls it an \"existential threat.\" @keepandroidopen.bsky.social #KeepAndroidOpen {url}"
 social_callout_bluesky_1: >-
-  Od września 2026 r. Google zablokuje aplikacje Android, których twórcy nie zarejestrowali się ani nie przedstawili dokumentu. Dotyczy wszystkich aplikacji, nie tylko Sklepu Play. F-Droid: 'egzystencjalne zagrożenie'. @keepandroidopen.bsky.social #KeepAndroidOpen {url}
+  Od września 2026 r. Google zablokuje aplikacje na Androida, których twórcy nie zarejestrowali się i nie przedstawili dokumentu. Dotyczy wszystkich aplikacji, nie tylko Sklepu Play. F-Droid: 'egzystencjalne zagrożenie'. @keepandroidopen.bsky.social #KeepAndroidOpen {url}
 # [en] social_callout_bluesky_2: "Google is requiring all Android developers to register centrally, pay a fee, and submit government ID. Apps from unregistered developers will be silently blocked. over 67 organizations oppose this. @keepandroidopen.bsky.social {url}"
 social_callout_bluesky_2: >-
-  Google wymaga od twórców aplikacji Android rejestracji, opłaty i dokumentu tożsamości. Aplikacje niezarejestrowanych będą po cichu blokowane. Ponad 67 organizacji się sprzeciwia. @keepandroidopen.bsky.social {url}
+  Google wymaga od twórców aplikacji Android rejestracji, opłaty i dokumentu tożsamości. Aplikacje niezarejestrowanych będą po cichu blokowane. Ponad 67 organizacji wyraża sprzeciw. @keepandroidopen.bsky.social {url}
 # [en] social_callout_bluesky_3: "After 17 years of marketing Android as an open platform, Google is mandating developer registration for all apps. Independent developers, open-source contributors, and alternative stores like F-Droid face an uncertain future. @keepandroidopen.bsky.social {url}"
 social_callout_bluesky_3: >-
   Po 17 latach Androida jako otwartej platformy, Google wprowadza obowiązkową rejestrację deweloperów. Niezależnych deweloperów, otwartoźródłowych twórców oraz sklepy jak F-Droid czeka niepewna przyszłość. @keepandroidopen.bsky.social {url}
 # [en] social_callout_bluesky_4: "Google's proposed workaround for installing unverified apps: 9 steps, a 24-hour wait, delivered through Play Services (which Google can change at any time without consent). It exists only as a blog post. @keepandroidopen.bsky.social #KeepAndroidOpen {url}"
 social_callout_bluesky_4: >-
-  Obejście Google dla niezweryfikowanych aplikacji: 9 kroków, 24h oczekiwania, przez Usługi Google Play (Google może zmienić). Dostępne tylko jako wpis na blogu. @keepandroidopen.bsky.social #KeepAndroidOpen {url}
+  Obejście Google dla niezweryfikowanych aplikacji: 9 kroków, 24h oczekiwania, przez Usługi Google Play (Google może je zmienić). Istnieje tylko jako wpis na blogu. @keepandroidopen.bsky.social #KeepAndroidOpen {url}
 # [en] social_callout_bluesky_5: "The EFF warns that Google's developer verification creates \"a pathway to censorship.\" Developers in restrictive countries, anonymous open-source contributors, and privacy tool maintainers are among those most affected. @keepandroidopen.bsky.social {url}"
 social_callout_bluesky_5: >-
   EFF: weryfikacja programistów Google toruje »drogę do cenzury«. Najbardziej dotknięci to programiści z krajów restrykcyjnych, anonimowi twórcy open source i autorzy narzędzi prywatności. @keepandroidopen.bsky.social {url}
@@ -388,13 +388,13 @@ social_callout_bluesky_9: >-
   Instalowanie aplikacji z zewnętrznych źródeł nie powinno wiązać się z 24-godzinnym okresem oczekiwania i dziewięciostopniową procedurą. 'Zaawansowana procedura' Google’a jest skazana na porażkę. Niech Android pozostanie otwarty! @keepandroidopen.bsky.social {url}
 # [en] social_callout_bluesky_10: "From F-Droid to independent devs, the entire Android ecosystem is under threat from Google's new mandatory registration decree. See why 67+ orgs are saying no: {url}"
 social_callout_bluesky_10: >-
-  Od F-Droida po niezależnych programistów – cały ekosystem Androida jest zagrożony przez nowe rozporządzenie Google'a dotyczące obowiązkowej rejestracji. Dowiedz się, dlaczego ponad 67 organizacji sprzeciwia się temu: {url}
+  Od F-Droida po niezależnych programistów – cały ekosystem Androida jest zagrożony przez nowe zasady Google'a dotyczące obowiązkowej rejestracji. Dowiedz się, dlaczego ponad 67 organizacji sprzeciwia się temu: {url}
 # [en] social_callout_mastodon_1: "Starting September 2026, Google will require every Android app developer to register centrally, provide government ID, and submit signing keys. Apps from unregistered developers will be blocked on all certified devices worldwide. This threatens F-Droid, open-source distribution, and user autonomy. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
 social_callout_mastodon_1: >-
   Począwszy od września 2026 r. Google będzie wymagać od wszystkich twórców aplikacji na Androida rejestracji w centralnym systemie, przedstawienia dokumentu tożsamości oraz przekazania kluczy podpisujących. Aplikacje od niezarejestrowanych twórców będą blokowane na wszystkich certyfikowanych urządzeniach na całym świecie. Stanowi to zagrożenie dla F-Droida, dystrybucji otwartego oprogramowania oraz autonomii użytkowników. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
 # [en] social_callout_mastodon_2: "Google's Android Developer Verification program requires government ID, signing keys, and a fee for any developer who wants their software installable on Android. The EFF calls app gatekeeping \"a pathway to censorship.\" over 67 organizations have signed an open letter opposing it. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
 social_callout_mastodon_2: >-
-  Program weryfikacji programistów Androida od Google wymaga od każdego programisty dokumentu tożsamości, kluczy podpisujących i opłaty, by jego oprogramowanie można było zainstalować. EFF nazywa to 'drogą do cenzury'. Ponad 67 organizacji podpisało list otwarty przeciw. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
+  Program weryfikacji programistów Androida od Google wymaga od każdego programisty dokumentu tożsamości, kluczy podpisujących i opłaty, by jego oprogramowanie można było zainstalować. EFF nazywa to 'drogą do cenzury'. Ponad 67 organizacji podpisało list otwarty przeciwko tej polityce. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
 # [en] social_callout_mastodon_3: "F-Droid, home to thousands of free and open-source Android apps, calls Google's developer verification an \"existential threat.\" An estimated 85% of F-Droid apps could face distribution issues because their developers signed through F-Droid, not through Google. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
 social_callout_mastodon_3: >-
   F-Droid, platforma oferująca tysiące bezpłatnych aplikacji na Androida opartych na otwartym oprogramowaniu, określa proces weryfikacji deweloperów wprowadzony przez Google jako 'zagrożenie egzystencjalne'. Szacuje się, że 85% aplikacji dostępnych w F-Droidzie może napotkać problemy z dystrybucją, ponieważ ich twórcy zarejestrowali się za pośrednictwem F-Droida, a nie Google. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
@@ -473,7 +473,7 @@ spread_label_facebook: "Facebook"
 footer_get_involved: "Zaangażuj się"
 # footer_take_action: "Take action & resources"
 # [en] footer_take_action: "Take action & resources"
-footer_take_action: "Podejmij działanie oraz zasoby"
+footer_take_action: "Podejmij działanie i skorzystaj z materiałów"
 # footer_open_letter: "Open letter"
 # [en] footer_open_letter: "Open letter"
 footer_open_letter: "List otwarty"
