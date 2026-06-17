@@ -1,8 +1,8 @@
-title: "Giữ Android mở"
+title: "Giữ Android luôn là hệ điều hành mở"
 description: "Điện thoại của bạn sắp không còn thật sự là của bạn. Từ tháng 9 năm 2026, Google sẽ chặn mọi ứng dụng Android nếu nhà phát triển của ứng dụng đó chưa đăng ký với họ."
 
 contact_header: "Liên hệ"
-contact_email: "Email"
+contact_email: "Liên hệ Email"
 site_problems_header: "Sự cố"
 site_report_issues: "Báo lỗi trang web"
 site_disclaimer: >-
@@ -14,7 +14,7 @@ open_letter_cta: "Đọc thư ngỏ phản đối chương trình Xác minh nhà
 
 
 hero_lede: "Điện thoại của bạn sắp không còn thật sự là của bạn."
-hero_countdown_label: "ngày"
+hero_countdown_label: "ngày trước khi áp dụng lệnh đóng cửa"
 hero_sub: >-
   Từ tháng 9 năm 2026, một bản cập nhật âm thầm do Google triển khai, không cần sự đồng ý của người dùng, sẽ **chặn các ứng dụng Android** nếu nhà phát triển chưa đăng ký với Google, chưa ký điều khoản, chưa trả phí và chưa nộp giấy tờ tùy thân do nhà nước cấp.
 hero_kicker: "Mọi ứng dụng. Mọi thiết bị. Trên toàn thế giới. Không có lựa chọn từ chối."
@@ -46,9 +46,9 @@ impact_gov_p2: >-
   [EFF gọi](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) việc kiểm soát cổng ứng dụng là “một con đường ngày càng mở rộng dẫn tới kiểm duyệt Internet.”
 
 # Advanced flow
-flow_heading: "“Lối thoát” của Google thực ra là cửa sập"
+flow_heading: "“Lối thoát” của Google thực ra là một cái cửa sập bẫy"
 flow_intro: >-
-  Google nói rằng “người dùng nâng cao” [“vẫn có thể cài”](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) ứng dụng chưa xác minh. Nhưng thực tế sẽ như sau:
+  Google nói rằng “người dùng nâng cao” [“vẫn có thể cài”](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) ứng dụng chưa xác minh. Nhưng *thực tế* thì sẽ diễn ra như sau:
 flow_step1: "Mò vào Cài đặt hệ thống, tìm Tùy chọn nhà phát triển"
 flow_step2: "Nhấn vào số bản dựng **bảy lần** để bật Chế độ nhà phát triển"
 flow_step3: "Bỏ qua các màn hình cảnh báo gây sợ hãi về ép buộc"
@@ -56,7 +56,7 @@ flow_step4: "Nhập mã PIN"
 flow_step5: "Khởi động lại thiết bị"
 flow_step6: "Chờ 24 tiếng **(một ngày!)**"
 flow_step7: "Quay lại và bỏ qua thêm các màn hình cảnh báo khác"
-flow_step8: "Chọn “cho phép tạm thời” (7 ngày) hoặc “cho phép vô thời hạn”"
+flow_step8: "Chọn “cho phép tạm thời” (7 ngày) hoặc “cho phép vĩnh viễn”"
 flow_step9: "Xác nhận thêm một lần nữa rằng bạn hiểu “rủi ro”"
 flow_summary: "Chín bước. Bắt buộc chờ 24 tiếng. *Chỉ để cài phần mềm trên thiết bị bạn sở hữu.*"
 flow_detail: >-
@@ -73,11 +73,11 @@ precedent_arstechnica: >-
   [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *“Cơn ghen tị Apple của Google đe dọa phá vỡ di sản mở của Android.”*
 
 # Objections
-objections_heading: "Nhưng khoan, chẳng phải đây là..."
-obj_security_q: "\"...chỉ để bảo mật thôi sao?\""
+objections_heading: "Nhưng khoan, đây chẳng phải chỉ là..."
+obj_security_q: "\"...để bảo mật thôi sao?\""
 obj_security_a: >-
-  Lý do bảo mật chỉ là màn khói. Google Play Protect vốn đã quét phần mềm độc hại độc lập với danh tính của nhà phát triển. Yêu cầu giấy tờ tùy thân do nhà nước cấp không làm mã nguồn an toàn hơn. Nó chỉ khiến *nhà phát triển* dễ bị nhận diện và kiểm soát hơn. Người viết mã độc vẫn có thể đăng ký. Nhà phát triển độc lập và người bất đồng chính kiến thì nhiều khi không thể. [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) nói thẳng: kiểm soát dựa trên danh tính là công cụ kiểm duyệt, không phải công cụ bảo mật.
-obj_sideloading_q: "\"...vẫn là sideload nếu dùng luồng nâng cao mà?\""
+  Lý do bảo mật chỉ là màn khói che đậy. Google Play Protect vốn đã quét phần mềm độc hại độc lập với danh tính của nhà phát triển. Yêu cầu giấy tờ tùy thân do nhà nước cấp không làm mã nguồn an toàn hơn. Nó chỉ khiến *nhà phát triển* dễ bị nhận diện và kiểm soát hơn. Người viết mã độc vẫn có thể đăng ký. Nhà phát triển độc lập và người bất đồng chính kiến thì nhiều khi không thể. [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) nói thẳng: kiểm soát dựa trên danh tính là công cụ kiểm duyệt, không phải công cụ bảo mật.
+obj_sideloading_q: "\"...vẫn có thể sideload được nếu dùng luồng nâng cao mà?\""
 obj_sideloading_a: >-
   Chín bước, chờ 24 tiếng, bị giấu trong Tùy chọn nhà phát triển, lại chạy qua một dịch vụ độc quyền mà Google có thể thu hồi bất cứ lúc nào. Đó không phải sideloading. Đó là một **cơ chế gây nản** được thiết kế để gần như không ai đi hết quy trình. Và vì nó chạy qua Play Services thay vì hệ điều hành, Google có thể âm thầm siết chặt hoặc xóa hẳn nó.
 obj_hide_q: "\"...chỉ là vấn đề nếu bạn có gì cần giấu thôi mà?\""
@@ -85,15 +85,15 @@ obj_hide_a: >-
   Người tố giác, nhà báo và nhà hoạt động dưới các chính quyền độc tài sẽ là những nạn nhân đầu tiên. Tiếp theo là những người đang ở trong tình huống bị bạo hành gia đình. Tất cả những nhóm này đều có lý do chính đáng để phân phối hoặc sử dụng phần mềm mà không phải đưa danh tính pháp lý của mình vào cơ sở dữ liệu của Google. Đóng góp mã nguồn mở ẩn danh là một truyền thống còn lâu đời hơn cả Google. Chính sách này sẽ chấm dứt điều đó trên Android.
 obj_apple_q: "\"...cũng giống Apple thôi mà?\""
 obj_apple_a: >-
-  Apple là một khu vườn có tường bao ngay từ ngày đầu. Người ta chọn Android *vì nó khác*. “Apple cũng làm vậy” là một cuộc đua xuống đáy và là một lập luận *tu quoque* yếu. Hơn nữa, dưới áp lực quản lý như Đạo luật Thị trường Kỹ thuật số của EU, ngay cả Apple cũng đang bị buộc phải mở ra. Google thì đi theo hướng ngược lại: cố củng cố thêm vị thế gác cổng của mình.
-obj_cost_q: "\"...chỉ 25 đô và vài giấy tờ thôi mà?\""
+  Apple là một khu vườn có tường bao ngay từ ngày đầu. Người ta chọn Android *vì nó khác biệt*. “Apple cũng làm vậy” là một cuộc đua xuống đáy và là một lập luận *tu quoque* yếu. Hơn nữa, dưới áp lực quản lý như Đạo luật Thị trường Kỹ thuật số của EU, ngay cả Apple cũng đang bị buộc phải mở ra. Google thì đi theo hướng ngược lại: cố củng cố thêm vị thế gác cổng của mình.
+obj_cost_q: "\"...chỉ có 25 đô và vài giấy tờ thôi mà?\""
 obj_cost_a: >-
   Có thể là vậy, nếu bạn là một nhà phát triển ở Mỹ, có thẻ tín dụng và bằng lái xe. Nhưng hãy thử là một học sinh ở châu Phi hạ Sahara, một người bất đồng chính kiến ở Myanmar, hoặc một tình nguyện viên đang duy trì ứng dụng y tế cộng đồng. Cái giá không chỉ là tiền: bạn đang giao giấy tờ tùy thân do nhà nước cấp và bằng chứng về khóa ký của mình cho một công ty [thường xuyên tuân thủ](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) yêu cầu của chính phủ về việc gỡ ứng dụng và lộ danh tính nhà phát triển.
 
 # Fight back
 act_heading: "Phản ứng lại"
 act_everyone_heading: "Mọi người"
-act_fdroid: "**[Cài F-Droid](https://f-droid.org)** trên mọi thiết bị Android bạn có. Các kho ứng dụng thay thế chỉ sống được nếu có người thật sự dùng chúng."
+act_fdroid: "**[Hãy cài F-Droid](https://f-droid.org)** trên mọi thiết bị Android bạn có. Các kho ứng dụng thay thế chỉ sống được nếu có người thật sự dùng chúng."
 act_regulators: "**[Liên hệ cơ quan quản lý.](/cta/#consumers)** Cơ quan quản lý trên khắp thế giới đang thực sự lo ngại về độc quyền và việc tập trung quyền lực trong lĩnh vực công nghệ. Họ cần nghe trực tiếp từ những người bị ảnh hưởng và quan tâm."
 act_share: "**Chia sẻ trang này.** Đưa link [keepandroidopen.org](https://keepandroidopen.org) lên mọi nơi."
 act_astroturf: "**Phản bác các nhóm dựng dư luận giả.** Đám “thật ra thì...” đang xuất hiện rất nhiều. Đừng để họ dẫn dắt câu chuyện."
@@ -105,7 +105,7 @@ act_dev_intro: "**ĐỪNG ĐĂNG KÝ.** Đừng tham gia chương trình bằng 
 act_dev_resist: "Kế hoạch của Google chỉ thành công nếu nhà phát triển chịu tuân theo. Đừng làm vậy."
 act_dev_talk: "Thuyết phục các nhà phát triển và tổ chức khác đừng đăng ký."
 act_dev_warn: "Thêm thư viện [FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) vào ứng dụng của bạn để cảnh báo người dùng."
-act_dev_banner: "Có website? [Thêm banner đếm ngược.](/banner)"
+act_dev_banner: "Có website? [Thêm banner đếm ngược thời gian.](/banner) này vào website của bạn" 
 act_google_heading: "Nhân viên Google"
 act_google_text: "Nếu bạn biết thông tin về cách chương trình này được triển khai về mặt kỹ thuật hoặc lý do nội bộ đứng sau nó, hãy liên hệ [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) từ một máy *không dùng cho công việc* và một tài khoản *không phải Gmail*. Chúng tôi cam kết bảo mật tuyệt đối."
 
@@ -198,10 +198,10 @@ spread_label_facebook: "Đăng lên Facebook"
 footer_get_involved: "Tham gia"
 footer_take_action: "Hành động & tài nguyên"
 footer_open_letter: "Thư ngỏ"
-footer_add_banner: "Thêm banner đếm ngược"
+footer_add_banner: "Thêm banner đếm ngược thời gian"
 footer_sign_petition: "Ký kiến nghị"
 footer_contact: "Liên hệ"
 footer_report_issues: "Báo lỗi trang này"
-footer_translations: "Bản dịch"
+footer_translations: "Các bản dịch"
 footer_languages: "Tiếng Việt (+ 30 ngôn ngữ)"
 footer_help_translate: "Giúp chúng tôi dịch trang này"
