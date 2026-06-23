@@ -43,16 +43,15 @@
 # [en] title: "Keep Android Open"
 title: "اندروید را باز و آزاد نگه دارید"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "تلفن همراه شما در حال از دست رفتن است. از شهریور ۱۴۰۵، گوگل تمام برنامه‌های اندرویدی را که توسعه‌دهنده آن‌ها نام‌نویسی نکرده باشد، مسدود خواهد کرد."
-
+description: "شما درحال سلب مالکیت از تلفن همراه خود هستید. از شهریور ۱۴۰۵، گوگل تمام برنامه‌های اندرویدی را که توسعه‌دهنده آن‌ها نام‌نویسی نکرده باشد، مسدود خواهد کرد."
 # Hero
 # [en] hero_lede: "Your phone is about to stop being yours."
-hero_lede: "تلفن همراه شما در حال از دست رفتن است."
+hero_lede: "شما درحال سلب مالکیت از تلفن همراه خود هستید."
 # [en] hero_countdown_label: "days until lockdown"
-hero_countdown_label: "روز دیگه تا دستور خانه‌نشینی"
+hero_countdown_label: "روز دیگه تا محدودسازی"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  از شهریور ۱۴۰۵، یک به‌روزرسانی بی‌صدا که بدون رضایت شما توسط گوگل اعمال می‌شود، **تمام برنامه‌های اندرویدی** که توسعه‌دهنده آن‌ها در گوگل نام‌نویسی نکرده باشه، قرارداد را امضا نکرده باشه، هزینه اشتراک را پرداخت نکرده باشه و هویت واقعی خود را ارائه نداده باشد، **مسدود خواهد شد**.
+  از شهریور ۱۴۰۵، یک به‌روزرسانی بی‌صدا که بدون رضایت شما توسط گوگل اعمال می‌شود، **تمام برنامه‌های اندرویدی** که توسعه‌دهنده آن‌ها در گوگل نام‌نویسی نکرده باشه، قرارداد را امضا نکرده باشد، هزینه اشتراک را پرداخت نکرده باشد و هویت واقعی خود را ارائه نداده باشد، **مسدود خواهد شد**.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "تمام برنامه‌ها، تمام دستگاه‌ها، در سراسر جهان — بدون هیچ راه انصرافی."
 
@@ -110,7 +109,7 @@ flow_heading: "«راه فرار» گوگل در واقع یک تله است"
 flow_intro: >-
   گوگل می‌گوید «کاربران حرفه‌ای» هنوز می‌توانند برنامه‌های تأییدنشده را ["نصب کنند"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html). اما *واقعیت* این است:
 # [en] flow_step1: "Delve into System Settings, find Developer Options"
-flow_step1: "ورود به تنظیمات سیستم و گزینه «توسعه‌دهنده» را پیدا کنید"
+flow_step1: "به تنظیمات سیستم وارد شوید و گزینه  «تنظیمات توسعه‌دهنده» را پیدا کنید."
 # [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
 flow_step2: "روی شماره ساخت **هفت بار** ضربه بزنید تا حالت توسعه‌دهنده فعال شود"
 # [en] flow_step3: "Dismiss scare screens about coercion"
@@ -120,9 +119,9 @@ flow_step4: "وارد کردن PIN"
 # [en] flow_step5: "Restart the device"
 flow_step5: "راه‌اندازی مجدد تلفن همراه"
 # [en] flow_step6: "**Wait 24 hours**"
-flow_step6: "**۲۴ ساعت منتظر می‌مانید**"
+flow_step6: "**۲۴ ساعت منتظر بمانید**"
 # [en] flow_step7: "Come back, dismiss more scare screens"
-flow_step7: "برگشت به قسمت قبل و رد کردن پیام‌های هشدار بیشتر"
+flow_step7: "برگردید به قسمت قبل و پیام‌های هشداردهنده بیشتری را رد کنید"
 # [en] flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
 flow_step8: "انتخاب «اجازه موقت» (۷ روز) یا «اجازه دائمی»"
 # [en] flow_step9: "Confirm, again, that you understand \"the risks\""
@@ -155,7 +154,7 @@ objections_heading: "اما صبر کنید، آیا این..."
 obj_security_q: "«...فقط برای امنیت نیست؟»"
 # [en] obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one."
 obj_security_a: >-
-  این یک بهانه است. Google Play Protect همین حالا هم بدافزار را بررسی می‌کند. الزام به ارائه هویت واقعی، کد را امن‌تر نمی‌کند — بلکه توسعه‌دهندگان را قابل شناسایی و کنترل می‌کند.
+  این یک بهانه است. Google Play Protect همین حالا هم بدافزار را فارغ از هویت توسعه‌دهنده بررسی میکند. الزام به ارائه هویت واقعی، کد را امن‌تر نمی‌کند — بلکه توسعه‌دهندگان را قابل شناسایی و کنترل می‌کند.
 # [en] obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
 obj_sideloading_q: "«...هنوز می‌شود sideload کرد؟»"
 # [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
@@ -165,7 +164,7 @@ obj_sideloading_a: >-
 obj_hide_q: "«...فقط برای کسانی است که چیزی برای پنهان کردن دارند؟»"
 # [en] obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
 obj_hide_a: >-
-  افشاگران، خبرنگاران و فعالان — اولین قربانیان خواهند بود. مشارکت ناشناس در متن‌باز، سنتی قدیمی است که این سیاست آن را از بین می‌برد.
+  افشاگران، خبرنگاران و فعالان — اولین قربانیان خواهند بود. مشارکت ناشناس متن‌باز، سنتی قدیمی است که قدمت آن از خود گوگل بیشتر است. این سیاست آن را در اندروید از بین می‌برد.
 # [en] obj_apple_q: "\"...the same thing Apple does?\""
 obj_apple_q: "«...اپل هم همین کار را می‌کند؟»"
 # [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
@@ -175,7 +174,9 @@ obj_apple_a: >-
 obj_cost_q: "«...فقط ۲۵ دلار و کمی کاغذبازی است؟»"
 # [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
 obj_cost_a: >-
-  هزینه فقط مالی نیست؛ شما در حال واگذاری هویت و اطلاعات حساس خود به یک شرکت هستید.
+  شاید, اگر شما یک توسعه‌دهنده با یک کارت اعتباری و گواهینامه رانندگی باشید که در آمریکا زندگی می‌کند. فکر کنید که یک دانش آموز در sun-Saharan آفریقا هستید.
+
+  هزینه فقط مالی نیست؛ شما در حال واگذاری هویت و اطلاعات حساس خود به یک شرکت هستید که مدام به درخواست حکومت برای حذف کردن برنامه ها یا فاش کردن هویت توسعه‌دهنده ها پاسخ میدهد. .
 
 # Fight back
 # [en] act_heading: "Fight back"
@@ -183,7 +184,7 @@ act_heading: "اقدام کنید"
 # [en] act_everyone_heading: "Everyone"
 act_everyone_heading: "همگی"
 # [en] act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
-act_fdroid: "**[نصب اف‌دروید](https://f-droid.org)** روی تمام دستگاه‌های اندرویدی"
+act_fdroid: "**[نصب اف‌دروید](https://f-droid.org)** روی تمام دستگاه‌های اندرویدی. فروشگاه های جایگزین فقط در صورتی به بقا ادامه میدهند که مردم واقعا از آنها استفاده کنند."
 # [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
 act_regulators: "**[تماس با نهادهای نظارتی](/cta/#consumers)**"
 # [en] act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
@@ -370,7 +371,7 @@ site_copyright: "**حق نشر:** ندارد. این اثر منتشر شده ت
 # [en] contact_header: "Contact"
 contact_header: "تماس با ما"
 # [en] contact_email: "Email"
-contact_email: "رایانامه"
+contact_email: "ایمیل"
 # [en] site_problems_header: "Problems"
 site_problems_header: "مشکلات"
 # [en] site_report_issues: "Report Site Issues"
