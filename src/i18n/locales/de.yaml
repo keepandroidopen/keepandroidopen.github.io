@@ -55,7 +55,7 @@ what_heading: "Was Google tut"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
   Im August 2025 hat Google eine neue Bedingung [angekündigt](https://developer.android.com/developer-verification): ab September 2026 **muss sich jeder Android-App-Entwickler
-  zentral bei Google anmelden** bevor seine oder ihre Software auf irgend einem Gerät installiert werden kann. Nicht nur Apps aus dem Play Store: alle Apps. Das beinhaltet auch Apps, die
+  zentral bei Google anmelden**, bevor seine oder ihre Software auf irgend einem Gerät installiert werden kann. Nicht nur Apps aus dem Play Store: alle Apps. Das beinhaltet auch Apps, die
   unter Freunden geteilt werden, die über [F-Droid](https://f-droid.org) verteilt werden, die von Hobbyisten zur persönlichen Verwendung entwickelt werden. Unabhängige Entwickler,
   Kirchen- und Gemeinschaftsgruppen sowie Hobbyisten werden gleichermaßen von der Entwicklung und der Weitergabe ihrer Software ausgeschlossen.
 # [en] what_registration: "Registration requires:"
@@ -85,7 +85,7 @@ impact_you_p2: >-
 # [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "Unabhängige Entwickler"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-impact_dev_p1: "Ob die erste App eines Teenagers, ein Datenschutztool eines Freiwilligen oder die vertrauliche interne Betaversion eines Unternehmens – das spielt keine Rolle. Nach September 2026 lässt sich keine dieser Apps mehr ohne Googles Zustimmung installieren."
+impact_dev_p1: "Ob die erste App eines Teenagers, ein Datenschutztool eines Ehrenamtlichen oder die vertrauliche interne Betaversion eines Unternehmens – das spielt keine Rolle. Nach September 2026 lässt sich keine dieser Apps mehr ohne Googles Zustimmung installieren."
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), die Heimat Tausender kostenloser und Open-Source-Android-Apps, hat dies als eine
@@ -96,7 +96,7 @@ impact_gov_heading: "Regierungen und Zivilgesellschaft"
 # [en] impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
 impact_gov_p1: >-
   Google [hat bereits in der Vergangenheit Apps entfernt](https://www.aclu.org/news/free-speech/app-store-oligopoly), weil autoritäre Regime dies gefordert hatten.
-  Mit diesem Programm wird die Software, die die Institutionen Ihres Landes steuert, dem Gutdünken eines einzigen, nicht rechenschaftspflichtigen ausländischen Konzerns unterworfen sein.
+  Mit diesem Programm wird die Software, die die Institutionen Deines Landes steuert, dem Gutdünken eines einzigen, nicht rechenschaftspflichtigen ausländischen Konzerns unterworfen sein.
 # [en] impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
 impact_gov_p2: >-
   Die [EFF bezeichnet](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) App-Gatekeeping "einen sich ständig erweiternden
@@ -112,7 +112,7 @@ flow_step1: "Öffne die Systemeinstellungen und suche nach den Entwickleroptione
 # [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
 flow_step2: "Tippe **sieben Mal** auf die Build-Nummer, um den Entwicklermodus zu aktivieren."
 # [en] flow_step3: "Dismiss scare screens about coercion"
-flow_step3: "Übergeh die abschreckende Meldung über möglische Schäden."
+flow_step3: "Übergeh die abschreckende Meldung über mögliche Schäden."
 # [en] flow_step4: "Enter your PIN"
 flow_step4: "Gib Deine PIN ein."
 # [en] flow_step5: "Restart the device"
@@ -126,12 +126,12 @@ flow_step8: "Wähle \"vorübergehend erlauben\" (7 Tage) oder \"unbegrenzt erlau
 # [en] flow_step9: "Confirm, again, that you understand \"the risks\""
 flow_step9: "Bestätige erneut, dass Du \"die Risiken\" verstehst."
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
-flow_summary: "Neun Schritte. Eine erzwungene 24-stündige Bedenkzeit. *Zur Installtion von Software auf einem Gerät, das Dein Eigentum ist.*"
+flow_summary: "Neun Schritte. Eine erzwungene 24-stündige Bedenkzeit. *Zur Installation von Software auf einem Gerät, das Dein Eigentum ist.*"
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 flow_detail: >-
   Schlimmer noch: dieser Ablauf findet vollständig über die **Google-Play-Dienste** statt, nicht über das Android-Betriebssystem. Google kann dies jederzeit ändern, einschränken
   oder ganz abschalten, ohne dass ein Betriebssystem-Update oder eine Zustimmung erforderlich ist. Bis heute wurde es noch in keiner Beta-, Vorschau- oder Canary-Version veröffentlicht.
-  Es existiert lediglich als Blogbeitrag und einigen Mockups.
+  Es existiert lediglich als Blogbeitrag und in einigen Entwürfen.
 # [en] precedent_heading: "This is bigger than Android"
 precedent_heading: "Das ist größer als Android."
 # [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
@@ -184,7 +184,7 @@ obj_apple_a: >-
 obj_cost_q: "\"… nur 25 Dollar und etwas Papierkram?\""
 # [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
 obj_cost_a: >-
-  Vielleicht, wenn Du ein Entwickler in den USA mit Kreditkarte und Führerschein bist. Versuch mal, Student in Subsahara-Afrika zu sein, Dissident in Myanmar oder Freiwilliger, der eine Gesundheits-App
+  Vielleicht, wenn Du ein Entwickler in den USA mit Kreditkarte und Führerschein bist. Versuch mal, Student in Subsahara-Afrika zu sein, Dissident in Myanmar oder Ehrenamtlicher, der eine Gesundheits-App
   für die Gemeinschaft betreut. Die Kosten sind nicht nur finanzieller Natur: Du gibst deine Ausweispapiere und Nachweise oder deine Signaturschlüssel an ein Unternehmen ab, das
   [routinemäßig](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) staatlichen Forderungen nachkommt, Apps zu entfernen und
   Entwickler bloßzustellen.
