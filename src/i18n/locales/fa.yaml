@@ -46,21 +46,21 @@ title: "اندروید را باز و آزاد نگه دارید"
 description: "شما درحال سلب مالکیت از تلفن همراه خود هستید. از شهریور ۱۴۰۵، گوگل تمام برنامه‌های اندرویدی را که توسعه‌دهنده آن‌ها نام‌نویسی نکرده باشد، مسدود خواهد کرد."
 # Hero
 # [en] hero_lede: "Your phone is about to stop being yours."
-hero_lede: "شما درحال سلب مالکیت از تلفن همراه خود هستید."
+hero_lede: "کنترل شما بر تلفن همراهتان در حال از دست رفتن است."
 # [en] hero_countdown_label: "days until lockdown"
-hero_countdown_label: "روز دیگه تا محدودسازی"
+hero_countdown_label: "روز مانده تا اعمال محدودیت "
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
   از شهریور ۱۴۰۵، یک به‌روزرسانی بی‌صدا که بدون رضایت شما توسط گوگل اعمال می‌شود، **تمام برنامه‌های اندرویدی** که توسعه‌دهنده آن‌ها در گوگل نام‌نویسی نکرده باشه، قرارداد را امضا نکرده باشد، هزینه اشتراک را پرداخت نکرده باشد و هویت واقعی خود را ارائه نداده باشد، **مسدود خواهد شد**.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
-hero_kicker: "تمام برنامه‌ها، تمام دستگاه‌ها، در سراسر جهان — بدون هیچ راه انصرافی."
+hero_kicker: "تمام برنامه‌ها، تمام دستگاه‌ها، در سراسر جهان - بدون هیچ راهی برای غیرفعال کردن این سیاست."
 
 # What Google is doing
 # [en] what_heading: "What Google is doing"
 what_heading: "گوگل چه کاری انجام می‌دهد"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
- در ۳ شهریور ۱۴۰۴، گوگل [اعلام](https://developer.android.com/developer-verification) کرد که از شهریور ۱۴۰۵، **تمام توسعه‌دهندگان برنامه‌های اندروید باید به‌صورت متمرکز در گوگل** نام‌نویسی کنند تا برنامه‌های‌شان روی هر دستگاهی قابل نصب باشد. نه فقط برنامه‌های پلی‌استور—بلکه همه برنامه‌ها. این شامل برنامه‌هایی می‌شود که بین دوستان هم‌رسانی قرار است بشود، از طریق [اف‌دروید](https://f-droid.org) منتشر می‌شوند یا توسط افراد علاقه‌مند برای استفاده شخصی ساخته شده‌اند. در نتیجه، توسعه‌دهندگان مستقل، گروه‌های مذهبی و اجتماع‌ها و حتی علاقه‌مندان، عملا از امکان توسعه و انتشار برنامه‌های خود محروم خواهند شد.
+ در ۳ شهریور ۱۴۰۴، گوگل [اعلام](https://developer.android.com/developer-verification) کرد که از شهریور ۱۴۰۵، **تمام توسعه‌دهندگان برنامه‌های اندروید باید به‌صورت متمرکز در گوگل** نام‌نویسی کنند تا برنامه‌های‌شان روی هر دستگاهی قابل نصب باشد. نه فقط برنامه‌های پلی‌استور—بلکه همه برنامه‌ها. این شامل برنامه‌هایی می‌شود که بین دوستان هم‌رسانی قرار است بشود، از طریق [اف‌دروید](https://f-droid.org) منتشر می‌شوند یا توسط افراد علاقه‌مند برای استفاده شخصی ساخته شده‌اند. در نتیجه، توسعه‌دهندگان مستقل، گروه‌های مذهبی و اجتماع‌ها و حتی توسعه‌دهندگان آماتور، عملا از امکان توسعه و انتشار برنامه‌های خود محروم خواهند شد.
 # [en] what_registration: "Registration requires:"
 what_registration: "برای نام‌نویسی باید:"
 # [en] what_req_fee: "Paying a fee to Google"
@@ -68,9 +68,9 @@ what_req_fee: "پرداخت هزینه به گوگل"
 # [en] what_req_terms: "Agreeing to Google's Terms and Conditions"
 what_req_terms: "پذیرش شرایط و قوانین گوگل"
 # [en] what_req_id: "Surrendering your government-issued identification"
-what_req_id: "ارائه مدرک هویتی برای شناسایی"
+what_req_id: "ارائه مدرک هویتی برای شناسایی که برای ایرانیان غیرممکن است"
 # [en] what_req_signing: "Providing evidence of your private signing key"
-what_req_signing: "ارائه مدرکی از کلید امضای خصوصی که برای امضای برنامه‌ها استفاده می‌شود"
+what_req_signing: "ارائه اطلاعاتی برای اثبات مالکیت کلید امضای برنامه که برای امضای برنامه‌ها استفاده می‌شود"
 # [en] what_req_appids: "Listing all current and all future application identifiers"
 what_req_appids: "ثبت تمام شناسه‌های برنامه‌های (فعلی و آینده)"
 # [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
@@ -82,10 +82,10 @@ impact_heading: "این موضوع به چه کسانی آسیب می‌زند"
 # [en] impact_you_heading: "You"
 impact_you_heading: "شما"
 # [en] impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
-impact_you_p1: "شما یک تلفن همراه اندرویدی خریدید چون گوگل گفته بود این سکوئی باز و آزاد است. می‌توانستید هر چیزی که می‌خواهید نصب کنید — این توافق بود."
+impact_you_p1: "شما یک تلفن همراه اندرویدی خریدید چون گوگل گفته بود این یک پلتفرم باز است. می‌توانستید هر چیزی که می‌خواهید نصب کنید — این توافق بود."
 # [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
 impact_you_p2: >-
-  حالا گوگل در حال تغییر این توافق است، آن هم به‌صورت یک‌طرفه، روی دستگاهی که شما قبلاً خریده‌اید. بعد از این به‌روزرسانی، فقط برنامه‌هایی اجرا می‌شوند که گوگل تأیید کرده باشد. روی گوشی *شما* که مالک اون هستید، چیزی که *برایش* پول داده‌اید.
+  حالا گوگل در حال تغییر این توافق است، آن هم به‌صورت یک‌طرفه، روی دستگاهی که شما قبلاً خریده‌اید. بعد از این به‌روزرسانی، فقط برنامه‌هایی اجرا می‌شوند که گوگل تأیید کرده باشد. روی گوشی *شما* که مالک آن هستید، چیزی که *برایش* پول داده‌اید.
 # [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "توسعه‌دهندگان مستقل"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
@@ -97,7 +97,7 @@ impact_dev_p2: >-
 impact_gov_heading: "دولت‌ها و جامعه مدنی"
 # [en] impact_gov_p1: "Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation."
 impact_gov_p1: >-
-  گوگل [سابقه مستندی](https://www.aclu.org/news/free-speech/app-store-oligopoly) در همکاری با حکومت‌ها برای حذف برنامه‌ها دارد. در این مدل، برنامه‌هایی که زیرساخت کشورها را اجرا می‌کنند، عملاً وابسته به یک شرکت خارجی بدون پاسخگویی خواهند شد.
+  گوگل [سابقه مستندی](https://www.aclu.org/news/free-speech/app-store-oligopoly) در همکاری با حکومت‌های اقتدارگرا برای حذف برنامه‌ها دارد. در این مدل، برنامه‌هایی که زیرساخت کشورها را اجرا می‌کنند، عملاً وابسته به یک شرکت خارجی بدون پاسخگویی خواهند شد.
 # [en] impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
 impact_gov_p2: >-
   [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) این مدل را «مسیر در حال گسترش سانسور اینترنت» می‌داند.
@@ -169,7 +169,7 @@ obj_hide_a: >-
 obj_apple_q: "«...اپل هم همین کار را می‌کند؟»"
 # [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
 obj_apple_a: >-
-  اپل از ابتدا یک اکوسیستم بسته بوده است. مردم اندروید را به‌خاطر باز بودنش انتخاب کردند.
+  اپل از ابتدا یک اکوسیستم بسته بوده است. بسیاری از کاربران دقیقاً به همین دلیل اندروید را به آیفون ترجیح دادند.
 # [en] obj_cost_q: "\"...just $25 and some paperwork?\""
 obj_cost_q: "«...فقط ۲۵ دلار و کمی کاغذبازی است؟»"
 # [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
@@ -188,7 +188,7 @@ act_fdroid: "**[نصب اف‌دروید](https://f-droid.org)** روی تمام
 # [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
 act_regulators: "**[تماس با نهادهای نظارتی](/cta/#consumers)**"
 # [en] act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
-act_share: "**این صفحه را هم‌رسانی کنید**"
+act_share: "**این صفحه را با دوستانتان به اشتراک بزارید**"
 # [en] act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
 act_astroturf: "**در برابر روایت‌های ساختگی مقاومت کنید**"
 # [en] act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
