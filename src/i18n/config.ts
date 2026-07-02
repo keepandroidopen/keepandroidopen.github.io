@@ -1,59 +1,58 @@
 export const languages = {
   // English (default)
-  "en": { label: "English", path: "/en/" },
+  en: { label: "English", path: "/en/" },
 
   // Western European – Romance
-  "fr": { label: "Français", path: "/fr/" },
-  "es": { label: "Español", path: "/es/" },
-  "ca": { label: "Català", path: "/ca/" },
-  "it": { label: "Italiano", path: "/it/" },
+  fr: { label: "Français", path: "/fr/" },
+  es: { label: "Español", path: "/es/" },
+  ca: { label: "Català", path: "/ca/" },
+  it: { label: "Italiano", path: "/it/" },
   "pt-BR": { label: "Português", path: "/pt-BR/" },
 
   // Western European – Germanic & Nordic
-  "de": { label: "Deutsch", path: "/de/" },
-  "da": { label: "Dansk", path: "/da/" },
-  "fi": { label: "Suomi", path: "/fi/" },
-  "nl": { label: "Nederlands", path: "/nl/" },
+  de: { label: "Deutsch", path: "/de/" },
+  da: { label: "Dansk", path: "/da/" },
+  fi: { label: "Suomi", path: "/fi/" },
+  nl: { label: "Nederlands", path: "/nl/" },
 
   // Central & Eastern European
-  "pl": { label: "Polski", path: "/pl/" },
-  "cs": { label: "Čeština", path: "/cs/" },
-  "sk": { label: "Slovenčina", path: "/sk/" },
-  "sq": { label: "Shqip", path: "/sq/" },
-  "el": { label: "Ελληνικά", path: "/el/" },
-  "ru": { label: "Русский", path: "/ru/" },
-  "uk": { label: "Українська", path: "/uk/" },
-  "hu": { label: "Magyar", path: "/hu/" },
-  "bg": { label: "Български", path: "/bg/" },
-  "be": { label: "Беларуская", path: "/be/" },
+  pl: { label: "Polski", path: "/pl/" },
+  cs: { label: "Čeština", path: "/cs/" },
+  sk: { label: "Slovenčina", path: "/sk/" },
+  sq: { label: "Shqip", path: "/sq/" },
+  el: { label: "Ελληνικά", path: "/el/" },
+  ru: { label: "Русский", path: "/ru/" },
+  uk: { label: "Українська", path: "/uk/" },
+  hu: { label: "Magyar", path: "/hu/" },
+  bg: { label: "Български", path: "/bg/" },
+  be: { label: "Беларуская", path: "/be/" },
+  ro: { label: "Română", path: "/ro/" },
 
   // Turkic & Central Asian
-  "tr": { label: "Türkçe", path: "/tr/" },
-  "kk": { label: "Қазақша", path: "/kk/" },
+  tr: { label: "Türkçe", path: "/tr/" },
+  kk: { label: "Қазақша", path: "/kk/" },
 
   // Middle Eastern
-  "he": { label: "עברית", path: "/he/" },
-  "ar": { label: "العربية", path: "/ar/" },
-  "fa": { label: "فارسی", path: "/fa/" },
+  he: { label: "עברית", path: "/he/" },
+  ar: { label: "العربية", path: "/ar/" },
+  fa: { label: "فارسی", path: "/fa/" },
 
   // South & Southeast Asian
-  "vi": { label: "Tiếng Việt", path: "/vi/" },
-  "th": { label: "ไทย", path: "/th/" },
-  "id": { label: "Indonesia", path: "/id/" },
-  "tl": { label: "Tagalog", path: "/tl/" },
-  "bn": { label: "বাংলা", path: "/bn/" },
-  "hi": { label: "हिंदी", path: "/hi/"},
-  
+  vi: { label: "Tiếng Việt", path: "/vi/" },
+  th: { label: "ไทย", path: "/th/" },
+  id: { label: "Indonesia", path: "/id/" },
+  tl: { label: "Tagalog", path: "/tl/" },
+  bn: { label: "বাংলা", path: "/bn/" },
+  hi: { label: "हिंदी", path: "/hi/" },
 
   // CJK (East Asian)
   "zh-CN": { label: "简体中文", path: "/zh-CN/" },
   "zh-TW": { label: "正體中文", path: "/zh-TW/" },
-  "ja": { label: "日本語", path: "/ja/" },
-  "ko": { label: "한국어", path: "/ko/" },
+  ja: { label: "日本語", path: "/ja/" },
+  ko: { label: "한국어", path: "/ko/" },
 
   // Language isolate
-  "eu": { label: "Euskara", path: "eu" },
-  
+  eu: { label: "Euskara", path: "eu" },
 } as const;
 
 export type Locale = keyof typeof languages;
@@ -73,12 +72,12 @@ marked.use({
   renderer: {
     link({ href, title, tokens }) {
       const text = this.parser.parseInline(tokens);
-      const isExternal = /^https?:\/\//.test(href ?? '');
-      const target = isExternal ? ' target="_blank"' : '';
-      const titleAttr = title ? ` title="${title}"` : '';
+      const isExternal = /^https?:\/\//.test(href ?? "");
+      const target = isExternal ? ' target="_blank"' : "";
+      const titleAttr = title ? ` title="${title}"` : "";
       return `<a href="${href}"${titleAttr}${target}>${text}</a>`;
-    }
-  }
+    },
+  },
 });
 
 /** Render a markdown string to inline HTML (no wrapping <p> tags). */
