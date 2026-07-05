@@ -41,15 +41,27 @@ Denne registrering vil omfatte:
 
 <div class="callout-warning">
 
-### Opdatering: Google har **ikke** “trukket i land” med udviklerverificering {#clarification}
+### Opdatering: Google har afsløret det "avancerede flow" — det er ikke en løsning
 
-I modsætning til en vag [omtale](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) af en mulig "avanceret måde", som måske på sigt kan give "erfarne brugere" mulighed for at "acceptere risikoen ved at installere software, som ikke er verificeret", siger Googles [beskrivelse af programmet](https://developer.android.com/developer-verification) fortsat helt utvetydigt:
+Den 19. marts 2026 [offentliggjorde Google detaljer](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) om den "avancerede flow"-mekanisme beregnet på at "avancerede brugere" kan installere applikationer fra uverificerede udviklere efter nedlåsningen aktiveres. Det foregår sådan:
 
-> Fra september 2026 skal alle Android-apps være registreret af verificerede udviklere for at kunne installeres på certificerede Android-enheder.
+1. Aktiver [Udvikler-tilstand](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/) ved at trykke på softwarens byggenummer i _Om Telefonen_ **syv gange**
+1. I Indstillinger > System, åbn Udvikler-indstillinger og scroll ned til “Tillad uverificerede pakker.”
+1. Aktiver indstillingen og besvar en skræmmedialog ved at bekræfte at du gør dette frivilligt
+1. Indtast din enheds oplåsningskode/kodeord
+1. Genstart din enhed
+1. **Vent 24 timer**
+1. Vend tilbage til _uverificerede pakker_-menuen når sikkerhedsforsinkelsen er overstået
+1. Genenmgå og bekræft flere yderligere advarsler og vælg enten “Tillad midlertidigt” (syv dage) eller “Tillad ubegrænset.”
+1. På den næste skræmmedialog, bekræft at du forstår risikoen.
+1. Nu kan du installere uverificerede pakker på enheden ved at vælge "Installer alligevel" i pakkehåndteringen.
 
-Indtil Google fremlægger konkret dokumentation for, at det vil være muligt at komme uden om verificeringsprocessen uden urimelige hindringer, må vi tage deres officielle side på ordet: at **alle** apps fra ikke-registrerede udviklere **vil blive blokeret**, når opdateringen træder i kraft.
+Hele dette flow leveres gennem Google Play Services, ikke Android-operativsystemet, hvilket betyder at Google kan ændre, begrænse eller fjerne det til enhver tid uden en operativsystemopdatering og uden brugerens samtykke. Det avancerede flow har endnu ikke været frigivet i Android beta, udvikler eller test-udgaver. På datoen for denne opdatering eksisterer det kun som et blogindlæg og brugerinterface-mockups. Google beder fællesskabet om at acceptere en featureannoncering som tilstrækkelig sikkerhed fem måneder får begrænsningen træde i kraft.
+
+Indtil Google leverer en implementation som kan verificeres uafhængigt forbliver vores standpunkt uændret: **alle** apps fra ikke-registrerede udviklere **vil blive blokeret** når nedlåsningen effektueres i september 2026.
 
 </div>
+
 
 ## Sådan kan du hjælpe {#help}
 
