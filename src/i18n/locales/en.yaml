@@ -44,7 +44,7 @@ impact_gov_p2: >-
 flow_heading: "Google's \"escape hatch\" is a trap door"
 flow_intro: >-
   Google says "power users" can ["still install"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:
-flow_step1: "Delve into System Settings, find Developer Options"
+flow_step1: "Delve into System Settings, find About Phone"
 flow_step2: "Tap the build number **seven times** to enable Developer Mode"
 flow_step3: "Dismiss scare screens about coercion"
 flow_step4: "Enter your PIN"

@@ -27,7 +27,7 @@ Denne registrering vil omfatte:
 {:.li-list .li-id}
 - Upload af dokumentation for udviklerens private signeringsnøgle
 {:.li-list .li-signing}
-- Oplistning af alle nuværende og fremtidige app-id’er
+- Oplistning af alle nuværende og fremtidige applikations-identifikationsstrenge
 {:.li-list .li-appids}
 
 ## Hvad det betyder for dine rettigheder
@@ -46,7 +46,7 @@ Denne registrering vil omfatte:
 Den 19. marts 2026 [offentliggjorde Google detaljer](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) om den "avancerede flow"-mekanisme beregnet på at "avancerede brugere" kan installere applikationer fra uverificerede udviklere efter nedlåsningen aktiveres. Det foregår sådan:
 
 1. Aktiver [Udvikler-tilstand](https://www.android.com/intl/en_uk/articles/enable-android-developer-settings/) ved at trykke på softwarens byggenummer i _Om Telefonen_ **syv gange**
-1. I Indstillinger > System, åbn Udvikler-indstillinger og scroll ned til “Tillad uverificerede pakker.”
+1. I Indstillinger > System, åbn Udviklingsindstillinger og scroll ned til “Tillad uverificerede pakker.”
 1. Aktiver indstillingen og besvar en skræmmedialog ved at bekræfte at du gør dette frivilligt
 1. Indtast din enheds oplåsningskode/kodeord
 1. Genstart din enhed
@@ -56,7 +56,7 @@ Den 19. marts 2026 [offentliggjorde Google detaljer](https://android-developers.
 1. På den næste skræmmedialog, bekræft at du forstår risikoen.
 1. Nu kan du installere uverificerede pakker på enheden ved at vælge "Installer alligevel" i pakkehåndteringen.
 
-Hele dette flow leveres gennem Google Play Services, ikke Android-operativsystemet, hvilket betyder at Google kan ændre, begrænse eller fjerne det til enhver tid uden en operativsystemopdatering og uden brugerens samtykke. Det avancerede flow har endnu ikke været frigivet i Android beta, udvikler eller test-udgaver. På datoen for denne opdatering eksisterer det kun som et blogindlæg og brugerinterface-mockups. Google beder fællesskabet om at acceptere en featureannoncering som tilstrækkelig sikkerhed fem måneder får begrænsningen træde i kraft.
+Hele dette flow leveres gennem Google Play Services, ikke Android-operativsystemet, hvilket betyder at Google kan ændre, begrænse eller fjerne det til enhver tid uden en operativsystemopdatering og uden brugerens samtykke. Det avancerede flow har endnu ikke været frigivet i Android beta, udvikler eller test-udgaver. På datoen for denne opdatering eksisterer det kun som et blogindlæg og brugerinterface-mockups. Google beder fællesskabet om at acceptere en featureannoncering som tilstrækkelig sikkerhed fem måneder før begrænsningen træder i kraft.
 
 Indtil Google leverer en implementation som kan verificeres uafhængigt forbliver vores standpunkt uændret: **alle** apps fra ikke-registrerede udviklere **vil blive blokeret** når nedlåsningen effektueres i september 2026.
 
@@ -73,7 +73,7 @@ Hvis du er app-udvikler, så _**tilmeld dig ikke**_ early access-programmet, gen
 
 Opfordr andre udviklere og organisationer til at afslå registrering. Brug fællesskabsfora, sociale medier og blogindlæg til at sprede budskabet. Tilføj [FreeDroidWarn-biblioteket](https://github.com/woheller69/FreeDroidWarn) til dit projekt for at informere dine brugere. Hvis du driver en hjemmeside, så overvej at [tilføje nedtællingsbanneret](/banner) til toppen af din side.
 
-Hvis du er ansat hos Google eller på anden måde er tilknyttet udviklerverificeringen med samvittigheden i behold, og du har yderligere indsigt i programmet – herunder planlagte tekniske implementeringsdetaljer eller anden relevant information – bedes du kontakte [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) fra en _ikke-arbejdsmaskine_ og en _ikke-gmail_ konto. Dine oplysninger vil blive behandlet strengt fortroligt.
+Hvis du er ansat hos Google eller på anden måde er tilknyttet udviklerverificeringen med samvittigheden i behold, og du har yderligere indsigt i programmet – herunder planlagte tekniske implementeringsdetaljer eller anden relevant information – bedes du kontakte [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) fra en _ikke-arbejdscomputer_ og en _ikke-gmailkonto_. Dine oplysninger vil blive behandlet strengt fortroligt.
 
 ### Alle: Lad din stemme blive hørt {#everyone}
 
