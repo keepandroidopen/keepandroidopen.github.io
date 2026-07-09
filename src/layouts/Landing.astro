@@ -62,6 +62,11 @@ const daysLeft = Math.max(0, Math.ceil((deadline.getTime() - now.getTime()) / (1
 
 const ctaPath = locale === 'en' ? '/cta/' : `/${locale}/cta/`;
 const homePath = locale === 'en' ? '/' : `/${locale}/`;
+
+/** Rewrite /cta/#consumers to the active locale CTA path. */
+function localizeCtaLinks(html: string): string {
+  return html.replace(/href="\/cta\/#consumers"/g, `href="${ctaPath}#consumers"`);
+}
 ---
 <Base title={t.title} lang={locale} description={t.description}>
   {/* Head slot: pages can inject scripts (e.g. the redirect script) */}
@@ -174,7 +179,7 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
         <h3 id="everyone" set:html={t.act_everyone_heading} />
         <ul>
           <li set:html={t.act_fdroid} />
-          <li set:html={t.act_regulators} />
+          <li set:html={localizeCtaLinks(t.act_regulators)} />
           <li set:html={t.act_share} />
           <li set:html={t.act_astroturf} />
           <li set:html={t.act_petition} />
