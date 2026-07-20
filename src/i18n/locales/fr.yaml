@@ -181,12 +181,12 @@ precedent_p1: >-
 precedent_p2: >-
   L'ouverture d'Android n'a jamais été une simple fonctionnalité. C'était la *promesse* qui le distinguait de l'iPhone. Des millions de personnes ont choisi Android précisément pour cette raison. Google revient aujourd'hui unilatéralement sur cette promesse, sur des appareils *déjà* dans les poches de tout un chacun, car l'entreprise estime que sa position dominante sur le marché et son emprise sur la réglementation lui permettent d'agir ainsi en toute impunité.
 # [en] obj_security_q: "\"...just about security?\""
-obj_security_q: "\"…juste une question de sécurité ?\""
+obj_security_q: "« …juste une question de sécurité ? »"
 # [en] obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one."
 obj_security_a: >-
   L'argument de sécurité invoqué n'est qu'un leurre. Google Play Protect analyse déjà les applications à la recherche de logiciels malveillants indépendamment de l'identité du développeur. Exiger une pièce d'identité officielle ne fait rien pour rendre le code plus sûr. Cela permet d'identifier et de contrôler les *développeurs*. Les auteurs de logiciels malveillants peuvent s'enregistrer. Les développeurs indépendants et les dissidents, souvent, ne le peuvent pas. L'[EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) est catégorique : le contrôle d'accès basé sur l'identité est un outil de censure et non de sécurité.
 # [en] obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-obj_sideloading_q: "« …toujours du \"sideloading\" si l'on utilise un processus avancé? »"
+obj_sideloading_q: "« …toujours du \"sideloading\" si l'on utilise un processus avancé ? »"
 # [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
 obj_sideloading_a: >-
   24 heures d'attente, neuf étapes, enfouies dans les options pour développeurs, dépeendant d'un service propriétaire que Google peut révoquer à tout moment. Il ne s'agit pas d'une procédure d'installation d'applications. C'est un **mécanisme de dissuasion** conçu pour s'assurer que presque personne ne l'utilise. Et comme il passe par les services Google Play et non par le système d'exploitation, Google peut le restreindre ou le supprimer discrètement.
@@ -305,7 +305,7 @@ voices_petition: "Les voix de la pétition"
 
 # Signatories section
 # [en] signatories_heading: "All those opposed…"
-signatories_heading: "Ils et elles son contre…"
+signatories_heading: "Ils et elles sont contre…"
 # [en] signatories_count: "{count} organizations from {countries} countries have signed the"
 signatories_count: "{count} organisations de {countries} pays différents ont signé la"
 # [en] signatories_open_letter_link: "open letter"
