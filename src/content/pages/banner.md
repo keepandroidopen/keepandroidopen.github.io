@@ -4,7 +4,7 @@ description: "Embed the Keep Android Open countdown banner on your own website w
 lang: en
 ---
 
-Add the Keep Android Open countdown banner to your website with a single `<script>` tag. The banner is self-contained with no external dependencies — all styling and 20 localizations are built in. It auto-detects the visitor's browser language and displays a live countdown to the September 2026 lockdown date.
+Add the Keep Android Open countdown banner to your website with a single `<script>` tag. The banner is self-contained with no external dependencies — all styling and 20 localizations are built in. It auto-detects the visitor's browser language and displays a live countdown to the 2027 lockdown date.
 
 ## Basic usage
 

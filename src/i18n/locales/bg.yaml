@@ -41,7 +41,7 @@
 # [en] title: "Keep Android Open"
 title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "Предстои телефонът ви да спре да бъде ваш. През септември 2026 г. Google възнамерява да блокира всяко приложение за Android на разработчици, които не са регистрирани."
+description: "Предстои телефонът ви да спре да бъде ваш. През 2027 г. Google възнамерява да блокира всяко приложение за Android на разработчици, които не са регистрирани."
 
 # Hero
 # [en] hero_lede: "Your phone is about to stop being yours."
@@ -49,7 +49,7 @@ hero_lede: "Предстои телефонът ви да спре да бъде
 # [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "дни до заключването"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-hero_sub: "През септември 2026 г. Google, без да иска съгласието на потребителите, публикува тихомълком актуализация, която ще **блокира всяко приложение за Android** на разработчици, които не са регистрирани в Google и не са подписали съответните договори, не са платили съответните суми и не са предоставили личен документ."
+hero_sub: "През 2027[*](FAQ_URL) г. Google, без да иска съгласието на потребителите, публикува тихомълком актуализация, която ще **блокира всяко приложение за Android** на разработчици, които не са регистрирани в Google и не са подписали съответните договори, не са платили съответните суми и не са предоставили личен документ."
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Всяко приложение и всяко устройство по целия свят и без опция за отказ."
 
@@ -57,7 +57,7 @@ hero_kicker: "Всяко приложение и всяко устройство
 # [en] what_heading: "What Google is doing"
 what_heading: "Какво прави Google"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
-what_intro: "През август 2025 г. Google [обяви](https://developer.android.com/developer-verification) ново изискване: от септември 2026 г. **всеки разработчик на приложения за Android трябва да бъде централно регистриран в Google**, за да може софтуерът му да се инсталира на което и да е устройство. Не става въпрос само за приложения от Google Play Магазин, а за всички приложения. В това число влизат приложения, изпратени от приятели, разпространени през [F-Droid](https://f-droid.org), създадени от хоби разработчици за лична употреба. Всички независими разработчици, обществени и църковни групи и любители ще изгубят възможността да разработват и разпространяват софтуера си."
+what_intro: "През август 2025 г. Google [обяви](https://developer.android.com/developer-verification) ново изискване: от 2027 г. **всеки разработчик на приложения за Android трябва да бъде централно регистриран в Google**, за да може софтуерът му да се инсталира на което и да е устройство. Не става въпрос само за приложения от Google Play Магазин, а за всички приложения. В това число влизат приложения, изпратени от приятели, разпространени през [F-Droid](https://f-droid.org), създадени от хоби разработчици за лична употреба. Всички независими разработчици, обществени и църковни групи и любители ще изгубят възможността да разработват и разпространяват софтуера си."
 # [en] what_registration: "Registration requires:"
 what_registration: "За регистрация е необходимо следното:"
 # [en] what_req_fee: "Paying a fee to Google"
@@ -86,7 +86,7 @@ impact_you_p2: >-
 # [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "Независими разработчици"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-impact_dev_p1: "Няма значение дали ще става въпрос първото приложение на тийнейджър, инструмент за запазване на поверителността на доброволец, или за поверителна вътрешна бета версия на компания. След септември 2026 г. нищо от това няма да може да се инсталира без благословията на Google."
+impact_dev_p1: "Няма значение дали ще става въпрос първото приложение на тийнейджър, инструмент за запазване на поверителността на доброволец, или за поверителна вътрешна бета версия на компания. През 2027 г. нищо от това няма да може да се инсталира без благословията на Google."
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   Според [F-Droid](https://f-droid.org), където се намират хиляди безплатни приложения за Android с отворен код, това е [„екзистенциална заплаха“](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow го нарича [„Darth Android“](https://pluralistic.net/2025/09/01/fulu/).
@@ -365,3 +365,11 @@ site_problems_header: "Проблеми"
 site_report_issues: "Сигнал за проблем в страницата"
 # [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Прочетете нашето отворено писмо срещу програмата за проверка на разработчици в Android"
+
+# FAQ page
+footer_faq: "Въпроси и отговори"
+faq_title: "Често задавани въпроси"
+faq_description: "Често задавани въпроси относно програмата на Google за проверка на разработчиците за Android и предстоящото заключване на приложенията."
+faq_intro: "Отговори на често задавани въпроси относно програмата на Google за проверка на разработчиците за Android и заключването на приложенията. Ще продължим да допълваме тази страница с развитието на ситуацията."
+faq_q_datechange: "Защо датата на заключването се промени от септември 2026 г. на януари 2027 г.?"
+faq_a_datechange: "Първоначално беше обявено, че заключването ще започне през септември 2026 г. в четири първоначални държави. Оттогава то беше актуализирано, така че първоначалното въвеждане да се ограничи до конкретен списък от магазини за приложения за Android, който не включва F-Droid. Това означава, че активирането през септември НЯМА да засегне самия F-Droid, нито приложенията, инсталирани чрез F-Droid. Датата, на която заключването ще започне да засяга потребителите на F-Droid, все още не е публикувана. Ще поддържаме тази страница актуална с всякакви нови подробности за графика, които ни бъдат предоставени. За повече подробности вижте [често задаваните въпроси на Google относно проверката на разработчиците](https://developer.android.com/developer-verification/guides/faq#general)."

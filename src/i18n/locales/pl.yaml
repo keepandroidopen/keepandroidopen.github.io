@@ -74,7 +74,7 @@ hero_lede: "Twój telefon wkrótce przestanie być twój."
 hero_countdown_label: "dni do zamknięcia systemu"
 # hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-hero_sub: "Z początkiem września 2026 roku, cicha aktualizacja wymuszona przez Google bez zgody użytkowników, **zablokuje każdą aplikację na Androida** której twórca nie zarejestrował się w Google, nie podpisał umowy, nie zapłacił i nie przakazał danych z dowodu tożsamości."
+hero_sub: "Z początkiem 2027[*](FAQ_URL) roku, cicha aktualizacja wymuszona przez Google bez zgody użytkowników, **zablokuje każdą aplikację na Androida** której twórca nie zarejestrował się w Google, nie podpisał umowy, nie zapłacił i nie przakazał danych z dowodu tożsamości."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez możliwości rezygnacji."
@@ -84,7 +84,7 @@ hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez moż
 what_heading: "Co Google planuje"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
-  W sierpniu 2025 roku, Google [ogłosiło](https://developer.android.com/developer-verification) nowy wymóg: wraz z początkiem września 2026 roku **każdy programista aplikacji na Androida musi się zarejestrować w centralnym systemie Google** zanim jego aplikacja będzie mogła zostać zainstalowana na jakimkolwiek urządzeniu. Dotyczy to *wszystkich* aplikacji, nie tylko tych ze Sklepu Play. Aplikacje udostępniane miedzy przyjaciółmi, dystrybuowane przez F-Droida, stworzone przez hobbystów na użytek prywatny. Niezależni programiści, organizacje kościelne i społeczne, a także hobbyści - wszyscy zostaną pozbawieni możliwości tworzenia i dystrybucji swojego oprogramowania.
+  W sierpniu 2025 roku, Google [ogłosiło](https://developer.android.com/developer-verification) nowy wymóg: wraz z początkiem 2027 roku **każdy programista aplikacji na Androida musi się zarejestrować w centralnym systemie Google** zanim jego aplikacja będzie mogła zostać zainstalowana na jakimkolwiek urządzeniu. Dotyczy to *wszystkich* aplikacji, nie tylko tych ze Sklepu Play. Aplikacje udostępniane miedzy przyjaciółmi, dystrybuowane przez F-Droida, stworzone przez hobbystów na użytek prywatny. Niezależni programiści, organizacje kościelne i społeczne, a także hobbyści - wszyscy zostaną pozbawieni możliwości tworzenia i dystrybucji swojego oprogramowania.
 # [en] what_registration: "Registration requires:"
 what_registration: "Rejestracja wymaga:"
 # [en] what_req_fee: "Paying a fee to Google"
@@ -116,7 +116,7 @@ impact_you_p2: >-
 impact_dev_heading: "Niezależnym programistom"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 impact_dev_p1: >-
-  Pierwsza aplikacja nastolatka, narzędzie do ochrony prywatności stworzone przez wolontariusza, poufna wewnętrzna beta danej firmy - nie ma to żadnego znaczenia. Wraz z początkiem września 2026 roku, żadna z nich nie będzie mogła zostać zainstalowana bez błogosławieństwa firmy Google.
+  Pierwsza aplikacja nastolatka, narzędzie do ochrony prywatności stworzone przez wolontariusza, poufna wewnętrzna beta danej firmy - nie ma to żadnego znaczenia. W 2027 roku żadna z nich nie będzie mogła zostać zainstalowana bez błogosławieństwa firmy Google.
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), dom dla tysiąca darmowych i otwartoźródłowych aplikacji, nazwał to ["egzystencjonalnym" zagrożeniem](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow nazywa to ["Darth Androidem"](https://pluralistic.net/2025/09/01/fulu/).
@@ -301,7 +301,7 @@ closing_share_heading: "Przekaż to dalej"
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_1: >-
-  Od września 2026 r. Google zablokuje aplikacje na Androida, których twórcy nie zarejestrowali się ani nie przedstawili dokumentu tożsamości. Dotyczy to każdego urządzenia z Androidem. Więcej: {url} @AlteredDeal #KeepAndroidOpen
+  Od 2027 r. Google zablokuje aplikacje na Androida, których twórcy nie zarejestrowali się ani nie przedstawili dokumentu tożsamości. Dotyczy to każdego urządzenia z Androidem. Więcej: {url} @AlteredDeal #KeepAndroidOpen
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_2: >-
   Google: twórcy aplikacji Android muszą się zarejestrować, uiścić opłatę i pokazać dokument, inaczej ich aplikacje zostaną zablokowane. Ponad 67 organizacji się sprzeciwia. {url} @AlteredDeal #KeepAndroidOpen
@@ -331,7 +331,7 @@ social_callout_x_10: >-
   17 lat otwartości Androida jest w niebezpieczeństwie. Plan Google'a dotyczący blokowania niezweryfikowanych aplikacji stanowi bezpośredni cios dla F-Droida i niezależnego oprogramowania. Powstrzymajcie tę blokadę: {url} @AlteredDeal #KeepAndroidOpen
 # [en] social_callout_linkedin_1: "Starting September 2026, Google will require every Android app developer to register centrally and provide government-issued identification before their software can be installed on any device. This applies to all apps, not just those on the Play Store. over 67 organizations have signed an open letter opposing the policy. {url} #KeepAndroidOpen"
 social_callout_linkedin_1: >-
-  Od września 2026 r. firma Google będzie wymagać od wszystkich twórców aplikacji na Androida, aby zarejestrowali się w centralnym systemie i przedstawili dokument tożsamości wydany przez organ państwowy, zanim ich oprogramowanie będzie można zainstalować na jakimkolwiek urządzeniu. Dotyczy to wszystkich aplikacji, nie tylko tych dostępnych w Sklepie Play. Ponad 67 organizacji podpisało list otwarty, w którym sprzeciwiają się tej polityce. {url} #KeepAndroidOpen
+  Od 2027 r. firma Google będzie wymagać od wszystkich twórców aplikacji na Androida, aby zarejestrowali się w centralnym systemie i przedstawili dokument tożsamości wydany przez organ państwowy, zanim ich oprogramowanie będzie można zainstalować na jakimkolwiek urządzeniu. Dotyczy to wszystkich aplikacji, nie tylko tych dostępnych w Sklepie Play. Ponad 67 organizacji podpisało list otwarty, w którym sprzeciwiają się tej polityce. {url} #KeepAndroidOpen
 # [en] social_callout_linkedin_2: "Android's openness has been its distinguishing feature for nearly two decades. Google is now mandating developer registration for all Android apps, including those distributed through alternative stores like F-Droid. The EFF, FSF, Tor Project, and dozens of other organizations are raising serious concerns. {url} #KeepAndroidOpen"
 social_callout_linkedin_2: >-
   Otwartość systemu Android od prawie dwóch dekad stanowi jego cechę charakterystyczną. Google narzuca teraz obowiązek rejestracji przez programistów wszystkich aplikacji na Androida, w tym tych dystrybuowanych za pośrednictwem alternatywnych sklepów, takich jak F-Droid. Organizacje EFF, FSF, Tor Project i dziesiątki innych wyrażają poważne obawy. {url} #KeepAndroidOpen
@@ -361,7 +361,7 @@ social_callout_linkedin_10: >-
   W czasie gdy Google próbuje jeszcze bardziej umocnić swoją pozycję kontrolną, społeczność podejmuje działania w odpowiedzi. Twoje urządzenie powinno być Twoją własnością, a nie dzierżawionym terminalem podlegającym ograniczeniom wprowadzanym z mocą wsteczną. Dołącz do ruchu: {url} #KeepAndroidOpen
 # [en] social_callout_bluesky_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects all apps, not just Play Store apps. F-Droid calls it an \"existential threat.\" @keepandroidopen.bsky.social #KeepAndroidOpen {url}"
 social_callout_bluesky_1: >-
-  Od września 2026 r. Google zablokuje aplikacje na Androida, których twórcy nie zarejestrowali się i nie przedstawili dokumentu. Dotyczy wszystkich aplikacji, nie tylko Sklepu Play. F-Droid: 'egzystencjalne zagrożenie'. @keepandroidopen.bsky.social #KeepAndroidOpen {url}
+  Od 2027 r. Google zablokuje aplikacje na Androida, których twórcy nie zarejestrowali się i nie przedstawili dokumentu. Dotyczy wszystkich aplikacji, nie tylko Sklepu Play. F-Droid: 'egzystencjalne zagrożenie'. @keepandroidopen.bsky.social #KeepAndroidOpen {url}
 # [en] social_callout_bluesky_2: "Google is requiring all Android developers to register centrally, pay a fee, and submit government ID. Apps from unregistered developers will be silently blocked. over 67 organizations oppose this. @keepandroidopen.bsky.social {url}"
 social_callout_bluesky_2: >-
   Google wymaga od twórców aplikacji Android rejestracji, opłaty i dokumentu tożsamości. Aplikacje niezarejestrowanych będą po cichu blokowane. Ponad 67 organizacji wyraża sprzeciw. @keepandroidopen.bsky.social {url}
@@ -391,7 +391,7 @@ social_callout_bluesky_10: >-
   Od F-Droida po niezależnych programistów – cały ekosystem Androida jest zagrożony przez nowe zasady Google'a dotyczące obowiązkowej rejestracji. Dowiedz się, dlaczego ponad 67 organizacji sprzeciwia się temu: {url}
 # [en] social_callout_mastodon_1: "Starting September 2026, Google will require every Android app developer to register centrally, provide government ID, and submit signing keys. Apps from unregistered developers will be blocked on all certified devices worldwide. This threatens F-Droid, open-source distribution, and user autonomy. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
 social_callout_mastodon_1: >-
-  Począwszy od września 2026 r. Google będzie wymagać od wszystkich twórców aplikacji na Androida rejestracji w centralnym systemie, przedstawienia dokumentu tożsamości oraz przekazania kluczy podpisujących. Aplikacje od niezarejestrowanych twórców będą blokowane na wszystkich certyfikowanych urządzeniach na całym świecie. Stanowi to zagrożenie dla F-Droida, dystrybucji otwartego oprogramowania oraz autonomii użytkowników. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
+  Począwszy od 2027 r. Google będzie wymagać od wszystkich twórców aplikacji na Androida rejestracji w centralnym systemie, przedstawienia dokumentu tożsamości oraz przekazania kluczy podpisujących. Aplikacje od niezarejestrowanych twórców będą blokowane na wszystkich certyfikowanych urządzeniach na całym świecie. Stanowi to zagrożenie dla F-Droida, dystrybucji otwartego oprogramowania oraz autonomii użytkowników. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
 # [en] social_callout_mastodon_2: "Google's Android Developer Verification program requires government ID, signing keys, and a fee for any developer who wants their software installable on Android. The EFF calls app gatekeeping \"a pathway to censorship.\" over 67 organizations have signed an open letter opposing it. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
 social_callout_mastodon_2: >-
   Program weryfikacji programistów Androida od Google wymaga od każdego programisty dokumentu tożsamości, kluczy podpisujących i opłaty, by jego oprogramowanie można było zainstalować. EFF nazywa to 'drogą do cenzury'. Ponad 67 organizacji podpisało list otwarty przeciwko tej polityce. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
@@ -412,7 +412,7 @@ social_callout_mastodon_7: >-
   Jeśli kupiłeś sprzęt, to ty powinieneś mieć decydujący głos w sprawie oprogramowania. Plan Google'a dotyczący blokowania niezweryfikowanych aplikacji stanowi bezpośredni atak na suwerenność użytkowników. {url} @keepandroidopen@techhub.social #KeepAndroidOpen
 # [en] social_callout_mastodon_8: "Imagine a world where every small hobbyist or volunteer dev has to register with a global corporation just to share their work. That's the world Google is building for Android in 2026. {url} @keepandroidopen@techhub.social"
 social_callout_mastodon_8: >-
-  Wyobraź sobie świat, w którym każdy hobbysta czy programista-wolontariusz musi zarejestrować się w międzynarodowej korporacji, by móc udostępniać swoje prace. Właśnie taki świat tworzy Google dla systemu Android w 2026 roku. {url} @keepandroidopen@techhub.social
+  Wyobraź sobie świat, w którym każdy hobbysta czy programista-wolontariusz musi zarejestrować się w międzynarodowej korporacji, by móc udostępniać swoje prace. Właśnie taki świat tworzy Google dla systemu Android w 2027 roku. {url} @keepandroidopen@techhub.social
 # [en] social_callout_mastodon_9: "Google's 'advanced flow' for sideloading is a deterrence mechanism, not an escape hatch. 9 steps and a 24-hour wait for software you own? No thanks. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
 social_callout_mastodon_9: >-
   'Zaawansowana procedura' Google'a dotycząca instalacji z innych źródeł to mechanizm odstraszający, a nie furtka. 9 kroków i 24 godziny oczekiwania na oprogramowanie, które już posiadasz? Nie, dziękuję. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
@@ -421,7 +421,7 @@ social_callout_mastodon_10: >-
   Ponad 100 tysięcy osób i ponad 67 organizacji sprzeciwia się próbom Google'a, by ograniczyć dostęp do systemu Android. Dołącz do walki o prawdziwie otwarty ekosystem mobilny. {url} @keepandroidopen@techhub.social #KeepAndroidOpen
 # [en] social_callout_facebook_1: "Starting September 2026, Google will require every Android app developer to register centrally and provide government-issued identification. Apps from unregistered developers will be blocked on all certified Android devices worldwide. This applies to all apps, not just those on the Play Store. Learn more: {url}"
 social_callout_facebook_1: >-
-  Począwszy od września 2026 r. firma Google będzie wymagać od wszystkich twórców aplikacji na Androida centralnej rejestracji oraz przedstawienia rządowego dokumentu tożsamości. Aplikacje od niezarejestrowanych twórców będą blokowane na wszystkich certyfikowanych urządzeniach z systemem Android na całym świecie. Dotyczy to wszystkich aplikacji, nie tylko tych dostępnych w Sklepie Play. Dowiedz się więcej: {url}
+  Począwszy od 2027 r. firma Google będzie wymagać od wszystkich twórców aplikacji na Androida centralnej rejestracji oraz przedstawienia rządowego dokumentu tożsamości. Aplikacje od niezarejestrowanych twórców będą blokowane na wszystkich certyfikowanych urządzeniach z systemem Android na całym świecie. Dotyczy to wszystkich aplikacji, nie tylko tych dostępnych w Sklepie Play. Dowiedz się więcej: {url}
 # [en] social_callout_facebook_2: "F-Droid, the open-source Android app store used by millions, calls Google's developer verification an \"existential threat\" to its continued operation. over 67 organizations including the EFF, FSF, and Tor Project have signed an open letter opposing the policy. Learn why this matters: {url}"
 social_callout_facebook_2: >-
   F-Droid, otwarty sklep z aplikacjami na Androida, z którego korzystają miliony użytkowników, określa proces weryfikacji deweloperów wprowadzony przez Google jako »zagrożenie egzystencjalne« dla dalszego funkcjonowania sklepu. Ponad 67 organizacji, w tym EFF, FSF i Tor Project, podpisało list otwarty wyrażający sprzeciw wobec tej polityki. Dowiedz się, dlaczego ma to znaczenie: {url}
@@ -436,7 +436,7 @@ social_callout_facebook_5: >-
   Organizacja EFF określa kontrolę dostępu do aplikacji mianem 'drogi do cenzury'. System weryfikacji deweloperów wprowadzony przez Google dałby jednej firmie możliwość blokowania dowolnej aplikacji, stworzonej przez dowolnego dewelopera, na każdym certyfikowanym urządzeniu na całym świecie. Stwarza to precedens, który wykracza poza system Android i ma wpływ na przyszłość komputerów osobistych. {url}
 # [en] social_callout_facebook_6: "Your phone, your choice? Not if Google has its way. Starting in 2026, they plan to block any app whose developer hasn't registered and provided government ID. This affects everyone. {url}"
 social_callout_facebook_6: >-
-  Twój telefon, twój wybór? Nie, jeśli Google postawi na swoim. Od 2026 roku planują blokować każdą aplikację, której twórca nie zarejestrował się i nie przedstawił dokumentu tożsamości. Dotyczy to wszystkich. {url}
+  Twój telefon, twój wybór? Nie, jeśli Google postawi na swoim. Od 2027 roku planują blokować każdą aplikację, której twórca nie zarejestrował się i nie przedstawił dokumentu tożsamości. Dotyczy to wszystkich. {url}
 # [en] social_callout_facebook_7: "Google is retroactively locking down billions of devices that were sold as open platforms. This 'rug pull' threatens independent developers and alternative app stores like F-Droid. {url}"
 social_callout_facebook_7: >-
   Google z mocą wsteczną blokuje dostęp do miliardów urządzeń, które zostały sprzedane jako otwarte platformy. Ten 'rug pull' stanowi zagrożenie dla niezależnych programistów i alternatywnych sklepów z aplikacjami, takich jak F-Droid. {url}
@@ -500,3 +500,11 @@ footer_languages: "Angielski (+30 języków)"
 footer_help_translate: "Pomóż przetłumaczyć"
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "FAQ"
+faq_title: "Najczęściej zadawane pytania"
+faq_description: "Najczęściej zadawane pytania dotyczące programu weryfikacji deweloperów Androida firmy Google oraz nadchodzącej blokady aplikacji."
+faq_intro: "Odpowiedzi na najczęstsze pytania dotyczące programu weryfikacji deweloperów Androida firmy Google oraz blokady aplikacji. Będziemy rozbudowywać tę stronę w miarę rozwoju sytuacji."
+faq_q_datechange: "Dlaczego data blokady zmieniła się z września 2026 na styczeń 2027?"
+faq_a_datechange: "Początkowo blokada miała rozpocząć się we wrześniu 2026 roku w czterech pierwszych krajach. Od tego czasu została zaktualizowana tak, aby ograniczyć wstępne wdrożenie do określonej listy sklepów z aplikacjami na Androida, która nie obejmuje F-Droida. Oznacza to, że aktywacja we wrześniu NIE wpłynie na samego F-Droida ani na żadne aplikacje instalowane za jego pośrednictwem. Data, od której blokada zacznie dotyczyć użytkowników F-Droida, nie została jeszcze opublikowana. Będziemy aktualizować tę stronę o wszelkie nowe szczegóły dotyczące harmonogramu, które otrzymamy. Więcej szczegółów znajdziesz w [FAQ Google na temat weryfikacji deweloperów](https://developer.android.com/developer-verification/guides/faq#general)."

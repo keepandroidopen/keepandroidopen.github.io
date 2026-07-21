@@ -16,7 +16,7 @@ lockdown_banner: "Android deviendra une plateforme verrouillée"
 open_letter_cta: "Lisez notre lettre ouverte contre le programme de vérification des développeurs Android"
 ---
 
-En août 2025, Google a [annoncé](https://developer.android.com/developer-verification) que, à partir de septembre 2026,
+En août 2025, Google a [annoncé](https://developer.android.com/developer-verification) que, à partir de 2027,
 il ne sera plus possible de développer des applications pour la plateforme Android
 sans s'être préalablement enregistré auprès de Google.
 Cet enregistrement impliquera:
@@ -34,7 +34,7 @@ Cet enregistrement impliquera:
 
 ## Ce que cela signifie pour vos droits
 
-➤ Vous, **le consommateur**, avez acheté votre appareil Android en croyant à la promesse de Google : une plateforme informatique ouverte sur laquelle vous pouviez exécuter les logiciels de votre choix. Or, à partir de septembre 2026, Google déploiera sans votre consentement une mise à jour de votre système d’exploitation qui bloquera définitivement ce droit et vous laissera à la merci de son jugement quant aux logiciels auxquels vous êtes autorisé à faire confiance.
+➤ Vous, **le consommateur**, avez acheté votre appareil Android en croyant à la promesse de Google : une plateforme informatique ouverte sur laquelle vous pouviez exécuter les logiciels de votre choix. Or, à partir de 2027, Google déploiera sans votre consentement une mise à jour de votre système d’exploitation qui bloquera définitivement ce droit et vous laissera à la merci de son jugement quant aux logiciels auxquels vous êtes autorisé à faire confiance.
 
 ➤ Vous, **le créateur**, ne pourrez plus développer d’application et la partager directement avec vos amis, votre famille et votre communauté sans obtenir au préalable l’approbation de Google. La promesse d’Android – un argument marketing qui lui a permis de se démarquer de l’iPhone – a toujours reposé sur son ouverture. Mais Google estime manifestement exercer une emprise suffisante sur l’écosystème Android, ainsi qu’une influence réglementaire suffisante, pour pouvoir désormais abandonner ce principe en toute impunité et sans discrimination.
 
@@ -46,7 +46,7 @@ Cet enregistrement impliquera:
 
 Contrairement à une vague [mention](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) d'un éventuel "flux avancé" qui pourrait un jour permettre aux "utilisateurs expérimentés d'accepter les risques liés à l'installation de logiciels non vérifiés", la [description du programme](https://developer.android.com/developer-verification) par Google continue d'affirmer clairement que :
 
-> À partir de septembre 2026, Android exigera que toutes les applications soient enregistrées par des développeurs validés pour que les utilisateurs puissent les installer sur des appareils Android certifiés.
+> À partir de 2027, Android exigera que toutes les applications soient enregistrées par des développeurs validés pour que les utilisateurs puissent les installer sur des appareils Android certifiés.
 
 Tant qu'ils n'auront pas apporté la preuve qu'il sera possible de contourner le processus de vérification sans friction excessive, nous devons croire ce qui est indiqué sur leur page officielle : que **toutes** les applications de développeurs non enregistrés **seront bloquées** une fois que leur verrouillage entrera en vigueur.
 

@@ -17,7 +17,7 @@ open_letter_header: "List otwarty"
 open_letter_description: "List otwarty w obronie Androida jako wolnej, otwartej platformy."
 ---
 
-W sierpniu 2025 roku Google [ogłosiło](https://developer.android.com/developer-verification), że od września 2026
+W sierpniu 2025 roku Google [ogłosiło](https://developer.android.com/developer-verification), że od 2027 roku
 nie będzie już możliwe tworzenie aplikacji na platformę Android
 bez uprzedniej centralnej rejestracji w Google.
 Rejestracja ta będzie obejmować:
@@ -35,7 +35,7 @@ Rejestracja ta będzie obejmować:
 
 ## Co to oznacza dla Twoich praw
 
-➤ Ty, **konsumencie**, kupiłeś urządzenie z Androidem, wierząc w obietnicę Google, że jest to otwarta platforma komputerowa, na której możesz uruchamiać dowolne wybrane przez siebie oprogramowanie. Tymczasem od września 2026 r. Google bez Twojej zgody wymusi aktualizację systemu operacyjnego, która nieodwracalnie zablokuje to prawo. Pozostawi Cię to na łasce ich oceny, jakie oprogramowanie wolno Ci uznać za godne zaufania.
+➤ Ty, **konsumencie**, kupiłeś urządzenie z Androidem, wierząc w obietnicę Google, że jest to otwarta platforma komputerowa, na której możesz uruchamiać dowolne wybrane przez siebie oprogramowanie. Tymczasem od 2027 r. Google bez Twojej zgody wymusi aktualizację systemu operacyjnego, która nieodwracalnie zablokuje to prawo. Pozostawi Cię to na łasce ich oceny, jakie oprogramowanie wolno Ci uznać za godne zaufania.
 
 ➤ Ty, **twórco**, nie możesz już stworzyć aplikacji i udostępnić jej bezpośrednio znajomym, rodzinie czy społeczności bez wcześniejszej aprobaty Google. Obietnicą Androida — i przewagą marketingową, którą od zawsze wykorzystywała ta platforma, by odróżnić się od iPhone’a — była jego „otwartość”. Jednak Google najwyraźniej uznaje, że ma już wystarczająco silną pozycję w ekosystemie Androida oraz wpływ na regulatorów, by porzucić tę zasadę bez skrupułów i konsekwencji.
 
@@ -60,7 +60,7 @@ Rejestracja ta będzie obejmować:
 
 Cały ten proces jest realizowany przez Usługi Google Play, a nie przez system operacyjny Android. Oznacza to, że Google może go zmodyfikować, ograniczyć lub usunąć w dowolnym momencie bez potrzeby aktualizacji systemu i bez zgody użytkownika. Zaawansowany proces instalacji wciąż nie pojawił się w żadnej wersji beta Androida, wersji deweloperskiej ani wydaniu typu „canary”. Na dzień publikacji tej aktualizacji istnieje on jedynie jako wpis na blogu i makiety interfejsu. Od społeczności oczekuje się, że zaakceptuje zapowiedzi produktu jako funkcjonalne zabezpieczenie na pięć miesięcy przed wejściem w życie nowych wymogów.
 
-Dopóki Google nie udostępni gotowej implementacji, którą będzie można niezależnie zweryfikować, nasze stanowisko pozostaje niezmienne: **wszystkie** aplikacje od niezarejestrowanych deweloperów **zostaną zablokowane** wraz z wejściem w życie zapowiadanej blokady we wrześniu 2026 roku.
+Dopóki Google nie udostępni gotowej implementacji, którą będzie można niezależnie zweryfikować, nasze stanowisko pozostaje niezmienne: **wszystkie** aplikacje od niezarejestrowanych deweloperów **zostaną zablokowane** wraz z wejściem w życie zapowiadanej blokady w 2027 roku.
 
 </div>
 

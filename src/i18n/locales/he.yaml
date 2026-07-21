@@ -91,7 +91,7 @@ impact_you_heading: "בך"
 impact_dev_heading: "במפתחים עצמאיים"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 impact_dev_p1: >-
-  בין אם זה היישום הראשון של הנער או הנערה, כלי הפרטיות הקהילתי, או תוכנית הביתא הסגורה חֶברה טכנולוגית.  זה לא משנה. החל מספטמבר 2026, לא יהיה ניתן להתקין אף אחד מהיישומים האלה ללא אישורה של Google.
+  בין אם זה היישום הראשון של הנער או הנערה, כלי הפרטיות הקהילתי, או תוכנית הביתא הסגורה חֶברה טכנולוגית.  זה לא משנה. החל מ־2027, לא יהיה ניתן להתקין אף אחד מהיישומים האלה ללא אישורה של Google.
 # [en] voices_heading: "What they're saying"
 voices_heading: "מה הם אומרים"
 # [en] act_everyone_heading: "Everyone"
@@ -137,7 +137,7 @@ footer_add_banner: "הוספת באנר ספירה לאחור"
 # Meta
 
 # Hero
-hero_sub: "החל מספטמבר 2026, עדכון שקט, ש־Google תדחוף מבלי הסכמתך, **יחסום כל יישום לאנדרואיד** שהמפתחים שלו לא נרשמו אצל Google, חתמו על החוזה שלהם, שילמו, ומסרו להם את תעודת הזהות שלהם שהונפקה במשרדים הממשלתיים."
+hero_sub: "החל מ־2027[*](FAQ_URL), עדכון שקט, ש־Google תדחוף מבלי הסכמתך, **יחסום כל יישום לאנדרואיד** שהמפתחים שלו לא נרשמו אצל Google, חתמו על החוזה שלהם, שילמו, ומסרו להם את תעודת הזהות שלהם שהונפקה במשרדים הממשלתיים."
 hero_kicker: "כל היישומים בכל המכשירים, בכל רחבי העולם, מבלי אפשרות לבטל את החסימה."
 
 # What Google is doing
@@ -284,3 +284,11 @@ spread_label_facebook: "פייסבוק"
 # footer_take_action: "Take action & resources"
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "שאלות נפוצות"
+faq_title: "שאלות נפוצות"
+faq_description: "שאלות נפוצות על תוכנית אימות המפתחים של Google לאנדרואיד ועל נעילת היישומים המתקרבת."
+faq_intro: "תשובות לשאלות נפוצות על תוכנית אימות המפתחים של Google לאנדרואיד ועל נעילת היישומים. נמשיך להרחיב את העמוד הזה ככל שהמצב יתפתח."
+faq_q_datechange: "מדוע מועד הנעילה שונה מספטמבר 2026 לינואר 2027?"
+faq_a_datechange: "בתחילה נמסר כי הנעילה תיכנס לתוקף בספטמבר 2026 בארבע מדינות ראשונות. מאז הדבר עודכן, וההשקה הראשונית הוגבלה לרשימה מסוימת של חנויות יישומים לאנדרואיד, שאינה כוללת את F-Droid. משמעות הדבר היא שההפעלה בספטמבר לא תשפיע על F-Droid עצמו ולא על יישומים כלשהם שהותקנו דרכו. המועד שבו הנעילה תתחיל להשפיע על משתמשי F-Droid טרם פורסם. נמשיך לעדכן את העמוד הזה בכל פרט חדש על לוח הזמנים שיימסר לנו. לפרטים נוספים, ראו את [דף השאלות הנפוצות של Google בנושא אימות המפתחים](https://developer.android.com/developer-verification/guides/faq#general)."

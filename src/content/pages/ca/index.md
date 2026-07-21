@@ -17,7 +17,7 @@ open_letter_header: "Carta oberta"
 open_letter_description: "Una carta oberta per defensar Android com una plataforma lliure i oberta."
 ---
 
-L'agost de 2025, Google va [anunciar](https://developer.android.com/developer-verification) que, a partir del setembre de 2026, ja no serà possible desenvolupar aplicacions per a la plataforma Android sense registrar-se prèviament de manera centralitzada amb Google.
+L'agost de 2025, Google va [anunciar](https://developer.android.com/developer-verification) que, a partir del 2027, ja no serà possible desenvolupar aplicacions per a la plataforma Android sense registrar-se prèviament de manera centralitzada amb Google.
 
 Aquest registre implicarà:
 
@@ -36,7 +36,7 @@ Aquest registre implicarà:
 
 ➤ Tu, **com a consumidor**, vas comprar el teu dispositiu Android confiant en la promesa de Google que era una plataforma informàtica oberta i que hi podries executar qualsevol programari que triessis.
 
-En canvi, a partir del setembre de 2026, t’imposaran sense consentiment una actualització del sistema operatiu que bloquejarà irrevocablement aquest dret i et deixarà a mercè del seu criteri sobre quin programari et permeten considerar fiable.
+En canvi, a partir del 2027, t’imposaran sense consentiment una actualització del sistema operatiu que bloquejarà irrevocablement aquest dret i et deixarà a mercè del seu criteri sobre quin programari et permeten considerar fiable.
 
 ➤ Tu, **com a creador**, ja no podràs desenvolupar una aplicació i compartir-la directament amb amics, família i comunitat sense demanar abans l’aprovació de Google.
 
@@ -48,7 +48,7 @@ La promesa d'Android -i un avantatge de màrqueting que ha utilitzat per disting
 
 Malgrat una vaga [menció](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) d’un possible "flux avançat" que potser eventualment permeti que "usuaris experimentats acceptin els riscos d’instal·lar programari que no està verificat", la [descripció del programa](https://developer.android.com/developer-verification) de Google continua afirmant clarament que:
 
-> A partir del setembre de 2026, Android exigirà que totes les aplicacions estiguin registrades per desenvolupadors verificats per poder instal·lar-se en dispositius Android certificats
+> El 2027, Android exigirà que totes les aplicacions estiguin registrades per desenvolupadors verificats per poder instal·lar-se en dispositius Android certificats
 
 Fins que no demostrin amb proves que serà possible evitar el procés de verificació sense fricció indeguda, hem de creure el que diu la seva pàgina oficial: que **totes** les aplicacions de desenvolupadors no registrats **seran bloquejades** quan entri en vigor aquest tancament.
 

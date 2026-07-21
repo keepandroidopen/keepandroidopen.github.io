@@ -26,7 +26,7 @@ open_letter_description:
 
 Elokuussa 2025 Google
 [ilmoitti](https://developer.android.com/developer-verification), että
-syyskuusta 2026 alkaen Android-alustalle ei voi enää kehittää sovelluksia
+vuodesta 2027 alkaen Android-alustalle ei voi enää kehittää sovelluksia
 rekisteröitymättä keskitetysti Googlelle. Tämä rekisteröityminen edellyttää:
 
 - Maksun suorittamista Googlelle {:.li-list .li-money}
@@ -40,7 +40,7 @@ rekisteröitymättä keskitetysti Googlelle. Tämä rekisteröityminen edellytt�
 
 ➤ Sinä, **kuluttaja**, ostit Android-laitteen luottaen Googlen lupaukseen,
 että se olisi avoin alusta ja että voisit ajaa siinä mitä tahansa ohjelmistoa.
-Sen sijaan syyskuusta 2026 alkaen Google pakottaa käyttöjärjestelmääsi päivityksen,
+Sen sijaan vuodesta 2027 alkaen Google pakottaa käyttöjärjestelmääsi päivityksen,
 joka estää tämän oikeuden peruuttamattomasti ja jättää sinut Googlen armoille sen
 suhteen, mihin ohjelmistoihin sinun sallitaan luottaa.
 
@@ -68,7 +68,7 @@ mahdollisesta "edistyneestä prosessista", joka voi lopulta antaa "kokeneiden
 käyttäjien hyväksyä vahvistamattomien ohjelmistojen asentamisen riskit", Googlen
 [ohjelman kuvaus](https://developer.android.com/developer-verification) toteaa edelleen:
 
-> Syyskuusta 2026 alkaen Android vaatii, että kaikki sovellukset on rekisteröity
+> Vuodesta 2027 alkaen Android vaatii, että kaikki sovellukset on rekisteröity
 > vahvistettujen kehittäjien toimesta, jotta niitä voi asentaa sertifioituihin
 > Android-laitteisiin
 

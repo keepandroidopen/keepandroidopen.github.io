@@ -56,12 +56,17 @@ const shuffledSigs = shuffle(signatures as any[]);
 const sigCountryCount = new Set(signatures.map((s: any) => s.region).filter(Boolean)).size;
 
 // countdown
-const deadline = new Date('2026-09-30T00:00:00Z');
+const deadline = new Date('2027-01-01T00:00:00Z');
 const now = new Date();
 const daysLeft = Math.max(0, Math.ceil((deadline.getTime() - now.getTime()) / (1000 * 60 * 60 * 24)));
 
 const ctaPath = locale === 'en' ? '/cta/' : `/${locale}/cta/`;
 const homePath = locale === 'en' ? '/' : `/${locale}/`;
+const faqPath = locale === 'en' ? '/faq/' : `/${locale}/faq/`;
+
+// hero_sub carries a FAQ_URL placeholder for the asterisk footnote link;
+// resolve it to the locale-specific FAQ page path.
+const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
 ---
 <Base title={t.title} lang={locale} description={t.description}>
   {/* Head slot: pages can inject scripts (e.g. the redirect script) */}
@@ -82,7 +87,7 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
         <span class="countdown-number">{daysLeft}</span>
         <span class="countdown-label" set:html={t.hero_countdown_label} />
       </div>
-      <p class="hero-sub" set:html={t.hero_sub} />
+      <p class="hero-sub" set:html={heroSub} />
       <p class="hero-sub hero-kicker" set:html={t.hero_kicker} />
       <a href="#what" class="scroll-cue" aria-label="Read more">&#8595;</a>
 
@@ -328,6 +333,7 @@ const homePath = locale === 'en' ? '/' : `/${locale}/`;
           <ul>
             <li><a href={ctaPath}><Fragment set:html={t.footer_take_action} /></a></li>
             <li><a href="/open-letter"><Fragment set:html={t.footer_open_letter} /></a></li>
+            <li><a href={faqPath}><Fragment set:html={t.footer_faq} /></a></li>
             <li><a href="/banner"><Fragment set:html={t.footer_add_banner} /></a></li>
             <li><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank"><Fragment set:html={t.footer_sign_petition} /></a></li>
           </ul>

@@ -15,7 +15,7 @@ site_copyright: "**Diritti d'autore:** Nessuno. Quest'opera è soggetta alla lic
 open_letter_cta: "Leggi la nostra lettera aperta contro il programma di verifica degli sviluppatori Android"
 ---
 
-Nell'agosto 2025 Google [ha annunciato](https://developer.android.com/developer-verification) che a partire da settembre 2026
+Nell'agosto 2025 Google [ha annunciato](https://developer.android.com/developer-verification) che a partire dal 2027
 non sarà più possibile sviluppare applicazioni per la piattaforma Android senza prima registrarsi centralmente presso Google.
 Questa registrazione richiederà di:
 
@@ -32,7 +32,7 @@ Questa registrazione richiederà di:
 
 ## Cosa significa questo per i tuoi diritti
 
-➤ Tu, **il consumatore**, hai acquistato il tuo dispositivo Android credendo alla promessa di Google che si trattasse di una piattaforma informatica aperta e che avresti potuto eseguire qualsiasi software avessi scelto. Invece, a partire da settembre 2026, ti imporranno senza il tuo consenso un aggiornamento del sistema operativo che bloccherà irrevocabilmente questo diritto e ti lascerà in balia del loro giudizio su quali software potrai ritenere affidabili.
+➤ Tu, **il consumatore**, hai acquistato il tuo dispositivo Android credendo alla promessa di Google che si trattasse di una piattaforma informatica aperta e che avresti potuto eseguire qualsiasi software avessi scelto. Invece, a partire dal 2027, ti imporranno senza il tuo consenso un aggiornamento del sistema operativo che bloccherà irrevocabilmente questo diritto e ti lascerà in balia del loro giudizio su quali software potrai ritenere affidabili.
 
 ➤ Tu, **il creatore**, non potrai più sviluppare un'applicazione e condividerla direttamente con i tuoi amici, familiari e comunità senza prima ottenere l'approvazione di Google. La promessa di Android, e il vantaggio di marketing che ha sfruttato per distinguersi da iOS (iPhone), è sempre stata quella di essere "aperto". Tuttavia, Google ritiene chiaramente di avere un controllo sufficiente sull'ecosistema Android, insieme a un adeguato potere normativo, da poter abbandonare questo principio con pregiudizio e impunità.
 
@@ -44,7 +44,7 @@ Questa registrazione richiederà di:
 
 Contrariamente a un vago [accenno](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) a un possibile "flusso avanzato" che potrebbe eventualmente consentire agli "utenti esperti di accettare i rischi dell'installazione di software non verificato", la [descrizione del programma](https://developer.android.com/developer-verification) di Google continua a dichiarare chiaramente che:
 
-> A partire da settembre 2026, Android richiederà che tutte le app vengano registrate da sviluppatori verificati per poter essere installate su dispositivi Android certificati.
+> Nel 2027, Android richiederà che tutte le app vengano registrate da sviluppatori verificati per poter essere installate su dispositivi Android certificati.
 
 Fino a quando non avranno dimostrato con prove concrete che sarà possibile aggirare il processo di verifica senza eccessive difficoltà, dobbiamo credere a quanto dichiarato sulla loro pagina ufficiale: che **tutte** le app di sviluppatori non registrati **saranno bloccate** una volta che il loro blocco entrerà in vigore.
 

@@ -16,7 +16,7 @@ open_letter_header: "Åbent brev"
 open_letter_description: "Et åbent brev til at fremme Android som en fri og åben platform."
 ---
 
-I august 2025 [annoncerede](https://developer.android.com/developer-verification) Google, at det fra september 2026 ikke længere vil være muligt at udvikle apps til Android-platformen uden først at registrere sig hos Google.
+I august 2025 [annoncerede](https://developer.android.com/developer-verification) Google, at det fra 2027 ikke længere vil være muligt at udvikle apps til Android-platformen uden først at registrere sig hos Google.
 Denne registrering vil omfatte:
 
 - Betaling af et gebyr til Google
@@ -32,7 +32,7 @@ Denne registrering vil omfatte:
 
 ## Hvad det betyder for dine rettigheder
 
-➤ Du, **forbrugeren**, købte din Android-enhed i tillid til Googles løfte om, at det var en åben computerplatform, hvor du helt selv kunne bestemme, hvilken software du ville køre. Men fra september 2026 vil Google – uden dit samtykke – gennemtvinge installationen af en opdatering til dit operativsystem som permanent blokerer denne ret. Dette gør dig fuldstændig afhængig af Googles vurdering af, hvilke apps de tillader at du fremover må "stole på" og dermed installere på din enhed.
+➤ Du, **forbrugeren**, købte din Android-enhed i tillid til Googles løfte om, at det var en åben computerplatform, hvor du helt selv kunne bestemme, hvilken software du ville køre. Men fra 2027 vil Google – uden dit samtykke – gennemtvinge installationen af en opdatering til dit operativsystem som permanent blokerer denne ret. Dette gør dig fuldstændig afhængig af Googles vurdering af, hvilke apps de tillader at du fremover må "stole på" og dermed installere på din enhed.
 
 ➤ Du, **udvikleren**, vil ikke længere kunne udvikle en app og dele den direkte med venner, familie og dit fællesskab, uden først at få Googles godkendelse. Løftet ved Android – og et af de vigtigste argumenter, systemet har brugt for at adskille sig fra iPhone – har altid været dets åbenhed. Men Google mener åbenbart, at de nu har tilstrækkelig kontrol over Android-økosystemet og tilstrækkelig regulatorisk indflydelse til uden videre at kunne opgive dette princip.
 
@@ -58,7 +58,7 @@ Den 19. marts 2026 [offentliggjorde Google detaljer](https://android-developers.
 
 Hele dette flow leveres gennem Google Play Services, ikke Android-operativsystemet, hvilket betyder at Google kan ændre, begrænse eller fjerne det til enhver tid uden en operativsystemopdatering og uden brugerens samtykke. Det avancerede flow har endnu ikke været frigivet i Android beta, udvikler eller test-udgaver. På datoen for denne opdatering eksisterer det kun som et blogindlæg og brugerinterface-mockups. Google beder fællesskabet om at acceptere en featureannoncering som tilstrækkelig sikkerhed fem måneder før begrænsningen træder i kraft.
 
-Indtil Google leverer en implementation som kan verificeres uafhængigt forbliver vores standpunkt uændret: **alle** apps fra ikke-registrerede udviklere **vil blive blokeret** når nedlåsningen effektueres i september 2026.
+Indtil Google leverer en implementation som kan verificeres uafhængigt forbliver vores standpunkt uændret: **alle** apps fra ikke-registrerede udviklere **vil blive blokeret** når nedlåsningen effektueres i 2027.
 
 </div>
 

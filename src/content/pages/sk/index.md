@@ -15,7 +15,7 @@ site_copyright: "**Autorské práva:** Žiadne. Toto dielo je označené"
 open_letter_cta: "Prečítajte si náš otvorený list proti programu overovania vývojárov systému Android"
 ---
 
-V auguste 2025 spoločnosť Google [oznámila](https://developer.android.com/developer-verification), že k septembru 2026
+V auguste 2025 spoločnosť Google [oznámila](https://developer.android.com/developer-verification), že k roku 2027
 už nebude možné vyvíjať aplikácie pre platformu Android
 bez predchádzajúcej registrácie v centrálnej databáze spoločnosti Google.
 Táto registrácia bude zahŕňať:
@@ -34,7 +34,7 @@ Táto registrácia bude zahŕňať:
 
 ## Čo to znamená pre vaše práva
 
-➤ Vy, **spotrebiteľ**, ste si kúpili zariadenie Android, veriac sľubu spoločnosti Google, že ide o otvorenú počítačovú platformu a že na ňom môžete spúšťať akýkoľvek softvér, ktorý si vyberiete. Namiesto toho vám k septembru 2026 budú bez vášho súhlasu nútiť aktualizáciu operačného systému, ktorá toto právo neodvolateľne blokuje a ponecháva vás na milosť a nemilosť ich rozhodnutia o tom, ktorému softvéru môžete dôverovať.
+➤ Vy, **spotrebiteľ**, ste si kúpili zariadenie Android, veriac sľubu spoločnosti Google, že ide o otvorenú počítačovú platformu a že na ňom môžete spúšťať akýkoľvek softvér, ktorý si vyberiete. Namiesto toho vám k roku 2027 budú bez vášho súhlasu nútiť aktualizáciu operačného systému, ktorá toto právo neodvolateľne blokuje a ponecháva vás na milosť a nemilosť ich rozhodnutia o tom, ktorému softvéru môžete dôverovať.
 
 ➤ Vy, **tvorca**, už nebudete môcť vyvíjať aplikácie a zdieľať ich priamo so svojimi priateľmi, rodinou a komunitou bez toho, aby ste najskôr požiadali o súhlas Google. Sľubom Androidu – a marketingovou výhodou, ktorú využíval na odlíšenie sa od iPhone – bolo vždy to, že je „otvorený“. Google však zjavne cíti, že má dostatočnú kontrolu nad ekosystémom Androidu a dostatočný regulačný vplyv, aby mohol tento princíp bezohľadne a beztrestne zavrhnúť.
 
@@ -46,7 +46,7 @@ Táto registrácia bude zahŕňať:
 
 Na rozdiel od vágnej [zmienky](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) o možnom „pokročilom postupe", ktorý by nakoniec mohol umožniť „skúseným používateľom prijať riziká inštalácie softvéru, ktorý nie je overený", [opis programu](https://developer.android.com/developer-verification) od spoločnosti Google naďalej jednoznačne uvádza:
 
-> Od septembra 2026 bude Android vyžadovať, aby všetky aplikácie boli zaregistrované overenými vývojármi, aby ich bolo možné nainštalovať na certifikované zariadenia Android
+> V roku 2027 bude Android vyžadovať, aby všetky aplikácie boli zaregistrované overenými vývojármi, aby ich bolo možné nainštalovať na certifikované zariadenia Android
 
 Dovtedy, kým nepredložia dôkaz, že bude možné obísť proces overovania bez neprimeraných prekážok, musíme veriť tomu, čo je uvedené na ich oficiálnej stránke: že **všetky** aplikácie od neregistrovaných vývojárov **budú zablokované**, keď ich uzamknutie nadobudne účinnosť.
 

@@ -31,7 +31,7 @@
 
 # Meta
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "Zure mugikorrak zurea izateari utziko dio. 2026ko irailean, Google-ek beraiekin izena eman ez duen aplikazio garatzaile guztien Android aplikazioak bloketuko ditu."
+description: "Zure mugikorrak zurea izateari utziko dio. 2027an, Google-ek beraiekin izena eman ez duen aplikazio garatzaile guztien Android aplikazioak bloketuko ditu."
 
 # Hero
 # [en] hero_lede: "Your phone is about to stop being yours."
@@ -40,7 +40,7 @@ hero_lede: "Zure mugikorrak zurea izateari utziko dio."
 hero_countdown_label: "egun blokeorako"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  2026ko irailetik hasita, Google-ek bultzatutako baimenik gabeko eguneraketa isil batek, Google-ekin izena eman, beraien kontratua sinatu eta ordaindu ez duten garatzaileen **Android aplikazio guztiak blokeatuko ditu**.
+  2027tik[*](FAQ_URL) hasita, Google-ek bultzatutako baimenik gabeko eguneraketa isil batek, Google-ekin izena eman, beraien kontratua sinatu eta ordaindu ez duten garatzaileen **Android aplikazio guztiak blokeatuko ditu**.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Aplikazio guztiak eta gailu guztiak, mundu osoan zehar, bazterketarik gabe."
 
@@ -49,7 +49,7 @@ hero_kicker: "Aplikazio guztiak eta gailu guztiak, mundu osoan zehar, bazterketa
 what_heading: "Zer ari den Google egiten"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
-  2025eko abustuan, Google-ek irizpide berri bat [adierazi zuen](https://developer.android.com/developer-verification): 2026 irailetik hasita, **Android aplikazioen garatzaile guztiek Googlekin izena emanda egon behar dira** beraien softwarea edozein gailuetan instalatu ahal izan aurretik. Ez bakarrik Play Store-eko aplikazioak: aplikazio guztiak. Hau, lagunen artean partekatutako aplikazioak, [F-Droid](https://f-droid.org) bidez banatutakoak, afizionatuek erabilera pertsonalerako egindakoak barneratzen ditu. Garatzaile independenteak, talde komunitarioak eta afizionatuak beraien softwarea garatzeko eta banatzeko aukeratik ukatuak izango dira.
+  2025eko abustuan, Google-ek irizpide berri bat [adierazi zuen](https://developer.android.com/developer-verification): 2027tik hasita, **Android aplikazioen garatzaile guztiek Googlekin izena emanda egon behar dira** beraien softwarea edozein gailuetan instalatu ahal izan aurretik. Ez bakarrik Play Store-eko aplikazioak: aplikazio guztiak. Hau, lagunen artean partekatutako aplikazioak, [F-Droid](https://f-droid.org) bidez banatutakoak, afizionatuek erabilera pertsonalerako egindakoak barneratzen ditu. Garatzaile independenteak, talde komunitarioak eta afizionatuak beraien softwarea garatzeko eta banatzeko aukeratik ukatuak izango dira.
 # [en] what_registration: "Registration requires:"
 what_registration: "Izena emateako irizpideak:"
 # [en] what_req_fee: "Paying a fee to Google"
@@ -78,7 +78,7 @@ impact_you_p2: >-
 # [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "Garatzaile independenteak"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-impact_dev_p1: "Nerabe baten lehenengo aplikazioa, boluntario baten priatutasunerako tresna, edo konpainia baten ezkutuko beta bertsioa. Ez du azola. 2026ko irala geroztik, ezingo da hauetako batere ez instalatu Google-en onespenik gabe."
+impact_dev_p1: "Nerabe baten lehenengo aplikazioa, boluntario baten priatutasunerako tresna, edo konpainia baten ezkutuko beta bertsioa. Ez du azola. 2027an, ezingo da hauetako batere ez instalatu Google-en onespenik gabe."
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), milaka kode aske eta irekiko aplikazioen etxea dena, [mehatxu "existentziala"](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html) deitu du. Cory Doctorow-ek ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/) deitzen du.
@@ -390,3 +390,11 @@ footer_help_translate: "Lagundu itzultzen"
 # site_problems_header: "Problems"
 # site_report_issues: "Report Site Issues"
 # open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
+
+# FAQ page
+footer_faq: "FAQ"
+faq_title: "Maiz egindako galderak"
+faq_description: "Google-en Android garatzaileen egiaztapen-programari eta datorren aplikazio-blokeoari buruzko maiz egindako galderak."
+faq_intro: "Google-en Android garatzaileen egiaztapen-programari eta aplikazio-blokeoari buruzko ohiko galderen erantzunak. Egoerak aurrera egin ahala, orri hau zabaltzen jarraituko dugu."
+faq_q_datechange: "Zergatik aldatu da blokeoaren data 2026ko irailetik 2027ko urtarrilera?"
+faq_a_datechange: "Hasiera batean, blokeoa lehen lau herrialdetan 2026ko irailean hasiko zela adierazi zen. Geroztik, iragarpena eguneratu egin da, hasierako hedapena F-Droid barne hartzen ez duen Android aplikazio-denden zerrenda zehatz batera mugatzeko. Horrek esan nahi du irailean egingo den aktibazioak EZ duela inolako eraginik izango ez F-Droid-en beraren gain, ezta F-Droid bidez instalatutako aplikazioen gain ere. Oraindik ez da argitaratu blokeoa F-Droid-eko erabiltzaileei eragiten noiz hasiko zaien. Orri hau eguneratuta mantenduko dugu ematen zaizkigun epeen inguruko xehetasun berriekin. Xehetasun gehiagorako, ikusi [Google-en garatzaileen egiaztapenari buruzko ohiko galderak](https://developer.android.com/developer-verification/guides/faq#general)."

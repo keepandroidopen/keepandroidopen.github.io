@@ -50,14 +50,14 @@ open_letter_cta: "एंड्रॉइड डेवलपर सत्याप
 # [en] title: "Keep Android Open"
 title: "एंड्रॉइड को एक खुला प्लेटफार्म रखें"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "आपका फ़ोन अब आपका नहीं रहेगा। सितम्बर 2026 में गूगल हर उस एंड्राइड ऐप्प पर प्रतिबन्ध लगा देगा जिनके डेवेलपर्स ने उनके साथ पंजीकरण नहीं किया है।"
+description: "आपका फ़ोन अब आपका नहीं रहेगा। 2027 में गूगल हर उस एंड्राइड ऐप्प पर प्रतिबन्ध लगा देगा जिनके डेवेलपर्स ने उनके साथ पंजीकरण नहीं किया है।"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "आपका फ़ोन अब आपका नहीं रहेगा।"
 # [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "दिन बाकी हैं लॉकडाउन में"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  सितम्बर 2026 के शुरू होते ही, गूगल बड़े ही शान्ति से आपकी सहमति के बिना, **वे सारे एंड्राइड ऐप्प्स पर प्रतिबन्ध लगा देगा** जिनके डेवेलपर्स ने गूगल के साथ अपना पंजीकरण नहीं किया है, उनके अनुबंधों पर हस्ताक्षर नहीं किया, उन्हें पैसे नहीं दिए, **या फिर अपनी सरकारी पहचान पत्र (आधार कार्ड, पैन कार्ड आदि) न सौंपी हो।**
+  2027[*](FAQ_URL) के शुरू होते ही, गूगल बड़े ही शान्ति से आपकी सहमति के बिना, **वे सारे एंड्राइड ऐप्प्स पर प्रतिबन्ध लगा देगा** जिनके डेवेलपर्स ने गूगल के साथ अपना पंजीकरण नहीं किया है, उनके अनुबंधों पर हस्ताक्षर नहीं किया, उन्हें पैसे नहीं दिए, **या फिर अपनी सरकारी पहचान पत्र (आधार कार्ड, पैन कार्ड आदि) न सौंपी हो।**
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "हर ऐप और हर डिवाइस, दुनियाभर में, बिना किसी विकल्प के।"
 # [en] what_heading: "What Google is doing"
@@ -66,7 +66,7 @@ what_heading: "गूगल क्या कर रहा है?"
 what_intro: >-
   अगस्त 2025 में, गूगल ने एंड्राइड पर डेवेलप करने के लिए नई आवश्यकताओं की
   [घोषणा की](https://developer.android.com/developer-verification)
-  जिसके अनुसार: सितम्बर 2026 के शुरू होते ही, **हर एंड्राइड ऐप्प डेवलपर को केंद्रीय रूप से गूगल के साथ पंजीकृत होना होगा**
+  जिसके अनुसार: 2027 के शुरू होते ही, **हर एंड्राइड ऐप्प डेवलपर को केंद्रीय रूप से गूगल के साथ पंजीकृत होना होगा**
   इससे पहले कि उनके द्वारा बनाये गए सॉफ्टवेयर किसी भी डिवाइस पर इनस्टॉल हो सकें। सिर्फ प्लेस्टोर वाले ही ऐप्प्स नहीं, सभी ऐप्प्स।
   इसमें साथी-सहपाठियों के बीच शेयर किये गए ऐप्प्स भी आते हैं, और
   [F-Droid](https://f-droid.org)
@@ -101,7 +101,7 @@ impact_you_p2: >-
 # [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "स्वतंत्र डेवेलपर्स को"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-impact_dev_p1: "एक किशोर लड़के का पहला ऐप्प, एक वॉलंटियर का प्राइवेसी टूल, या एक कंपनी का गोपनीय बीटा। गूगल के आशीर्वाद के बिना सितम्बर 2026 के बाद आप उनमें से किसी भी प्रकार के ऐप्प इनस्टॉल नहीं कर पाएंगे।"
+impact_dev_p1: "एक किशोर लड़के का पहला ऐप्प, एक वॉलंटियर का प्राइवेसी टूल, या एक कंपनी का गोपनीय बीटा। गूगल के आशीर्वाद के बिना 2027 में आप उनमें से किसी भी प्रकार के ऐप्प इनस्टॉल नहीं कर पाएंगे।"
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), जो कि हज़ारों free और open-source ऐप्प्स का घर है,
@@ -420,3 +420,11 @@ footer_take_action: "कदम उठाएँ तथा संसाधन"
 footer_languages: "English (+ 30 भाषाएँ)"
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "FAQ"
+faq_title: "अक्सर पूछे जाने वाले प्रश्न"
+faq_description: "गूगल के एंड्रॉइड डेवलपर सत्यापन कार्यक्रम और आने वाली ऐप्प तालाबंदी के बारे में अक्सर पूछे जाने वाले प्रश्न।"
+faq_intro: "गूगल के एंड्रॉइड डेवलपर सत्यापन कार्यक्रम और ऐप्प तालाबंदी से जुड़े आम सवालों के जवाब। जैसे-जैसे स्थिति आगे बढ़ेगी, हम इस पेज को बढ़ाते रहेंगे।"
+faq_q_datechange: "तालाबंदी की तारीख सितंबर 2026 से बदलकर जनवरी 2027 क्यों की गई?"
+faq_a_datechange: "तालाबंदी को शुरू में चार शुरुआती देशों में सितंबर 2026 से लागू होने की बात कही गई थी। तब से इसे अपडेट कर दिया गया है ताकि शुरुआती रोलआउट को एंड्रॉइड ऐप स्टोर्स की एक विशिष्ट सूची तक सीमित रखा जाए, जिसमें F-Droid शामिल नहीं है। इसका मतलब है कि सितंबर में यह सक्रियण न तो स्वयं F-Droid को और न ही F-Droid के माध्यम से इंस्टॉल किए गए किसी ऐप को प्रभावित करेगा। जिस तारीख से तालाबंदी F-Droid उपयोगकर्ताओं को प्रभावित करना शुरू करेगी, वह अभी प्रकाशित नहीं हुई है। हमें जो भी नई समय-सीमा संबंधी जानकारी मिलेगी, हम इस पेज को उसके साथ अपडेट करते रहेंगे। अधिक जानकारी के लिए, [गूगल का डेवलपर सत्यापन FAQ](https://developer.android.com/developer-verification/guides/faq#general) देखें।"

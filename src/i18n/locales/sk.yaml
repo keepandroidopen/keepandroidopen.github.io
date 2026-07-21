@@ -34,7 +34,7 @@
 # [en] title: "Keep Android Open"
 title: "Udržme Android otvorený"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "Tvoj telefón sa čoskoro prestane správať ako tvoj. V septembri 2026 začne Google blokovať každú Android aplikáciu, ktorej vývojár sa u nich nezaregistroval."
+description: "Tvoj telefón sa čoskoro prestane správať ako tvoj. V roku 2027 začne Google blokovať každú Android aplikáciu, ktorej vývojár sa u nich nezaregistroval."
 # [en] contact_header: "Contact"
 contact_header: "Kontakt"
 # [en] contact_email: "Email"
@@ -68,12 +68,12 @@ open_letter_cta: "Prečítajte si náš otvorený list proti programu overovania
 # Hero
 hero_lede: "Tvoj telefón sa čoskoro prestane správať ako tvoj."
 hero_countdown_label: "dní do obmedzenia"
-hero_sub: "Od septembra 2026 začne Google prostredníctvom tichej aktualizácie, bez súhlasu používateľa, **blokovať všetky Android aplikácie**, ktorých vývojár nie je registrovaný, neodsúhlasil podmienky, nezaplatil poplatok a neidentifikoval sa oficiálnymi dokladmi."
+hero_sub: "Od roku 2027[*](FAQ_URL) začne Google prostredníctvom tichej aktualizácie, bez súhlasu používateľa, **blokovať všetky Android aplikácie**, ktorých vývojár nie je registrovaný, neodsúhlasil podmienky, nezaplatil poplatok a neidentifikoval sa oficiálnymi dokladmi."
 hero_kicker: "Každá aplikácia a každé zariadenie, globálne, bez možnosti odmietnuť."
 
 # What Google is doing
 what_heading: "Čo Google pripravuje"
-what_intro: "V auguste 2025 Google [oznámil](https://developer.android.com/developer-verification) novú požiadavku: od septembra 2026 bude musieť byť **každý vývojár Android aplikácií centrálne registrovaný u Googlu**, aby bolo možné jeho softvér nainštalovať na zariadenie. Netýka sa to len aplikácií v Play Store, ale všetkých aplikácií. Vrátane aplikácií zdieľaných medzi známymi, distribuovaných cez [F-Droid](https://f-droid.org) alebo vytvorených pre vlastné použitie. Nezávislí vývojári, komunitné projekty aj hobby tvorcovia tak môžu stratiť možnosť svoje aplikácie šíriť."
+what_intro: "V auguste 2025 Google [oznámil](https://developer.android.com/developer-verification) novú požiadavku: od roku 2027 bude musieť byť **každý vývojár Android aplikácií centrálne registrovaný u Googlu**, aby bolo možné jeho softvér nainštalovať na zariadenie. Netýka sa to len aplikácií v Play Store, ale všetkých aplikácií. Vrátane aplikácií zdieľaných medzi známymi, distribuovaných cez [F-Droid](https://f-droid.org) alebo vytvorených pre vlastné použitie. Nezávislí vývojári, komunitné projekty aj hobby tvorcovia tak môžu stratiť možnosť svoje aplikácie šíriť."
 what_registration: "Registrácia zahŕňa:"
 what_req_fee: "Zaplatenie poplatku Googlu"
 what_req_terms: "Súhlas s podmienkami Googlu"
@@ -88,7 +88,7 @@ impact_you_heading: "Teba"
 impact_you_p1: "Android si si kúpil aj preto, že bol otvorený. Mohol si si inštalovať aplikácie podľa vlastného výberu."
 impact_you_p2: "Google teraz tieto podmienky spätne mení, aj pre zariadenia, ktoré už vlastníš. Po zavedení zmien bude možné spúšťať len softvér, ktorý Google schváli — na zariadení, ktoré je tvojím majetkom."
 impact_dev_heading: "Nezávislí vývojári"
-impact_dev_p1: "Prvá aplikácia študenta, komunitný nástroj na ochranu súkromia alebo interná firemná aplikácia. Po septembri 2026 nebude možné tieto aplikácie nainštalovať bez schválenia Googlu."
+impact_dev_p1: "Prvá aplikácia študenta, komunitný nástroj na ochranu súkromia alebo interná firemná aplikácia. V roku 2027 nebude možné tieto aplikácie nainštalovať bez schválenia Googlu."
 impact_dev_p2: "[F-Droid](https://f-droid.org), ktorý združuje tisíce open-source aplikácií, označil tento krok za [\"existenciálnu hrozbu\"](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow ho nazýva [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_gov_heading: "Štáty a občianska spoločnosť"
 impact_gov_p1: "Google má [zdokumentovanú históriu](https://www.aclu.org/news/free-speech/app-store-oligopoly) vyhovovania požiadavkám vlád na odstránenie aplikácií. Tento model znamená, že softvér používaný aj vo verejnom sektore môže byť závislý od rozhodnutí jednej súkromnej spoločnosti."
@@ -200,3 +200,11 @@ footer_languages: "Angličtina (+30 jazykov)"
 footer_help_translate: "Pomôcť s prekladom"
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "FAQ"
+faq_title: "Často kladené otázky"
+faq_description: "Často kladené otázky o programe overovania vývojárov systému Android od spoločnosti Google a o pripravovanom uzamknutí aplikácií."
+faq_intro: "Odpovede na časté otázky o programe overovania vývojárov systému Android od spoločnosti Google a o uzamknutí aplikácií. Túto stránku budeme priebežne rozširovať, ako sa situácia bude vyvíjať."
+faq_q_datechange: "Prečo sa dátum uzamknutia zmenil zo septembra 2026 na január 2027?"
+faq_a_datechange: "Uzamknutie malo pôvodne začať v septembri 2026 v štyroch úvodných krajinách. Odvtedy bolo aktualizované tak, aby sa počiatočné zavedenie obmedzilo na konkrétny zoznam obchodov s aplikáciami pre Android, ktorý nezahŕňa F-Droid. To znamená, že aktivácia v septembri NEOVPLYVNÍ samotný F-Droid ani žiadne aplikácie nainštalované cez F-Droid. Dátum, ku ktorému uzamknutie začne ovplyvňovať používateľov F-Droidu, zatiaľ nebol zverejnený. Túto stránku budeme aktualizovať o všetky nové podrobnosti o časovom pláne, ktoré dostaneme. Ďalšie podrobnosti nájdete v [často kladených otázkach spoločnosti Google o overovaní vývojárov](https://developer.android.com/developer-verification/guides/faq#general)."

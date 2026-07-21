@@ -17,7 +17,7 @@ open_letter_header: "Thư ngỏ"
 open_letter_description: "Một bức thư ngỏ nhằm vận động để Android vẫn là một nền tảng tự do và mở."
 ---
 
-Vào tháng 8 năm 2025, Google đã [thông báo](https://developer.android.com/developer-verification) rằng từ tháng 9 năm 2026, sẽ **không thể cài đặt ứng dụng trên nền tảng Android nếu nhà phát triển chưa đăng ký tập trung với Google trước.**
+Vào tháng 8 năm 2025, Google đã [thông báo](https://developer.android.com/developer-verification) rằng từ năm 2027, sẽ **không thể cài đặt ứng dụng trên nền tảng Android nếu nhà phát triển chưa đăng ký tập trung với Google trước.**
 Việc đăng ký này sẽ bao gồm:
 
 * Trả phí cho Google
@@ -33,7 +33,7 @@ Việc đăng ký này sẽ bao gồm:
 
 ## Điều này có nghĩa gì đối với quyền của bạn
 
-➤ Bạn, **người tiêu dùng**, đã mua thiết bị Android của mình vì tin vào lời hứa của Google rằng đây là một nền tảng điện toán mở và bạn có thể chạy bất kỳ phần mềm nào bạn muốn. Nhưng từ tháng 9 năm 2026, họ sẽ đẩy một bản cập nhật hệ điều hành không có sự đồng ý của bạn, khiến quyền này bị chặn vĩnh viễn và buộc bạn phải phụ thuộc vào quyết định của họ về phần mềm nào được phép chạy.
+➤ Bạn, **người tiêu dùng**, đã mua thiết bị Android của mình vì tin vào lời hứa của Google rằng đây là một nền tảng điện toán mở và bạn có thể chạy bất kỳ phần mềm nào bạn muốn. Nhưng từ năm 2027, họ sẽ đẩy một bản cập nhật hệ điều hành không có sự đồng ý của bạn, khiến quyền này bị chặn vĩnh viễn và buộc bạn phải phụ thuộc vào quyết định của họ về phần mềm nào được phép chạy.
 
 ➤ Bạn, **người sáng tạo**, sẽ không còn có thể phát triển một ứng dụng và chia sẻ trực tiếp với bạn bè, gia đình và cộng đồng mà không cần sự chấp thuận của Google. Lời hứa của Android — và lợi thế marketing giúp nó khác với iPhone — luôn là nó "mở". Nhưng Google dường như tin rằng họ đã nắm đủ quyền kiểm soát hệ sinh thái Android và đủ ảnh hưởng về mặt pháp lý để có thể từ bỏ nguyên tắc này.
 

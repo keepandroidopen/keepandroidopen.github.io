@@ -1,0 +1,16 @@
+---
+/**
+ * Localized FAQ page at /{locale}/faq/.
+ * All content comes from the shared Faq layout.
+ */
+import Faq from '../../layouts/Faq.astro';
+import { languages } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return Object.entries(languages)
+    .map(([code]) => ({ params: { locale: code } }));
+}
+
+const { locale } = Astro.params;
+---
+<Faq locale={locale!} />

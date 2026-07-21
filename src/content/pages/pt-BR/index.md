@@ -15,7 +15,7 @@ site_copyright: "**Copyright:** Nenhum. Esse trabalho é marcado como"
 open_letter_cta: "Leia nossa carta aberta contra o programa de verificação de desenvolvedores Android"
 ---
 
-Em Agosto de 2025 o Google [anunciou](https://developer.android.com/developer-verification) que, a partir de setembro de 2026,
+Em Agosto de 2025 o Google [anunciou](https://developer.android.com/developer-verification) que, a partir de 2027,
 não será mais possível desenvolver apps para a plataforma Android
 sem primeiro registrar-se de forma centralizada com o Google.
 Esse registro envolverá:
@@ -33,7 +33,7 @@ Esse registro envolverá:
 
 ## O que isso significa para os seus direitos
 
-➤ Você, **consumidor**, comprou seu dispositivo Android acreditando na promessa do Google de que era uma plataforma de computação aberta e que você poderia executar qualquer software que escolhesse. Em vez disso, a partir de setembro de 2026, eles estarão forçando, sem consentimento, uma atualização em seu sistema operacional que bloqueia irrevogavelmente esse direito e o deixa à mercê do julgamento deles sobre quais softwares você pode confiar.
+➤ Você, **consumidor**, comprou seu dispositivo Android acreditando na promessa do Google de que era uma plataforma de computação aberta e que você poderia executar qualquer software que escolhesse. Em vez disso, a partir de 2027, eles estarão forçando, sem consentimento, uma atualização em seu sistema operacional que bloqueia irrevogavelmente esse direito e o deixa à mercê do julgamento deles sobre quais softwares você pode confiar.
 
 ➤ Você, **criador**, não pode mais desenvolver um aplicativo e compartilhá-lo diretamente com seus amigos, familiares e comunidade sem antes buscar a aprovação da Google. A promessa do Android — e uma vantagem de marketing que a empresa usou para se distinguir do iPhone — sempre foi a de que ele é “aberto“. Mas a Google claramente sente que tem controle suficiente sobre o ecossistema Android, junto com uma captura regulatória adequada, para poder descartar esse princípio com preconceito e impunidade.
 
@@ -58,7 +58,7 @@ Em 19 de Março de 2026, o Google [publicou detalhes](https://android-developers
 
 Todo esse fluxo é fornecido pelo Google Play Services, não pelo sistema Android, o que significa que o Google pode modificá-lo, restringi-lo ou removê-lo a qualquer momento sem uma atualização do sistema e sem o consentimento do usuário. O fluxo avançado ainda não apareceu em nenhuma versão beta, prévia para desenvolvedores ou canary do Android. Na data desta atualização, ele existe apenas como um post de blog e designs de interface. A comunidade está sendo convidada a aceitar um anúncio de produto como uma salvaguarda funcional cinco meses antes de a exigência entrar em vigor.
 
-Até que o Google forneça uma implementação que possa ser verificada de forma independente, nossa posição permanece inalterada: **todos** os aplicativos de desenvolvedores não registrados **serão bloqueados** quando o bloqueio entrar em vigor em setembro de 2026.
+Até que o Google forneça uma implementação que possa ser verificada de forma independente, nossa posição permanece inalterada: **todos** os aplicativos de desenvolvedores não registrados **serão bloqueados** quando o bloqueio entrar em vigor em 2027.
 
 </div>
 

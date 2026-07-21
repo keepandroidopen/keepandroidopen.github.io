@@ -17,7 +17,7 @@ open_letter_header: "公開信"
 open_letter_description: "倡導 Android 該當一個自由、開放平臺之公開信。"
 ---
 
-2025 年八月，Google [宣佈](https://developer.android.com/developer-verification?hl=zh-tw) 自 2026 年九月開始，除非先集中於 Google 註冊，否則將不再可能開發應用程式供 Android 平臺上使用。此註冊將涉及：
+2025 年八月，Google [宣佈](https://developer.android.com/developer-verification?hl=zh-tw) 自 2027 年開始，除非先集中於 Google 註冊，否則將不再可能開發應用程式供 Android 平臺上使用。此註冊將涉及：
 
 - 向 Google 支付費用
 {:.li-list .li-money}
@@ -32,7 +32,7 @@ open_letter_description: "倡導 Android 該當一個自由、開放平臺之公
 
 ## 這對你的權利來說意味著什麼
 
-➤ 您，**作為一名消費者**，您曾相信著 Google 做過的承諾並購入了 Android 裝置，那個開放的運算平台以及讓你得以運行任何你選擇的軟體的承諾。但，2026 年 9 月 起，他們將會在未經你同意的前提下推送更新至你的系統，而且不可逆的剝奪你的權利，還使你任由他們擺布，基於他們認為你被允許信任哪些軟體的判斷。
+➤ 您，**作為一名消費者**，您曾相信著 Google 做過的承諾並購入了 Android 裝置，那個開放的運算平台以及讓你得以運行任何你選擇的軟體的承諾。但，2027 年起，他們將會在未經你同意的前提下推送更新至你的系統，而且不可逆的剝奪你的權利，還使你任由他們擺布，基於他們認為你被允許信任哪些軟體的判斷。
 
 ➤ 您，**作為一名開發者**，在沒有尋求 Google 允許的前提下，將無法再開發 App 並直接分享給你的朋友、家人、和社群。Android 的承諾 —— 以及它在與 Apple 競爭時經常被作為市場優勢的區別 —— 一直都是他的「開放」 。但 Google 顯然感覺到他們已經牢牢掌握 Android 生態系，再加上足夠的監管俘虜，他們現在可以有恃無恐的背棄這個原則。
 
@@ -44,7 +44,7 @@ open_letter_description: "倡導 Android 該當一個自由、開放平臺之公
 
 與一則含糊的[提及](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html)所述的可能存在的「進階流程」——該流程或許最終將允許「有經驗的使用者接受安裝未經驗證的軟體的風險」——相反，Google 對該計畫的[描述](https://developer.android.com/developer-verification?hl=zh-tw)仍然明確指出：
 
-> 從 2026年9月開始，Android 將要求所有應用程式都必須由經過驗證的開發者註冊，才能安裝在已獲認證的 Android 裝置上。
+> 從 2027 年開始，Android 將要求所有應用程式都必須由經過驗證的開發者註冊，才能安裝在已獲認證的 Android 裝置上。
 
 在他們提供證據表明可以在沒有過度阻礙的情況下繞過驗證流程之前，我們必須相信其官方頁面上所述的內容：一旦其政策生效，來自未註冊開發者的**所有**應用程式**都將被封鎖**。
 

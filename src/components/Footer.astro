@@ -1,7 +1,9 @@
 ---
 import { markdownify } from '../i18n/config';
+import { getLandingStrings } from '../i18n/locales';
 
 interface Props {
+  lang?: string;
   contact_header?: string;
   contact_email?: string;
   site_problems_header?: string;
@@ -12,6 +14,7 @@ interface Props {
 }
 
 const {
+  lang = "en",
   contact_header = "Contact",
   contact_email = "Email",
   site_problems_header = "Problems",
@@ -20,6 +23,11 @@ const {
   site_privacy = "**Privacy:** This site uses no cookies and performs no user tracking or logging.",
   site_copyright = "**Copyright:** None. This work is marked",
 } = Astro.props;
+
+// Localized FAQ link (falls back to English label/path)
+const t = getLandingStrings(lang);
+const faqLabel = t.footer_faq || "FAQ";
+const faqHref = lang === "en" ? "/faq/" : `/${lang}/faq/`;
 ---
 <footer>
   <div style="display: flex; flex-wrap: wrap; justify-content: space-between; padding-top: 2em; margin-left: auto; margin-right: auto;">
@@ -34,6 +42,7 @@ const {
         <li style="list-style: none; margin-bottom: 5px;">Twitter: <a target="_blank" href="https://x.com/AlteredDeal" style="text-decoration: none;">@AlteredDeal</a></li>
         <li style="list-style: none; margin-bottom: 5px;">LinkedIn: <a target="_blank" href="https://linkedin.com/company/keepandroidopen" style="text-decoration: none;">keepandroidopen</a></li>
         <li style="list-style: none; margin-bottom: 5px;">{site_problems_header}: <a target="_blank" href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" style="text-decoration: none;">{site_report_issues}</a></li>
+        <li style="list-style: none; margin-bottom: 5px;"><a href={faqHref} style="text-decoration: none;"><Fragment set:html={faqLabel} /></a></li>
         <li style="list-style: none; margin-bottom: 5px;"><a href="/banner" style="text-decoration: none;">Add countdown banner to your site</a></li>
       </ul>
     </div>

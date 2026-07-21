@@ -71,7 +71,7 @@ hero_lede: "Din mobiltelefon stopper snart med at være din."
 # hero_countdown_label: "days until lockdown"
 hero_countdown_label: "dage til nedlåsning"
 # hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-hero_sub: "I september 2026 vil en usynlig opdatering, som installeres af Google uden dit samtykke, **blokere enhver Android-app** hvis udvikler ikke har registreret sig hos Google, underskrevet deres kontrakt, betalt et gebyr og fremvist statslig identifikation."
+hero_sub: "I 2027[*](FAQ_URL) vil en usynlig opdatering, som installeres af Google uden dit samtykke, **blokere enhver Android-app** hvis udvikler ikke har registreret sig hos Google, underskrevet deres kontrakt, betalt et gebyr og fremvist statslig identifikation."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Enhver app og enhver enhed, verdensomspændende, uden nogen mulighed for omgåelse."
 
@@ -79,7 +79,7 @@ hero_kicker: "Enhver app og enhver enhed, verdensomspændende, uden nogen muligh
 # what_heading: "What Google is doing"
 what_heading: "Hvad Google har gang i"
 # what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
-what_intro: "I august 2025 [annoncerede](https://developer.android.com/developer-verification) Google et nyt krav: fra september 2026 **skal alle Android-appudviklere registrere sig centralt hos Google** før deres software kan installeres på nogen som helst enhed. Ikke bare apps hentet fra Play Store: alle apps. Dette inkluderer apps delt mellem venner, distribueret gennem [F-Droid](https://f-droid.org) eller bygget af entusiaster til personligt brug. Uafhængige udviklere, kirker og almennyttige foreninger, hobbybrugere og deslige vil alle blive udelukket fra at udvikle og distribuere deres software."
+what_intro: "I august 2025 [annoncerede](https://developer.android.com/developer-verification) Google et nyt krav: fra 2027 **skal alle Android-appudviklere registrere sig centralt hos Google** før deres software kan installeres på nogen som helst enhed. Ikke bare apps hentet fra Play Store: alle apps. Dette inkluderer apps delt mellem venner, distribueret gennem [F-Droid](https://f-droid.org) eller bygget af entusiaster til personligt brug. Uafhængige udviklere, kirker og almennyttige foreninger, hobbybrugere og deslige vil alle blive udelukket fra at udvikle og distribuere deres software."
 # what_registration: "Registration requires:"
 what_registration: "Registrering kræver:"
 # what_req_fee: "Paying a fee to Google"
@@ -107,7 +107,7 @@ impact_you_p2: "Google omskriver nu aftalen, med tilbagevirkende kraft, gældend
 # impact_dev_heading: "Independent developers"
 impact_dev_heading: "Uafhængige udviklere"
 # impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-impact_dev_p1: "En teenagers første app, en frivilligs privatlivsværktøj eller et firmas fortrolige interne betaversion. Brugen er underordnet. Efter september 2026 kan ingen af disse installeres uden Googles velsignelse."
+impact_dev_p1: "En teenagers første app, en frivilligs privatlivsværktøj eller et firmas fortrolige interne betaversion. Brugen er underordnet. I 2027 kan ingen af disse installeres uden Googles velsignelse."
 # impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: "[F-Droid](https://f-droid.org), som er hjem for tusinder af fri og open source Android-apps, har kaldt dette en [\"eksistentiel\" trussel](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow kalder det [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 # impact_gov_heading: "Governments & civil society"
@@ -357,3 +357,11 @@ footer_languages: "engelsk (+ 30 sprog)"
 footer_help_translate: "Hjælp med at oversætte"
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "FAQ"
+faq_title: "Ofte stillede spørgsmål"
+faq_description: "Ofte stillede spørgsmål om Googles Android-udviklerverifikationsprogram og den kommende app-nedlåsning."
+faq_intro: "Svar på almindelige spørgsmål om Googles Android-udviklerverifikationsprogram og app-nedlåsningen. Vi udbygger løbende denne side, efterhånden som situationen udvikler sig."
+faq_q_datechange: "Hvorfor blev datoen for nedlåsningen ændret fra september 2026 til januar 2027?"
+faq_a_datechange: "Nedlåsningen blev oprindeligt oplyst at træde i kraft i september 2026 i fire indledende lande. Den er siden blevet opdateret, så den indledende udrulning begrænses til en specifik liste af Android-appbutikker, som ikke omfatter F-Droid. Det betyder, at aktiveringen i september IKKE vil påvirke F-Droid selv eller nogen apps, der er installeret gennem F-Droid. Datoen, hvor nedlåsningen begynder at påvirke F-Droid-brugere, er endnu ikke offentliggjort. Vi vil holde denne side opdateret med alle nye oplysninger om tidsplanen, som vi modtager. For flere detaljer, se [Googles FAQ om udviklerverifikation](https://developer.android.com/developer-verification/guides/faq#general)."

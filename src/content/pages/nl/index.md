@@ -17,7 +17,7 @@ open_letter_header: "Open brief"
 open_letter_description: "Een open brief die pleit voor Android als een vrij, open platform."
 ---
 
-In augustus 2025 [kondigde](https://developer.android.com/developer-verification) Google aan dat het vanaf september 2026
+In augustus 2025 [kondigde](https://developer.android.com/developer-verification) Google aan dat het vanaf 2027
 niet langer mogelijk zal zijn om apps voor het Android-platform te ontwikkelen
 zonder je eerst centraal bij Google te registreren.
 Deze registratie zal het volgende omvatten:
@@ -35,7 +35,7 @@ Deze registratie zal het volgende omvatten:
 
 ## Wat dit betekent voor jouw rechten
 
-➤ Jij, **als consument**, hebt je Android-apparaat gekocht in de overtuiging van Google's belofte dat het een open platform was en dat je er welke software dan ook op kon draaien die je zelf kiest. In plaats daarvan zullen ze vanaf september 2026 zonder jouw instemming een update naar je besturingssysteem pushen die dit recht onherroepelijk blokkeert en je overlevert aan hun oordeel over welke software jij mag vertrouwen.
+➤ Jij, **als consument**, hebt je Android-apparaat gekocht in de overtuiging van Google's belofte dat het een open platform was en dat je er welke software dan ook op kon draaien die je zelf kiest. In plaats daarvan zullen ze vanaf 2027 zonder jouw instemming een update naar je besturingssysteem pushen die dit recht onherroepelijk blokkeert en je overlevert aan hun oordeel over welke software jij mag vertrouwen.
 
 ➤ Jij, **als maker**, kunt niet langer een app ontwikkelen en die rechtstreeks delen met je vrienden, familie en gemeenschap zonder eerst Google's goedkeuring te vragen. De belofte van Android — en een marketingvoordeel dat het heeft gebruikt om zich te onderscheiden van de iPhone — is altijd geweest dat het "open" is. Maar Google vindt duidelijk dat ze genoeg grip hebben op het Android-ecosysteem, samen met voldoende regelgevende beïnvloeding, dat ze dit principe nu bewust en zonder gevolgen overboord kunnen gooien.
 
@@ -60,7 +60,7 @@ Op 19 maart 2026 heeft Google [details gepubliceerd](https://android-developers.
 
 Deze hele procedure wordt verzorgd door Google Play Services (niet het Android-besturingssysteem), wat betekent dat Google deze op elk moment kan wijzigen, beperken of verwijderen zonder een OS-update en zonder toestemming van de gebruiker. De "advanced flow" is nog steeds niet verschenen in een Android-bèta, developer preview of canary-release. Op het moment van berichtgeving bestaat deze alleen als blogbericht en UI-ontwerp. Van de community wordt verwacht een productaankondiging te accepteren als functionele waarborg, vijf maanden voordat de verplichting van kracht wordt.
 
-Totdat Google een implementatie levert die onafhankelijk kan worden geverifieerd, blijft ons standpunt ongewijzigd: **alle** apps van niet-geregistreerde ontwikkelaars **zullen worden geblokkeerd** zodra de blokkade in september 2026 van kracht wordt.
+Totdat Google een implementatie levert die onafhankelijk kan worden geverifieerd, blijft ons standpunt ongewijzigd: **alle** apps van niet-geregistreerde ontwikkelaars **zullen worden geblokkeerd** zodra de blokkade in 2027 van kracht wordt.
 
 </div>
 

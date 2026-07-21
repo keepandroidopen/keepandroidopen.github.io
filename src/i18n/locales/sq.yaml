@@ -35,21 +35,21 @@
 title: "Mbani Android të Hapur"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
-  Telefoni yt është duke pushuar së qeni yt. Në shtator 2026, Google do të bllokojë çdo aplikacion Android që zhvilluesi i tij nuk është regjistruar pranë tyre.
+  Telefoni yt është duke pushuar së qeni yt. Në vitin 2027, Google do të bllokojë çdo aplikacion Android që zhvilluesi i tij nuk është regjistruar pranë tyre.
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Telefoni yt është duke pushuar së qeni yt."
 # [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "ditë deri në bllokim"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  Duke filluar nga shtatori 2026, një përditësim i heshtur, i shtyrë nga Google pa pëlqimin tënd, do të **bllokojë çdo aplikacion Android** që zhvilluesi i tij nuk është regjistruar pranë Google, nuk ka nënshkruar kontratën e tyre, nuk ka paguar dhe nuk ka dorëzuar dokument identifikimi qeveritar.
+  Duke filluar nga viti 2027[*](FAQ_URL), një përditësim i heshtur, i shtyrë nga Google pa pëlqimin tënd, do të **bllokojë çdo aplikacion Android** që zhvilluesi i tij nuk është regjistruar pranë Google, nuk ka nënshkruar kontratën e tyre, nuk ka paguar dhe nuk ka dorëzuar dokument identifikimi qeveritar.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Çdo aplikacion dhe çdo pajisje, në mbarë botën, pa mundësi zgjedhjeje."
 # [en] what_heading: "What Google is doing"
 what_heading: "Çfarë po bën Google"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
-  Në gusht 2025, Google [njoftoi](https://developer.android.com/developer-verification) një kërkesë të re: duke filluar nga shtatori 2026, **çdo zhvillues aplikacionesh Android duhet të regjistrohet qendroisht pranë Google** para se softueri i tyre të mund të instalohet në çdo pajisje. Jo vetëm aplikacionet e Play Store: të gjitha aplikacionet. Kjo përfshin aplikacionet e ndara mes miqsh, të shpërndara përmes [F-Droid](https://f-droid.org), të ndërtuara nga amatorë për përdorim personal. Zhvilluesit e pavarur, grupet fetare dhe komunitare, dhe amatorët do të jenë të gjithë të përjashtuar nga mundësia për të zhvilluar dhe shpërndarë softuerin e tyre.
+  Në gusht 2025, Google [njoftoi](https://developer.android.com/developer-verification) një kërkesë të re: duke filluar nga viti 2027, **çdo zhvillues aplikacionesh Android duhet të regjistrohet qendroisht pranë Google** para se softueri i tyre të mund të instalohet në çdo pajisje. Jo vetëm aplikacionet e Play Store: të gjitha aplikacionet. Kjo përfshin aplikacionet e ndara mes miqsh, të shpërndara përmes [F-Droid](https://f-droid.org), të ndërtuara nga amatorë për përdorim personal. Zhvilluesit e pavarur, grupet fetare dhe komunitare, dhe amatorët do të jenë të gjithë të përjashtuar nga mundësia për të zhvilluar dhe shpërndarë softuerin e tyre.
 # [en] what_registration: "Registration requires:"
 what_registration: "Regjistrimi kërkon:"
 # [en] what_req_fee: "Paying a fee to Google"
@@ -79,7 +79,7 @@ impact_you_p2: >-
 impact_dev_heading: "Zhvilluesit e pavarur"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 impact_dev_p1: >-
-  Aplikacioni i parë i një adoleshenti, një mjet privatësie i një vullnetari, ose një beta e brendshme konfidenciale e një kompanie. Nuk ka rëndësi. Pas shtatorit 2026, asnjëra nga këto nuk mund të instalohet pa bekimin e Google.
+  Aplikacioni i parë i një adoleshenti, një mjet privatësie i një vullnetari, ose një beta e brendshme konfidenciale e një kompanie. Nuk ka rëndësi. Në vitin 2027, asnjëra nga këto nuk mund të instalohet pa bekimin e Google.
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), shtëpia e mijëra aplikacioneve falas dhe me burim të hapur për Android, e ka quajtur këtë një [kërcënim "ekzistencial"](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow e quan ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/).
@@ -375,3 +375,11 @@ open_letter_cta: "Lexoni letërën tonë të hapur që kundërshton programin e 
 # Footer
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "FAQ"
+faq_title: "Pyetjet e Bëra Shpesh"
+faq_description: "Pyetje të bëra shpesh rreth programit të Google për verifikimin e zhvilluesve të Android dhe bllokimit të ardhshëm të aplikacioneve."
+faq_intro: "Përgjigje për pyetjet e zakonshme rreth programit të Google për verifikimin e zhvilluesve të Android dhe bllokimit të aplikacioneve. Ne do të vazhdojmë ta zgjerojmë këtë faqe ndërsa situata zhvillohet."
+faq_q_datechange: "Pse ndryshoi data e bllokimit nga shtatori 2026 në janarin 2027?"
+faq_a_datechange: "Fillimisht u deklarua se bllokimi do të fillonte në shtator 2026 në katër vende fillestare. Që atëherë, ai është përditësuar për të kufizuar shtrirjen fillestare në një listë specifike dyqanesh aplikacionesh Android, e cila nuk përfshin F-Droid. Kjo do të thotë se aktivizimi në shtator NUK do të prekë vetë F-Droid-in ose ndonjë aplikacion të instaluar përmes F-Droid. Data në të cilën bllokimi do të fillojë të prekë përdoruesit e F-Droid nuk është publikuar ende. Ne do ta mbajmë këtë faqe të përditësuar me çdo detaj të ri të afatit kohor që na jepet. Për më shumë detaje, shihni [FAQ-në e Google për verifikimin e zhvilluesve](https://developer.android.com/developer-verification/guides/faq#general)."

@@ -1,0 +1,92 @@
+---
+/**
+ * Shared FAQ page layout used by both /faq/ and /{locale}/faq/.
+ *
+ * The FAQ is data-driven: `faqSlugs` lists the questions in display order,
+ * and each slug maps to a `faq_q_<slug>` / `faq_a_<slug>` pair in the locale
+ * YAML files (src/i18n/locales/*.yaml). To add a new question, add a slug
+ * here and define the two keys in en.yaml (plus any translations). Missing
+ * keys fall back to English automatically.
+ */
+import Base from './Base.astro';
+import ThemeToggle from '../components/ThemeToggle.astro';
+import LanguagePicker from '../components/LanguagePicker.astro';
+import BackArrow from '../components/BackArrow.astro';
+import Footer from '../components/Footer.astro';
+import { getLandingStrings } from '../i18n/locales';
+import '../styles/landing.css';
+
+interface Props {
+  locale: string;
+}
+
+const { locale } = Astro.props;
+const t = getLandingStrings(locale);
+
+// Ordered list of FAQ entries. Add a slug to grow the FAQ.
+const faqSlugs = ['datechange'];
+const faqItems = faqSlugs
+  .map((slug) => ({ slug, q: t[`faq_q_${slug}`], a: t[`faq_a_${slug}`] }))
+  .filter((item) => item.q && item.a);
+---
+<Base title={t.faq_title} lang={locale} description={t.faq_description}>
+  <nav class="topbar">
+    <div class="topbar-left">
+      <BackArrow />
+      <ThemeToggle />
+    </div>
+    <LanguagePicker locale={locale} suffix="faq/" />
+  </nav>
+  <main>
+    <h1 set:html={t.faq_title} />
+    {t.faq_intro && <p class="faq-intro" set:html={t.faq_intro} />}
+    <div class="faq-list">
+      {faqItems.map((item) => (
+        <section class="faq-item" id={item.slug}>
+          <h2 class="faq-question" set:html={item.q} />
+          <div class="faq-answer" set:html={item.a} />
+        </section>
+      ))}
+    </div>
+  </main>
+  <Footer lang={locale} />
+</Base>
+
+<style>
+  .faq-intro {
+    max-width: 48rem;
+    margin: 0 auto 2.5rem;
+    text-align: center;
+    opacity: 0.85;
+  }
+  .faq-list {
+    max-width: 48rem;
+    margin: 0 auto;
+  }
+  .faq-item {
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--pico-muted-border-color, #dee2e6);
+  }
+  .faq-item:first-child {
+    border-top: none;
+  }
+  .faq-question {
+    font-size: 1.35rem;
+    margin: 0 0 0.75rem;
+    scroll-margin-top: 1rem;
+  }
+  /* Neutralize the decorative rules the Base stylesheet adds to headings */
+  .faq-question::before,
+  .faq-question::after {
+    content: none;
+  }
+  .faq-answer {
+    line-height: 1.65;
+  }
+  .faq-answer :global(p) {
+    margin: 0 0 1rem;
+  }
+  .faq-answer :global(p:last-child) {
+    margin-bottom: 0;
+  }
+</style>

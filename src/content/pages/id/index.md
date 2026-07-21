@@ -17,7 +17,7 @@ open_letter_header: "Surat Terbuka"
 open_letter_description: "Surat terbuka untuk mendukung Android sebagai platform gratis dan terbuka."
 ---
 
-Pada Agustus 2025, Google [mengumumkan](https://developer.android.com/developer-verification) bahwa mulai September 2026,
+Pada Agustus 2025, Google [mengumumkan](https://developer.android.com/developer-verification) bahwa mulai 2027,
 pengembang tidak lagi dapat mengembangkan aplikasi untuk platform Android
 tanpa terlebih dahulu mendaftar secara terpusat di Google.
 Pendaftaran ini akan melibatkan:
@@ -35,7 +35,7 @@ Pendaftaran ini akan melibatkan:
 
 ## Apa artinya ini bagi hak-hak Anda
 
-➤ Anda, **sebagai konsumen**, membeli perangkat Android Anda dengan keyakinan bahwa Google menjanjikan platform komputasi terbuka dan Anda dapat menjalankan perangkat lunak apa pun yang Anda pilih di atasnya. Namun, mulai September 2026, mereka akan memaksa pembaruan sistem operasi ke perangkat Anda tanpa persetujuan Anda, yang secara permanen memblokir hak ini dan membuat Anda bergantung pada keputusan mereka mengenai perangkat lunak apa yang diizinkan untuk Anda percayai.
+➤ Anda, **sebagai konsumen**, membeli perangkat Android Anda dengan keyakinan bahwa Google menjanjikan platform komputasi terbuka dan Anda dapat menjalankan perangkat lunak apa pun yang Anda pilih di atasnya. Namun, mulai 2027, mereka akan memaksa pembaruan sistem operasi ke perangkat Anda tanpa persetujuan Anda, yang secara permanen memblokir hak ini dan membuat Anda bergantung pada keputusan mereka mengenai perangkat lunak apa yang diizinkan untuk Anda percayai.
 
 ➤ Anda, **sebagai pengembang**, tidak lagi dapat mengembangkan aplikasi dan membagikannya langsung kepada teman, keluarga, dan komunitas Anda tanpa terlebih dahulu mendapatkan persetujuan dari Google. Janji Android — dan keunggulan pemasaran yang telah digunakan untuk membedakannya dari iPhone —  adalah bahwa sistem ini “terbuka”. Namun, Google tampaknya merasa bahwa mereka telah memiliki kendali yang cukup atas ekosistem Android, ditambah dengan penguasaan regulasi yang memadai, sehingga mereka kini dapat mengabaikan prinsip ini dengan seenaknya dan tanpa konsekuensi.
 
@@ -47,7 +47,7 @@ Pendaftaran ini akan melibatkan:
 
 Bertentangan dengan [penyebutan](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) yang samar tentang kemungkinan "alur lanjutan" yang pada akhirnya dapat memungkinkan "pengguna berpengalaman untuk menerima risiko menginstal perangkat lunak yang tidak terverifikasi", [deskripsi program](https://developer.android.com/developer-verification) Google terus menyatakan dengan jelas bahwa:
 
-> Mulai September 2026, Android akan mewajibkan semua aplikasi didaftarkan oleh developer terverifikasi agar dapat diinstal di perangkat Android bersertifikasi.
+> Mulai 2027, Android akan mewajibkan semua aplikasi didaftarkan oleh developer terverifikasi agar dapat diinstal di perangkat Android bersertifikasi.
 
 Sampai mereka menunjukkan bukti bahwa akan memungkinkan untuk melewati proses verifikasi tanpa hambatan yang berlebihan, kita harus mempercayai apa yang tertulis di halaman resmi mereka: bahwa **semua** aplikasi dari pengembang yang tidak terdaftar **akan diblokir** setelah penguncian mereka berlaku.
 

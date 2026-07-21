@@ -30,6 +30,7 @@
     ar:      "سيصبح نظام أندرويد منصة مغلقة في",
     he:      "אנדרואיד תהפוך לפלטפורמה נעולה בעוד",
     en:      "Android will become a locked-down platform in",
+    mn:      "Андройд энэ хугацааны дараа Google Play Store-оос бусад апп татаж чадахгүй болно.",
     ca:      "Android es convertir\u00E0 en una plataforma tancada",
     cs:      "Android se stane uzamčenou platformou za",
     de:      "Android wird eine geschlossene Plattform werden.",
@@ -292,7 +293,7 @@
   }
 
   // ── Countdown logic ───────────────────────────────────────────────────
-  var countDownDate = new Date("Sep 30, 2026 00:00:00").getTime();
+  var countDownDate = new Date("Jan 1, 2027 00:00:00").getTime();
 
   var unitFormatters = {
     day: new Intl.NumberFormat(locale, { style: "unit", unit: "day", unitDisplay: "narrow" }),

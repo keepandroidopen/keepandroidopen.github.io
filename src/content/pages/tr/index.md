@@ -15,7 +15,7 @@ site_copyright: "**Telif Hakkı**: Telif hakkı yoktur. Bu çalışma kamu malı
 open_letter_cta: "Android Geliştirici Doğrulama programına karşı açık mektubumuzu okuyun"
 ---
 
-Ağustos 2025 tarihinde Google, Eylül 2026 itibarıyla önceden
+Ağustos 2025 tarihinde Google, 2027 itibarıyla önceden
 ile merkezi kayıt yaptırılmadan Android platformu için uygulama
 geliştirmenin mümkün olmayacağını beyan etmiştir.
 Bu kayıt, şunlara sebep olacaktır:
@@ -33,7 +33,7 @@ Bu kayıt, şunlara sebep olacaktır:
 
 ## Bu, haklarınız için ne anlama gelir
 
-➤ **Bir tüketici** olarak siz, Android cihazınızı Google'ın Android için seçtiğiniz her türlü yazılımı çalıştırabileceğiniz açık bir bilgisayar platformu olduğu vaadine inanarak satın aldınız. Bunun yerine, Google gelecek seneden itibaren karşılıklı rıza olmadan işletim sisteminize bu hakkı geri alınamaz bir şekilde engelleyen bir güncelleme yapacak ve bu sizi, hangi yazılıma güvenebileceğinize izin verilmesi mevzusunda onların kararına tabi bırakacaktır.
+➤ **Bir tüketici** olarak siz, Android cihazınızı Google'ın Android için seçtiğiniz her türlü yazılımı çalıştırabileceğiniz açık bir bilgisayar platformu olduğu vaadine inanarak satın aldınız. Bunun yerine, Google 2027 itibarıyla karşılıklı rıza olmadan işletim sisteminize bu hakkı geri alınamaz bir şekilde engelleyen bir güncelleme yapacak ve bu sizi, hangi yazılıma güvenebileceğinize izin verilmesi mevzusunda onların kararına tabi bırakacaktır.
 
 ➤ **Bir geliştirici** olarak siz, önceden Google'ın onayını almadan artık uygulama geliştirip arkadaşlarınız, aileniz ve topluluk ile paylaşamayacaksınız. Android'in vaadi — ve kendisini iPhone'dan ayırmak için kullandığı pazarlama avantajı — daima onun "açık" oluşuydu. Ancak Google açıkça düzenleme kontrolü beraber Android ekosistemi üzerinde yeteri kadar kontrol elde ettiğini düşünüyor, ki bu ilkeyi artık sonuçlarına katlanmak zorunda kalmadan bir kenara atmayı göze alıyor.
 
@@ -45,7 +45,7 @@ Bu kayıt, şunlara sebep olacaktır:
 
 Sonunda "deneyimli kullanıcıların doğrulanmamış yazılım yükleme risklerini kabul etmesine" olanak tanıyabilecek olası bir "gelişmiş akış"a dair belirsiz bir [atıfın](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) aksine, Google'ın [programın tanımı](https://developer.android.com/developer-verification) açıkça şu ifadeyi kullanmaya devam etmektedir:
 
-> Android, Eylül 2026'dan itibaren sertifikalı Android cihazlara yüklenebilmesi için tüm uygulamaların doğrulanmış geliştiriciler tarafından kaydedilmiş olmasını zorunlu kılacaktır.
+> Android, 2027'den itibaren sertifikalı Android cihazlara yüklenebilmesi için tüm uygulamaların doğrulanmış geliştiriciler tarafından kaydedilmiş olmasını zorunlu kılacaktır.
 
 Doğrulama sürecini aşırı zorluk olmadan atlamanın mümkün olacağına dair kanıt gösterene kadar, resmî sayfalarında belirtilenin doğru olduğuna inanmalıyız: kayıtlı olmayan geliştiricilerin **tüm** uygulamaları, kilitlenme yürürlüğe girdiğinde **engellenecektir**.
 

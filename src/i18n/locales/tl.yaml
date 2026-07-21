@@ -249,3 +249,11 @@ open_letter_cta: "Basahin ang aming open letter na tumututol sa programa ng Andr
 # footer_help_translate: "Help translate"
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "FAQ"
+faq_title: "Mga Madalas Itanong"
+faq_description: "Mga madalas itanong tungkol sa programa ng Google para sa Android developer verification at ang paparating na app lockdown."
+faq_intro: "Mga sagot sa mga karaniwang tanong tungkol sa programa ng Google para sa Android developer verification at sa app lockdown. Patuloy naming palalawakin ang pahinang ito habang umuusad ang sitwasyon."
+faq_q_datechange: "Bakit nagbago ang petsa ng lockdown mula Setyembre 2026 patungong Enero 2027?"
+faq_a_datechange: "Ang lockdown ay unang sinabing magsisimula sa Setyembre 2026 sa apat na paunang bansa. Mula noon, ito ay na-update upang limitahan ang paunang rollout sa isang tiyak na listahan ng mga Android app store, na hindi kasama ang F-Droid. Nangangahulugan ito na ang aktibasyon sa Setyembre ay HINDI makakaapekto sa F-Droid mismo o sa anumang mga app na na-install sa pamamagitan ng F-Droid. Ang petsa kung kailan magsisimulang maapektuhan ng lockdown ang mga gumagamit ng F-Droid ay hindi pa nailalathala. Patuloy naming ia-update ang pahinang ito sa anumang bagong detalye ng timeline na ibibigay sa amin. Para sa karagdagang detalye, tingnan ang [FAQ ng Google para sa developer verification](https://developer.android.com/developer-verification/guides/faq#general)."

@@ -18,7 +18,7 @@ open_letter_header: "Open Letter"
 open_letter_description: "Isang open letter para isulong ang Android bilang isang libre at bukas na plataporma."
 ---
 
-Noong Agosto 2025, [inanunsyo](https://developer.android.com/developer-verification) ng Google na simula Setyembre 2026,
+Noong Agosto 2025, [inanunsyo](https://developer.android.com/developer-verification) ng Google na simula 2027,
 hindi na posible mag-develop ng mga Android app para
 nang hindi muna nagrerehistro sa Google.
 Kasama sa rehistrasyon na ito ang:
@@ -36,7 +36,7 @@ Kasama sa rehistrasyon na ito ang:
 
 ## Ano ang ibig sabihin nito para sa iyong mga karapatan
 
-➤ Ikaw, **ang konsyumer**, ay bumili ng Android device na may paniniwalang totoo ang pangako ng Google na ito ay isang bukas na plataporma at maaari kang magpatakbo ng anumang software na gusto mo. Sa halip, simula Setyembre 2026, magpu-push ng update ang Google sa iyong operating system na permanenteng haharang sa karapatang ito at ilalagay ka sa awa ng kanilang desisyon kung aling software ang pwede mong pagkatiwalaan.
+➤ Ikaw, **ang konsyumer**, ay bumili ng Android device na may paniniwalang totoo ang pangako ng Google na ito ay isang bukas na plataporma at maaari kang magpatakbo ng anumang software na gusto mo. Sa halip, simula 2027, magpu-push ng update ang Google sa iyong operating system na permanenteng haharang sa karapatang ito at ilalagay ka sa awa ng kanilang desisyon kung aling software ang pwede mong pagkatiwalaan.
 
 ➤ Ikaw, **bilang developer o taga-gawa ng application**, ay hindi na makakapag-develop ng app at ibahagi ito nang direkta sa iyong mga kaibigan, pamilya, at komunidad nang hindi muna humihingi ng pahintulot sa Google. Ang pangako ng Android — bilang "marketing strategy" nito upang mas makilala laban sa iPhone — ay mula pa noong una, sila ay "open". Ngunit malinaw sa announcement na ito galing sa Google na hindi sapat ang hawak nila sa ekosistema ng Android, kasama ang hindi sapat na regulatory capture, na maaari na nilang itapon ang prinsipyong ito nang walang pag-aalinlangan at walang pananagutan.
 
@@ -48,7 +48,7 @@ Kasama sa rehistrasyon na ito ang:
 
 Sa kabila ng isang malabong [pagbanggit](https://android-developers.googleblog.com/2025/11/android-developer-verification-early.html) ng isang posibleng "advanced flow" na maaaring mag-allow sa "mga may-karanasang gumagamit na tanggapin ang mga panganib ng pag-install ng software na hindi na-verify", ang [deskripsyon ng programa](https://developer.android.com/developer-verification) ng Google ay patuloy na nagsasaad nang malinaw na:
 
-> Simula Setyembre 2026, kinakailangan ng Android na lahat ng app ay nakarerehistro sa mga na-verify na developer upang mai-install sa mga sertipikadong Android device
+> Simula 2027, kinakailangan ng Android na lahat ng app ay nakarerehistro sa mga na-verify na developer upang mai-install sa mga sertipikadong Android device
 
 Hangga't hindi nila naipapakita ang ebidensya na posibleng ma-bypass ang proseso ng verification nang walang labis na kahirapan, dapat nating paniwalaan ang nakasaad sa kanilang official page: na **lahat** ng app mula sa mga hindi nakarehistrong developer ay **haharangin** kapag ang kanilang lock-down ay mapasatupad.
 

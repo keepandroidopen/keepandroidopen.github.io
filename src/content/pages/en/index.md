@@ -17,7 +17,7 @@ open_letter_header: "Open Letter"
 open_letter_description: "An open letter to advocate for Android as a free, open platform."
 ---
 
-In August 2025, Google [announced](https://developer.android.com/developer-verification) that as of September 2026,
+In August 2025, Google [announced](https://developer.android.com/developer-verification) that as of 2027,
 it will no longer be possible to develop apps for the Android platform
 without first registering centrally with Google.
 This registration will involve:
@@ -35,7 +35,7 @@ This registration will involve:
 
 ## What this means for your rights
 
-➤ You, **the consumer**, purchased your Android device believing in Google’s promise that it was an open computing platform and that you could run whatever software you choose on it. Instead, as of September 2026, they will be non-consensually pushing an update to your operating system that irrevocably blocks this right and leaves you at the mercy of their judgement over what software you are permitted to trust.
+➤ You, **the consumer**, purchased your Android device believing in Google’s promise that it was an open computing platform and that you could run whatever software you choose on it. Instead, as of 2027, they will be non-consensually pushing an update to your operating system that irrevocably blocks this right and leaves you at the mercy of their judgement over what software you are permitted to trust.
 
 ➤ You, **the creator**, can no longer develop an app and share it directly with your friends, family, and community without first seeking Google’s approval. The promise of Android — and a marketing advantage it has used to distinguish itself against the iPhone — has always been that it is “open”. But Google clearly feels that they have enough of a lock on the Android ecosystem, along with sufficient regulatory capture, that they can now jettison this principle with prejudice and impunity.
 
@@ -60,7 +60,7 @@ On March 19, 2026, Google [published details](https://android-developers.googleb
 
 This entire flow is delivered through Google Play Services, not the Android OS, meaning Google can modify, restrict, or remove it at any time without an OS update and without any user consent. The advanced flow has still not appeared in any Android beta, dev preview, or canary release. As of the date of this update, it exists only as a blog post and UI mockups. The community is being asked to accept a product announcement as a functional safeguard five months before the mandate takes effect.
 
-Until Google provides a shipping implementation that can be independently verified, our position remains unchanged: **all** apps from non-registered developers **will be blocked** once their lockdown goes into effect in September 2026.
+Until Google provides a shipping implementation that can be independently verified, our position remains unchanged: **all** apps from non-registered developers **will be blocked** once their lockdown goes into effect in 2027.
 
 </div>
 

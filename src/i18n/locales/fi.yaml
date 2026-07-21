@@ -248,3 +248,11 @@ open_letter_cta: "Lue avoin kirjeemme, jossa vastustamme Android-kehittäjien va
 # footer_help_translate: "Help translate"
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "UKK"
+faq_title: "Usein kysytyt kysymykset"
+faq_description: "Usein kysytyt kysymykset Googlen Android-kehittäjien vahvistusohjelmasta ja tulevasta sovelluslukituksesta."
+faq_intro: "Vastauksia yleisiin kysymyksiin Googlen Android-kehittäjien vahvistusohjelmasta ja sovelluslukituksesta. Laajennamme tätä sivua tilanteen kehittyessä."
+faq_q_datechange: "Miksi lukituksen päivämäärä muuttui syyskuusta 2026 tammikuuhun 2027?"
+faq_a_datechange: "Lukituksen ilmoitettiin alun perin alkavan syyskuussa 2026 neljässä ensimmäisessä maassa. Sittemmin sitä on päivitetty rajaamaan ensimmäinen käyttöönotto tiettyyn joukkoon Android-sovelluskauppoja, joihin F-Droid ei kuulu. Tämä tarkoittaa, että syyskuun aktivointi EI vaikuta itse F-Droidiin eikä mihinkään F-Droidin kautta asennettuun sovellukseen. Päivämäärää, jolloin lukitus alkaa vaikuttaa F-Droidin käyttäjiin, ei ole vielä julkaistu. Pidämme tämän sivun ajan tasalla kaikista uusista aikataulutiedoista, joita saamme. Lisätietoja on [Googlen kehittäjävahvistuksen UKK-sivulla](https://developer.android.com/developer-verification/guides/faq#general)."
