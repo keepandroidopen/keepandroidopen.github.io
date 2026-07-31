@@ -1,5 +1,5 @@
 title: "Giữ Android mở"
-description: "Điện thoại của bạn sắp không còn thật sự là của bạn. Từ năm 2027, Google sẽ chặn mọi ứng dụng Android nếu nhà phát triển của ứng dụng đó chưa đăng ký với họ."
+description: "Điện thoại của bạn sắp không còn thật sự là của bạn. Từ năm 2027, Google sẽ chặn mọi ứng dụng Android nếu nhà phát triển chưa đăng ký với họ."
 
 contact_header: "Liên hệ"
 contact_email: "Email"
@@ -13,7 +13,7 @@ site_copyright: "**Bản quyền:** Không có. Tác phẩm này được đánh
 open_letter_cta: "Đọc thư ngỏ phản đối chương trình Xác minh nhà phát triển Android"
 
 
-hero_lede: "Điện thoại của bạn sắp không còn thật sự là của bạn."
+hero_lede: "Điện thoại của bạn sắp không còn là của bạn."
 hero_countdown_label: "ngày"
 hero_sub: >-
   Từ năm 2027[*](FAQ_URL), một bản cập nhật âm thầm do Google triển khai, không cần sự đồng ý của người dùng, sẽ **chặn các ứng dụng Android** nếu nhà phát triển chưa đăng ký với Google, chưa ký điều khoản, chưa trả phí và chưa nộp giấy tờ tùy thân do nhà nước cấp.
@@ -21,27 +21,27 @@ hero_kicker: "Mọi ứng dụng. Mọi thiết bị. Trên toàn thế giới. 
 
 what_heading: "Google đang làm gì?"
 what_intro: >-
-  Tháng 8 năm 2025, Google [công bố](https://developer.android.com/developer-verification) một yêu cầu mới: từ năm 2027, **mọi nhà phát triển ứng dụng Android đều phải đăng ký với Google** trước khi phần mềm của họ có thể được cài trên bất kỳ thiết bị nào. Không chỉ ứng dụng trên Play Store: tất cả ứng dụng đều bị áp dụng. Điều này bao gồm cả ứng dụng chia sẻ giữa bạn bè, phân phối qua [F-Droid](https://f-droid.org), hoặc do người dùng tự viết cho nhu cầu cá nhân. Nhà phát triển độc lập, nhóm nhà thờ, tổ chức cộng đồng và người làm ứng dụng vì sở thích đều sẽ bị chặn khỏi việc phát triển và phân phối phần mềm của chính họ.
+  Tháng 8 năm 2025, Google [công bố](https://developer.android.com/developer-verification) một yêu cầu mới: từ năm 2027, **mọi nhà phát triển ứng dụng Android đều phải đăng ký với Google** trước khi phần mềm của họ có thể được cài trên bất kỳ thiết bị nào. Không chỉ ứng dụng trên Play Store, mà tất cả ứng dụng đều bị áp dụng. Điều này bao gồm cả ứng dụng chia sẻ giữa bạn bè, phân phối qua [F-Droid](https://f-droid.org), hoặc do người dùng tự viết cho nhu cầu cá nhân. Nhà phát triển độc lập, nhóm nhà thờ, tổ chức cộng đồng và người làm ứng dụng vì sở thích đều sẽ bị chặn khỏi việc phát triển và phân phối phần mềm của chính họ.
 what_registration: "Trong quá trình đăng ký, nhà phát triển sẽ phải:"
 what_req_fee: "Trả phí cho Google"
 what_req_terms: "Chấp nhận điều khoản và điều kiện của Google"
 what_req_id: "Cung cấp giấy tờ tùy thân do nhà nước cấp"
-what_req_signing: "Cung cấp bằng chứng về khóa ký riêng"
+what_req_signing: "Cung cấp bằng chứng bạn sở hữu khóa ký riêng"
 what_req_appids: "Liệt kê toàn bộ mã định danh ứng dụng hiện có và sẽ có trong tương lai"
 what_pullquote: "Nếu nhà phát triển không tuân thủ, mọi ứng dụng của họ sẽ bị âm thầm chặn trên mọi thiết bị Android trên thế giới."
 
 # Who this hurts
-impact_heading: "Những ai bị ảnh hưởng"
+impact_heading: "Ai bị ảnh hưởng?"
 impact_you_heading: "Người dùng"
-impact_you_p1: "Bạn mua điện thoại Android vì Google nói rằng Android là một nền tảng mở. Bạn có thể cài thứ mình muốn — đó vốn là thỏa thuận."
-impact_you_p2: "Giờ Google đang viết lại thỏa thuận đó, áp ngược lên cả phần cứng mà bạn đã mua. Sau khi bản cập nhật được triển khai, bạn chỉ có thể chạy phần mềm đã được Google phê duyệt trước. Trên điện thoại của bạn: tài sản *của bạn*, do *bạn* trả tiền."
+impact_you_p1: "Bạn mua điện thoại Android vì Google hứa rằng Android là một nền tảng mở. Bạn có thể cài thứ mình muốn — đó vốn là thỏa thuận."
+impact_you_p2: "Giờ, Google đang viết lại thỏa thuận đó, áp ngược lên cả phần cứng mà bạn đã mua. Sau khi cập nhật được triển khai, bạn chỉ có thể chạy phần mềm đã được Google phê duyệt trên chính chiếc điện thoại của bạn, là tài sản *của bạn*, thứ mà *bạn* đã bỏ tiền ra mua."
 impact_dev_heading: "Nhà phát triển độc lập"
-impact_dev_p1: "Ứng dụng đầu tay của một học sinh, công cụ bảo vệ quyền riêng tư do tình nguyện viên làm, hay bản beta nội bộ bí mật của một công ty — tất cả đều không khác gì nhau. Từ năm 2027, những ứng dụng đó sẽ không thể được cài nếu chưa được Google cho phép."
+impact_dev_p1: "Ứng dụng đầu tiên của một học sinh, công cụ bảo vệ quyền riêng tư do tình nguyện viên làm, hay bản beta nội bộ của một công ty — tất cả đều không khác gì nhau. Từ năm 2027, những ứng dụng đó sẽ không thể được cài nếu chưa được Google cho phép."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), nơi lưu trữ hàng nghìn ứng dụng Android tự do và mã nguồn mở, gọi đây là một mối đe dọa [“mang tính sống còn”](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow gọi nó là [“Darth Android”](https://pluralistic.net/2025/09/01/fulu/).
 impact_gov_heading: "Chính quyền và xã hội dân sự"
 impact_gov_p1: >-
-  Google có [tiền lệ được ghi nhận](https://www.aclu.org/news/free-speech/app-store-oligopoly) về việc tuân thủ khi các chính quyền độc tài yêu cầu gỡ ứng dụng. Với chương trình này, phần mềm vận hành các thiết chế của một quốc gia sẽ phải phụ thuộc vào thiện chí của một tập đoàn nước ngoài duy nhất, không chịu trách nhiệm trước công chúng.
+  Google [đã nhiều lần](https://www.aclu.org/news/free-speech/app-store-oligopoly) tuân thủ khi các chính quyền độc tài yêu cầu gỡ ứng dụng. Với chương trình này, phần mềm vận hành các thiết chế của một quốc gia sẽ phải phụ thuộc vào thiện chí của một tập đoàn nước ngoài duy nhất, không chịu trách nhiệm trước công chúng.
 impact_gov_p2: >-
   [EFF gọi](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) việc kiểm soát cổng ứng dụng là “một con đường ngày càng mở rộng dẫn tới kiểm duyệt Internet.”
 
@@ -49,7 +49,7 @@ impact_gov_p2: >-
 flow_heading: "“Lối thoát” của Google thực ra là cửa sập"
 flow_intro: >-
   Google nói rằng “người dùng nâng cao” [“vẫn có thể cài”](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) ứng dụng chưa xác minh. Nhưng thực tế sẽ như sau:
-flow_step1: "Mò vào Cài đặt hệ thống, tìm Tùy chọn nhà phát triển"
+flow_step1: "Mò vào Cài đặt hệ thống, tìm 'Tùy chọn nhà phát triển'"
 flow_step2: "Nhấn vào số bản dựng **bảy lần** để bật Chế độ nhà phát triển"
 flow_step3: "Bỏ qua các màn hình cảnh báo gây sợ hãi về ép buộc"
 flow_step4: "Nhập mã PIN"
@@ -77,16 +77,16 @@ objections_heading: "Nhưng khoan, chẳng phải đây là..."
 obj_security_q: "\"...chỉ để bảo mật thôi sao?\""
 obj_security_a: >-
   Lý do bảo mật chỉ là màn khói. Google Play Protect vốn đã quét phần mềm độc hại độc lập với danh tính của nhà phát triển. Yêu cầu giấy tờ tùy thân do nhà nước cấp không làm mã nguồn an toàn hơn. Nó chỉ khiến *nhà phát triển* dễ bị nhận diện và kiểm soát hơn. Người viết mã độc vẫn có thể đăng ký. Nhà phát triển độc lập và người bất đồng chính kiến thì nhiều khi không thể. [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) nói thẳng: kiểm soát dựa trên danh tính là công cụ kiểm duyệt, không phải công cụ bảo mật.
-obj_sideloading_q: "\"...vẫn là sideload nếu dùng luồng nâng cao mà?\""
+obj_sideloading_q: "\"...vẫn sideload được nếu dùng luồng nâng cao mà?\""
 obj_sideloading_a: >-
   Chín bước, chờ 24 tiếng, bị giấu trong Tùy chọn nhà phát triển, lại chạy qua một dịch vụ độc quyền mà Google có thể thu hồi bất cứ lúc nào. Đó không phải sideloading. Đó là một **cơ chế gây nản** được thiết kế để gần như không ai đi hết quy trình. Và vì nó chạy qua Play Services thay vì hệ điều hành, Google có thể âm thầm siết chặt hoặc xóa hẳn nó.
-obj_hide_q: "\"...chỉ là vấn đề nếu bạn có gì cần giấu thôi mà?\""
+obj_hide_q: "\"...chỉ là vấn đề nếu bạn có cần giấu giếm thôi mà?\""
 obj_hide_a: >-
   Người tố giác, nhà báo và nhà hoạt động dưới các chính quyền độc tài sẽ là những nạn nhân đầu tiên. Tiếp theo là những người đang ở trong tình huống bị bạo hành gia đình. Tất cả những nhóm này đều có lý do chính đáng để phân phối hoặc sử dụng phần mềm mà không phải đưa danh tính pháp lý của mình vào cơ sở dữ liệu của Google. Đóng góp mã nguồn mở ẩn danh là một truyền thống còn lâu đời hơn cả Google. Chính sách này sẽ chấm dứt điều đó trên Android.
 obj_apple_q: "\"...cũng giống Apple thôi mà?\""
 obj_apple_a: >-
   Apple là một khu vườn có tường bao ngay từ ngày đầu. Người ta chọn Android *vì nó khác*. “Apple cũng làm vậy” là một cuộc đua xuống đáy và là một lập luận *tu quoque* yếu. Hơn nữa, dưới áp lực quản lý như Đạo luật Thị trường Kỹ thuật số của EU, ngay cả Apple cũng đang bị buộc phải mở ra. Google thì đi theo hướng ngược lại: cố củng cố thêm vị thế gác cổng của mình.
-obj_cost_q: "\"...chỉ 25 đô và vài giấy tờ thôi mà?\""
+obj_cost_q: "\"...chỉ 25 đô và làm giấy tờ thôi mà?\""
 obj_cost_a: >-
   Có thể là vậy, nếu bạn là một nhà phát triển ở Mỹ, có thẻ tín dụng và bằng lái xe. Nhưng hãy thử là một học sinh ở châu Phi hạ Sahara, một người bất đồng chính kiến ở Myanmar, hoặc một tình nguyện viên đang duy trì ứng dụng y tế cộng đồng. Cái giá không chỉ là tiền: bạn đang giao giấy tờ tùy thân do nhà nước cấp và bằng chứng về khóa ký của mình cho một công ty [thường xuyên tuân thủ](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) yêu cầu của chính phủ về việc gỡ ứng dụng và lộ danh tính nhà phát triển.
 
