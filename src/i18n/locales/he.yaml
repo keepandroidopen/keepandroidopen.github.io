@@ -143,11 +143,11 @@ hero_kicker: "כל היישומים בכל המכשירים, בכל רחבי ה�
 # What Google is doing
 # what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_req_signing: "סיפוק הוכחה לבעלותך על מפתח החתימה הפרטי שלך"
-# what_req_appids: "Listing all current and all future application identifiers"
+what_req_appids: "פירוט של כל מזהי היישומים הנוכחיים והעתידיים שלך"
 what_pullquote: "אם מפתח מסוים לא נענה להנחיות, היישומים שלו ייחסמו בחשאי בכל מכשירי האנדרואיד בכל רחבי העולם."
 
 # Who this hurts
-# impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
+impact_you_p1: "קנית טלפון עם אנדרואיד בגלל ש־Google הבטיחה לך מערכת פתוחה בתמורה. יכולת להתקין כל מה שעולה על הדעת, וזו הייתה העסקה."
 # impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
 # impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 # impact_gov_heading: "Governments & civil society"
@@ -157,17 +157,17 @@ what_pullquote: "אם מפתח מסוים לא נענה להנחיות, הייש
 # Advanced flow
 # flow_heading: "Google's \"escape hatch\" is a trap door"
 # flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
-# flow_step2: "Tap the build number **seven times** to enable Developer Mode"
-# flow_step3: "Dismiss scare screens about coercion"
+flow_step2: "הקשה על מספר גרסת הבנייה **שבע פעמים** להפעלת מצב המפתחים"
+flow_step3: "סגירת מסכי הפחדה בנוגע לסחיטה"
 flow_step4: "הקלדת קוד האימות האישי"
-# flow_step7: "Come back, dismiss more scare screens"
-# flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
-# flow_step9: "Confirm, again, that you understand \"the risks\""
-# flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
+flow_step7: "חזרה למסך הקודם וסגירה של עוד מסכי הפחדה"
+flow_step8: "בחירה בין \"התרה זמנית\" (7 ימים) לבין \"התרה תמידית\""
+flow_step9: "אישור, פעם נוספת, שהבנת מהן „הסכנות”"
+flow_summary: "תשעה שלבים. המתנה כפויה של 24 שעות שאולי תגרום לך להתחרט. *בשביל להתקין תוכנה על הטלפון שהוא שלך.*"
 # flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 
 # Precedent
-# precedent_heading: "This is bigger than Android"
+precedent_heading: "זה מעבר לאנדרואיד"
 # precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
 # precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
 # precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
@@ -181,7 +181,7 @@ flow_step4: "הקלדת קוד האימות האישי"
 # obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
 # obj_apple_q: "\"...the same thing Apple does?\""
 # obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
-# obj_cost_q: "\"...just $25 and some paperwork?\""
+obj_cost_q: "\"...רק תשלום של $25 וקצת ניירת?\""
 # obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
 
 # Fight back
@@ -196,7 +196,7 @@ flow_step4: "הקלדת קוד האימות האישי"
 # act_dev_resist: "Google's plan only works if developers comply. Don't."
 # act_dev_talk: "Talk other developers and organizations out of signing up."
 # act_dev_warn: "Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users."
-# act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
+act_dev_banner: "יש לך אתר? [אפשר להוסיף את באנר הספירה לאחור.](/banner)"
 # act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
 
 # Voices section
@@ -281,7 +281,7 @@ spread_label_linkedin: "LinkedIn"
 spread_label_facebook: "פייסבוק"
 
 # Footer
-# footer_take_action: "Take action & resources"
+footer_take_action: "נקיטת פעולה ומשאבים"
 
 # Shared site strings (also used by CTA/footer on other pages)
 
