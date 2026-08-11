@@ -60,7 +60,7 @@ hero_lede: "Tu teléfono está a punto de dejar de ser tuyo."
 hero_countdown_label: "días hasta el apagón"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  Comenzando en 2027[*](FAQ_URL), una actualización silenciosa, no consensuada, pusheada por Google, **bloqueará cada app de Android** cuyo desarrollador no se haya registrado en Google, firmado su contrato, pagado su cuota y entregado un documento de identidad nacional.
+  Comenzando en 2027[*](FAQ_URL), una actualización silenciosa, no consensuada, impuesta por Google, **bloqueará cada app de Android** cuyo desarrollador no se haya registrado en Google, firmado su contrato, pagado una cuota y entregado un documento nacional de identidad.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Cada app y cada dispositivo, mundialmente, sin excepción."
 # [en] what_heading: "What Google is doing"
@@ -95,7 +95,7 @@ impact_you_p2: >-
 impact_dev_heading: "Desarrolladores Independientes"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 impact_dev_p1: >-
- La primera aplicación de un adolescente, una herramienta de privacidad creada por un voluntario o una versión beta interna confidencial de una empresa. Da igual. En 2027, ninguna de ellas podrá instalarse sin el visto bueno de Google.
+ Ya sea la primera aplicación de un adolescente, una herramienta de privacidad creada por un voluntario o una versión beta interna confidencial de una empresa, da igual. En 2027, ninguna de ellas podrá instalarse sin el visto bueno de Google.
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >- 
   [F-Droid](https://f-droid.org), que alberga miles de aplicaciones gratuitas y de código abierto para Android, ha calificado esto como una [amenaza existencial](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow lo llama ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/).
@@ -194,12 +194,12 @@ act_letter: >-
   **[Lee y comparte nuestra carta abierta.](/open-letter)**
 # [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
 act_survey: >-
-  **Dile a Google lo que piensas al respecto**  través de su propia [encuesta de verificación para desarrolladores](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(por si sirve de algo)</small>.
+  **Dile a Google lo que piensas al respecto** a través de su propia [encuesta de verificación para desarrolladores](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(por si sirve de algo)</small>.
 # [en] act_dev_heading: "Developers"
 act_dev_heading: "Desarrolladores"
 # [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
 act_dev_intro: >-
-  <strong style="text-transform: uppercase;">No te registres.</strong> o te unas al programa registrándote en la Consola para desarrolladores de Android y aceptando sus Términos y condiciones irrevocables. No verifiques tu identidad. *No les sigas el juego.*
+  <strong style="text-transform: uppercase;">No te registres.</strong> No te unas al programa registrándote en la Consola para desarrolladores de Android y aceptando sus Términos y condiciones irrevocables. No verifiques tu identidad. *No les sigas el juego.*
 # [en] act_dev_resist: "Google's plan only works if developers comply. Don't."
 act_dev_resist: "El plan de Google solo funciona si los desarrolladores lo cumplen. No lo hagas."
 # [en] act_dev_talk: "Talk other developers and organizations out of signing up."
@@ -230,7 +230,7 @@ voices_community: "Desarrolladores y Comunidad"
 # [en] voices_petition: "Voices from the petition"
 voices_petition: "Voces desde la petición"
 # [en] voices_more: "All references, editorials, press coverage, and videos"
-voices_more: "Todas las referencias, editoriales, coberturas de prensa, y vídeos"
+voices_more: "Todas las referencias, editoriales, coberturas de prensa y vídeos"
 # [en] signatories_heading: "All those opposed…"
 signatories_heading: "Todos los que se oponen&hellip;"
 # [en] signatories_count: "{count} organizations from {countries} countries have signed the"
@@ -262,7 +262,7 @@ social_callout_x_1: "Desde 2027, Google bloqueará cualquier app Android cuyos d
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_2: "Google: todos los desarrolladores de apps Android deberán registrarse, pagar una tasa y mostrar identificación, o sus apps serán bloqueadas. Más de 67 organizaciones se oponen. {url} @AlteredDeal #KeepAndroidOpen"
 # [en] social_callout_x_3: "Android's openness distinguished it from iPhone for 17 years. Google is now requiring mandatory developer registration for all apps, including those distributed outside the Play Store. {url} #KeepAndroidOpen"
-social_callout_x_3: "La libertad en Andorid lo distinguió de iPhone por 17 años. Google ahora está requiriendo registro obligatorio para todas las aplicaciones, incluyendo aquellas fuera de la Play Store. {url} #KeepandroidOpen" 
+social_callout_x_3: "La libertad en Android lo distinguió de iPhone por 17 años. Google ahora está requiriendo registro obligatorio para todas las aplicaciones, incluyendo aquellas fuera de la Play Store. {url} #KeepandroidOpen" 
 # [en] social_callout_x_4: "F-Droid, the open-source Android app store, calls Google's developer verification an \"existential threat\" to alternative app distribution. The EFF warns it creates a pathway to censorship. {url} #KeepAndroidOpen"
 social_callout_x_4: "F-Droid, la tienda Android de código abierto, llama la verificación de desarrolladores de Google una \"amenaza existencial\" para la distribución alternativa. La EFF advierte que abre un camino a la censura. {url} #KeepAndroidOpen"
 # [en] social_callout_x_5: "Google's proposed workaround for installing unverified apps requires 9 steps, a 24-hour wait, and runs through Play Services, which Google can modify at any time. It hasn't shipped in any beta. {url} #KeepAndroidOpen"
@@ -369,7 +369,7 @@ footer_take_action: "Medidas y recursos"
 # [en] footer_open_letter: "Open letter"
 footer_open_letter: "Carta abierta"
 # [en] footer_add_banner: "Add countdown banner"
-footer_add_banner: "Añadir banner de cuenta atrás"
+footer_add_banner: "Añadir banner de cuenta regresiva"
 # [en] footer_sign_petition: "Sign the petition"
 footer_sign_petition: "Firma la petición"
 # [en] footer_contact: "Contact"
