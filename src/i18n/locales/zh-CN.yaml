@@ -32,9 +32,9 @@
 
 
 # [en] title: "Keep Android Open"
-title: "保持 Android 开放"
+title: "保持 Android 开放运动"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
-description: "你的手机很快就不再属于你。Google 计划于 2027 年封禁所有由未注册开发者开发的软件。"
+description: "你的手机，将不再属于你。Google 计划于 2027 年封禁所有由未注册开发者所开发的软件。"
 # [en] contact_header: "Contact"
 contact_header: "联系方式"
 # [en] contact_email: "Email"
@@ -44,28 +44,28 @@ site_problems_header: "问题"
 # [en] site_report_issues: "Report Site Issues"
 site_report_issues: "报告网站问题"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
-site_disclaimer: "**免责声明**：本站由社区推动，非商业，仅用于提供信息与教育目的。"
+site_disclaimer: "**免责声明**：本站由社区推动，无商业行为，仅用于提供信息与教育目的。"
 # [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
-site_privacy: "**隐私**：本站不使用 cookies，也不会跟踪或记录用户。"
+site_privacy: "**隐私**：本站不使用 cookie，也不会跟踪或记录用户。"
 # [en] site_copyright: "**Copyright:** None. This work is marked"
-site_copyright: "**版权**：无。本站已标记为"
+site_copyright: "**版权**：放弃所有版权并置于公有领域。本站已标记为"
 # [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "阅读我们反对 Android 开发者验证计划的公开信"
 # [en] hero_lede: "Your phone is about to stop being yours."
-hero_lede: "你的手机很快就不再属于你。"
+hero_lede: "你的手机，将不再属于你。"
 # [en] hero_countdown_label: "days until lockdown"
-hero_countdown_label: "天后封锁"
+hero_countdown_label: "天后就会变成这样"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-hero_sub: "自 2027 年[*](FAQ_URL)起，Google 将强行推送静默更新，若开发者未在 Google 进行注册、未签署协议、付款或上传官方身份证件，其开发的应用就会被封禁。"
+hero_sub: "自 2027 年[*](FAQ_URL)起，Google 将强制推送静默更新，若开发者未在 Google 进行注册、未签署协议、付款或上传官方身份证件，其开发的应用就会被封禁。"
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "全世界所有应用、所有设备都不例外。"
 # [en] what_heading: "What Google is doing"
-what_heading: "Google 在做什么？"
+what_heading: "那么，Google 在做什么？"
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
-   2025 年 8 月，Google [宣布](https://developer.android.com/developer-verification)了一条新规：自 2027 年起，**所有 Android 开发者都必须集中向 Google 注册**，否则开发的软件就无法安装到任何设备上。所有应用均会受影响，包括朋友间互传的应用、在 [F-Droid](https://f-droid.org) 上发布的应用以及由爱好者开发、个人使用的软件，而不仅限于 Play Store 中的应用。独立开发者、社区组织、爱好者等都将被挡在软件开发与分发的大门之外。
+   2025 年 8 月，Google [宣布](https://developer.android.com/developer-verification)了一条新规：自 2027 年起，**所有 Android 开发者都必须集中向 Google 注册**，否则开发的软件就无法安装到任何设备上。所有应用均会受影响，包括在小圈子间互传的应用、在 [F-Droid](https://f-droid.org) 上发布的应用以及由爱好者开发、个人使用的软件，而不仅限于 Play Store 中的应用。独立开发者、社区组织、爱好者等都将被挡在软件开发与分发的大门之外。
 # [en] what_registration: "Registration requires:"
-what_registration: "为了注册，开发者需要："
+what_registration: "而为了注册，开发者们需要："
 # [en] what_req_fee: "Paying a fee to Google"
 what_req_fee: "向 Google 支付费用"
 # [en] what_req_terms: "Agreeing to Google's Terms and Conditions"
@@ -79,17 +79,17 @@ what_req_appids: "列出现在和将来所有要使用的应用 ID"
 # [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
 what_pullquote: "若开发者不服从规定，则全球所有 Android 设备会悄然屏蔽他开发的应用。"
 # [en] impact_heading: "Who this hurts"
-impact_heading: "谁会受害"
+impact_heading: "那么，谁会受害？"
 # [en] impact_you_heading: "You"
 impact_you_heading: "你"
 # [en] impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
 impact_you_p1: "你购买 Android 手机，是因为 Google 曾承诺它会开放。你可以自由安装想要的软件，这是当初的承诺。"
 # [en] impact_you_p2: "Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for."
-impact_you_p2: "然而，Google 如今要重写这份协议，而且是追溯到你已拥有的设备。更新落地后，你的手机 —— *你的*财产，*你*花钱购买的 —— 将只能运行 Google 许可的软件。"
+impact_you_p2: "然而，Google 如今要重写这份协议，而且是追溯到你已拥有的设备。更新落地后，你的手机 —— *你的*财产，*你*花钱购买的 —— 将只能运行 Google 许可的软件。你的手机，在事实意义上，将有一部分不再属于你。"
 # [en] impact_dev_heading: "Independent developers"
 impact_dev_heading: "独立开发者"
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
-impact_dev_p1: "无论是求学少年编写的第一个应用、志愿开发者制作的隐私工具，还是公司内部的保密测试版，均难逃一劫。到了 2027 年，以上软件若未获得 Google 许可，则都无法安装。"
+impact_dev_p1: "无论是求学少年编写的第一个应用、志愿开发者制作的隐私工具，还是公司内部的保密测试版，均难逃一劫。到了 2027 年，以上软件若未获得 Google 许可，都将无法安装。"
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org) 上有数千个自由开源的 Android 应用，它们认为这次更新堪称[“存亡”威胁](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html)。Cory Doctorow 称之为 [“Darth Android”](https://pluralistic.net/2025/09/01/fulu/)。
@@ -102,10 +102,10 @@ impact_gov_p1: >-
 impact_gov_p2: >-
   [EFF 直言](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship)，设置应用关卡，就是在为名目日渐繁多的互联网审查铺垫。
 # [en] flow_heading: "Google's \"escape hatch\" is a trap door"
-flow_heading: "Google 给予的“退路”，实则是陷阱"
+flow_heading: "你知道吗，Google 给予的“退路”，实则是陷阱"
 # [en] flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
 flow_intro: >-
-  Google 声称“高级用户”可以[“继续安装”](https://android-developers.googleblog.com/2026/03/android-developer-verification.html)未验证的应用。可*实际*情况却是：
+  Google 声称“高级用户”可以[“继续安装”](https://android-developers.googleblog.com/2026/03/android-developer-verification.html)未验证的应用。但是，*实际*情况却是：
 # [en] flow_step1: "Delve into System Settings, find Developer Options"
 flow_step1: "你需要打开系统设置，找到开发者选项"
 # [en] flow_step2: "Tap the build number **seven times** to enable Developer Mode"
@@ -125,20 +125,20 @@ flow_step8: "选择“暂时允许”（7 天）或“永久允许”"
 # [en] flow_step9: "Confirm, again, that you understand \"the risks\""
 flow_step9: "再次确认你清楚所谓的“风险”"
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
-flow_summary: "*仅仅为了在自己的设备上安装侧载软件，*你就需要九步操作、等待二十四小时强制冷静期。"
+flow_summary: "*你仅仅只是为了在自己的设备上安装自己的侧载软件，*你就需要九步操作、等待二十四小时强制冷静期。"
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 flow_detail: >-
-  祸不单行：这一流程完全受**Google Play 服务**控制，而和 Android 系统无关。Google 可以随时改动、收紧甚至废止，无需系统更新，也无需用户同意。直至今日，它还仅存在于一篇博文和几张效果图里，暂未加入任何 beta、preview 或 canary 版本。
+  然而，祸不单行的是，这一流程完全受**Google Play 服务**控制，而和 Android 系统无关。Google 可以随时改动、收紧甚至废止，无需系统更新，也无需用户同意。虽然直至今日，它还仅存在于一篇博文和几张效果图里，暂未加入任何 beta、preview 或 canary 版本。
 # [en] precedent_heading: "This is bigger than Android"
-precedent_heading: "Android 只是起始"
+precedent_heading: "Android 还只是这一切的开始"
 # [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
-precedent_pullquote: "如果 Google 能事后锁定数十亿台当初打着“开放平台”旗号售卖出去的设备，全世界其他硬件厂商都可能效仿。"
+precedent_pullquote: "如果 Google 可以事后锁定数十亿台当初打着“开放平台”旗号售卖出去的设备，那全世界其他厂商（尤其是硬件厂商）也都可以。"
 # [en] precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
 precedent_p1: >-
   Google 此举将确立 **“设备制造商有权在消费者购买后决定其能装什么软件”** 的规则。软件圈中，这称为“撤梯子”，但至少用户仍可安装其他竞品。而在硬件上，剥夺用户自主权，让用户任由不受制衡的“守门人”、已被判垄断的巨头摆布，即将成为既定事实。
 # [en] precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
 precedent_p2: >-
-  Android 的开放性从来不仅是一项功能，而是其区别于 iPhone 的*承诺*。数百万用户正是出于这一承诺选择了 Android。但如今，Google 自恃市场主导地位和监管影响力足以让其逍遥法外，要单方面撕毁承诺，波及用户*早已*到手的设备。
+  就是，你知道吗，Android 的开放性从来不仅是一项功能，而是其区别于 iPhone 的*承诺*。数百万用户正是出于这一承诺选择了 Android。但如今，Google 自恃市场主导地位和监管影响力足以让其逍遥法外，要单方面撕毁承诺，波及用户*早已*到手的设备。
 # [en] precedent_arstechnica: "[Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *\"Google's Apple envy threatens to dismantle Android's open legacy.\"*"
 precedent_arstechnica: >-
   [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/)：*“Google 嫉妒苹果，要摧毁 Android 开放的传统。”*
@@ -153,35 +153,35 @@ obj_security_a: >-
 obj_sideloading_q: "“……走高级流程，不还是能侧载吗？”"
 # [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
 obj_sideloading_a: >-
-  然而需要九步操作、等待二十四小时强制冷静期，不仅埋藏在开发者选项中，还依赖 Google 随时可中断的专有服务。这并非侧载，而是**劝退机制**，意图正是让大多数人都无法侧载。而且因为该功能通过 Play 服务而非系统实现，Google 可以悄然收紧或关停。
+  然而，为了侧载，你需要九步操作、等待二十四小时强制冷静期。而且这条通路不仅埋藏在开发者选项中，还依赖 Google 随时可中断的专有服务。这并非侧载，而是**劝退机制**，意图正是让大多数人都无法侧载。而且因为该功能通过 Play 服务而非系统实现，Google 可以悄然收紧或关停。
 # [en] obj_hide_q: "\"...only a problem if you have something to hide?\""
 obj_hide_q: "“……没什么见不得人的，怕什么？”"
 # [en] obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
 obj_hide_a: >-
-  威权政府下的吹哨人、记者、活动家会首当其冲。其次会轮到家庭暴力受害者。这些群体有必要在分发或使用软件时不向 Google 数据库提供真实身份，理由正当。匿名贡献开源代码的传统早在 Google 建立前就已形成，但新政策会在 Android 上消灭这一传统。
+  威权政府下的吹哨人、记者、活动家会首当其冲收到影响。其次会轮到家庭暴力受害者。这些群体有必要在分发或使用软件时不向 Google 数据库提供真实身份，理由正当。匿名贡献开源代码的传统早在 Google 建立前就已形成，但新政策会在 Android 上消灭这一传统。
 # [en] obj_apple_q: "\"...the same thing Apple does?\""
 obj_apple_q: "“……苹果不也这么干吗？”"
 # [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
 obj_apple_a: >-
-  苹果从一开始就是封闭生态。人们选择 Android，正是*因为它不一样*。“苹果也这样”是竞相逐底的恶性竞争、五十步笑百步。更何况，在欧盟《数字市场法》的监管压力下，连苹果都被迫开放。Google 却反其道而行之，试图进一步巩固自身在 Android 世界的“守门人”地位。
+  苹果从一开始就是封闭生态，人们早已习惯。人们选择 Android，正是*因为它不一样，它“开放”*。“苹果也这样”是竞相逐底的恶性竞争、五十步笑百步。更何况，在欧盟《数字市场法》的监管压力下，连苹果都被迫开放。Google 却反其道而行之，试图进一步巩固自身在 Android 世界的“土皇帝”地位。
 # [en] obj_cost_q: "\"...just $25 and some paperwork?\""
 obj_cost_q: "“……不就是 25 美元和填几张表而已？”"
 # [en] obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
 obj_cost_a: >-
-  或许如此，但前提是你身在美国，有信用卡和驾照。倘若你是撒哈拉以南非洲的学生、缅甸的异见人士或维护社区健康应用的志愿者，成本就远不止于金钱了：还要将身份证件和签名密钥交给一家[经常配合](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/)政府下架应用、曝光开发者身份的公司。
+  或许如此，但前提是你身在美国，有信用卡和可以证明你身份的证件（如驾照）。倘若你是撒哈拉以南非洲的学生、缅甸的异见人士或维护社区健康应用的志愿者，成本就远不止于金钱了：还要将身份证件和签名密钥交给某家[经常配合](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/)政府下架应用、泄露开发者身份的公司。
 # [en] act_heading: "Fight back"
-act_heading: "如何反击"
+act_heading: "那我们应当如何反击？"
 # [en] act_everyone_heading: "Everyone"
 act_everyone_heading: "所有人"
 # [en] act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
 act_fdroid: >-
   **在你拥有的所有 Android 手机上[安装 F-Droid](https://f-droid.org)**。只有人们大量使用，平替应用商店才能存活下来。
 # [en] act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
-act_regulators: "**[联系监管部门](/cta/#consumers)**。全世界的监管部门都在密切关注科技巨头的垄断和集权问题，也想聆听受害者的真实心声。"
+act_regulators: "**[联系你所在地区的监管部门](/cta/#consumers)**。全世界的监管部门都在密切关注科技巨头的垄断和集权问题，也想聆听受害者的真实心声。"
 # [en] act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
-act_share: "**分享这个页面**。让 [keepandroidopen.org](https://keepandroidopen.org) 遍布网络世界。"
+act_share: "**和朋友分享这个页面**。让 [keepandroidopen.org](https://keepandroidopen.org) 遍布网络世界。"
 # [en] act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
-act_astroturf: "**对抗水军**。开口就是“其实吧……”的那群人已经倾巢而出，别让他们主导舆论风向。"
+act_astroturf: "**对抗网络水军**。开口就是“其实吧……”的那群人已经倾巢而出，别让他们主导舆论风向。"
 # [en] act_petition: "**[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard."
 act_petition: >-
   **[签署 change.org 的请愿书](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)**。加入已有超 10 万人签名的行列，让我们的声音被听到。
@@ -189,7 +189,7 @@ act_petition: >-
 act_letter: "**[阅读并转发我们的公开信](/open-letter)**"
 # [en] act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
 act_survey: >-
-  **在 Google 自己的[调查问卷](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)中，填写你的想法** <small>（大概率无用，但尽力而为）</small>。
+  **在 Google 自己的[调查问卷](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)中，填写你的想法** <small>（虽然这大概率无用，但有一点是一点）</small>。
 # [en] act_dev_heading: "Developers"
 act_dev_heading: "开发者"
 # [en] act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
@@ -203,16 +203,16 @@ act_dev_talk: "劝说其他开发者和组织不要注册。"
 act_dev_warn: >-
   将 [FreeDroidWarn 库](https://github.com/woheller69/FreeDroidWarn)集成到你的应用中，提醒用户。
 # [en] act_dev_banner: "Run a website? [Add the countdown banner.](/banner)"
-act_dev_banner: "你在运营网站吗？[可以添加一条倒计时横幅。](/banner)"
+act_dev_banner: "你在运营网站吗？[可以在你运营的网站添加一条倒计时横幅。](/banner)"
 # [en] act_google_heading: "Google employees"
 act_google_heading: "Google 员工"
 # [en] act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
 act_google_text: >-
   如果你了解该计划的技术实现方式或内部逻辑，使用*非工作*电脑、*非 Gmail* 账号发送邮件到 [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org)。我们保证绝对保密。
 # [en] voices_heading: "What they're saying"
-voices_heading: "大家怎么说"
+voices_heading: "来看看大家怎么说"
 # [en] voices_press: "Tech press"
-voices_press: "科技媒体"
+voices_press: "主流科技媒体"
 # [en] voices_editorials: "Editorials & analysis"
 voices_editorials: "评论和分析"
 # [en] voices_orgs: "Organizations & open letters"
