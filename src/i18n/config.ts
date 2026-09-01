@@ -28,6 +28,7 @@ export const languages = {
   "be": { label: "Беларуская", path: "/be/" },
 
   // Turkic & Central Asian
+  "az": { label: "Azərbaycanca", path: "/az/" },
   "tr": { label: "Türkçe", path: "/tr/" },
   "kk": { label: "Қазақша", path: "/kk/" },
 
