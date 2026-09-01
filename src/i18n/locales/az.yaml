@@ -1,0 +1,375 @@
+# ==========================================================================
+# Keep Android Open — AZ Translation File
+# ==========================================================================
+#
+# HOW TO TRANSLATE:
+#
+#   1. Find the key you want to translate in the "TRANSLATABLE KEYS" section
+#      below (they are listed as comments with their English values).
+#
+#   2. Uncomment the line (remove the leading "# ") and replace the English
+#      text with your translation.
+#
+#   3. Use markdown for formatting: **bold**, *italic*, [link text](url).
+#      Do not use raw HTML tags like <strong> or <a href="...">.
+#
+#   4. Keep YAML quoting intact: use double quotes for values that contain
+#      special characters. For long values, use >- for folded scalars.
+#
+#   5. Validate your file at https://onlineyamltools.com/validate-yaml
+#      The file must be valid YAML and must NOT contain duplicate keys.
+#
+#   6. Submit your changes as a pull request on GitHub.
+#
+# IMPORTANT:
+#   Translations MAY be drafted with the assistance of a machine translation
+#   tool or LLM, but they MUST be reviewed and submitted by a NATIVE SPEAKER
+#   of the target language. We do not accept unreviewed machine translations.
+#   Fluency, natural phrasing, and cultural accuracy matter.
+# ==========================================================================
+
+#
+# ============================================================================
+# TRANSLATABLE KEYS
+# Below are ALL keys from en.yaml, shown as comments.
+# To translate a key: uncomment it (remove the leading "# ") and replace
+# the English value with your translation. Leave keys you have not yet
+# translated as comments; they will automatically fall back to English.
+# ============================================================================
+
+
+# Meta
+title: "Keep Android Open"
+description: "Your phone is about to stop being yours. In 2027, Google will block every Android app whose developer hasn't registered with them."
+
+# Hero
+hero_lede: "Your phone is about to stop being yours."
+hero_countdown_label: "days until lockdown"
+hero_sub: >-
+  Starting in 2027[*](FAQ_URL), a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID.
+hero_kicker: "Every app and every device, worldwide, with no opt-out."
+
+# What Google is doing
+what_heading: "What Google is doing"
+what_intro: >-
+  In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting in 2027, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software.
+what_registration: "Registration requires:"
+what_req_fee: "Paying a fee to Google"
+what_req_terms: "Agreeing to Google's Terms and Conditions"
+what_req_id: "Surrendering your government-issued identification"
+what_req_signing: "Providing evidence of your private signing key"
+what_req_appids: "Listing all current and all future application identifiers"
+what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
+
+# Who this hurts
+impact_heading: "Who this hurts"
+impact_you_heading: "You"
+impact_you_p1: "You bought an Android phone because Google told you it was open. You could install what you wanted, and that was the deal."
+impact_you_p2: >-
+  Google is now rewriting that deal, retroactively, on hardware you already own. After the update lands, you can only run software that Google has pre-approved. On your phone: *your* property, that *you* paid for.
+impact_dev_heading: "Independent developers"
+impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. In 2027, none of these can be installed without Google's blessing."
+impact_dev_p2: >-
+  [F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an ["existential" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/).
+impact_gov_heading: "Governments & civil society"
+impact_gov_p1: >-
+  Google has a [documented track record](https://www.aclu.org/news/free-speech/app-store-oligopoly) of complying when authoritarian regimes demand app removals. With this program, the software that runs your country's institutions will exist at the pleasure of a single unaccountable foreign corporation.
+impact_gov_p2: >-
+  The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping "an ever-expanding pathway to internet censorship."
+
+# Advanced flow
+flow_heading: "Google's \"escape hatch\" is a trap door"
+flow_intro: >-
+  Google says "power users" can ["still install"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:
+flow_step1: "Delve into System Settings, find About Phone"
+flow_step2: "Tap the build number **seven times** to enable Developer Mode"
+flow_step3: "Dismiss scare screens about coercion"
+flow_step4: "Enter your PIN"
+flow_step5: "Restart the device"
+flow_step6: "**Wait 24 hours**"
+flow_step7: "Come back, dismiss more scare screens"
+flow_step8: "Pick \"allow temporarily\" (7 days) or \"allow indefinitely\""
+flow_step9: "Confirm, again, that you understand \"the risks\""
+flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
+flow_detail: >-
+  Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups.
+
+# Precedent
+precedent_heading: "This is bigger than Android"
+precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
+precedent_p1: >-
+  The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a "rug pull"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist.
+precedent_p2: >-
+  Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it.
+precedent_arstechnica: >-
+  [Ars Technica](https://arstechnica.com/gadgets/2026/03/with-developer-verification-googles-apple-envy-threatens-to-dismantle-androids-open-legacy/): *"Google's Apple envy threatens to dismantle Android's open legacy."*
+
+# Objections
+objections_heading: "But wait, isn't this..."
+obj_security_q: "\"...just about security?\""
+obj_security_a: >-
+  The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one.
+obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
+obj_sideloading_a: >-
+  Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently.
+obj_hide_q: "\"...only a problem if you have something to hide?\""
+obj_hide_a: >-
+  Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android.
+obj_apple_q: "\"...the same thing Apple does?\""
+obj_apple_a: >-
+  Apple has been a walled garden from day one. People chose Android *because it was different*. "Apple does it too" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status.
+obj_cost_q: "\"...just $25 and some paperwork?\""
+obj_cost_a: >-
+  Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers.
+
+# Fight back
+act_heading: "Fight back"
+act_everyone_heading: "Everyone"
+act_fdroid: >-
+  **[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them.
+act_regulators: >-
+  **[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned.
+act_share: >-
+  **Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere.
+act_astroturf: >-
+  **Push back on astroturfers.** The "well, actually..." crowd is out in force. Don't let them set the narrative.
+act_petition: >-
+  **[Sign the change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)** and join the over 100,000 signatories who have made their voices heard.
+act_letter: >-
+  **[Read and share our open letter](/open-letter)**
+act_survey: >-
+  **Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>.
+act_dev_heading: "Developers"
+act_dev_intro: >-
+  <strong style="text-transform: uppercase;">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*
+act_dev_resist: "Google's plan only works if developers comply. Don't."
+act_dev_talk: "Talk other developers and organizations out of signing up."
+act_dev_warn: >-
+  Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users.
+act_dev_banner: >-
+  Run a website? [Add the countdown banner.](/banner)
+act_google_heading: "Google employees"
+act_google_text: >-
+  If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed.
+
+# Voices section
+voices_heading: "What they're saying"
+voices_press: "Tech press"
+voices_editorials: "Editorials & analysis"
+voices_orgs: "Organizations & open letters"
+voices_creators: "YouTubers & creators"
+voices_community: "Developers & community"
+voices_petition: "Voices from the petition"
+voices_more: "All references, editorials, press coverage, and videos"
+
+# Signatories section
+# [en] signatories_heading: "All those opposed…"
+signatories_heading: "Bütün əleyhdarlar…"
+# [en] signatories_count: "{count} organizations from {countries} countries have signed the"
+signatories_count: "{country} ölkədən {count} təşkilatlar imza atıb"
+# [en] signatories_open_letter_link: "open letter"
+signatories_open_letter_link: "açıq məktubu"
+# [en] signatories_more: "Read the full open letter and thank the signatories"
+signatories_more: "Tam açıq məktubu oxuyun və imza atanlara təşəkkür edin"
+
+# CTA banners
+# [en] cta_action_label: "Take Action"
+cta_action_label: "Fəaliyyətə keçin"
+# [en] cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
+cta_action_desc: "Tam resurs siyahısı, tənzimləyici qurumların əlaqə məlumatları, hər bir ölkə üçün keçidlər və buna qarşı mübarizə yolları"
+# [en] cta_letter_label: "Open Letter"
+cta_letter_label: "Açıq məktub"
+# [en] cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
+cta_letter_desc: "Tərtibatçıların yoxlanılmasına qarşı çıxan təşkilatların imzaladığı açıq məktubu oxuyun"
+
+# Closing
+# [en] closing_line1: "You bought your phone."
+closing_line1: "Telefonunuzu siz almısınız."
+# [en] closing_line2: "You should decide what runs on it."
+closing_line2: "Onda nələrin işləyəcəyinə siz qərar verməlisiniz."
+# [en] closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
+closing_detail: "Bunun üçün 9 addımlıq proses, 24 saat gözləmək və Google-un davamlı icazəsi tələb olunmamalıdır."
+# [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
+closing_cta: "Bu səhifəni paylaşın. Qeydiyyatdan keçməyin. Android-i bağlamalarına imkan verməyin."
+# [en] closing_share_heading: "Spread the word"
+closing_share_heading: "Xəbəri yayın"
+
+# Social share messages (rotated randomly; {url} is replaced at build time)
+# [en] social_callout_x_1: "Starting in 2027, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_1: "2027-ci ildən etibarən Google qeydiyyatdan keçməmiş və dövlət tərəfindən verilmiş şəxsiyyət sənədini təqdim etməmiş tərtibatçıların istənilən Android tətbiqini bloklayacaq. Bu, bütün dünyadakı Android cihazlarına təsir edir. Ətraflı məlumat: {url} @AlteredDeal #KeepAndroidOpen"
+# [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_2: "Google elan edib ki, bütün Android tətbiq tərtibatçıları mərkəzləşdirilmiş şəkildə qeydiyyatdan keçməli, ödəniş etməli və dövlət tərəfindən verilmiş şəxsiyyət sənədini təqdim etməlidirlər, əks halda tətbiqləri bütün cihazlarda bloklanacaq. 67-dən çox təşkilat buna qarşı çıxır. {url} @AlteredDeal #KeepAndroidOpen"
+# [en] social_callout_x_3: "Android's openness distinguished it from iPhone for 17 years. Google is now requiring mandatory developer registration for all apps, including those distributed outside the Play Store. {url} #KeepAndroidOpen"
+social_callout_x_3: "Android-in açıqlığı 17 il ərzində onu iPhone-dan fərqləndirirdi. İndi isə Google bütün tətbiqlər, o cümlədən Play Store-dan kənarda yayılan tətbiqlər üçün məcburi tərtibatçı qeydiyyatı tələb edir. {url} #KeepAndroidOpen"
+# [en] social_callout_x_4: "F-Droid, the open-source Android app store, calls Google's developer verification an \"existential threat\" to alternative app distribution. The EFF warns it creates a pathway to censorship. {url} #KeepAndroidOpen"
+social_callout_x_4: "Açıq mənbəli Android tətbiq mağazası F-Droid Google-un tərtibatçıların yoxlanılması proqramını alternativ tətbiq yayımına qarşı \"mövcudluq təhdidi\" adlandırır. EFF xəbərdarlıq edir ki, bu, senzura üçün yol aça bilər. {url} #KeepAndroidOpen"
+# [en] social_callout_x_5: "Google's proposed workaround for installing unverified apps requires 9 steps, a 24-hour wait, and runs through Play Services, which Google can modify at any time. It hasn't shipped in any beta. {url} #KeepAndroidOpen"
+social_callout_x_5: "Google-un yoxlanılmamış tətbiqləri quraşdırmaq üçün təklif etdiyi alternativ üsul 9 addım, 24 saat gözləmə tələb edir və Google-un istənilən vaxt dəyişə biləcəyi Play Services üzərindən işləyir. Bu funksiya heç bir beta versiyada hələ təqdim edilməyib. {url} #KeepAndroidOpen"
+# [en] social_callout_x_6: "Android was sold to us as an open platform. Now Google wants every developer to register and submit ID just to let you install their apps. Don't let them rug-pull 3 billion users. {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_6: "Android bizə açıq platforma kimi təqdim edilmişdi. İndi isə Google hər bir tərtibatçının qeydiyyatdan keçməsini və şəxsiyyət sənədini təqdim etməsini tələb etmək istəyir ki, siz onların tətbiqlərini quraşdıra biləsiniz. 3 milyard istifadəçini qəfil belə bir vəziyyətlə üz-üzə qoymalarına imkan verməyin. {url} @AlteredDeal #KeepAndroidOpen"
+# [en] social_callout_x_7: "If you bought your phone, you should own it. Google's new 'developer verification' means they decide what software you're allowed to run on your own property. Join the 100k+ signers opposing this: {url} #KeepAndroidOpen"
+social_callout_x_7: "Telefonunuzu almısınızsa, ona sahib də siz olmalısınız. Google-un yeni \"tərtibatçıların yoxlanılması\" proqramı o deməkdir ki, öz əmlakınız üzərində hansı proqram təminatını işlədə biləcəyinizə onlar qərar verəcəklər. Buna qarşı çıxan 100 000-dən çox imza sahibinə qoşulun: {url} #KeepAndroidOpen"
+# [en] social_callout_x_8: "Google is turning Android into a walled garden. Mandatory ID, registration fees, and a 9-step 'advanced flow' for sideloading? That's not security, it's a monopoly move. {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_8: "Google Android-i qapalı ekosistemə çevirir. Məcburi şəxsiyyət sənədi, qeydiyyat ödənişləri və tətbiqləri kənardan quraşdırmaq üçün 9 addımlıq \"qabaqcıl prosedur\"? Bu, təhlükəsizlik deyil, inhisarçılıq addımıdır. {url} @AlteredDeal #KeepAndroidOpen"
+# [en] social_callout_x_9: "What happens to the student's first app, or the privacy tool built by a volunteer? Google's mandatory registration blocks them all by default unless they play by Google's rules. {url} #KeepAndroidOpen"
+social_callout_x_9: "Tələbənin hazırladığı ilk tətbiqə və ya könüllünün yaratdığı məxfilik alətinə nə olacaq? Google-un məcburi qeydiyyatı, onun qaydalarına uyğun gəlmədikləri halda, bütün bu tətbiqləri standart olaraq bloklayır. {url} #KeepAndroidOpen"
+# [en] social_callout_x_10: "17 years of Android openness are at risk. Google's plan to block unverified apps is a direct hit on F-Droid and independent software. Stop the lockdown: {url} @AlteredDeal #KeepAndroidOpen"
+social_callout_x_10: "Android-in 17 illik açıqlığı təhlükə altındadır. Google-un yoxlanılmamış tətbiqləri bloklamaq planı F-Droid-ə və müstəqil proqram təminatına birbaşa zərbədir. Bloklanmanı dayandırın: {url} @AlteredDeal #KeepAndroidOpen"
+
+# [en] social_callout_linkedin_1: "Starting in 2027, Google will require every Android app developer to register centrally and provide government-issued identification before their software can be installed on any device. This applies to all apps, not just those on the Play Store. over 67 organizations have signed an open letter opposing the policy. {url} #KeepAndroidOpen" \
+social_callout_linkedin_1: "2027-ci ildən etibarən Google bütün Android tətbiq tərtibatçılarından proqramlarının istənilən cihazda quraşdırılmasından əvvəl mərkəzləşdirilmiş qaydada qeydiyyatdan keçməyi və dövlət tərəfindən verilmiş şəxsiyyət sənədini təqdim etməyi tələb edəcək. Bu, yalnız Play Store-dakı deyil, bütün tətbiqlərə şamil olunur. 67-dən çox təşkilat bu siyasətə qarşı açıq məktub imzalayıb. {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_2: "Android's openness has been its distinguishing feature for nearly two decades. Google is now mandating developer registration for all Android apps, including those distributed through alternative stores like F-Droid. The EFF, FSF, Tor Project, and dozens of other organizations are raising serious concerns. {url} #KeepAndroidOpen"
+social_callout_linkedin_2: "Android-in açıqlığı artıq iyirmi ilə yaxındır ki, onu fərqləndirən əsas xüsusiyyət olub. İndi Google F-Droid kimi alternativ mağazalar vasitəsilə yayılanlar da daxil olmaqla, bütün Android tətbiqləri üçün tərtibatçı qeydiyyatını məcburi edir. EFF, FSF, Tor Project və onlarla digər təşkilat ciddi narahatlıqlarını bildirir. {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_3: "Google's developer verification program would give a single company the technical ability to block any app, from any developer, on any certified Android device worldwide. This affects independent developers, open-source projects, and the principle that you control the software on hardware you own. {url} #KeepAndroidOpen"
+social_callout_linkedin_3: "Google-un tərtibatçıların yoxlanılması proqramı tək bir şirkətə dünyanın istənilən yerində sertifikatlaşdırılmış istənilən Android cihazında istənilən tərtibatçının istənilən tətbiqini bloklamaq üçün texniki imkan verəcək. Bu, müstəqil tərtibatçılara, açıq mənbəli layihələrə və sahib olduğunuz avadanlıqda işləyən proqram təminatına sizin nəzarət etməyiniz prinsipinə təsir edir. {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_4: "F-Droid estimates 85% of its open-source apps could face distribution issues under Google's new developer verification rules. The requirement for government ID and signing key evidence creates barriers for anonymous contributors, developers in sanctioned countries, and volunteer-maintained projects. {url} #KeepAndroidOpen"
+social_callout_linkedin_4: "F-Droid hesab edir ki, onun açıq mənbəli tətbiqlərinin 85%-i Google-un yeni tərtibatçıların yoxlanılması qaydaları çərçivəsində yayım problemləri ilə üzləşə bilər. Dövlət tərəfindən verilmiş şəxsiyyət sənədi və imzalama açarının sübutunun tələb olunması anonim töhfə verənlər, sanksiyalar tətbiq olunan ölkələrdəki tərtibatçılar və könüllülər tərəfindən dəstəklənən layihələr üçün maneələr yaradır. {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_5: "Google's proposed \"advanced flow\" for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and runs entirely through Google Play Services. The community has been asked to accept a blog post as a functional safeguard. It has not appeared in any beta release. {url} #KeepAndroidOpen"
+social_callout_linkedin_5: "Google-un yoxlanılmamış tətbiqlərin kənardan quraşdırılması üçün təklif etdiyi \"qabaqcıl prosedur\" 9 addım, məcburi 24 saatlıq gözləmə müddəti tələb edir və tamamilə Google Play Services üzərindən işləyir. İcmadan funksional qoruma mexanizmi kimi bir bloq yazısını qəbul etməsi istənilib. Bu funksiya heç bir beta buraxılışında təqdim edilməyib. {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_6: "Digital sovereignty is at stake. Google's plan to mandate developer registration for all Android apps—even those distributed outside the Play Store—creates a central point of control and potential censorship for 3 billion devices. {url} #KeepAndroidOpen"
+social_callout_linkedin_6: "Rəqəmsal suverenlik təhlükə altındadır. Google-un bütün Android tətbiqləri, hətta Play Store-dan kənarda yayılanlar üçün də tərtibatçı qeydiyyatını məcburi etmək planı 3 milyard cihaz üçün mərkəzləşdirilmiş nəzarət nöqtəsi və potensial senzura imkanı yaradır. {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_7: "The 'Keep Android Open' campaign has gained support from over 67 global organizations. We are opposing Google's plan to block any application whose developer hasn't registered centrally and provided government ID. Read the open letter: {url} #KeepAndroidOpen"
+social_callout_linkedin_7: "\"Keep Android Open\" kampaniyası dünyanın 67-dən çox təşkilatının dəstəyini qazanıb. Biz tərtibatçısı mərkəzləşdirilmiş qaydada qeydiyyatdan keçməmiş və dövlət tərəfindən verilmiş şəxsiyyət sənədini təqdim etməmiş istənilən tətbiqin bloklanmasına dair Google-un planına qarşı çıxırıq. Açıq məktubu oxuyun: {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_8: "Retroactively changing the rules for hardware people already own is a dangerous precedent. Google's mandatory developer verification strips users of their agency and forces them into a managed ecosystem. {url} #KeepAndroidOpen"
+social_callout_linkedin_8: "İnsanların artıq sahib olduqları avadanlıq üçün qaydaların geriyə dönük şəkildə dəyişdirilməsi təhlükəli presedentdir. Google-un məcburi tərtibatçı yoxlaması istifadəçilərin öz cihazları üzərində qərar vermək hüququnu məhdudlaşdırır və onları idarə olunan ekosistemə məcbur edir. {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_9: "F-Droid and the EFF have raised the alarm: Google's developer verification program is an 'existential threat' to alternative app distribution. We must protect the open-source ecosystem that built Android. {url} #KeepAndroidOpen"
+social_callout_linkedin_9: "F-Droid və EFF həyəcan təbili çalır: Google-un tərtibatçıların yoxlanılması proqramı alternativ tətbiq yayımı üçün \"mövcudluq təhdidi\"dir. Android-i formalaşdıran açıq mənbə ekosistemini qorumalıyıq. {url} #KeepAndroidOpen"
+# [en] social_callout_linkedin_10: "As Google moves to further entrench its gatekeeping status, the community is pushing back. Your device should be your property, not a leased terminal subject to retroactive restrictions. Join the movement: {url} #KeepAndroidOpen"
+social_callout_linkedin_10: "Google özünün girişə nəzarət edən mövqeyini daha da möhkəmləndirməyə çalışdıqca, icma buna qarşı çıxır. Sizin cihazınız öz əmlakınız olmalıdır, geriyə dönük məhdudiyyətlərə tabe olan icarəyə götürülmüş terminal deyil. Hərəkata qoşulun: {url} #KeepAndroidOpen"
+
+# [en] social_callout_bluesky_1: "Starting in 2027, Google will block any Android app whose developer hasn't registered and provided government ID. This affects all apps, not just Play Store apps. F-Droid calls it an \"existential threat.\" @keepandroidopen.bsky.social #KeepAndroidOpen {url}"
+social_callout_bluesky_1: '2027-ci ildən etibarən Google qeydiyyatdan keçməmiş və dövlət tərəfindən verilmiş şəxsiyyət sənədini təqdim etməmiş tərtibatçıların istənilən Android tətbiqini bloklayacaq. Bu, yalnız Play Store tətbiqlərinə deyil, bütün tətbiqlərə aiddir. F-Droid bunu "mövcudluq təhdidi" adlandırır. @keepandroidopen.bsky.social #KeepAndroidOpen {url}' 
+# [en] social_callout_bluesky_2: "Google is requiring all Android developers to register centrally, pay a fee, and submit government ID. Apps from unregistered developers will be silently blocked. over 67 organizations oppose this. @keepandroidopen.bsky.social {url}" 
+social_callout_bluesky_2: "Google bütün Android tərtibatçılarından mərkəzləşdirilmiş qaydada qeydiyyatdan keçməyi, ödəniş etməyi və dövlət tərəfindən verilmiş şəxsiyyət sənədini təqdim etməyi tələb edir. Qeydiyyatdan keçməmiş tərtibatçıların tətbiqləri səssiz şəkildə bloklanacaq. 67-dən çox təşkilat buna qarşı çıxır. @keepandroidopen.bsky.social {url}" 
+# [en] social_callout_bluesky_3: "After 17 years of marketing Android as an open platform, Google is mandating developer registration for all apps. Independent developers, open-source contributors, and alternative stores like F-Droid face an uncertain future. @keepandroidopen.bsky.social {url}" 
+social_callout_bluesky_3: "Android-i 17 il ərzində açıq platforma kimi təqdim etdikdən sonra Google bütün tətbiqlər üçün tərtibatçı qeydiyyatını məcburi edir. Müstəqil tərtibatçıları, açıq mənbəyə töhfə verənləri və F-Droid kimi alternativ mağazaları qeyri-müəyyən gələcək gözləyir. @keepandroidopen.bsky.social {url}" 
+# [en] social_callout_bluesky_4: "Google's proposed workaround for installing unverified apps: 9 steps, a 24-hour wait, delivered through Play Services (which Google can change at any time without consent). It exists only as a blog post. @keepandroidopen.bsky.social #KeepAndroidOpen {url}" 
+social_callout_bluesky_4: "Google-un yoxlanılmamış tətbiqləri quraşdırmaq üçün təklif etdiyi alternativ üsul: 9 addım, 24 saat gözləmə və Play Services üzərindən çatdırılma (Google bunu istənilən vaxt razılıq olmadan dəyişə bilər). Bu, yalnız bir bloq yazısı şəklində mövcuddur. @keepandroidopen.bsky.social #KeepAndroidOpen {url}" 
+# [en] social_callout_bluesky_5: "The EFF warns that Google's developer verification creates \"a pathway to censorship.\" Developers in restrictive countries, anonymous open-source contributors, and privacy tool maintainers are among those most affected. @keepandroidopen.bsky.social {url}" 
+social_callout_bluesky_5: "EFF xəbərdarlıq edir ki, Google-un tərtibatçıların yoxlanılması proqramı \"senzuraya aparan yol\" yaradır. Məhdudiyyətlərin sərt olduğu ölkələrdəki tərtibatçılar, anonim açıq mənbə töhfəçiləri və məxfilik alətlərini dəstəkləyənlər ən çox təsirə məruz qalacaq qruplar arasındadır. @keepandroidopen.bsky.social {url}" 
+# [en] social_callout_bluesky_6: "Google's plan to block unverified apps is a 'rug pull' on the 3 billion people who chose Android for its openness. Don't let them turn your phone into a walled garden. @keepandroidopen.bsky.social #KeepAndroidOpen {url}" 
+social_callout_bluesky_6: "Google-un yoxlanılmamış tətbiqləri bloklamaq planı Android-i açıqlığına görə seçmiş 3 milyard insana qarşı \"rug pull\"dur — yəni verilmiş gözləntilərin sonradan qəfil dəyişdirilməsidir. Telefonunuzu qapalı ekosistemə çevirmələrinə imkan verməyin. @keepandroidopen.bsky.social #KeepAndroidOpen {url}" 
+# [en] social_callout_bluesky_7: "Ownership means control. If Google can block any app on your phone, you don't really own it. Join the 100,000+ people fighting to keep Android open. @keepandroidopen.bsky.social {url}" 
+social_callout_bluesky_7: "Sahiblik nəzarət deməkdir. Əgər Google telefonunuzdakı istənilən tətbiqi bloklaya bilirsə, deməli ona əslində sahib deyilsiniz. Android-i açıq saxlamaq üçün mübarizə aparan 100 000-dən çox insana qoşulun. @keepandroidopen.bsky.social {url}" 
+# [en] social_callout_bluesky_8: "Mandatory ID registration for every app developer? This is a dream for censors and a nightmare for privacy. Protect the open web and open mobile. @keepandroidopen.bsky.social {url}" 
+social_callout_bluesky_8: "Hər bir tətbiq tərtibatçısı üçün məcburi şəxsiyyət sənədi qeydiyyatı? Bu, senzura tərəfdarları üçün arzu, məxfilik üçün isə kabusdur. Açıq vebi və açıq mobil ekosistemi qoruyun. @keepandroidopen.bsky.social {url}" 
+# [en] social_callout_bluesky_9: "Sideloading shouldn't require a 24-hour waiting period and a 9-step gauntlet. Google's 'advanced flow' is designed to fail. Keep Android Open! @keepandroidopen.bsky.social {url}" 
+social_callout_bluesky_9: "Tətbiqləri kənardan quraşdırmaq üçün 24 saatlıq gözləmə müddəti və 9 addımlıq maneələr silsiləsi tələb olunmamalıdır. Google-un \"qabaqcıl prosedur\"u uğursuzluğa məhkum ediləcək şəkildə hazırlanıb. Android-i açıq saxlayın! @keepandroidopen.bsky.social {url}" 
+# [en] social_callout_bluesky_10: "From F-Droid to independent devs, the entire Android ecosystem is under threat from Google's new mandatory registration decree. See why 67+ orgs are saying no: {url}" 
+social_callout_bluesky_10: "F-Droid-dən müstəqil tərtibatçılara qədər bütün Android ekosistemi Google-un yeni məcburi qeydiyyat qərarının təhdidi altındadır. 67-dən çox təşkilatın niyə \"xeyr\" dediyini öyrənin: {url}"
+
+# [en] social_callout_mastodon_1: "Starting in 2027, Google will require every Android app developer to register centrally, provide government ID, and submit signing key evidence. Apps from unregistered developers will be blocked on all certified devices worldwide. This threatens F-Droid, open-source distribution, and user autonomy. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_1: "2027-ci ildən etibarən Google bütün Android tətbiq tərtibatçılarından mərkəzləşdirilmiş qaydada qeydiyyatdan keçməyi, dövlət tərəfindən verilmiş şəxsiyyət sənədini və imzalama açarının sübutunu təqdim etməyi tələb edəcək. Qeydiyyatdan keçməmiş tərtibatçıların tətbiqləri dünya üzrə bütün sertifikatlaşdırılmış cihazlarda bloklanacaq. Bu, F-Droid, açıq mənbəli tətbiq yayımı və istifadəçi muxtariyyəti üçün təhlükə yaradır. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+# [en] social_callout_mastodon_2: "Google's Android Developer Verification program requires government ID, signing key evidence, and a fee for any developer who wants their software installable on Android. The EFF calls app gatekeeping \"a pathway to censorship.\" over 67 organizations have signed an open letter opposing it. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_2: "Google-un Android Tərtibatçılarının Yoxlanılması proqramı proqram təminatının Android-də quraşdırıla bilməsini istəyən istənilən tərtibatçıdan dövlət tərəfindən verilmiş şəxsiyyət sənədi, imzalama açarının sübutu və ödəniş tələb edir. EFF tətbiqlərə giriş üzərində nəzarəti \"senzuraya aparan yol\" adlandırır. 67-dən çox təşkilat buna qarşı açıq məktub imzalayıb. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+# [en] social_callout_mastodon_3: "F-Droid, home to thousands of free and open-source Android apps, calls Google's developer verification an \"existential threat.\" An estimated 85% of F-Droid apps could face distribution issues because their developers signed through F-Droid, not through Google. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_3: "Minlərlə pulsuz və açıq mənbəli Android tətbiqinə ev sahibliyi edən F-Droid Google-un tərtibatçıların yoxlanılması proqramını \"mövcudluq təhdidi\" adlandırır. Təxminlərə görə, F-Droid tətbiqlərinin 85%-i yayım problemləri ilə üzləşə bilər, çünki onların tərtibatçıları imzalama prosesini Google vasitəsilə deyil, F-Droid vasitəsilə həyata keçiriblər. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+# [en] social_callout_mastodon_4: "Google's proposed workaround for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and is delivered through Google Play Services, not the Android OS. Google can modify or remove it at any time without user consent. It hasn't shipped in any beta. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_4: "Google-un yoxlanılmamış tətbiqləri kənardan quraşdırmaq üçün təklif etdiyi alternativ üsul 9 addım və məcburi 24 saatlıq gözləmə müddəti tələb edir və Android əməliyyat sistemi vasitəsilə deyil, Google Play Services üzərindən təqdim olunur. Google bunu istifadəçinin razılığı olmadan istənilən vaxt dəyişdirə və ya ləğv edə bilər. Bu funksiya heç bir beta versiyada təqdim edilməyib. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+# [en] social_callout_mastodon_5: "The mandatory developer registration Google is imposing on Android raises concerns for developers in sanctioned countries, anonymous open-source contributors, and anyone building privacy or security tools. Google has a documented history of complying with government demands to remove apps. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_5: "Google-un Android-də tətbiq etdiyi məcburi tərtibatçı qeydiyyatı sanksiyalara məruz qalan ölkələrdəki tərtibatçılar, anonim açıq mənbə töhfəçiləri və məxfilik və ya təhlükəsizlik alətləri yaradan hər kəs üçün narahatlıq doğurur. Google-un hökumətlərin tətbiqlərin silinməsi ilə bağlı tələblərinə əməl etməsi sənədləşdirilmiş keçmişə malikdir. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+# [en] social_callout_mastodon_6: "Android's strength was its decentralized nature. Google's plan to mandate central registration for every single app developer destroys that. We must resist this centralization of power. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_6: "Android-in gücü onun mərkəzləşdirilməmiş təbiətində idi. Google-un hər bir tətbiq tərtibatçısı üçün mərkəzləşdirilmiş qeydiyyatı məcburi etmək planı bunu məhv edir. Hakimiyyətin bu cür mərkəzləşdirilməsinə müqavimət göstərməliyik. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+# [en] social_callout_mastodon_7: "If you bought the hardware, you should have the final say on the software. Google's plan to block unverified apps is a direct attack on user sovereignty. {url} @keepandroidopen@techhub.social #KeepAndroidOpen"
+social_callout_mastodon_7: "Avadanlığı siz almısınızsa, proqram təminatı barədə son söz də sizə aid olmalıdır. Google-un yoxlanılmamış tətbiqləri bloklamaq planı istifadəçi suverenliyinə birbaşa hücumdur. {url} @keepandroidopen@techhub.social #KeepAndroidOpen"
+# [en] social_callout_mastodon_8: "Imagine a world where every small hobbyist or volunteer dev has to register with a global corporation just to share their work. That's the world Google is building for Android in 2027. {url} @keepandroidopen@techhub.social"
+social_callout_mastodon_8: "Təsəvvür edin ki, öz işini paylaşmaq üçün hər bir kiçik həvəskar və ya könüllü tərtibatçı qlobal korporasiyada qeydiyyatdan keçməli olduğu bir dünya var. Google 2027-ci ildə Android üçün məhz belə bir dünya qurur. {url} @keepandroidopen@techhub.social"
+# [en] social_callout_mastodon_9: "Google's 'advanced flow' for sideloading is a deterrence mechanism, not an escape hatch. 9 steps and a 24-hour wait for software you own? No thanks. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+social_callout_mastodon_9: "Google-un tətbiqləri kənardan quraşdırmaq üçün nəzərdə tutduğu \"qabaqcıl prosedur\" çıxış yolu deyil, çəkindirmə mexanizmidir. Sahib olduğunuz proqram təminatı üçün 9 addım və 24 saat gözləmək? Xeyr, sağ olun. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
+# [en] social_callout_mastodon_10: "Over 100,000 people and 67+ organizations are standing up to Google's attempt to lock down Android. Join the fight for a truly open mobile ecosystem. {url} @keepandroidopen@techhub.social #KeepAndroidOpen"
+social_callout_mastodon_10: "100 000-dən çox insan və 67-dən artıq təşkilat Google-un Android-i bağlamaq cəhdinə qarşı çıxır. Həqiqətən açıq mobil ekosistem uğrunda mübarizəyə qoşulun. {url} @keepandroidopen@techhub.social #KeepAndroidOpen"
+
+# [en] social_callout_facebook_1: "Starting in 2027, Google will require every Android app developer to register centrally and provide government-issued identification. Apps from unregistered developers will be blocked on all certified Android devices worldwide. This applies to all apps, not just those on the Play Store. Learn more: {url}"
+social_callout_facebook_1: "2027-ci ildən etibarən Google bütün Android tətbiq tərtibatçılarından mərkəzləşdirilmiş qaydada qeydiyyatdan keçməyi və dövlət tərəfindən verilmiş şəxsiyyət sənədini təqdim etməyi tələb edəcək. Qeydiyyatdan keçməmiş tərtibatçıların tətbiqləri dünya üzrə bütün sertifikatlaşdırılmış Android cihazlarında bloklanacaq. Bu, yalnız Play Store-dakı deyil, bütün tətbiqlərə aiddir. Ətraflı məlumat: {url}"
+# [en] social_callout_facebook_2: "F-Droid, the open-source Android app store used by millions, calls Google's developer verification an \"existential threat\" to its continued operation. over 67 organizations including the EFF, FSF, and Tor Project have signed an open letter opposing the policy. Learn why this matters: {url}"
+social_callout_facebook_2: "Milyonlarla insanın istifadə etdiyi açıq mənbəli Android tətbiq mağazası F-Droid Google-un tərtibatçıların yoxlanılması proqramını fəaliyyətini davam etdirməsi üçün \"mövcudluq təhdidi\" adlandırır. EFF, FSF və Tor Project də daxil olmaqla 67-dən çox təşkilat bu siyasətə qarşı açıq məktub imzalayıb. Bunun nə üçün vacib olduğunu öyrənin: {url}"
+# [en] social_callout_facebook_3: "Google's proposed workaround for installing unverified apps after their lockdown takes effect requires 9 steps, a mandatory 24-hour waiting period, and runs through Google Play Services (which Google can modify at any time). The community is being asked to accept a blog post as a safeguard. {url}"
+social_callout_facebook_3: "Bloklanma qüvvəyə mindikdən sonra yoxlanılmamış tətbiqləri quraşdırmaq üçün Google-un təklif etdiyi alternativ üsul 9 addım, məcburi 24 saatlıq gözləmə müddəti tələb edir və Google Play Services üzərindən işləyir (Google bunu istənilən vaxt dəyişə bilər). İcmadan qoruma mexanizmi kimi bir bloq yazısını qəbul etməsi istənilir. {url}"
+# [en] social_callout_facebook_4: "Android's openness has been its defining characteristic for 17 years. Millions chose it over iPhone for exactly that reason. Google is now mandating developer registration for all apps, including those distributed outside the Play Store. Independent developers and open-source projects face the most impact. {url}"
+social_callout_facebook_4: "Android-in açıqlığı 17 il ərzində onun əsas fərqləndirici xüsusiyyəti olub. Milyonlarla insan məhz bu səbəbdən onu iPhone əvəzinə seçib. İndi Google Play Store-dan kənarda yayılanlar da daxil olmaqla, bütün tətbiqlər üçün tərtibatçı qeydiyyatını məcburi edir. Bundan ən çox müstəqil tərtibatçılar və açıq mənbəli layihələr təsirlənəcək. {url}"
+# [en] social_callout_facebook_5: "The EFF calls app gatekeeping \"a pathway to censorship.\" Google's developer verification would give a single company the ability to block any app, from any developer, on any certified device worldwide. This sets a precedent that extends beyond Android to the future of personal computing. {url}"
+social_callout_facebook_5: "EFF tətbiqlərə girişə nəzarəti \"senzuraya aparan yol\" adlandırır. Google-un tərtibatçıların yoxlanılması proqramı tək bir şirkətə dünyanın istənilən yerində sertifikatlaşdırılmış istənilən cihazda istənilən tərtibatçının istənilən tətbiqini bloklamaq imkanı verəcək. Bu, Android-dən kənara çıxaraq fərdi hesablama texnologiyalarının gələcəyinə qədər uzanan bir presedent yaradır. {url}"
+# social_callout_facebook_6: "Your phone, your choice? Not if Google has its way. Starting in 2027, they plan to block any app whose developer hasn't registered and provided government ID. This affects everyone. {url}"
+social_callout_facebook_6: "Telefonunuz, seçiminiz? Google istədiyini həyata keçirə bilsə, belə olmayacaq. 2027-ci ildən etibarən onlar tərtibatçısı qeydiyyatdan keçməmiş və dövlət tərəfindən verilmiş şəxsiyyət sənədini təqdim etməmiş istənilən tətbiqi bloklamağı planlaşdırırlar. Bu, hər kəsə təsir edir. {url}"
+# [en] social_callout_facebook_7: "Google is retroactively locking down billions of devices that were sold as open platforms. This 'rug pull' threatens independent developers and alternative app stores like F-Droid. {url}"
+social_callout_facebook_7: "Google açıq platformalar kimi satılmış milyardlarla cihazı geriyə dönük şəkildə məhdudlaşdırır. Bu \"rug pull\" müstəqil tərtibatçıları və F-Droid kimi alternativ tətbiq mağazalarını təhdid edir. {url}"
+# [en] social_callout_facebook_8: "Is your phone really yours? If Google can decide which apps you're allowed to install, the answer is no. Join the 100,000+ people fighting to keep Android open. {url}"
+social_callout_facebook_8: "Telefonunuz həqiqətən sizə məxsusdur? Əgər Google hansı tətbiqləri quraşdıra biləcəyinizə qərar verə bilirsə, cavab xeyrdir. Android-i açıq saxlamaq üçün mübarizə aparan 100 000-dən çox insana qoşulun. {url}"
+# [en] social_callout_facebook_9: "Google's 9-step process for 'allowing' unverified apps is a trap. It's designed to be so difficult that nobody uses it, giving Google total control. {url}"
+social_callout_facebook_9: "Google-un yoxlanılmamış tətbiqlərə \"icazə vermək\" üçün nəzərdə tutduğu 9 addımlı proses tələdir. Bu proses elə çətin hazırlanıb ki, heç kim ondan istifadə etməsin və Google-a tam nəzarət versin. {url}"
+# [en] social_callout_facebook_10: "From students building their first apps to volunteers creating privacy tools, Google's mandatory registration policy will freeze out innovation. Help us keep Android open! {url}"
+social_callout_facebook_10: "İlk tətbiqlərini hazırlayan tələbələrdən məxfilik alətləri yaradan könüllülərə qədər, Google-un məcburi qeydiyyat siyasəti innovasiyanın qarşısını alacaq. Android-i açıq saxlamağımıza kömək edin! {url}"
+
+# Social button labels
+# [en] spread_label_x: "Post on X"
+spread_label_x: "X-də paylaşın"
+# [en] spread_label_mastodon: "Post on Mastodon"
+spread_label_mastodon: "Mastodon-da paylaşın"
+# [en] spread_label_bluesky: "Post on Bluesky"
+spread_label_bluesky: "Bluesky-də paylaşın"
+# [en] spread_label_linkedin: "LinkedIn"
+spread_label_linkedin: "LinkedIn"
+# [en] spread_label_facebook: "Facebook"
+spread_label_facebook: "Facebook"
+
+# Footer
+# [en] footer_get_involved: "Get involved"
+footer_get_involved: "İştirak edin"
+# [en] footer_take_action: "Take action & resources"
+footer_take_action: "Fəaliyyət və resurslar"
+# [en] footer_open_letter: "Open letter"
+footer_open_letter: "Açıq məktub"
+# [en] footer_add_banner: "Add countdown banner"
+footer_add_banner: "Geri sayım banneri əlavə edin"
+# [en] footer_faq: "FAQ"
+footer_faq: "Tez-tez verilən suallar"
+# [en] footer_sign_petition: "Sign the petition"
+footer_sign_petition: "Petisiyanı imzalayın"
+# [en] footer_contact: "Contact"
+footer_contact: "Əlaqə"
+# [en] footer_report_issues: "Report site issues"
+footer_report_issues: "Saytdakı problemləri bildirin"
+# [en] footer_translations: "Translations"
+footer_translations: "Tərcümələr"
+# [en] footer_languages: "English (+ 30 languages)"
+footer_languages: "İngilis dili (+ 30 dil)"
+# [en] footer_help_translate: "Help translate"
+footer_help_translate: "Tərcüməyə kömək edin"
+
+# Shared site strings (also used by CTA/footer on other pages)
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
+site_disclaimer: "**İmtina**: Bu veb-sayt icma tərəfindən yaradılan qeyri-kommersiya təşəbbüsüdür. Sayt yalnız məlumatlandırma və maarifləndirmə məqsədləri üçün fəaliyyət göstərir." 
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
+site_privacy: "**Məxfillik:** Bu sayt kukilərdən istifadə etmir və istifadəçiləri izləmir və ya onların fəaliyyətinə dair məlumatları qeyd etmir."
+# [en] site_copyright: "**Copyright:** None. This work is marked"
+site_copyright: "**Müəlliflik hüquları:** Yoxdur. Bu iş isarələnib"
+# [en] contact_header: "Contact"
+contact_header: "Əlaqə"
+# [en] contact_email: "Email"
+contact_email: "E-poçt"
+# [en] site_problems_header: "Problems"
+site_problems_header: "Problemlər"
+# [en] site_report_issues: "Report Site Issues"
+site_report_issues: "Saytdakı problemləri bildirin"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
+open_letter_cta: "Android Tərtibatçılarının Yoxlanılması proqramına qarşı açıq məktubumuzu oxuyun"
+
+# FAQ page
+# The FAQ is rendered from an ordered list of question/answer pairs. To add a new
+# entry, add a slug to `faqSlugs` in src/layouts/Faq.astro and define matching
+# `faq_q_<slug>` and `faq_a_<slug>` keys here (and in each locale file).
+footer_faq: "FAQ"
+faq_title: "Tez-tez verilən suallar"
+faq_description: "Google-un Android tərtibatçılarının yoxlanılması proqramı və tətbiqlərə qoyulacaq məhdudiyyətlərlə bağlı tez-tez verilən suallar."
+faq_intro: "Google-un Android tərtibatçılarının yoxlanılması proqramı və tətbiqlərə qoyulacaq məhdudiyyətlərlə bağlı ən çox verilən suallara cavablar. Vəziyyət inkişaf etdikcə bu səhifəni yeni məlumatlarla genişləndirəcəyik."
+faq_q_datechange: "Məhdudiyyətlərin tətbiq olunacağı tarix niyə 2026-cı ilin sentyabrından 2027-ci ilin yanvarına dəyişdirildi?"
+faq_a_datechange: >-
+  Məhdudiyyətlərin ilk olaraq 2026-cı ilin sentyabrında ilkin olaraq müəyyən edilmiş
+  dörd ölkədə tətbiq olunmağa başlayacağı bildirilmişdi. Sonradan ilkin mərhələnin
+  yalnız Android tətbiq mağazalarının müəyyən edilmiş siyahısına şamil ediləcəyi
+  açıqlanıb və bu siyahıya F-Droid daxil deyil. Bu o deməkdir ki, sentyabr ayında
+  başlanacaq tətbiqetmə F-Droid-in özünə və F-Droid vasitəsilə quraşdırılmış
+  tətbiqlərə təsir GÖSTƏRMƏYƏCƏK. Məhdudiyyətlərin F-Droid istifadəçilərinə təsir
+  etməyə başlayacağı tarix hələ açıqlanmayıb. Bizə təqdim edilən yeni zaman
+  cədvəli ilə bağlı məlumatları bu səhifədə yeniləyəcəyik. Ətraflı məlumat üçün
+  [Google-un tərtibatçıların yoxlanılması ilə bağlı tez-tez verilən suallar səhifəsinə](https://developer.android.com/developer-verification/guides/faq#general) baxın.
