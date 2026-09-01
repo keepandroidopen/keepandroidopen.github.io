@@ -358,7 +358,6 @@ open_letter_cta: "Android Tərtibatçılarının Yoxlanılması proqramına qar�
 # The FAQ is rendered from an ordered list of question/answer pairs. To add a new
 # entry, add a slug to `faqSlugs` in src/layouts/Faq.astro and define matching
 # `faq_q_<slug>` and `faq_a_<slug>` keys here (and in each locale file).
-footer_faq: "FAQ"
 faq_title: "Tez-tez verilən suallar"
 faq_description: "Google-un Android tərtibatçılarının yoxlanılması proqramı və tətbiqlərə qoyulacaq məhdudiyyətlərlə bağlı tez-tez verilən suallar."
 faq_intro: "Google-un Android tərtibatçılarının yoxlanılması proqramı və tətbiqlərə qoyulacaq məhdudiyyətlərlə bağlı ən çox verilən suallara cavablar. Vəziyyət inkişaf etdikcə bu səhifəni yeni məlumatlarla genişləndirəcəyik."
