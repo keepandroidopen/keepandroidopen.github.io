@@ -167,7 +167,7 @@ voices_more: "Bütün istinadlar, redaktor yazıları, mətbuat xəbərləri və
 # [en] signatories_heading: "All those opposed…"
 signatories_heading: "Bütün əleyhdarlar…"
 # [en] signatories_count: "{count} organizations from {countries} countries have signed the"
-signatories_count: "{country} ölkədən {count} təşkilatlar imza atıb"
+signatories_count: "{countries} ölkədən {count} təşkilatlar imza atıb"
 # [en] signatories_open_letter_link: "open letter"
 signatories_open_letter_link: "açıq məktubu"
 # [en] signatories_more: "Read the full open letter and thank the signatories"
