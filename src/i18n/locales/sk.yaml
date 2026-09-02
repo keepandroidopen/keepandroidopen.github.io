@@ -35,14 +35,6 @@
 title: "Udržme Android otvorený"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Tvoj telefón sa čoskoro prestane správať ako tvoj. V roku 2027 začne Google blokovať každú Android aplikáciu, ktorej vývojár sa u nich nezaregistroval."
-# [en] contact_header: "Contact"
-contact_header: "Kontakt"
-# [en] contact_email: "Email"
-contact_email: "Email"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problémy"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Nahlásiť nezrovnalosti na stránke"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Upozornenie:** Táto webová stránka je komunitným nekomerčným projektom. Je prevádzkovaná výlučne na informačné a vzdelávacie účely.
@@ -51,8 +43,6 @@ site_privacy: >-
   **Súkromie:** Táto stránka nepoužíva žiadne súbory cookie a nevykonáva žiadne sledovanie ani zaznamenávanie používateľov.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Autorské práva:** Žiadne. Toto dielo je označené"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Prečítajte si náš otvorený list proti programu overovania vývojárov systému Android"
 
 #
 # ============================================================================
@@ -70,6 +60,26 @@ hero_lede: "Tvoj telefón sa čoskoro prestane správať ako tvoj."
 hero_countdown_label: "dní do obmedzenia"
 hero_sub: "Od roku 2027[*](FAQ_URL) začne Google prostredníctvom tichej aktualizácie, bez súhlasu používateľa, **blokovať všetky Android aplikácie**, ktorých vývojár nie je registrovaný, neodsúhlasil podmienky, nezaplatil poplatok a neidentifikoval sa oficiálnymi dokladmi."
 hero_kicker: "Každá aplikácia a každé zariadenie, globálne, bez možnosti odmietnuť."
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Na tejto stránke"
+# [en] toc_what: "What is changing"
+toc_what: "Čo sa mení"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Koho sa to týka"
+# [en] toc_flow: "The workaround"
+toc_flow: "Obchádzka"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Dopady presahujú Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Časté otázky"
+# [en] toc_act: "What you can do"
+toc_act: "Čo môžeš urobiť"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Všetci čo sú proti…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Čo na to vravia"
 
 # What Google is doing
 what_heading: "Čo Google pripravuje"
@@ -178,7 +188,6 @@ closing_line1: "Kúpil si si telefón."
 closing_line2: "Len ty rozhoduješ, čo na ňom pobeží."
 closing_detail: "To by nemalo vyžadovať 9 krokov, 24 hodín čakania a dodatočné obmedzenia."
 closing_cta: "Zdieľaj túto stránku a zapoj sa. Nenechaj ich uzavrieť Android."
-closing_share_heading: "Zdieľaj ďalej"
 
 # Social buttons
 spread_label_x: "Pridať príspevok na X"
@@ -195,8 +204,6 @@ footer_add_banner: "Pridať banner"
 footer_sign_petition: "Podpísať petíciu"
 footer_contact: "Kontakt"
 footer_report_issues: "Nahlásiť chybu"
-footer_translations: "Preklady"
-footer_languages: "Angličtina (+30 jazykov)"
 footer_help_translate: "Pomôcť s prekladom"
 
 # Shared site strings (also used by CTA/footer on other pages)

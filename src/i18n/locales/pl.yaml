@@ -35,14 +35,6 @@
 title: "Obrońmy otwartość Androida"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Wspieramy Androida jako wolną, otwartą platformę, na której każdy może tworzyć aplikacje."
-# [en] contact_header: "Contact"
-contact_header: "Kontakt"
-# [en] contact_email: "Email"
-contact_email: "E-mail"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problemy"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Zgłoś problemy ze stroną"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Zastrzeżenie:** Ta strona internetowa jest społecznościowym, niekomercyjnym przedsięwzięciem. Jest prowadzona wyłącznie w celach informacyjnych i edukacyjnych.
@@ -51,8 +43,6 @@ site_privacy: >-
   **Prywatność:** Ta strona nie używa plików cookie i nie prowadzi żadnego śledzenia ani logowania użytkowników.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Prawa autorskie:** Brak zastrzeżonych praw. To dzieło zostało oznaczone jako"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Przeczytaj nasz list otwarty przeciwko programowi weryfikacji deweloperów Androida"
 
 #
 # ============================================================================
@@ -78,6 +68,26 @@ hero_sub: "Z początkiem 2027[*](FAQ_URL) roku, cicha aktualizacja wymuszona prz
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez możliwości rezygnacji."
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Na tej stronie"
+# [en] toc_what: "What is changing"
+toc_what: "Co się zmienia"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Kogo to dotyczy"
+# [en] toc_flow: "The workaround"
+toc_flow: "Obejście"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "To jest coś większego niż tylko Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Często zadawane pytania"
+# [en] toc_act: "What you can do"
+toc_act: "Co możesz zrobić"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Wszyscy, którzy są przeciwni..."
+# [en] toc_voices: "What they're saying"
+toc_voices: "Co mówią inni"
 
 # What Google is doing
 # [en] what_heading: "What Google is doing"
@@ -295,8 +305,6 @@ closing_line2: "To Ty decydujesz, co na nim uruchamiasz."
 closing_detail: "Nie powinno to wymagać dziewięciostopniowej procedury, 24-godzinnego oczekiwania ani ciągłej zgody Google."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Udostępnij tę stronę. Nie rejestruj się. Nie pozwól im zamknąć Androida."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Przekaż to dalej"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -489,12 +497,6 @@ footer_contact: "Kontakt"
 # footer_report_issues: "Report site issues"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Zgłoś problemy ze stroną"
-# footer_translations: "Translations"
-# [en] footer_translations: "Translations"
-footer_translations: "Tłumaczenia"
-# footer_languages: "English (+ 30 languages)"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Angielski (+30 języków)"
 # footer_help_translate: "Help translate"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Pomóż przetłumaczyć"

@@ -1,145 +1,17 @@
 ---
 import Letter from "../layouts/Letter.astro";
-import { getCollection, getEntry, render } from 'astro:content';
+import { getEntry, render } from 'astro:content';
 import Signatories from '../components/Signatories.astro';
 
-const pages = await getCollection('pages');
-console.log(`pages: ${pages.map(page => page.id)}`);
 const entry = await getEntry('pages', 'letter');
-console.log(`entry: ${entry}`);
 if (!entry) throw new Error('Letter content not found');
 const { Content } = await render(entry);
 const { data } = entry;
 ---
 <Letter {...data}>
-  <article class="prose dark:prose-invert">
+  <article class="letter-article">
+    <h1 class="letter-title">{data.title}</h1>
     <Content />
     <Signatories mode="full" />
   </article>
 </Letter>
-
-<style is:global>
-  /*!
-   * @license magnet:?xt=urn:btih:8e4f440f4c65981c5bf93c76d35135ba5064d8b7&dn=apache-2.0.txt Apache-2.0
-   * Keep Android Open – Signatories Styles
-   * Copyright 2025-2026 Keep Android Open Contributors
-   * SPDX-License-Identifier: Apache-2.0
-   */
-  .signatories {
-    margin-top: 4rem;
-  }
-
-  .sig-rule {
-    border: none;
-    height: 3px;
-    background: linear-gradient(90deg, transparent, #333, transparent);
-    margin: 0 auto;
-    max-width: 60rem;
-  }
-
-  .signatories h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-variant: small-caps;
-    letter-spacing: 0.25em;
-    font-weight: 900;
-    font-size: 1.6rem;
-    margin-top: 1.5rem;
-    margin-bottom: 0.25rem;
-  }
-
-  .sig-count {
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
-    font-size: 0.8rem;
-    opacity: 0.5;
-    margin-top: 0;
-    margin-bottom: 2rem;
-  }
-
-  .signatories ol {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto 2rem;
-    max-width: 60rem;
-    columns: 1;
-  }
-
-  @media (min-width: 900px) {
-    .signatories ol {
-      columns: 2;
-      column-gap: 2rem;
-    }
-  }
-
-  .signatories li {
-    display: flex;
-    align-items: center;
-    padding: 0.6rem 0;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.15);
-    break-inside: avoid;
-  }
-
-  .signatories li:last-child {
-    border-bottom: none;
-    padding-bottom: 1.5rem;
-  }
-
-  .sig-logo {
-    flex-shrink: 0;
-    width: 1.5rem;
-    height: 1.5rem;
-    object-fit: contain;
-    margin-inline-end: 0.75rem;
-    border-radius: 4px;
-  }
-
-  .sig-details {
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-    min-width: 0;
-  }
-
-  .sig-name {
-    font-weight: 800;
-    font-size: 0.8rem;
-    letter-spacing: 0.01em;
-  }
-
-  .sig-flag {
-    margin-inline-start: 0.4em;
-    font-size: 0.85em;
-    vertical-align: middle;
-  }
-
-  .sig-details a {
-    font-size: 0.8rem;
-    opacity: 0.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-  }
-
-  .sig-details a:hover {
-    opacity: 0.8;
-  }
-
-  .sig-links {
-    display: flex;
-    align-items: center;
-    gap: 0.3em;
-    flex-wrap: wrap;
-  }
-
-  .sig-social {
-    display: inline-flex;
-    align-items: center;
-    opacity: 0.7;
-    transition: opacity 0.2s;
-  }
-
-  .sig-social:hover {
-    opacity: 1;
-  }
-</style>

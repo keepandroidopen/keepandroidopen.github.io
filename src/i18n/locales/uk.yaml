@@ -36,14 +36,6 @@ title: "Збережемо Android відкритим"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
   Виступаємо за те, щоб Android залишався вільною, відкритою платформою, для якої кожен може створювати застосунки.
-# [en] contact_header: "Contact"
-contact_header: "Контакти"
-# [en] contact_email: "Email"
-contact_email: "Електронна пошта"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Проблеми"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Повідомити про проблеми з сайтом"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Відмова від відповідальності:** Цей вебсайт є некомерційним проєктом, керованим спільнотою. Він функціонує виключно в інформаційних та освітніх цілях.
@@ -52,8 +44,6 @@ site_privacy: >-
   **Конфіденційність:** Цей сайт не використовує файли cookie та не відстежує і не реєструє дії користувачів.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Авторське право:** Відсутнє. Ця робота позначена"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Прочитайте наш маніфест проти програми верифікації розробників Android"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Ваш телефон скоро перестане бути вашим"
 # [en] hero_countdown_label: "days until lockdown"
@@ -96,6 +86,26 @@ what_pullquote: "Якщо розробник не буде дотримуват�
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "На цій сторінці"
+# [en] toc_what: "What is changing"
+toc_what: "Що змінюється"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Кого це стосується"
+# [en] toc_flow: "The workaround"
+toc_flow: "Обхідний шлях"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Це більше, ніж просто Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Поширені запитання"
+# [en] toc_act: "What you can do"
+toc_act: "Що ви можете зробити"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Усі, хто проти…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Що кажуть інші"
 
 # What Google is doing
 
@@ -338,8 +348,6 @@ closing_detail: "Для цього не повинно знадобитися 9 
 closing_cta: "Поділіться цією сторінкою. Не реєструйтеся. Не дайте їм закрити Android."
 
 
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Поширюйте цю інформацію!"
 
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
@@ -533,11 +541,7 @@ footer_contact: "Контакти"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Повідомити про проблеми на сайті"
 
-# [en] footer_translations: "Translations "
-footer_translations: "Переклади сайту"
 
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Українська (30+ мов)"
 
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Допоможіть перекласти"

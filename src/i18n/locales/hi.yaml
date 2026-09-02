@@ -30,14 +30,6 @@
 
 # Active translations for this locale:
 
-# [en] contact_header: "Contact"
-contact_header: "संपर्क"
-# [en] contact_email: "Email"
-contact_email: "ईमेल"
-# [en] site_problems_header: "Problems"
-site_problems_header: "समस्याएँ"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "साइट की समस्या रिपोर्ट करें"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **अस्वीकरण:** यह वेबसाइट एक सामुदायिक, गैर-व्यावसायिक प्रयास है। यह केवल सूचनात्मक और शैक्षिक उद्देश्यों के लिए संचालित है।
@@ -45,8 +37,6 @@ site_disclaimer: >-
 site_privacy: "**गोपनीयता:** यह साइट कोई कुकी उपयोग नहीं करती और न ही किसी उपयोगकर्ता को ट्रैक या लॉग करती है।"
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**कॉपीराइट:** कोई कॉपीराइट नहीं है। यह कार्य चिह्नित है"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "एंड्रॉइड डेवलपर सत्यापन कार्यक्रम के विरोध में हमारा खुला पत्र पढ़ें"
 # [en] title: "Keep Android Open"
 title: "एंड्रॉइड को एक खुला प्लेटफार्म रखें"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
@@ -303,8 +293,6 @@ footer_sign_petition: "याचिका पर हस्ताक्षर क
 footer_contact: "संपर्क"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "साइट की समस्या रिपोर्ट करें"
-# [en] footer_translations: "Translations"
-footer_translations: "अनुवाद"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "अनुवाद करने में सहायता प्रदान करें"
 
@@ -320,6 +308,26 @@ footer_help_translate: "अनुवाद करने में सहाय�
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "इस पृष्ठ पर"
+# [en] toc_what: "What is changing"
+toc_what: "क्या बदल रहा है"
+# [en] toc_impact: "Who this affects"
+toc_impact: "किस पर असर पड़ता है"
+# [en] toc_flow: "The workaround"
+toc_flow: "वैकल्पिक रास्ता"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "यह सिर्फ Android तक ही सीमित नहीं है"
+# [en] toc_objections: "Common questions"
+toc_objections: "आम सवाल"
+# [en] toc_act: "What you can do"
+toc_act: "आप क्या कर सकते हैं"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "वे सभी जिन्होंने इसका विरोध किया है..... "
+# [en] toc_voices: "What they're saying"
+toc_voices: "इनका क्या कहना है"
 
 # What Google is doing
 
@@ -352,7 +360,6 @@ signatories_more: "पूरा खुला पत्र पढ़ें और
 cta_action_desc: "संसाधनों की सूची, हर देश के लिंक, रेगुलेटर्स से संपर्क करने और जवाब देने के उपाय"
 
 # Closing
-closing_share_heading: "प्रचार करें"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -415,7 +422,6 @@ spread_label_facebook: "फ़ेसबुक"
 
 # Footer
 footer_take_action: "कदम उठाएँ तथा संसाधन"
-footer_languages: "हिन्दी (+ 30 भाषाएँ)"
 
 # Shared site strings (also used by CTA/footer on other pages)
 

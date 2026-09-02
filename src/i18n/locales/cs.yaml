@@ -35,14 +35,6 @@
 title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Obhajoba Androidu jako svobodné, otevřené platformy, na které může každý tvořit své aplikace."
-# [en] contact_header: "Contact"
-contact_header: "Kontakt"
-# [en] contact_email: "Email"
-contact_email: "Email"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Nahlášení chyb"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Nahlásit problémy se stránkou"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Vyloučení odpovědnosti:** Tato stránka je komunitním, nekomerčním projektem. Je provozována výlučně pro informační a vzdělávací účely.
@@ -51,8 +43,6 @@ site_privacy: >-
   **Soukromí:** Tato stránka nepoužívá žádné cookies a neprovozuje žádné sledování nebo logování uživatelů.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Copyright:** Žádný. Toto dílo je označeno"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Přečtěte si náš otevřený dopis proti programu ověřování vývojářů Androidu"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Váš telefon brzy přestane být váš."
 # [en] hero_countdown_label: "days until lockdown"
@@ -258,8 +248,6 @@ closing_line2: "Vy byste měli rozhodovat, co na něm běží."
 closing_detail: "To by nemělo vyžadovat devítikrokový proces, 24hodinové čekání a neustálé schvalování od Googlu."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Sdílejte tuto stránku. Neregistrujte se. Nenechte je Android uzavřít."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Sdílejte to dál"
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_1: "V roce 2027 Google zablokuje každou aplikaci pro Android, jejíž vývojář se nezaregistroval a neposkytl úřední doklad totožnosti. To se týká všech zařízení s Androidem na celém světě. Více zde: {url} @AlteredDeal #KeepAndroidOpen"
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
@@ -384,10 +372,6 @@ footer_sign_petition: "Podepsat petici"
 footer_contact: "Kontakt"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Nahlásit problémy se stránkou"
-# [en] footer_translations: "Translations"
-footer_translations: "Překlady"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Angličtina (+ 30 jazyků)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Pomozte s překladem"
 #
@@ -402,6 +386,26 @@ footer_help_translate: "Pomozte s překladem"
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Na této stránce"
+# [en] toc_what: "What is changing"
+toc_what: "Co se mění"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Koho se to týká"
+# [en] toc_flow: "The workaround"
+toc_flow: "Obcházení"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Tohle je větší než Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Časté otázky"
+# [en] toc_act: "What you can do"
+toc_act: "Co můžete udělat"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Všichni, kdo jsou proti…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Co říkají"
 
 # What Google is doing
 

@@ -36,14 +36,6 @@ title: "Panatilihing Bukas ang Android"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
   Isinusulong ang Android bilang isang libre at bukas na plataporma kung saan kahit sino ay maaaring lumikha ng mga app.
-# [en] contact_header: "Contact"
-contact_header: "Konkakin"
-# [en] contact_email: "Email"
-contact_email: "Email"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Mga Problema"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Mag-ulat ng Mga Isyu sa Site"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Disclaimer:** Ang website na ito ay isang komunidad na pinapatakbo at walang layuning commercial. Ito ay ginagamit para sa mga layuning pang-impormasyon at pang-edukasyon lamang.
@@ -51,8 +43,6 @@ site_disclaimer: >-
 site_privacy: "**Pribasiya:** Ang site na ito ay walang cookies at hindi nagta-track o nagla-log ng mga gumagamit."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Copyright:** Wala. Ang proyektong ito ay markado."
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Basahin ang aming open letter na tumututol sa programa ng Android Developer Verification"
 
 #
 # ============================================================================
@@ -70,6 +60,26 @@ open_letter_cta: "Basahin ang aming open letter na tumututol sa programa ng Andr
 # hero_countdown_label: "days until lockdown"
 # hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Sa pahinang ito"
+# [en] toc_what: "What is changing"
+toc_what: "Ano ang nagbabago"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Sino ang apektado"
+# [en] toc_flow: "The workaround"
+toc_flow: "Ang workaround"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Mas malaki ito kaysa sa Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Mga karaniwang tanong"
+# [en] toc_act: "What you can do"
+toc_act: "Ano ang magagawa mo"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Lahat ng tumututol…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Ano ang sinasabi nila"
 
 # What Google is doing
 # what_heading: "What Google is doing"
@@ -175,7 +185,6 @@ open_letter_cta: "Basahin ang aming open letter na tumututol sa programa ng Andr
 # closing_line2: "You should decide what runs on it."
 # closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 # closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -244,8 +253,6 @@ open_letter_cta: "Basahin ang aming open letter na tumututol sa programa ng Andr
 # footer_sign_petition: "Sign the petition"
 # footer_contact: "Contact"
 # footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
 # footer_help_translate: "Help translate"
 
 # Shared site strings (also used by CTA/footer on other pages)

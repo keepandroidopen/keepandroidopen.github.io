@@ -1,16 +1,11 @@
 title: "Giữ Android mở"
 description: "Điện thoại của bạn sắp không còn thật sự là của bạn. Từ năm 2027, Google sẽ chặn mọi ứng dụng Android nếu nhà phát triển chưa đăng ký với họ."
 
-contact_header: "Liên hệ"
-contact_email: "Email"
-site_problems_header: "Sự cố"
-site_report_issues: "Báo lỗi trang web"
 site_disclaimer: >-
   **Tuyên bố miễn trừ:** Trang web này là một dự án phi thương mại do cộng đồng thực hiện. Trang chỉ phục vụ mục đích cung cấp thông tin và giáo dục.
 site_privacy: >-
   **Quyền riêng tư:** Trang web này không dùng cookie, không theo dõi người dùng và không ghi log người dùng.
 site_copyright: "**Bản quyền:** Không có. Tác phẩm này được đánh dấu"
-open_letter_cta: "Đọc thư ngỏ phản đối chương trình Xác minh nhà phát triển Android"
 
 
 hero_lede: "Điện thoại của bạn sắp không còn là của bạn."
@@ -19,6 +14,25 @@ hero_sub: >-
   Từ năm 2027[*](FAQ_URL), một bản cập nhật âm thầm do Google triển khai, không cần sự đồng ý của người dùng, sẽ **chặn các ứng dụng Android** nếu nhà phát triển chưa đăng ký với Google, chưa ký điều khoản, chưa trả phí và chưa nộp giấy tờ tùy thân do nhà nước cấp.
 hero_kicker: "Mọi ứng dụng. Mọi thiết bị. Trên toàn thế giới. Không có lựa chọn từ chối."
 
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Trên trang này"
+# [en] toc_what: "What is changing"
+toc_what: "Điều gì đang thay đổi"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Ai bị ảnh hưởng"
+# [en] toc_flow: "The workaround"
+toc_flow: "Giải pháp thay thế"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Chuyện này lớn hơn Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Câu hỏi thường gặp"
+# [en] toc_act: "What you can do"
+toc_act: "Bạn có thể làm gì"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Tất cả những bên phản đối..."
+# [en] toc_voices: "What they're saying"
+toc_voices: "Các bên đang nói gì"
 what_heading: "Google đang làm gì?"
 what_intro: >-
   Tháng 8 năm 2025, Google [công bố](https://developer.android.com/developer-verification) một yêu cầu mới: từ năm 2027, **mọi nhà phát triển ứng dụng Android đều phải đăng ký với Google** trước khi phần mềm của họ có thể được cài trên bất kỳ thiết bị nào. Không chỉ ứng dụng trên Play Store, mà tất cả ứng dụng đều bị áp dụng. Điều này bao gồm cả ứng dụng chia sẻ giữa bạn bè, phân phối qua [F-Droid](https://f-droid.org), hoặc do người dùng tự viết cho nhu cầu cá nhân. Nhà phát triển độc lập, nhóm nhà thờ, tổ chức cộng đồng và người làm ứng dụng vì sở thích đều sẽ bị chặn khỏi việc phát triển và phân phối phần mềm của chính họ.
@@ -132,7 +146,6 @@ closing_line1: "Bạn đã mua chiếc điện thoại này."
 closing_line2: "Bạn nên có quyền quyết định ứng dụng nào được phép chạy trên điện thoại của mình."
 closing_detail: "Việc đó không nên cần một quy trình 9 bước, 24 tiếng chờ đợi và sự cho phép liên tục từ Google."
 closing_cta: "Hãy chia sẻ trang này. Đừng đăng ký. Đừng để họ đóng Android lại."
-closing_share_heading: "Hãy lan truyền thông tin. Cho bạn bè và gia đình biết."
 
 social_callout_x_1: "Từ năm 2027, Google sẽ chặn mọi ứng dụng Android nếu nhà phát triển chưa đăng ký và nộp giấy tờ tùy thân do nhà nước cấp. Việc này ảnh hưởng đến mọi thiết bị Android trên toàn thế giới. Tìm hiểu thêm: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_2: "Google thông báo rằng mọi nhà phát triển Android đều phải đăng ký tập trung, trả phí và nộp giấy tờ tùy thân do nhà nước cấp, nếu không ứng dụng của họ sẽ bị chặn trên mọi thiết bị. Hơn 67 tổ chức đang phản đối. {url} @AlteredDeal #KeepAndroidOpen"
@@ -202,8 +215,6 @@ footer_add_banner: "Thêm banner đếm ngược"
 footer_sign_petition: "Ký kiến nghị"
 footer_contact: "Liên hệ"
 footer_report_issues: "Báo lỗi trang này"
-footer_translations: "Bản dịch"
-footer_languages: "Tiếng Việt (+ 30 ngôn ngữ)"
 footer_help_translate: "Giúp chúng tôi dịch trang này"
 
 # FAQ page

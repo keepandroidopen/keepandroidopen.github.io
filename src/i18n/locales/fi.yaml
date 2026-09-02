@@ -35,14 +35,6 @@
 title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Kannatamme Androidia vapaana, avoimena alustana, jolle kaikki voivat rakentaa sovelluksia."
-# [en] contact_header: "Contact"
-contact_header: "Yhteys"
-# [en] contact_email: "Email"
-contact_email: "Sähköposti"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Ongelmat"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Ilmoita sivuston ongelmista"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Vastuuvapaus:** Tämä verkkosivusto on yhteisövetoisesti toteutettu epäkaupallinen hanke. Se toimii yksinomaan tiedotus- ja koulutustarkoituksissa.
@@ -50,8 +42,6 @@ site_disclaimer: >-
 site_privacy: "**Tietosuoja:** Tämä sivusto ei käytä evästeitä eikä seuraa tai kirjaa käyttäjien toimintaa."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Tekijänoikeus:** Ei mitään. Tämä työ on merkitty"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Lue avoin kirjeemme, jossa vastustamme Android-kehittäjien vahvistusohjelmaa"
 
 #
 # ============================================================================
@@ -69,6 +59,26 @@ open_letter_cta: "Lue avoin kirjeemme, jossa vastustamme Android-kehittäjien va
 # hero_countdown_label: "days until lockdown"
 # hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Tällä sivulla"
+# [en] toc_what: "What is changing"
+toc_what: "Mikä muuttuu"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Keitä tämä koskee"
+# [en] toc_flow: "The workaround"
+toc_flow: "Kiertotie"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Tämä on suurempaa kuin Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Usein kysytyt kysymykset"
+# [en] toc_act: "What you can do"
+toc_act: "Mitä voit tehdä"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Kaikki vastustajat…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Mitä he sanovat"
 
 # What Google is doing
 # what_heading: "What Google is doing"
@@ -174,7 +184,6 @@ open_letter_cta: "Lue avoin kirjeemme, jossa vastustamme Android-kehittäjien va
 # closing_line2: "You should decide what runs on it."
 # closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 # closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -243,8 +252,6 @@ open_letter_cta: "Lue avoin kirjeemme, jossa vastustamme Android-kehittäjien va
 # footer_sign_petition: "Sign the petition"
 # footer_contact: "Contact"
 # footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
 # footer_help_translate: "Help translate"
 
 # Shared site strings (also used by CTA/footer on other pages)

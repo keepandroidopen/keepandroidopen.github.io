@@ -7,10 +7,22 @@ description: "Your phone is about to stop being yours. In 2027, Google will bloc
 
 # Hero
 hero_lede: "Your phone is about to stop being yours."
-hero_countdown_label: "days until lockdown"
+hero_countdown_label: "days until enforcement begins"
+hero_countdown_note: "Android Developer Verification is scheduled to take effect in January 2027."
 hero_sub: >-
   Starting in 2027[*](FAQ_URL), a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID.
 hero_kicker: "Every app and every device, worldwide, with no opt-out."
+
+# On-page table of contents
+toc_heading: "On this page"
+toc_what: "What is changing"
+toc_impact: "Who this affects"
+toc_flow: "The workaround"
+toc_precedent: "This is bigger than Android"
+toc_objections: "Common questions"
+toc_act: "What you can do"
+toc_signatories: "All those opposed…"
+toc_voices: "What they're saying"
 
 # What Google is doing
 what_heading: "What Google is doing"
@@ -142,7 +154,6 @@ closing_line1: "You bought your phone."
 closing_line2: "You should decide what runs on it."
 closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-closing_share_heading: "Spread the word"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 social_callout_x_1: "Starting in 2027, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -216,19 +227,12 @@ footer_faq: "FAQ"
 footer_sign_petition: "Sign the petition"
 footer_contact: "Contact"
 footer_report_issues: "Report site issues"
-footer_translations: "Translations"
-footer_languages: "English (+ 30 languages)"
 footer_help_translate: "Help translate"
 
 # Shared site strings (also used by CTA/footer on other pages)
 site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_copyright: "**Copyright:** None. This work is marked"
-contact_header: "Contact"
-contact_email: "Email"
-site_problems_header: "Problems"
-site_report_issues: "Report Site Issues"
-open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 
 # FAQ page
 # The FAQ is rendered from an ordered list of question/answer pairs. To add a new

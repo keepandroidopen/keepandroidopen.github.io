@@ -37,14 +37,6 @@ title: "Сохраним Android открытым"
 description: "В защиту Android как свободной и открытой платформы, на которой каждый может создавать приложения."
 
 # Shared site strings (also used by CTA/footer on other pages)
-# [en] contact_header: "Contact"
-contact_header: "Контакты"
-# [en] contact_email: "Email"
-contact_email: "Email"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Проблемы"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Сообщить об ошибке"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Отказ от ответственности:** Этот сайт - некоммерческий общественный проект. Он создан исключительно в информационных и образовательных целях.
@@ -52,8 +44,6 @@ site_disclaimer: >-
 site_privacy: "**Конфиденциальность:** Сайт не использует cookies и не отслеживает пользователей."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Авторские права:** Отсутствуют. Этот материал распространяется под"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Прочитайте наше открытое письмо против программы верификации разработчиков Android"
 
 #Hero
 # [en] hero_lede: "Your phone is about to stop being yours."
@@ -76,6 +66,26 @@ spread_label_bluesky: "Поделиться в Bluesky"
 spread_label_linkedin: "LinkedIn"
 # [en] spread_label_facebook: "Facebook"
 spread_label_facebook: "Facebook"
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "На этой странице"
+# [en] toc_what: "What is changing"
+toc_what: "Что меняется"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Кого это касается"
+# [en] toc_flow: "The workaround"
+toc_flow: "Обходной путь"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Это - больше, чем Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Частые вопросы"
+# [en] toc_act: "What you can do"
+toc_act: "Что вы можете сделать"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Все они против…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Что они говорят"
 
 # What Google is doing
 # [en] what_heading: "What Google is doing"
@@ -310,10 +320,6 @@ footer_sign_petition: "Подписать петицию"
 footer_contact: "Связаться с нами"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Сообщить о проблемах с сайтом"
-# [en] footer_translations: "Translations"
-footer_translations: "Перевод"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Русский (+ 30 languages)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Помочь перевести"
 
@@ -336,8 +342,6 @@ closing_line2: "Вы должны решать, что запускать на �
 closing_detail: "Это не должно требовать процесса из 9 шагов, 24-часового ожидания и разрешения от Google"
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Делитесь этой страницей. Не регистрируйтесь. Не давайте им закрыть Android."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Распространите информацию"
 
 #
 # ============================================================================

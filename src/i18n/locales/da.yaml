@@ -35,14 +35,6 @@
 title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Et forsvar for Android som en fri og åben platform, hvor alle kan udvikle apps."
-# [en] contact_header: "Contact"
-contact_header: "Kontakt"
-# [en] contact_email: "Email"
-contact_email: "E-mail"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problemer"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Rapporter problemer med hjemmesiden"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Ansvarsfraskrivelse:** Denne hjemmeside er et fællesskabsdrevet, ikke-kommercielt initiativ. Den drives udelukkende til informations- og læringsformål.
@@ -51,8 +43,6 @@ site_privacy: >-
   **Privatliv:** Denne hjemmeside bruger ingen cookies og foretager hverken sporing eller logning af brugere.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Ophavsret:** Ingen. Dette værk er licenseret under"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Læs vores åbne brev som taler imod Android Developer Verification-programmet"
 
 #
 # ============================================================================
@@ -74,6 +64,26 @@ hero_countdown_label: "dage til nedlåsning"
 hero_sub: "I 2027[*](FAQ_URL) vil en usynlig opdatering, som installeres af Google uden dit samtykke, **blokere enhver Android-app** hvis udvikler ikke har registreret sig hos Google, underskrevet deres kontrakt, betalt et gebyr og fremvist statslig identifikation."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Enhver app og enhver enhed, verdensomspændende, uden nogen mulighed for omgåelse."
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "På denne side"
+# [en] toc_what: "What is changing"
+toc_what: "Hvad der ændrer sig"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Hvem det berører"
+# [en] toc_flow: "The workaround"
+toc_flow: "Omvejen"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Dette er større end Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Almindelige spørgsmål"
+# [en] toc_act: "What you can do"
+toc_act: "Hvad du kan gøre"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Alle der er imod…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Hvad de siger"
 
 # What Google is doing
 # what_heading: "What Google is doing"
@@ -267,8 +277,6 @@ closing_line2: "Du bør beslutte hvad der kører på den."
 closing_detail: "Det burde ikke kræve en 9-trins-process, en 24-timers venteperiode og Googles løbende velsignelse."
 # closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Del denne side. Undlad at registrere dig. Lad dem ikke lukke Android ned."
-# closing_share_heading: "Spread the word"
-closing_share_heading: "Spred ordet"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -349,10 +357,6 @@ footer_sign_petition: "Underskriftsindsamling"
 footer_contact: "Kontakt"
 # footer_report_issues: "Report site issues"
 footer_report_issues: "Rapporter problemer med hjemmesiden"
-# footer_translations: "Translations"
-footer_translations: "Oversættelser"
-# footer_languages: "English (+ 30 languages)"
-footer_languages: "engelsk (+ 30 sprog)"
 # footer_help_translate: "Help translate"
 footer_help_translate: "Hjælp med at oversætte"
 
