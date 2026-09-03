@@ -35,14 +35,6 @@
 title: "Houd Android open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Je telefoon is straks niet meer van jou. In 2027 zal Google elke Android-app blokkeren waarvan de ontwikkelaar zich niet bij hen heeft geregistreerd."
-# [en] contact_header: "Contact"
-contact_header: "Contact"
-# [en] contact_email: "Email"
-contact_email: "E-mail"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problemen"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Meld problemen met deze site"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Disclaimer:** Deze website wordt onderhouden door een niet-commerciële gemeenschap en is uitsluitend bedoeld voor informatieve en educatieve doeleinden.
@@ -50,8 +42,6 @@ site_disclaimer: >-
 site_privacy: "**Privacy:** Deze site gebruikt geen cookies en doet niet aan gebruikerstracking of logging."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Copyright:** Geen. Dit werk is beschikbaar onder"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Lees onze open brief tegen het Android Developer Verification-programma"
 
 #
 # ============================================================================
@@ -75,6 +65,26 @@ hero_sub: >-
   heeft geregistreerd, een contract heeft getekend, Google heeft betaald én een identiteitsbewijs heeft afgegeven.
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Dat geldt voor iedere app op ieder apparaat, wereldwijd, zonder dat je dit kunt voorkomen."
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Op deze pagina"
+# [en] toc_what: "What is changing"
+toc_what: "Wat er verandert"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Wie hierdoor wordt geraakt"
+# [en] toc_flow: "The workaround"
+toc_flow: "De omweg"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Dit gaat verder dan alleen Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Veelgestelde vragen"
+# [en] toc_act: "What you can do"
+toc_act: "Wat u kunt doen"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Allen die zich verzetten…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Wat anderen erover zeggen"
 
 # What Google is doing
 # [en] what_heading: "What Google is doing"
@@ -329,8 +339,6 @@ closing_line2: "Jij hoort te bepalen wat erop draait."
 closing_detail: "Daar zou geen 9-stappenproces, 24 uur wachten en de aanhoudende toestemming van Google voor nodig moeten zijn."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Deel deze pagina. Meld je niet aan. Laat ze Android niet dichttimmeren."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Verspreid de boodschap"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -461,10 +469,6 @@ footer_sign_petition: "Onderteken de petitie"
 footer_contact: "Contact"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Meld problemen met de site"
-# [en] footer_translations: "Translations"
-footer_translations: "Vertalingen"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Engels (+ 30 talen)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Help mee vertalen"
 

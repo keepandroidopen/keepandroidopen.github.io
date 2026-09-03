@@ -35,14 +35,6 @@
 title: "Захаваем Android адкрытым"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Захаваем Android яе бясплатную адкрытую платформу, на якой кожны зможа ствараць праграмы."
-# [en] contact_header: "Contact"
-contact_header: "Кантакты"
-# [en] contact_email: "Email"
-contact_email: "Email"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Праблемы"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Паведаміць пра праблемы сайта"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Заўвага:** Гэты сайт кіруецца супольнасцю. Ён створаны выключна ў інфармацыйных і навучальных мэтах.
@@ -50,8 +42,6 @@ site_disclaimer: >-
 site_privacy: "**Прыватнасць:** Гэты сайт не выкарыстоўвае кукі і не адсочвае карыстальнікаў ці аўтарызацыю."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Аўтарскае права:** Няма. Гэты матэрыял распаўсюджваецца пад"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Прачытайце нашы адкрыты ліст супраць праграмы верыфікацыі Android распрацоўшчыкаў"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Ваш тэлефон хутка перастане быць вашым."
 # [en] hero_countdown_label: "days until lockdown"
@@ -233,8 +223,6 @@ closing_line2: "Вы павінны вырашаць, што на ім запу�
 closing_detail: "Гэта не павінна ўключаць працэсу з 9 крокаў, чакання 24 гадзін і заўсёднага дазвола Google."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Падзяліцеся гэтай старонкай. Не рэгістрыруйцеся. Не дайце ім закрыць Android."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Пашырце ідэю"
 # [en] spread_label_x: "Post on X"
 spread_label_x: "Размясціць у X"
 # [en] spread_label_mastodon: "Post on Mastodon"
@@ -259,10 +247,6 @@ footer_sign_petition: "Падпсіаць петыцыю"
 footer_contact: "Кантакты"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Дакласці пра памылкі сайта"
-# [en] footer_translations: "Translations"
-footer_translations: "Пераклады"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Беларуская (+ 30 моў)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Дапамагчы перакласці"
 
@@ -278,6 +262,26 @@ footer_help_translate: "Дапамагчы перакласці"
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "На гэтай старонцы"
+# [en] toc_what: "What is changing"
+toc_what: "Што змяняецца"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Каго гэта закранае"
+# [en] toc_flow: "The workaround"
+toc_flow: "Абыходны шлях"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Гэта больш чым Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Частыя пытанні"
+# [en] toc_act: "What you can do"
+toc_act: "Што вы можаце зрабіць"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Усе яны супраць&hellip;"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Вось што кажуць"
 
 # What Google is doing
 

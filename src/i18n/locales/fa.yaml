@@ -55,6 +55,26 @@ hero_sub: >-
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "تمام برنامه‌ها، تمام دستگاه‌ها، در سراسر جهان - بدون هیچ راهی برای غیرفعال کردن این سیاست."
 
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "در این صفحه"
+# [en] toc_what: "What is changing"
+toc_what: "چه چیزی در حال تغییر است"
+# [en] toc_impact: "Who this affects"
+toc_impact: "چه کسانی تحت تأثیر قرار می‌گیرند"
+# [en] toc_flow: "The workaround"
+toc_flow: "راه‌حل جایگزین"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "این موضوع فراتر از اندروید است"
+# [en] toc_objections: "Common questions"
+toc_objections: "سؤالات متداول"
+# [en] toc_act: "What you can do"
+toc_act: "چه کاری می‌توانید انجام دهید"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "همه مخالفان…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "دیگران چه می‌گویند"
+
 # What Google is doing
 # [en] what_heading: "What Google is doing"
 what_heading: "گوگل چه کاری انجام می‌دهد"
@@ -265,8 +285,6 @@ closing_line2: "باید شما تصمیم بگیرید چه چیزی روی آ�
 closing_detail: "این نباید نیاز به ۹ مرحله، ۲۴ ساعت انتظار و اجازه دائمی گوگل داشته باشد."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "این صفحه را هم‌رسانی کنید. نام‌نویسی نکنید. اجازه ندهید اندروید بسته شود."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "اطلاع‌رسانی کنید"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -354,10 +372,6 @@ footer_sign_petition: "امضای دادخواست اینترنتی"
 footer_contact: "تماس با ما"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "گزارش مشکل سایت"
-# [en] footer_translations: "Translations"
-footer_translations: "ترجمه‌ها"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "انگلیسی (+ ۳۰ زبان)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "کمک به ترجمه"
 
@@ -368,16 +382,6 @@ site_disclaimer: "**سلب مسئولیت:** این وب‌سایت یک پرو�
 site_privacy: "**حریم خصوصی:** این سایت از کوکی استفاده نمی‌کند و هیچ‌گونه ردیابی یا ثبت اطلاعات کاربران انجام نمی‌دهد."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**حق نشر:** ندارد. این اثر منتشر شده تحت پروانهٔ"
-# [en] contact_header: "Contact"
-contact_header: "تماس با ما"
-# [en] contact_email: "Email"
-contact_email: "ایمیل"
-# [en] site_problems_header: "Problems"
-site_problems_header: "مشکلات"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "گزارش مشکلات سایت"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "نامه سرگشاده ما در مخالفت با برنامه تأیید توسعه‌دهندگان اندروید را بخوانید"
 
 # FAQ page
 footer_faq: "پرسش‌های متداول"

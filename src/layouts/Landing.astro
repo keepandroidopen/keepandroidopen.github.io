@@ -9,6 +9,7 @@ import ThemeToggle from '../components/ThemeToggle.astro';
 import QuoteTicker from '../components/QuoteTicker.astro';
 import LanguagePicker from '../components/LanguagePicker.astro';
 import ShareRow from '../components/ShareRow.astro';
+import SectionNav from '../components/SectionNav.astro';
 import signatures from '../data/signatures.yaml';
 import { logoPath } from '../lib/signatures';
 import { getLandingStrings, getTranslationPercent } from '../i18n/locales';
@@ -63,6 +64,16 @@ const daysLeft = Math.max(0, Math.ceil((deadline.getTime() - now.getTime()) / (1
 const ctaPath = locale === 'en' ? '/cta/' : `/${locale}/cta/`;
 const homePath = locale === 'en' ? '/' : `/${locale}/`;
 const faqPath = locale === 'en' ? '/faq/' : `/${locale}/faq/`;
+const sectionNavItems = [
+  { href: '#what', label: t.toc_what },
+  { href: '#impact', label: t.toc_impact },
+  { href: '#advanced-flow', label: t.toc_flow },
+  { href: '#precedent', label: t.toc_precedent },
+  { href: '#objections', label: t.toc_objections },
+  { href: '#act', label: t.toc_act },
+  { href: '#signatories', label: t.toc_signatories },
+  { href: '#voices', label: t.toc_voices },
+];
 
 // hero_sub carries a FAQ_URL placeholder for the asterisk footnote link;
 // resolve it to the locale-specific FAQ page path.
@@ -72,28 +83,43 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
   {/* Head slot: pages can inject scripts (e.g. the redirect script) */}
   <slot name="head" />
 
-  <nav class="topbar">
-    <ThemeToggle />
-    <LanguagePicker locale={locale} />
-  </nav>
+  <header class="utility-header">
+    <div class="topbar">
+      <a class="topbar-brand" href={homePath} aria-current="page">
+        <span class="topbar-brand-full"><Fragment set:html={t.title} /></span>
+        <span class="topbar-brand-short" aria-hidden="true">KAO</span>
+      </a>
+      <div class="topbar-controls">
+        <ThemeToggle />
+        <LanguagePicker locale={locale} />
+      </div>
+    </div>
+  </header>
 
-  <main>
+  <main id="main-content" class="landing-main">
+    <div class="landing-content">
     <!-- Hero -->
     <section id="top" class="hero">
-      <p class="hero-lede">
+      <h1 class="hero-lede">
         <Fragment set:html={t.hero_lede} />
-      </p>
+      </h1>
       <div class="countdown-strip">
-        <span class="countdown-number">{daysLeft}</span>
-        <span class="countdown-label" set:html={t.hero_countdown_label} />
+        <div class="countdown-row">
+          <span class="countdown-number">{daysLeft}</span>
+          <span class="countdown-label" set:html={t.hero_countdown_label} />
+        </div>
+        <p class="countdown-note" set:html={t.hero_countdown_note} />
       </div>
       <p class="hero-sub" set:html={heroSub} />
       <p class="hero-sub hero-kicker" set:html={t.hero_kicker} />
-      <a href="#what" class="scroll-cue" aria-label="Read more">&#8595;</a>
 
-      <p class="share-heading" set:html={t.closing_share_heading} />
-      <ShareRow t={t} locale={locale} />
+      <div class="hero-actions">
+        <a href={ctaPath} class="hero-action hero-action-primary"><Fragment set:html={t.cta_action_label} /><span class="fwd-arrow" aria-hidden="true"></span></a>
+        <a href="/open-letter" class="hero-action hero-action-secondary"><Fragment set:html={t.cta_letter_label} /></a>
+      </div>
     </section>
+
+    <SectionNav label={t.toc_heading} items={sectionNavItems} variant="mobile" />
 
     <!-- What's happening -->
     <section id="what">
@@ -113,22 +139,22 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
     <!-- Who gets hurt -->
     <section id="impact">
       <h2 set:html={t.impact_heading} />
-      <div class="impact-cards">
-        <div class="impact-card impact-consumer">
+      <div class="impact-rows">
+        <article class="impact-row">
           <h3 set:html={t.impact_you_heading} />
           <p set:html={t.impact_you_p1} />
           <p set:html={t.impact_you_p2} />
-        </div>
-        <div class="impact-card impact-dev">
+        </article>
+        <article class="impact-row">
           <h3 set:html={t.impact_dev_heading} />
           <p set:html={t.impact_dev_p1} />
           <p set:html={t.impact_dev_p2} />
-        </div>
-        <div class="impact-card impact-gov">
+        </article>
+        <article class="impact-row">
           <h3 set:html={t.impact_gov_heading} />
           <p set:html={t.impact_gov_p1} />
           <p set:html={t.impact_gov_p2} />
-        </div>
+        </article>
       </div>
     </section>
 
@@ -165,11 +191,11 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
     <!-- Objections addressed -->
     <section id="objections" class="objections-section">
       <h2 set:html={t.objections_heading} />
-      <details><summary><h4 set:html={t.obj_security_q} /></summary><p set:html={t.obj_security_a} /></details>
-      <details><summary><h4 set:html={t.obj_sideloading_q} /></summary><p set:html={t.obj_sideloading_a} /></details>
-      <details><summary><h4 set:html={t.obj_hide_q} /></summary><p set:html={t.obj_hide_a} /></details>
-      <details><summary><h4 set:html={t.obj_apple_q} /></summary><p set:html={t.obj_apple_a} /></details>
-      <details><summary><h4 set:html={t.obj_cost_q} /></summary><p set:html={t.obj_cost_a} /></details>
+      <details><summary><h4 dir="auto" set:html={t.obj_security_q} /></summary><p set:html={t.obj_security_a} /></details>
+      <details><summary><h4 dir="auto" set:html={t.obj_sideloading_q} /></summary><p set:html={t.obj_sideloading_a} /></details>
+      <details><summary><h4 dir="auto" set:html={t.obj_hide_q} /></summary><p set:html={t.obj_hide_a} /></details>
+      <details><summary><h4 dir="auto" set:html={t.obj_apple_q} /></summary><p set:html={t.obj_apple_a} /></details>
+      <details><summary><h4 dir="auto" set:html={t.obj_cost_q} /></summary><p set:html={t.obj_cost_a} /></details>
     </section>
 
     <!-- What you can do -->
@@ -210,15 +236,15 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
       <p class="sig-count"><Fragment set:html={t.signatories_count.replace('{count}', String(signatures.length)).replace('{countries}', String(sigCountryCount))} /> <a href="/open-letter"><Fragment set:html={t.signatories_open_letter_link} /></a></p>
       <QuoteTicker direction="right" variant="sigs" duration={160}>
         {shuffledSigs.map((sig: any) => (
-          <a href={`https://${sig.url}`} target="_blank" class="ticker-card tc-sig">
-            <img class="sig-card-logo" src={logoPath(sig.url)} alt="" loading="lazy" />
+          <a href={`https://${sig.url}`} target="_blank" rel="noopener" class="ticker-card tc-sig">
+            <img class="sig-card-logo" src={logoPath(sig.url)} alt="" decoding="async" />
             <span class="sig-card-name">{sig.organization}</span>
             <span class="sig-card-url">{sig.url}</span>
           </a>
         ))}
       </QuoteTicker>
-      <p style="text-align:center; margin-top: 1rem;">
-        <a href="/open-letter" class="more-link"><Fragment set:html={t.signatories_more} /> &rarr;</a>
+      <p class="section-more-link">
+        <a href="/open-letter" class="more-link"><Fragment set:html={t.signatories_more} /><span class="fwd-arrow" aria-hidden="true"></span></a>
       </p>
     </section>
 
@@ -229,8 +255,8 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
       <QuoteTicker direction="left" variant="press" duration={270}>
         {pressItems.map((item: any) => (
           <blockquote class="ticker-card" data-color={item.color || null}>
-            <p>"{item.quote}"</p>
-            <cite>{item.author && <>{item.author}, </>}<a href={item.url} target="_blank">{item.source}</a></cite>
+            <p dir="auto">"{item.quote}"</p>
+            <cite>{item.author && <>{item.author}, </>}<a href={item.url} target="_blank" rel="noopener">{item.source}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
@@ -238,8 +264,8 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
       <QuoteTicker direction="right" variant="featured" duration={135}>
         {editorialItems.map((item: any) => (
           <blockquote class="ticker-card tc-featured" data-color={item.color || null}>
-            <p>"{item.quote}"</p>
-            <cite>{item.author && <>{item.author}, </>}<a href={item.url} target="_blank">{item.source}</a></cite>
+            <p dir="auto">"{item.quote}"</p>
+            <cite>{item.author && <>{item.author}, </>}<a href={item.url} target="_blank" rel="noopener">{item.source}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
@@ -247,8 +273,8 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
       <QuoteTicker direction="left" variant="org" duration={120}>
         {orgItems.map((item: any) => (
           <blockquote class="ticker-card" data-color={item.color || null}>
-            <p>"{item.quote}"</p>
-            <cite><a href={item.url} target="_blank">{item.source}</a></cite>
+            <p dir="auto">"{item.quote}"</p>
+            <cite><a href={item.url} target="_blank" rel="noopener">{item.source}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
@@ -256,8 +282,8 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
       <QuoteTicker direction="right" variant="video" duration={210}>
         {creatorItems.map((item: any) => (
           <blockquote class="ticker-card tc-video" data-color={item.color || null}>
-            <p>"{item.quote}"</p>
-            <cite>{item.author} &ndash; <a href={item.url} target="_blank">{item.link_text || 'YouTube'}</a></cite>
+            <p dir="auto">"{item.quote}"</p>
+            <cite>{item.author} &ndash; <a href={item.url} target="_blank" rel="noopener">{item.link_text || 'YouTube'}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
@@ -265,8 +291,8 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
       <QuoteTicker direction="left" variant="community" duration={180}>
         {communityItems.map((item: any) => (
           <blockquote class="ticker-card tc-community" data-color={item.color || null}>
-            <p>"{item.quote}"</p>
-            <cite>{item.author}{item.author_note && <> ({item.author_note})</>}, <a href={item.url} target="_blank">{item.source}</a></cite>
+            <p dir="auto">"{item.quote}"</p>
+            <cite>{item.author}{item.author_note && <> ({item.author_note})</>}, <a href={item.url} target="_blank" rel="noopener">{item.source}</a></cite>
           </blockquote>
         ))}
       </QuoteTicker>
@@ -277,16 +303,16 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
           <QuoteTicker direction="right" variant="petition" duration={240}>
             {petitionItems.map((item: any) => (
               <blockquote class="ticker-card tc-petition">
-                <p>"{item.content}"</p>
-                <cite>{item.author}, <a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank">change.org</a></cite>
+                <p dir="auto">"{item.content}"</p>
+                <cite>{item.author}, <a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank" rel="noopener">change.org</a></cite>
               </blockquote>
             ))}
           </QuoteTicker>
         </>
       )}
 
-      <p style="text-align:center; margin-top: 2rem;">
-        <a href={ctaPath} class="more-link"><Fragment set:html={t.voices_more} /> &rarr;</a>
+      <p class="section-more-link section-more-link-spaced">
+        <a href={ctaPath} class="more-link"><Fragment set:html={t.voices_more} /><span class="fwd-arrow" aria-hidden="true"></span></a>
       </p>
     </section>
 
@@ -295,12 +321,12 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
       <a href={ctaPath} class="cta-banner-link">
         <span class="cta-banner-label" set:html={t.cta_action_label} />
         <span class="cta-banner-desc" set:html={t.cta_action_desc} />
-        <span class="cta-banner-arrow">&rarr;</span>
+        <span class="fwd-arrow cta-banner-arrow" aria-hidden="true"></span>
       </a>
       <a href="/open-letter" class="cta-banner-link cta-banner-link-alt">
         <span class="cta-banner-label" set:html={t.cta_letter_label} />
         <span class="cta-banner-desc" set:html={t.cta_letter_desc} />
-        <span class="cta-banner-arrow">&rarr;</span>
+        <span class="fwd-arrow cta-banner-arrow" aria-hidden="true"></span>
       </a>
     </section>
 
@@ -311,6 +337,7 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
       <p class="closing-cta"><strong><Fragment set:html={t.closing_cta} /></strong></p>
       <ShareRow t={t} locale={locale} />
     </section>
+    </div>
   </main>
 
   <footer class="landing-footer">
@@ -319,12 +346,12 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
         <a href={homePath} class="outerlync">
           <img class="innerlync" alt="Altered Deal Logo" src="/img/altered-deal.png" style="width: 150px;">
         </a>
-        <h2 class="footer-title" set:html={t.title} />
+        <p class="footer-title" set:html={t.title} />
         <div class="footer-social">
-          <a href="https://techhub.social/@keepandroidopen" aria-label="Mastodon" title="Mastodon" rel="me" target="_blank"><span class="social-icon icon-mastodon" style="width:24px;height:24px"></span></a>
-          <a href="https://bsky.app/profile/keepandroidopen.bsky.social" aria-label="BlueSky" title="BlueSky" target="_blank"><span class="social-icon icon-bluesky" style="width:24px;height:24px"></span></a>
-          <a href="https://x.com/AlteredDeal" aria-label="Twitter" title="Twitter" target="_blank"><span class="social-icon icon-x" style="width:24px;height:24px"></span></a>
-          <a href="https://linkedin.com/company/keepandroidopen" aria-label="LinkedIn" title="LinkedIn" target="_blank"><span class="social-icon icon-linkedin" style="width:24px;height:24px"></span></a>
+          <a href="https://techhub.social/@keepandroidopen" aria-label="Mastodon" title="Mastodon" rel="me noopener" target="_blank"><span class="social-icon icon-mastodon footer-social-icon"></span></a>
+          <a href="https://bsky.app/profile/keepandroidopen.bsky.social" aria-label="BlueSky" title="BlueSky" rel="noopener" target="_blank"><span class="social-icon icon-bluesky footer-social-icon"></span></a>
+          <a href="https://x.com/AlteredDeal" aria-label="Twitter" title="Twitter" rel="noopener" target="_blank"><span class="social-icon icon-x footer-social-icon"></span></a>
+          <a href="https://linkedin.com/company/keepandroidopen" aria-label="LinkedIn" title="LinkedIn" rel="noopener" target="_blank"><span class="social-icon icon-linkedin footer-social-icon"></span></a>
         </div>
       </div>
       <div class="footer-links-row">
@@ -335,7 +362,7 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
             <li><a href="/open-letter"><Fragment set:html={t.footer_open_letter} /></a></li>
             <li><a href={faqPath}><Fragment set:html={t.footer_faq} /></a></li>
             <li><a href="/banner"><Fragment set:html={t.footer_add_banner} /></a></li>
-            <li><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank"><Fragment set:html={t.footer_sign_petition} /></a></li>
+            <li><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank" rel="noopener"><Fragment set:html={t.footer_sign_petition} /></a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -343,15 +370,15 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
           <ul>
             <li><a href="mailto:info@keepandroidopen.org">info@keepandroidopen.org</a></li>
             <li><a href="mailto:tips@keepandroidopen.org">tips@keepandroidopen.org</a></li>
-            <li><a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" target="_blank"><Fragment set:html={t.footer_report_issues} /></a></li>
-            <li><a href={translateUrl} target="_blank"><Fragment set:html={t.footer_help_translate} />{translatePct < 100 && ` (${translatePct}% ${(languages as any)[locale].label})`}</a></li>
+            <li><a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" target="_blank" rel="noopener"><Fragment set:html={t.footer_report_issues} /></a></li>
+            <li><a href={translateUrl} target="_blank" rel="noopener"><Fragment set:html={t.footer_help_translate} />{translatePct < 100 && ` (${translatePct}% ${(languages as any)[locale].label})`}</a></li>
           </ul>
         </div>
       </div>
       <div id="disclaimers" class="footer-legal">
         <p set:html={t.site_disclaimer} />
         <p set:html={t.site_privacy} />
-        <p><Fragment set:html={t.site_copyright} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0" style="max-width: 1em; max-height: 1em; margin-left: .2em;"><img src="/img/zero.svg" alt="Zero" style="max-width: 1em; max-height: 1em; margin-left: .2em;"></p>
+        <p><Fragment set:html={t.site_copyright} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0" class="license-icon"><img src="/img/zero.svg" alt="Zero" class="license-icon"></p>
       </div>
     </div>
   </footer>

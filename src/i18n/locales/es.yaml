@@ -36,14 +36,6 @@ title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
   Tu teléfono está a punto de dejar de ser tuyo. En 2027, Google bloqueará toda aplicación Android cuyo desarrollador no se haya registrado con ellos.
-# [en] contact_header: "Contact"
-contact_header: "Contacto"
-# [en] contact_email: "Email"
-contact_email: "«Correo electrónico»"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problemas"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Informar de un problema en el sitio web"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Aviso:** Este sitio web es una iniciativa comunitaria sin ánimo de lucro. Se utiliza únicamente con fines informativos y educativos.
@@ -52,8 +44,6 @@ site_privacy: >-
   **Privacidad:** Este sitio web no utiliza cookies ni realiza ningún tipo de seguimiento o registro de los usuarios.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Derechos de autor:** Ninguno. Esta obra está bajo la licencia."
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Lea nuestra carta abierta contra el programa de verificación de desarrolladores de Android"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Tu teléfono está a punto de dejar de ser tuyo."
 # [en] hero_countdown_label: "days until lockdown"
@@ -255,8 +245,6 @@ closing_line2: "Tú debes decidir qué se ejecuta en él."
 closing_detail: "Esto no debería requerir un proceso de 9 pasos, esperar 24 horas y el permiso de Google."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Comparte esta página. No lo aceptes. No les dejes cerrar Android."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Corre la voz"
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_1: "Desde 2027, Google bloqueará cualquier app Android cuyos desarrolladores no estén registrados ni hayan dado identificación. Afecta a todos los dispositivos Android. Más: {url} @AlteredDeal #KeepAndroidOpen"
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
@@ -376,10 +364,6 @@ footer_sign_petition: "Firma la petición"
 footer_contact: "Contacto"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Reportar problemas del sitio"
-# [en] footer_translations: "Translations"
-footer_translations: "Traducciones"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Español (+30 idiomas)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Ayuda a traducir"
 
@@ -395,6 +379,26 @@ footer_help_translate: "Ayuda a traducir"
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "En esta página"
+# [en] toc_what: "What is changing"
+toc_what: "Qué está cambiando"
+# [en] toc_impact: "Who this affects"
+toc_impact: "A quién afecta"
+# [en] toc_flow: "The workaround"
+toc_flow: "La alternativa"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Esto es más grande que Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Preguntas frecuentes"
+# [en] toc_act: "What you can do"
+toc_act: "Qué puedes hacer"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Todos los que se oponen&hellip;"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Qué están diciendo"
 
 # What Google is doing
 

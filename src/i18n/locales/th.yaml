@@ -35,14 +35,6 @@
 title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "รณรงค์เพื่อให้ Android ยังคงเป็นแพลตฟอร์มที่เปิดกว้างและอิสระสำหรับทุกคนในการพัฒนาแอป"
-# [en] contact_header: "Contact"
-contact_header: "ติดต่อ"
-# [en] contact_email: "Email"
-contact_email: "อีเมล"
-# [en] site_problems_header: "Problems"
-site_problems_header: "ปัญหาเว็บไซต์"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "รายงานปัญหาเว็บไซต์"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **ข้อจำกัดความรับผิดชอบ:** เว็บไซต์นี้เป็นโครงการที่ขับเคลื่อนโดยชุมชนและไม่แสวงหาผลกำไร จัดทำขึ้นเพื่อวัตถุประสงค์ด้านข้อมูลและการศึกษาเท่านั้น
@@ -50,8 +42,6 @@ site_disclaimer: >-
 site_privacy: "**ความเป็นส่วนตัว:** เว็บไซต์นี้ไม่ใช้คุกกี้ และไม่มีการติดตามหรือบันทึกข้อมูลผู้ใช้งาน"
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**ลิขสิทธิ์:** ไม่มี งานชิ้นนี้ถูกเผยแพร่"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "อ่านจดหมายเปิดผนึกของเราที่คัดค้านโครงการยืนยันตัวตนนักพัฒนา Android"
 
 #
 # ============================================================================
@@ -69,6 +59,26 @@ open_letter_cta: "อ่านจดหมายเปิดผนึกขอ�
 # hero_countdown_label: "days until lockdown"
 # hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 # hero_kicker: "Every app and every device, worldwide, with no opt-out."
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "ในหน้านี้"
+# [en] toc_what: "What is changing"
+toc_what: "สิ่งที่กำลังเปลี่ยน"
+# [en] toc_impact: "Who this affects"
+toc_impact: "ใครได้รับผลกระทบ"
+# [en] toc_flow: "The workaround"
+toc_flow: "ทางเลือก"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "เรื่องนี้ใหญ่กว่า Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "คำถามที่พบบ่อย"
+# [en] toc_act: "What you can do"
+toc_act: "สิ่งที่คุณทำได้"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "ผู้คัดค้านทั้งหมด…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "พวกเขากำลังพูดอะไร"
 
 # What Google is doing
 # what_heading: "What Google is doing"
@@ -174,7 +184,6 @@ open_letter_cta: "อ่านจดหมายเปิดผนึกขอ�
 # closing_line2: "You should decide what runs on it."
 # closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 # closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -243,8 +252,6 @@ open_letter_cta: "อ่านจดหมายเปิดผนึกขอ�
 # footer_sign_petition: "Sign the petition"
 # footer_contact: "Contact"
 # footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
 # footer_help_translate: "Help translate"
 
 # Shared site strings (also used by CTA/footer on other pages)

@@ -34,14 +34,6 @@
 title: "অ্যান্ড্রয়েডকে উন্মুক্ত রাখুন"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "অ্যান্ড্রয়েডকে সবার জন্য একটি স্বাধীন ও উন্মুক্ত অ্যাপ তৈরির প্ল্যাটফর্ম হিসেবে বজায় রাখার দাবি।"
-# [en] contact_header: "Contact"
-contact_header: "যোগাযোগ"
-# [en] contact_email: "Email"
-contact_email: "ইমেইল"
-# [en] site_problems_header: "Problems"
-site_problems_header: "সমস্যা"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "ওয়েবসাইটের সমস্যা রিপোর্ট করুন"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **দাবিত্যাগ:** এই ওয়েবসাইটটি একটি কমিউনিটি-পরিচালিত অলাভজনক উদ্যোগ। এটি শুধুমাত্র তথ্য প্রদান ও শিক্ষামূলক উদ্দেশ্যে পরিচালিত হচ্ছে।
@@ -50,8 +42,6 @@ site_privacy: >-
   **গোপনীয়তা:** এই সাইট কোনো কুকি ব্যবহার করে না এবং ব্যবহারকারীদের কোনো তথ্য ট্র্যাক বা সংরক্ষণ করে না।
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**কপিরাইট:** নেই। এই কাজটি চিহ্নিত করা হয়েছে"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "অ্যান্ড্রয়েড ডেভেলপার ভেরিফিকেশন প্রোগ্রামের প্রতিবাদ জানিয়ে লেখা আমাদের খোলা চিঠিটি পড়ুন"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "আপনার ফোন আর আপনার থাকছে না।"
 # [en] hero_countdown_label: "days until lockdown"
@@ -263,8 +253,6 @@ closing_line2: "এতে কী চলবে সেই সিদ্ধান্
 closing_detail: "তার জন্য নয়টি ধাপ, ২৪ ঘণ্টার অপেক্ষা এবং গুগলের দয়ার দরকার নেই।"
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "এই পেজটি শেয়ার করুন। রেজিস্ট্রেশন করবেন না। অ্যান্ড্রয়েডকে বন্ধ হতে দেবেন না।"
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "সবার কাছে ছড়িয়ে দিন"
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_1: "২০২৭ সাল থেকে গুগল সেই সব অ্যান্ড্রয়েড অ্যাপ ব্লক করবে যাদের ডেভেলপার রেজিস্টার করেনি এবং আইডি দেয়নি। এটি সারা বিশ্বের সব অ্যান্ড্রয়েড ডিভাইসকে প্রভাবিত করবে। আরও জানুন: {url} @AlteredDeal #KeepAndroidOpen"
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
@@ -309,10 +297,6 @@ footer_sign_petition: "পিটিশনে সই করুন"
 footer_contact: "যোগাযোগ"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "সাইটের সমস্যা জানান"
-# [en] footer_translations: "Translations"
-footer_translations: "অনুবাদসমূহ"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "ইংরেজি (+ ৩০টি ভাষা)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "অনুবাদে সাহায্য করুন"
 
@@ -328,6 +312,26 @@ footer_help_translate: "অনুবাদে সাহায্য করুন
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "এই পৃষ্ঠায়"
+# [en] toc_what: "What is changing"
+toc_what: "কী পরিবর্তন হচ্ছে"
+# [en] toc_impact: "Who this affects"
+toc_impact: "কারা প্রভাবিত হবে"
+# [en] toc_flow: "The workaround"
+toc_flow: "বিকল্প পথ"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "এটি কেবল অ্যান্ড্রয়েডের বিষয় নয়"
+# [en] toc_objections: "Common questions"
+toc_objections: "সাধারণ প্রশ্ন"
+# [en] toc_act: "What you can do"
+toc_act: "আপনি কী করতে পারেন"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "যারা বিপক্ষে দাঁড়িয়েছেন…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "অন্যরা কী বলছেন"
 
 # What Google is doing
 

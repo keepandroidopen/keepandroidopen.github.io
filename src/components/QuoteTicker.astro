@@ -36,8 +36,8 @@ const actualDuration = Math.round(jitter);
  * SPDX-License-Identifier: Apache-2.0
  */
 (function() {
-  if (window.__tickerV6) return;
-  window.__tickerV6 = true;
+  if (window.__tickerV7) return;
+  window.__tickerV7 = true;
 
   var TOUCH_PAUSE_MS = 10000;
   var RAMP_MS = 600;
@@ -60,7 +60,6 @@ const actualDuration = Math.round(jitter);
     }
   }
 
-  // Smoothly ramp playbackRate from current to target over RAMP_MS
   function rampRate(anim, target, ms) {
     if (!anim) return;
     var start = anim.playbackRate;
@@ -69,7 +68,6 @@ const actualDuration = Math.round(jitter);
       if (!startTime) startTime = ts;
       var elapsed = ts - startTime;
       var progress = Math.min(elapsed / ms, 1);
-      // Ease-in-out cubic
       var ease = progress < 0.5
         ? 4 * progress * progress * progress
         : 1 - Math.pow(-2 * progress + 2, 3) / 2;
@@ -80,7 +78,6 @@ const actualDuration = Math.round(jitter);
   }
 
   ready(function() {
-    // Assign per-card colors
     document.querySelectorAll('.ticker-card').forEach(function(card) {
       if (card.getAttribute('data-color')) {
         card.style.setProperty('--tc-accent', card.getAttribute('data-color'));
@@ -100,23 +97,34 @@ const actualDuration = Math.round(jitter);
       var halves = track.querySelectorAll('.ticker-half');
       var touchTimer = null;
 
-      // Get the CSS animation object from the track element
       function getAnim() {
         var anims = track.getAnimations();
         return anims.length > 0 ? anims[0] : null;
       }
 
-      // Mouse hover: gently ramp to 0 on enter, back to 1 on leave
+      function pause() {
+        rampRate(getAnim(), 0, RAMP_MS);
+      }
+
+      function resume() {
+        rampRate(getAnim(), 1, RAMP_MS);
+      }
+
       el.addEventListener('pointerenter', function(e) {
         if (e.pointerType !== 'mouse') return;
-        rampRate(getAnim(), 0, RAMP_MS);
+        pause();
       });
       el.addEventListener('pointerleave', function(e) {
         if (e.pointerType !== 'mouse') return;
-        rampRate(getAnim(), 1, RAMP_MS);
+        resume();
       });
 
-      // Touch: instant pause, resume after timeout
+      el.addEventListener('focusin', pause);
+      el.addEventListener('focusout', function(e) {
+        if (el.contains(e.relatedTarget)) return;
+        resume();
+      });
+
       el.addEventListener('touchstart', function() {
         var anim = getAnim();
         if (anim) anim.playbackRate = 0;
@@ -126,7 +134,6 @@ const actualDuration = Math.round(jitter);
         }, TOUCH_PAUSE_MS);
       }, {passive: true});
 
-      // Reshuffle on each animation cycle
       track.addEventListener('animationiteration', function() {
         for (var i = 0; i < halves.length; i++) {
           shuffleChildren(halves[i]);

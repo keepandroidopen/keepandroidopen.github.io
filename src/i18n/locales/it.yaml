@@ -53,6 +53,26 @@ hero_sub: "A partire dal 2027[*](FAQ_URL) un aggiornamento silenzioso, imposto d
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Tutte le applicazioni e tutti i dispositivi, in tutto il mondo, senza possibilità di rinuncia."
 
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "In questa pagina"
+# [en] toc_what: "What is changing"
+toc_what: "Cosa sta cambiando"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Chi è coinvolto"
+# [en] toc_flow: "The workaround"
+toc_flow: "La scappatoia"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "È una questione più grande di Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Domande frequenti"
+# [en] toc_act: "What you can do"
+toc_act: "Cosa puoi fare"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Tutti coloro che si oppongono..."
+# [en] toc_voices: "What they're saying"
+toc_voices: "Cosa dicono"
+
 # What Google is doing
 # [en] what_heading: "What Google is doing"
 what_heading: "Cosa sta facendo Google"
@@ -242,8 +262,6 @@ closing_line2: "Dovresti decidere tu cosa installarci."
 closing_detail: "Questo non dovrebbe richiedere una procedura composta da 9 passi, un'attesa di 24 ore e l'autorizzazione continua di Google."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Condividi questa pagina. Non registrarti. Non lasciare che chiudano Android."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Diffondi la notizia"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -379,10 +397,6 @@ footer_sign_petition: "Firma la petizione"
 footer_contact: "Contatti"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Segnala problemi del sito"
-# [en] footer_translations: "Translations"
-footer_translations: "Traduzioni"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Inglese (+ 30 lingue)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Aiutaci a tradurre"
 
@@ -395,16 +409,6 @@ site_privacy: >-
   **Privacy:** Questo sito web non utilizza cookie e non effettua alcun tracciamento o registrazione degli utenti.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Diritti d'autore:** Nessuno. Quest'opera è soggetta alla licenza."
-# [en] contact_header: "Contact"
-contact_header: "Contatto"
-# [en] contact_email: "Email"
-contact_email: "E-mail"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problemi"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Segnala problemi del sito web"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Leggi la nostra lettera aperta contro il programma di verifica degli sviluppatori Android"
 
 # FAQ page
 footer_faq: "FAQ"

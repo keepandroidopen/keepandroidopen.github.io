@@ -33,14 +33,6 @@
 title: "Maradjon nyílt az Android"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Az Android megőrzése mint szabad, nyílt platform, ahol bárki fejleszthet alkalmazásokat."
-# [en] contact_header: "Contact"
-contact_header: "Kapcsolat"
-# [en] contact_email: "Email"
-contact_email: "E-mail"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problémák"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Webhelyprobléma jelentése"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Nyilatkozat:** Ez a weboldal egy közösség által fenntartott, nem kereskedelmi kezdeményezés. Kizárólag tájékoztató és oktatási célokat szolgál.
@@ -49,8 +41,6 @@ site_privacy: >-
   **Adatvédelem:** Ez a weboldal nem használ cookie-kat, és nem követi vagy naplózza a felhasználói tevékenységet.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Szerzői jog:** Nincs. Ez a munka szabadon felhasználható."
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Olvasd el nyílt levelünket az Android fejlesztőellenőrzési program ellen"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "A telefonod többé nem lesz igazán a tied."
 # [en] hero_countdown_label: "days until lockdown"
@@ -229,8 +219,6 @@ closing_line2: "Te döntesz arról, mi fusson rajta."
 closing_detail: "Ennek nem kellene bonyolult folyamatot és várakozást igényelnie."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Oszd meg ezt az oldalt. Ne regisztrálj. Ne hagyd, hogy bezárják az Androidot."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Terjeszd a hírt"
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_1: "2027-től a Google blokkolni fog minden Android-alkalmazást, amelynek fejlesztője nem regisztrált és nem adott meg hatósági személyazonosítót. Ez minden Android-eszközt érint világszerte. Tudj meg többet: {url}"
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
@@ -305,10 +293,6 @@ footer_sign_petition: "Írd alá a petíciót"
 footer_contact: "Kapcsolat"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Jelents webhelyproblémákat"
-# [en] footer_translations: "Translations"
-footer_translations: "Fordítások"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Angol (+ 30 nyelv)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Segíts fordítani"
 
@@ -324,6 +308,26 @@ footer_help_translate: "Segíts fordítani"
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Ezen az oldalon"
+# [en] toc_what: "What is changing"
+toc_what: "Mi változik"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Kit érint"
+# [en] toc_flow: "The workaround"
+toc_flow: "A kerülőút"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Ez túlmutat az Androidon"
+# [en] toc_objections: "Common questions"
+toc_objections: "Gyakori kérdések"
+# [en] toc_act: "What you can do"
+toc_act: "Mit tehetsz"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Mindenki, aki ellenzi…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Mit mondanak"
 
 # What Google is doing
 

@@ -2,8 +2,9 @@
 import ThemeToggle from '../components/ThemeToggle.astro';
 import LanguagePicker from '../components/LanguagePicker.astro';
 import BackArrow from '../components/BackArrow.astro';
-import Footer from '../components/Footer.astro';
 import Base from './Base.astro';
+import { getLandingStrings, getTranslationPercent } from '../i18n/locales';
+import { languages } from '../i18n/config';
 import '../styles/landing.css';
 
 interface Props {
@@ -17,6 +18,13 @@ const {
   lang,
   description,
 } = Astro.props;
+
+const t = getLandingStrings(lang);
+const translatePct = getTranslationPercent(lang);
+const homePath = lang === 'en' ? '/' : `/${lang}/`;
+const ctaPath = lang === 'en' ? '/cta/' : `/${lang}/cta/`;
+const faqPath = lang === 'en' ? '/faq/' : `/${lang}/faq/`;
+const translateUrl = `https://github.com/keepandroidopen/keepandroidopen.github.io/tree/main/src/i18n/locales/${lang}.yaml`;
 ---
 
 <Base
@@ -24,15 +32,66 @@ const {
   lang={lang}
   description={description}
 >
-  <nav class="topbar">
-    <div class="topbar-left">
-      <BackArrow />
-      <ThemeToggle />
+  <header class="utility-header">
+    <div class="topbar">
+      <div class="topbar-left">
+        <BackArrow />
+        <a class="topbar-brand" href={homePath}>
+          <span class="topbar-brand-full"><Fragment set:html={t.title} /></span>
+          <span class="topbar-brand-short" aria-hidden="true">KAO</span>
+        </a>
+      </div>
+      <div class="topbar-controls">
+        <ThemeToggle />
+        <LanguagePicker locale={lang} />
+      </div>
     </div>
-    <LanguagePicker locale={lang} />
-  </nav>
-  <main>
-    <slot />
+  </header>
+  <main id="main-content" class="landing-main">
+    <div class="landing-content">
+      <slot />
+    </div>
   </main>
-  <Footer lang={lang} />
+  <footer class="landing-footer">
+    <div class="landing-footer-inner">
+      <div class="footer-brand">
+        <a href={homePath} class="outerlync">
+          <img class="innerlync" alt="Altered Deal Logo" src="/img/altered-deal.png" style="width: 150px;">
+        </a>
+        <p class="footer-title" set:html={t.title} />
+        <div class="footer-social">
+          <a href="https://techhub.social/@keepandroidopen" aria-label="Mastodon" title="Mastodon" rel="me noopener" target="_blank"><span class="social-icon icon-mastodon footer-social-icon"></span></a>
+          <a href="https://bsky.app/profile/keepandroidopen.bsky.social" aria-label="BlueSky" title="BlueSky" rel="noopener" target="_blank"><span class="social-icon icon-bluesky footer-social-icon"></span></a>
+          <a href="https://x.com/AlteredDeal" aria-label="Twitter" title="Twitter" rel="noopener" target="_blank"><span class="social-icon icon-x footer-social-icon"></span></a>
+          <a href="https://linkedin.com/company/keepandroidopen" aria-label="LinkedIn" title="LinkedIn" rel="noopener" target="_blank"><span class="social-icon icon-linkedin footer-social-icon"></span></a>
+        </div>
+      </div>
+      <div class="footer-links-row">
+        <div class="footer-col">
+          <h4 set:html={t.footer_get_involved} />
+          <ul>
+            <li><a href={ctaPath}><Fragment set:html={t.footer_take_action} /></a></li>
+            <li><a href="/open-letter"><Fragment set:html={t.footer_open_letter} /></a></li>
+            <li><a href={faqPath}><Fragment set:html={t.footer_faq} /></a></li>
+            <li><a href="/banner"><Fragment set:html={t.footer_add_banner} /></a></li>
+            <li><a href="https://www.change.org/p/stop-google-from-limiting-apk-file-usage/" target="_blank" rel="noopener"><Fragment set:html={t.footer_sign_petition} /></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 set:html={t.footer_contact} />
+          <ul>
+            <li><a href="mailto:info@keepandroidopen.org">info@keepandroidopen.org</a></li>
+            <li><a href="mailto:tips@keepandroidopen.org">tips@keepandroidopen.org</a></li>
+            <li><a href="https://github.com/keepandroidopen/keepandroidopen.github.io/issues" target="_blank" rel="noopener"><Fragment set:html={t.footer_report_issues} /></a></li>
+            <li><a href={translateUrl} target="_blank" rel="noopener"><Fragment set:html={t.footer_help_translate} />{translatePct < 100 && ` (${translatePct}% ${(languages as any)[lang].label})`}</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="disclaimers" class="footer-legal">
+        <p set:html={t.site_disclaimer} />
+        <p set:html={t.site_privacy} />
+        <p><Fragment set:html={t.site_copyright} /> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a><img src="/img/cc.svg" alt="CC0" class="license-icon"><img src="/img/zero.svg" alt="Zero" class="license-icon"></p>
+      </div>
+    </div>
+  </footer>
 </Base>

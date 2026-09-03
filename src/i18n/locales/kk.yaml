@@ -35,14 +35,6 @@
 title: "Android-ды ашық сақтайық"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Телефоныңыз жақында сіздікі болмай қалуы ықтимал. 2027 жылы Google тіркелмеген әзірлеушілердің барлық Android қосымшасын бұғаттайды."
-# [en] contact_header: "Contact"
-contact_header: "Байланыс"
-# [en] contact_email: "Email"
-contact_email: "Электрондық пошта"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Мәселелер"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Сайт мәселелерін хабарлау"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Ескерту**: Бұл сайтты қоғамдастық жүргізеді, коммерциялық мақсаты жоқ. Тек хабардар ету мен білім беру үшін жұмыс істейді.
@@ -51,8 +43,6 @@ site_privacy: >-
   **Құпиялылық**: Бұл сайт cookie файлдарын пайдаланбайды, пайдаланушыларды бақыламайды және деректерін жинамайды.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Авторлық құқық**: Жоқ. Бұл жұмыс қоғамдық меншікке берілген:"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Android әзірлеушілерді тексеру бағдарламасына қарсы ашық хатымызды оқыңыз"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Телефоныңыз жақында сіздікі болмай қалуы ықтимал."
 # [en] hero_countdown_label: "days until lockdown"
@@ -258,8 +248,6 @@ closing_line2: "Оған не іске қосылатынын өзіңіз ше�
 closing_detail: "Бұл үшін 9 қадамды, 24 сағаттық күтуді және Google-дің үздіксіз рұқсатын талап ету керек емес."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Бұл бетті таратыңыз. Тіркелмеңіз. Android-ты жаппауға жол бермеңіз."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Хабарды тарат"
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_1: "2027 жылдан бастап Google тіркелмеген және мемлекеттік куәлігін бермеген әзірлеушінің кез келген Android қосымшасын бұғаттайды. Бұл дүниежүзіндегі барлық Android құрылғыларға қатысты. Толығырақ: {url} @AlteredDeal #KeepAndroidOpen"
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
@@ -384,10 +372,6 @@ footer_sign_petition: "Петицияға қол қойыңыз"
 footer_contact: "Байланыс"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Сайт мәселелерін хабарлаңыз"
-# [en] footer_translations: "Translations"
-footer_translations: "Аудармалар"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Ағылшын тілі (+ 30 тіл)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Аударуға көмектесіңіз"
 
@@ -403,6 +387,26 @@ footer_help_translate: "Аударуға көмектесіңіз"
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Осы бетте"
+# [en] toc_what: "What is changing"
+toc_what: "Не өзгеруде"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Кімге әсер етеді"
+# [en] toc_flow: "The workaround"
+toc_flow: "Айналма жол"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Бұл Android-тан үлкен мәселе"
+# [en] toc_objections: "Common questions"
+toc_objections: "Жиі қойылатын сұрақтар"
+# [en] toc_act: "What you can do"
+toc_act: "Не істей аласыз"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Барлық қарсыластар…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Олар не дейді"
 
 # What Google is doing
 

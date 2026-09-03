@@ -53,6 +53,26 @@ hero_sub: "През 2027[*](FAQ_URL) г. Google, без да иска съгла
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Всяко приложение и всяко устройство по целия свят и без опция за отказ."
 
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "На тази страница"
+# [en] toc_what: "What is changing"
+toc_what: "Какво се променя"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Кого засяга"
+# [en] toc_flow: "The workaround"
+toc_flow: "З заобиколен път"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Това е по-голямо от Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Често задавани въпроси"
+# [en] toc_act: "What you can do"
+toc_act: "Какво можете да направите"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Всички, които са против…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Какво казват хората"
+
 # What Google is doing
 # [en] what_heading: "What Google is doing"
 what_heading: "Какво прави Google"
@@ -260,8 +280,6 @@ closing_line2: "Трябва да можете вие да определите 
 closing_detail: "За това не трябва да е нужен процес от 9 стъпки, 24-часов период на изчакване и разрешение от Google, което подлежи на промяна."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Споделяйте тази страница. Не участвайте. Не им позволявайте да затворят Android."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Споделете в мрежите"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -341,10 +359,6 @@ footer_sign_petition: "Подписване на петицията"
 footer_contact: "Връзка"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Сигнал за проблем с уебсайта"
-# [en] footer_translations: "Translations"
-footer_translations: "Преводи"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Английски (и още 30 други езика)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Помогнете за превода"
 
@@ -355,16 +369,6 @@ site_disclaimer: "**Отказ от правна отговорност:** Та�
 site_privacy: "**Поверителност:** Тази страница не използва бисквитки и не извършва проследяване или регистриране на действията на потребителите."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Авторско право:** Неограничено. Използваният лиценз е"
-# [en] contact_header: "Contact"
-contact_header: "Контакти"
-# [en] contact_email: "Email"
-contact_email: "Имейл"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Проблеми"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Сигнал за проблем в страницата"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Прочетете нашето отворено писмо срещу програмата за проверка на разработчици в Android"
 
 # FAQ page
 footer_faq: "Въпроси и отговори"

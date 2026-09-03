@@ -35,14 +35,6 @@
 title: "Keep Android Open"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Defendendo o Android como uma plataforma livre e aberta para todos construírem aplicativos."
-# [en] contact_header: "Contact"
-contact_header: "Contato"
-# [en] contact_email: "Email"
-contact_email: "Email"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problemas"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Reportar Problemas no Site"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Atenção:** Este website é uma empreitada comunitária não comercial. Ele está sendo operado com propostas puramente informativas e educacionais.
@@ -51,8 +43,6 @@ site_privacy: >-
   **Privacidade:** Este site não utiliza cookies nem faz rastreamento dos usuários ou salva logs de uso.
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Copyright:** Nenhum. Esse trabalho é marcado como"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Leia nossa carta aberta contra o programa de verificação de desenvolvedores Android"
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Seu telefone está prestes a deixar de ser seu."
 # [en] hero_countdown_label: "days until lockdown"
@@ -257,8 +247,6 @@ closing_line2: "Você deve decidir o que é executado nele."
 closing_detail: "Isso não deveria exigir um processo de 9 etapas, uma espera de 24 horas e a autorização contínua do Google."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Compartilhe esta página. Não se registre. Não deixe que fechem o Android."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Divulgue a notícia"
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_1: "A partir de 2027, o Google bloqueará apps Android cujo desenvolvedor não esteja registrado nem tenha enviado documento de identidade. Afeta todos os dispositivos Android. Saiba mais: {url} @AlteredDeal #KeepAndroidOpen"
 # [en] social_callout_x_2: "Google announced that all Android app developers must register centrally, pay a fee, and submit government ID, or their apps will be blocked on every device. over 67 organizations oppose this. {url} @AlteredDeal #KeepAndroidOpen"
@@ -383,10 +371,6 @@ footer_sign_petition: "Assine a petição"
 footer_contact: "Contato"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Reportar problemas no site"
-# [en] footer_translations: "Translations"
-footer_translations: "Traduções"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Inglês (+ 30 línguas)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Ajude na tradução"
 
@@ -402,6 +386,26 @@ footer_help_translate: "Ajude na tradução"
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Nesta página"
+# [en] toc_what: "What is changing"
+toc_what: "O que está mudando"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Quem é afetado"
+# [en] toc_flow: "The workaround"
+toc_flow: "A alternativa"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Isso vai além do Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Perguntas frequentes"
+# [en] toc_act: "What you can do"
+toc_act: "O que você pode fazer"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Todos estes se opõem…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "O que estão dizendo"
 
 # What Google is doing
 

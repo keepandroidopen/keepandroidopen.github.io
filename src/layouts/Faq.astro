@@ -30,14 +30,14 @@ const faqItems = faqSlugs
   .filter((item) => item.q && item.a);
 ---
 <Base title={t.faq_title} lang={locale} description={t.faq_description}>
-  <nav class="topbar">
+  <nav class="topbar" aria-label="Page controls">
     <div class="topbar-left">
       <BackArrow />
       <ThemeToggle />
     </div>
     <LanguagePicker locale={locale} suffix="faq/" />
   </nav>
-  <main>
+  <main id="main-content">
     <h1 set:html={t.faq_title} />
     {t.faq_intro && <p class="faq-intro" set:html={t.faq_intro} />}
     <div class="faq-list">

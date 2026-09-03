@@ -50,6 +50,26 @@ hero_sub: >-
   2027-ci ildən başlayaraq[*](FAQ_URL), Google tərəfindən icazəsiz şəkildə göndərilən səssiz bir yeniləmə, tərtibatçısı Google-da qeydiyyatdan keçməmiş, müqavilə imzalamamış, ödəniş etməmiş və hökumət tərəfindən verilmiş şəxsiyyət vəsiqəsini təqdim etməmiş **hər bir Android tətbiqini bloklayacaq**.
 hero_kicker: "İmtina imkanı olmadan, bütün dünyada hər bir tətbiq və hər bir cihaz."
 
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Bu səhifədə"
+# [en] toc_what: "What is changing"
+toc_what: "Nə dəyişir"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Kimə təsir edir"
+# [en] toc_flow: "The workaround"
+toc_flow: "Alternativ yol"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Bu, Android-dən daha böyük məsələdir"
+# [en] toc_objections: "Common questions"
+toc_objections: "Tez-tez verilən suallar"
+# [en] toc_act: "What you can do"
+toc_act: "Nə edə bilərsiniz"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Bütün əleyhdarlar…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Onlar nə deyirlər"
+
 # What Google is doing
 what_heading: "Google nə edir"
 what_intro: >-
@@ -192,8 +212,6 @@ closing_line2: "Onda nələrin işləyəcəyinə siz qərar verməlisiniz."
 closing_detail: "Bunun üçün 9 addımlıq proses, 24 saat gözləmək və Google-un davamlı icazəsi tələb olunmamalıdır."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Bu səhifəni paylaşın. Qeydiyyatdan keçməyin. Android-i bağlamalarına imkan verməyin."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Xəbəri yayın"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # [en] social_callout_x_1: "Starting in 2027, Google will block any Android app whose developer hasn't registered and provided government ID. This affects all apps, not just Play Store apps. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -330,10 +348,6 @@ footer_sign_petition: "Petisiyanı imzalayın"
 footer_contact: "Əlaqə"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Saytdakı problemləri bildirin"
-# [en] footer_translations: "Translations"
-footer_translations: "Tərcümələr"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "İngilis dili (+ 30 dil)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Tərcüməyə kömək edin"
 
@@ -344,16 +358,6 @@ site_disclaimer: "**İmtina**: Bu veb-sayt icma tərəfindən yaradılan qeyri-k
 site_privacy: "**Məxfillik:** Bu sayt kukilərdən istifadə etmir və istifadəçiləri izləmir və ya onların fəaliyyətinə dair məlumatları qeyd etmir."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Müəlliflik hüquları:** Yoxdur. Bu iş isarələnib"
-# [en] contact_header: "Contact"
-contact_header: "Əlaqə"
-# [en] contact_email: "Email"
-contact_email: "E-poçt"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problemlər"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Saytdakı problemləri bildirin"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Android Tərtibatçılarının Yoxlanılması proqramına qarşı açıq məktubumuzu oxuyun"
 
 # FAQ page
 # The FAQ is rendered from an ordered list of question/answer pairs. To add a new

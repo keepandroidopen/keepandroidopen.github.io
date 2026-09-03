@@ -251,10 +251,6 @@ footer_sign_petition: "Nënshkruani peticionin"
 footer_contact: "Kontakt"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Raportoni probleme me faqen"
-# [en] footer_translations: "Translations"
-footer_translations: "Përkthimet"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Anglisht (+ 30 gjuhë)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Ndihmoni me përkthimin"
 # [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
@@ -264,16 +260,6 @@ site_disclaimer: >-
 site_privacy: "**Privatësia:** Kjo faqe nuk përdor cookies dhe nuk kryen ndjekje ose regjistrim të përdoruesve."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Të drejtat e autorit:** Asnjë. Ky punim është shënuar"
-# [en] contact_header: "Contact"
-contact_header: "Kontakt"
-# [en] contact_email: "Email"
-contact_email: "Email"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Probleme"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Raportoni Probleme me Faqen"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Lexoni letërën tonë të hapur që kundërshton programin e Verifikimit të Zhvilluesve të Android"
 
 #
 # ============================================================================
@@ -287,6 +273,26 @@ open_letter_cta: "Lexoni letërën tonë të hapur që kundërshton programin e 
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Në këtë faqe"
+# [en] toc_what: "What is changing"
+toc_what: "Çfarë po ndryshon"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Kush preket"
+# [en] toc_flow: "The workaround"
+toc_flow: "Rruga alternative"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Kjo është më e madhe se Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Pyetje të shpeshta"
+# [en] toc_act: "What you can do"
+toc_act: "Çfarë mund të bësh"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Të gjithë që kundërshtojnë…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Çfarë po thonë"
 
 # What Google is doing
 
@@ -311,7 +317,6 @@ open_letter_cta: "Lexoni letërën tonë të hapur që kundërshton programin e 
 # CTA banners
 
 # Closing
-# closing_share_heading: "Spread the word"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"

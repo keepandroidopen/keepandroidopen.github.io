@@ -16,12 +16,13 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 2rem;
-    height: 2rem;
-    padding: 0.3rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    padding: 0;
     border-radius: 0.5rem;
+    border: 1px solid var(--pico-muted-border-color);
     color: var(--pico-muted-color, #888);
-    opacity: 0.6;
+    opacity: 0.8;
     text-decoration: none;
     transition: opacity 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
   }
@@ -30,6 +31,14 @@
     transform: translateX(-2px);
     background-color: rgba(128, 128, 128, 0.08);
     color: var(--pico-color, inherit);
+  }
+
+  :global([dir='rtl']) .back-arrow svg {
+    transform: scaleX(-1);
+  }
+
+  :global([dir='rtl']) .back-arrow:hover {
+    transform: translateX(2px);
   }
   .back-arrow:focus-visible {
     outline: 2px solid currentColor;

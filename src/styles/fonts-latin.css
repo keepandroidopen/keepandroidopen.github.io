@@ -1,0 +1,8 @@
+@import '@fontsource-variable/source-serif-4/wght.css';
+@import '@fontsource-variable/source-sans-3/wght.css';
+
+:root {
+  --font-display: 'Source Serif 4 Variable', 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-body: 'Source Sans 3 Variable', 'Source Sans 3', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-sans: var(--font-body);
+}

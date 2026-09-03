@@ -46,6 +46,26 @@ hero_sub: >-
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "İstisnasız: dünyadaki tüm cihazlar ve tüm uygulamalar."
 
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Bu sayfada"
+# [en] toc_what: "What is changing"
+toc_what: "Neler değişiyor"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Kimleri etkiliyor"
+# [en] toc_flow: "The workaround"
+toc_flow: "Geçici çözüm"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Bu, Android'den daha büyük bir mevzu"
+# [en] toc_objections: "Common questions"
+toc_objections: "Sık sorulan sorular"
+# [en] toc_act: "What you can do"
+toc_act: "Ne yapabilirsiniz"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Karşı çıkanların tamamı..."
+# [en] toc_voices: "What they're saying"
+toc_voices: "Kim ne diyor"
+
 # What Google is doing
 # [en] what_heading: "What Google is doing"
 what_heading: "Google ne yapıyor?"
@@ -250,8 +270,6 @@ closing_line2: "Üzerinde ne çalışacağına sen karar vermelisin."
 closing_detail: "Bunun için 9 adımlık bir süreç, 24 saat bekleme ve Google'ın sürekli izni gerekmemeli."
 # [en] closing_cta: "Share this page. Don't sign up. Don't let them close Android."
 closing_cta: "Bu sayfayı paylaş. Programa kaydolma. Android'i kapatmalarına izin verme."
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Haberi yay"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # [en] social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -382,10 +400,6 @@ footer_sign_petition: "Dilekçeyi imzala"
 footer_contact: "İletişim"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Site sorunlarını bildir"
-# [en] footer_translations: "Translations"
-footer_translations: "Çeviriler"
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "Türkçe (+ 30 dil)"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Çeviriye katkı ver"
 
@@ -396,16 +410,6 @@ site_disclaimer: "**Not:** Bu site, topluluk tarafından yürütülen ve kâr am
 site_privacy: "**Gizlilik:** Bu site çerez kullanmaz; kullanıcı takibi veya kayıt işlemi yapmaz."
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Telif:** Yok. Bu çalışma şu şekilde işaretlenmiştir"
-# [en] contact_header: "Contact"
-contact_header: "İletişim"
-# [en] contact_email: "Email"
-contact_email: "E-posta"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Sorunlar"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Site sorunlarını bildir"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Android Geliştirici Doğrulama programına karşı açık mektubumuzu oku"
 
 #
 # ============================================================================
@@ -528,7 +532,6 @@ open_letter_cta: "Android Geliştirici Doğrulama programına karşı açık mek
 # closing_line2: "You should decide what runs on it."
 # closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 # closing_cta: "Share this page. Don't sign up. Don't let them close Android."
-# closing_share_heading: "Spread the word"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
@@ -597,8 +600,6 @@ open_letter_cta: "Android Geliştirici Doğrulama programına karşı açık mek
 # footer_sign_petition: "Sign the petition"
 # footer_contact: "Contact"
 # footer_report_issues: "Report site issues"
-# footer_translations: "Translations"
-# footer_languages: "English (+ 30 languages)"
 # footer_help_translate: "Help translate"
 
 # Shared site strings (also used by CTA/footer on other pages)

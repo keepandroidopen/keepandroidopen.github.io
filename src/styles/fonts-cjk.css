@@ -1,0 +1,14 @@
+/*!
+ * CJK — system stacks only (no webfont download)
+ */
+:root {
+  --font-display: 'Yu Gothic UI', 'Yu Gothic', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN',
+    'PingFang SC', 'PingFang TC', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Noto Sans CJK TC',
+    'Malgun Gothic', sans-serif;
+  --font-body: var(--font-display);
+  --font-sans: var(--font-body);
+}
+
+html:lang(zh-CN), html:lang(zh-TW), html:lang(ja), html:lang(ko) {
+  letter-spacing: normal;
+}
