@@ -168,15 +168,15 @@ flow_summary: >-
   Neuf étapes. Un délai de réflexion obligatoire de 24 heures. *Pour installer un logiciel sur un appareil qui vous appartient.*
 # [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
 flow_detail: >-
-  Pire encore : ce processus passe entièrement par les services **Google Play**, et non par le système d’exploitation Android. Google peut le modifier, le restreindre ou le supprimer à tout moment, sans avoir besoin de mettre à jour du système d’exploitation ou du moindre consentement. À ce jour, il n’est intégré à aucune version bêta, préversion ou version Canary. Il n’existe pour l’instant que sous forme d’article de blog et de quelques maquettes.
+  Pire encore : ce processus passe entièrement par les services **Google Play**, et non par le système d’exploitation Android. Google peut le modifier, le restreindre ou le supprimer à tout moment, sans besoin d'une mise à jour du système d’exploitation ou du moindre consentement. À ce jour, il n’est intégré à aucune version bêta, préversion ou version Canary. Il n’existe pour l’instant que sous forme d’article de blog et de quelques maquettes.
 # [en] precedent_heading: "This is bigger than Android"
 precedent_heading: "Ça dépasse Android"
 # [en] precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
 precedent_pullquote: >-
-  Si Google peut rétroactivement verrouiller des milliards d'appareils initiallement vendus comme plateformes ouvertes, tous les fabricants de matériel de la planète ont les yeux rivés sur eux.
+  Si Google peut rétroactivement verrouiller des milliards d'appareils initialement vendus comme plateformes ouvertes, tous les fabricants de matériel de la planète ont les yeux rivés sur eux.
 # [en] precedent_p1: "The principle being established: **the company that made your device gets to decide, after you've bought it, what software you're allowed to run.** In software, this is called a \"rug pull\"; but at least you could always install competing software. In hardware, it is a *fait accompli* that strips you of your agency and renders you powerless to the whims of a single unaccountable gatekeeper and convicted monopolist."
 precedent_p1: >-
-  Le principe qu'ils tentent d'imposer est le suivant : **c'est le fabricant de votre appareil qui décide quels logiciels vous pouvez utiliser, après l'achat de votre appareil.** Dans le domaine du logiciel, on parle d'une « arnaque éclair » qui vous coupe l'herbe sous le pied; mais au moins, vous pouvez toujours installer des logiciels concurrents. Dans le domaine du matériel, c'est un *fait accompli* qui vous prive de toute liberté de choix et vous rend impuissant face aux caprices d'un intermédiaire unique, une entreprise qui ne rend de compte à personne et est dun monopoliste condamné.
+  Le principe qu'ils tentent d'imposer est le suivant : **c'est le fabricant de votre appareil qui décide quels logiciels vous pouvez utiliser, après l'achat de votre appareil.** Dans le domaine du logiciel, on parle d'une « arnaque éclair » qui vous coupe l'herbe sous le pied; mais au moins, vous pouvez toujours installer des logiciels concurrents. Dans le domaine du matériel, c'est un *fait accompli* qui vous prive de toute liberté de choix et vous rend impuissant face aux caprices d'un intermédiaire unique, une entreprise qui ne rend de compte à personne et est d'un monopoliste condamné.
 # [en] precedent_p2: "Android's openness was never just a feature. It was the *promise* that distinguished it from iPhone. Millions chose Android for exactly that reason. Google is now revoking that promise unilaterally, on devices *already* in people's pockets, because they've decided they have enough market dominance and regulatory capture to get away with it."
 precedent_p2: >-
   L'ouverture d'Android n'a jamais été une simple fonctionnalité. C'était la *promesse* qui le distinguait de l'iPhone. Des millions de personnes ont choisi Android précisément pour cette raison. Google revient aujourd'hui unilatéralement sur cette promesse, sur des appareils *déjà* dans les poches de tout un chacun, car l'entreprise estime que sa position dominante sur le marché et son emprise sur la réglementation lui permettent d'agir ainsi en toute impunité.
@@ -269,7 +269,7 @@ cta_letter_label: "Lettre ouverte"
 cta_letter_desc: "Lire la lettre ouverte signée par des organisations opposées à la vérification des développeurs"
 # [en] closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 closing_detail: >-
-  Cela ne devrait pas nécessiter une procédure en 9 étapes, une attente de 24 heures et l'autorisation permanente de Google.
+  Cela ne devrait pas nécessiter une procédure en 9 étapes, une attente de 24 heures et surtout, une autorisation de la part de Google.
 # [en] footer_languages: "English (+ 30 languages)"
 footer_languages: "English (+ 30 langages)"
 
