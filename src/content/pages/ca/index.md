@@ -69,7 +69,7 @@ Si ets un empleat o contractista de Google amb bona consciència i tens més inf
 - [Instal·la F-Droid](https://f-droid.org) al(s) teu(s) dispositiu(s) Android.
   Com més gent utilitzi mercats alternatius d’aplicacions, més difícil serà deixar-los fora.
 - Dona la teva opinió directament a Google mitjançant la seva [enquesta sobre els requisits de verificació de desenvolupadors d'Android](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1).
-- Fes sentir la teva veu a les xarxes socials i amb entrades de blog, i enllaça a
-- Combateix l'astroturfing: quan trobis publicacions sospitoses a fòrums comunitaris i xarxes socials a favor de la política (“Bé, en realitat…”), qüestiona-les i no et tallis.
+- Fes sentir la teva veu a les xarxes socials i amb entrades de blog, i no oblidis enllaçar a <https://keepandroidopen.org>
+- Combateix la manipulació de l'opinió pública: quan trobis publicacions sospitoses a fòrums comunitaris i xarxes socials a favor de la política (“Bé, en realitat…”), qüestiona-les i no et tallis.
 - Ajuda aquest projecte [editant aquesta pàgina](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/ca/index.md) amb informació més útil.
 - [Signa aquesta petició a change.org](https://www.change.org/p/stop-google-from-limiting-apk-file-usage)
