@@ -107,7 +107,7 @@ flow_step7: "Znovu potvrdiť varovania"
 flow_step8: "Vybrať možnosť \"povoliť dočasne\" (7 dní) alebo \"povoliť trvalo\""
 flow_step9: "Znovu potvrdiť porozumenie \"rizikám\""
 flow_summary: "Deväť krokov a povinné 24-hodinové čakanie — pre inštaláciu aplikácie na zariadení, ktoré vlastníš."
-flow_detail: "A čo je horšie, celý proces prebieha cez **Google Play Services**, nie priamo cez Android. Google ho môže kedykoľvek zmeniť alebo zrušiť bez aktualizácie systému a bez súhlasu používateľa. Zatiaľ nebol implementovaný v žiadnej testovacej verzii systému."
+flow_detail: "A čo je horšie, celý proces prebieha cez **Google Play Services**, nie priamo cez Android. Google ho môže kedykoľvek zmeniť alebo zrušiť bez aktualizácie systému a bez súhlasu používateľa."
 
 # Precedent
 precedent_heading: "Dopady presahujú Android"

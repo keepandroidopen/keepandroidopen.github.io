@@ -56,9 +56,9 @@ Den 19. marts 2026 [offentliggjorde Google detaljer](https://android-developers.
 1. På den næste skræmmedialog, bekræft at du forstår risikoen.
 1. Nu kan du installere uverificerede pakker på enheden ved at vælge "Installer alligevel" i pakkehåndteringen.
 
-Hele dette flow leveres gennem Google Play Services, ikke Android-operativsystemet, hvilket betyder at Google kan ændre, begrænse eller fjerne det til enhver tid uden en operativsystemopdatering og uden brugerens samtykke. Det avancerede flow har endnu ikke været frigivet i Android beta, udvikler eller test-udgaver. På datoen for denne opdatering eksisterer det kun som et blogindlæg og brugerinterface-mockups. Google beder fællesskabet om at acceptere en featureannoncering som tilstrækkelig sikkerhed fem måneder før begrænsningen træder i kraft.
+Hele dette flow leveres gennem Google Play Services, ikke Android-operativsystemet, hvilket betyder at Google kan ændre, begrænse eller fjerne det til enhver tid uden en operativsystemopdatering og uden brugerens samtykke.
 
-Indtil Google leverer en implementation som kan verificeres uafhængigt forbliver vores standpunkt uændret: **alle** apps fra ikke-registrerede udviklere **vil blive blokeret** når nedlåsningen effektueres i 2027.
+Vores standpunkt forbliver uændret: **alle** apps fra ikke-registrerede udviklere **vil blive blokeret** når nedlåsningen effektueres i 2027.
 
 </div>
 

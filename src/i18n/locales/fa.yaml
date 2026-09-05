@@ -128,9 +128,9 @@ flow_step8: "انتخاب «اجازه موقت» (۷ روز) یا «اجازه 
 flow_step9: "تأیید دوباره اینکه «ریسک‌ها» را درک می‌کنید"
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
 flow_summary: "۹ مرحله. یک دوره انتظار اجباری ۲۴ ساعته. *برای نصب برنامه‌ای روی دستگاهی که متعلق به خودتان است.*"
-# [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
+# [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed."
 flow_detail: >-
-  بدتر از آن: این فرآیند کاملاً از طریق **Google Play Services** اجرا می‌شود، نه خود سیستم‌عامل اندروید؛ گوگل می‌تواند هر زمان آن را تغییر دهد، سخت‌تر کند یا حذف کند — بدون نیاز به به‌روزرسانی سیستم‌عامل و بدون رضایت شما. و تا امروز، حتی در نگارش‌های آزمایشی هم ارائه نشده است.
+  بدتر از آن: این فرآیند کاملاً از طریق **Google Play Services** اجرا می‌شود، نه خود سیستم‌عامل اندروید؛ گوگل می‌تواند هر زمان آن را تغییر دهد، سخت‌تر کند یا حذف کند — بدون نیاز به به‌روزرسانی سیستم‌عامل و بدون رضایت شما.
 
 # Precedent
 # [en] precedent_heading: "This is bigger than Android"
@@ -277,8 +277,6 @@ social_callout_x_2: "گوگل اعلام کرده همه توسعه‌دهندگ
 social_callout_x_3: "باز بودن اندروید برای ۱۷ سال آن را از آیفون متمایز کرده بود. حالا گوگل نام‌نویسی اجباری برای همه برنامه‌ها را اعمال می‌کند، حتی خارج از پلی‌استور. {url} #KeepAndroidOpen"
 # [en] social_callout_x_4: "F-Droid, the open-source Android app store, calls Google's developer verification an \"existential threat\" to alternative app distribution. The EFF warns it creates a pathway to censorship. {url} #KeepAndroidOpen"
 social_callout_x_4: "اف‌دروید این سیاست را «تهدیدی وجودی» می‌داند و EFF هشدار می‌دهد که این مسیر به سانسور منتهی می‌شود. {url} #KeepAndroidOpen"
-# [en] social_callout_x_5: "Google's proposed workaround for installing unverified apps requires 9 steps, a 24-hour wait, and runs through Play Services, which Google can modify at any time. It hasn't shipped in any beta. {url} #KeepAndroidOpen"
-social_callout_x_5: "راهکار گوگل برای نصب برنامه‌های تأییدنشده: ۹ مرحله + ۲۴ ساعت انتظار، آن هم از طریق Play Services که قابل تغییر است. حتی در نگارش آزمایشی هم ارائه نشده. {url} #KeepAndroidOpen"
 # [en] social_callout_x_6: "Android was sold to us as an open platform. Now Google wants every developer to register and submit ID just to let you install their apps. Don't let them rug-pull 3 billion users. {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_6: "اندروید به‌عنوان یک سکوی باز معرفی شد. حالا گوگل می‌خواهد برای نصب هر برنامه، توسعه‌دهنده نام‌نویسی و احراز هویت شود. نگذارید این اتفاق برای ۳ میلیارد کاربر بیفتد. {url} #KeepAndroidOpen"
 # [en] social_callout_x_7: "If you bought your phone, you should own it. Google's new 'developer verification' means they decide what software you're allowed to run on your own property. Join the 100k+ signers opposing this: {url} #KeepAndroidOpen"
@@ -298,8 +296,6 @@ social_callout_linkedin_2: "باز بودن اندروید ویژگی اصلی �
 social_callout_linkedin_3: "این برنامه به یک شرکت امکان می‌دهد هر اپی را روی هر دستگاه اندرویدی مسدود کند. این موضوع توسعه‌دهندگان مستقل و متن‌باز را هدف قرار می‌دهد. {url} #KeepAndroidOpen"
 # [en] social_callout_linkedin_4: "F-Droid estimates 85% of its open-source apps could face distribution issues under Google's new developer verification rules. The requirement for government ID and signing keys creates barriers for anonymous contributors, developers in sanctioned countries, and volunteer-maintained projects. {url} #KeepAndroidOpen"
 social_callout_linkedin_4: "اف‌دروید تخمین می‌زند ۸۵٪ برنامه‌های متن‌بازش تحت تأثیر قرار بگیرند. الزام تایید هویت واقعی مانعی جدی برای مشارکت ناشناس است. {url} #KeepAndroidOpen"
-# [en] social_callout_linkedin_5: "Google's proposed \"advanced flow\" for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and runs entirely through Google Play Services. The community has been asked to accept a blog post as a functional safeguard. It has not appeared in any beta release. {url} #KeepAndroidOpen"
-social_callout_linkedin_5: "مسیر پیشنهادی گوگل برای نصب برنامه‌های تأییدنشده شامل ۹ مرحله و ۲۴ ساعت انتظار است و فقط از طریق Play Services اجرا می‌شود. حتی در نگارش آزمایشی هم وجود ندارد. {url} #KeepAndroidOpen"
 # [en] social_callout_linkedin_6: "Digital sovereignty is at stake. Google's plan to mandate developer registration for all Android apps—even those distributed outside the Play Store—creates a central point of control and potential censorship for 3 billion devices. {url} #KeepAndroidOpen"
 social_callout_linkedin_6: "حاکمیت دیجیتال در خطر است. این سیاست یک نقطه کنترل مرکزی برای ۳ میلیارد دستگاه ایجاد می‌کند. {url} #KeepAndroidOpen"
 # [en] social_callout_linkedin_7: "The 'Keep Android Open' campaign has gained support from over 67 global organizations. We are opposing Google's plan to block any application whose developer hasn't registered centrally and provided government ID. Read the open letter: {url} #KeepAndroidOpen"
@@ -314,16 +310,13 @@ social_callout_linkedin_10: "اجتماع در حال مقاومت است. دس�
 # social_callout_bluesky_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects all apps, not just Play Store apps. F-Droid calls it an \"exist..."
 # social_callout_bluesky_2: "Google is requiring all Android developers to register centrally, pay a fee, and submit government ID. Apps from unregistered developers will be silently blocked. over 67 organizations oppose this. @ke..."
 # social_callout_bluesky_3: "After 17 years of marketing Android as an open platform, Google is mandating developer registration for all apps. Independent developers, open-source contributors, and alternative stores like F-Dro..."
-# social_callout_bluesky_4: "Google's proposed workaround for installing unverified apps: 9 steps, a 24-hour wait, delivered through Play Services (which Google can change at any time without consent). It exists only as a blog..."
 # social_callout_bluesky_5: "The EFF warns that Google's developer verification creates \"a pathway to censorship.\" Developers in restrictive countries, anonymous open-source contributors, and privacy tool maintainers are amo..."
 # social_callout_mastodon_1: "Starting September 2026, Google will require every Android app developer to register centrally, provide government ID, and submit signing keys. Apps from unregistered developers will be blocked on ..."
 # social_callout_mastodon_2: "Google's Android Developer Verification program requires government ID, signing keys, and a fee for any developer who wants their software installable on Android. The EFF calls app gatekeeping \"a ..."
 # social_callout_mastodon_3: "F-Droid, home to thousands of free and open-source Android apps, calls Google's developer verification an \"existential threat.\" An estimated 85% of F-Droid apps could face distribution issues bec..."
-# social_callout_mastodon_4: "Google's proposed workaround for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and is delivered through Google Play Services, not the Android OS. Google can modi..."
 # social_callout_mastodon_5: "The mandatory developer registration Google is imposing on Android raises concerns for developers in sanctioned countries, anonymous open-source contributors, and anyone building privacy or securit..."
 # social_callout_facebook_1: "Starting September 2026, Google will require every Android app developer to register centrally and provide government-issued identification. Apps from unregistered developers will be blocked on all..."
 # social_callout_facebook_2: "F-Droid, the open-source Android app store used by millions, calls Google's developer verification an \"existential threat\" to its continued operation. over 67 organizations including the EFF, FSF, an..."
-# social_callout_facebook_3: "Google's proposed workaround for installing unverified apps after their lockdown takes effect requires 9 steps, a mandatory 24-hour waiting period, and runs through Google Play Services (which Goog..."
 # social_callout_facebook_4: "Android's openness has been its defining characteristic for 17 years. Millions chose it over iPhone for exactly that reason. Google is now mandating developer registration for all apps, including t..."
 # social_callout_facebook_5: "The EFF calls app gatekeeping \"a pathway to censorship.\" Google's developer verification would give a single company the ability to block any app, from any developer, on any certified device worl..."
 

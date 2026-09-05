@@ -155,9 +155,9 @@ flow_step8: "Wybierz \"zezwól tymczasowo\" (7 dni) albo \"zezwól na czas nieok
 flow_step9: "Potwierdź, znowu, że rozumiesz \"zagrożenia\""
 # [en] flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installing software on a device you own.*"
 flow_summary: "Dziewięć kroków. Obowiązkowy 24-godzinny okres oczekiwania. *Żeby móc zainstalować oprogramowanie na urządzeniu, którego jesteś właścicielem.*"
-# [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed. And as of today, it hasn't shipped in any beta, preview, or canary build. It exists only as a blog post and some mockups."
+# [en] flow_detail: "Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed."
 flow_detail: >-
-  Co gorsza: cały ten proces odbywa się w całości przez **Usługi Google Play**, a nie przez system Android. Google może go zmienić, zaostrzyć jego zasady albo całkowicie wyłączyć w dowolnym momencie, bez jakiejkolwiek zgody czy konieczności aktualizacji systemu operacyjnego. Na dzień dzisiejszy, program nie trafił jeszcze do żadnej wersji beta, podglądowej ani eksperymentalnej. Istnieje jedynie jako wpis na blogu i kilka makiet.
+  Co gorsza: cały ten proces odbywa się w całości przez **Usługi Google Play**, a nie przez system Android. Google może go zmienić, zaostrzyć jego zasady albo całkowicie wyłączyć w dowolnym momencie, bez jakiejkolwiek zgody czy konieczności aktualizacji systemu operacyjnego.
 
 # Precedent
 # [en] precedent_heading: "This is bigger than Android"
@@ -311,9 +311,6 @@ social_callout_x_3: >-
 # [en] social_callout_x_4: "F-Droid, the open-source Android app store, calls Google's developer verification an \"existential threat\" to alternative app distribution. The EFF warns it creates a pathway to censorship. {url} #KeepAndroidOpen"
 social_callout_x_4: >-
   F-Droid, sklep z otwartoźródłowymi aplikacjami Android, nazywa weryfikację deweloperów Google 'egzystencjalnym zagrożeniem' dla alternatywnej dystrybucji. EFF ostrzega: otwiera drogę do cenzury. {url} #KeepAndroidOpen
-# [en] social_callout_x_5: "Google's proposed workaround for installing unverified apps requires 9 steps, a 24-hour wait, and runs through Play Services, which Google can modify at any time. It hasn't shipped in any beta. {url} #KeepAndroidOpen"
-social_callout_x_5: >-
-  Obejście Google dla niezweryfikowanych aplikacji: 9 kroków, 24h oczekiwania, przez Usługi Google Play (Google może je modyfikować). Nie pojawiło się w żadnej becie. {url} #KeepAndroidOpen
 # [en] social_callout_x_6: "Android was sold to us as an open platform. Now Google wants every developer to register and submit ID just to let you install their apps. Don't let them rug-pull 3 billion users. {url} @AlteredDeal #KeepAndroidOpen"
 social_callout_x_6: >-
   Android przedstawiano jako otwartą platformę. Teraz Google żąda, by każdy programista rejestrował się i podawał dane, by można było zainstalować jego aplikacje. Nie pozwólmy oszukać 3 mld użytkowników. {url} @AlteredDeal #KeepAndroidOpen
@@ -341,9 +338,6 @@ social_callout_linkedin_3: >-
 # [en] social_callout_linkedin_4: "F-Droid estimates 85% of its open-source apps could face distribution issues under Google's new developer verification rules. The requirement for government ID and signing keys creates barriers for anonymous contributors, developers in sanctioned countries, and volunteer-maintained projects. {url} #KeepAndroidOpen"
 social_callout_linkedin_4: >-
   F-Droid szacuje, że 85% aplikacji o otwartym kodzie źródłowym z ich sklepu może napotkać problemy z dystrybucją w związku z nowymi zasadami weryfikacji deweloperów wprowadzonymi przez Google. Wymóg przedstawienia dokumentu tożsamości wydanego przez państwo oraz kluczy podpisujących stanowi przeszkodę dla anonimowych współtwórców, deweloperów z krajów objętych sankcjami oraz projektów utrzymywanych przez wolontariuszy. {url} #KeepAndroidOpen
-# [en] social_callout_linkedin_5: "Google's proposed \"advanced flow\" for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and runs entirely through Google Play Services. The community has been asked to accept a blog post as a functional safeguard. It has not appeared in any beta release. {url} #KeepAndroidOpen"
-social_callout_linkedin_5: >-
-  Propozycja Google'a dotycząca „zaawansowanej procedury” instalowania niezweryfikowanych aplikacji z innych źródeł wymaga wykonania 9 kroków, obejmuje obowiązkowy 24-godzinny okres oczekiwania i odbywa się w całości za pośrednictwem Usług Google Play. Społeczność została wezwana do zaakceptowania wpisu na blogu jako skutecznego zabezpieczenia. Nie pojawiło się to w żadnej wersji beta. {url} #KeepAndroidOpen
 # [en] social_callout_linkedin_6: "Digital sovereignty is at stake. Google's plan to mandate developer registration for all Android apps—even those distributed outside the Play Store—creates a central point of control and potential censorship for 3 billion devices. {url} #KeepAndroidOpen"
 social_callout_linkedin_6: >-
   Cyfrowa niezależność stoi pod znakiem zapytania. Google planuje wprowadzić obowiązkową rejestrację twórców wszystkich aplikacji na Androida – nawet tych dystrybuowanych poza Sklepem Play – co stworzy centralny punkt kontroli i potencjalnej cenzury dla 3 miliardów urządzeń. {url} #KeepAndroidOpen
@@ -368,9 +362,6 @@ social_callout_bluesky_2: >-
 # [en] social_callout_bluesky_3: "After 17 years of marketing Android as an open platform, Google is mandating developer registration for all apps. Independent developers, open-source contributors, and alternative stores like F-Droid face an uncertain future. @keepandroidopen.bsky.social {url}"
 social_callout_bluesky_3: >-
   Po 17 latach Androida jako otwartej platformy, Google wprowadza obowiązkową rejestrację deweloperów. Niezależnych deweloperów, otwartoźródłowych twórców oraz sklepy jak F-Droid czeka niepewna przyszłość. @keepandroidopen.bsky.social {url}
-# [en] social_callout_bluesky_4: "Google's proposed workaround for installing unverified apps: 9 steps, a 24-hour wait, delivered through Play Services (which Google can change at any time without consent). It exists only as a blog post. @keepandroidopen.bsky.social #KeepAndroidOpen {url}"
-social_callout_bluesky_4: >-
-  Obejście Google dla niezweryfikowanych aplikacji: 9 kroków, 24h oczekiwania, przez Usługi Google Play (Google może je zmienić). Istnieje tylko jako wpis na blogu. @keepandroidopen.bsky.social #KeepAndroidOpen {url}
 # [en] social_callout_bluesky_5: "The EFF warns that Google's developer verification creates \"a pathway to censorship.\" Developers in restrictive countries, anonymous open-source contributors, and privacy tool maintainers are among those most affected. @keepandroidopen.bsky.social {url}"
 social_callout_bluesky_5: >-
   EFF: weryfikacja programistów Google toruje »drogę do cenzury«. Najbardziej dotknięci to programiści z krajów restrykcyjnych, anonimowi twórcy open source i autorzy narzędzi prywatności. @keepandroidopen.bsky.social {url}
@@ -398,9 +389,6 @@ social_callout_mastodon_2: >-
 # [en] social_callout_mastodon_3: "F-Droid, home to thousands of free and open-source Android apps, calls Google's developer verification an \"existential threat.\" An estimated 85% of F-Droid apps could face distribution issues because their developers signed through F-Droid, not through Google. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
 social_callout_mastodon_3: >-
   F-Droid, platforma oferująca tysiące bezpłatnych aplikacji na Androida opartych na otwartym oprogramowaniu, określa proces weryfikacji deweloperów wprowadzony przez Google jako 'zagrożenie egzystencjalne'. Szacuje się, że 85% aplikacji dostępnych w F-Droidzie może napotkać problemy z dystrybucją, ponieważ ich twórcy zarejestrowali się za pośrednictwem F-Droida, a nie Google. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
-# [en] social_callout_mastodon_4: "Google's proposed workaround for sideloading unverified apps requires 9 steps, a mandatory 24-hour waiting period, and is delivered through Google Play Services, not the Android OS. Google can modify or remove it at any time without user consent. It hasn't shipped in any beta. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
-social_callout_mastodon_4: >-
-  Proponowane przez Google obejście umożliwiające instalowanie niezweryfikowanych aplikacji wymaga wykonania 9 kroków oraz obowiązkowego 24-godzinnego okresu oczekiwania, ponadto jest dostarczane poprzez Usługi Google Play, a nie przez system operacyjny Android. Google może je w dowolnym momencie zmodyfikować lub usunąć bez zgody użytkownika. Nie pojawiło się ono w żadnej wersji beta. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
 # [en] social_callout_mastodon_5: "The mandatory developer registration Google is imposing on Android raises concerns for developers in sanctioned countries, anonymous open-source contributors, and anyone building privacy or security tools. Google has a documented history of complying with government demands to remove apps. @keepandroidopen@techhub.social #KeepAndroidOpen {url}"
 social_callout_mastodon_5: >-
   Obowiązkowa rejestracja deweloperów, którą Google wprowadza w systemie Android, budzi obawy wśród twórców z krajów objętych sankcjami, anonimowych autorów otwartoźródłowego oprogramowania oraz wszystkich osób tworzących narzędzia związane z prywatnością lub bezpieczeństwem. Google ma udokumentowaną historię stosowania się do żądań rządów dotyczących usuwania aplikacji. @keepandroidopen@techhub.social #KeepAndroidOpen {url}
@@ -425,9 +413,6 @@ social_callout_facebook_1: >-
 # [en] social_callout_facebook_2: "F-Droid, the open-source Android app store used by millions, calls Google's developer verification an \"existential threat\" to its continued operation. over 67 organizations including the EFF, FSF, and Tor Project have signed an open letter opposing the policy. Learn why this matters: {url}"
 social_callout_facebook_2: >-
   F-Droid, otwarty sklep z aplikacjami na Androida, z którego korzystają miliony użytkowników, określa proces weryfikacji deweloperów wprowadzony przez Google jako »zagrożenie egzystencjalne« dla dalszego funkcjonowania sklepu. Ponad 67 organizacji, w tym EFF, FSF i Tor Project, podpisało list otwarty wyrażający sprzeciw wobec tej polityki. Dowiedz się, dlaczego ma to znaczenie: {url}
-# [en] social_callout_facebook_3: "Google's proposed workaround for installing unverified apps after their lockdown takes effect requires 9 steps, a mandatory 24-hour waiting period, and runs through Google Play Services (which Google can modify at any time). The community is being asked to accept a blog post as a safeguard. {url}"
-social_callout_facebook_3: >-
-  Proponowane przez Google obejście umożliwiające instalowanie niezweryfikowanych aplikacji po wejściu w życie ograniczeń wymaga wykonania 9 kroków, obowiązkowego 24-godzinnego okresu oczekiwania i odbywa się za pośrednictwem Usług Google Play (które Google może w dowolnym momencie zmodyfikować). Społeczność jest wzywana do zaakceptowania wpisu na blogu jako środków zabezpieczających. {url}
 # [en] social_callout_facebook_4: "Android's openness has been its defining characteristic for 17 years. Millions chose it over iPhone for exactly that reason. Google is now mandating developer registration for all apps, including those distributed outside the Play Store. Independent developers and open-source projects face the most impact. {url}"
 social_callout_facebook_4: >-
   Otwartość systemu Android jest jego cechą charakterystyczną od 17 lat. Właśnie z tego powodu miliony użytkowników wybrały go zamiast iPhone'a. Obecnie Google wprowadza obowiązkową rejestrację deweloperów dla wszystkich aplikacji, w tym tych dystrybuowanych poza Sklepem Play. Największy wpływ ta zmiana ma na niezależnych deweloperów i projekty open source. {url}

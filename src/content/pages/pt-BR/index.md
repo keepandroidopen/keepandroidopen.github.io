@@ -56,9 +56,9 @@ Em 19 de Março de 2026, o Google [publicou detalhes](https://android-developers
 1. Na próxima tela de alerta, confirme que você entende os riscos
 1. Agora você pode instalar pacotes não verificados no dispositivo tocando na opção "Instalar mesmo assim" no gerenciador de pacotes
 
-Todo esse fluxo é fornecido pelo Google Play Services, não pelo sistema Android, o que significa que o Google pode modificá-lo, restringi-lo ou removê-lo a qualquer momento sem uma atualização do sistema e sem o consentimento do usuário. O fluxo avançado ainda não apareceu em nenhuma versão beta, prévia para desenvolvedores ou canary do Android. Na data desta atualização, ele existe apenas como um post de blog e designs de interface. A comunidade está sendo convidada a aceitar um anúncio de produto como uma salvaguarda funcional cinco meses antes de a exigência entrar em vigor.
+Todo esse fluxo é fornecido pelo Google Play Services, não pelo sistema Android, o que significa que o Google pode modificá-lo, restringi-lo ou removê-lo a qualquer momento sem uma atualização do sistema e sem o consentimento do usuário.
 
-Até que o Google forneça uma implementação que possa ser verificada de forma independente, nossa posição permanece inalterada: **todos** os aplicativos de desenvolvedores não registrados **serão bloqueados** quando o bloqueio entrar em vigor em 2027.
+Nossa posição permanece inalterada: **todos** os aplicativos de desenvolvedores não registrados **serão bloqueados** quando o bloqueio entrar em vigor em 2027.
 
 </div>
 

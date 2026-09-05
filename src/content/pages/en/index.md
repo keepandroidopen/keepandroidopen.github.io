@@ -58,9 +58,9 @@ On March 19, 2026, Google [published details](https://android-developers.googleb
 1. On the next scare screen, confirm that you understand the risks.
 1. You can now install unverified packages on the device by tapping the “Install anyway” option in the package manager.
 
-This entire flow is delivered through Google Play Services, not the Android OS, meaning Google can modify, restrict, or remove it at any time without an OS update and without any user consent. The advanced flow has still not appeared in any Android beta, dev preview, or canary release. As of the date of this update, it exists only as a blog post and UI mockups. The community is being asked to accept a product announcement as a functional safeguard five months before the mandate takes effect.
+This entire flow is delivered through Google Play Services, not the Android OS, meaning Google can modify, restrict, or remove it at any time without an OS update and without any user consent.
 
-Until Google provides a shipping implementation that can be independently verified, our position remains unchanged: **all** apps from non-registered developers **will be blocked** once their lockdown goes into effect in 2027.
+Our position remains unchanged: **all** apps from non-registered developers **will be blocked** once their lockdown goes into effect in 2027.
 
 </div>
 

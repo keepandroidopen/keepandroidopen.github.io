@@ -58,9 +58,9 @@ Op 19 maart 2026 heeft Google [details gepubliceerd](https://android-developers.
 1. Bevestig in het volgende waarschuwingsscherm dat je je bewust bent van de risico's.
 1. Vanaf nu kun je ongeverifieerde apps installeren door indien gevraagd te kiezen voor "Toch installeren".
 
-Deze hele procedure wordt verzorgd door Google Play Services (niet het Android-besturingssysteem), wat betekent dat Google deze op elk moment kan wijzigen, beperken of verwijderen zonder een OS-update en zonder toestemming van de gebruiker. De "advanced flow" is nog steeds niet verschenen in een Android-bèta, developer preview of canary-release. Op het moment van berichtgeving bestaat deze alleen als blogbericht en UI-ontwerp. Van de community wordt verwacht een productaankondiging te accepteren als functionele waarborg, vijf maanden voordat de verplichting van kracht wordt.
+Deze hele procedure wordt verzorgd door Google Play Services (niet het Android-besturingssysteem), wat betekent dat Google deze op elk moment kan wijzigen, beperken of verwijderen zonder een OS-update en zonder toestemming van de gebruiker.
 
-Totdat Google een implementatie levert die onafhankelijk kan worden geverifieerd, blijft ons standpunt ongewijzigd: **alle** apps van niet-geregistreerde ontwikkelaars **zullen worden geblokkeerd** zodra de blokkade in 2027 van kracht wordt.
+Ons standpunt blijft ongewijzigd: **alle** apps van niet-geregistreerde ontwikkelaars **zullen worden geblokkeerd** zodra de blokkade in 2027 van kracht wordt.
 
 </div>
 
