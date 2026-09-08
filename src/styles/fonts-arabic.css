@@ -1,0 +1,15 @@
+/*!
+ * Arabic & Persian — Noto Naskh Arabic (headings) + IBM Plex Sans Arabic (body)
+ */
+@import '@fontsource/noto-naskh-arabic/400.css';
+@import '@fontsource/noto-naskh-arabic/600.css';
+@import '@fontsource/noto-naskh-arabic/700.css';
+@import '@fontsource/ibm-plex-sans-arabic/400.css';
+@import '@fontsource/ibm-plex-sans-arabic/500.css';
+@import '@fontsource/ibm-plex-sans-arabic/600.css';
+
+:root {
+  --font-display: 'Noto Naskh Arabic', 'IBM Plex Sans Arabic', serif;
+  --font-body: 'IBM Plex Sans Arabic', 'Noto Naskh Arabic', system-ui, sans-serif;
+  --font-sans: var(--font-body);
+}

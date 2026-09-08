@@ -85,16 +85,6 @@ site_privacy: >-
 # [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Copyright :** Aucun. Cette œuvre est publiée sous licence"
 # Note : copyright est plus adapté ici que droit d'auteur : il n'nest pas possible de pas avoir de droits d'auteurs associés à une œuvre, cf. la WTFPL.
-# [en] contact_header: "Contact"
-contact_header: "Contact"
-# [en] contact_email: "Email"
-contact_email: "Email"
-# [en] site_problems_header: "Problems"
-site_problems_header: "Problèmes"
-# [en] site_report_issues: "Report Site Issues"
-site_report_issues: "Signaler un problème sur le site"
-# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
-open_letter_cta: "Lisez notre lettre ouverte contre le programme de vérification des développeurs Android"
 # [en] footer_get_involved: "Get involved"
 footer_get_involved: "Participez"
 # [en] footer_take_action: "Take action & resources"
@@ -109,8 +99,6 @@ footer_sign_petition: "Signer la pétition"
 footer_contact: "Contact"
 # [en] footer_report_issues: "Report site issues"
 footer_report_issues: "Signaler un problème"
-# [en] footer_translations: "Translations"
-footer_translations: "Traductions"
 # [en] footer_help_translate: "Help translate"
 footer_help_translate: "Aider à traduire"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
@@ -270,8 +258,6 @@ cta_letter_desc: "Lire la lettre ouverte signée par des organisations opposées
 # [en] closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
 closing_detail: >-
   Cela ne devrait pas nécessiter une procédure en 9 étapes, une attente de 24 heures et l'autorisation permanente de Google.
-# [en] footer_languages: "English (+ 30 languages)"
-footer_languages: "English (+ 30 langages)"
 
 #
 # ============================================================================
@@ -285,6 +271,26 @@ footer_languages: "English (+ 30 langages)"
 # Meta
 
 # Hero
+
+# On-page table of contents
+# [en] toc_heading: "On this page"
+toc_heading: "Sur cette page"
+# [en] toc_what: "What is changing"
+toc_what: "Ce qui change"
+# [en] toc_impact: "Who this affects"
+toc_impact: "Qui est concerné"
+# [en] toc_flow: "The workaround"
+toc_flow: "Le contournement"
+# [en] toc_precedent: "This is bigger than Android"
+toc_precedent: "Ça dépasse Android"
+# [en] toc_objections: "Common questions"
+toc_objections: "Questions fréquentes"
+# [en] toc_act: "What you can do"
+toc_act: "Ce que vous pouvez faire"
+# [en] toc_signatories: "All those opposed…"
+toc_signatories: "Ils et elles sont contre…"
+# [en] toc_voices: "What they're saying"
+toc_voices: "Ce qu'ils en disent"
 
 # What Google is doing
 
@@ -316,8 +322,6 @@ signatories_more: "Lire la lettre ouverte et remercier les signataires"
 # CTA banners
 
 # Closing
-# [en] closing_share_heading: "Spread the word"
-closing_share_heading: "Faites passer le message"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 social_callout_x_1: "A partir de 2027, Google va bloquer toutes les apps Android dont le développeur ne se sera pas enregistré et prouvé son identité. Cela concerne tous les appareils Android à travers le monde. En savoir plus: {url} @AlteredDeal #KeepAndroidOpen"

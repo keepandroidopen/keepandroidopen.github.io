@@ -1,0 +1,78 @@
+/*!
+ * Keep Android Open — design tokens (all locales)
+ */
+:root {
+  --kao-accent: #b42318;
+  --kao-accent-contrast: #fff;
+  --kao-accent-muted: rgba(180, 35, 24, 0.12);
+  --kao-surface: #faf8f5;
+  --kao-surface-raised: #f3f0eb;
+  --kao-border: rgba(60, 48, 40, 0.14);
+  --kao-text: #2a2522;
+  --kao-text-muted: #5c534c;
+  --kao-focus: #8f1c13;
+  --kao-content-width: 50rem;
+  --kao-shell-width: 54rem;
+  --kao-gutter: clamp(1rem, 3vw, 2rem);
+  --font-display: Georgia, 'Times New Roman', serif;
+  --font-body: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-sans: var(--font-body);
+}
+
+[data-theme='dark'] {
+  --kao-accent: #e07070;
+  --kao-accent-contrast: #1a1816;
+  --kao-accent-muted: rgba(224, 112, 112, 0.14);
+  --kao-surface: #1a1816;
+  --kao-surface-raised: #242120;
+  --kao-border: rgba(240, 232, 224, 0.12);
+  --kao-text: #f0ebe6;
+  --kao-text-muted: #a89f96;
+  --kao-focus: #f09a96;
+}
+
+html {
+  --pico-font-family: var(--font-body);
+  --pico-background-color: var(--kao-surface);
+  --pico-color: var(--kao-text);
+  --pico-muted-color: var(--kao-text-muted);
+  --pico-muted-border-color: var(--kao-border);
+}
+
+html[data-theme='dark'] {
+  --pico-color: #f0ebe6;
+  --pico-muted-color: var(--kao-text-muted);
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--kao-text);
+  background-color: var(--kao-surface);
+}
+
+:where(a, button, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--kao-focus);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, .hero-lede, .closing-lede {
+  font-family: var(--font-display);
+}
+
+[dir='rtl'] .page-toc-heading,
+[dir='rtl'] .share-heading,
+[dir='rtl'] .voices-category,
+[dir='rtl'] .footer-col h4,
+[dir='rtl'] .sig-count {
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.fwd-arrow::after {
+  content: '\2192';
+  margin-inline-start: 0.25em;
+}
+
+[dir='rtl'] .fwd-arrow::after {
+  content: '\2190';
+}

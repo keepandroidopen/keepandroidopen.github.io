@@ -1,6 +1,12 @@
 ---
 import { languages, isRtl } from '../i18n/config';
-import ThemeToggle from '../components/ThemeToggle.astro';
+import { getFontProfile } from '../lib/fonts';
+import fontTokens from '../styles/fonts.css?url';
+import fontLatin from '../styles/fonts-latin.css?url';
+import fontArabic from '../styles/fonts-arabic.css?url';
+import fontHebrew from '../styles/fonts-hebrew.css?url';
+import fontCjk from '../styles/fonts-cjk.css?url';
+import fontIndic from '../styles/fonts-indic.css?url';
 
 interface Props {
   title: string;
@@ -15,6 +21,14 @@ const {
 } = Astro.props;
 
 const dir = isRtl(lang) ? "rtl" : "ltr";
+const fontProfile = getFontProfile(lang);
+const fontBundles: Record<string, string> = {
+  latin: fontLatin,
+  arabic: fontArabic,
+  hebrew: fontHebrew,
+  cjk: fontCjk,
+  indic: fontIndic,
+};
 ---
 <!DOCTYPE html>
 <html lang={lang} dir={dir}>
@@ -30,6 +44,8 @@ const dir = isRtl(lang) ? "rtl" : "ltr";
   <meta property="og:type" content="website">
   <link rel="me" href="https://techhub.social/@keepandroidopen">
   <link rel="stylesheet" href="/css/pico.min.css">
+  <link rel="stylesheet" href={fontTokens} />
+  <link rel="stylesheet" href={fontBundles[fontProfile]} />
 
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"> -->
   <style is:global>
@@ -41,34 +57,40 @@ const dir = isRtl(lang) ? "rtl" : "ltr";
    */
 
     main {
-      max-width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 2em;
+      max-width: min(72rem, 100%);
+      margin-inline: auto;
+      padding: 2rem 1.5rem;
+    }
+
+    main.landing-main {
+      max-width: min(var(--kao-shell-width, 54rem), 100%);
+      padding-block: 1.5rem 3rem;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 10000;
+      inset-block-start: 0.75rem;
+      inset-inline-start: 0.75rem;
+      padding: 0.65rem 0.9rem;
+      border-radius: 0.45rem;
+      background: var(--kao-surface, #fff);
+      color: var(--pico-color);
+      border: 2px solid var(--kao-focus, currentColor);
+      transform: translateY(-200%);
+      transition: transform 0.15s ease;
+    }
+
+    .skip-link:focus-visible {
+      transform: translateY(0);
+    }
+
+    .skip-link:focus:not(:focus-visible) {
+      transform: translateY(-200%);
     }
     
     h1 {
-      /* font-size: 46px; */
-      /* font-weight: 600; */
-      /* color: #2c3e50; */
-      /* margin: 0; */
-      /* display: flex; */
-      align-items: center;
-      gap: 20px;
-      text-align: center;
-      /* margin-left: auto; */
-      /* margin-right: auto; */
-    }
-
-    h1::before,
-    h1::after {
-      content: '';
-      flex: 1;
-      height: 2px;
-      background: linear-gradient(90deg, transparent, #3498db, transparent);
-      max-width: 100px;
-      margin-left: auto;
-      margin-right: auto;
+      text-align: start;
     }
 
     .outerlync {
@@ -134,7 +156,6 @@ const dir = isRtl(lang) ? "rtl" : "ltr";
       align-items: center;
       vertical-align: middle;
       background-repeat: no-repeat;
-      background-position: left center;
       padding-inline-start: 2em;
       line-height: 1.5;
       content: "➤ ";
@@ -355,25 +376,40 @@ const dir = isRtl(lang) ? "rtl" : "ltr";
       display: none;
     }
 
+    details > summary::after {
+      content: none !important;
+      background: none !important;
+    }
+
     details > summary > h4 {
       display: inline;
     }
 
     details > summary::before {
       content: '▸';
-      font-size: 1.5em;
+      font-size: 1.25em;
       display: inline-block;
       margin-inline-end: 0.4em;
       transition: transform 0.2s ease;
+      vertical-align: middle;
     }
 
     details[open] > summary::before {
       transform: rotate(90deg);
     }
 
+    [dir="rtl"] details > summary::before {
+      transform: scaleX(-1);
+    }
+
+    [dir="rtl"] details[open] > summary::before {
+      transform: scaleX(-1) rotate(-90deg);
+    }
+
   </style>
 </head>
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <slot />
   <script is:inline>
     /**

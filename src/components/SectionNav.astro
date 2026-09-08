@@ -1,0 +1,95 @@
+---
+interface SectionItem {
+  href: string;
+  label: string;
+}
+
+interface Props {
+  label: string;
+  items: SectionItem[];
+  variant: 'rail' | 'mobile';
+}
+
+const { label, items, variant } = Astro.props;
+const headingId = `section-nav-${variant}-heading`;
+---
+
+{variant === 'rail' ? (
+  <aside class="section-nav-rail" aria-labelledby={headingId}>
+    <nav class="section-nav" aria-labelledby={headingId}>
+      <p id={headingId} class="section-nav-heading" set:html={label} />
+      <ol class="section-nav-list">
+        {items.map((item) => (
+          <li><a href={item.href} set:html={item.label} /></li>
+        ))}
+      </ol>
+    </nav>
+  </aside>
+) : (
+  <details class="section-nav-mobile">
+    <summary id={headingId} set:html={label} />
+    <nav class="section-nav" aria-labelledby={headingId}>
+      <ol class="section-nav-list">
+        {items.map((item) => (
+          <li><a href={item.href} set:html={item.label} /></li>
+        ))}
+      </ol>
+    </nav>
+  </details>
+)}
+
+<script is:inline>
+  (function() {
+    function initSectionNav() {
+      if (window.__kaoSectionNav) return;
+      window.__kaoSectionNav = true;
+
+      var links = Array.from(document.querySelectorAll('.section-nav a[href^="#"]'));
+      var sections = links
+        .map(function(link) { return document.querySelector(link.getAttribute('href')); })
+        .filter(function(section, index, all) { return section && all.indexOf(section) === index; });
+
+      function setCurrent(id) {
+        links.forEach(function(link) {
+          if (link.getAttribute('href') === '#' + id) {
+            link.setAttribute('aria-current', 'location');
+          } else {
+            link.removeAttribute('aria-current');
+          }
+        });
+      }
+
+      links.forEach(function(link) {
+        link.addEventListener('click', function() {
+          var details = link.closest('.section-nav-mobile');
+          if (details) details.open = false;
+        });
+      });
+
+      if (!('IntersectionObserver' in window) || sections.length === 0) return;
+
+      var visible = new Map();
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) visible.set(entry.target.id, entry.boundingClientRect.top);
+          else visible.delete(entry.target.id);
+        });
+
+        if (visible.size > 0) {
+          var current = Array.from(visible.entries()).sort(function(a, b) {
+            return Math.abs(a[1]) - Math.abs(b[1]);
+          })[0];
+          setCurrent(current[0]);
+        }
+      }, { rootMargin: '-15% 0px -70% 0px', threshold: 0 });
+
+      sections.forEach(function(section) { observer.observe(section); });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initSectionNav, { once: true });
+    } else {
+      initSectionNav();
+    }
+  })();
+</script>

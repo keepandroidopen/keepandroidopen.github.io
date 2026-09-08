@@ -1,8 +1,8 @@
-<button id="theme-toggle" aria-label="Toggle theme" title="Toggle theme">
-  <svg id="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+<button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle theme" title="Toggle theme" aria-pressed="false">
+  <svg data-theme-icon="moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
   </svg>
-  <svg id="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun" style="display: none;">
+  <svg data-theme-icon="sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" hidden>
     <circle cx="12" cy="12" r="5"></circle>
     <line x1="12" y1="1" x2="12" y2="3"></line>
     <line x1="12" y1="21" x2="12" y2="23"></line>
@@ -22,16 +22,45 @@
    * Copyright 2025-2026 Keep Android Open Contributors
    * SPDX-License-Identifier: Apache-2.0
    */
-  #theme-toggle {
-    color: var(--pico-text);
-    background: none;
-    border: none;
+  .theme-toggle {
+    --pico-background-color: transparent;
+    --pico-border-color: var(--pico-muted-border-color);
+    --pico-color: var(--kao-text);
+    --pico-box-shadow: none;
+    display: inline-grid;
+    place-items: center;
+    width: 2.75rem;
+    min-width: 2.75rem;
+    height: 2.75rem;
+    margin: 0;
+    padding: 0;
+    color: var(--kao-text) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--pico-muted-border-color) !important;
+    border-radius: 0.55rem;
     cursor: pointer;
-    padding: 0.5rem;
-    transition: all 0.3s ease;
+    transition: background-color 0.2s, border-color 0.2s, color 0.2s;
   }
-  #theme-toggle:hover {
-    opacity: 0.8;
+
+  .theme-toggle:hover,
+  .theme-toggle:active,
+  .theme-toggle:focus {
+    --pico-background-color: var(--kao-accent-muted);
+    --pico-border-color: var(--kao-accent);
+    --pico-color: var(--kao-accent);
+    color: var(--kao-accent) !important;
+    background-color: var(--kao-accent-muted) !important;
+    border-color: var(--kao-accent) !important;
+  }
+
+  .theme-toggle:focus-visible {
+    outline: 2px solid var(--kao-focus);
+    outline-offset: 3px;
+    box-shadow: none;
+  }
+
+  .theme-toggle svg[hidden] {
+    display: none;
   }
 </style>
 
@@ -42,42 +71,37 @@
    * Copyright 2025–2026 Keep Android Open Contributors
    * SPDX-License-Identifier: Apache-2.0
    */
-  const themeToggle = document.getElementById('theme-toggle');
   const htmlElement = document.documentElement;
-  const moonIcon = document.getElementById('moon-icon');
-  const sunIcon = document.getElementById('sun-icon');
 
   const getSavedTheme = () => localStorage.getItem('theme');
   const getPreferredTheme = () => window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 
-  const setThemeIcons = (theme) => {
-    if (theme === 'dark') {
-      moonIcon.style.display = 'block';
-      sunIcon.style.display = 'none';
-    } else {
-      moonIcon.style.display = 'none';
-      sunIcon.style.display = 'block';
-    }
+  const setThemeControl = (button, theme) => {
+    const isDark = theme === 'dark';
+    const moonIcon = button.querySelector('[data-theme-icon="moon"]');
+    const sunIcon = button.querySelector('[data-theme-icon="sun"]');
+    moonIcon.toggleAttribute('hidden', !isDark);
+    sunIcon.toggleAttribute('hidden', isDark);
+    button.setAttribute('aria-pressed', String(isDark));
+    button.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+    button.setAttribute('title', isDark ? 'Switch to light theme' : 'Switch to dark theme');
   };
 
   const applyTheme = (theme) => {
-    if (theme === 'dark') {
-      htmlElement.setAttribute('data-theme', 'dark');
-    } else {
-      htmlElement.setAttribute('data-theme', 'light');
-    }
+    htmlElement.setAttribute('data-theme', theme === 'dark' ? 'dark' : 'light');
     localStorage.setItem('theme', theme);
-    setThemeIcons(theme);
+    document.querySelectorAll('[data-theme-toggle]').forEach((button) => setThemeControl(button, theme));
   };
 
   // Set theme on initial load
   const initialTheme = getSavedTheme() || getPreferredTheme();
   applyTheme(initialTheme);
 
-  themeToggle.addEventListener('click', () => {
-    const currentTheme = htmlElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    applyTheme(newTheme);
+  document.querySelectorAll('[data-theme-toggle]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const currentTheme = htmlElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
+    });
   });
   // @license-end
 </script>

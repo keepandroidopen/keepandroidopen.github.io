@@ -1,0 +1,13 @@
+/*!
+ * Thai, Hindi, Bengali — system stacks with Noto fallbacks where installed
+ */
+:root {
+  --font-display: 'Noto Sans Thai', 'Noto Sans Devanagari', 'Noto Sans Bengali',
+    system-ui, sans-serif;
+  --font-body: var(--font-display);
+  --font-sans: var(--font-body);
+}
+
+html:lang(th), html:lang(hi), html:lang(bn) {
+  letter-spacing: normal;
+}
