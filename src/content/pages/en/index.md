@@ -85,7 +85,36 @@ If you are a Google employee or contractor of good conscience and have additiona
 - Combat astroturfing: when you encounter suspect posts on community forums and social media in support of the policy (“Well, actually…”), challenge them and do not be shy.
 - Help this project out by [editing this page](https://github.com/keepandroidopen/keepandroidopen.github.io/blob/main/src/content/pages/en/index.md) with more useful information.
 - [Sign this change.org petition](https://www.change.org/p/stop-google-from-limiting-apk-file-usage/)
+- 
 
+
+## Technical and Security Concerns
+
+The developer verification system introduces several technical risks that undermine Android’s existing security model:
+
+- **Private signing key exposure risks**  
+  Android’s security model relies on developers keeping their signing keys secret. Any system requiring proof or artifacts related to those keys creates additional attack surfaces and potential compromise scenarios.
+
+- **Centralized control over software distribution**  
+  A single authority determining which applications may run on certified devices creates a systemic risk. Infrastructure failures, policy changes, or abuse could instantly disable entire categories of software.
+
+- **Reduced resilience of the ecosystem**  
+  Android’s strength historically came from decentralized development and distribution. Removing that property weakens innovation and resilience.
+
+
+
+  ## Impact on Open Source
+
+Many open-source Android applications are developed by volunteers who do not operate commercial developer accounts.
+
+Mandatory identity verification, fees, and registration requirements create barriers that discourage:
+
+- volunteer contributors
+- experimental software
+- research tools
+- privacy-preserving applications
+
+Historically, Android’s openness enabled small developers to build software without needing permission from a central authority. This policy risks eliminating that environment.
 ### Web Site Owners: Show your support {#webmasters}
 
 [Add the countdown banner to your site](/banner) with a single `<script>` tag — no dependencies, 20 built-in localizations, fully customizable.
