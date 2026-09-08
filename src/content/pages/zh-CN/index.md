@@ -76,6 +76,7 @@ open_letter_cta: "阅读我们反对安卓开发者验证计划的公开信"
 ### 所有人: 发出自己的声音！ {#everyone}
 
 - 在您的Android设备上[安装F-Droid](https://f-droid.org)。只要越多人使用其他替代的应用市场，就越难将其摒弃。
+- 由于F-Droid在中国的传输速度极其缓慢，您可配置[国内的镜像源](https://ruyue713.github.io/fdroid-mirrors-list/)以提速
 - 使用[Android 开发者验证要求调查](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1)直接向Google反馈意见。
 - 在社交媒体和博客文章上发出您的声音，并链接到<https://keepandroidopen.org>
 - 对线网络水军：当您在社区论坛和社交媒体上遇到支持该政策的可疑帖子(“其实吧……”)，不妨以理据争，无所顾忌。
