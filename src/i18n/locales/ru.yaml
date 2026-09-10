@@ -40,7 +40,7 @@ description: "В защиту Android как свободной и открыт�
 # [en] contact_header: "Contact"
 contact_header: "Контакты"
 # [en] contact_email: "Email"
-contact_email: "Email"
+contact_email: "Эл. почта"
 # [en] site_problems_header: "Problems"
 site_problems_header: "Проблемы"
 # [en] site_report_issues: "Report Site Issues"
@@ -188,29 +188,29 @@ objections_heading: "Но подождите, разве это не..."
 obj_security_q: "\"...о безопасности?\""
 # [en] obj_security_a: "The security rationale is a smokescreen. Google Play Protect already scans for malware independent of developer identity. Requiring a government ID doesn't make code safer. It makes *developers* identifiable and controllable. Malware authors can register. Indie developers and dissidents often can't. The [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) is blunt: identity-based gatekeeping is a censorship tool, not a security one."
 obj_security_a: >-
-  Основание безопасности - это просто попытка скрыть правду. Google Play Protect уже сканирует вирусы независимо от разработчика. Требование паспорта не делает код безопаснее. Это делает *разработчиков*
+  Основание безопасности - это просто попытка скрыть правду. Google Play Защита уже сканирует приложения на вирусы независимо от разработчика. Требование паспорта не делает код безопаснее. Это делает *разработчиков*
   идентифицируемыми и контролируемыми. Авторы вирусов тоже могут зарегистрироваться. Инди разработчики или диссиденты - часто не могут.
   [EFF](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) говорит прямо - контроль доступа по личности это инструмент
   контроля, а не безопасности.
 # [en] obj_sideloading_q: "\"...still sideloading if you use the advanced flow?\""
-obj_sideloading_q: "\"...все еще доступен sideloading если вы продвинутый пользователь?\""
+obj_sideloading_q: "\"...все еще доступен обход ограничений, если вы продвинутый пользователь?\""
 # [en] obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
 obj_sideloading_a: >-
   Девять шагов, 24-часовое ожидание, закопанное в настройках разработчика, предоставленное через проприетарный сервис, который Google может отключить когда они хотят. Это не sideloading.
-  Это механизм сдерживания, построенный для того, чтобы убедиться что никто не может пройти его. И когда он работает через сервисы Google Play, а не операционную систему,
-  Google может незаметно затянуть или выключить это.
+  Это механизм сдерживания, построенный для того, чтобы убедиться, что никто не сможет пройти его. И когда он работает через сервисы Google Play, а не операционную систему,
+  Google может незаметно затянуть или выключить эту функцию.
 # [en] obj_hide_q: "\"...only a problem if you have something to hide?\""
 obj_hide_q: "\"...проблема только если у вас есть что скрывать?\""
 # [en] obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
 obj_hide_a: >-
   Информаторы, журналисты и активисты в авторитарных правительствах будут первыми жертвами. Люди, оказавшиеся в ситуациях домашнего насилия будут следующими. Все эти группы имеют законные причины
   использовать или распространять программное обеспечение без отправки их правовой идентичности в базу данных Google. Анонимные вклады в проекты с открытым исходным кодом это традиция,
-  которая старше чем сама Google. Эта политика больше не работает в Android.
+  которая старше чем сама Google. Эта политика перестанет работать в Android.
 # [en] obj_apple_q: "\"...the same thing Apple does?\""
 obj_apple_q: "\"...то же самое, что делает Apple?\""
 # [en] obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
 obj_apple_a: >-
-  Apple была "ограниченным садом" с первого дня. Люди выбирали Android *потому что* он отличается. "Apple делает то же самое" - это гонка к низу и слабый аргумент *tu quoque*.
+  Apple была "закрытым садом" с первого дня. Люди выбирали Android *потому что* он отличается. "Apple делает то же самое" - это гонка к низу и слабый аргумент *tu quoque*.
   И под давлением регуляций (EU Digital Markets Act), даже Apple заставили открыться. Google двигается в противоположном направлении - попытка еще больше укрепить свой статус
   контролирующего.
 # [en] obj_cost_q: "\"...just $25 and some paperwork?\""
@@ -277,7 +277,7 @@ voices_editorials: "Редакции и аналитика"
 # [en] voices_orgs: "Organizations & open letters"
 voices_orgs: "Организации и открытые обращения"
 # [en] voices_creators: "YouTubers & creators"
-voices_creators: "Контент-мейкеры"
+voices_creators: "Ютуберы и создатели контента"
 # [en] voices_community: "Developers & community"
 voices_community: "Разработчики и сообщество"
 # [en] voices_petition: "Voices from the petition"
