@@ -71,7 +71,7 @@ hero_lede: "Twój telefon wkrótce przestanie być twój."
 # [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "dni do zamknięcia systemu"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
-hero_sub: "Z początkiem 2027[*](FAQ_URL) roku, cicha aktualizacja wymuszona przez Google bez zgody użytkowników, **zablokuje każdą aplikację na Androida** której twórca nie zarejestrował się w Google, nie podpisał umowy, nie zapłacił i nie przakazał danych z dowodu tożsamości."
+hero_sub: "Z początkiem 2027[*](FAQ_URL) roku, cicha aktualizacja wymuszona przez Google bez zgody użytkowników, **zablokuje każdą aplikację na Androida** której twórca nie zarejestrował się w Google, nie podpisał umowy, nie zapłacił i nie przekazał danych z dowodu tożsamości."
 # [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Każda aplikacja i każde urządzenie na całym świecie, bez możliwości rezygnacji."
 
