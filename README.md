@@ -14,6 +14,13 @@ It aims to inform on the impacts on consumers, developers, states and coordinate
 3. Make the changes.
 4. Create a pull request.
 
+## Adding the Banner to Your Sites and Repos
+
+If your project is affected by the upcoming Android installation restrictions, you can help raise awareness by adding a banner.
+
+- **Websites** — [Add the countdown banner](https://keepandroidopen.org/banner)
+- **READMEs** — [Add a markdown callout](https://keepandroidopen.org/readme-callout)
+
 ## Running the site locally
 
 This is an Astro site, so you should be able to check out your fork locally and run it as per the [docs](https://docs.astro.build/en/develop-and-build/#start-the-astro-dev-server) with:
