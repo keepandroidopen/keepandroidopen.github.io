@@ -150,8 +150,40 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
         </ol>
         <p set:html={t.flow_summary} />
         <p set:html={t.flow_detail} />
+        <p style="text-align: center; margin-top: 1.5rem;">
+          <a href="#protect-device" class="protect-cta-btn">Protect your device now &rarr;</a>
+        </p>
       </div>
     </section>
+
+    <!-- How to protect your phone -->
+    {t.protect_heading && (
+      <section id="protect-device" class="protect-section">
+        <div class="protect-card">
+          {t.protect_badge && <span class="protect-badge" set:html={t.protect_badge} />}
+          <h2 set:html={t.protect_heading} />
+          {t.protect_lead && <p class="protect-lead" set:html={t.protect_lead} />}
+          <div class="protect-grid">
+            <div class="protect-step-box">
+              <h3><span class="protect-step-num">1</span> <span set:html={t.protect_step1_title} /></h3>
+              <ul>
+                <li set:html={t.protect_step1_shizuku} />
+                <li set:html={t.protect_step1_canta} />
+                <li set:html={t.protect_step1_uninstall} />
+              </ul>
+            </div>
+            <div class="protect-step-box">
+              <h3><span class="protect-step-num">2</span> <span set:html={t.protect_step2_title} /></h3>
+              <ul>
+                <li set:html={t.protect_step2_why} />
+                <li set:html={t.protect_step2_install} />
+                <li set:html={t.protect_step2_how} />
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    )}
 
     <!-- Why you should care -->
     <section id="precedent" class="precedent-section">
@@ -175,6 +207,18 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
     <!-- What you can do -->
     <section id="act" class="action-section">
       <h2 id="help" set:html={t.act_heading} />
+      {t.act_protect_heading && (
+        <div class="action-block action-protect-block">
+          {t.act_protect_badge && <span class="protect-badge" set:html={t.act_protect_badge} />}
+          <h3 id="protect-summary" set:html={t.act_protect_heading} />
+          {t.act_protect_notice && <p class="callout-protect-notice" set:html={t.act_protect_notice} />}
+          {t.act_protect_intro && <p set:html={t.act_protect_intro} />}
+          <ol class="protect-steps">
+            <li set:html={t.act_protect_canta} />
+            <li set:html={t.act_protect_placeholder} />
+          </ol>
+        </div>
+      )}
       <div class="action-block">
         <h3 id="everyone" set:html={t.act_everyone_heading} />
         <ul>
