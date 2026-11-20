@@ -57,6 +57,26 @@ flow_summary: "Nine steps. A mandatory 24-hour cooling-off period. *For installi
 flow_detail: >-
   Worse: this flow runs entirely through **Google Play Services**, not the Android OS. Google can change it, tighten it, or kill it at any time, with no OS update required and no consent needed.
 
+# How to protect your device section
+protect_badge: "Action for Device Owners"
+protect_heading: "Protect your phone: Remove the Android Developer Verifier"
+protect_lead: >-
+  You do not have to accept Google's lockdown. The coming restrictions are enforced by a specific background package called the Android Device Verifier (`com.google.android.verifier`). You do **not** need root to remove this package and permanently prevent Google from reinstalling it:
+protect_step1_title: "Step 1: Uninstall the verifier with Canta"
+protect_step1_shizuku: >-
+  **Set up Shizuku:** Install [Shizuku](https://shizuku.rikka.app/) and start it using Wireless Debugging (in Developer Options on Android 11+) or via a one-time ADB command from a computer. No root required.
+protect_step1_canta: >-
+  **Install Canta:** Download [Canta](https://github.com/samolego/Canta), an open-source debloater that uses elevated Shizuku permissions to safely uninstall system packages.
+protect_step1_uninstall: >-
+  **Uninstall the package:** Open Canta, search for `com.google.android.verifier`, select it, and tap **Uninstall**.
+protect_step2_title: "Step 2: Permanently block reinstallation"
+protect_step2_why: >-
+  **Why this step is critical:** Uninstalling a system app via ADB or Shizuku only removes it for the current user. Google Play Services and silent background updates will attempt to reinstall `com.google.android.verifier` over time.
+protect_step2_install: >-
+  **Install the placeholder APK:** Download and install the open-source [developer-verifier-placeholder](https://github.com/daboynb/developer-verifier-placeholder) APK.
+protect_step2_how: >-
+  **How it protects you:** The placeholder is a benign, empty app registered under `com.google.android.verifier`. Android's package manager strictly forbids installing updates with mismatched cryptographic signatures. Because Google does not hold the private key used to sign the placeholder, **your phone will permanently reject any attempt by Google Play Services or system updates to reinstall the real verifier.**
+
 # Precedent
 precedent_heading: "This is bigger than Android"
 precedent_pullquote: "If Google can retroactively lock down billions of devices that were sold as open platforms, every hardware manufacturer on the planet is watching."
@@ -102,6 +122,15 @@ act_letter: >-
   **[Read and share our open letter](/open-letter)**
 act_survey: >-
   **Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>.
+act_protect_badge: "Immediate Action for Device Owners"
+act_protect_heading: "Protect your phone: Remove the Developer Verifier"
+act_protect_notice: "Do not wait for Google to restrict your device — take action now to preserve your software freedom."
+act_protect_intro: >-
+  Google enforces the developer verification lockdown through a specific system component: the Android Device Verifier (`com.google.android.verifier`). You do **not** need root to permanently remove it and prevent it from being reinstalled:
+act_protect_canta: >-
+  **1. Uninstall the verifier with Canta:** Install [Shizuku](https://shizuku.rikka.app/) (runs via wireless debugging without root) and [Canta](https://github.com/samolego/Canta), then search for `com.google.android.verifier` and uninstall it.
+act_protect_placeholder: >-
+  **2. Permanently block reinstallation:** Install the [developer-verifier-placeholder](https://github.com/daboynb/developer-verifier-placeholder) stub APK. Because Android prevents signature mismatches on package updates, this placeholder permanently stops Google Play Services from silently reinstalling the verifier.
 act_dev_heading: "Developers"
 act_dev_intro: >-
   <strong style="text-transform: uppercase;">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*
@@ -242,3 +271,6 @@ faq_a_datechange: >-
   users is not yet published. We will keep this page updated with any new timeline
   details that we are given. For more details, see
   [Google's developer verification FAQ](https://developer.android.com/developer-verification/guides/faq#general).
+faq_q_remove_verifier: "How do I remove the developer verifier app (com.google.android.verifier) from my phone?"
+faq_a_remove_verifier: >-
+  Google relies on the developer verifier app (`com.google.android.verifier`) to enforce its developer verification lockdown. You can remove it from your phone without root access: first, use [Canta](https://github.com/samolego/Canta) (with Shizuku) to uninstall `com.google.android.verifier`. Next, install the open-source [developer-verifier-placeholder](https://github.com/daboynb/developer-verifier-placeholder) APK. Because Android requires matching cryptographic signatures for package updates, this placeholder permanently occupies the package name and blocks Google Play Services or system updates from silently reinstalling the verifier.

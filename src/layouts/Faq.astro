@@ -24,7 +24,7 @@ const { locale } = Astro.props;
 const t = getLandingStrings(locale);
 
 // Ordered list of FAQ entries. Add a slug to grow the FAQ.
-const faqSlugs = ['datechange'];
+const faqSlugs = ['datechange', 'remove_verifier'];
 const faqItems = faqSlugs
   .map((slug) => ({ slug, q: t[`faq_q_${slug}`], a: t[`faq_a_${slug}`] }))
   .filter((item) => item.q && item.a);
