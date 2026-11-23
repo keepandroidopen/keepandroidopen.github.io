@@ -155,7 +155,7 @@ impact_you_p1: "קנית טלפון עם אנדרואיד בגלל ש־Google ה
 # impact_gov_p2: "The [EFF calls](https://www.eff.org/deeplinks/2025/11/application-gatekeeping-ever-expanding-pathway-internet-censorship) app gatekeeping \"an ever-expanding pathway to internet censorship.\""
 
 # Advanced flow
-# flow_heading: "Google's \"escape hatch\" is a trap door"
+flow_heading: "„שיטת המעקף” שהוצעה על ידי Google היא מלכודת"
 # flow_intro: "Google says \"power users\" can [\"still install\"](https://android-developers.googleblog.com/2026/03/android-developer-verification.html) unverified apps. Here's what that *actually* looks like:"
 flow_step2: "הקשה על מספר גרסת הבנייה **שבע פעמים** להפעלת מצב המפתחים"
 flow_step3: "סגירת מסכי הפחדה בנוגע לסחיטה"
@@ -179,13 +179,13 @@ precedent_heading: "זה מעבר לאנדרואיד"
 # obj_sideloading_a: "Nine steps, 24-hour wait, buried in Developer Options, delivered through a proprietary service that Google can revoke whenever they want. That's not sideloading. That's a **deterrence mechanism** built to ensure almost nobody completes it. And since it runs through Play Services rather than the OS, Google can tighten or kill it silently."
 # obj_hide_q: "\"...only a problem if you have something to hide?\""
 # obj_hide_a: "Whistleblowers, journalists, and activists under authoritarian governments will be the first victims. People in domestic abuse situations are next. All these groups have legitimate reasons to distribute or use software without putting their legal identity in a Google database. Anonymous open-source contribution is a tradition older than Google itself. This policy ends it on Android."
-# obj_apple_q: "\"...the same thing Apple does?\""
+obj_apple_q: "\"...בדיוק מה ש־Apple עושה?\""
 # obj_apple_a: "Apple has been a walled garden from day one. People chose Android *because it was different*. \"Apple does it too\" is a race to the bottom and a weak *tu quoque* argument. And under regulatory pressure (the EU's Digital Markets Act), even Apple is being forced to open up. Google is moving in the opposite direction: attempting to further entrench its gatekeeping status."
 obj_cost_q: "\"...רק תשלום של $25 וקצת ניירת?\""
 # obj_cost_a: "Maybe, if you're a developer in the US with a credit card and a driver's license. Try being a student in sub-Saharan Africa, or a dissident in Myanmar, or a volunteer maintaining a community health app. The cost isn't only financial: you're surrendering government ID and evidence of your signing keys to a company that [routinely complies](https://www.theregister.com/2025/08/26/android_developer_verification_sideloading/) with government demands to remove apps and expose developers."
 
 # Fight back
-# act_fdroid: "**[Install F-Droid](https://f-droid.org)** on every Android device you own. Alternative stores only survive if people actually use them."
+act_fdroid: "**[אפשר להתקין את F-Droid](https://f-droid.org)** על כל מכשיר אנדרואיד שברשותך. חנויות צד־שלישי יחזיקו מעמד רק אם ישתמשו בהן."
 # act_regulators: "**[Contact your regulators.](/cta/#consumers)** Regulators worldwide are genuinely concerned about monopolies and the centralization of power in the tech sector, and want to hear directly from individuals who are affected and concerned."
 # act_share: "**Share this page.** Link to [keepandroidopen.org](https://keepandroidopen.org) everywhere."
 # act_astroturf: "**Push back on astroturfers.** The \"well, actually...\" crowd is out in force. Don't let them set the narrative."
@@ -193,9 +193,9 @@ obj_cost_q: "\"...רק תשלום של $25 וקצת ניירת?\""
 # act_letter: "**[Read and share our open letter](/open-letter)**"
 # act_survey: "**Tell Google what you think of this** through their own [developer verification survey](https://docs.google.com/forms/d/e/1FAIpQLSfN3UQeNspQsZCO2ITkdzMxv81rJDEGGjO-UIDDY28Rz_GEVA/viewform?pli=1) <small>(for all the good that will do)</small>."
 # act_dev_intro: "<strong style=\"text-transform: uppercase;\">Do not sign up.</strong> Don't join the program by signing up for the Android Developer Console and agreeing to their irrevocable Terms and Conditions. Don't verify your identity. *Don't play ball.*"
-# act_dev_resist: "Google's plan only works if developers comply. Don't."
-# act_dev_talk: "Talk other developers and organizations out of signing up."
-# act_dev_warn: "Add the [FreeDroidWarn library](https://github.com/woheller69/FreeDroidWarn) to your apps to warn users."
+act_dev_resist: "התוכנית של Google תצליח רק אם המפתחים ישתפו פעולה. אל תעשו זאת."
+act_dev_talk: "אפשר לנסות לשכנע מפתחים אחרים וארגונים לא להירשםTalk other developers and organizations out of signing up."
+act_dev_warn: "אפשר להוסיף את [הספרייה FreeDroidWarn](https://github.com/woheller69/FreeDroidWarn) ליישומים שלך כדי להתריע על כך למשתמשים."
 act_dev_banner: "יש לך אתר? [אפשר להוסיף את באנר הספירה לאחור.](/banner)"
 # act_google_text: "If you know something about the program's technical implementation or internal rationale, contact [tips@keepandroidopen.org](mailto:tips@keepandroidopen.org) from a *non-work* machine and a *non-Gmail* account. Strict confidence guaranteed."
 
@@ -214,12 +214,12 @@ act_dev_banner: "יש לך אתר? [אפשר להוסיף את באנר הספי
 # CTA banners
 # cta_action_label: "Take Action"
 # cta_action_desc: "Full resource list, regulator contacts, links for every country, and how to fight back"
-# cta_letter_label: "Open Letter"
+cta_letter_label: "מכתב פתוח"
 # cta_letter_desc: "Read the open letter signed by organizations opposing developer verification"
 
 # Closing
-# closing_detail: "That shouldn't require a 9-step process, a 24-hour wait, and Google's ongoing permission."
-# closing_share_heading: "Spread the word"
+closing_detail: "הפעולה הזו לא אמור לדרוש תהליך בן תשעה שלבים, המתנה של 24 שעות, או בקשת רשות מתמשכת מ־Google."
+closing_share_heading: "מפיצים את השמועה"
 
 # Social share messages (rotated randomly; {url} is replaced at build time)
 # social_callout_x_1: "Starting September 2026, Google will block any Android app whose developer hasn't registered and provided government ID. This affects every Android device worldwide. Learn more: {url} @AlteredDeal #KeepAndroidOpen"
