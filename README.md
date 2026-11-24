@@ -16,9 +16,10 @@ It aims to inform on the impacts on consumers, developers, states and coordinate
 
 ## Running the site locally
 
-This is an Astro site, so you should be able to check out your fork locally and run it as per the [docs](https://docs.astro.build/en/develop-and-build/#start-the-astro-dev-server) with:
+This is an Astro site. After checking out your fork locally, install the dependencies and start the development server as described in the [docs](https://docs.astro.build/en/develop-and-build/#start-the-astro-dev-server):
 
-```
+```sh
+npm ci
 npm run dev
 ```
 
