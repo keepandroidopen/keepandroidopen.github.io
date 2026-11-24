@@ -84,9 +84,18 @@ const heroSub = t.hero_sub.replace('FAQ_URL', faqPath);
         <Fragment set:html={t.hero_lede} />
       </p>
       <div class="countdown-strip">
-        <span class="countdown-number">{daysLeft}</span>
+        <span class="countdown-number" data-deadline={deadline.toISOString()}>{daysLeft}</span>
         <span class="countdown-label" set:html={t.hero_countdown_label} />
       </div>
+      <script>
+        // The number above is computed at build time; refresh it in the browser
+        // so it doesn't go stale between deploys.
+        const el = document.querySelector<HTMLElement>('.countdown-number[data-deadline]');
+        if (el?.dataset.deadline) {
+          const ms = new Date(el.dataset.deadline).getTime() - Date.now();
+          el.textContent = String(Math.max(0, Math.ceil(ms / (1000 * 60 * 60 * 24))));
+        }
+      </script>
       <p class="hero-sub" set:html={heroSub} />
       <p class="hero-sub hero-kicker" set:html={t.hero_kicker} />
       <a href="#what" class="scroll-cue" aria-label="Read more">&#8595;</a>
